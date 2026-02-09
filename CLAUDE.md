@@ -11,6 +11,7 @@ A static portfolio site for an audit leader, DBA researcher, and AI governance s
 
 ```
 ├── index.html      # Landing / About page
+├── research.html   # Research areas, dissertation, technical toolkit
 ├── books.html      # 15 book recommendations across 5 categories
 ├── style.css       # Complete stylesheet (Instrument Serif + DM Sans)
 ├── img/            # Image assets folder (not yet created; referenced for collage.png)
@@ -18,14 +19,15 @@ A static portfolio site for an audit leader, DBA researcher, and AI governance s
 └── CLAUDE.md       # This file
 ```
 
-**Total size**: ~1,150 lines across 4 source files. There is no JavaScript.
+**Total size**: ~1,600 lines across 5 source files. There is no JavaScript (except a JSON-LD structured data block in index.html).
 
 ## Tech Stack
 
 - **HTML5** — semantic markup, inline SVG icons
 - **CSS3** — custom properties, flexbox, grid, animations
 - **Google Fonts** — Instrument Serif (display) + DM Sans (body), loaded via CSS `@import`
-- **No JavaScript, no build tools, no package manager, no frameworks**
+- **No runtime JavaScript** — only a JSON-LD `<script type="application/ld+json">` block for structured data (SEO)
+- **No build tools, no package manager, no frameworks**
 
 ## Design System
 
@@ -65,7 +67,12 @@ Single breakpoint at **640px** (`@media (max-width: 640px)`). Below that thresho
 - Organized in labeled sections: `/* ---- HEADER ---- */`, `/* ---- NAVIGATION ---- */`, etc.
 - BEM-influenced class naming (e.g., `.book-entry`, `.book-title`, `.book-author`)
 - All colors and fonts referenced through CSS variables
+- Shadow system: `--shadow-sm`, `--shadow-md`, `--shadow-lg` for consistent elevation
+- Shared `--radius: 10px` for border-radius consistency
 - Entry animation via `@keyframes fadeIn` with staggered delays (`0.1s`, `0.15s`, `0.2s`, etc.)
+- `::selection` styled with accent color tint
+- `:focus-visible` outline for keyboard accessibility
+- Print stylesheet hides nav/header, expands URLs inline, prevents page-break inside cards
 
 ### Book Entries (books.html)
 
@@ -91,6 +98,27 @@ Each book follows this exact structure:
 ```
 
 Books are grouped into 5 categories (`<section class="book-category">`), each with an `id` for anchor navigation: `audit-risk`, `leadership`, `ai-governance`, `finance`, `biography`.
+
+### Research Cards (research.html)
+
+Each research area uses this card structure:
+```html
+<div class="research-card">
+    <span class="research-label research-label--dissertation">Dissertation</span>
+    <h3>Card Title</h3>
+    <p class="research-meta">Institution · Context</p>
+    <p>Description with <strong>key phrases</strong> bolded.</p>
+    <ul>
+        <li>Bullet points</li>
+    </ul>
+</div>
+```
+
+Label modifiers: `--dissertation` (blue accent), `--interest` (muted gray).
+
+### Skills Grid (research.html)
+
+Uses a 2-column CSS Grid (`.skills-grid`) with `.skill-group` cards. Each group has an `<h3>` heading and a `<ul>` of skills with `·` bullet pseudo-elements.
 
 ## Adding New Pages
 
