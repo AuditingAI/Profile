@@ -3,100 +3,436 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yasir A. Malik</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Yasir A. Malik — Audit leader, DBA researcher, and AI governance strategist with 20+ years in global financial services.">
+    <meta name="description" content="Audit the Algorithm - AI governance consulting for financial services. Bias detection, drift prevention, and regulatory-ready AI frameworks.">
+    <meta name="keywords" content="AI governance, AI audit, bias detection, responsible AI, financial services, NIST AI RMF, SR 11-7, LLM risk">
+    <meta name="author" content="Yasir A. Malik">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Audit the Algorithm | AI Governance Consulting">
+    <meta property="og:description" content="Bias detection. Drift prevention. AI governance that's bankable.">
+    <meta property="og:image" content="assets/images/logo.png">
+    <meta property="og:url" content="https://auditingai.github.io">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Audit the Algorithm | AI Governance Consulting">
+    <meta name="twitter:description" content="Bias detection. Drift prevention. AI governance that's bankable.">
+    
+    <title>Audit the Algorithm | AI Governance Consulting</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
-    <div class="container">
-
-        <!-- Header -->
-        <header>
-            <h1 class="site-name">Yasir A. Malik</h1>
-            <p class="site-tagline">Audit · AI Governance · Risk Strategy</p>
-
-            <!-- Social Links (inline SVGs for zero-dependency) -->
-            <div class="social-links">
-                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener" title="Google Scholar">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM0.21 10L12 0l11.79 10H18v1a6.98 6.98 0 0 0-12 0v-1H0.21z"/></svg>
-                </a>
-                <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener" title="GitHub">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                </a>
-                <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener" title="LinkedIn">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                </a>
-                <a href="https://www.goodreads.com/user/show/YOUR_ID" target="_blank" rel="noopener" title="Goodreads">
-                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.43 23.995c-3.608-.208-6.274-2.077-7.926-5.371-.515-1.026-.872-2.142-1.065-3.34-.239-1.484-.16-2.944.213-4.373.553-2.118 1.632-3.9 3.28-5.305A8.564 8.564 0 0 1 11.508.2c1.627-.253 3.2-.098 4.69.561 1.468.649 2.6 1.676 3.395 3.08.025.044.05.089.095.17V.75h1.812v14.4c0 .972-.09 1.935-.347 2.876-.533 1.95-1.618 3.452-3.39 4.428-1.16.64-2.415.93-3.728.994-.1.005-.2.032-.3.048h-.805zm6.278-12.759c.032-.538.004-1.093-.08-1.644-.19-1.27-.618-2.44-1.378-3.465-1.14-1.539-2.639-2.35-4.526-2.368-1.174-.012-2.246.307-3.19.965-1.258.878-2.072 2.074-2.57 3.486-.382 1.082-.52 2.2-.481 3.345.05 1.425.36 2.79 1.075 4.044.878 1.544 2.12 2.584 3.808 2.973 1.088.25 2.168.206 3.21-.177 1.588-.585 2.672-1.677 3.378-3.2.497-1.072.738-2.21.754-3.96z"/></svg>
-                </a>
-            </div>
-        </header>
-
-        <hr class="divider">
-
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">About</a></li>
-                <li><a href="books.html">Books</a></li>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Audit the Algorithm">
+                <span class="logo-text">Audit <span>the</span> Algorithm</span>
+            </a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#credentials">Credentials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="nav-cta">Get Started</a></li>
             </ul>
-        </nav>
+            
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-        <!-- About Section -->
-        <section class="about-section">
-            <h2 class="section-heading">About Me</h2>
-
-            <p>
-                I'm an audit and risk executive with <strong>20+ years of experience</strong> across 
-                global financial institutions — including Citigroup, JPMorgan Chase, the OCC, 
-                and RBS — now focused on the intersection of <strong>AI governance, regulatory 
-                compliance, and organizational decision-making</strong>.
-            </p>
-
-            <div class="highlights">
-                <div class="highlight-item">
-                    <div class="highlight-number">20+</div>
-                    <div class="highlight-label">Years in Banking</div>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    AI Governance for Financial Services
                 </div>
-                <div class="highlight-item">
-                    <div class="highlight-number">3.87</div>
-                    <div class="highlight-label">DBA GPA (FIU)</div>
-                </div>
-                <div class="highlight-item">
-                    <div class="highlight-number">500+</div>
-                    <div class="highlight-label">Books Read</div>
+                
+                <h1>
+                    The Question<br>
+                    <span class="highlight">No One Else</span><br>
+                    Is Asking
+                </h1>
+                
+                <p class="hero-subtitle">
+                    How do you audit an AI that reasons, adapts, and might be telling you what you want to hear? We help banks and fintechs deploy AI that is compliant, auditable, and free from inherited cognitive biases.
+                </p>
+                
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <p>
-                I'm currently pursuing a <strong>Doctor of Business Administration</strong> at 
-                Florida International University, where my dissertation research examines 
-                how cognitive biases propagate through LLM-assisted audit judgments. My work 
-                bridges practitioner experience with academic rigor — I've led cross-enterprise 
-                audits across technology, compliance, and operations, and built a RAG-powered 
-                audit quality assurance tool that earned Citi's "Delivers with Pride" award.
-            </p>
+    <!-- Problem Section -->
+    <section class="problem-section" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">The Challenge</span>
+                <h2>AI Is Changing Faster Than Your Governance</h2>
+                <p>Large Language Models introduce risks that traditional model validation frameworks weren't designed to catch.</p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card reveal">
+                    <div class="problem-icon">⚠️</div>
+                    <h4>Cognitive Bias Propagation</h4>
+                    <p>LLMs inherit anchoring, confirmation bias, and overconfidence from training data — then amplify these into your risk assessments and compliance decisions.</p>
+                </div>
+                
+                <div class="problem-card reveal">
+                    <div class="problem-icon">📉</div>
+                    <h4>Epistemic Drift</h4>
+                    <p>AI systems can shift from truth-seeking to approval-seeking behavior. Sycophantic responses erode the critical judgment your auditors depend on.</p>
+                </div>
+                
+                <div class="problem-card reveal">
+                    <div class="problem-icon">🔒</div>
+                    <h4>Regulatory Uncertainty</h4>
+                    <p>SR 11-7 and NIST AI RMF provide guidance — but translating frameworks into auditable controls requires domain expertise regulators will trust.</p>
+                </div>
+                
+                <div class="problem-card reveal">
+                    <div class="problem-icon">🎭</div>
+                    <h4>The Black Box Problem</h4>
+                    <p>Explainability (XAI) isn't optional in financial services. Regulators expect you to document how AI reached its conclusions — not just what it concluded.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <p>
-                I'm passionate about helping financial institutions navigate the governance 
-                challenges of AI adoption — from model risk management and SR 11-7 compliance 
-                to building responsible AI frameworks that actually work in practice. I also 
-                serve as a guest lecturer for FIU's International MBA program and manage a 
-                real estate portfolio through Malik LLC.
-            </p>
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What We Do</span>
+                <h2>AI Governance That's Bankable</h2>
+                <p>Frameworks that are defensible, auditable, and due-diligence ready.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <span class="service-number">01</span>
+                    <h3>Bias Detection & Mitigation</h3>
+                    <p>Identify cognitive biases (anchoring, confirmation, overconfidence) propagating through LLM outputs into risk assessments and compliance decisions. We build detection layers that flag bias before it reaches production.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">Behavioral Economics</span>
+                        <span class="service-tag">Bias Auditing</span>
+                        <span class="service-tag">Fairness Testing</span>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">02</span>
+                    <h3>Drift Prevention & Monitoring</h3>
+                    <p>Detect when AI systems shift from truth-seeking to approval-seeking behavior. We implement continuous monitoring with epistemic drift indices, assumption decay tracking, and sycophancy risk scoring.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">Model Monitoring</span>
+                        <span class="service-tag">Drift Detection</span>
+                        <span class="service-tag">Alert Systems</span>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">03</span>
+                    <h3>AI Governance Frameworks</h3>
+                    <p>Build audit-ready, regulator-defensible AI controls aligned with NIST AI RMF, SR 11-7, EU AI Act, and emerging OCC/Fed guidance. Full audit trail design with explainability (XAI) documentation.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">NIST AI RMF</span>
+                        <span class="service-tag">SR 11-7</span>
+                        <span class="service-tag">EU AI Act</span>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">04</span>
+                    <h3>RAG & Document Intelligence</h3>
+                    <p>Design and implement RAG-powered systems for audit, compliance, and risk functions. Automating workpaper analysis, control testing, and regulatory document review — with full audit trails.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">RAG Architecture</span>
+                        <span class="service-tag">Vector DBs</span>
+                        <span class="service-tag">LangChain</span>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">05</span>
+                    <h3>Human-AI Workflow Design</h3>
+                    <p>Architect human-in-the-loop AI workflows that leverage AI capabilities while preserving critical human judgment. Design escalation protocols, override mechanisms, and accountability structures.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">HITL Design</span>
+                        <span class="service-tag">Escalation Protocols</span>
+                        <span class="service-tag">Accountability</span>
+                    </div>
+                </div>
+                
+                <div class="service-card reveal">
+                    <span class="service-number">06</span>
+                    <h3>AI Team Training</h3>
+                    <p>Train audit and risk teams on responsible AI adoption, prompt engineering, and AI-assisted decision-making best practices. From executives to practitioners — governance literacy that sticks.</p>
+                    <div class="service-tags">
+                        <span class="service-tag">Executive Briefings</span>
+                        <span class="service-tag">Practitioner Training</span>
+                        <span class="service-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <p>
-                Whether I'm auditing enterprise risk, designing AI workflows with LangChain 
-                and Python, or teaching the next generation of business leaders — my goal is 
-                the same: <strong>build systems that make better decisions</strong>.
-            </p>
-        </section>
+    <!-- Credentials Section -->
+    <section class="credentials-section" id="credentials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Why Trust Us</span>
+                <h2>20+ Years Where It Matters</h2>
+                <p>Citi. JPMorgan. OCC. The places where governance isn't theoretical.</p>
+            </div>
+            
+            <div class="credentials-grid">
+                <div class="credential-block reveal">
+                    <h3>Professional Experience</h3>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">🏛️</div>
+                        <div class="credential-content">
+                            <h4>VP Audit Manager — Citi</h4>
+                            <p>Led global thematic audits across 15+ business units. Pioneered AI integration into audit methodology — automated control testing reduced cycles by 35%.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">📊</div>
+                        <div class="credential-content">
+                            <h4>Risk Control Manager — JPMorgan Chase</h4>
+                            <p>Managed CCAR forecast validation and stress testing controls for $2.6T balance sheet. Led Resolution and Recovery Planning program.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">⚖️</div>
+                        <div class="credential-content">
+                            <h4>Bank Examiner — OCC / FL OFR</h4>
+                            <p>Conducted safety and soundness examinations evaluating credit risk, liquidity, and operational controls. Contributed to enforcement actions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="credential-block reveal">
+                    <h3>Education & Research</h3>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">🎓</div>
+                        <div class="credential-content">
+                            <h4>DBA — Florida International University</h4>
+                            <p>Expected 2027 | GPA: 3.87</p>
+                        </div>
+                    </div>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">📜</div>
+                        <div class="credential-content">
+                            <h4>MBA — Florida International University</h4>
+                            <p>2011 | GPA: 3.8</p>
+                        </div>
+                    </div>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">🇬🇧</div>
+                        <div class="credential-content">
+                            <h4>BSc Banking & Finance — LSE</h4>
+                            <p>London School of Economics | 2005</p>
+                        </div>
+                    </div>
+                    
+                    <div class="credential-item">
+                        <div class="credential-icon">💻</div>
+                        <div class="credential-content">
+                            <h4>FinTech Boot Camp — Columbia</h4>
+                            <p>ML, Blockchain, Python for Finance | 2021</p>
+                        </div>
+                    </div>
+                    
+                    <div class="research-highlight">
+                        <h4>Doctoral Research</h4>
+                        <p>"Heuristics & Biases in Large Language Models — Ethical Moderation for Responsible AI"</p>
+                        <span class="school">Florida International University | College of Business</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2025 Yasir A. Malik. Built with intention.</p>
-        </footer>
+    <!-- Frameworks Section -->
+    <section class="frameworks-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Regulatory Alignment</span>
+                <h2>Frameworks We Work With</h2>
+            </div>
+            
+            <div class="framework-logos">
+                <div class="framework-item">
+                    <div class="framework-badge">NIST AI RMF</div>
+                </div>
+                <div class="framework-item">
+                    <div class="framework-badge">SR 11-7</div>
+                </div>
+                <div class="framework-item">
+                    <div class="framework-badge">EU AI Act</div>
+                </div>
+                <div class="framework-item">
+                    <div class="framework-badge">ISO 42001</div>
+                </div>
+                <div class="framework-item">
+                    <div class="framework-badge">OCC Guidance</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="placeholder">
+                        <span class="placeholder-icon">👤</span>
+                    </div>
+                </div>
+                
+                <div class="about-content reveal">
+                    <span class="section-label">The Founder</span>
+                    <h2>Yasir A. Malik</h2>
+                    <p class="lead">Strategic audit leader at the intersection of behavioral science, AI ethics, and financial services governance.</p>
+                    
+                    <p>I spent two decades inside the institutions that define financial services governance — Citi, JPMorgan, and the OCC. I've led global audits, validated stress tests for trillion-dollar balance sheets, and seen firsthand how risk frameworks evolve (and where they fail).</p>
+                    
+                    <p>Now I'm pursuing doctoral research at FIU investigating how cognitive biases manifest in Large Language Models — and how ethical moderation frameworks can prevent AI blind spots from becoming organizational liabilities.</p>
+                    
+                    <p>My thesis: <em>The next generation of risk isn't in the data. It's in the decisions AI helps us make.</em></p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">35%</span>
+                            <span class="stat-label">Audit Cycle Reduction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3.87</span>
+                            <span class="stat-label">DBA GPA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <span class="section-label">Let's Connect</span>
+                    <h2>Ready to Audit Your Algorithm?</h2>
+                    <p>Whether you're deploying your first LLM or scaling AI across the enterprise, governance starts with the right conversation.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-method-icon">✉️</div>
+                            <div class="contact-method-content">
+                                <a href="mailto:yasiramalik@gmail.com">yasiramalik@gmail.com</a>
+                                <p>Primary contact</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-method-icon">📍</div>
+                            <div class="contact-method-content">
+                                <span style="color: var(--white); font-weight: 500;">Newark, New Jersey</span>
+                                <p>NYC Metro Area</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/yasiramalik" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                            in
+                        </a>
+                        <a href="https://github.com/AuditingAI" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form reveal">
+                    <form action="https://formspree.io/f/your-form-id" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" placeholder="Your organization">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your AI governance challenges..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="Audit the Algorithm">
+                <p>© 2026 Audit the Algorithm. All rights reserved.</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#credentials">Credentials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
