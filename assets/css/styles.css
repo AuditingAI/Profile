@@ -358,7 +358,7 @@ a:hover {
 
 .hero-subtitle {
   font-size: clamp(1.1rem, 2vw, 1.35rem);
-  color: var(--gray-300);
+  color: var(--gray-100);
   margin-bottom: 2.5rem;
   max-width: 600px;
   animation: fadeInUp 0.6s ease 0.2s forwards;
@@ -453,7 +453,7 @@ section {
 }
 
 .section-header p {
-  color: var(--gray-400);
+  color: var(--gray-300);
   font-size: 1.1rem;
 }
 
@@ -513,7 +513,7 @@ section {
 }
 
 .problem-card p {
-  color: var(--gray-400);
+  color: var(--gray-300);
   margin-bottom: 0;
   font-size: 0.95rem;
 }
@@ -606,6 +606,181 @@ section {
   color: var(--gold-primary);
   border-radius: 2px;
   font-weight: 500;
+}
+
+/* ============================================
+   CLIENT IMPACT SECTION
+   ============================================ */
+.impact-section {
+  background: var(--navy-deep);
+  position: relative;
+}
+
+.impact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.impact-card {
+  position: relative;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, var(--navy-primary) 0%, var(--navy-light) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  transition: all var(--transition-medium);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.impact-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(184, 134, 11, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Testimonial Quote Style */
+.impact-quote {
+  position: relative;
+}
+
+.quote-mark {
+  font-family: var(--font-display);
+  font-size: 5rem;
+  line-height: 0.8;
+  color: rgba(184, 134, 11, 0.2);
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.impact-quote p {
+  font-size: 1.1rem;
+  color: var(--gray-200);
+  line-height: 1.6;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
+
+.impact-attribution {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-left: 2rem;
+  border-left: 3px solid var(--gold-primary);
+  margin-top: auto;
+}
+
+.impact-role {
+  font-weight: 600;
+  color: var(--white);
+  font-size: 0.95rem;
+}
+
+.impact-company {
+  font-size: 0.9rem;
+  color: var(--gray-400);
+}
+
+/* Case Study Style */
+.case-study-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(184, 134, 11, 0.2);
+}
+
+.case-study-header h4 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--gold-light);
+  margin: 0;
+  flex: 1;
+}
+
+.case-badge {
+  font-size: 0.7rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(184, 134, 11, 0.15);
+  border: 1px solid rgba(184, 134, 11, 0.3);
+  color: var(--gold-primary);
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.case-study-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.case-study-content p {
+  font-size: 0.95rem;
+  color: var(--gray-300);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.case-study-content strong {
+  color: var(--white);
+  font-weight: 600;
+}
+
+/* Impact Tags */
+.impact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.impact-tag {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(184, 134, 11, 0.1);
+  border: 1px solid rgba(184, 134, 11, 0.2);
+  color: var(--gold-primary);
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+/* Disclaimer */
+.impact-disclaimer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  background: rgba(27, 54, 93, 0.3);
+  border: 1px solid rgba(184, 134, 11, 0.15);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.impact-disclaimer p {
+  font-size: 0.85rem;
+  color: var(--gray-400);
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.impact-disclaimer em {
+  font-style: italic;
 }
 
 /* ============================================
@@ -1122,12 +1297,30 @@ section {
   }
 }
 
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--gold-primary);
+  color: var(--navy-deep);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 10000;
+  transition: top var(--transition-fast);
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* Print styles */
 @media print {
   .navbar, .hero::before, .hero::after {
     display: none;
   }
-  
+
   body {
     background: white;
     color: black;
