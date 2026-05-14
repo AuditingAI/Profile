@@ -162,6 +162,16 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/anthropic_generic.pdf",
             "Cover Letter - Anthropic",
         ),
+        (
+            REPO_ROOT / "applications/resume/resume_citi_chief_auditor_ai.md",
+            REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Citi_ChiefAuditorAI.pdf",
+            "Yasir A. Malik - Resume (Citi Chief Auditor AI MD)",
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/citi_chief_auditor_ai_md.md",
+            REPO_ROOT / "applications/cover_letters/citi_chief_auditor_ai_md.pdf",
+            "Cover Letter - Citi Chief Auditor AI MD",
+        ),
     ]
     for src, dst, title in pairs:
         if src.exists():
