@@ -4,61 +4,97 @@ Source: Google Scholar alert "Auditor Bias"
 
 **Filter:** papers relevant to algorithmic auditing of AI/LLM systems — methods, frameworks, benchmarks, and case studies for auditing bias, fairness, or behavior in machine-learning models (LLMs, VLMs, text-to-image, multimodal, recommenders, deployed AI in hiring/lending/healthcare/search). Excludes human-auditor cognitive bias in accounting/finance, generic AI-ethics commentary without an audit method, unrelated medical chart audits, and other off-topic results.
 
-- Total filtered papers: **99** (out of 279 unique)
+- Total filtered papers: **163** (out of 306 unique)
 - Date range: **September 2025 – May 2026**
 
 ## May 2026
 
+- **[Auditing Multimodal LLM Raters: Central Tendency Bias in Clinical Ordinal Scoring](https://arxiv.org/pdf/2605.16386)** — J Zhang, S Elluri, B Cherukuvada, Y Joffe, J Sena… - arXiv preprint arXiv …, 2026
+  - <em>Our findings extend the LLM-as-a-judge bias literature from NLP evaluation to clinical assessment, and highlight the need for calibration-aware evaluation and post-hoc calibration before deploying LLM-based raters in high-stakes screening workflows.</em>
+- **[Generative Artificial Intelligence in Audit Practice: Enhancing Risk Assessment](https://publications.aaahq.org/cia/article-pdf/doi/10.2308/CIIA-2025-034/190617/ciia-2025-034.pdf)** — M Akpan, KM Ogunade - Current Issues in Auditing, 2026
+  - <em>We examine two forms of bias: management bias and algorithmic bias. To make sure model bias and performance reflected actual operating conditions, we conducted additional testing under the same constraints</em>
 - **[Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions](https://arxiv.org/pdf/2605.15217)** — J Tripathy, M Buckmann - arXiv preprint arXiv:2605.15217, 2026
   - <em>Our results have implications for fairness auditing processes. First, incorporating steering experiments alongside gold-… classic audit design to evaluate whether the model exhibits bias in credit decisions and to mechanistically …</em>
-- **[Algorithmic Bias in Digital Advertising: Its Effects on Ethical Marketing Practices](https://www.researchgate.net/profile/Shaher-Rekin/publication/404930453_ALGORITHMIC_BIAS_IN_DIGITAL_ADVERTISING_ITS_EFFECTS_ON_ETHICAL_MARKETING_PRACTICES/links/6a08edcbe93d461915964571/ALGORITHMIC-BIAS-IN-DIGITAL-ADVERTISING-ITS-EFFECTS-ON-ETHICAL-MARKETING-PRACTICES.pdf)** — SR Radhi, AA Dakhyliy - 2026
-  - <em>Objective: This study examines the effect of algorithmic bias in digital advertising on ethical marketing practices in Iraqi organizations.</em>
-- **[Beyond Performance Disparities: A Three-Level Audit of Representational Harm in CelebA](https://arxiv.org/pdf/2605.15312)** — S Park, Y He - arXiv preprint arXiv:2605.15312, 2026
-  - <em>Models trained on this label inevitably learn and reproduce the same biased cultural judgements. Auditing how models absorb and operationalise this label makes those embedded biases visible and empirically measurable.</em>
-- **[Diagnosing Korean-Language LLM Political Bias via Census-Grounded Agent Simulation](https://arxiv.org/pdf/2605.18395)** — S Kang - arXiv preprint arXiv:2605.18395, 2026
-  - <em>Large language models (LLMs) exhibit systematic political biases in voter simulations. We introduce Dynamo-K, a census-grounded simulation</em>
-- **[Exploring the Bias Identification](https://books.google.com/books?hl=en&lr=lang_en&id=qB3aEQAAQBAJ&oi=fnd&pg=PA255&dq=Auditor+Bias)** — R Choudhary, G Kumar, R Saha - Proceedings of International Conference on Artificial …
-  - <em>For detecting bias in mental health analysis solutions. We also design a taxonomy for the same to provide insight into the bias classifications. Future research should expand the bias audit to a broader set of sociodemographic attributes</em>
 - **[Explainable and Bias-Aware LLM Based Resume Screening System for Fair Automated Recruitment](https://ijcope.org/wp-content/uploads/2026/05/Explainable-and-Bias-Aware-LLM-Based-Resume-Screening-System-for-Fair-Automated-Recruitment.pdf)** — J Anoob, P Sumalatha - 2026
-  - <em>Eliminate bias from AI systems, as language models themselves can still exhibit implicit bias. Future improvements with greater amounts of data, enhanced bias-auditing and optimized</em>
+  - <em>eliminate bias from AI systems, as language models themselves can still exhibit implicit bias … Future improvements with greater amounts of data, enhanced bias-auditing and optimized … The fairness audit and bias detection can be further …</em>
 - **[CULTURAL BIAS AND MORAL RESPONSIBILITY: ADDRESSING ETHICAL CHALLENGES IN AI SYSTEMS](https://www.acjol.com/paper/tollelege_1777805988.pdf)** — PA OJO
   - <em>This paper investigates the ethical challenges posed by cultural bias in AI, specifically in terms of inquiry, and algorithmic auditing to examine the societal impacts of biased AI systems.</em>
 - **[Breaking Language Barriers or Reinforcing Bias? A Study of Gender and Racial Disparities in Multilingual CLIP](https://www.researchgate.net/profile/Zahraa_Al_Sahili/publication/391911086_Breaking_Language_Barriers_or_Reinforcing_Bias_A_Study_of_Gender_and_Racial_Disparities_in_Multilingual_Contrastive_Vision_Language_Models)** — Z Al Sahili, I Patras, M Purver - work
   - <em>Multilingual vision–language models (VLMs) promise universal image–text retrieval, yet their social biases remain under-explored. We perform the first systematic audit of four public multilingual CLIP variants—M-CLIP, NLLB-CLIP</em>
-- **[Patterns in Curated Celebrity Mortality Data: An Exploratory Analysis of Cardiovascular Disease Representation and Dataset Bias](https://www.cureus.com/articles/491659-patterns-in-curated-celebrity-mortality-data-an-exploratory-analysis-of-cardiovascular-disease-representation-and-dataset-bias.pdf)** — MA Atwa, MIEM Maarouf, BA Atwa, AE Al Anwar… - Cureus, 2026
-  - <em>Final automated audit procedures identified missing values, formatting inconsistencies, and potential data quality issues.</em>
+- **[Safety-Constrained Agentic AI for Autism Screening: A Multimodal, Clinician-Guided Architecture](https://www.cureus.com/articles/486907-safety-constrained-agentic-ai-for-autism-screening-a-multimodal-clinician-guided-architecture.pdf)** — D Patra, AN Saha, SS Mukherjee - Cureus, 2026
+  - <em>bias monitoring; bias and applicability checks, model selection, confidence evaluation, and final report generation.</em>
+- **[Explainable AI in Regulatory Reporting and Audit Readiness: A Human–AI Collaboration Framework for Compliance-Critical Systems](https://openurl.ebsco.com/fulltext/gcd:192335007)** — B Potharaju - Journal of Computational Analysis and Applications, 2026
+  - <em>Without transparency, they can't validate that models function as intended, verify if the models still work as intended, or detect bias.</em>
+- **[The Synergy Of Data Science And Digital Marketing: Strategic Applications, Challenges, And Future Directions](https://ijnrefm.com/wp-content/uploads/ijnrefm-volume4-issue2-357.pdf)** — N Amudha, PV Rajeswari
+  - <em>A further concern relates to algorithmic bias: machine learning models trained on historically unrepresentative data may perpetuate. Organizations must implement rigorous fairness auditing processes to detect and mitigate such biases</em>
+- **[AI in Finance: Challenges, Techniques, and Opportunities](https://www.researchgate.net/profile/Meet-Joshi-4/publication/404893093_AI_in_Finance_Challenges_Techniques_and_Opportunities)** — MA Joshi
+  - <em>Algorithmic bias in financial AI systems has received extensive academic and regulatory attention. Biased training data — reflecting … AI-driven smart contract auditing tools can identify vulnerabilities</em>
 - **[Robo-Advisory and Auditing: Internal and External Controls](https://link.springer.com/chapter/10.1007/978-3-032-18109-1_9)** — AH Farahani, N Nahidi - AI, FinTech, and the Future of Robo-Advisory: Risk …, 2026
   - <em>One of the most pressing ethical risks in AI auditing is algorithmic bias. AI models used in financial audits are often trained on historical data that may reflect existing biases or structural inequalities.</em>
 - **[Confidence as a Tie-Breaker: Reassessing Multilingual Hedging Bias in LLM-as-a-Judge Evaluation](https://sanjanbaitalik.github.io/papers/ACL_Polyjudge.pdf)** — R Datta, S Baitalik
   - <em>A universal bias against hedging. Our findings highlight benchmark auditing as a central requirement for multilingual judge-bias research.</em>
+- **[A Qualitative Study of Internal Audit Report Recommendations in Managing Artificial Intelligence Risks Within Organizations in Singapore](https://search.proquest.com/openview/835a25e45147e5af68a70df11e4e6734/1)** — B Tan - 2026
+  - <em>Audit functions support the governance and risk management of AI systems within organizations in Singapore, where internal auditors face challenges delivering effective AI audit</em>
+- **[Using Agents to Automate Audits of Personalization Algorithms at Scale](https://llm-auditing-personalization.github.io/assets/pdfs/Using%20Agents%20to%20Automate%20Auditing.pdf)** — A Morosini, SH Cen, A Ilyas, H Driss, A Madry… - 2026
+  - <em>Behavior when they know they are being studied (aka the Hawthorne effect), introducing yet another source of bias into the audit process. Having characterized the platform's relative amplification bias</em>
 - **[Different demographic cues yield inconsistent conclusions about LLM personalization and bias](https://sharathg.cis.upenn.edu/assets/pdf/76_hrfUAAAAJ_FAceZFleit8C.pdf)** — M Tonneau, NKR Seghal, N Malhotra, S Kazemi… - Preprint, 2026
   - <em>Bias auditing studies that evaluate disparities across demographic groups; in bias research, inspired by audit studies in the social sciences that vary signals</em>
+- **[Adaptive Generative AI Framework for Creating Rare-Disease Synthetic EHRs with Built-In Bias Mitigation and Privacy Guarantees](https://wijar.westcliff.edu/wp-content/uploads/2026/05/WIJAR-Volume-10-Issue-1-Spring-2026-Complete.pdf)** — RM Jewel, MS Bhuiyan, MDH Rahman, AA Linkon… - Journal of Applied Research, 2026
+  - <em>Synthetic datasets might capture biases even without the direct inclusion of identifiers or mirror patterns that serve to underrepresent a particular group of people.</em>
+- **[The Governance Paradox: Algorithmic Bias, Statutory Corporate Social Responsibility Mandates, and Responsible Artificial Intelligence in the Indian Corporate Sector](https://www.aijfr.com/papers/2026/3/5714.pdf)** — A Nirmal, N Nilaish
+  - <em>Programmes deploying AI to disclose algorithmic impact assessments, bias audit results, and stakeholder consultation processes.</em>
 - **[Bias in Large Language Models: Origin, Evaluation, and Mitigation](https://search.proquest.com/openview/f9ec704bb302a28cc072da406da0ad01/1)** — G Yufei, G Muzhe, S Juntao, Y Zhou, Z Mengqiu, H Li… - Electronics, 2026
   - <em>To boost the reproducibility of this review and allow readers to audit the review's coverage, the literature collection process is documented</em>
 - **[Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles](https://arxiv.org/pdf/2605.13113)** — J Luna, Y Wu, X Xie, N Garcia - arXiv preprint arXiv:2605.13113, 2026
   - <em>Bias measurement for both technical auditing and emerging governance discussions. We propose a risk-aligned auditing framework for gender bias in T2I generation.</em>
 - **[A Novel Machine Learning Framework for Detecting and Correcting Gender Bias in Predictive Models](https://ieeexplore.ieee.org/abstract/document/11511005/)** — K Punitha, R Sasirekha, K Triveni, S Mangairkarasi… - 2026 9th International …, 2026
   - <em>Bias from underlying data. This study proposes a novel Fairness-Guided Gender Bias Mitigation Framework (FG-GBMF) for detecting and correcting gender bias</em>
-- **[Gender Bias in Automated CV Evaluation: Evidence from Counterfactual Simulations Using Synthetic Data from Mexico](https://latinaer.org/index.php/laer/article/download/538/231)** — E Cruz, AT Moreno‑Okuno, J Zamilpa - Latin American Economic Review, 2026
-  - <em>This paper investigates the presence of demographic bias in automated CV evaluations. We document a statistically significant and operationally meaningful pro-female bias</em>
 - **[Generative AI in Human Resources: Enhancing HRM Functions Through ChatGPT Technologies](https://www.igi-global.com/chapter/generative-ai-in-human-resources/411040)** — R Kumari, SP Dash - …, Innovation, and Strategic Transformation in Human …, 2026
   - <em>Ensuring fairness will always need to incorporate biased and diverse massive sets of data, updated frequently, with the auditing</em>
+- **[Metacognitive Calibration and Explainable AI in Healthcare Decision Support: Bridging Interpretability, Trust, and Clinical Application](https://journals.nb.edu.pl/index.php/igmq/article/download/1/1)** — A Pierce - Inclusive Growth and Management Quarterly, 2026
+  - <em>The auditing layer employs provenance-based simulation to evaluate fairness and bias without requiring exhaustive realworld testing.</em>
 - **[FairPromote: Explainable and Fairness-Aware Talent Promotion Prediction via Adversarial Debiasing and SHAP-based Interpretation](https://ieeexplore.ieee.org/iel8/6287639/6514899/11516117.pdf)** — Z Wang, JS Yang, W Shang, J Ding - IEEE Access, 2026
   - <em>Inherited biases embedded in talent promotion prediction; bias auditing. In HR analytics, fairness and explainability may be adopted symbolically or substantively.</em>
+- **[Epistemic Justice and the Moral Limits of Algorithmic Authority: How AI Systems Challenge the Knowledge Foundations of Organizational Decision-Making](https://journals.nb.edu.pl/index.php/igmq/article/download/5/5)** — J Harrison - Inclusive Growth and Management Quarterly, 2026
+  - <em>This requires auditing not just for demographic bias but for hermeneutical exclusion: examining whether AI systems' categories, classifications, and assessments render certain forms of human experience invisible</em>
+- **[Auditing the Long-Term Societal Impact of AI-Driven Surveillance through Temporal Bias Analysis and Human-in-the-Loop Governance](https://www.scivexus.org/index.php/CIS/article/download/132/156)** — T Pennington - Computational Intelligence Systems, 2026
+  - <em>Bias is not merely a static artifact of training data but a dynamic phenomenon that evolves over time through feedback loops between algorithmic outputs and human behavioral shifts. We propose a comprehensive auditing framework</em>
+- **[Enhancing System Robustness through Adversarial Reinforcement Learning and Large Language Model Reasoning for Automated Vulnerability Assessment in …](https://www.isipress.org/index.php/IJAIR/article/download/149/206)** — D Ashcroft - International Journal of Artificial Intelligence Research, 2026
+  - <em>The data used to train the adversarial agents or the reasoning models contains historical biases; the auditing process requires proactive efforts to curate diverse datasets</em>
+- **[Finding Rare Racial Stereotypes in LLM Responses via Adversarial Anomaly Detection](https://www.scienceopen.com/hosted-document?doi=10.14293/PR2199.003531.v1)** — A Schmidt - ScienceOpen Preprints, 2026
+  - <em>This paper treats subtle racial bias in LLM responses as a rare failure event and adapts techniques from predictive maintenance. The approach offers a scalable way to audit foundation models for rare but harmful racial biases</em>
 - **[An AI-Driven Predictive Model Using Decision Trees for Detecting Gender Bias in HR Practices and Recommending Policy Interventions](https://kommerstad.org/journal/article/download/312/238)** — S Kapoor - Minnesota Journal of Business Law and …, 2026
   - <em>Bias; Stage 2 (Forward Modelling): the gender and the HR features are used as predictors to predict an artificial bias label. The decision tree rules give audit trails of every bias category</em>
+- **[The Illusion of Fairness: Evaluating Bias Mitigation Algorithms on Imbalanced Electronic Health Records](https://www.researchgate.net/profile/Pooya-Zeinali/publication/404721030_The_Illusion_of_Fairness_Evaluating_Bias_Mitigation_Algorithms_on_Imbalanced_Electronic_Health_Records)** — P Zeinali
+  - <em>Bias in models predicting readmission risk, hypertension, and mortality risk. These studies reveal that biases in clinical datasets … advocated for rigorous auditing and reporting of subgroup model</em>
 - **[AI Unveiled: From Techno Bias to Solutions Within Education and Beyond](https://books.google.com/books?hl=en&lr=lang_en&id=z6HYEQAAQBAJ&oi=fnd&pg=PR5&dq=Auditor+Bias)** — ML Akassi - 2026
   - <em>Women at far higher rates, sparking nationwide calls for algorithmic transparency and bias auditing in academia.</em>
+- **[Large Language Models in Informed Consent—Opportunities, Evidence, and Challenges](https://ai.nejm.org/doi/abs/10.1056/AIra2600073)** — R Goel, S Mustafa, TJ Baker, BE Bierer - NEJM AI, 2026
+  - <em>Studies identified biases, with gender bias present in 93.7% and racial or ethnic bias present in 90.9% of studies. Safeguards should include systematic bias auditing across demographic groups</em>
 - **[Algorithmic Bias and Data Privacy in Education: Building Ethical Frameworks for Responsible AI Integration](https://www.igi-global.com/chapter/algorithmic-bias-and-data-privacy-in-education/410679)** — K Sharma, N Nigam - Ethical Leadership and Pedagogical Transformation in …, 2026
   - <em>Institutions can monitor bias or unintended consequences of the AI systems by regularly auditing their algorithms and assessing their performance.</em>
+- **[Sociotechnical Evaluation and Bias Mitigation in AI-Driven BLE Mesh Message Prioritization for Culturally Diverse Disaster-Affected Communities](https://www.researchgate.net/profile/Koa-Sterling/publication/404754742_Sociotechnical_Evaluation_and_Bias_Mitigation_in_AI-Driven_BLE_Mesh_Message_Prioritization_for_Culturally_Diverse_Disaster-Affected_Communities)** — M Curie - 2026
+  - <em>This study addresses these challenges by proposing a sociotechnical evaluation and bias mitigation strategies directly into AI prioritization algorithms</em>
 - **[BiAxisAudit: A Novel Framework to Evaluate LLM Bias Across Prompt Sensitivity and Response-Layer Divergence](https://arxiv.org/pdf/2605.09041)** — J Gan, J Dong, S Li - arXiv preprint arXiv:2605.09041, 2026
   - <em>Across eight LLMs with 80,200 coded responses each, task format alone explains as much variance in bias scores as the choice of model; 63.6% of bias signals in the pooled audit appear in only one coding layer</em>
-- **[More Thinking, More Bias: Length-Driven Position Bias in Reasoning Models](https://arxiv.org/pdf/2605.06672)** — X Wang - arXiv preprint arXiv:2605.06672, 2026
-  - <em>Bias is a distinct phenomenon with a different footprint. CoT reasoning replaces this baseline bias with length-accumulated bias. for auditing reasoning models</em>
 - **[Towards Fairness under Label Bias in Image Segmentation: Impact, Measurement and Mitigation](https://arxiv.org/pdf/2605.06891)** — A Parikh, S Frank, S Das, A Feragen - arXiv preprint arXiv:2605.06891, 2026
   - <em>For bias mitigation rather than suppressing it. We evaluate three datasets, spanning from synthetic to real-life bias, showing how our framework reliably detects and mitigates bias</em>
 - **[Mitigating Societal Biases in Recommendation Algorithms through Fairness-Aware Reinforcement Learning and Demographic Parity Constraints](https://scivexus.org/index.php/CIS/article/download/124/148)** — G Telford - Computational Intelligence Systems, 2026
   - <em>As we continue to build and refine these systems, we must remain vigilant, constantly auditing our models and our assumptions to ensure that the pursuit of efficiency never comes at the cost of equity.</em>
+- **[Enhancing Algorithmic Trust through Counterfactual Explanation Frameworks for Auditing Black Box Neural Networks in Critical Decision Systems](https://www.isipress.org/index.php/IJAIR/article/download/137/195)** — L Prescott - International Journal of Artificial Intelligence Research, 2026
+  - <em>Oversimplified explanations may mislead auditors by hiding critical vulnerabilities or biases. Within the context of counterfactuals, this trade-off manifests</em>
+- **[Artificial Intelligence in Auditing](https://eia.feaa.ugal.ro/images/eia/2026_1/Marin_et_al.pdf)** — LC Marin, M Neculita, D Stadoleanu, M Carbunaru… - Economics and Applied …, 2026
+  - <em>Bias and Fairness. Training AI algorithms on historical audit data may inadvertently teach biases, like discrimination against certain types of transactions.</em>
+- **[Algorithmic Accountability Without Bureaucratic Paralysis: Governance Frameworks for Mid-Market Enterprises](https://www.researchgate.net/profile/Ali-Shaik-3/publication/404607666_Algorithmic_Accountability_Without_Bureaucratic_Paralysis_Governance_Frameworks_for_Mid-Market_Enterprises)** — AS Shaik
+  - <em>Credit scoring system required a full governance protocol including external bias audit against fair lending requirements. The lender engaged a third-party AI audit firm</em>
+- **[Policy and Governance for AI-Driven Educational Transformation](https://www.igi-global.com/chapter/policy-and-governance-for-ai-driven-educational-transformation/410438)** — F Saeed, H Abdelaziz - Collaborative Paradigms of Generative AI and Human …, 2026
+  - <em>Ethical Use and Bias Prevention: Countries are encouraged to adopt data protection laws, audit algorithms for bias using diverse datasets</em>
+- **[From Audit Trails to Algorithmic Evidence: Reconstructing Cybersecurity and Data Protection Audits for AI-Driven Organisations under EU Law](https://www.researchgate.net/profile/Elemegious-Mugamba/publication/404650575_From_Audit_Trails_to_Algorithmic_Evidence_Reconstructing_Cybersecurity_and_Data_Protection_Audits_for_AI-_Driven_Organisations_under_EU_Law)** — E Mugamba
+  - <em>A cybersecurity audit that ignores provenance may verify system controls while overlooking unlawful or biased data pipelines</em>
+- **[Artificial Intelligence In Pharmaceutical And Health Sciences: Applications, Challenges, And Governance](https://www.researchgate.net/profile/Mullaicharam-Bhupathyraaj/publication/404650698_Artificial_Intelligence_In_Pharmaceutical_And_Health_Sciences_Applications_Challenges_And_Governance)** — M Bhupathyraaj, RV Murali, RT Patil, AS Al Bimani
+  - <em>Algorithmic Bias from unbalanced datasets, proxy variables, and historical inequities. Systematic auditing is essential to detect latent biases.</em>
+- **[Leveraging COBIT for Stakeholder Engagement in AI-Powered Audits](https://openurl.ebsco.com/fulltext/gcd:193184688)** — B BELT, PMP PMI-SP
+  - <em>The audit team, along with the data analytics team, may develop and maintain AI models, conduct bias testing, document model behavior, and support auditors in interpreting results.</em>
 - **[Do LLMs Read for Free? Auditing the Open Access Bias in AI-Mediated Science](https://osf.io/download/xym8d/)** — W Wang - 2026
   - <em>How large language models affect various social activities has been widely discussed; however, how large language models themselves influence the mechanisms of scientific knowledge production remains unclear.</em>
 - **[Mitigating Biases in Managerial Decision Making with Assistance from Large Language Model Tools: The Case of Artificial Intelligence Auditing](https://kommerstad.org/journal/article/download/284/220)** — KC Sabat - Minnesota Journal of Business Law and …, 2026
@@ -69,8 +105,6 @@ Source: Google Scholar alert "Auditor Bias"
   - <em>A core methodological challenge in bias auditing is accurate discretization—transforming open-ended text generations into categorical labels suitable for Bayesian inference.</em>
 - **[Algorithmic Bias in Artificial Intelligence Systems: A Cross-Domain Analysis](https://www.researchgate.net/profile/Nityanand-Kumar-4/publication/404555038_Algorithmic_Bias_in_Artificial_Intelligence_Systems_A_Cross-Domain_Analysis)** — N Kumar
   - <em>Recent advancements in fairness-aware machine learning have introduced various mitigation techniques, including adversarial debiasing, fairness constraints, explainable AI systems, and bias auditing frameworks.</em>
-- **[Bias in AI Admission and Hiring](https://www.eujini.org.pl/index.php/journal/article/download/82/76)** — T Prykhodko - European Journal of Interdisciplinary Issues, 2026
-  - <em>This paper examines the technical sources of algorithmic bias, including proxy variables, workforce pipelines and argues that algorithmic bias often represents the codification of historical</em>
 - **[Algorithmic Racism in AI Chatbots: Epistemic and Ethical Perspectives on Auditing](https://link.springer.com/content/pdf/10.1007/978-3-032-15112-4.pdf)** — S Molick - The Palgrave Handbook on the Ethics of Artificial …
   - <em>We address the problem of formulating adequate guidelines for mitigating racial bias in AI systems by arguing that audit models for these technologies must incorporate</em>
 - **[Probing intrinsic bias: Internal attention feature analysis for social bias evaluation in diffusion models](https://www.sciencedirect.com/science/article/pii/S0925231226012488)** — H Lee, K Baek - Neurocomputing, 2026
@@ -81,36 +115,28 @@ Source: Google Scholar alert "Auditor Bias"
   - <em>No study has yet conducted a comprehensive fairness audit of LLM-based triage… step clinical reasoning, reveals and corrects implicit biases. Gender bias in LLM-based ED triage using EQUITRIAGE</em>
 - **[Cultural Representation Bias and Alignment Divergence in Large Language Models](https://raw.githubusercontent.com/mlresearch/v332/main/assets/kan26a/kan26a.pdf)** — T Kan, Z He, S Hu, X Ying - AAAI 2026 Workshop on Bias in Multimodal AI …, 2026
   - <em>Through a three-stage cultural audit comparing Western and Chinese LLMs, we identify a systematic divergence in how these models prioritize core social values.</em>
-- **[When Framing Shapes the Answer: Cognitive Bias and Large Language Model Reliability in Radiology](https://pubs.rsna.org/doi/abs/10.1148/ryai.260346)** — S Tayebi Arasteh, D Truhn - Radiology: Artificial Intelligence, 2026
-  - <em>Cognitive biases: authority bias, complexity bias, and anchoring bias. The study also assessed two mitigation strategies, a prompt bias audit. All three biased prompts reduced question answering accuracy.</em>
+- **[Ethical Fragility and Professional Judgment Under Algorithm-Driven Auditing: A Behavioral–Cognitive Perspective](https://suntextreviews.org/uploads/journals/pdfs/1777288926.pdf)** — AL AE, RAF HA - 2026
+  - <em>Conflicts of interest and professional bias. Even in the absence of explicit incentives, auditors may experience unconscious biases that align their judgments with organizational goals</em>
 - **[Personalized Bias Assessment in LLM-Based Financial Fraud Detection Systems](https://ieeexplore.ieee.org/abstract/document/11485691/)** — KZN Win - 2026 IEEE Conference on Computer Applications …, 2026
   - <em>This approach ensures seamless generalization by allowing BA3 to audit genuine bias patterns with the same individualized precision</em>
-- **[Annotator Risk Preference as a Catalyst for Systemic Bias in Multimodal AI](https://raw.githubusercontent.com/mlresearch/v332/main/assets/hu26a/hu26a.pdf)** — S Hu, Z He, T Kan, X Ying - AAAI 2026 Workshop on Bias in Multimodal AI …, 2026
-  - <em>This increased complexity not only enhances expressiveness but also opens more insidious channels for bias infiltration.</em>
-- **[Tinjauan Sistematis Hindsight Bias Dalam Pengambilan Keputusan Akuntansi Dan Strategi Pencegahannya](https://jmp-unpak.id/index.php/jmp/article/download/106/92)** — SC Sakinah, D Winanda, AM Putri, Y Saftiana - Jurnal Manajemen Pendidikan, 2026
-  - <em>Kompleksitas informasi, tingkat kesulitan tugas audit, serta cara penyajian laporan keuangan dapat memperkuat bias ini.</em>
+- **[Kutukan Pengetahuan Dalam Audit Sebagai Bias Kognitif Dalam Pertimbangan Dan Pengambilan Keputusan Auditor: Systematic Literature Review](https://jmp-unpak.id/index.php/jmp/article/download/133/99)** — ET Florencia, D Farhana, JA Savitri, Y Saftiana - Jurnal Manajemen Pendidikan, 2026
+  - <em>This study examines the influence of the curse of knowledge as a cognitive bias on audit judgment, audit quality, and auditors' professional skepticism</em>
+- **[The Moderating Effect of External Auditors' Ethical Commitments on the Relationship between Automation Bias Risks in Blockchain- and AI-Based Decision-Making Systems and Audit Quality](https://aljalexu.journals.ekb.eg/article_487613.html)** — MAM Serag - Alexandria Journal of Accounting Research, 2026
+  - <em>Audit quality, within the context of the rapid digital transformation of the auditing profession. The research problem stems from the growing reliance on automated systems</em>
+- **[Auditing demographic bias in AI-based emergency police dispatch: a cross-lingual evaluation of eleven large language models](https://arxiv.org/pdf/2605.01451)** — W Guey, W Zhang, P Bougault, Y Wang, B Ucar - arXiv preprint arXiv …, 2026
+  - <em>We introduce LLM-DispatchBias, a cross-lingual audit framework for evaluating demographic bias in LLM-based emergency police dispatch classification.</em>
 - **[Bias and Hallucination Evaluation in LLMs](https://jtie.stekom.ac.id/index.php/jtie/article/download/476/324)** — R Sathiyaseelan, AB Reshma, P Ganga - Journal of Technology Informatics and …, 2026
   - <em>A repeatable cross-domain evaluation protocol to compare bias and hallucination across models and deployment. Reduce bias disparities by 25% across evaluated domains.</em>
 - **[Assessing Algorithmic Fairness and Bias in Predictive Social Data Science Models in German Public Administration](https://journal.haqipub.com/index.php/jas/article/download/446/248)** — L Schmidt - Journal of Asian Studies: Culture, Language, Art and …, 2026
   - <em>Bias in Machine Learning (ML) systems deployed within German public administration, specifically in social resource allocation and urban planning decision support, employing a Computational Fairness Audit methodology</em>
-- **[Algorithmic Bias in E-Commerce as a Form of Digital Market Distortion: Competition Law Perspective in Indonesia](https://ejournal.unma.ac.id/index.php/maro/article/download/18064/8067)** — LL Farhan - Maro: Jurnal Ekonomi Syariah dan Bisnis, 2026
-  - <em>Bias plays a role in strengthening the dominance of certain business actors and creating barriers to market entry, while existing regulations are not fully adaptive.</em>
+- **[Crowdsourced Intelligence for Model Auditing: A Gamified Framework for Detecting Systematic Failures](https://www.researchgate.net/profile/Akande-Eniola/publication/404382403_Crowdsourced_Intelligence_for_Model_Auditing_A_Gamified_Framework_for_Detecting_Systematic_Failures)** — S Dey
+  - <em>To uncover recurring errors, biases, and edge-case failures in predictive systems. By transforming auditing into an interactive and incentive-driven framework</em>
 - **[Understanding Responsible Artificial Intelligence: Principles, Frameworks, and Challenges](https://www.researchgate.net/profile/Kent-Schroeder-2/publication/404358636_AI_for_Whom_Global_Perspectives_on_Responsible_AI_for_Inclusive_Development)** — JA Prince Dawson Tetteh, DM Fosu, MI Ali, A Branoa - AI for Whom?
   - <em>AI systems should treat people equitably and without unjust bias (fairness). Efforts such as algorithmic auditing, bias mitigation</em>
-- **[Towards Increasing Adolescents' Awareness and Understanding of AI Bias](https://ou-cpwo.github.io/chi-sird-2026/assets/documents/CHI-SIRD-17.pdf)** — AZ FITZSIMONS, K FASIANG, EM GERBER, D LONG
-  - <em>Youth understanding of AI bias: in-the-moment supports that overlay LLM use to help users recognize and mitigate bias during real-time</em>
-- **[An Exploratory Study of Inherited Bias in AI-Assisted Evaluation: Thirteen Corrections, Zero Content Changes](https://www.researchgate.net/profile/Taekyung-Lee-12/publication/404322597_An_Exploratory_Study_of_Inherited_Bias_in_AI-Assisted_Evaluation)** — T Lee
-  - <em>During the evaluation, 13 candidate bias episodes were recorded and grouped into five [categories]. Human corrector and bias audit pairing</em>
 - **[Enhancing Facial Beauty Prediction with a Cross-Attention Vision Transformer and Attention-Guided Augmentation](https://link.springer.com/article/10.1007/s12559-026-10582-x)** — DE Boukhari, F Dornaika - Cognitive Computation, 2026
   - <em>There is an inherent risk that such models may codify specific biases into objective scores. Black box transparent so that potential aesthetic biases can be audited</em>
-- **[Artificial Intelligence In Credit Risk Assessment And Loan Approval Processes](https://ijnrefm.com/wp-content/uploads/ijnrefm-volume3-issue6-222.pdf)** — M Kumari
-  - <em>Algorithmic bias requires deliberate, multi-stage intervention: Bias is not inevitable in AI credit. Conduct comprehensive bias analysis across all available demographic</em>
 - **[Fairness Testing of Large Language Models in Role-Playing](https://chenzhenpeng18.github.io/papers/FSE26_Role.pdf)** — X Li, Z Chen, J ZHANG, Y Xiao, T Li, W Sun, Y Liu - Proceedings of the 34th …, 2026
   - <em>Identifying biases in LLMs during role-playing, this RQ aims to explore whether these biases remain. Role-aware fairness auditing.</em>
-- **[Technical and Ethical Challenges in Integrating AI and the Metaverse in Education](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781394335640.ch16)** — P Upadhyay, S Karmakar - Artificial Intelligence and the Metaverse in Education, 2026
-  - <em>Loop where biased algorithmic outcomes influence real-world decisions, leading to further biased data. Academic results can be unfairly impacted by bias in AI-driven grading systems</em>
-- **[AI-Driven Mental Health Risk Assessment Based on Social Media Usage and Behavioral Indicators](https://ieeexplore.ieee.org/abstract/document/11483767/)** — S Gali, SA Zabeen, J Manasa, N Ramadevi, V Manisha - International Conference on …, 2026
-  - <em>While these technologies provide scalable solutions, they also introduce ethical considerations related to data privacy, bias, and responsible deployment in healthcare contexts</em>
 - **[Political Bias Audits of LLMs Capture Sycophancy to the Inferred Auditor](https://arxiv.org/pdf/2604.27633)** — P Törnberg, M Schimmel - arXiv preprint arXiv:2604.27633, 2026
   - <em>Large language models (LLMs) are commonly evaluated for political bias based on their responses to fixed questionnaires. Political-bias audits partly capture sycophantic accommodation to the inferred auditor.</em>
 - **[QBiasNet: Quantum-Enhanced Variational Classifiers for Ethical Bias Detection in Multimodal AI Models](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1009&context=asi)** — N Doshi, K Shah, S Patel - 2026
@@ -121,50 +147,107 @@ Source: Google Scholar alert "Auditor Bias"
   - <em>Auditing a model for bias only after it is built is inefficient and costly, similar to inspecting a completed building for foundational design flaws.</em>
 - **[Empire Amplifier: Uncovering and Contesting the Prioritization of Colonial Content on Platforms Through Community-Informed Algorithmic Auditing](https://arxiv.org/pdf/2604.27498)** — N Escher, B Yrysov, A McDermott, D Chechelnitsky - arXiv preprint arXiv …, 2026
   - <em>Of bias have received much more attention than others, as the study design of an algorithmic audit often specifies a limited set of biases. We elected to investigate these questions with a sock-puppet audit</em>
+- **[The Rise of AI Audit Trails: Ensuring Traceability in Decision-Making](https://www.igi-global.com/chapter/the-rise-of-ai-audit-trails/409451)** — KG Rajput, T Kannirajalingam, S Rakesh - …, 2026
+  - <em>Audit trail in the life cycle of AI. Coping with bias</em>
 - **[Algorithmic Bias](https://assets.pubpub.org/w8rijq11e7djwivteqr492pz4z02it2j.pdf)** — A Brihane - 2026
   - <em>Bias focus on bias from data and its processing and bias from model training and evaluation. Algorithmic audit and evaluation is now a thriving area</em>
 - **[Understanding Algorithmic Bias in Artificial Intelligence and its Ethical Implications](https://assets.zyrosite.com/AE0aDPpwPGCpQx09/article-5---volume-2-issue-2-2026-4Mbp5Du8H0sY5FVj.pdf)** — PA Joshi, CBS IT
   - <em>Bias in Artificial Intelligence and analyze its ethical implications, with a focus on bias, fairness; auditing, and explainable AI (XAI) is discussed</em>
+- **[THE ROLE OF INFORMATION TECHNOLOGIES AND ARTIFICIAL INTELLIGENCE IN CSR AUDITING](https://northern.am/wp-content/uploads/2026/04/Ani-Mkrthcyan.pdf)** — A MKRTCHYAN
+  - <em>Without such considerations, AI systems may introduce bias or unfair outcomes into audit results, undermining CSR audit integrity.</em>
 - **[Integrating algorithmic competencies into marketing education](https://www.tandfonline.com/doi/abs/10.1080/10528008.2026.2664121)** — O Kuran, M Farah, L Khabbaz - Marketing Education Review, 2026
   - <em>Auditing decisions for bias and governing for stakeholder welfare. The framework's three-cluster structure reflects how algorithmic mediation reshapes the professional tasks</em>
-- **[A Scoping Review of LLM-as-a-Judge in Healthcare and the MedJUDGE Framework](https://arxiv.org/pdf/2604.25933)** — C Li, Z Akhtar, M Kwak, Y Ji, H Zhang, T Obi, Y Ren - arXiv preprint arXiv …, 2026
-  - <em>Known biases — including positional bias (scores shifting based on answer order), verbosity bias (longer responses rated higher regardless of quality), and self-preference bias</em>
-- **[Unveiling gender bias in AI: A classroom reflection on media representation and AI literacy in postgraduate education](https://www.liverpooluniversitypress.co.uk/doi/full/10.3828/dap.2026.7)** — T Hu - Developing Academic Practice, 2026
-  - <em>Students could transition from reflection to active contribution by engaging in student-led research, systematically auditing AI tools for various biases</em>
-- **[Sociodemographic Biases in Educational Counselling by Large Language Models](https://arxiv.org/pdf/2604.25932)** — T Adamczyk, W Mieleszczenko-Kowszewicz, B Bajcar - arXiv preprint arXiv …, 2026
-  - <em>Biases, bias patterns partially align with documented human biases but diverge in notable ways, the magnitude of these biases is consequence of specific training choices</em>
 - **[Fairness at Risk: Where Bias Emerges in Machine Learning](https://onlinelibrary.wiley.com/doi/pdf/10.1111/exsy.70265)** — OP Albuquerque, M Fantinato, S Marques Peres - Expert Systems, 2026
   - <em>We conduct a scoping review to map sources of bias across the ML lifecycle and to identify forms of prejudice.</em>
-- **[Data Heterogeneity and Algorithmic Bias in AI-Based Antimicrobial Resistance Prediction: A Systematic Review and Mitigation Framework](https://www.researchsquare.com/article/rs-9552638/latest.pdf)** — J Kiazolu - 2026
-  - <em>This study aimed to systematically assess the impact of data heterogeneity and algorithmic bias on AI/ML-based AMR prediction</em>
+- **[A Multi-Dimensional Audit of Politically Aligned Large Language Models](https://arxiv.org/pdf/2604.24429)** — L Korver, M Mostagir, S Reda - arXiv preprint arXiv:2604.24429, 2026
+  - <em>Drafting aids, but they are subject to any biases present in the data used to train them. These inherent biases present challenges when used in sensitive areas such as political discourse.</em>
+- **[Artificial Intelligence Training Data and Holistic Health Conceptualization: An Interpretive Exposome Framework](https://www.mdpi.com/2078-2489/17/5/425)** — E Umucu - Information, 2026
+  - <em>For operationalization using natural language processing (NLP), bias auditing, and multi-modal data integration.</em>
 - **[FAIR_XAI: Improving Multimodal Foundation Model Fairness via Explainability for Wellbeing Assessment](https://arxiv.org/pdf/2604.23786)** — S Chiang, T Brennan, FI Dogan, J Cheong, H Gunes - arXiv preprint arXiv …, 2026
   - <em>Biases consistent across both controlled and naturalistic data domains? Since we use multiple VLM architectures, we can evaluate whether any bias. Fairness audit that reveals how and what biases are model or domain-specific</em>
+- **[AI in Transfer Pricing: Risk or Opportunity?](https://kluwerlawonline.com/journalarticle/Intertax/54.6/TAXI2026050)** — P Siva - Intertax, 2026
+  - <em>Tax authorities increasingly use AI-driven risk models for audit selection while multinational. It also isolates material risks such as opaque black box outputs, data and algorithmic bias</em>
 - **[Mitigating Algorithmic Bias in AI-Driven Hiring Systems in the United States](https://insightfuljournals.com/index.php/JBII/article/download/76/136)** — ST Hasan - Journal of Business Insight and Innovation, 2026
   - <em>Mitigation Strategies for Bias Reduction in US markets. It is also important that the process of algorithmic auditing is continuous</em>
 - **[Judging the Judges: A Systematic Evaluation of Bias Mitigation Strategies in LLM-as-a-Judge Pipelines](https://arxiv.org/pdf/2604.23178)** — SK Soumik - arXiv preprint arXiv:2604.23178, 2026
   - <em>It is not intended as a comprehensive benchmark for ranking judge quality across all dimensions, nor as a substitute for thorough bias auditing across diverse domains</em>
+- **[Equity by Design: Integrating Bias Audits](https://books.google.com/books?hl=en&lr=lang_en&id=9q_UEQAAQBAJ&oi=fnd&pg=PA1&dq=Auditor+Bias&ots=_inE49hPU8&sig=cAEFFDL0hjrKpD8xJnQivsHeWKM)** — FMIH AI - Science: 14th International Conference, HIS 2025 …, 2026
+  - <em>Drawing on literature and regulation (eg, EU AI Act, FDA GMLP) and two case studies, we show how continuous auditing, lifecycle checkpoints, Algorithmic management encourages continuous bias auditing</em>
+- **[Fostering an Inclusive Future Through Responsible Artificial Intelligence for Persons with Disabilities](https://www.researchgate.net/profile/Kent-Schroeder-2/publication/404358636_AI_for_Whom_Global_Perspectives_on_Responsible_AI_for_Inclusive_Development_IDI_Technology_and_Development_Series)** — J Arthur, AB Banful, DM Fosu, MI Ali, P Dawson - AI for Whom?
+  - <em>Creating varied AI development teams, using broad and representative datasets to train AI models, and putting strict testing and auditing procedures in place to detect and lower biases</em>
+- **[Algorithmic Racism in AI Chatbots: Epistemic and Ethical Prespectives on Auditing](https://link.springer.com/content/pdf/10.1007/978-3-032-15112-4.pdf#page=534)** — S Molick - The Palgrave Handbook on the Ethics of Artificial …
+  - <em>We address the problem of formulating adequate guidelines for mitigating racial bias in AI systems by arguing that audit models for these technologies must incorporate</em>
+- **[AI Unveiled: From Techno Bias to Solutions Within Education and Beyond](https://books.google.com/books?hl=en&lr=lang_en&id=z6HYEQAAQBAJ&oi=fnd&pg=PR5&dq=Auditor+Bias&ots=SG174TU62C&sig=UFRDs7CXqq9z4nZgfR4Ye3iMrZU)** — ML Akassi - 2026
+  - <em>Women at far higher rates, sparking nationwide calls for algorithmic transparency and bias auditing in academia.</em>
+- **[Adaptive Generative AI Framework for Creating Rare-Disease Synthetic EHRs with Built-In Bias Mitigation and Privacy Guarantees](https://wijar.westcliff.edu/wp-content/uploads/2026/05/WIJAR-Volume-10-Issue-1-Spring-2026-Complete.pdf#page=35)** — RM Jewel, MS Bhuiyan, MDH Rahman, AA Linkon… - Journal of Applied Research, 2026
+  - <em>Synthetic datasets might capture biases even without the direct inclusion of identifiers or mirror patterns that serve to underrepresent a particular group of people.</em>
+- **[Breaking Language Barriers or Reinforcing Bias? A Study of Gender and Racial Disparities in Multilingual CLIP](https://www.researchgate.net/profile/Zahraa_Al_Sahili/publication/391911086_Breaking_Language_Barriers_or_Reinforcing_Bias_A_Study_of_Gender_and_Racial_Disparities_in_Multilingual_Contrastive_Vision_Language_Models/links/68c482989534473a6d4a8adb/Breaking-Language-Barriers-or-Reinforcing-Bias-A-Study-of-Gender-and-Racial-Disparities-in-Multilingual-Contrastive-Vision-Language-Models.pdf)** — Z Al Sahili, I Patras, M Purver - work
+  - <em>Multilingual vision–language models (VLMs) promise universal image–text retrieval, yet their social biases remain under-explored. We perform the first systematic audit of four public multilingual CLIP variants—M-CLIP, NLLB-CLIP</em>
+- **[Beyond Bias Detection: Community Auditors and Normative Reasoning in AI Oversight](https://dl.acm.org/doi/pdf/10.1145/3788042)** — C Jackson, T Ahmad, SD Raj, N Wu - Proceedings of the ACM on Human-Computer …, 2026
+  - <em>In recent years, there has been considerable momentum in developing frameworks, guidelines, and tools for auditing AI systems for potential issues such as bias, unfairness, and broader societal harms (eg, [2, 5, 8, 29]). An algorithm audit is …</em>
+- **[Mitigating Algorithmic Bias in AI-Powered Toxicology: Frameworks for Explainable and Equitable Predictions in Human Health and Environmental Safety](https://www.sciencedirect.com/science/article/pii/S0378427426001074)** — OM Ajisafe, LA Ogebule, E Egbon, OF Olawuyi… - Toxicology Letters, 2026
+  - <em>biases can lead to inaccurate predictions, disproportionate errors in vulnerable subgroups (eg, demographic or geographic disparities in human health outcomes), and unreliable environmental safety evaluations. This review synthesises sources of …</em>
+- **[From prompt engineering to prompt design: Research strategies for visual generative AI](https://journals.sagepub.com/doi/pdf/10.1177/20539517261451462)** — G Colombo, S Niederer, C De Gaetano - Big Data & Society, 2026
+  - <em>First, we describe how ambiguous prompting enables bias research and illustrate this strategy with a study of the visual representation of … Earlier work largely focused on auditing bias; more recently, researchers have begun experimenting …</em>
+- **[The Audit Gap: Why Existing Assurance Frameworks Fail for AI Systems and What Comes Next](https://www.researchgate.net/profile/Ali-Shaik-3/publication/405022752_The_Audit_Gap_Why_Existing_Assurance_Frameworks_Fail_for_AI_Systems_and_What_Comes_Next/links/6a0c821c9d7cce6f5c759a85/The-Audit-Gap-Why-Existing-Assurance-Frameworks-Fail-for-AI-Systems-and-What-Comes-Next.pdf)** — AS Shaik
+  - <em>New York City's Local Law 144 requires bias audits for automated employment decision tools, creating the first US mandatory AI audit … The evaluation depth deficit means that an AI system can pass every control-based audit while producing …</em>
+- **[ETHICAL AND REGULATORY CHALLENGES OF DEPLOYING AI IN CYBERSECURITY MANAGEMENT: A USA-BASED ANALYSIS](https://journal.anspolyjoid.org.ng/index.php/ajid/article/download/76/58)** — O Olisa - ANSPOLY JOURNAL OF INNOVATIVE …, 2026
+  - <em>frameworks, this study identifies critical challenges including algorithmic bias, accountability mechanisms, privacy preservation, and the balance … Algorithmic Auditing: Regular auditing of AI algorithms for bias, fairness, and effectiveness has …</em>
+- **[A Framework for Ethical AI Audits: Mitigating Bias and Enhancing Transparency in Information Systems](https://ieeexplore.ieee.org/abstract/document/11518929/)** — M Anas - 2026 3rd International Conference on Research …, 2026
+  - <em>Abstract—As artificial intelligence (AI) systems become increasingly integrated into decision-making processes, concerns regarding bias, … This paper proposes a structured audit framework aimed at mitigating bias and optimizing fairness …</em>
+- **[AI Algorithmic Bias, Neurodiscrimination, and Neurorights: Towards Conceptual Clarity in NeuroAI](https://link.springer.com/article/10.1007/s12152-026-09649-1)** — MQ Wang - Neuroethics, 2026
+  - <em>Ethical or technical responses to bias may focus on redesign, auditing, transparency, or data correction [10]. By contrast, legal responses to discrimination may require decision-makers to justify differential treatment, provide reasonable …</em>
+- **[Algorithmic Bias in AI-Mediated Communication Systems: Transparency, Power Asymmetries, and the Role of Explainable Artificial Intelligence](https://ieeexplore.ieee.org/abstract/document/11519239/)** — M Gangrade, S Sivasamy - 2026 International Conference on Smart Multidomain …, 2026
+  - <em>In the interests of transparency and accountability, we have put forward an explainability-driven framework that allows for systematic bias auditing and also makes it possible to have a human in the loop who is informed and therefore …</em>
+- **[… SECURE AI-BLOCKCHAIN INNOVATION METHODOLOGY FOR MODERNIZING TAX ADMINISTRATION, ENHANCING AUDIT TRANSPARENCY, AND EXPANDING …](https://accsaglobal.org/wp-content/uploads/2026/05/ACCSA-Global-Conference-Proceedings-Done.pdf#page=155)** — IN FAITH - PRINTED BY: ACCSA Global
+  - <em>Second, fairness-aware AI with Equalized Odds constraints that eliminates the demographic bias baked into current audit selection, ending the pattern of statistical redlining that has disproportionately targeted minority and lowincome taxpayers …</em>
+- **[AI and Blockchain in Forensic Auditing: A Review of Tools for Investigating Financial Crimes in the US](https://www.researchgate.net/profile/Olivia-Nartey-3/publication/399660001_AI_and_Blockchain_in_Forensic_Auditing_A_Review_of_Tools_for_Investigating_Financial_Crimes_in_the_US/links/6a03be590fc2cb502284eb8a/AI-and-Blockchain-in-Forensic-Auditing-A-Review-of-Tools-for-Investigating-Financial-Crimes-in-the-US.pdf)** — OL Nartey, E Agyei, B Anim, MM Yeboah
+  - <em>AI-driven analytics can be trained directly on blockchain-verified datasets, reducing data bias and enhancing audit credibility. Likewise, blockchain can … In forensic auditing, blockchain provides an incorruptible audit trail, ensuring that all …</em>
+- **[I-SAFE: Wasserstein Coherence Metrics for Structural Auditing of Scientific AI Models](https://arxiv.org/pdf/2605.21731)** — B Tarantino, G Auricchio, P Giudici - arXiv preprint arXiv:2605.21731, 2026
+  - <em>We audit three sequence-based DTI models that differ in their target-side inductive biases. DeepDTA [24] provides a convolutional baseline over … TAPB [20] incorporates target-aware attention together with an interventional debiasing …</em>
 
 ## April 2026
 
 - **[When AI Speaks, Whose Values Does It Express? A Cross-Cultural Audit of Individualism-Collectivism Bias in Large Language Models](https://arxiv.org/pdf/2604.22153)** — PJ Venkata - arXiv preprint arXiv:2604.22153, 2026
   - <em>Anonymous (2024) address the alignment side of the problem, proposing a multi-agent framework to fix cultural bias across 18 countries; our contribution is upstream: rigorously measuring the bias</em>
-- **[How Supply Chain Dependencies Complicate Bias Measurement and Accountability Attribution in AI Hiring Applications](https://arxiv.org/pdf/2604.22679)** — G Sharma, M Molamohammadi - arXiv preprint arXiv:2604.22679, 2026
-  - <em>Bias landscape these systems create and the technical dependencies through which bias propagates. We document systematic discrimination patterns across demographics</em>
 - **[Bias at the End of the Score](https://ui.adsabs.harvard.edu/abs/2026arXiv260413305A/abstract)** — S Abdel Magid, G Guo, E Tureci, A Dharmasiri - arXiv e-prints, 2026
   - <em>We conduct a large scale audit of RM robustness with respect to demographic biases during T2I model training and generation.</em>
 - **[Spontaneous Persuasion: An Audit of Model Persuasiveness in Everyday Conversations](https://arxiv.org/pdf/2604.22109)** — N Poungpeth, N Clark, T Mitra - arXiv preprint arXiv:2604.22109, 2026
   - <em>The use of synthetic data can perpetuate biases due to how the LLMs are trained, meaning that the user responses might</em>
+- **[Smart Audit: The Role of AI, Risk Management, and Governance in Enhancing Audit Quality](https://jurnal.unigo.ac.id/gaj/article/download/4701/2049)** — IL Putra, S Widhiyanti - Gorontalo Accounting Journal, 2026
+  - <em>For investors, it offers the potential to improve audit quality while also raising concerns about possible algorithm bias.</em>
 - **[Rethinking XAI Evaluation: A Human-Centered Audit of Shapley Benchmarks in High-Stakes Settings](https://arxiv.org/pdf/2604.22662)** — S Jesus, I Perez, RP Ribeiro, C Soares, H Ferreira - arXiv preprint arXiv …, 2026
   - <em>Empirical XAI audit. Quantitative benchmarks reveal systematic functional variation. By analyzing the gap between Confidence and Accuracy, we specifically audit for automation bias</em>
 - **[Skeptical Chatbot: A Theory-Based Design for Judgment and Decision-Making in Auditing](https://dl.acm.org/doi/pdf/10.1145/3793428)** — C De Silva, T Halloluwa, A Das, A Singh, M Azim - Interactions, 2026
   - <em>Bias or reinforce compliance-only behavior. But if designed thoughtfully, AI can also embody the reflective, probing stance that auditors</em>
-- **[Ethical Issues and Bias in Artificial Intelligence Systems](https://www.researchgate.net/profile/Saphal-Lamsal/publication/404162789_Ethical_Issues_and_Bias_in_Artificial_Intelligence_Systems)** — S Lamsal
-  - <em>Whether such audit-based approaches can detect the more subtle forms of bias described in the academic literature remains an open</em>
+- **[Exploring the interaction between auditing and reporting standards and governance in explaining home bias](https://www.tandfonline.com/doi/pdf/10.1080/23311975.2026.2661895)** — M Baccouri, D Talbi, SB Cheikh, A Rejeb - Cogent Business & Management, 2026
+  - <em>Strength of Auditing and Reporting Standards (SARS) and governance on home bias across. Significant negative association between SARS and home bias</em>
+- **[Explainability gaps in AI-driven criminal justice governance: the RisCanvi case](https://link.springer.com/article/10.1007/s00146-026-03039-0)** — O Mentxaka, J López-Montilla, D Urrutia-Onate - AI & SOCIETY, 2026
+  - <em>Technical-and-governance blueprint for auditing and improving RisCanVi in a high-risk. To guide the responsible deployment and auditing of RisCanVi</em>
+- **[AI-Driven Inventory Auditing: A Systematic Literature Review of Automation Accuracy, Assurance Risks, and Emerging Frameworks](https://jurnal.globalscients.com/index.php/jakp/article/download/1277/1263)** — NR Sari, A Wulansari, FD Haqqi, R Tharika - …, 2026
+  - <em>Audit inventaris, namun sintesis sistematis yang mengintegrasikan dimensi akurasi otomatisasi, risiko asurans</em>
+- **[Attributional Ambiguity in AI-Mediated Harm: How Perceived AI System Limitations Shape Forgiveness and Regulatory Demand](https://www.tandfonline.com/doi/abs/10.1080/08838151.2026.2663851)** — K Park, J Yang - Journal of Broadcasting & Electronic Media, 2026
+  - <em>Within corporate settings, these biases are more than technical anomalies. They reflect complex organizational decisions. Auditing routines, technical bias monitoring, human oversight</em>
+- **[Constrained inverse inference and counterfactual auditing for dual-signal elimination systems](https://ieeexplore.ieee.org/abstract/document/11484279/)** — J Chen, Y Yin - 2026 9th International Symposium on Big Data and …, 2026
+  - <em>Because the public component is often unobserved due to privacy constraints, sampling bias, or strategic behavior</em>
+- **[Validating AI-Enhanced Assessment in Higher Education (A Qualitative Multi-Phase Study on Fairness, Trust, and Cultural Adaptation in the Middle East)](https://www.ajrsp.com/en/Archive/issue-84/2.pdf)** — NF Assaf - Academic Journal of Research and Scientific …, 2026
+  - <em>For instance, continuous monitoring, bias auditing, and curriculum alignment were described as institutional obligations.</em>
+- **[Self-Auditing](https://scholar.google.com/scholar?q=Self-Auditing)** — LLMs for Bias and Hallucination Reduction Through Multi - Agent Frameworks AB AM, R Chitra - 2026
+  - <em>To address this fundamental</em>
+- **[Bias in the](https://arxiv.org/abs/2604.16790)** — Loop: Auditing LLM - as-a-Judge for Software Engineering Z Zhao, A Esmaeili, F Fard - arXiv preprint arXiv:2604.16790, 2026
+  - <em>We find that judge decisions are highly sensitive to prompt</em>
+- **[Polarization by](https://arxiv.org/abs/2604.15937)** — Default: Auditing Recommendation Bias in LLM - Based Content Curation N Pagan, C Barrie, CA Bail, P Törnberg - arXiv preprint arXiv:2604.15937, 2026
+  - <em>biases in these tasks remains</em>
+- **[Beyond](https://scholar.google.com/scholar?q=Beyond)** — One Metric: A Cultural Bias Audit of Style Transfer with SSIM/LPIPS/Gram/Palette YH Chou, YK Chou, ML Liu, YP Chou - 2026 International Conference on Artificial …, 2026
+  - <em>While extensive surveys</em>
+- **[Auditing](https://scholar.google.com/scholar?q=Auditing)** — Bias in AI - Based Hiring Systems: A Fairness Analysis of Nationality and Gender Discrimination X Shkajoti - 2026
+  - <em>This thesis investigates potential bias in AI-based hiring systems,</em>
 - **[T2I-BiasBench:](https://scholar.google.com/scholar?q=T2I-BiasBench%3A)** — A Multi - Metric Framework for Auditing Demographic and Cultural Bias in Text-to-Image Models N Jaiswal, S Arjaria, G Chaubey, A Kumar, A Singh - arXiv preprint arXiv …, 2026
   - <em>but</em>
 - **[Edu-MMBias: A Three-Tier Multimodal Benchmark for Auditing Social Bias in Vision-Language Models under Educational Contexts R Li, M Zhang, Z Yu, Y Wei, B Jiang](https://arxiv.org/abs/2604.10200)** — arXiv preprint arXiv:2604.10200,
-- **[AI Bias and Its Implications for the Hiring Process, Lending, and Consumer Analytics in the USA K Amponsah, F Boakye, MO Boateng, OA Fred](https://scholar.google.com/scholar?q=AI%20Bias%20and%20Its%20Implications%20for%20the%20Hiring%20Process%2C%20Lending%2C%20and%20Consumer%20Analytics%20in%20the%20USA%20K%20Amponsah%2C%20F%20Boakye%2C%20MO%20Boateng%2C%20OA%20Fred)**
-  - <em>of bias and their possible implications on</em>
+- **[A](https://scholar.google.com/scholar?q=A)** — NOVEL FRAMEWORK FOR ERASING AI BIAS: INTEGRATING CAUSAL MODELING, BLOCKCHAIN ACCOUNTABILITY, AND MULTIDIMENSIONAL FAIRNESS EJA Al - Mohamad - INTERNATIONAL JOURNAL OF ENGINEERING …, 2026
+  - <em>bias</em>
+- **[SocioEval:](https://scholar.google.com/scholar?q=SocioEval%3A)** — A Template - Based Framework for Evaluating Socioeconomic Status Bias in Foundation Models D Kumar, I Gupta, NA Birur, T Baswa, S Agarwal - arXiv preprint arXiv …, 2026
 - **[A survey on bias and fairness in machine unlearning](https://scholar.google.com/scholar?q=A%20survey%20on%20bias%20and%20fairness%20in%20machine%20unlearning)** — M Partohaghighi, R Marcia, BJ West, YQ Chen - Journal of Information and …, 2026
   - <em>bias and fairness in MU.</em>
 - **[BIAS, FAIRNESS, AND INCLUSIVITY IN GENERATIVE AI SYSTEMS: A CRITICAL EXAMINATION OF ALGORITHMIC BIAS, REPRESENTATION GAPS A Gupta](https://scholar.google.com/scholar?q=BIAS%2C%20FAIRNESS%2C%20AND%20INCLUSIVITY%20IN%20GENERATIVE%20AI%20SYSTEMS%3A%20A%20CRITICAL%20EXAMINATION%20OF%20ALGORITHMIC%20BIAS%2C%20REPRESENTATION%20GAPS%20A%20Gupta)** — Journal of Integrative Science and Societal Impact
@@ -173,49 +256,73 @@ Source: Google Scholar alert "Auditor Bias"
 
 ## March 2026
 
+- **[The](https://scholar.google.com/scholar?q=The)** — Dice Roll Method: A Standardized Protocol for Measuring Stochastic Bias in Large Language Model Outputs D Żatuchin - 2026
+  - <em>Researchers increasingly use repeated identical prompts to measure</em>
+- **[Impact of data analytics on fraud prevention and public trust in the United States JT Mensah, OB Akinsanya](https://scholar.google.com/scholar?q=Impact%20of%20data%20analytics%20on%20fraud%20prevention%20and%20public%20trust%20in%20the%20United%20States%20JT%20Mensah%2C%20OB%20Akinsanya)** — institutional bias and strengthens procedural fairness.
 - **[How Can You Tell if Your Large Language Model Could Be a Closet Antisemite? An Explainability-Based Audit Framework for Implicit Bias A Dutta, R Fayyazi, S Yang, AR KhudaBukhsh -](https://scholar.google.com/scholar?q=How%20Can%20You%20Tell%20if%20Your%20Large%20Language%20Model%20Could%20Be%20a%20Closet%20Antisemite%3F%20An%20Explainability-Based%20Audit%20Framework%20for%20Implicit%20Bias%20A%20Dutta%2C%20R%20Fayyazi%2C%20S%20Yang%2C%20AR%20KhudaBukhsh%20-)**
   - <em>of the AAAI</em>
 - **[Ethical Bias Heatmap Generator for AI Models: A Multi-Dimensional Fairness Auditing Framework B KUMAR, S SHIVANI, DS GEERTHANA](https://scholar.google.com/scholar?q=Ethical%20Bias%20Heatmap%20Generator%20for%20AI%20Models%3A%20A%20Multi-Dimensional%20Fairness%20Auditing%20Framework%20B%20KUMAR%2C%20S%20SHIVANI%2C%20DS%20GEERTHANA)** — societal biases present in their training data
+- **[Sensemaking in](https://scholar.google.com/scholar?q=Sensemaking%20in)** — User - Driven Algorithm Auditing: A Case Study on Gender Bias in an Image Captioning Model B Mohammadzadeh, J Françoise, M Gouiffès - Proceedings of the 2026
 - **[Scalable Intersectional Bias Auditing in Vision-Language Models through Combinatorial Interaction Testing H Bin, J Choi, JH Kim, S Kim, S Yoo](https://scholar.google.com/scholar?q=Scalable%20Intersectional%20Bias%20Auditing%20in%20Vision-Language%20Models%20through%20Combinatorial%20Interaction%20Testing%20H%20Bin%2C%20J%20Choi%2C%20JH%20Kim%2C%20S%20Kim%2C%20S%20Yoo)** — Algorithmic Fairness Across Alignment Procedures and …
 - **[Bridging the Gap: A Lifecycle-Based Framework for Mitigating Bias in Organizational AI Systems AM Ibrahim](https://scholar.google.com/scholar?q=Bridging%20the%20Gap%3A%20A%20Lifecycle-Based%20Framework%20for%20Mitigating%20Bias%20in%20Organizational%20AI%20Systems%20AM%20Ibrahim)**
   - <em>Required activities include auditing training data for historical bias</em>
+- **[Ensuring](https://scholar.google.com/scholar?q=Ensuring)** — Ethical and Equitable AI: From Bias Mitigation to Algorithmic Auditing R Rana, P Bhambri - Ethical, Regulatory, and Intellectual Property Impacts …, 2026
 
 ## February 2026
 
-- **[Integrating](https://scholar.google.com/scholar?q=Integrating)** — Governance, Transparency, and Safety Standards in High - Stakes Clinical AI E Kovács - 2026
-  - <em>Post-deployment monitoring, bias auditing, and system validation</em>
+- **[Who](https://scholar.google.com/scholar?q=Who)** — Invests, Who Gets Funded: Gender and Racial Bias in LLM - Generated Investment Advice Y Wang, K Gu - Journal of Business Ethics, 2026
+  - <em>We develop a two-sided audit</em>
 
 ## January 2026
 
+- **[Fairness and](https://scholar.google.com/scholar?q=Fairness%20and)** — Discrimination Risks in Neuro - Augmented AI Hiring: A Framework for Proactive Algorithmic Auditing C Alexander, S John, R Mary - 2026
 - **[Geographical Bias in AI-Driven Academic Search: A Statistical Audit of LLMs R Cortés, L Clementi, C Gray](https://scholar.google.com/scholar?q=Geographical%20Bias%20in%20AI-Driven%20Academic%20Search%3A%20A%20Statistical%20Audit%20of%20LLMs%20R%20Cort%C3%A9s%2C%20L%20Clementi%2C%20C%20Gray)** — Meta-Research on Artificial Intelligence in Research …
 - **[Social Dimensions in Content Creation for Games: A Systematic Review of Fairness, Social Bias, and Diversity in Computational Character and Environment](https://scholar.google.com/scholar?q=Social%20Dimensions%20in%20Content%20Creation%20for%20Games%3A%20A%20Systematic%20Review%20of%20Fairness%2C%20Social%20Bias%2C%20and%20Diversity%20in%20Computational%20Character%20and%20Environment)**
   - <em>R Horst, R Dörner - 2025</em>
+- **[Political](https://scholar.google.com/scholar?q=Political)** — Alignment in Large Language Models: A Multidimensional Audit of Psychometric Identity and Behavioral Bias A Sakhawat, T Islam, T Farhin, SR Raiyan, H Mahmud - arXiv preprint arXiv …, 2026
 - **[Bias and Fairness in AI Models for Patient Monitoring: Auditing an Automated Early-Warning System A Singh](https://scholar.google.com/scholar?q=Bias%20and%20Fairness%20in%20AI%20Models%20for%20Patient%20Monitoring%3A%20Auditing%20an%20Automated%20Early-Warning%20System%20A%20Singh)**
   - <em>Purpose: This study conducts a comprehensive algorithmic audit of a widely deployed AI-</em>
+- **[Governance and](https://scholar.google.com/scholar?q=Governance%20and)** — IT Policy Implications of Mandated Fairness Audits S Asghar - 2026
 
 ## December 2025
 
 - **[Decision-Making Bias in AI: Do Large Language Models Discriminate? S Bello](https://scholar.google.com/scholar?q=Decision-Making%20Bias%20in%20AI%3A%20Do%20Large%20Language%20Models%20Discriminate%3F%20S%20Bello)**
   - <em>This research investigates bias and fairness in large language models (LLMs) across hiring, political</em>
+- **[Public](https://scholar.google.com/scholar?q=Public)** — Perceptions of Algorithmic Bias and Fairness in Cloud - Based Decision Systems A Alhosban, R Gaire, H Al-Ababneh - Standards, 2026
 - **[Using Large Language Models to Audit Model Healthcare Biases ZN Ansari, A Fanous, JA Omiye, A Agarwal -](https://scholar.google.com/scholar?q=Using%20Large%20Language%20Models%20to%20Audit%20Model%20Healthcare%20Biases%20ZN%20Ansari%2C%20A%20Fanous%2C%20JA%20Omiye%2C%20A%20Agarwal%20-)**
   - <em>2026: Proceedings of the …, 2025</em>
+- **[The ethical imperative of algorithmic fairness in](https://scholar.google.com/scholar?q=The%20ethical%20imperative%20of%20algorithmic%20fairness%20in)** — AI - enabled hiring: a critical analysis of bias, accountability, and justice J Law - AI and Ethics, 2026
 - **[Bias in Black Boxes: A Framework for Auditing Algorithmic Fairness in Financial Lending Models VKB Parasaram](https://scholar.google.com/scholar?q=Bias%20in%20Black%20Boxes%3A%20A%20Framework%20for%20Auditing%20Algorithmic%20Fairness%20in%20Financial%20Lending%20Models%20VKB%20Parasaram)**
+- **[The Evolving Role of Internal Audit in the Digital Era (2019 to 2025): A Systematic Review of Artificial Intelligence (AI), Data Analytics, and Cybersecurity Practices E Ahmed, G Japee](https://scholar.google.com/scholar?q=The%20Evolving%20Role%20of%20Internal%20Audit%20in%20the%20Digital%20Era%20%282019%20to%202025%29%3A%20A%20Systematic%20Review%20of%20Artificial%20Intelligence%20%28AI%29%2C%20Data%20Analytics%2C%20and%20Cybersecurity%20Practices%20E%20Ahmed%2C%20G%20Japee)** — Journal
 - **[FAIRNESS AND BIAS MITIGATION IN AI-BASED CREDIT SCORING USING ALTERNATIVE DATA: A FRAMEWORK FOR ETHICAL FINANCIAL INCLUSION DA Oware, SA Junior](https://scholar.google.com/scholar?q=FAIRNESS%20AND%20BIAS%20MITIGATION%20IN%20AI-BASED%20CREDIT%20SCORING%20USING%20ALTERNATIVE%20DATA%3A%20A%20FRAMEWORK%20FOR%20ETHICAL%20FINANCIAL%20INCLUSION%20DA%20Oware%2C%20SA%20Junior)**
 - **[A fairness-aware machine learning framework for maternal health in Ghana: integrating explainability, bias mitigation, and causal inference for ethical AI deployment A Osborne, K Usani](https://scholar.google.com/scholar?q=A%20fairness-aware%20machine%20learning%20framework%20for%20maternal%20health%20in%20Ghana%3A%20integrating%20explainability%2C%20bias%20mitigation%2C%20and%20causal%20inference%20for%20ethical%20AI%20deployment%20A%20Osborne%2C%20K%20Usani)** — BioData
-- **[Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models NH Park, N An, K Kim, S Yoon, J Huo, H Shim](https://arxiv.org/abs/2512.04981)** — arXiv preprint arXiv:2512.04981
 
 ## November 2025
 
+- **[Algorithmic](https://scholar.google.com/scholar?q=Algorithmic)** — Bias and Fairness in Medical AI: Ensuring Equity in Data - Driven Healthcare Innovation GS Lawal - 2025
+- **[Audit 4.0: Determinants and Implications of Audit Opinions in the AI Era SM Latjompo, AD Anggraeni, N Namra, A Amiruddin -](https://scholar.google.com/scholar?q=Audit%204.0%3A%20Determinants%20and%20Implications%20of%20Audit%20Opinions%20in%20the%20AI%20Era%20SM%20Latjompo%2C%20AD%20Anggraeni%2C%20N%20Namra%2C%20A%20Amiruddin%20-)**
+  - <em>Accounting Review (AMAR), 2026</em>
+- **[Benchmarking](https://arxiv.org/abs/2511.08225)** — Educational LLMs with Analytics: A Case Study on Gender Bias in Feedback Y Du, C Borchers, M Cukurova - arXiv preprint arXiv:2511.08225, 2025
 - **[MELISSA: Multi-level Evaluation with LLM-based Integrated Self-Scrutiny and Auditing A Afsharrad, S Jaladi, N Yazdani, A Ansari, SS Mousavi -](https://scholar.google.com/scholar?q=MELISSA%3A%20Multi-level%20Evaluation%20with%20LLM-based%20Integrated%20Self-Scrutiny%20and%20Auditing%20A%20Afsharrad%2C%20S%20Jaladi%2C%20N%20Yazdani%2C%20A%20Ansari%2C%20SS%20Mousavi%20-)**
   - <em>on Multi-Turn Interactions in Large …</em>
+- **[Fairness-Driven](https://scholar.google.com/scholar?q=Fairness-Driven)** — Model Auditing: Eliminating Socio - Algorithmic Bias in Large-Scale AI Deployments GM Naveen - Journal of Responsible AI & Ethics, 2025
+- **[Implications of generative](https://scholar.google.com/scholar?q=Implications%20of%20generative)** — AI technology on auditing practice and research–a commentary D Zhang, J Zhou - Managerial Auditing Journal, 2025
+- **[An Empirical Study of Auditor Judgment and Bias in Fair Value Accounting Assessments V Douglas, A Perry, P Graham](https://scholar.google.com/scholar?q=An%20Empirical%20Study%20of%20Auditor%20Judgment%20and%20Bias%20in%20Fair%20Value%20Accounting%20Assessments%20V%20Douglas%2C%20A%20Perry%2C%20P%20Graham)**
 
 ## October 2025
 
+- **[Auditing and](https://arxiv.org/abs/2510.17873)** — Mitigating Bias in Gender Classification Algorithms: A Data - Centric Approach TK Bahiru, NT Sinshaw, TH Moges, DK Singh - arXiv preprint arXiv:2510.17873, 2025
+- **[Responsible](https://scholar.google.com/scholar?q=Responsible)** — AI in NLP: GUS - Net Span-Level Bias Detection Dataset and Benchmark for Generalizations, Unfairness, and Stereotypes M Powers, S Raza, A Chang, R Riaz, U Mavani - 2025
 - **[Beyond Mimicry: Auditing Human Bias to Build Fairer AI for Alzheimer's Assessment L He, R Feng, X Han, YL Liu, J Yuan -](https://scholar.google.com/scholar?q=Beyond%20Mimicry%3A%20Auditing%20Human%20Bias%20to%20Build%20Fairer%20AI%20for%20Alzheimer%27s%20Assessment%20L%20He%2C%20R%20Feng%2C%20X%20Han%2C%20YL%20Liu%2C%20J%20Yuan%20-)**
   - <em>of the 27th International Conference on …, 2025</em>
 - **[Surgeons Are Indian Males and Speech Therapists Are White Females: Auditing Biases in Vision-Language Models for Healthcare Professionals ZH Siddiqui, D Nadeem, MM Rahman, M Nadeem](https://scholar.google.com/scholar?q=Surgeons%20Are%20Indian%20Males%20and%20Speech%20Therapists%20Are%20White%20Females%3A%20Auditing%20Biases%20in%20Vision-Language%20Models%20for%20Healthcare%20Professionals%20ZH%20Siddiqui%2C%20D%20Nadeem%2C%20MM%20Rahman%2C%20M%20Nadeem)** — arXiv
+- **[The Impact of the Board's Characteristics and The Auditor Dispositional Optimism Bias on Internal Audit Quality: Evidence from Saudi Listed Firms R AlFraih, EB Mohamed](https://scholar.google.com/scholar?q=The%20Impact%20of%20the%20Board%27s%20Characteristics%20and%20The%20Auditor%20Dispositional%20Optimism%20Bias%20on%20Internal%20Audit%20Quality%3A%20Evidence%20from%20Saudi%20Listed%20Firms%20R%20AlFraih%2C%20EB%20Mohamed)** — مجلة العلوم الإدارية
+- **[Fairness in](https://scholar.google.com/scholar?q=Fairness%20in)** — Predictive Marketing: Auditing and Mitigating Demographic Bias in Machine Learning for Customer Targeting SP Pasupuleti, J Kola, SPM Kodete, SH Palli - Analytics, 2025
 - **[Data Matters Most: Auditing Social Bias in Contrastive Vision–Language Models Z Al Sahili, I Patras, M Purver](https://scholar.google.com/scholar?q=Data%20Matters%20Most%3A%20Auditing%20Social%20Bias%20in%20Contrastive%20Vision%E2%80%93Language%20Models%20Z%20Al%20Sahili%2C%20I%20Patras%2C%20M%20Purver)**
 
 ## September 2025
 
-- **[Fine-Tuning Large Models with Moral Bias Datasets: An Empirical Study M Zhu, Y Gao](https://scholar.google.com/scholar?q=Fine-Tuning%20Large%20Models%20with%20Moral%20Bias%20Datasets%3A%20An%20Empirical%20Study%20M%20Zhu%2C%20Y%20Gao)**
+- **[When](https://arxiv.org/abs/2509.18874)** — Ads Become Profiles: Large - Scale Audit of Algorithmic Biases and LLM Profiling Risks B Chen, B Tag, H Xue, D Angus, F Salim - arXiv preprint arXiv:2509.18874, 2025
+- **[Destination (Un)Known:](https://scholar.google.com/scholar?q=Destination%20%28Un%29Known%3A)** — Auditing Bias and Fairness in LLM - Based Travel Recommendations H Andreev, P Kosmas, AD Livieratos, A Theocharous - AI, 2025
+- **[Prestige over merit:](https://arxiv.org/abs/2509.15122)** — An adapted audit of LLM bias in peer review A Howell, J Wang, L Du, J Melkers, V Shah - arXiv preprint arXiv:2509.15122, 2025
+- **[Toward](https://scholar.google.com/scholar?q=Toward)** — Fair and Interpretable AI: A Regulation - Aware Framework for Detecting Bias and Mitigating Unfairness V Markova - 2025
