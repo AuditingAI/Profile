@@ -29,7 +29,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-OUT = "ALL_IN_ONE_DBA_Package_v2.docx"
+OUT = "ALL_IN_ONE_DBA_Package_v3.docx"
 
 master  = open("Research_Paper_YMalik_v4_master.md", encoding="utf-8").read()
 playbook = open("NotebookLM_Playbook.md", encoding="utf-8").read()
@@ -48,6 +48,29 @@ linkedin = extract_docx("LinkedIn_Outreach_Pack.docx")
 readme   = extract_docx("Read_Me_First.docx")
 readiness = open("Data_Collection_Readiness.md", encoding="utf-8").read()
 rey_2026_06_01 = open("correspondence/2026-06-01_Rey_feedback_and_response.md", encoding="utf-8").read()
+
+# READY packet (filed 2026-06-01 in 03_Recruitment_and_Pilot/)
+pilot_readme = open("03_Recruitment_and_Pilot/README.md", encoding="utf-8").read()
+pilot_protocol = extract_docx("03_Recruitment_and_Pilot/YMalik_Informed_Pilot_Protocol_READY_2026-06-01.docx")
+cloudresearch = extract_docx("03_Recruitment_and_Pilot/YMalik_CloudResearch_Launch_Draft_READY_2026-06-01.docx")
+mturk = extract_docx("03_Recruitment_and_Pilot/YMalik_MTurk_Backup_Launch_Draft_READY_2026-06-01.docx")
+
+# Extract xlsx feedback workbook as text tables
+def extract_xlsx(path):
+    from openpyxl import load_workbook
+    wb = load_workbook(path, data_only=True)
+    out = []
+    for sn in wb.sheetnames:
+        ws = wb[sn]
+        out.append(f"## Sheet: {sn}\n")
+        for row in ws.iter_rows(values_only=True):
+            cells = [str(c) if c is not None else "" for c in row]
+            if any(c.strip() for c in cells):
+                out.append(" | ".join(cells))
+        out.append("")
+    return "\n".join(out)
+
+pilot_xlsx = extract_xlsx("03_Recruitment_and_Pilot/YMalik_Pilot_Feedback_Form_and_Revision_Log_READY_2026-06-01.xlsx")
 
 doc = Document()
 normal = doc.styles["Normal"]
@@ -129,11 +152,17 @@ toc = [
     ("PART II  ADVISOR CORRESPONDENCE & DATA-COLLECTION READINESS", 1),
     ("2026-06-01  Dr. Rey feedback + response draft", 2),
     ("Data Collection Readiness checklist", 2),
-    ("PART III  SUPPORTING WORKFLOW MATERIALS", 1),
+    ("PART III  INFORMED PILOT & RECRUITMENT (READY packet, 2026-06-01)", 1),
+    ("03_Recruitment_and_Pilot folder README", 2),
+    ("Informed Pilot Protocol", 2),
+    ("Pilot Feedback Form + Revision Log (workbook contents)", 2),
+    ("CloudResearch Launch Draft (primary route)", 2),
+    ("MTurk Backup Launch Draft (secondary route)", 2),
+    ("PART IV  SUPPORTING WORKFLOW MATERIALS", 1),
     ("Weekly Update  Week 1 (revised)", 2),
     ("LinkedIn Outreach Pack (IRB-approved recruitment copy)", 2),
     ("Read Me First (folder guide)", 2),
-    ("PART IV  WORKING TOOLKIT", 1),
+    ("PART V  WORKING TOOLKIT", 1),
     ("NotebookLM Playbook (ADD-friendly extraction workflow)", 2),
     ("Repository and Branch Links", 2),
 ]
@@ -287,8 +316,41 @@ doc.add_heading("Data Collection Readiness checklist", level=2)
 render_markdown(readiness, drop_front_matter=False)
 doc.add_page_break()
 
-# PART III
-doc.add_heading("PART III  SUPPORTING WORKFLOW MATERIALS", level=1)
+# PART III  Informed Pilot & Recruitment (READY packet)
+doc.add_heading("PART III  INFORMED PILOT & RECRUITMENT (READY packet, 2026-06-01)", level=1)
+p = doc.add_paragraph()
+inline(p, "Filed at dba/03_Recruitment_and_Pilot/ in response to Dr. Rey's 2026-06-01 request to "
+          "(a) load the instrument into Qualtrics for face validity, (b) run an informed pilot, and "
+          "(c) position the survey on a recruiting platform. The protocol, feedback form, revision log, "
+          "and both recruiting-platform launch drafts are all READY.")
+doc.add_page_break()
+
+doc.add_heading("03_Recruitment_and_Pilot folder README", level=2)
+render_markdown(pilot_readme, drop_front_matter=False)
+doc.add_page_break()
+
+doc.add_heading("Informed Pilot Protocol", level=2)
+emit_plain_text(pilot_protocol, smart_headings=True)
+doc.add_page_break()
+
+doc.add_heading("Pilot Feedback Form + Revision Log (workbook contents)", level=2)
+p = doc.add_paragraph()
+inline(p, "Workbook with four tabs: Pilot Participant Log, Pilot Feedback Form (PF1-PF10), "
+          "Revision Log, and Pilot Decision Summary. The structures are reproduced below as text "
+          "tables; use the live .xlsx for actual logging.")
+emit_plain_text(pilot_xlsx, smart_headings=True)
+doc.add_page_break()
+
+doc.add_heading("CloudResearch Launch Draft (primary route)", level=2)
+emit_plain_text(cloudresearch, smart_headings=True)
+doc.add_page_break()
+
+doc.add_heading("MTurk Backup Launch Draft (secondary route)", level=2)
+emit_plain_text(mturk, smart_headings=True)
+doc.add_page_break()
+
+# PART IV  Supporting Workflow Materials
+doc.add_heading("PART IV  SUPPORTING WORKFLOW MATERIALS", level=1)
 p = doc.add_paragraph()
 inline(p, "Course-administrative artifacts and recruitment copy that the paper depends on but does not "
           "include. Do not submit these to the advisor as part of the research paper; they live here "
@@ -307,8 +369,8 @@ doc.add_heading("Read Me First (folder guide)", level=2)
 emit_plain_text(readme, smart_headings=True)
 doc.add_page_break()
 
-# PART IV
-doc.add_heading("PART IV  WORKING TOOLKIT", level=1)
+# PART V
+doc.add_heading("PART V  WORKING TOOLKIT", level=1)
 p = doc.add_paragraph()
 inline(p, "Tools the author uses to extend the paper. The NotebookLM Playbook is the primary workflow "
           "for adding more verified citations per construct without losing focus.")
@@ -322,7 +384,9 @@ doc.add_page_break()
 doc.add_heading("Repository and Branch Links", level=2)
 links = [
     ("All-in-One package (this document)",
-     "https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/ALL_IN_ONE_DBA_Package_v1.docx"),
+     "https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/ALL_IN_ONE_DBA_Package_v3.docx"),
+    ("Interactive dashboard (open in browser)",
+     "https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/dashboard.html"),
     ("Research paper v4.1 (send this to Prof. Rey)",
      "https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4.docx"),
     ("Research paper markdown master (editable source)",

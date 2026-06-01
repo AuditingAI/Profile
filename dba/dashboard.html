@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DBA — Anchoring Bias Project Dashboard · Yasir A. Malik</title>
+<style>
+  :root {
+    --bg: #f7f8fb;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #5b6470;
+    --accent: #1a4e8a;
+    --accent-2: #b8650a;
+    --ok: #1e7a46;
+    --warn: #c47a00;
+    --danger: #b3261e;
+    --line: #e5e8ee;
+    --chip-bg: #eef2f9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.45;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 22px 80px; }
+  header.top {
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 24px;
+    border-bottom: 1px solid var(--line); padding-bottom: 18px; margin-bottom: 24px;
+  }
+  header.top h1 { margin: 0 0 4px; font-size: 24px; letter-spacing: -0.01em; }
+  header.top .sub { color: var(--muted); font-size: 13px; }
+  header.top .meta { font-size: 12px; color: var(--muted); text-align: right; }
+  .pill {
+    display: inline-block; padding: 3px 10px; border-radius: 999px;
+    background: var(--chip-bg); color: var(--accent); font-size: 12px; font-weight: 600;
+  }
+  .pill.ok { background: #e6f5ec; color: var(--ok); }
+  .pill.warn { background: #fff4e0; color: var(--warn); }
+  .pill.danger { background: #fbe7e5; color: var(--danger); }
+
+  nav.tabs {
+    display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 22px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 6px;
+    position: sticky; top: 8px; z-index: 5; box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  nav.tabs button {
+    border: 0; background: transparent; padding: 8px 12px; font: inherit; cursor: pointer;
+    border-radius: 8px; color: var(--muted); font-weight: 600; font-size: 13px;
+  }
+  nav.tabs button:hover { background: var(--chip-bg); color: var(--ink); }
+  nav.tabs button.active { background: var(--accent); color: white; }
+
+  section.panel { display: none; }
+  section.panel.active { display: block; animation: fade .18s ease-in; }
+  @keyframes fade { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: none; } }
+
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px 20px; margin-bottom: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  }
+  .card h2 { margin: 0 0 8px; font-size: 17px; }
+  .card h3 { margin: 14px 0 6px; font-size: 14px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.04em; }
+  .card p { margin: 6px 0; font-size: 14px; }
+
+  .grid { display: grid; gap: 14px; }
+  .grid.two { grid-template-columns: 1fr 1fr; }
+  .grid.three { grid-template-columns: 1fr 1fr 1fr; }
+  @media (max-width: 780px) { .grid.two, .grid.three { grid-template-columns: 1fr; } }
+
+  .stage {
+    border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: white;
+    display: flex; align-items: flex-start; gap: 14px;
+  }
+  .light { width: 14px; height: 14px; border-radius: 50%; flex: 0 0 14px; margin-top: 6px;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.04); }
+  .light.green { background: #2faa5e; }
+  .light.yellow { background: #e0a712; }
+  .light.red { background: #d9483e; }
+  .stage h3 { margin: 0; font-size: 14px; color: var(--ink); text-transform: none; letter-spacing: 0; }
+  .stage .desc { color: var(--muted); font-size: 13px; margin-top: 4px; }
+
+  ul.check { list-style: none; padding: 0; margin: 8px 0 0; }
+  ul.check li {
+    display: flex; align-items: flex-start; gap: 10px; padding: 8px 10px;
+    border-radius: 8px; transition: background .12s ease;
+  }
+  ul.check li:hover { background: var(--chip-bg); }
+  ul.check li.done > label { text-decoration: line-through; color: var(--muted); }
+  ul.check input[type="checkbox"] { margin-top: 4px; transform: scale(1.15); cursor: pointer; }
+  ul.check label { font-size: 14px; cursor: pointer; user-select: none; flex: 1; }
+  ul.check .note { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+
+  a.btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--accent); color: white; border-radius: 8px; padding: 8px 12px;
+    text-decoration: none; font-weight: 600; font-size: 13px;
+  }
+  a.btn.secondary { background: white; color: var(--accent); border: 1px solid var(--accent); }
+  a.btn:hover { filter: brightness(1.06); }
+
+  .link-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 780px) { .link-grid { grid-template-columns: 1fr; } }
+  .link-card {
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+    display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--ink);
+    background: white;
+  }
+  .link-card:hover { border-color: var(--accent); transform: translateY(-1px); transition: all .12s; }
+  .link-card .label { font-weight: 600; font-size: 14px; }
+  .link-card .sub { color: var(--muted); font-size: 12px; word-break: break-all; }
+
+  .meeting-step {
+    border-left: 3px solid var(--accent); padding: 6px 12px; margin: 10px 0;
+  }
+  .meeting-step .num { font-weight: 700; color: var(--accent); margin-right: 6px; }
+  .meeting-step .time { color: var(--muted); font-size: 12px; margin-left: 6px; }
+
+  pre.email {
+    background: #fafbfd; border: 1px solid var(--line); border-radius: 10px;
+    padding: 14px 16px; white-space: pre-wrap; font-family: ui-monospace, "Cascadia Mono", Menlo, monospace;
+    font-size: 13px; line-height: 1.55;
+  }
+  .copybtn {
+    float: right; border: 1px solid var(--line); background: white; border-radius: 6px;
+    padding: 4px 8px; cursor: pointer; font-size: 12px; color: var(--accent); font-weight: 600;
+  }
+  .copybtn:hover { background: var(--chip-bg); }
+
+  .progress {
+    height: 8px; background: var(--chip-bg); border-radius: 999px; overflow: hidden; margin-top: 10px;
+  }
+  .progress > div { height: 100%; background: linear-gradient(90deg, #2faa5e, #1a4e8a); width: 0%; transition: width .3s; }
+
+  details.deck { border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 8px 0; background: white; }
+  details.deck summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--accent); }
+  details.deck[open] summary { margin-bottom: 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table th, table td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+  table th { background: var(--chip-bg); font-weight: 600; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+  table td code { font-size: 12px; color: var(--accent); }
+
+  .figure { text-align: center; }
+  .figure img { max-width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+  .figure .cap { color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+  footer.foot { text-align: center; color: var(--muted); font-size: 12px; margin-top: 32px; }
+  .resetbtn { background: none; border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 12px; color: var(--muted); }
+  .resetbtn:hover { color: var(--danger); border-color: var(--danger); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>DBA Anchoring-Bias Project — Dashboard</h1>
+      <div class="sub">Mitigating Anchoring Bias in Long-Term Auditor Engagements · An EFA-Based Validation Study</div>
+      <div class="sub" style="margin-top:6px">
+        <span class="pill ok">Paper v4.1 complete</span>
+        <span class="pill ok">READY packet filed</span>
+        <span class="pill warn">3 blockers before pilot launch</span>
+      </div>
+    </div>
+    <div class="meta">
+      Yasir A. Malik · PID 1687105<br/>
+      FIU DBA Cohort 7.16 · GEB7913<br/>
+      Advisor: Prof. Dr. Juan Rey<br/>
+      Compiled 2026-06-01
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="active" data-tab="overview">Overview</button>
+    <button data-tab="email">Email to Dr. Rey</button>
+    <button data-tab="meeting">Meeting walkthrough</button>
+    <button data-tab="pilot">Pilot launch</button>
+    <button data-tab="readiness">Full readiness</button>
+    <button data-tab="model">Research model</button>
+    <button data-tab="files">All files</button>
+  </nav>
+
+  <!-- ========================= OVERVIEW ========================= -->
+  <section class="panel active" id="overview">
+    <div class="card">
+      <h2>Project status, at a glance</h2>
+      <p>This is the single page Dr. Rey should open. It tracks every artifact in the repo, every blocker between current state and live data collection, and the meeting script for the next conversation.</p>
+      <div class="progress" aria-hidden="true"><div id="prog-bar"></div></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted);margin-top:6px">
+        <span><span id="prog-text">0 of 0</span> launch tasks complete</span>
+        <button class="resetbtn" onclick="resetAll()">Reset all checks</button>
+      </div>
+    </div>
+
+    <div class="grid two">
+      <div class="card">
+        <h2>Five stages — traffic-light view</h2>
+        <div class="stage"><div class="light green"></div><div><h3>Stage 0 — Ethics & IRB</h3><div class="desc">Protocol IRB-25-0462 approved (5-yr exempt). Topaz PI-change amendment is the only follow-up.</div></div></div>
+        <div class="stage"><div class="light yellow"></div><div><h3>Stage 1 — Instrument</h3><div class="desc">11-construct instrument drafted in Appendix A. Reconciliation + Qualtrics build + face-validity sign-off remaining.</div></div></div>
+        <div class="stage"><div class="light green"></div><div><h3>Stage 2 — Informed Pilot</h3><div class="desc">READY packet filed 2026-06-01: protocol, feedback form, revision log, decision rules.</div></div></div>
+        <div class="stage"><div class="light green"></div><div><h3>Stage 3 — Recruiting platforms</h3><div class="desc">CloudResearch + MTurk launch drafts READY. Sequencing locked (CloudResearch first).</div></div></div>
+        <div class="stage"><div class="light green"></div><div><h3>Stage 4 — Analysis pipeline</h3><div class="desc">EFA + PROCESS Model 4 mediation specified in § 4.4 of paper.</div></div></div>
+      </div>
+
+      <div class="card">
+        <h2>The three remaining blockers</h2>
+        <p style="color:var(--muted)">Each is addressable in today's meeting.</p>
+        <ul class="check" data-store="blockers">
+          <li><input type="checkbox" id="b1"><label for="b1">Reconcile Appendix A items with IRB-approved instrument and load into Qualtrics<span class="note">Files: Appendix A in <code>Research_Paper_YMalik_v4.docx</code> vs. <code>Updated Measurement Instrument – Malik, Y.docx</code></span></label></li>
+          <li><input type="checkbox" id="b2"><label for="b2">Get Dr. Rey's face-validity sign-off on the Qualtrics build<span class="note">Action in meeting: screen-share Qualtrics editor</span></label></li>
+          <li><input type="checkbox" id="b3"><label for="b3">Get Dr. Rey's sign-off on LinkedIn outreach copy<span class="note">File: <code>LinkedIn_Outreach_Pack.docx</code> — 3 IRB-aligned templates</span></label></li>
+        </ul>
+
+        <h3 style="margin-top:18px">Then immediately</h3>
+        <ul class="check" data-store="next">
+          <li><input type="checkbox" id="n1"><label for="n1">Send pilot link to 6–10 LinkedIn audit contacts</label></li>
+          <li><input type="checkbox" id="n2"><label for="n2">Run informed pilot (target n = 6–10)</label></li>
+          <li><input type="checkbox" id="n3"><label for="n3">Apply pilot revisions per the Revision Log decision rules</label></li>
+          <li><input type="checkbox" id="n4"><label for="n4">CloudResearch soft launch (n = 10–15)</label></li>
+          <li><input type="checkbox" id="n5"><label for="n5">CloudResearch full launch toward n = 60–80</label></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>What to send Dr. Rey — in one click</h2>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:8px">
+        <a class="btn" href="Research_Paper_YMalik_v4.docx">📄 Research Paper v4.1 (the deliverable)</a>
+        <a class="btn secondary" href="ALL_IN_ONE_DBA_Package_v3.docx">📦 All-in-One v3 (everything in one Word doc)</a>
+        <a class="btn secondary" href="https://github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba" target="_blank" rel="noopener">🔗 Browse the repo folder</a>
+      </div>
+      <p style="margin-top:14px;color:var(--muted);font-size:13px">If Dr. Rey opens only one thing, it should be <strong>this dashboard</strong>. If he opens only one file, it should be <strong>Research_Paper_YMalik_v4.docx</strong>.</p>
+    </div>
+  </section>
+
+  <!-- ========================= EMAIL ========================= -->
+  <section class="panel" id="email">
+    <div class="card">
+      <h2>Draft reply to Dr. Rey's 2026-06-01 message</h2>
+      <p style="color:var(--muted)">Copy, paste into your mail client, send. Asks for today; offers tomorrow 1:15 PM as fallback.</p>
+      <button class="copybtn" onclick="copyEmail()">Copy email</button>
+      <pre class="email" id="email-body">Subject: Re: v4.1 — can we meet today? READY packet on the repo.
+
+Dr. Rey —
+
+Thank you, that note means a great deal and the direction is clear.
+
+I'd like to ask if we can meet today instead of tomorrow, if any window is open in your calendar. Since your message I have filed the full READY packet for the informed pilot and the recruiting platforms — pilot protocol, feedback form, revision log, CloudResearch launch draft, and MTurk backup launch draft — all on the project branch. The only remaining work before the pilot launches is loading the IRB-reconciled instrument into Qualtrics and getting your face-validity sign-off on the build and on the LinkedIn outreach copy. The plan is to send the pilot link to 6–10 audit-practitioner contacts on LinkedIn this week, and I want your eyes on the build before that goes out.
+
+Everything is browsable on this branch:
+https://github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba
+
+The three things most worth opening:
+
+1. Interactive Dashboard (dba/dashboard.html) — single page with project status, traffic-light readiness, pilot launch sequence, and one-click links to every artifact. Open in any browser.
+
+2. Research_Paper_YMalik_v4.docx — the revised paper (Ch. 2 and Ch. 3 fully expanded per our last call; figure embedded in Ch. 3; instrument in Appendix A).
+
+3. ALL_IN_ONE_DBA_Package_v3.docx — single consolidated document with the paper, the new READY packet, the readiness checklist, weekly update, recruitment copy, and working notes — all in one navigable file.
+
+If today doesn't work, I will be on your Zoom at 1:15 PM tomorrow as planned.
+
+Thank you again — Yasir
+
+Yasir A. Malik
+PID 1687105 | FIU DBA Cohort 7.16</pre>
+    </div>
+  </section>
+
+  <!-- ========================= MEETING ========================= -->
+  <section class="panel" id="meeting">
+    <div class="card">
+      <h2>Meeting walkthrough — 30 minutes, in order</h2>
+      <p style="color:var(--muted)">Have the dashboard, Qualtrics, and the v4 paper open in three browser tabs before the call starts.</p>
+      <div class="meeting-step"><span class="num">1.</span> <strong>The Dashboard</strong> <span class="time">2 min</span><br/>Open <code>dba/dashboard.html</code> and walk the traffic-light view. Sets the frame: 3 blockers, the rest is ready.</div>
+      <div class="meeting-step"><span class="num">2.</span> <strong>The Paper (v4.1)</strong> <span class="time">5 min</span><br/>Show Ch. 2 structure — theory section with selected lens, one section per construct. Show Ch. 3 — figure embedded, all 16 hypothesis sections titled by relationship. Show Appendix A instrument.</div>
+      <div class="meeting-step"><span class="num">3.</span> <strong>Qualtrics build</strong> <span class="time">5 min</span><br/>Screen-share the live editor. Walk: consent block → demographics → randomized construct blocks → attention checks → reverse-coded items → submission. <strong>Ask for face-validity sign-off.</strong></div>
+      <div class="meeting-step"><span class="num">4.</span> <strong>Informed Pilot Protocol</strong> <span class="time">5 min</span><br/>Walk the READY packet: protocol doc, feedback form PF1–PF10, revision log, decision rules. Confirm n = 6–10 and the boundary that wording-only revisions stay in scope.</div>
+      <div class="meeting-step"><span class="num">5.</span> <strong>CloudResearch Launch Draft</strong> <span class="time">5 min</span><br/>Walk: study listing, soft-launch n = 10–15, quality filters, target n = 60–80. <strong>Ask for compensation-amount confirmation.</strong></div>
+      <div class="meeting-step"><span class="num">6.</span> <strong>MTurk Backup</strong> <span class="time">2 min</span><br/>Confirm sequencing — CloudResearch first, MTurk only if yield insufficient.</div>
+      <div class="meeting-step"><span class="num">7.</span> <strong>LinkedIn outreach copy</strong> <span class="time">3 min</span><br/>Three IRB-aligned templates in <code>LinkedIn_Outreach_Pack.docx</code>. <strong>Ask for sign-off</strong> so the 6–10 pilot invitations can go out this week.</div>
+      <div class="meeting-step"><span class="num">8.</span> <strong>Open items</strong> <span class="time">3 min</span><br/>Topaz PI-change amendment status. Missing <code>Recruiting_Launch_Checklist</code>. Anything else.</div>
+    </div>
+
+    <div class="card">
+      <h2>Three asks for Dr. Rey, in plain language</h2>
+      <ul class="check" data-store="asks">
+        <li><input type="checkbox" id="a1"><label for="a1">Face-validity sign-off on the Qualtrics build</label></li>
+        <li><input type="checkbox" id="a2"><label for="a2">Sign-off on the LinkedIn outreach copy (3 templates)</label></li>
+        <li><input type="checkbox" id="a3"><label for="a3">Confirm the CloudResearch compensation amount and that CloudResearch-first sequencing is right</label></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ========================= PILOT ========================= -->
+  <section class="panel" id="pilot">
+    <div class="card">
+      <h2>Informed pilot — launch sequence</h2>
+      <p style="color:var(--muted)">The READY packet is filed at <code>dba/03_Recruitment_and_Pilot/</code>. Tick each item as it clears. The pilot launches when the first block is green.</p>
+      <h3>Block A — Before sending any pilot link</h3>
+      <ul class="check" data-store="pilot-a">
+        <li><input type="checkbox" id="p1"><label for="p1">Reconcile Appendix A with IRB-approved instrument; log any deltas</label></li>
+        <li><input type="checkbox" id="p2"><label for="p2">Load reconciled instrument into FIU Qualtrics</label></li>
+        <li><input type="checkbox" id="p3"><label for="p3">Qualtrics preview test — eligible path</label></li>
+        <li><input type="checkbox" id="p4"><label for="p4">Qualtrics preview test — screen-out path</label></li>
+        <li><input type="checkbox" id="p5"><label for="p5">Confirm: completion time 15–20 minutes</label></li>
+        <li><input type="checkbox" id="p6"><label for="p6">Confirm: no sensitive data requested (employer/client/account/personal financial/clinical)</label></li>
+        <li><input type="checkbox" id="p7"><label for="p7">Confirm: IP retention disabled in Qualtrics</label></li>
+        <li><input type="checkbox" id="p8"><label for="p8">Export test — variable names and reverse-code flags match the map</label></li>
+        <li><input type="checkbox" id="p9"><label for="p9">Face-validity sign-off from Dr. Rey</label></li>
+        <li><input type="checkbox" id="p10"><label for="p10">LinkedIn outreach copy sign-off from Dr. Rey</label></li>
+      </ul>
+
+      <h3>Block B — Pilot execution</h3>
+      <ul class="check" data-store="pilot-b">
+        <li><input type="checkbox" id="p11"><label for="p11">Identify 6–10 LinkedIn audit contacts meeting eligibility (≥2 yrs, long-term-engagement exposure)</label></li>
+        <li><input type="checkbox" id="p12"><label for="p12">Send personalized invitations with anonymous Qualtrics link + feedback-form link</label></li>
+        <li><input type="checkbox" id="p13"><label for="p13">Capture: completion times, item-clarity feedback (PF1–PF10), technical issues</label></li>
+        <li><input type="checkbox" id="p14"><label for="p14">Log every issue in the Revision Log (severity + advisor-review flag)</label></li>
+        <li><input type="checkbox" id="p15"><label for="p15">Apply wording-only revisions; flag any scope-affecting feedback to advisor before applying</label></li>
+        <li><input type="checkbox" id="p16"><label for="p16">Close the 6 launch-gating criteria in the Decision Summary tab</label></li>
+      </ul>
+
+      <h3>Block C — Move to CloudResearch soft launch</h3>
+      <ul class="check" data-store="pilot-c">
+        <li><input type="checkbox" id="p17"><label for="p17">Create CloudResearch project; load study listing from the draft</label></li>
+        <li><input type="checkbox" id="p18"><label for="p18">Configure eligibility screening (age 18+, audit role, ≥2 yrs, recurring-engagement exposure)</label></li>
+        <li><input type="checkbox" id="p19"><label for="p19">Route via anonymous Qualtrics link; use redirect/completion code (no IDs in Qualtrics)</label></li>
+        <li><input type="checkbox" id="p20"><label for="p20">Soft-launch: 10–15 responses; review eligibility pass rate, attention checks, timing, duplicates, export integrity</label></li>
+        <li><input type="checkbox" id="p21"><label for="p21">Proceed to full launch toward n = 60–80 only after soft-launch QA passes</label></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Pilot decision rules (from READY protocol)</h2>
+      <table>
+        <thead><tr><th>Area</th><th>Trigger</th><th>Action</th></tr></thead>
+        <tbody>
+          <tr><td>Clarity</td><td>Avg clarity &lt; 4/5 or repeated confusion</td><td>Revise wording only; preserve construct meaning</td></tr>
+          <tr><td>Construct fit</td><td>Avg construct-fit &lt; 4/5</td><td>Review wording; flag advisor if construct meaning may shift</td></tr>
+          <tr><td>Audit-language fit</td><td>Wording not natural for auditors</td><td>Revise audit phrasing; do not add constructs</td></tr>
+          <tr><td>Response burden</td><td>Time &gt; 20 min or repeated fatigue comments</td><td>Review redundancy; do not remove items without advisor approval</td></tr>
+          <tr><td>IRB scope</td><td>Suggestions for AI items, new populations, sensitive data, or new domains</td><td><strong>Do not revise directly.</strong> Flag for advisor / IRB review before launch.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ========================= READINESS ========================= -->
+  <section class="panel" id="readiness">
+    <div class="card">
+      <h2>Full readiness checklist — by stage</h2>
+      <p style="color:var(--muted)">Mirrors <code>Data_Collection_Readiness.md</code>. Expand each stage to see line items.</p>
+
+      <details class="deck" open>
+        <summary>🟢 Stage 0 — Ethics & IRB (complete)</summary>
+        <ul class="check" data-store="s0">
+          <li><input type="checkbox" id="s0-1" checked><label for="s0-1">IRB Protocol IRB-25-0462 approved 2025-09-02 (5-yr exempt)</label></li>
+          <li><input type="checkbox" id="s0-2" checked><label for="s0-2">Informed-consent letter approved and embedded as first survey screen</label></li>
+          <li><input type="checkbox" id="s0-3" checked><label for="s0-3">Fixed-compensation structure (no incentive tied to answer content)</label></li>
+          <li><input type="checkbox" id="s0-4"><label for="s0-4">Topaz PI-change amendment filed</label></li>
+          <li><input type="checkbox" id="s0-5" checked><label for="s0-5">Data handling: anonymous Qualtrics, IP retention disabled, FIU-secured storage</label></li>
+        </ul>
+      </details>
+
+      <details class="deck">
+        <summary>🟡 Stage 1 — Instrument (final build in progress)</summary>
+        <ul class="check" data-store="s1">
+          <li><input type="checkbox" id="s1-1" checked><label for="s1-1">11 constructs operationalized (§§ 2.4–2.13)</label></li>
+          <li><input type="checkbox" id="s1-2" checked><label for="s1-2">55 items + 12 demographics drafted in Appendix A</label></li>
+          <li><input type="checkbox" id="s1-3" checked><label for="s1-3">Reverse-coded items embedded (one per construct)</label></li>
+          <li><input type="checkbox" id="s1-4" checked><label for="s1-4">Two attention checks embedded</label></li>
+          <li><input type="checkbox" id="s1-5"><label for="s1-5">Reconciled against IRB-approved instrument</label></li>
+          <li><input type="checkbox" id="s1-6"><label for="s1-6">Loaded into Qualtrics with full logic</label></li>
+          <li><input type="checkbox" id="s1-7"><label for="s1-7">Preview tests passed (eligible + screen-out)</label></li>
+          <li><input type="checkbox" id="s1-8"><label for="s1-8">Face-validity sign-off from Dr. Rey</label></li>
+        </ul>
+      </details>
+
+      <details class="deck">
+        <summary>🟢 Stage 2 — Informed Pilot (READY packet filed)</summary>
+        <ul class="check" data-store="s2">
+          <li><input type="checkbox" id="s2-1" checked><label for="s2-1">Informed Pilot Protocol filed (purpose, participants, procedure, decision rules)</label></li>
+          <li><input type="checkbox" id="s2-2" checked><label for="s2-2">Pilot Feedback Form (PF1–PF10) ready</label></li>
+          <li><input type="checkbox" id="s2-3" checked><label for="s2-3">Pilot Participant Log structure ready (anonymous Pilot IDs only)</label></li>
+          <li><input type="checkbox" id="s2-4" checked><label for="s2-4">Revision Log structure ready (severity + scope flag)</label></li>
+          <li><input type="checkbox" id="s2-5" checked><label for="s2-5">Decision Summary criteria ready (6 launch gates)</label></li>
+          <li><input type="checkbox" id="s2-6"><label for="s2-6">6–10 pilot recipients identified</label></li>
+          <li><input type="checkbox" id="s2-7"><label for="s2-7">Pilot invitation copy finalized</label></li>
+        </ul>
+      </details>
+
+      <details class="deck">
+        <summary>🟢 Stage 3 — Recruiting platforms (drafts READY)</summary>
+        <ul class="check" data-store="s3">
+          <li><input type="checkbox" id="s3-1" checked><label for="s3-1">CloudResearch launch draft READY (study listing, soft-launch, quality filters)</label></li>
+          <li><input type="checkbox" id="s3-2" checked><label for="s3-2">MTurk backup launch draft READY</label></li>
+          <li><input type="checkbox" id="s3-3" checked><label for="s3-3">Sequencing locked: CloudResearch first, MTurk only if insufficient</label></li>
+          <li><input type="checkbox" id="s3-4" checked><label for="s3-4">LinkedIn outreach pack (3 IRB-aligned templates) drafted</label></li>
+          <li><input type="checkbox" id="s3-5"><label for="s3-5">LinkedIn copy sign-off from Dr. Rey</label></li>
+          <li><input type="checkbox" id="s3-6"><label for="s3-6">CloudResearch account + project setup complete</label></li>
+          <li><input type="checkbox" id="s3-7"><label for="s3-7">Compensation amount confirmed with Dr. Rey</label></li>
+          <li><input type="checkbox" id="s3-8"><label for="s3-8"><code>Recruiting_Launch_Checklist</code> xlsx located and added to repo</label></li>
+        </ul>
+      </details>
+
+      <details class="deck">
+        <summary>🟢 Stage 4 — Analysis pipeline (plan documented)</summary>
+        <ul class="check" data-store="s4">
+          <li><input type="checkbox" id="s4-1" checked><label for="s4-1">Cleaning → descriptives → reliability (α ≥ .70) → EFA → correlations → regression → PROCESS Model 4 (5,000 bootstraps)</label></li>
+          <li><input type="checkbox" id="s4-2"><label for="s4-2">SPSS + PROCESS access via FIU confirmed</label></li>
+          <li><input type="checkbox" id="s4-3"><label for="s4-3">EFA decision rules locked (loading ≥ 0.40, cross-loading ≤ 0.30)</label></li>
+          <li><input type="checkbox" id="s4-4"><label for="s4-4">Sample-size monitoring: min 60 / target 80 / hard stop 100</label></li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <!-- ========================= MODEL ========================= -->
+  <section class="panel" id="model">
+    <div class="card">
+      <h2>Research model</h2>
+      <p style="color:var(--muted)">8 audit-process interventions → 2 mediators (AJQ cognitive, APR procedural) → 1 DV (Reduction in Anchoring Bias). 8 direct hypotheses (dashed) + 8 mediated hypotheses (solid).</p>
+      <div class="figure">
+        <img src="Anchoring_Bias_Research_Model.png" alt="Research model: 8 IVs → AJQ/APR → RAB" />
+        <div class="cap">Figure 1. Research Model — also embedded as Figure 1 in Chapter 3 of the paper.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Eleven constructs at a glance</h2>
+      <table>
+        <thead><tr><th>Code</th><th>Construct</th><th>Role</th><th>Anchor citation</th></tr></thead>
+        <tbody>
+          <tr><td><code>TA</code></td><td>Training & Awareness</td><td>IV (cognitive)</td><td>Earley (2001)</td></tr>
+          <tr><td><code>RA</code></td><td>Rotation of Auditors</td><td>IV (cognitive)</td><td>Arel, Brody, & Pany (2005)</td></tr>
+          <tr><td><code>AT</code></td><td>Use of Analytical Tools</td><td>IV (cognitive)</td><td>Yoon, Hoogduin, & Zhang (2015)</td></tr>
+          <tr><td><code>SAP</code></td><td>Structured Auditing Processes</td><td>IV (procedural)</td><td>Dowling & Leech (2007)</td></tr>
+          <tr><td><code>FR</code></td><td>Feedback & Reflection</td><td>IV (cognitive)</td><td>Bamber & Iyer (2007)</td></tr>
+          <tr><td><code>IR</code></td><td>Independent Reviews</td><td>IV (procedural)</td><td>DeFond & Francis (2005)</td></tr>
+          <tr><td><code>RPG</code></td><td>Regulatory & Professional Guidance</td><td>IV (cognitive)</td><td>PCAOB (2015)</td></tr>
+          <tr><td><code>PMI</code></td><td>Performance Metrics & Incentives</td><td>IV (cognitive)</td><td>Knechel (2013)</td></tr>
+          <tr><td><code>AJQ</code></td><td>Auditor Judgment Quality</td><td>Mediator</td><td>Bonner (2008)</td></tr>
+          <tr><td><code>APR</code></td><td>Audit Process Rigor</td><td>Mediator</td><td>Nelson & Tan (2005)</td></tr>
+          <tr><td><code>RAB</code></td><td>Reduction in Anchoring Bias</td><td>DV</td><td>Tversky & Kahneman (1974)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ========================= FILES ========================= -->
+  <section class="panel" id="files">
+    <div class="card">
+      <h2>Repository artifacts — clickable directory</h2>
+      <p style="color:var(--muted)">Local file links (relative paths) for when you have the repo cloned, plus GitHub permalinks for sharing.</p>
+
+      <h3>Primary deliverables</h3>
+      <div class="link-grid">
+        <a class="link-card" href="Research_Paper_YMalik_v4.docx"><span class="label">📄 Research_Paper_YMalik_v4.docx</span><span class="sub">The advisor submission. Ch.2/Ch.3 expanded; figure in Ch.3; instrument in Appendix A.</span></a>
+        <a class="link-card" href="ALL_IN_ONE_DBA_Package_v3.docx"><span class="label">📦 ALL_IN_ONE_DBA_Package_v3.docx</span><span class="sub">Single navigable Word doc containing everything below. ~70 pp.</span></a>
+        <a class="link-card" href="dashboard.html"><span class="label">📊 dashboard.html (this page)</span><span class="sub">Interactive project dashboard.</span></a>
+        <a class="link-card" href="Anchoring_Bias_Research_Model.png"><span class="label">🖼️ Anchoring_Bias_Research_Model.png</span><span class="sub">Research-model figure (also embedded in Ch.3).</span></a>
+      </div>
+
+      <h3>READY packet — Recruitment & Pilot (filed 2026-06-01)</h3>
+      <div class="link-grid">
+        <a class="link-card" href="03_Recruitment_and_Pilot/README.md"><span class="label">📁 03_Recruitment_and_Pilot / README</span><span class="sub">Folder protocol + launch sequence.</span></a>
+        <a class="link-card" href="03_Recruitment_and_Pilot/YMalik_Informed_Pilot_Protocol_READY_2026-06-01.docx"><span class="label">🧪 Informed Pilot Protocol</span><span class="sub">6–10 auditor pilot: purpose, procedure, decision rules.</span></a>
+        <a class="link-card" href="03_Recruitment_and_Pilot/YMalik_Pilot_Feedback_Form_and_Revision_Log_READY_2026-06-01.xlsx"><span class="label">📊 Pilot Feedback Form + Revision Log</span><span class="sub">4 tabs: Participant Log, Feedback PF1–PF10, Revision Log, Decision Summary.</span></a>
+        <a class="link-card" href="03_Recruitment_and_Pilot/YMalik_CloudResearch_Launch_Draft_READY_2026-06-01.docx"><span class="label">🚀 CloudResearch Launch Draft</span><span class="sub">Primary recruiting route — study listing + soft-launch protocol.</span></a>
+        <a class="link-card" href="03_Recruitment_and_Pilot/YMalik_MTurk_Backup_Launch_Draft_READY_2026-06-01.docx"><span class="label">🛟 MTurk Backup Launch Draft</span><span class="sub">Use only if CloudResearch yield insufficient.</span></a>
+      </div>
+
+      <h3>Supporting workflow materials</h3>
+      <div class="link-grid">
+        <a class="link-card" href="Final_Proposal_YMalik_v3.docx"><span class="label">📄 Final Proposal v3 (baseline)</span><span class="sub">Original ~10-pp proposal before the v4 expansion.</span></a>
+        <a class="link-card" href="Weekly_Update_W01_v2.docx"><span class="label">📅 Weekly Update — Week 1 v2</span><span class="sub">Stage snapshot, deliverables, risks.</span></a>
+        <a class="link-card" href="LinkedIn_Outreach_Pack.docx"><span class="label">💼 LinkedIn Outreach Pack</span><span class="sub">3 IRB-aligned recruitment templates.</span></a>
+        <a class="link-card" href="Read_Me_First.docx"><span class="label">📌 Read Me First</span><span class="sub">Folder onboarding guide.</span></a>
+        <a class="link-card" href="Data_Collection_Readiness.md"><span class="label">✅ Data Collection Readiness checklist</span><span class="sub">Full source of truth for stage status.</span></a>
+        <a class="link-card" href="correspondence/2026-06-01_Rey_feedback_and_response.md"><span class="label">📨 Dr. Rey 2026-06-01 — feedback + response</span><span class="sub">Verbatim email + drafted reply + walkthrough notes.</span></a>
+      </div>
+
+      <h3>Working toolkit</h3>
+      <div class="link-grid">
+        <a class="link-card" href="NotebookLM_Playbook.md"><span class="label">📓 NotebookLM Playbook</span><span class="sub">ADD-friendly workflow for extracting more verified citations.</span></a>
+        <a class="link-card" href="Research_Paper_YMalik_v4_master.md"><span class="label">📝 Markdown master (editable)</span><span class="sub">Source file behind the v4.1 docx.</span></a>
+        <a class="link-card" href="make_model_figure.py"><span class="label">🐍 make_model_figure.py</span><span class="sub">Regenerates the model figure.</span></a>
+        <a class="link-card" href="build_docx.py"><span class="label">🐍 build_docx.py</span><span class="sub">Regenerates the paper .docx from markdown.</span></a>
+        <a class="link-card" href="build_allinone.py"><span class="label">🐍 build_allinone.py</span><span class="sub">Regenerates the All-in-One consolidated doc.</span></a>
+      </div>
+
+      <h3>Shareable permalinks (GitHub)</h3>
+      <div class="link-grid">
+        <a class="link-card" href="https://github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba" target="_blank" rel="noopener"><span class="label">🌐 Repo folder</span><span class="sub">github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba</span></a>
+        <a class="link-card" href="https://github.com/AuditingAI/Profile/commits/claude/scholar-links-review-Plgk6" target="_blank" rel="noopener"><span class="label">📜 Commit history</span><span class="sub">github.com/AuditingAI/Profile/commits/...</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot">
+    DBA Project · Yasir A. Malik · FIU · last updated 2026-06-01 · checks persist in your browser via localStorage
+  </footer>
+</div>
+
+<script>
+  // Tab switching
+  const tabs = document.querySelectorAll('nav.tabs button');
+  const panels = document.querySelectorAll('section.panel');
+  tabs.forEach(b => b.addEventListener('click', () => {
+    tabs.forEach(x => x.classList.remove('active'));
+    panels.forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    document.getElementById(b.dataset.tab).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }));
+
+  // Persisted checkboxes via localStorage
+  const STORAGE_KEY = 'dba-dashboard-v1';
+  const state = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  const allBoxes = document.querySelectorAll('input[type="checkbox"]');
+  allBoxes.forEach(cb => {
+    if (state[cb.id] !== undefined) cb.checked = state[cb.id];
+    cb.addEventListener('change', () => {
+      state[cb.id] = cb.checked;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      updateProgress();
+      cb.closest('li')?.classList.toggle('done', cb.checked);
+    });
+    cb.closest('li')?.classList.toggle('done', cb.checked);
+  });
+
+  function updateProgress() {
+    // Count "launch" items only — those in pilot blocks A/B/C + the 3 main blockers
+    const launchIds = [
+      'b1','b2','b3','n1','n2','n3','n4','n5',
+      'p1','p2','p3','p4','p5','p6','p7','p8','p9','p10',
+      'p11','p12','p13','p14','p15','p16',
+      'p17','p18','p19','p20','p21'
+    ];
+    const done = launchIds.filter(id => state[id]).length;
+    const total = launchIds.length;
+    const pct = total ? Math.round(done / total * 100) : 0;
+    document.getElementById('prog-bar').style.width = pct + '%';
+    document.getElementById('prog-text').textContent = `${done} of ${total}`;
+  }
+  updateProgress();
+
+  function resetAll() {
+    if (!confirm('Clear all checkbox progress on this dashboard?')) return;
+    localStorage.removeItem(STORAGE_KEY);
+    location.reload();
+  }
+
+  function copyEmail() {
+    const text = document.getElementById('email-body').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copybtn');
+      const original = btn.textContent;
+      btn.textContent = '✓ Copied';
+      setTimeout(() => btn.textContent = original, 1600);
+    });
+  }
+</script>
+</body>
+</html>
