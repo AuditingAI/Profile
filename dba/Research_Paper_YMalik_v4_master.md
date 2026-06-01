@@ -3,9 +3,9 @@ TITLE: Mitigating Anchoring Bias in Long-Term Auditor Engagements — An EFA-Bas
 AUTHOR: Yasir A. Malik (PID 1687105)
 PROGRAM: FIU College of Business — Doctor of Business Administration — Cohort 7.16
 COURSE: GEB7913 — Instructor: Professor Juan Rey
-VERSION: v4.1 (research-paper expansion of Ch. 2 & Ch. 3, citation-enriched)
-DATE: May 30, 2026
-NOTE: This v4.1 expands Chapters 2 and 3 per Dr. Rey's guidance — a full theory treatment with one selected lens, one section per construct integrating multiple verified anchor sources, the research-model figure embedded in Chapter 3, one section per hypothesis (each titled by relationship), and the measurement instrument in the appendix. Every in-text citation is a real, web-verified source listed in the Verified Reference Pool at the end; the shaded "Optional further reading" boxes name additional candidate sources you may want to integrate to personalize each section further.
+VERSION: v4.2 (cleanup: removed scaffolding 'Optional further reading' callouts and two orphan references; no substantive changes to argument or hypotheses)
+DATE: June 1, 2026
+NOTE: This v4.2 carries forward the v4.1 expansion of Chapters 2 and 3 per Dr. Rey's guidance — a full theory treatment with one selected lens, one section per construct integrating multiple verified anchor sources, the research-model figure embedded in Chapter 3, one section per hypothesis (each titled by relationship), and the measurement instrument in the appendix. Every in-text citation is a real, web-verified source listed in the Verified Reference Pool at the end. v4.2 removes the scaffolding 'Optional further reading' callouts that had been left in v4.1 for drafting purposes, and drops two reference-pool entries (Bell, Peecher, & Solomon, 2005; Hurtt, 2010) that were not cited in the body.
 ---
 
 # CHAPTER 2 — REVIEW OF THE LITERATURE
@@ -46,7 +46,6 @@ Finally, a stream of audit-specific frameworks connects the attributes of the au
 
 While all five accounts inform this study, the research adopts **dual-process theory, operationalized through the anchoring-and-adjustment heuristic, as its primary theoretical lens.** This choice is deliberate and is defended on three grounds. First, it is the most *integrative* of the available theories: it subsumes the anchoring-and-adjustment heuristic (anchoring as System-1) and is fully compatible with both the selective-accessibility and belief-adjustment accounts (each describes a System-1 mechanism that System-2 engagement can correct). Second, it is the most *actionable* lens for an intervention study, because every construct in the model can be expressed as a mechanism that raises the likelihood, capacity, or required structure for System-2 reasoning to override the anchor — making the theory directly testable through the hypotheses in Chapter 3. Third, it is the lens most consistent with how the *audit* literature already theorizes professional skepticism and judgment quality (Nelson, 2009; Nelson & Tan, 2005), which preserves continuity with the validated instruments the study adapts. The selective-accessibility, belief-adjustment, and audit-quality frameworks are retained as supporting theory wherever a specific construct's mechanism is better described by them.
 
-> **Optional further reading.** Several seminal anchoring and audit-JDM sources have been integrated above (Wilson et al., 1996; Mussweiler & Strack, 1999; Lord et al., 1984; Kahneman & Frederick, 2002; Northcraft & Neale, 1987). To deepen the theory treatment further, consider adding: Mussweiler, Strack, & Pfeiffer (2000) on overcoming anchoring; Stanovich and West (2000) on individual differences in System-2 engagement; and Nelson (2009) on the audit-skepticism theoretical map.
 
 ## 2.3  Reduction in Anchoring Bias (RAB) — The Dependent Variable
 
@@ -56,7 +55,6 @@ The audit-specific evidence that anchoring genuinely afflicts professional judgm
 
 A central tension in this literature is whether expertise and accountability attenuate anchoring. Some studies find that experienced auditors are less susceptible than novices, while others find professionals fully susceptible; Kennedy (1993) shows that accountability reduces some judgment biases only when the bias originates in insufficient effort rather than in data or memory limitations — implying that anchoring is reducible only by interventions matched to its actual cognitive source. This unresolved boundary condition is the gap the present model addresses by testing eight interventions simultaneously rather than in isolation.
 
-> **Optional further reading.** Consider: Pike's (2024+) work on mitigating auditor bias through elaboration; Cianci & Bierstaker on fair-value anchoring; and recent meta-analytic syntheses of debiasing effectiveness in professional populations.
 
 ## 2.4  Training & Awareness (TA)
 
@@ -64,7 +62,6 @@ Training & Awareness (TA) refers to structured instruction designed to make audi
 
 The literature is, however, divided on whether awareness translates into behavior. A recurring finding in the broader debiasing literature is that simply *informing* people about a bias rarely removes it, because anchoring operates automatically (Furnham & Boo, 2011; Strack & Mussweiler, 1997). Solomon and Trotman (2003), in their *Accounting, Organizations and Society* review of twenty-five years of auditing judgment research, similarly note that interventions targeting knowledge structures are more effective when they alter how auditors *process* evidence rather than merely what they *know* about biases. This is the central contradiction the TA construct must confront: awareness is necessary but not sufficient, and training appears to "work" only when it installs an executable strategy (e.g., consider-the-opposite, independent estimation before reviewing prior-year figures) rather than abstract knowledge that a bias exists. The most defensible reading of the literature is therefore that TA reduces anchoring to the degree that it changes the auditor's *process*, not merely the auditor's *beliefs*.
 
-> **Optional further reading.** Hurtt et al. (2013) and Solomon and Trotman (2003) have been integrated above. To deepen further, consider: Nolder and Kadous on skepticism mindset; Westermann, Cohen, and Trompeter on skepticism in practice; and recent transfer-of-training studies on audit-context bias interventions.
 
 ## 2.5  Rotation of Auditors (RA)
 
@@ -72,7 +69,6 @@ Rotation of Auditors (RA) refers to the periodic reassignment of audit personnel
 
 The archival evidence on tenure is, however, decidedly mixed, and that mixed pattern is itself diagnostic. Carcello and Nagy (2004), in *Auditing: A Journal of Practice & Theory*, found that fraudulent financial reporting is more likely in the *first three years* of an auditor–client relationship and find no evidence that long tenure increases fraud risk — implying that start-up unfamiliarity, not familiarity, is the more proximate threat. Myers, Myers, and Omer (2003), in *The Accounting Review*, similarly report that longer auditor tenure is associated with *higher* earnings quality (smaller absolute abnormal accruals), again challenging the assumption that long tenure mechanically degrades audit quality. The experimental evidence sharpens the picture: Bowlin, Hobson, and Piercey (2015), in *The Accounting Review*, found that mandatory rotation can *improve* audit quality when auditors adopt an honesty frame but can *reduce* audit effort when auditors already hold a skeptical frame — because rotating auditors, anticipating a short relationship, may invest less in understanding a new client. Rotation thus interacts with the very skepticism it is meant to protect, and the field-level archival evidence shows that simple "tenure-is-bad" intuitions are unsupported. The literature therefore does not support a simple "rotation reduces bias" claim; it supports the more careful position that rotation removes specific *relationship-based* anchors while introducing its own costs (lost client-specific knowledge, start-up inefficiency), and the net direction is an empirical question this model is designed to estimate.
 
-> **Optional further reading.** Carcello & Nagy (2004) and Myers, Myers, & Omer (2003) have been integrated. To deepen further, consider: Cameran, Prencipe, & Trombetta on mandatory rotation in the EU; Bell, Causholli, & Knechel on tenure and audit quality; and Daugherty et al. on partner rotation effects on familiarity threat.
 
 ## 2.6  Use of Analytical Tools (AT)
 
@@ -80,7 +76,6 @@ Use of Analytical Tools (AT) refers to data-analytics, visualization, and anomal
 
 The tension in this literature concerns reliance and automation. Asare and Wright (2004), in *Contemporary Accounting Research*, found that the design of risk-assessment and program-planning tools materially shapes auditor judgments — meaning a poorly designed tool can *introduce* an anchor (e.g., a default risk score) as readily as a good tool removes one. Analytical tools, in other words, are debiasing only insofar as they direct attention to anchor-inconsistent evidence; when they present a salient default or prior-year benchmark, they risk re-anchoring the auditor. This double-edged quality is why AT is modeled as an intervention whose effect must be estimated empirically rather than assumed.
 
-> **Optional further reading.** Vasarhelyi, Alles, & Kogan (2004) has been integrated above. To deepen further, consider: Earley on data-analytic skills in auditing; Krieger, Drews, & Velte on audit data analytics outcomes; and the automation-bias literature applied to audit decision aids.
 
 ## 2.7  Structured Auditing Processes (SAP)
 
@@ -88,7 +83,6 @@ Structured Auditing Processes (SAP) refers to standardized procedures, checklist
 
 The literature's enduring debate is the "structure versus judgment" trade-off. Structure can suppress anchoring by mandating independent evidence evaluation before the prior-year conclusion is consulted, and by requiring documentation that exposes insufficient adjustment. Yet over-structuring can mechanize the audit, encouraging compliance-as-checkbox and *reducing* the very System-2 engagement that overrides anchors — the auditor follows the template without thinking. The defensible synthesis, consistent with the belief-adjustment model (Hogarth & Einhorn, 1992), is that structure reduces anchoring when it alters the *order and independence* of evidence evaluation, but not when it merely adds documentation around an unchanged thought process. This makes SAP a procedural-rigor lever, which is why Chapter 3 routes it through the Audit Process Rigor mediator.
 
-> **Optional further reading.** Carpenter (2007) and Trotman, Bauer, & Humphreys (2015) have been integrated above. To deepen further, consider: Bell, Solomon, & colleagues on the strategic-systems audit approach; Mock & Wright on audit-program structure; and the mechanization-vs-judgment debate in audit-methodology research.
 
 ## 2.8  Feedback & Reflection (FR)
 
@@ -96,7 +90,6 @@ Feedback & Reflection (FR) refers to metacognitive mechanisms — post-task debr
 
 The key qualification in this literature is that feedback only debiases when the environment provides it in a usable form. Audit settings are notorious for delayed, noisy, or absent outcome feedback (the "true" answer often never arrives), which is why the literature emphasizes *process* feedback and structured reflection over outcome feedback (Bonner, 2008; Kennedy, 1993). The contradiction to manage is that reflection can also rationalize a prior-year anchor after the fact rather than dislodge it; feedback is debiasing only when it is structured to compare the auditor's judgment against independent evidence, not against the anchor itself.
 
-> **Optional further reading.** Lord, Lepper, & Preston (1984) and Mussweiler & Strack (1999) have been integrated above. To deepen further, consider: Peecher's work on audit-quality outcome bias; Mala & Chand on JDM feedback effects in auditing; and Bonner's treatment of process vs. outcome feedback.
 
 ## 2.9  Independent Reviews (IR)
 
@@ -104,7 +97,6 @@ Independent Reviews (IR) refers to the examination of audit work by a second, un
 
 The selective-accessibility account (Strack & Mussweiler, 1997) explains *why* independent review is theoretically among the strongest anti-anchoring interventions: a reviewer who did not generate the original judgment is not primed by the same anchor and can surface anchor-inconsistent evidence. The contradiction the literature flags is that review loses its independence advantage when the reviewer is exposed to, and defers to, the preparer's documented conclusion before forming an independent view — re-creating the anchor at the review level (Tan & Trotman, 2003). Review is therefore debiasing in proportion to its genuine *independence*, which is why it is modeled (with SAP) as a driver of Audit Process Rigor rather than a purely cognitive lever.
 
-> **Optional further reading.** Tan & Trotman (2003) and Solomon & Trotman (2003) have been integrated above. To deepen further, consider: Agoglia, Brazel, & Hatfield on justification memos; Gibbins & Trotman on audit-review effectiveness; and Owhoso, Messier, & Lynch on engagement-quality review.
 
 ## 2.10  Regulatory & Professional Guidance (RPG)
 
@@ -112,7 +104,6 @@ Regulatory & Professional Guidance (RPG) refers to the standards, inspection reg
 
 The literature is ambivalent about whether guidance changes judgment or merely changes documentation. On one hand, inspection risk raises accountability and can motivate the effortful reconsideration that overrides anchors (consistent with Kennedy, 1993; Tan & Kao, 1999). On the other, standards can induce defensive, compliance-oriented documentation that leaves the underlying anchored judgment intact — auditors document *more* without thinking *differently*. The construct therefore captures a regulatory-pressure mechanism whose effect on anchoring is plausibly positive but, as the inspection literature suggests, far from guaranteed — an empirical question the model is designed to answer.
 
-> **Optional further reading.** Francis (2011) and Tan & Kao (1999) have been integrated above. To deepen further, consider: DeFond & Zhang's (2014) review of audit-research evidence on audit quality; PCAOB inspection-report syntheses; and Glover & Prawitt on the documentation-vs-judgment trade-off.
 
 ## 2.11  Performance Metrics & Incentives (PMI)
 
@@ -120,7 +111,6 @@ Performance Metrics & Incentives (PMI) refers to the evaluation criteria, reward
 
 This is the construct where the "effort" logic of dual-process theory is most explicit, and it carries a sharp contradiction. Because anchoring is partly automatic (Epley & Gilovich, 2006; Strack & Mussweiler, 1997), incentives that raise effort will reduce *effort-sensitive* components of the bias but may leave *automatic* components untouched — precisely Libby and Lipe's (1992) finding generalized to anchoring. Worse, incentives misaligned toward efficiency or client retention can *strengthen* the prior-year anchor by rewarding speed and continuity over independent reconsideration. PMI is thus modeled as a motivational lever whose sign and magnitude depend on what, exactly, the metrics reward.
 
-> **Optional further reading.** DeAngelo (1981) and Tan & Kao (1999) have been integrated above. To deepen further, consider: McNamara & Liyanarachchi on audit-quality-threatening behaviors; Coram, Glavovic, Ng, & Woodliff on budget pressure; and Pierce & Sweeney on time-budget effects on audit work.
 
 ## 2.12  Auditor Judgment Quality (AJQ) — Mediating Construct
 
@@ -128,7 +118,6 @@ Auditor Judgment Quality (AJQ) is the first of two mediators and captures the *c
 
 AJQ is theorized as a mediator because most of the interventions in the model do not act on anchoring directly; they act by *improving the judgment process*, which in turn reduces the anchor's influence. Training, rotation, analytical tools, feedback, regulatory pressure, and incentives all plausibly raise the cognitive quality of the judgment — the deployment of knowledge, the engagement of effortful reasoning, the objectivity of the conclusion — and it is this improved judgment that is less anchored. The literature supports treating judgment quality as the cognitive mechanism through which cognitively oriented interventions reach the dependent variable.
 
-> **Optional further reading.** Hurtt et al. (2013) and Trotman, Tan, & Ang (2011) have been integrated above. To deepen further, consider: Quadackers, Groot, & Wright on skepticism-as-trait vs. as-state; Nolder & Kadous on skepticism mindset; and recent extensions of the Libby–Luft framework.
 
 ## 2.13  Audit Process Rigor (APR) — Mediating Construct
 
@@ -136,7 +125,6 @@ Audit Process Rigor (APR) is the second mediator and captures the *procedural* p
 
 APR is theorized as the mechanism for the model's two *structural* interventions — Structured Auditing Processes and Independent Reviews — because these operate less by changing what an individual auditor thinks and more by changing how the work is organized, ordered, and checked. A rigorous process reduces anchoring by mandating independent evidence evaluation, by re-ordering when the prior-year conclusion is consulted, and by inserting an uninvolved reviewer who does not share the anchor (Hogarth & Einhorn, 1992; Trotman & Yetton, 1985). Distinguishing the procedural pathway (APR) from the cognitive pathway (AJQ) is one of the model's contributions, because it allows the study to test *how* — through judgment or through process — each intervention reaches the reduction in anchoring bias.
 
-> **Optional further reading.** Francis (2011) and Trotman, Bauer, & Humphreys (2015) have been integrated above. To deepen further, consider: Aobdia on audit-quality measurement; Bell, Marrs, Solomon, & Thomas on the strategic-systems audit; and Knechel, Krishnan, Pevzner, Shefchik, & Velury's audit-quality framework synthesis.
 
 ## 2.14  Synthesis and the Research Gap
 
@@ -359,7 +347,6 @@ Years of audit experience; primary role (internal/external); firm type (public a
 - Arel, B., Brody, R. G., & Pany, K. (2005). Audit firm rotation and audit quality. *The CPA Journal, 75*(1), 36–39.
 - Asare, S. K., & Wright, A. M. (2004). The effectiveness of alternative risk assessment and program planning tools in a fraud setting. *Contemporary Accounting Research, 21*(2), 325–352.
 - Bamber, E. M., & Iyer, V. M. (2007). Auditors' identification with their clients and its effect on auditors' objectivity. *Auditing: A Journal of Practice & Theory, 26*(2), 1–24.
-- Bell, T. B., Peecher, M. E., & Solomon, I. (2005). *The 21st century public company audit.* KPMG LLP.
 - Bonner, S. E. (2008). *Judgment and decision making in accounting.* Prentice Hall.
 - Bonner, S. E., & Sprinkle, G. B. (2002). The effects of monetary incentives on effort and task performance. *Accounting, Organizations and Society, 27*(4–5), 303–345.
 - Bonner, S. E., & Walker, P. L. (1994). The effects of instruction and experience on the acquisition of auditing knowledge. *The Accounting Review, 69*(1), 157–178.
@@ -379,7 +366,6 @@ Years of audit experience; primary role (internal/external); firm type (public a
 - Francis, J. R. (2011). A framework for understanding and researching audit quality. *Auditing: A Journal of Practice & Theory, 30*(2), 125–152.
 - Furnham, A., & Boo, H. C. (2011). A literature review of the anchoring effect. *The Journal of Socio-Economics, 40*(1), 35–42.
 - Hogarth, R. M., & Einhorn, H. J. (1992). Order effects in belief updating: The belief-adjustment model. *Cognitive Psychology, 24*(1), 1–55.
-- Hurtt, R. K. (2010). Development of a scale to measure professional skepticism. *Auditing: A Journal of Practice & Theory, 29*(1), 149–171.
 - Hurtt, R. K., Brown-Liburd, H., Earley, C. E., & Krishnamoorthy, G. (2013). Research on auditor professional skepticism: Literature synthesis and opportunities for future research. *Auditing: A Journal of Practice & Theory, 32*(Supplement 1), 45–97.
 - Joyce, E. J., & Biddle, G. C. (1981). Anchoring and adjustment in probabilistic inference in auditing. *Journal of Accounting Research, 19*(1), 120–145.
 - Kahneman, D. (2011). *Thinking, fast and slow.* Farrar, Straus and Giroux.
