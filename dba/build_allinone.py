@@ -29,7 +29,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-OUT = "ALL_IN_ONE_DBA_Package_v1.docx"
+OUT = "ALL_IN_ONE_DBA_Package_v2.docx"
 
 master  = open("Research_Paper_YMalik_v4_master.md", encoding="utf-8").read()
 playbook = open("NotebookLM_Playbook.md", encoding="utf-8").read()
@@ -46,6 +46,8 @@ def extract_docx(path):
 weekly   = extract_docx("Weekly_Update_W01_v2.docx")
 linkedin = extract_docx("LinkedIn_Outreach_Pack.docx")
 readme   = extract_docx("Read_Me_First.docx")
+readiness = open("Data_Collection_Readiness.md", encoding="utf-8").read()
+rey_2026_06_01 = open("correspondence/2026-06-01_Rey_feedback_and_response.md", encoding="utf-8").read()
 
 doc = Document()
 normal = doc.styles["Normal"]
@@ -124,11 +126,14 @@ toc = [
     ("Chapter 6  Recommendations for Future Research", 2),
     ("Appendix A  Measurement Instrument (draft for review)", 2),
     ("Verified Reference Pool", 2),
-    ("PART II  SUPPORTING WORKFLOW MATERIALS", 1),
+    ("PART II  ADVISOR CORRESPONDENCE & DATA-COLLECTION READINESS", 1),
+    ("2026-06-01  Dr. Rey feedback + response draft", 2),
+    ("Data Collection Readiness checklist", 2),
+    ("PART III  SUPPORTING WORKFLOW MATERIALS", 1),
     ("Weekly Update  Week 1 (revised)", 2),
     ("LinkedIn Outreach Pack (IRB-approved recruitment copy)", 2),
     ("Read Me First (folder guide)", 2),
-    ("PART III  WORKING TOOLKIT", 1),
+    ("PART IV  WORKING TOOLKIT", 1),
     ("NotebookLM Playbook (ADD-friendly extraction workflow)", 2),
     ("Repository and Branch Links", 2),
 ]
@@ -267,7 +272,23 @@ emit_plain_text(re.sub(r"^6\.\s+Recommendations.*?\n", "", v3["ch6"]), smart_hea
 doc.add_page_break()
 
 # PART II
-doc.add_heading("PART II  SUPPORTING WORKFLOW MATERIALS", level=1)
+doc.add_heading("PART II  ADVISOR CORRESPONDENCE & DATA-COLLECTION READINESS", level=1)
+p = doc.add_paragraph()
+inline(p, "Verbatim advisor feedback, the author's response draft, and the readiness checklist that "
+          "tracks every blocker between current state and live pilot launch. This part is the working "
+          "command-and-control surface for the next two weeks.")
+doc.add_page_break()
+
+doc.add_heading("2026-06-01  Dr. Rey feedback + response draft", level=2)
+render_markdown(rey_2026_06_01, drop_front_matter=False)
+doc.add_page_break()
+
+doc.add_heading("Data Collection Readiness checklist", level=2)
+render_markdown(readiness, drop_front_matter=False)
+doc.add_page_break()
+
+# PART III
+doc.add_heading("PART III  SUPPORTING WORKFLOW MATERIALS", level=1)
 p = doc.add_paragraph()
 inline(p, "Course-administrative artifacts and recruitment copy that the paper depends on but does not "
           "include. Do not submit these to the advisor as part of the research paper; they live here "
@@ -286,8 +307,8 @@ doc.add_heading("Read Me First (folder guide)", level=2)
 emit_plain_text(readme, smart_headings=True)
 doc.add_page_break()
 
-# PART III
-doc.add_heading("PART III  WORKING TOOLKIT", level=1)
+# PART IV
+doc.add_heading("PART IV  WORKING TOOLKIT", level=1)
 p = doc.add_paragraph()
 inline(p, "Tools the author uses to extend the paper. The NotebookLM Playbook is the primary workflow "
           "for adding more verified citations per construct without losing focus.")
