@@ -104,6 +104,7 @@ zip_items = [
     "03_Recruitment_and_Pilot/YMalik_Pilot_Feedback_Form_and_Revision_Log_READY_2026-06-01.xlsx",
     "03_Recruitment_and_Pilot/YMalik_CloudResearch_Launch_Draft_READY_2026-06-01.docx",
     "03_Recruitment_and_Pilot/YMalik_MTurk_Backup_Launch_Draft_READY_2026-06-01.docx",
+    "03_Recruitment_and_Pilot/YMalik_Recruiting_Launch_Checklist_READY_2026-06-01.xlsx",
 ]
 zname = "YMalik_DBA_Submission_2026-06-01.zip"
 with zipfile.ZipFile(zname, "w", zipfile.ZIP_DEFLATED) as z:

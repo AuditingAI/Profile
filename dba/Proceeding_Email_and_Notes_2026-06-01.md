@@ -49,8 +49,9 @@ PID 1687105 | FIU DBA Cohort 7.16
 | 4 | YMalik_Pilot_Feedback_Form_and_Revision_Log_READY_2026-06-01.xlsx | Participant log, feedback form (PF1–PF10), revision log, decision summary |
 | 5 | YMalik_CloudResearch_Launch_Draft_READY_2026-06-01.docx | Primary recruiting route — study listing, soft-launch, quality filters |
 | 6 | YMalik_MTurk_Backup_Launch_Draft_READY_2026-06-01.docx | Backup recruiting route (only if CloudResearch insufficient) |
-| 7 | LinkedIn_Outreach_Pack.docx | Three IRB-aligned LinkedIn recruitment templates |
-| 8 | Data_Collection_Readiness.docx | Stage-by-stage readiness status with traffic-light summary |
+| 7 | YMalik_Recruiting_Launch_Checklist_READY_2026-06-01.xlsx | Five gate tabs: Pre-Pilot, Pilot Close-Out, CloudResearch, MTurk Backup, Stop Conditions |
+| 8 | LinkedIn_Outreach_Pack.docx | Three IRB-aligned LinkedIn recruitment templates |
+| 9 | Data_Collection_Readiness.docx | Stage-by-stage readiness status with traffic-light summary |
 
 ---
 
@@ -79,7 +80,8 @@ PID 1687105 | FIU DBA Cohort 7.16
 
 # Open items / flags (full transparency)
 
-- **One referenced file not yet located:** the pilot packet README mentions `YMalik_Recruiting_Launch_Checklist_READY_2026-06-01.xlsx`, which I will add once located.
+- **Recruiting launch checklist:** now included (five gate tabs) — the item previously flagged as missing is resolved.
+- **Paper version:** the attached paper is v4.2 — a light cleanup of v4.1 that removed drafting-scaffold callouts and two uncited reference entries; no changes to arguments, hypotheses, model, or instrument.
 - **Topaz IRB PI-change amendment:** to be filed this week.
 - **Compensation amount:** placeholder in the CloudResearch/MTurk drafts pending your confirmation.
 - **Instrument reconciliation:** Appendix A items are being reconciled against the IRB-approved instrument; the approved wording governs where they differ, and any new item is escalated before use.
