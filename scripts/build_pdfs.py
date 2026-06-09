@@ -172,6 +172,15 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/citi_chief_auditor_ai_md.pdf",
             "Cover Letter - Citi Chief Auditor AI MD",
         ),
+        # NOTE: the Google TPM III resume uses a one-off compact renderer
+        # to guarantee one-page ATS output. See
+        # applications/resume/build_google_tpm_resume.py — re-run it after
+        # editing the .md, not this script.
+        (
+            REPO_ROOT / "applications/cover_letters/google_tpm_regulatory_audit.md",
+            REPO_ROOT / "applications/cover_letters/google_tpm_regulatory_audit.pdf",
+            "Cover Letter - Google TPM III, Regulatory Audits",
+        ),
     ]
     for src, dst, title in pairs:
         if src.exists():
