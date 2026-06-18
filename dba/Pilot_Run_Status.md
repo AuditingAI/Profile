@@ -1,81 +1,86 @@
-# Pilot Run — Live Status (2026-06-01)
+# Pilot Run — Live Status (updated 2026-06-14, post-Rey)
 
-Every artifact, every blocker, every step — oriented toward one destination: **launching the informed pilot.**
+**Major change:** Dr. Rey replied that he is unavailable this week and authorized moving forward without a sign-off meeting. The face-validity and LinkedIn-copy meetings are off. Yasir owns those judgment calls and is proceeding.
 
 ---
 
 ## 🎯 Where we are pointing
 
-| Phase | What it means | Status |
-|---|---|---|
-| **P-0 Assets ready** | Everything that doesn't need a click on a logged-in platform | 🟢 **Done** |
-| **P-1 Pilot gates** | Three remaining sign-offs / builds before any pilot link can go out | 🟡 **3 of 3 open** |
-| **P-2 Pilot run** | Sending the link, collecting responses, logging revisions | ⏳ **Not started — unblocks when P-1 closes** |
-| **P-3 Post-pilot** | CloudResearch soft-launch → full launch → EFA / PROCESS | ⚪ **Not started** |
+| Phase | Status |
+|---|---|
+| **P-0 Assets ready** | 🟢 Done |
+| **P-1 Pilot gates** | 🟡 1 of 1 open — Qualtrics build (was 3 open) |
+| **P-2 Pilot run** | ⏳ Launches Thursday June 18 |
+| **P-3 Post-pilot CloudResearch** | ⏳ Soft-launch Monday June 22 |
+| **P-4 Analysis + manuscript** | ⏳ Begins Thursday July 2 |
 
 ---
 
-## 📦 P-0 — Assets ready (no further action needed)
+## 🛑 P-1 — The single remaining blocker
 
-| # | Asset | Where | Role in pilot run |
-|---|---|---|---|
-| 1 | Research Paper v4.2 | `Research_Paper_YMalik_v4.docx` | Source of Appendix A instrument items |
-| 2 | Research model figure | `Anchoring_Bias_Research_Model.png` | Validates 11-construct scope |
-| 3 | IRB approval (IRB-25-0462) | On file | Governs eligibility + consent + data handling |
-| 4 | Informed Pilot Protocol | `03_Recruitment_and_Pilot/…Protocol…docx` | Defines pilot procedure + decision rules |
-| 5 | Pilot Feedback Form (PF1–PF10) | `…Feedback_Form_and_Revision_Log…xlsx` (tab 2) | 10 items collected after each pilot response |
-| 6 | Pilot Participant Log (P01–P10) | same workbook (tab 1) | Anonymous tracking of 6–10 auditors |
-| 7 | Revision Log | same workbook (tab 3) | Severity-tagged change record |
-| 8 | Decision Summary (6 gates) | same workbook (tab 4) | Pilot → CloudResearch gating |
-| 9 | CloudResearch Launch Draft | `…CloudResearch_Launch_Draft…docx` | Primary post-pilot platform |
-| 10 | MTurk Backup Launch Draft | `…MTurk_Backup_Launch_Draft…docx` | Fallback if CloudResearch underperforms |
-| 11 | LinkedIn Outreach Pack | `LinkedIn_Outreach_Pack.docx` | 3 IRB-aligned invitation templates |
-| 12 | Recruiting Launch Checklist | `…Recruiting_Launch_Checklist…xlsx` | 5 gate tabs (Pre-Pilot, Pilot Close-Out, CR, MTurk, Stop Conditions) |
-| 13 | Build & Launch Guide | `Build_and_Launch_Guide.md` | Step-by-step click-path for Parts A–E |
-| 14 | Interactive Dashboard | `dashboard.html` | One-page live status with localStorage progress |
-| 15 | All-in-One v3 | `ALL_IN_ONE_DBA_Package_v3.docx` | Single navigable submission doc |
-| 16 | Submission ZIP (10 files) | `YMalik_DBA_Submission_2026-06-01.zip` | Today's email attachment |
-| 17 | Proceeding email + notes | `Proceeding_Email_and_Notes_2026-06-01.docx` | Today's cover email |
-
----
-
-## 🛑 P-1 — Pilot gates (the only things blocking pilot launch)
-
-| Gate | Action | Owner | Time | Unblocks |
+| Gate | Action | Owner | Time | Resolves when |
 |---|---|---|---|---|
-| **G1** | Reconcile Appendix A items against IRB-approved instrument and load reconciled set into FIU Qualtrics | **Yasir** | ~3 hrs | G2, pilot send |
-| **G2** | Face-validity sign-off on the Qualtrics build (screen-share) | **Dr. Rey** | 5 min in meeting | Pilot send |
-| **G3** | LinkedIn outreach copy sign-off + CloudResearch compensation amount confirmation | **Dr. Rey** | 5 min in meeting | Pilot send + CloudResearch |
+| **G1** | Reconcile Appendix A items against IRB-approved instrument + build in FIU Qualtrics + preview-test | **Yasir** | 6–8 hrs across Tue–Wed | Anonymous link is live |
 
-> **All three close in today's (or tomorrow 1:15 PM) meeting + ~3 hrs of your Qualtrics work.**
-
----
-
-## 🚀 P-2 — Pilot run (executes once P-1 is closed)
-
-| Step | Action | Time | Done when |
-|---|---|---|---|
-| R1 | Pick 6–10 LinkedIn audit contacts who meet eligibility | 20 min | Logged as P01–P10 in Participant Log |
-| R2 | Send anonymous Qualtrics link + feedback-form link with personalized invitation | 20 min | All invitations sent |
-| R3 | Collect survey + feedback responses; one reminder at 48 hrs | 2–3 days elapsed | ≥6 completed |
-| R4 | Apply decision rules (clarity/construct-fit/audit-language/time/scope) | 1 hr | Revision Log filled, in-scope wording revisions applied |
-| R5 | Close the 6 launch-gating criteria in the Decision Summary | 15 min | All 6 gates pass |
+The previous G2 (face-validity sign-off) is **resolved by delegation** — face validity is self-validated via the design principles already in place plus the pilot's PF1–PF5 feedback items.
+The previous G3 (LinkedIn copy + compensation sign-off) is **resolved by delegation** — Yasir is using the IRB-aligned LinkedIn templates as drafted and setting CloudResearch compensation at $6.00 USD (standard rate for 18-min academic survey of professionals, within IRB fixed-compensation language).
 
 ---
 
-## 🏁 P-3 — Post-pilot (unblocks when Decision Summary gates pass)
+## 📅 Day-by-day execution — Week 5 (June 15–21)
 
-| Step | Action | Time | Done when |
-|---|---|---|---|
-| L1 | Create CloudResearch project + screening + Qualtrics-link routing | 30 min | Soft-launch ready |
-| L2 | Soft-launch 10–15 responses; QA eligibility / attention / timing / duplicates / export | 1 day | Quality checks pass |
-| L3 | Full launch toward n = 60–80 valid responses | Collection window | Clean dataset of 60+ ready |
-| L4 | EFA (PAF + varimax + KMO + Bartlett + parallel) + PROCESS Model 4 mediation | per paper §4.4 | Results ready for Ch. 5 |
+| Day | Action | Visible artifact at end of day |
+|---|---|---|
+| **Mon Jun 15** | Send brief reply to Dr. Rey confirming the plan; open the dashboard; begin reconciling first 3 constructs (TA, RA, AT) | Reply sent; reconciliation log started |
+| **Tue Jun 16** | Finish reconciliation across all 11 constructs; commit reconciled item list | Reconciled item list filed in repo |
+| **Wed Jun 17** | Build Qualtrics: consent block + screeners + 11 construct blocks + demographics + randomizer + anonymity | Survey in draft state |
+| **Thu Jun 18 morning** | Preview-test eligible + screen-out paths; publish; copy anonymous link | Live anonymous Qualtrics link |
+| **Thu Jun 18 afternoon** | Send pilot invitations to 6–10 LinkedIn audit contacts (P01–P10) | Invitations sent |
+| **Fri Jun 19 – Sat Jun 20** | Pilot responses come in; capture in Participant Log + Feedback Form | ≥6 completed responses |
+| **Sat Jun 20 evening** | Apply in-scope wording revisions; log every change in the Revision Log | Revision Log filled |
+| **Sun Jun 21** | Close the 6 launch-gating criteria in Decision Summary; submit Weekly Update W06 to Canvas | Pilot closed; W06 submitted |
+
+---
+
+## 📅 Week 6 (June 22–28) — CloudResearch live
+
+| Day | Action |
+|---|---|
+| **Mon Jun 22 morning** | Create CloudResearch project; load study listing from launch draft; set screening; configure Qualtrics-link routing with completion code |
+| **Mon Jun 22 afternoon** | Soft-launch 10–15 responses |
+| **Tue Jun 23** | QA the soft-launch batch (eligibility, attention checks, timing, duplicates, export integrity) |
+| **Wed Jun 24 – Wed Jul 1** | Full launch toward n = 60–80; monitor daily |
+| **Sun Jun 28** | Submit Weekly Update W07 (data-collection progress) |
+
+---
+
+## 📅 Weeks 7–9 (June 29 – July 19) — Analysis and manuscript
+
+| Window | Activity |
+|---|---|
+| Jun 29 – Jul 1 | Close CloudResearch when n ≥ 60 valid |
+| Jul 2 – Jul 8 | Data cleaning + reliability + EFA (PAF + varimax + KMO + Bartlett + parallel) + PROCESS Model 4 mediation per § 4.4 |
+| Jul 9 – Jul 17 | Write Chapter 5 (Results); revise Ch. 6 (Discussion) integrating findings |
+| Jul 18 – Jul 19 | Final formatting + submit Stage 4a manuscript to Canvas |
 
 ---
 
 ## ▶️ Your single next concrete action
 
-**Send the email + ZIP** (already in your inbox / attached above).
+**Send Dr. Rey the brief reply below, then start G1 in the morning.**
 
-Then, while waiting for Dr. Rey's reply, start **G1 / Part A2** from the Build & Launch Guide — reconcile Appendix A items against the IRB-approved instrument. That doesn't need anyone's sign-off and unblocks everything downstream.
+```
+Dr. Rey —
+
+Understood, and thank you. I'll move forward this week on the path
+you described:
+
+- Tue–Wed June 16–17: complete the Qualtrics build
+- Thu June 18: launch the informed pilot with 6–10 LinkedIn audit contacts
+- Sat–Sun June 20–21: apply in-scope revisions
+- Mon June 22: begin CloudResearch soft-launch
+
+Next Sunday's update will report data-collection progress.
+
+— Yasir
+```
