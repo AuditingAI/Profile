@@ -1,8 +1,8 @@
-# Pilot Run — Live Status (updated 2026-06-15, post-Rey)
+# Pilot Run — Live Status (updated 2026-06-18 evening, re-anchored)
 
-**📌 TODAY: Monday, June 15, 2026 — Day 0. Manuscript due in 34 days (Sat July 19, 2026).**
+**📌 TODAY: Thursday, June 18, 2026 (evening) — Day 0. Manuscript due in 31 days (Sat July 19, 2026).**
 
-**Major change:** Dr. Rey replied that he is unavailable this week and authorized moving forward without a sign-off meeting. The face-validity and LinkedIn-copy meetings are off. Yasir owns those judgment calls and is proceeding.
+**Re-anchor:** the Monday-Jun-15 plan slipped 3 days. Compressing one day to preserve all three milestones. Dr. Rey is unavailable this week; he has authorized moving forward without a sign-off meeting.
 
 ---
 
@@ -29,37 +29,33 @@ The previous G3 (LinkedIn copy + compensation sign-off) is **resolved by delegat
 
 ---
 
-## 📅 Day-by-day execution — anchored to today (Mon Jun 15, 2026)
+## 📅 Day-by-day execution — anchored to TONIGHT (Thu Jun 18 evening, 2026)
 
 | Day | Date | Action | Visible artifact at end of day |
 |---|---|---|---|
-| **Day 0 — TODAY** | **Mon Jun 15** | Send brief reply to Dr. Rey confirming the plan; close laptop and sleep | Reply sent |
-| Day +1 | Tue Jun 16 | Reconcile Appendix A vs. IRB-approved instrument (all 11 constructs) | Reconciled item list in repo |
-| Day +2 | Wed Jun 17 | Build Qualtrics: consent + screeners + 11 construct blocks + demographics + randomizer + anonymity | Survey in draft state |
-| Day +3 AM | Thu Jun 18 AM | Preview-test eligible + screen-out paths; publish; copy anonymous link | Live anonymous Qualtrics link |
-| Day +3 PM | **Thu Jun 18 PM** | **Send pilot invitations to 6–10 LinkedIn audit contacts (P01–P10)** | Invitations sent — pilot live |
-| Day +4–5 | Fri–Sat Jun 19–20 | Pilot responses come in; log in Participant Log + Feedback Form | ≥6 completed responses |
-| Day +5 evening | Sat Jun 20 | Apply in-scope wording revisions; log every change in Revision Log | Revision Log filled |
-| Day +6 | Sun Jun 21 | Close the 6 launch-gating criteria in Decision Summary; submit Weekly Update W06 to Canvas | Pilot closed; W06 submitted |
+| **Day 0 — TONIGHT** | **Thu Jun 18 PM** | Send brief reply to Dr. Rey (if not yet sent); open the instrument reconciliation docs and skim; sleep | Reply sent; ready for Friday |
+| Day +1 | Fri Jun 19 | **Focused day:** reconcile Appendix A vs. IRB-approved instrument (all 11 constructs, 3 hrs) + build Qualtrics (consent + screeners + 11 construct blocks + demographics + randomizer + anonymity, 4 hrs) + preview-test eligible + screen-out paths | Live anonymous Qualtrics link |
+| Day +2 | Sat Jun 20 | **Send pilot invitations to 6–10 LinkedIn audit contacts (P01–P10)**; log in Participant Log | Pilot live; invitations sent |
+| Day +3 | Sun Jun 21 | Pilot responses arrive; capture in Feedback Form; **submit Weekly Update W06 to Canvas** | ≥3 responses; W06 submitted |
+| Day +4 | Mon Jun 22 | Close pilot at ≥6 responses; apply in-scope wording revisions; log in Revision Log; close the 6 launch-gating criteria in Decision Summary | Pilot closed; revisions applied |
 
-## 📅 Week of Jun 22–28 — CloudResearch live (Days +7 to +13)
+## 📅 Week of Jun 23–29 — CloudResearch live (Days +5 to +11)
 
 | Day | Date | Action |
 |---|---|---|
-| **Day +7** | **Mon Jun 22 AM** | Create CloudResearch project; load study listing; set screening; configure Qualtrics-link routing with completion code |
-| Day +7 PM | Mon Jun 22 PM | **Soft-launch 10–15 responses — data collection officially begins** |
-| Day +8 | Tue Jun 23 | QA the soft-launch batch (eligibility, attention checks, timing, duplicates, export integrity) |
-| Days +9 to +16 | Wed Jun 24 – Wed Jul 1 | Full launch toward n = 60–80; monitor daily |
-| Day +13 | Sun Jun 28 | Submit Weekly Update W07 (data-collection progress as Dr. Rey requested) |
+| **Day +5** | **Tue Jun 23 AM** | Create CloudResearch project; load study listing; set screening; configure Qualtrics-link routing with completion code |
+| Day +5 PM | Tue Jun 23 PM | **Soft-launch 10–15 responses — data collection officially begins** |
+| Day +6 | Wed Jun 24 | QA soft-launch batch (eligibility, attention checks, timing, duplicates, export integrity) |
+| Days +7 to +12 | Thu Jun 25 – Tue Jun 30 | Full launch toward n = 60–80; monitor daily |
+| Day +10 | Sun Jun 28 | Submit Weekly Update W07 (data-collection progress as Dr. Rey requested) |
 
-## 📅 Weeks of Jun 29 – Jul 19 — Analysis and manuscript (Days +14 to +34)
+## 📅 Weeks of Jul 1 – Jul 19 — Analysis and manuscript (Days +13 to +31)
 
 | Window | Days | Activity |
 |---|---|---|
-| Jun 29 – Jul 1 | +14 to +16 | Close CloudResearch when n ≥ 60 valid |
-| Jul 2 – Jul 8 | +17 to +23 | Data cleaning + reliability + EFA (PAF + varimax + KMO + Bartlett + parallel) + PROCESS Model 4 per § 4.4 |
-| Jul 9 – Jul 17 | +24 to +32 | Write Chapter 5 (Results); revise Ch. 6 (Discussion) integrating findings |
-| Jul 18 – **Jul 19** | +33 to **+34** | Final formatting; **🏁 SUBMIT Stage 4a manuscript to Canvas** |
+| Wed Jul 1 – Tue Jul 7 | +13 to +19 | Close CloudResearch when n ≥ 60 valid; data cleaning + reliability + EFA (PAF + varimax + KMO + Bartlett + parallel) + PROCESS Model 4 per § 4.4 |
+| Wed Jul 8 – Thu Jul 16 | +20 to +28 | Write Chapter 5 (Results); revise Ch. 6 (Discussion) integrating findings |
+| Fri Jul 18 – **Sat Jul 19** | +30 to **+31** | Final formatting; **🏁 SUBMIT Stage 4a manuscript to Canvas** |
 
 ---
 
