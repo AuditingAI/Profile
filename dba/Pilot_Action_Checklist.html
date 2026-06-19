@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/>
+<title>Pilot Action Checklist — Yasir A. Malik</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+         max-width: 880px; margin: 24px auto; padding: 0 18px; color:#1a1a1a; line-height:1.4; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color:#5b6470; font-size:12px; margin-bottom:18px; }
+  .day { color:white; padding:8px 12px; border-radius:6px; margin:18px 0 8px;
+         display:flex; justify-content:space-between; align-items:baseline; }
+  .day .lbl { font-weight:700; font-size:13px; }
+  .day .dat { font-size:11px; opacity:0.9; }
+  .task { display:flex; align-items:flex-start; gap:10px; margin:4px 0 2px; padding:4px 6px; border-radius:4px; }
+  .task:hover { background:#f4f6fa; }
+  .task input { margin-top:5px; transform: scale(1.2); cursor:pointer; }
+  .task label { font-weight:600; font-size:13px; cursor:pointer; flex:1; }
+  .task .est { color:#5b6470; font-weight:400; font-size:11px; margin-left:6px; }
+  .sub-task { display:flex; align-items:flex-start; gap:8px; margin:2px 0; padding:2px 6px 2px 36px; }
+  .sub-task input { margin-top:4px; cursor:pointer; }
+  .sub-task label { font-size:12px; cursor:pointer; flex:1; }
+  .done > label { text-decoration: line-through; color:#5b6470; }
+  .foot { color:#5b6470; font-size:11px; margin-top:24px; padding-top:10px; border-top:1px solid #e5e8ee; }
+  .reset { float:right; font-size:11px; color:#5b6470; cursor:pointer; border:1px solid #e5e8ee; padding:3px 7px; border-radius:4px; background:white; }
+  @media print {
+    body { max-width:none; margin:0; padding:0 0.4in; font-size:11px; }
+    .task:hover { background:none; }
+    .reset { display:none; }
+    .day { page-break-inside:avoid; }
+  }
+</style>
+</head><body>
+<button class="reset" onclick="if(confirm(\'Reset all checks?\')){localStorage.removeItem(\'pilot-checklist\');location.reload();}">Reset checks</button>
+<h1>Pilot Run — Action Checklist</h1>
+<div class="sub">Yasir A. Malik · DBA Cohort 7.16 · GEB7913 — anchored Thu Jun 18, 2026 evening · 31 days to Stage 4a manuscript milestone (Sat Jul 19, 2026)</div>
+
+<div class="day" style="background:#1a4e8a"><span class="lbl">DAY 0 — TONIGHT</span><span class="dat">Thursday, June 18, 2026 (evening)</span></div>
+<div class="task"><input type="checkbox" id="c1"><label for="c1">Send Dr. Rey the 6-line reply email (if not already sent)<span class="est">(2 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c2"><label for="c2">Close laptop. Sleep early. Friday is the big day.<span class="est">(0 min)</span></label></div>
+<div class="day" style="background:#b8650a"><span class="lbl">DAY +1 — FOCUSED BUILD DAY</span><span class="dat">Friday, June 19, 2026</span></div>
+<div class="task"><input type="checkbox" id="c3"><label for="c3">Reconcile Appendix A items against IRB-approved instrument<span class="est">(3 hr)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c4"><label for="c4">Open both Word docs side by side</label></div>
+<div class="sub-task"><input type="checkbox" id="c5"><label for="c5">Go construct-by-construct: TA, RA, AT, SAP, FR, IR, RPG, PMI, AJQ, APR, RAB</label></div>
+<div class="sub-task"><input type="checkbox" id="c6"><label for="c6">For each item: same / wording-only revision / new (flag) — log in Revision Log</label></div>
+<div class="sub-task"><input type="checkbox" id="c7"><label for="c7">Save the reconciled final item list</label></div>
+<div class="task"><input type="checkbox" id="c8"><label for="c8">Lunch + walk away from screen<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c9"><label for="c9">Build Qualtrics survey<span class="est">(4 hr)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c10"><label for="c10">Create project: "Auditors' Professional Judgments and Audit Work Practices"</label></div>
+<div class="sub-task"><input type="checkbox" id="c11"><label for="c11">Block 1 — Informed Consent: paste IRB letter + Yes/No + screen-out on No</label></div>
+<div class="sub-task"><input type="checkbox" id="c12"><label for="c12">Block 2 — Eligibility screeners (4 items) with screen-out branching</label></div>
+<div class="sub-task"><input type="checkbox" id="c13"><label for="c13">Blocks 3–13 — 11 construct blocks × 5 items each (5-point Likert)</label></div>
+<div class="sub-task"><input type="checkbox" id="c14"><label for="c14">Mark reverse-coded item per block</label></div>
+<div class="sub-task"><input type="checkbox" id="c15"><label for="c15">Add 2 attention checks at specified positions</label></div>
+<div class="sub-task"><input type="checkbox" id="c16"><label for="c16">Block 14 — Demographics (experience, role, firm, industry, credential, region)</label></div>
+<div class="sub-task"><input type="checkbox" id="c17"><label for="c17">Survey Flow — wrap 11 construct blocks in Randomizer</label></div>
+<div class="sub-task"><input type="checkbox" id="c18"><label for="c18">Survey Options — anonymize ON, IP OFF, progress bar ON, ballot-box stuffing OFF</label></div>
+<div class="sub-task"><input type="checkbox" id="c19"><label for="c19">Add debrief screen (IRB protocol #, thank you)</label></div>
+<div class="task"><input type="checkbox" id="c20"><label for="c20">Preview-test both paths<span class="est">(30 min)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c21"><label for="c21">Eligible path: complete fully, time it (target 15–20 min)</label></div>
+<div class="sub-task"><input type="checkbox" id="c22"><label for="c22">Screen-out path: trigger ineligible response, confirm screen-out works</label></div>
+<div class="task"><input type="checkbox" id="c23"><label for="c23">Publish + export test<span class="est">(10 min)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c24"><label for="c24">Publish the survey</label></div>
+<div class="sub-task"><input type="checkbox" id="c25"><label for="c25">Submit 2 preview responses, export CSV</label></div>
+<div class="sub-task"><input type="checkbox" id="c26"><label for="c26">Verify variable names + reverse-code flags + no IP column</label></div>
+<div class="sub-task"><input type="checkbox" id="c27"><label for="c27">Copy the Anonymous Link</label></div>
+<div class="day" style="background:#1e7a46"><span class="lbl">DAY +2 — PILOT LINK GOES OUT</span><span class="dat">Saturday, June 20, 2026</span></div>
+<div class="task"><input type="checkbox" id="c28"><label for="c28">Pick 6–10 LinkedIn audit contacts (≥2 yrs, long-term exposure)<span class="est">(20 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c29"><label for="c29">Send personalized invitations with Qualtrics link + feedback link<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c30"><label for="c30">Log each as P01–P10 in Pilot Participant Log (anonymous IDs only)<span class="est">(10 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c31"><label for="c31">🚀 Pilot is live. Stop. Wait for responses.<span class="est">(0 min)</span></label></div>
+<div class="day" style="background:#1e7a46"><span class="lbl">DAY +3 — PILOT RUNNING + W06 CANVAS</span><span class="dat">Sunday, June 21, 2026</span></div>
+<div class="task"><input type="checkbox" id="c32"><label for="c32">Log each pilot response: completion time + PF1–PF10 ratings<span class="est">(ongoing)</span></label></div>
+<div class="task"><input type="checkbox" id="c33"><label for="c33">Draft Weekly Update W06 (stage format, progress-only, no repetition)<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c34"><label for="c34">Upload W06 docx to Canvas + add submission comment + screenshot confirmation<span class="est">(5 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c35"><label for="c35">Send a one-line reminder to any non-responders<span class="est">(5 min)</span></label></div>
+<div class="day" style="background:#b8650a"><span class="lbl">DAY +4 — CLOSE PILOT + APPLY REVISIONS</span><span class="dat">Monday, June 22, 2026</span></div>
+<div class="task"><input type="checkbox" id="c36"><label for="c36">Confirm ≥6 completed responses<span class="est">(15 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c37"><label for="c37">Apply pilot decision rules<span class="est">(1 hr)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c38"><label for="c38">Clarity < 4/5 → revise wording only</label></div>
+<div class="sub-task"><input type="checkbox" id="c39"><label for="c39">Construct-fit < 4/5 → review + flag advisor</label></div>
+<div class="sub-task"><input type="checkbox" id="c40"><label for="c40">Audit-language fit complaint → revise phrasing only</label></div>
+<div class="sub-task"><input type="checkbox" id="c41"><label for="c41">Time > 20 min → review redundancy, no removal without advisor</label></div>
+<div class="sub-task"><input type="checkbox" id="c42"><label for="c42">IRB-scope feedback → HALT, escalate Topaz</label></div>
+<div class="task"><input type="checkbox" id="c43"><label for="c43">Apply wording-only revisions in Qualtrics; log every change in Revision Log<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c44"><label for="c44">Close the 6 launch-gating criteria in Decision Summary tab<span class="est">(15 min)</span></label></div>
+<div class="day" style="background:#1a4e8a"><span class="lbl">DAY +5 — CLOUDRESEARCH GOES LIVE 🚀</span><span class="dat">Tuesday, June 23, 2026</span></div>
+<div class="task"><input type="checkbox" id="c45"><label for="c45">Create CloudResearch account / project; load study listing<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c46"><label for="c46">Configure screening (age 18+, audit role, ≥2 yrs, recurring-engagement exposure)<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c47"><label for="c47">Set Qualtrics anonymous link as participant URL; set completion code route<span class="est">(15 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c48"><label for="c48">Set compensation to $6.00 USD (within IRB fixed-comp language)<span class="est">(10 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c49"><label for="c49">🚀 Soft-launch 10–15 responses — DATA COLLECTION OFFICIALLY BEGINS<span class="est">(1 hr)</span></label></div>
+<div class="day" style="background:#1e7a46"><span class="lbl">DAYS +6 to +12 — FULL COLLECTION WEEK</span><span class="dat">Wed Jun 24 – Tue Jun 30, 2026</span></div>
+<div class="task"><input type="checkbox" id="c50"><label for="c50">QA soft-launch batch (eligibility, attention checks, timing, duplicates, export)<span class="est">(Wed)</span></label></div>
+<div class="task"><input type="checkbox" id="c51"><label for="c51">Monitor: response rate, exclusions, valid n count<span class="est">(daily)</span></label></div>
+<div class="task"><input type="checkbox" id="c52"><label for="c52">Submit Weekly Update W07 — DATA COLLECTION PROGRESS (Dr. Rey's ask)<span class="est">(Sun)</span></label></div>
+<div class="task"><input type="checkbox" id="c53"><label for="c53">Scale to n = 60–80 valid responses after cleaning rules applied<span class="est">(by Tue)</span></label></div>
+<div class="day" style="background:#1a4e8a"><span class="lbl">DAYS +13 to +19 — CLEAN + ANALYZE</span><span class="dat">Wed Jul 1 – Tue Jul 7, 2026</span></div>
+<div class="task"><input type="checkbox" id="c54"><label for="c54">Close CloudResearch when n ≥ 60 valid; final export<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c55"><label for="c55">Data cleaning: missing data, outliers, attention-check failures, duplicates<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c56"><label for="c56">Descriptives: demographics, M/SD, frequencies, normality tests<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c57"><label for="c57">EFA: correlation matrix, KMO, Bartlett, scree, parallel analysis, pattern matrix<span class="est">(2 days)</span></label></div>
+<div class="sub-task"><input type="checkbox" id="c58"><label for="c58">PAF + varimax</label></div>
+<div class="sub-task"><input type="checkbox" id="c59"><label for="c59">Loadings ≥ 0.40</label></div>
+<div class="sub-task"><input type="checkbox" id="c60"><label for="c60">Cross-loadings ≤ 0.30</label></div>
+<div class="task"><input type="checkbox" id="c61"><label for="c61">Reliability: Cronbach's α per construct (target ≥ 0.70)<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c62"><label for="c62">PROCESS Model 4 mediation, 5,000 bootstraps, AJQ and APR paths<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c63"><label for="c63">Submit Weekly Update W08 — analysis progress<span class="est">(Sun)</span></label></div>
+<div class="day" style="background:#b8650a"><span class="lbl">DAYS +20 to +28 — WRITE CHAPTER 5</span><span class="dat">Wed Jul 8 – Thu Jul 16, 2026</span></div>
+<div class="task"><input type="checkbox" id="c64"><label for="c64">Draft Chapter 5 (Results) — descriptives + EFA + reliability + regression + mediation<span class="est">(2 days)</span></label></div>
+<div class="task"><input type="checkbox" id="c65"><label for="c65">Update Chapter 6 (Discussion) with empirical findings<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c66"><label for="c66">Revise Chapter 4 (Methodology) to match what was actually executed<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c67"><label for="c67">Tighten Chapters 1–3 for consistency with results<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c68"><label for="c68">Submit Weekly Update W09 — manuscript progress<span class="est">(Sun)</span></label></div>
+<div class="task"><input type="checkbox" id="c69"><label for="c69">Integrate any pilot revisions back into Appendix A instrument section<span class="est">(1 day)</span></label></div>
+<div class="task"><input type="checkbox" id="c70"><label for="c70">Buffer / advisor follow-up if needed<span class="est">(1 day)</span></label></div>
+<div class="day" style="background:#b3261e"><span class="lbl">DAYS +30 to +31 — SUBMIT 🏁</span><span class="dat">Fri Jul 18 – Sat Jul 19, 2026</span></div>
+<div class="task"><input type="checkbox" id="c71"><label for="c71">Final proofread: full manuscript end-to-end, check references, check figure<span class="est">(4 hr)</span></label></div>
+<div class="task"><input type="checkbox" id="c72"><label for="c72">Format check: title page, TOC, references list, page numbers<span class="est">(1 hr)</span></label></div>
+<div class="task"><input type="checkbox" id="c73"><label for="c73">Convert to PDF, verify it renders correctly<span class="est">(30 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c74"><label for="c74">Upload to Canvas, add submission comment, screenshot confirmation<span class="est">(10 min)</span></label></div>
+<div class="task"><input type="checkbox" id="c75"><label for="c75">🏁 DONE. Stage 4a manuscript submitted.<span class="est">(0 min)</span></label></div>
+<div class="foot">Three milestones only — Sat Jun 20 (pilot link out) · Tue Jun 23 (CloudResearch live) · Sat Jul 19 (submit). Checks persist in your browser (localStorage). Use your browser's Print → Save as PDF for a paper copy.</div>
+<script>
+const K="pilot-checklist";
+const s=JSON.parse(localStorage.getItem(K)||"{}");
+document.querySelectorAll('input[type=checkbox]').forEach(cb=>{
+  if(s[cb.id]) cb.checked=true;
+  cb.closest('.task,.sub-task').classList.toggle('done', cb.checked);
+  cb.addEventListener('change',()=>{
+    s[cb.id]=cb.checked; localStorage.setItem(K, JSON.stringify(s));
+    cb.closest('.task,.sub-task').classList.toggle('done', cb.checked);
+  });
+});
+</script>
+</body></html>
