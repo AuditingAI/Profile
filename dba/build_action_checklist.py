@@ -17,18 +17,19 @@ from reportlab.platypus.flowables import Flowable
 # Each task: (time_estimate, description, sub_items_optional)
 
 PLAN = [
-    ("DAY 0 — TONIGHT", "Thursday, June 18, 2026 (evening)", colors.HexColor("#1a4e8a"), [
-        ("2 min",   "Send Dr. Rey the 6-line reply email (if not already sent)", []),
-        ("0 min",   "Close laptop. Sleep early. Friday is the big day.", []),
+    ("DAY 0 — TONIGHT", "Friday, June 19, 2026 (evening)", colors.HexColor("#1a4e8a"), [
+        ("0 min",   "Rest. Tomorrow is the focused build day.", []),
+        ("2 min",   "Print this checklist + put it next to your coffee maker", []),
+        ("1 min",   "Set an 8 AM alarm. Block calendar 9 AM – 6 PM for the build.", []),
     ]),
-    ("DAY +1 — FOCUSED BUILD DAY", "Friday, June 19, 2026", colors.HexColor("#b8650a"), [
-        ("3 hr",    "Reconcile Appendix A items against IRB-approved instrument",
+    ("DAY +1 — THE FOCUSED BUILD DAY", "Saturday, June 20, 2026", colors.HexColor("#b8650a"), [
+        ("3 hr",    "9 AM – 12 PM — Reconcile Appendix A vs. IRB-approved instrument",
             ["Open both Word docs side by side",
              "Go construct-by-construct: TA, RA, AT, SAP, FR, IR, RPG, PMI, AJQ, APR, RAB",
              "For each item: same / wording-only revision / new (flag) — log in Revision Log",
              "Save the reconciled final item list"]),
-        ("30 min",  "Lunch + walk away from screen", []),
-        ("4 hr",    "Build Qualtrics survey",
+        ("1 hr",    "12 PM – 1 PM — Lunch + walk away from screen", []),
+        ("4 hr",    "1 PM – 5 PM — Build Qualtrics survey",
             ["Create project: \"Auditors' Professional Judgments and Audit Work Practices\"",
              "Block 1 — Informed Consent: paste IRB letter + Yes/No + screen-out on No",
              "Block 2 — Eligibility screeners (4 items) with screen-out branching",
@@ -39,28 +40,26 @@ PLAN = [
              "Survey Flow — wrap 11 construct blocks in Randomizer",
              "Survey Options — anonymize ON, IP OFF, progress bar ON, ballot-box stuffing OFF",
              "Add debrief screen (IRB protocol #, thank you)"]),
+        ("1 hr",    "5 PM – 6 PM — Save, commit progress to repo, close laptop", []),
+    ]),
+    ("DAY +2 — PILOT LAUNCH + W06 CANVAS", "Sunday, June 21, 2026", colors.HexColor("#1e7a46"), [
         ("30 min",  "Preview-test both paths",
             ["Eligible path: complete fully, time it (target 15–20 min)",
              "Screen-out path: trigger ineligible response, confirm screen-out works"]),
-        ("10 min",  "Publish + export test",
-            ["Publish the survey",
-             "Submit 2 preview responses, export CSV",
-             "Verify variable names + reverse-code flags + no IP column",
-             "Copy the Anonymous Link"]),
-    ]),
-    ("DAY +2 — PILOT LINK GOES OUT", "Saturday, June 20, 2026", colors.HexColor("#1e7a46"), [
+        ("10 min",  "Publish + export test (check variable names + reverse-codes + no IP column)", []),
+        ("5 min",   "Copy the Anonymous Link", []),
         ("20 min",  "Pick 6–10 LinkedIn audit contacts (≥2 yrs, long-term exposure)", []),
         ("30 min",  "Send personalized invitations with Qualtrics link + feedback link", []),
         ("10 min",  "Log each as P01–P10 in Pilot Participant Log (anonymous IDs only)", []),
-        ("0 min",   "🚀 Pilot is live. Stop. Wait for responses.", []),
-    ]),
-    ("DAY +3 — PILOT RUNNING + W06 CANVAS", "Sunday, June 21, 2026", colors.HexColor("#1e7a46"), [
-        ("ongoing", "Log each pilot response: completion time + PF1–PF10 ratings", []),
         ("30 min",  "Draft Weekly Update W06 (stage format, progress-only, no repetition)", []),
         ("5 min",   "Upload W06 docx to Canvas + add submission comment + screenshot confirmation", []),
+        ("0 min",   "🚀 Pilot is live. Stop. Sleep.", []),
+    ]),
+    ("DAY +3 — PILOT RUNNING", "Monday, June 22, 2026", colors.HexColor("#1e7a46"), [
+        ("ongoing", "Log each pilot response: completion time + PF1–PF10 ratings", []),
         ("5 min",   "Send a one-line reminder to any non-responders", []),
     ]),
-    ("DAY +4 — CLOSE PILOT + APPLY REVISIONS", "Monday, June 22, 2026", colors.HexColor("#b8650a"), [
+    ("DAY +4 — CLOSE PILOT + APPLY REVISIONS", "Tuesday, June 23, 2026", colors.HexColor("#b8650a"), [
         ("15 min",  "Confirm ≥6 completed responses", []),
         ("1 hr",    "Apply pilot decision rules",
             ["Clarity < 4/5 → revise wording only",
@@ -71,20 +70,20 @@ PLAN = [
         ("30 min",  "Apply wording-only revisions in Qualtrics; log every change in Revision Log", []),
         ("15 min",  "Close the 6 launch-gating criteria in Decision Summary tab", []),
     ]),
-    ("DAY +5 — CLOUDRESEARCH GOES LIVE 🚀", "Tuesday, June 23, 2026", colors.HexColor("#1a4e8a"), [
+    ("DAY +5 — CLOUDRESEARCH GOES LIVE 🚀", "Wednesday, June 24, 2026", colors.HexColor("#1a4e8a"), [
         ("30 min",  "Create CloudResearch account / project; load study listing", []),
         ("30 min",  "Configure screening (age 18+, audit role, ≥2 yrs, recurring-engagement exposure)", []),
         ("15 min",  "Set Qualtrics anonymous link as participant URL; set completion code route", []),
         ("10 min",  "Set compensation to $6.00 USD (within IRB fixed-comp language)", []),
         ("1 hr",    "🚀 Soft-launch 10–15 responses — DATA COLLECTION OFFICIALLY BEGINS", []),
     ]),
-    ("DAYS +6 to +12 — FULL COLLECTION WEEK", "Wed Jun 24 – Tue Jun 30, 2026", colors.HexColor("#1e7a46"), [
-        ("Wed",     "QA soft-launch batch (eligibility, attention checks, timing, duplicates, export)", []),
+    ("DAYS +6 to +11 — FULL COLLECTION WEEK", "Thu Jun 25 – Tue Jun 30, 2026", colors.HexColor("#1e7a46"), [
+        ("Thu",     "QA soft-launch batch (eligibility, attention checks, timing, duplicates, export)", []),
         ("daily",   "Monitor: response rate, exclusions, valid n count", []),
         ("Sun",     "Submit Weekly Update W07 — DATA COLLECTION PROGRESS (Dr. Rey's ask)", []),
         ("by Tue",  "Scale to n = 60–80 valid responses after cleaning rules applied", []),
     ]),
-    ("DAYS +13 to +19 — CLEAN + ANALYZE", "Wed Jul 1 – Tue Jul 7, 2026", colors.HexColor("#1a4e8a"), [
+    ("DAYS +12 to +18 — CLEAN + ANALYZE", "Wed Jul 1 – Tue Jul 7, 2026", colors.HexColor("#1a4e8a"), [
         ("1 day",   "Close CloudResearch when n ≥ 60 valid; final export", []),
         ("1 day",   "Data cleaning: missing data, outliers, attention-check failures, duplicates", []),
         ("1 day",   "Descriptives: demographics, M/SD, frequencies, normality tests", []),
@@ -94,7 +93,7 @@ PLAN = [
         ("1 day",   "PROCESS Model 4 mediation, 5,000 bootstraps, AJQ and APR paths", []),
         ("Sun",     "Submit Weekly Update W08 — analysis progress", []),
     ]),
-    ("DAYS +20 to +28 — WRITE CHAPTER 5", "Wed Jul 8 – Thu Jul 16, 2026", colors.HexColor("#b8650a"), [
+    ("DAYS +19 to +28 — WRITE CHAPTER 5", "Wed Jul 8 – Fri Jul 17, 2026", colors.HexColor("#b8650a"), [
         ("2 days",  "Draft Chapter 5 (Results) — descriptives + EFA + reliability + regression + mediation", []),
         ("1 day",   "Update Chapter 6 (Discussion) with empirical findings", []),
         ("1 day",   "Revise Chapter 4 (Methodology) to match what was actually executed", []),
@@ -103,7 +102,7 @@ PLAN = [
         ("1 day",   "Integrate any pilot revisions back into Appendix A instrument section", []),
         ("1 day",   "Buffer / advisor follow-up if needed", []),
     ]),
-    ("DAYS +30 to +31 — SUBMIT 🏁", "Fri Jul 18 – Sat Jul 19, 2026", colors.HexColor("#b3261e"), [
+    ("DAYS +29 to +30 — SUBMIT 🏁", "Fri Jul 18 – Sat Jul 19, 2026", colors.HexColor("#b3261e"), [
         ("4 hr",    "Final proofread: full manuscript end-to-end, check references, check figure", []),
         ("1 hr",    "Format check: title page, TOC, references list, page numbers", []),
         ("30 min",  "Convert to PDF, verify it renders correctly", []),
@@ -192,8 +191,8 @@ doc = SimpleDocTemplate(PDF, pagesize=letter,
 story = []
 story.append(Paragraph("Pilot Run — Action Checklist", h_top))
 story.append(Paragraph(
-    "Yasir A. Malik · DBA Cohort 7.16 · GEB7913 — anchored Thu Jun 18, 2026 evening · "
-    "31 days to Stage 4a manuscript milestone (Sat Jul 19, 2026)",
+    "Yasir A. Malik · DBA Cohort 7.16 · GEB7913 — anchored Fri Jun 19, 2026 evening · "
+    "30 days to Stage 4a manuscript milestone (Sat Jul 19, 2026)",
     h_sub))
 
 for label, date, color, tasks in PLAN:
@@ -253,9 +252,9 @@ html_parts = ['''<!doctype html>
   }
 </style>
 </head><body>
-<button class="reset" onclick="if(confirm(\\'Reset all checks?\\')){localStorage.removeItem(\\'pilot-checklist\\');location.reload();}">Reset checks</button>
+<button class="reset" onclick="if(confirm(\\'Reset all checks?\\')){localStorage.removeItem(\\'pilot-checklist-v2\\');location.reload();}">Reset checks</button>
 <h1>Pilot Run — Action Checklist</h1>
-<div class="sub">Yasir A. Malik · DBA Cohort 7.16 · GEB7913 — anchored Thu Jun 18, 2026 evening · 31 days to Stage 4a manuscript milestone (Sat Jul 19, 2026)</div>
+<div class="sub">Yasir A. Malik · DBA Cohort 7.16 · GEB7913 — anchored Fri Jun 19, 2026 evening · 30 days to Stage 4a manuscript milestone (Sat Jul 19, 2026)</div>
 ''']
 
 color_map = {
@@ -277,9 +276,9 @@ for label, date, color, tasks in PLAN:
             cid += 1
             html_parts.append(f'''<div class="sub-task"><input type="checkbox" id="c{cid}"><label for="c{cid}">{sub_desc}</label></div>''')
 
-html_parts.append('''<div class="foot">Three milestones only — Sat Jun 20 (pilot link out) · Tue Jun 23 (CloudResearch live) · Sat Jul 19 (submit). Checks persist in your browser (localStorage). Use your browser's Print → Save as PDF for a paper copy.</div>
+html_parts.append('''<div class="foot">Three milestones only — Sun Jun 21 (pilot link out) · Wed Jun 24 (CloudResearch live) · Sat Jul 19 (submit). Checks persist in your browser (localStorage). Use your browser's Print → Save as PDF for a paper copy.</div>
 <script>
-const K="pilot-checklist";
+const K="pilot-checklist-v2";
 const s=JSON.parse(localStorage.getItem(K)||"{}");
 document.querySelectorAll('input[type=checkbox]').forEach(cb=>{
   if(s[cb.id]) cb.checked=true;
