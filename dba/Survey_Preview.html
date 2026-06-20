@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Survey Preview — Auditors' Professional Judgments and Audit Work Practices</title>
+<style>
+  :root {
+    --bg: #f7f8fb;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #5b6470;
+    --accent: #1a4e8a;
+    --accent-2: #d8e3f5;
+    --ok: #1e7a46;
+    --warn: #c47a00;
+    --line: #e5e8ee;
+    --hover: #f0f4fb;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 16px 16px 60px; }
+
+  header.top {
+    background: white; border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 14px 18px; margin-bottom: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  header h1 { margin: 0; font-size: 17px; letter-spacing: -0.01em; }
+  header .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 999px;
+    background: var(--accent-2); color: var(--accent);
+    font-size: 11px; font-weight: 600; margin-right: 6px;
+  }
+  .progress {
+    height: 6px; background: var(--line); border-radius: 99px;
+    overflow: hidden; margin-top: 12px;
+  }
+  .progress > div { height:100%; background: linear-gradient(90deg, #2faa5e, var(--accent)); width: 0%; transition: width .25s ease; }
+  .progress-label { font-size: 11px; color: var(--muted); margin-top: 4px; display: flex; justify-content: space-between; }
+
+  section.page {
+    display: none;
+    background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+    padding: 18px 18px 16px; margin-bottom: 14px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    animation: fade .22s ease-out;
+  }
+  section.page.active { display: block; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  section h2 { margin: 0 0 4px; font-size: 14px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; }
+  section h3 { margin: 4px 0 14px; font-size: 17px; font-weight: 600; }
+  section p { margin: 8px 0; color: var(--ink); }
+  .intro { color: var(--muted); font-size: 14px; margin-bottom: 14px; }
+
+  .q { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px dashed var(--line); }
+  .q:last-child { border-bottom: none; padding-bottom: 0; }
+  .q .stem { font-size: 15.5px; margin-bottom: 10px; }
+  .q .reverse { color: var(--warn); font-size: 11px; font-weight: 600; margin-left: 4px; }
+
+  .scale {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
+    margin-top: 6px;
+  }
+  .scale label {
+    border: 1px solid var(--line); border-radius: 10px; padding: 10px 4px;
+    text-align: center; cursor: pointer; transition: all .12s;
+    background: white; font-size: 12px; color: var(--muted);
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    min-height: 64px; justify-content: center;
+  }
+  .scale label:hover { background: var(--hover); border-color: var(--accent); }
+  .scale input { display: none; }
+  .scale input:checked + .face { background: var(--accent); color: white; border-color: var(--accent); }
+  .scale .face {
+    width: 22px; height: 22px; border-radius: 50%;
+    border: 1.5px solid var(--line); display: inline-block;
+    transition: all .12s;
+  }
+  .scale label:has(input:checked) { background: var(--accent-2); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .scale label:has(input:checked) .face { background: var(--accent); border-color: var(--accent); }
+
+  .choice {
+    display: block;
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px; margin: 6px 0;
+    cursor: pointer; transition: all .12s;
+    background: white;
+  }
+  .choice:hover { background: var(--hover); border-color: var(--accent); }
+  .choice input { margin-right: 8px; transform: scale(1.15); }
+  .choice:has(input:checked) { background: var(--accent-2); border-color: var(--accent); font-weight: 600; color: var(--accent); }
+
+  .text-input, textarea {
+    width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px;
+    font: inherit; background: white; color: var(--ink);
+    margin-top: 6px;
+  }
+  textarea { min-height: 88px; resize: vertical; }
+  .text-input:focus, textarea:focus { outline: none; border-color: var(--accent); }
+
+  .nav {
+    display: flex; justify-content: space-between; gap: 10px; margin-top: 8px;
+  }
+  button.btn {
+    flex: 1; padding: 14px 18px; border-radius: 10px; border: 1px solid var(--accent);
+    background: var(--accent); color: white; font: inherit; font-weight: 600; font-size: 15px;
+    cursor: pointer; transition: all .12s;
+  }
+  button.btn.secondary { background: white; color: var(--accent); }
+  button.btn:hover { filter: brightness(1.06); }
+  button.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .pill-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
+  .pill-row span {
+    background: var(--accent-2); color: var(--accent);
+    padding: 3px 9px; border-radius: 99px; font-size: 11px; font-weight: 600;
+  }
+
+  .done {
+    text-align: center; padding: 32px 18px;
+  }
+  .done .check {
+    width: 64px; height: 64px; border-radius: 50%;
+    background: #e6f5ec; color: var(--ok); margin: 0 auto 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 30px;
+  }
+
+  footer.foot {
+    text-align: center; color: var(--muted); font-size: 11px; margin-top: 22px;
+  }
+  .mailto-btn {
+    display: inline-block; margin-top: 12px;
+    background: var(--accent); color: white; padding: 12px 20px;
+    border-radius: 10px; text-decoration: none; font-weight: 600;
+  }
+
+  /* Mobile-friendlier scale on very narrow screens */
+  @media (max-width: 420px) {
+    .scale label { padding: 8px 2px; font-size: 11px; min-height: 60px; }
+    body { font-size: 15px; }
+    h3 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>Survey Preview <span class="badge">Mock — not data collection</span></h1>
+    <div class="sub">Auditors' Professional Judgments and Audit Work Practices · ~5 minutes · FIU DBA · IRB-25-0462</div>
+    <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+    <div class="progress-label"><span id="step-text">Page 1 of 8</span><span id="time-text">0:00</span></div>
+  </header>
+
+  <!-- ========= PAGE 1: CONSENT (SHORT) ========= -->
+  <section class="page active" data-page="1">
+    <h2>Informational Letter (Excerpt)</h2>
+    <h3>You're invited to a brief academic survey</h3>
+    <p class="intro">This is a <strong>preview only</strong> — no data is recorded or transmitted. The live study would collect anonymous responses for an FIU doctoral research project on auditor professional judgment in long-term engagements (IRB-25-0462). The preview is for your feedback on clarity, flow, and length.</p>
+    <p class="intro">Live-study summary: 15–20 minutes, fully anonymous, no employer/client/account information collected, no incentive tied to response content.</p>
+    <div class="q">
+      <div class="stem"><strong>Do you understand that this is a preview and not actual data collection?</strong></div>
+      <label class="choice"><input type="radio" name="p1q1" value="yes" required> Yes, I understand — proceed</label>
+      <label class="choice"><input type="radio" name="p1q1" value="no"> No, take me out</label>
+    </div>
+    <div class="nav">
+      <button class="btn" data-next>Begin →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 2: ELIGIBILITY (1 SAMPLE) ========= -->
+  <section class="page" data-page="2">
+    <h2>Eligibility (sample)</h2>
+    <h3>A quick screener so we know who you are</h3>
+    <p class="intro">In the live study, four eligibility items appear here. Showing one representative item for the preview.</p>
+    <div class="q">
+      <div class="stem"><strong>Do you have at least two years of audit experience and exposure to recurring or long-term client engagements?</strong></div>
+      <label class="choice"><input type="radio" name="p2q1" value="yes"> Yes</label>
+      <label class="choice"><input type="radio" name="p2q1" value="no"> No — but I'll preview anyway</label>
+    </div>
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Next →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 3: INITIAL QUALITY SCREEN ========= -->
+  <section class="page" data-page="3">
+    <h2>Initial Quality Screen</h2>
+    <h3>Three short items before the main survey</h3>
+    <p class="intro">These take ~60 seconds and help us focus the data on careful, professional responses.</p>
+
+    <div class="q">
+      <div class="stem"><strong>Survey research depends on respondents reading each item carefully and providing thoughtful answers. Will you commit to doing that throughout this 15–20 minute survey?</strong></div>
+      <label class="choice"><input type="radio" name="p3qA1" value="yes"> Yes, I commit to reading each item carefully</label>
+      <label class="choice"><input type="radio" name="p3qA1" value="unsure"> I'm not sure</label>
+      <label class="choice"><input type="radio" name="p3qA1" value="no"> No, I cannot commit</label>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Audit professionals make many judgments every day. To confirm you are reading carefully, please select "Strongly disagree" for this item.</strong></div>
+      <div class="scale">
+        <label><input type="radio" name="p3qA2" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p3qA2" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p3qA2" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p3qA2" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p3qA2" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Which best describes a "long-term auditor engagement" as used in this study?</strong></div>
+      <label class="choice"><input type="radio" name="p3qA3" value="a"> A first-year engagement with a new audit client</label>
+      <label class="choice"><input type="radio" name="p3qA3" value="b"> A recurring engagement with a continuing client across multiple years</label>
+      <label class="choice"><input type="radio" name="p3qA3" value="c"> A one-time forensic investigation engagement</label>
+      <label class="choice"><input type="radio" name="p3qA3" value="d"> An internal training or coaching program</label>
+    </div>
+
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Next →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 4: CONSTRUCT BATCH 1 (TA, RA, AT, SAP, FR) ========= -->
+  <section class="page" data-page="4">
+    <h2>Main Survey (Part 1)</h2>
+    <h3>Your firm and your work practices</h3>
+    <p class="intro">One representative item per construct. In the live survey there are five per construct, presented in randomized order.</p>
+
+    <div class="pill-row">
+      <span>Training & Awareness</span><span>Rotation</span><span>Analytical Tools</span><span>Structured Procedures</span><span>Feedback & Reflection</span>
+    </div>
+
+    <div class="q">
+      <div class="stem">My firm provides specific training on cognitive biases (such as anchoring) that can affect audit judgments.</div>
+      <div class="scale">
+        <label><input type="radio" name="p4q1" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p4q1" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p4q1" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p4q1" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p4q1" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">When I join a continuing engagement, I form my own view before reading prior auditors' conclusions.</div>
+      <div class="scale">
+        <label><input type="radio" name="p4q2" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p4q2" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p4q2" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p4q2" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p4q2" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">Visualization tools help me notice patterns that differ from prior-year expectations.</div>
+      <div class="scale">
+        <label><input type="radio" name="p4q3" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p4q3" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p4q3" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p4q3" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p4q3" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">Procedures require me to evaluate current evidence before consulting the prior-year conclusion.</div>
+      <div class="scale">
+        <label><input type="radio" name="p4q4" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p4q4" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p4q4" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p4q4" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p4q4" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">My approach to recurring tasks is mostly informal and ad hoc.<span class="reverse">(reverse-coded)</span></div>
+      <div class="scale">
+        <label><input type="radio" name="p4q5" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p4q5" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p4q5" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p4q5" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p4q5" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Next →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 5: EMBEDDED IMC + MORE CONSTRUCTS ========= -->
+  <section class="page" data-page="5">
+    <h2>Main Survey (Part 2)</h2>
+    <h3>Continuing through the other constructs</h3>
+
+    <div class="q" style="background:#fff8e1;border:1px solid #f0d68a;border-radius:10px;padding:14px;">
+      <div class="stem"><strong>Please select "Agree" for this item to confirm you are paying attention.</strong></div>
+      <div class="scale">
+        <label><input type="radio" name="p5imc" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5imc" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5imc" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5imc" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5imc" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="pill-row">
+      <span>Independent Reviews</span><span>Regulatory Guidance</span><span>Performance Metrics</span><span>Judgment Quality</span><span>Process Rigor</span><span>Anchoring Bias</span>
+    </div>
+
+    <div class="q">
+      <div class="stem">My work is reviewed by a qualified auditor who was not involved in forming the original judgment.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q1" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q1" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q1" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q1" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q1" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">Regulatory standards (e.g., PCAOB) meaningfully shape how I exercise judgment.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q2" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q2" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q2" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q2" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q2" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">My performance evaluation rewards judgment quality, not only efficiency.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q3" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q3" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q3" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q3" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q3" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">I reach conclusions objectively, free of undue influence from management's explanations.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q4" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q4" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q4" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q4" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q4" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">The audit process I follow is thorough and consistently executed.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q5" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q5" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q5" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q5" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q5" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">When auditing a recurring account, I adjust fully away from the prior-year balance when current evidence warrants.</div>
+      <div class="scale">
+        <label><input type="radio" name="p5q6" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="p5q6" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="p5q6" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="p5q6" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="p5q6" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Next →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 6: FINAL QUALITY CHECK + DEMOGRAPHICS ========= -->
+  <section class="page" data-page="6">
+    <h2>Final Quality Check + Demographics</h2>
+    <h3>Almost done</h3>
+
+    <div class="q">
+      <div class="stem"><strong>In your own words, briefly describe one situation in your audit work where you've had to compare current-period evidence against a prior-period balance.</strong> (Two sentences is plenty.)</div>
+      <textarea name="p6open" placeholder="Type a short response…"></textarea>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Years of audit experience</strong></div>
+      <label class="choice"><input type="radio" name="p6exp" value="lt2"> Less than 2 years</label>
+      <label class="choice"><input type="radio" name="p6exp" value="25"> 2–5 years</label>
+      <label class="choice"><input type="radio" name="p6exp" value="610"> 6–10 years</label>
+      <label class="choice"><input type="radio" name="p6exp" value="10p"> More than 10 years</label>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Primary role</strong></div>
+      <label class="choice"><input type="radio" name="p6role" value="ext"> External auditor</label>
+      <label class="choice"><input type="radio" name="p6role" value="int"> Internal auditor</label>
+      <label class="choice"><input type="radio" name="p6role" value="reg"> Regulatory / government audit</label>
+      <label class="choice"><input type="radio" name="p6role" value="other"> Other audit-related role</label>
+    </div>
+
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Next →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 7: PREVIEWER FEEDBACK (NOT IN LIVE SURVEY) ========= -->
+  <section class="page" data-page="7">
+    <h2>Your Feedback on the Preview</h2>
+    <h3>This page is for the preview only</h3>
+    <p class="intro">It does not appear in the live survey. Your honest take on what I should fix is what makes the pilot worthwhile.</p>
+
+    <div class="q">
+      <div class="stem">Instructions and item wording were clear.</div>
+      <div class="scale">
+        <label><input type="radio" name="f1" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="f1" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="f1" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="f1" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="f1" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">The items sounded natural for an audit professional.</div>
+      <div class="scale">
+        <label><input type="radio" name="f2" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="f2" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="f2" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="f2" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="f2" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem">A 15–20 minute version of this would feel reasonable.</div>
+      <div class="scale">
+        <label><input type="radio" name="f3" value="1"><span class="face"></span><span>Strongly disagree</span></label>
+        <label><input type="radio" name="f3" value="2"><span class="face"></span><span>Disagree</span></label>
+        <label><input type="radio" name="f3" value="3"><span class="face"></span><span>Neither</span></label>
+        <label><input type="radio" name="f3" value="4"><span class="face"></span><span>Agree</span></label>
+        <label><input type="radio" name="f3" value="5"><span class="face"></span><span>Strongly agree</span></label>
+      </div>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Which item(s), if any, were confusing or felt off?</strong> (Free text)</div>
+      <textarea name="f4" placeholder="Item wording, ordering, or anything that gave you pause…"></textarea>
+    </div>
+
+    <div class="q">
+      <div class="stem"><strong>Anything else I should know before I send this to other auditors?</strong></div>
+      <textarea name="f5" placeholder="Short comments are welcome…"></textarea>
+    </div>
+
+    <div class="nav">
+      <button class="btn secondary" data-prev>← Back</button>
+      <button class="btn" data-next>Finish →</button>
+    </div>
+  </section>
+
+  <!-- ========= PAGE 8: THANK YOU + SEND FEEDBACK ========= -->
+  <section class="page" data-page="8">
+    <div class="done">
+      <div class="check">✓</div>
+      <h3>Thanks for taking the preview</h3>
+      <p class="intro">Nothing was sent. To get your feedback to Yasir, tap the button below — it opens an email pre-filled with your answers from the feedback page.</p>
+      <a href="#" id="mailto" class="mailto-btn">Email my feedback to Yasir</a>
+      <p style="margin-top:18px;color:var(--muted);font-size:13px">If the email button doesn't work on your device, just text or DM Yasir a few sentences about what you noticed.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    FIU DBA · Yasir A. Malik · IRB-25-0462 · Preview only — no data is recorded or transmitted from this page.
+  </footer>
+</div>
+
+<script>
+  const pages = document.querySelectorAll('section.page');
+  const total = pages.length;
+  let current = 1;
+  const startTime = Date.now();
+
+  function show(n) {
+    pages.forEach(p => p.classList.toggle('active', +p.dataset.page === n));
+    current = n;
+    document.getElementById('bar').style.width = ((n-1) / (total-1) * 100) + '%';
+    document.getElementById('step-text').textContent = `Page ${n} of ${total}`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  document.querySelectorAll('[data-next]').forEach(b => {
+    b.addEventListener('click', () => show(Math.min(current + 1, total)));
+  });
+  document.querySelectorAll('[data-prev]').forEach(b => {
+    b.addEventListener('click', () => show(Math.max(current - 1, 1)));
+  });
+
+  // Live timer
+  setInterval(() => {
+    const s = Math.floor((Date.now() - startTime) / 1000);
+    document.getElementById('time-text').textContent = `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;
+  }, 1000);
+
+  // Build a mailto link with the feedback answers when arriving at page 8
+  function buildMailto() {
+    const f = (n) => {
+      const el = document.querySelector(`[name="${n}"]:checked`) || document.querySelector(`[name="${n}"]`);
+      if (!el) return '';
+      if (el.tagName === 'TEXTAREA') return el.value || '';
+      return el.value || '';
+    };
+    const elapsed = Math.floor((Date.now() - startTime) / 1000);
+    const body = [
+      `Hi Yasir, here is my feedback on the survey preview.`,
+      ``,
+      `Time spent on preview: ${Math.floor(elapsed/60)}m ${elapsed%60}s`,
+      ``,
+      `Clarity of wording (1-5): ${f('f1')}`,
+      `Natural for auditors (1-5): ${f('f2')}`,
+      `15-20 min feels reasonable (1-5): ${f('f3')}`,
+      ``,
+      `Items that were confusing or off:`,
+      f('f4') || '(none)',
+      ``,
+      `Anything else:`,
+      f('f5') || '(none)',
+    ].join('\n');
+    const subject = 'Survey preview feedback — anchoring-bias DBA study';
+    document.getElementById('mailto').href =
+      `mailto:yasiramalik@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+  // rebuild when arriving at thank-you page
+  const obs = new MutationObserver(() => {
+    if (document.querySelector('[data-page="8"]').classList.contains('active')) buildMailto();
+  });
+  pages.forEach(p => obs.observe(p, { attributes: true, attributeFilter: ['class'] }));
+</script>
+</body>
+</html>
