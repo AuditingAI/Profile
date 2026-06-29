@@ -9,7 +9,7 @@ DATE: Sunday, June 21, 2026
 
 **Study:** Mitigating Anchoring Bias in Long-Term Auditor Engagements — An EFA-Based Validation Study
 **Researcher:** Yasir A. Malik (PID 1687105) | **Advisor:** Prof. Dr. Juan Rey | **IRB:** IRB-25-0462
-**Version:** v2 — incorporates accepted changes from Richard's peer review (see `04_Peer_Review/`)
+**Version:** v2.1 — incorporates Richard's peer review including his follow-up chat comments (see `04_Peer_Review/`)
 
 > **Response scale (all construct items):** 5-point Likert — *1 = Strongly disagree · 2 = Disagree · 3 = Neither agree nor disagree · 4 = Agree · 5 = Strongly agree.* **(R)** = reverse-coded (`6 − response` at cleaning).
 > Scale decision (5-point retained) is documented in the peer-review response §3.1, grounded in Preston & Colman (2000) and Dawes (2008).
@@ -30,10 +30,17 @@ DATE: Sunday, June 21, 2026
 | RPG_2 | Inspection risk motivates me to reconsider judgments more carefully. | **The possibility of inspection encourages me to double-check the support and analysis behind my judgments.** |
 | PMI_4 (R) | Pressure to meet budgets discourages me from re-examining prior-year balances. | **My firm's incentive and evaluation system discourages spending the extra time needed to challenge prior-year balances.** |
 | APR_5 | The rigor of the process does not depend on any single individual. | **Critical audit procedures are consistently followed across all my engagements.** |
-| **C1 (new)** | — | **On my engagements, prior-year workpapers and conclusions are typically accessible to the audit team.** (context control) |
+| **C1 (new, refined)** | — | **Across my engagements, prior-year workpapers and conclusions are accessible to the audit team:** *(frequency scale — captures that access varies engagement-by-engagement)* |
 | **D1 (split)** | Years of audit experience | **D1a — years of external audit experience; D1b — years of internal audit experience** |
+| **Intro (new)** | — | **Brief, neutral definition of anchoring bias added to the orientation screen** (Richard's follow-up) |
+| **D3b (new)** | — | **Firm size — Big 4 / Mid-tier / Small / Sole practitioner** (Richard's follow-up) |
 
 *Constructs, items-per-construct (5), and the 16 hypotheses are unchanged. All edits are wording, coverage, or controls — none alters what a construct measures.*
+
+**Follow-up chat comments from Richard (June 21) — all accommodated:**
+1. *"I would add the definition of anchoring bias"* → a brief, neutral definition is now shown on the orientation screen (see Section 0). Kept deliberately non-leading to limit priming.
+2. *"Whether the manager gives access to previous audit files could vary audit by audit; a control variable should be pursued"* → control item C1 retained and **converted to a frequency scale** so it captures engagement-by-engagement variation.
+3. *"Demographics… add firm size — big 4 / mid-tier / small"* → new demographic D3b added.
 
 ---
 
@@ -43,6 +50,11 @@ DATE: Sunday, June 21, 2026
 **Consent.** Do you consent to participate in this study?
 - Yes, I consent and wish to continue
 - No, I do not consent **[SCREEN-OUT]**
+
+**Orientation — key term (display only, shown after consent).**
+> *Anchoring bias* is the tendency to rely too heavily on an initial piece of information — an "anchor," such as a prior-year balance, a management estimate, or a budget figure — when making a judgment, so that final conclusions stay closer to that starting point than the evidence alone would justify. This survey asks about your audit work and the conditions around it; please answer based on your own experience.
+>
+> *(Added per reviewer request. Worded neutrally and placed as general orientation to aid comprehension while limiting any priming of specific answers.)*
 
 ---
 
@@ -147,8 +159,9 @@ DATE: Sunday, June 21, 2026
 
 # SECTION 3 — Context Control & Open-Ended Check
 
-**C1 (context control).** On my engagements, prior-year workpapers and conclusions are typically accessible to the audit team. *(5-point Likert.)*
-*Rationale: the anchoring premise assumes exposure to the prior-year reference point; this item lets the analysis test whether effects differ by exposure. Added per peer-review point on prior-file access.*
+**C1 (context control).** Across my engagements, how often are prior-year workpapers and conclusions accessible to the audit team?
+- On every engagement · On most engagements · On about half · On some engagements · Rarely or never
+*Rationale: the anchoring premise assumes exposure to the prior-year reference point. The reviewer noted that access "could vary audit by audit," so this is a **frequency** scale rather than a single agree/disagree — it captures within-respondent variability and lets the analysis test whether anchoring effects differ by exposure. Treated as a control, excluded from the factor analysis.*
 
 **Open-ended substantive check.** In your own words, please briefly describe a time in your audit work when you noticed an initial figure (a prior-year balance, a management estimate, or a budget) influencing your judgment. *2–4 sentences is plenty.*
 
@@ -164,7 +177,9 @@ DATE: Sunday, June 21, 2026
 *(Note: internal auditors frequently have prior external audit experience; capturing both avoids hiding dual backgrounds.)*
 
 **D2.** Primary audit role — External audit / Internal audit / Audit support or other / Not currently in an audit role
-**D3.** Organization type — Public accounting (Big 4) / Public accounting (non-Big 4) / Private company / Regulatory body / Government / Other
+**D3.** Organization type — Public accounting firm / Private company / Regulatory body / Government / Other
+**D3b.** If you work in (or most recently worked in) public accounting, what is the firm's size? — Big 4 / Mid-tier (national or large regional) / Small (local or regional) / Sole practitioner / Not applicable
+*(Firm size added per reviewer follow-up; separates firm scale from organization type.)*
 **D4.** Primary industry focus — Financial services / Manufacturing / Technology / Healthcare / Energy / Government-nonprofit / Other
 **D5.** Do you currently work on multi-year (long-term) engagements? — Yes / No
 **D6.** Highest professional credential — CPA / CIA / CISA / Other accounting credential / None yet
@@ -188,9 +203,11 @@ DATE: Sunday, June 21, 2026
 | 2 mediators × 5 | 10 |
 | 1 DV × 5 | 5 |
 | Attention checks | 2 |
-| Context control (C1) | 1 |
+| Context control (C1, frequency) | 1 |
 | Open-ended check | 1 |
-| Demographics (D1a, D1b, D2–D7) | 8 |
-| **Respondent-facing total** | **73** |
+| Demographics (D1a, D1b, D2, D3, D3b, D4–D7) | 9 |
+| **Respondent-facing total** | **74** |
+
+*(Plus a display-only anchoring-bias definition on the orientation screen — not a response item.)*
 
 *Reconciliation note: reconciled against the IRB-approved instrument (IRB-25-0462) on Monday Jun 22; where the approved instrument differs, the approved wording governs, and any item judged substantive is cleared with advisor + IRB before fielding.*

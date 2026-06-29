@@ -3,7 +3,7 @@
 **Companion file:** `Qualtrics_Survey_Import.txt` (v2 — post peer review)
 **Purpose:** Import the full instrument in 30 seconds, then run the 7 post-import steps below so launch-day is clean.
 
-> **v2 note (post Richard's peer review):** Eight construct items were reworded (TA_5, RA_5, AT_3, SAP_5, IR_1, IR_3, RPG_1, RPG_2, PMI_4, APR_5 — see `Full_Survey_Questionnaire_v2.md` change log). A new context-control item **C1_PRIORFILE** was added (5-point Likert, prior-file access). The single experience demographic was split into **D1A_EXT_EXP** (external years) and **D1B_INT_EXP** (internal years). Reverse-coded items are unchanged (still position 4 in each construct). Note: **C1_PRIORFILE is NOT reverse-coded and is a control, not a construct item — exclude it from the factor analysis.**
+> **v2.1 note (post Richard's peer review + follow-up chat):** Eight construct items were reworded (TA_5, RA_5, AT_3, SAP_5, IR_1, IR_3, RPG_1, RPG_2, PMI_4, APR_5 — see `Full_Survey_Questionnaire_v2.md` change log). Added: an orientation screen with a neutral **anchoring-bias definition** (`ORIENT_DEF`, display only); a context-control item **C1_PRIORFILE** (now a **frequency** scale: every / most / half / some / rarely — captures engagement-by-engagement variation); split experience into **D1A_EXT_EXP** and **D1B_INT_EXP**; and a firm-size demographic **D3B_FIRM_SIZE** (Big 4 / mid-tier / small / sole practitioner). Reverse-coded items are unchanged (still position 4 in each construct). Note: **C1_PRIORFILE is a control on a frequency scale, not a Likert construct item — exclude it from the factor analysis.**
 
 ---
 

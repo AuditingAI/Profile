@@ -103,6 +103,18 @@ This lets the analysis check whether anchoring effects differ between auditors w
 
 ---
 
+## 4b. Follow-up comments (reviewer chat, June 21) — all accommodated
+
+| # | Comment | Disposition | What changed in v2.1 |
+|---|---|---|---|
+| 16 | "Add the definition of anchoring bias." | **Accepted** | Neutral, display-only definition added to an orientation screen after consent. Placed as general orientation and kept non-leading to limit priming of specific item responses. |
+| 17 | "Access to previous audit files could vary audit by audit — a control variable should be pursued." | **Accepted — strengthened** | The C1 control was converted from an agree/disagree item to a **frequency scale** (every / most / half / some / rarely-or-never), capturing engagement-by-engagement variation. Remains a control, excluded from the EFA. |
+| 18 | "Add firm size — Big 4 / mid-tier / small." | **Accepted** | New demographic D3b (Big 4 / Mid-tier / Small / Sole practitioner), separate from organization type. |
+
+*A note on the anchoring definition and priming:* defining the bias up front carries a small risk of nudging socially-desirable answers. I judged the benefit (shared understanding, cleaner comprehension) to outweigh it here because (a) the instrument is a transparent self-report validation study, not a deception experiment, and (b) several items already reference prior-year figures and reference points, so the construct is not concealed. The definition is worded neutrally and not linked to any specific item.
+
+---
+
 ## 5. What this means for the model and the timeline
 
 - **Constructs:** unchanged (11). **Items per construct:** unchanged (5). **Hypotheses:** unchanged (16). → The EFA and mediation plan are intact.

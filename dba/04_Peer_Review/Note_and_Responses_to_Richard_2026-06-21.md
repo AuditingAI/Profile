@@ -44,6 +44,16 @@ A quick note on how to read this: the eleven constructs and the five-items-each 
 
 ---
 
+## Your follow-up points (from chat) — all done
+
+| You added | What I did | Why |
+|---|---|---|
+| **"Add the definition of anchoring bias."** | A brief, plain-language definition now appears on an orientation screen right after consent. | Helps every respondent answer from the same understanding. I kept it neutral and general (not tied to any item) so it aids comprehension without nudging answers. |
+| **"Access to previous audit files could vary audit by audit — pursue a control variable."** | I kept the prior-file control and **changed it to a frequency scale** — "On every / most / about half / some / rarely-or-never engagement." | You're right it varies engagement-by-engagement, so a single agree/disagree wasn't enough. A frequency scale captures that variation and lets the analysis test whether anchoring differs by how often the team sees the prior file. |
+| **"Add firm size — Big 4 / mid-tier / small."** | New demographic added: Big 4 / Mid-tier / Small / Sole practitioner, separate from organization type. | Firm scale is a meaningful control that organization type alone didn't capture. |
+
+---
+
 ## Things I thought hard about but kept — and why
 
 I didn't want to just accept everything; a couple of your points I weighed and decided to hold, with reasons:

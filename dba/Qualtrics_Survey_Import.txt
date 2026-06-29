@@ -68,6 +68,16 @@ No
 
 [[PageBreak]]
 
+[[Block:01b - Orientation]]
+
+[[Question:DB]]
+[[ID:ORIENT_DEF]]
+<b>Before you begin — one key term.</b>
+<p><b>Anchoring bias</b> is the tendency to rely too heavily on an initial piece of information &mdash; an "anchor," such as a prior-year balance, a management estimate, or a budget figure &mdash; when making a judgment, so that final conclusions stay closer to that starting point than the evidence alone would justify.</p>
+<p>This survey asks about your audit work and the conditions around it. Please answer based on your own experience.</p>
+
+[[PageBreak]]
+
 [[Block:02 - TA - Training and Awareness]]
 
 [[Question:Matrix]]
@@ -318,15 +328,15 @@ Strongly agree
 
 [[Block:15a - Context Control]]
 
-[[Question:MC:SingleAnswer:Horizontal]]
+[[Question:MC:SingleAnswer:Vertical]]
 [[ID:C1_PRIORFILE]]
-On my engagements, prior-year workpapers and conclusions are typically accessible to the audit team.
+Across my engagements, how often are prior-year workpapers and conclusions accessible to the audit team?
 [[Choices]]
-Strongly disagree
-Disagree
-Neither agree nor disagree
-Agree
-Strongly agree
+On every engagement
+On most engagements
+On about half
+On some engagements
+Rarely or never
 
 [[PageBreak]]
 
@@ -381,12 +391,23 @@ Not currently in an audit role
 [[ID:D3_FIRM_TYPE]]
 What type of organization do you work for?
 [[Choices]]
-Public accounting firm (Big 4)
-Public accounting firm (non-Big 4)
+Public accounting firm
 Private company
 Regulatory body
 Government
 Other
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D3B_FIRM_SIZE]]
+If you work in (or most recently worked in) public accounting, what is the firm's size?
+[[Choices]]
+Big 4
+Mid-tier (national or large regional)
+Small (local or regional)
+Sole practitioner
+Not applicable
 
 [[PageBreak]]
 
