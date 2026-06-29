@@ -78,7 +78,7 @@ My firm provides specific training on cognitive biases (such as anchoring) that 
 I have been taught concrete techniques for avoiding over-reliance on prior-year figures.
 Training in my firm includes practice exercises with feedback, not only lectures.
 I have received little or no training on how initial reference points can distort judgment.
-I feel well prepared to recognize when an anchor is influencing my conclusion.
+I can recognize when an initial reference point is influencing my professional judgment.
 [[Answers]]
 Strongly disagree
 Disagree
@@ -98,7 +98,7 @@ Personnel on my long-term engagements are rotated on a regular schedule.
 Rotation in my firm is frequent enough to bring a "fresh look" to recurring clients.
 When I join a continuing engagement, I form my own view before reading prior auditors' conclusions.
 The same individuals remain on my engagements for many years without change.
-Rotation policies in my firm meaningfully reduce over-familiarity with clients.
+Rotation policies or requirements in my firm meaningfully reduce over-familiarity with clients or auditees.
 [[Answers]]
 Strongly disagree
 Disagree
@@ -116,7 +116,7 @@ Strongly agree
 [[Choices]]
 I routinely use data-analytics tools that flag anomalies in client data.
 Visualization tools help me notice patterns that differ from prior-year expectations.
-The analytical tools I use draw on data beyond the client's own ledgers.
+The analytical tools I use draw on data beyond the client's own ledgers (i.e., multiple sources of evidence).
 I rely mainly on prior-year workpapers rather than on current-period analytics.
 The tools I use prompt me to investigate items that contradict my expectations.
 [[Answers]]
@@ -138,7 +138,7 @@ My audit work follows standardized procedures and decision aids.
 Procedures require me to evaluate current evidence before consulting the prior-year conclusion.
 Documentation templates make my reasoning explicit and reviewable.
 My approach to recurring tasks is mostly informal and ad hoc.
-The structure of my firm's methodology reduces reliance on mental shortcuts.
+The structure of my firm's audit methodology reduces reliance on mental shortcuts.
 [[Answers]]
 Strongly disagree
 Disagree
@@ -188,9 +188,9 @@ Strongly agree
 [[ID:IR]]
 <b>Independent Reviews.</b> Please indicate your agreement with each statement.
 [[Choices]]
-My work is reviewed by a qualified auditor who was not involved in forming the original judgment.
+My work is reviewed by a senior or equally qualified auditor who was not involved in forming the original judgment.
 Reviewers in my firm independently re-examine key estimates.
-The review process catches instances where I have under-adjusted from a prior-year figure.
+Reviewers challenge whether my judgments rely too heavily on prior-year audit conclusions.
 Reviews in my firm mostly confirm the preparer's conclusion without independent analysis.
 Engagement-quality reviews are substantive rather than a formality.
 [[Answers]]
@@ -208,8 +208,8 @@ Strongly agree
 [[ID:RPG]]
 <b>Regulatory and Professional Guidance.</b> Please indicate your agreement with each statement.
 [[Choices]]
-Regulatory standards (e.g., PCAOB) meaningfully shape how I exercise judgment.
-Inspection risk motivates me to reconsider judgments more carefully.
+Regulatory and professional standards (e.g., PCAOB, AICPA, IIA, COSO) meaningfully shape how I exercise judgment.
+The possibility of inspection encourages me to double-check the support and analysis behind my judgments.
 Professional-skepticism requirements are actively reinforced in my firm.
 Regulatory guidance has little practical effect on my day-to-day judgments.
 Standards require me to document independent support for estimates.
@@ -231,7 +231,7 @@ Strongly agree
 My performance evaluation rewards judgment quality, not only efficiency.
 Incentives in my firm are aligned with audit quality.
 I am recognized for exercising appropriate professional skepticism.
-Pressure to meet budgets discourages me from re-examining prior-year balances.
+My firm's incentive and evaluation system discourages spending the extra time needed to challenge prior-year balances.
 The way my work is evaluated encourages thorough, independent analysis.
 [[Answers]]
 Strongly disagree
@@ -286,7 +286,7 @@ The audit process I follow is thorough and consistently executed.
 Key judgments are independently corroborated within the engagement.
 The process enforces disciplined evaluation of evidence in a defined order.
 Execution on my engagements is often rushed or inconsistent.
-The rigor of the process does not depend on any single individual.
+Critical audit procedures are consistently followed across all my engagements.
 [[Answers]]
 Strongly disagree
 Disagree
@@ -316,6 +316,20 @@ Strongly agree
 
 [[PageBreak]]
 
+[[Block:15a - Context Control]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:C1_PRIORFILE]]
+On my engagements, prior-year workpapers and conclusions are typically accessible to the audit team.
+[[Choices]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
 [[Block:15 - Substantive Open-Text Check]]
 
 [[Question:TE:Essay]]
@@ -327,9 +341,23 @@ In your own words, please briefly describe a time in your audit work when you no
 [[Block:16 - Demographics]]
 
 [[Question:MC:SingleAnswer:Vertical]]
-[[ID:D1_EXPERIENCE]]
-How many years of audit experience do you have?
+[[ID:D1A_EXT_EXP]]
+How many years of EXTERNAL audit experience do you have? (Select 0 if none.)
 [[Choices]]
+0 (none)
+Less than 2 years
+2 to 5 years
+6 to 10 years
+11 to 15 years
+More than 15 years
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D1B_INT_EXP]]
+How many years of INTERNAL audit experience do you have? (Select 0 if none.)
+[[Choices]]
+0 (none)
 Less than 2 years
 2 to 5 years
 6 to 10 years
