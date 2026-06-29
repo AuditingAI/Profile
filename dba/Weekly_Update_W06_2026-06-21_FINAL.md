@@ -10,19 +10,19 @@ DATE: Sunday, June 21, 2026 (Project Week 5 of 9)
 **PID 1687105 | Cohort 7.16 | GEB7913**
 **Submitted:** Sunday, June 21, 2026 (Week-5 deadline submission)
 **Reporting period:** June 15 – June 21, 2026 (Project Week 5 of 9)
-**Current stage:** Stage 2 — Qualtrics and Survey Instrument (PRIMARY); transitioning into Stage 1b (Informed Pilot)
+**Current stage:** Stage 1b (Informed Pilot — preview run underway) and Stage 2a (Qualtrics build going live this week), running together
 
 ---
 
 **Stage 1a — Recruitment and Solicitation materials.** Finalized the informal preview-test outreach kit ahead of the formal LinkedIn pilot. Three WhatsApp message templates were drafted (close-friends, audit-professional, FIU/academic group) with numbered step-by-step instructions for less technical respondents. A four-tab tracking workbook (Send Log / Responses / Issues Flagged / Auto-Summary) was created for keying tester feedback to anonymous 8-character Preview IDs with severity-tagged issue logging. The full READY pilot/recruitment packet from June 1 (Informed Pilot Protocol, Feedback Form, Revision Log, CloudResearch Launch Draft, MTurk Backup, Recruiting Launch Checklist) remains current and unchanged.
 
-**Stage 1b — Executing the Informed Pilot.** No update. The formal IRB-approved pilot launches once the Qualtrics build closes. Ahead of that, an informal cross-device preview test is being distributed this weekend to confirm the consent flow, eligibility branching, randomized construct presentation, embedded attention checks, and feedback capture all function on real phones before the approved instrument is deployed.
+**Stage 1b — Executing the Informed Pilot.** Underway. The full set of sample measurement items (all eleven constructs) was shared with two audit-experienced contacts who are completing an informal preview run this week, ahead of the formal IRB-approved pilot. The purpose of this preview is to confirm item comprehension, instrument flow, and timing on real respondents before the approved Qualtrics instrument is deployed. Their feedback feeds the Pilot Revision Log and informs any non-substantive wording adjustments. The formal informed pilot (6–10 eligible auditors on the published Qualtrics link) opens later this week once the build closes, and is sequenced to run before any paid platform recruiting per the advisor's guidance.
 
 **Stage 1c — Documenting the informed pilot in the manuscript.** No update.
 
-**Stage 2a — Design and implementation in Qualtrics.** Substantial preparatory progress. Three artifacts were built and committed to the project branch this week: (1) an interactive HTML survey preview (`Survey_Preview.html`) containing one representative item per construct (eleven constructs), three initial quality screens, two embedded mid-survey instructional manipulation checks, page-level timing controls, and an open-ended final substantive check; (2) a quality-controls specification (`Attention_and_Focus_Quality_Controls.md`) documenting the six-item attention/focus screen, pass/fail rules, and exclusion criteria for the Stage 3b data-cleaning step, with three new method citations (Oppenheimer, Meyvis, & Davidenko, 2009, JESP; Meade & Craig, 2012, Psychological Methods; Clifford & Jerit, 2015, POQ) — each web-verified for venue, year, and pages; and (3) a research-grade Google Form backend (`google_form_builder.gs` Apps Script plus a mobile setup guide) that provisions a feedback Form with an auto-linked Response Sheet, so informal preview feedback is captured in a timestamped, CSV/SPSS-exportable form rather than ad-hoc messages. Reconciliation of Appendix A against the IRB-approved instrument and the Qualtrics build itself are the immediate next block; informal preview results inform any non-substantive wording revisions before the build.
+**Stage 2a — Design and implementation in Qualtrics.** Substantial progress; the instrument goes live in Qualtrics this week on a day-by-day schedule (below). The complete instrument was finalized at 71 respondent-facing items (eleven constructs × five items, two embedded attention checks, five eligibility screeners, an open-ended substantive check, and seven demographic items) and prepared as a Qualtrics-importable file so the build itself is fast. Three supporting artifacts were committed this week: (1) a quality-controls specification documenting the attention/focus screens, pass/fail rules, and exclusion criteria for the Stage 3b data-cleaning step, with three new method citations (Oppenheimer, Meyvis, & Davidenko, 2009, JESP; Meade & Craig, 2012, Psychological Methods; Clifford & Jerit, 2015, POQ) — each web-verified for venue, year, and pages; (2) a reviewer copy of the full questionnaire with answer options and routing, used for the informal preview run; and (3) a codebook mapping every item, the reverse-coded items, and the 5→1 recoding rule for factor analysis. Reconciliation of Appendix A against the IRB-approved instrument is the first task Monday; the Qualtrics build and preview testing follow Tuesday.
 
-**Stage 2b — Integration into MTurk / CloudResearch.** No update. Both launch drafts remain READY (CloudResearch as primary route; MTurk as backup). CloudResearch project setup is targeted for Wednesday, June 24, immediately after the informed pilot closes.
+**Stage 2b — Integration into MTurk / CloudResearch.** No update. Both launch drafts remain READY (CloudResearch as primary route; MTurk as backup). CloudResearch project setup is sequenced for later this week, immediately after the informed pilot closes and the six pre-launch decision gates are verified.
 
 **Stage 3a — Recruitment and Data Collection.** No update.
 
@@ -36,7 +36,14 @@ DATE: Sunday, June 21, 2026 (Project Week 5 of 9)
 
 ---
 
-**Plan for Week 6 (June 22–28).** Mon Jun 22: Appendix A reconciled against the IRB-approved instrument (AI-assisted side-by-side; deltas classified SAME / WORDING / SUBSTANTIVE and logged to the Revision Log); informal preview feedback reviewed. Tue Jun 23: FIU Qualtrics build (consent block, eligibility screeners with screen-out branching, 11 randomized construct blocks, reverse-coded items, embedded attention checks, demographics, debrief); preview-tested on both eligible and screen-out paths; published. Wed Jun 24: CloudResearch project setup + soft-launch (10–15 responses) — data collection officially begins. Thu Jun 25 – Sun Jun 28: CloudResearch scaling toward n = 60–80; Weekly Update W07 (data-collection progress) submitted Sunday.
+**Plan for Week 6 (June 22–28) — day by day.**
+- **Mon Jun 22:** Reconcile Appendix A against the IRB-approved instrument (item-by-item; deltas classified SAME / WORDING / SUBSTANTIVE and logged to the Revision Log). Review the informal preview feedback from the two contacts.
+- **Tue Jun 23:** Build the survey in FIU Qualtrics (consent block, five eligibility screeners with screen-out branching, eleven randomized construct blocks, reverse-coded items, two embedded attention checks, demographics, debrief). Preview-test both the eligible and screen-out paths on mobile and desktop. Publish and generate the anonymous pilot link.
+- **Tue evening:** Send the informed-pilot link to 6–10 eligible auditor contacts.
+- **Wed Jun 24:** Informed pilot open; monitor responses and collect feedback.
+- **Thu Jun 25:** Close the pilot at ≥6 completions; apply any wording/flow-only revisions; verify the six pre-launch decision gates.
+- **Fri Jun 26:** CloudResearch soft-launch (10–15 responses) — data collection officially begins.
+- **Sat–Sun Jun 27–28:** CloudResearch scaling toward n = 60–80; submit Weekly Update W07 (data-collection progress) on Sunday.
 
 **Repository.** All artifacts live on the project branch `claude/scholar-links-review-Plgk6` in the `dba/` folder: https://github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba
 
