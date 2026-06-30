@@ -34,7 +34,21 @@ Richard + 2–4 audit-experienced contacts, to confirm wording/flow/timing on re
 
 ## Milestone status (from Milestones_and_Timeline.md)
 
-- **M1 — Survey live in Qualtrics: ✅ DONE (Jul 1)**
-- M2 — CloudResearch ready: pending
-- M3 — Micro-pilot feedback: in progress (link sent tonight)
-- M4 — Data collection begins (CloudResearch soft-launch): target this week
+- **M1 — Survey live in Qualtrics: ✅ DONE (Jul 1)** — verified end-to-end (consent → all blocks → "response recorded")
+- **M2 — CloudResearch project: ✅ DRAFT BUILT (Jul 1)** — see below
+- M3 — Micro-pilot feedback: send link to Richard + 2–4 audit contacts
+- M4 — Data collection begins (CloudResearch soft-launch): pending finalize + funding
+
+## CloudResearch draft (built tonight)
+
+- Researcher account: ymali001@fiu.edu (40% edu discount)
+- Project: "Audit Professional Judgment Survey — Academic Research (FIU)" / internal "YMalik Anchoring Bias - Soft Launch"
+- Type: Survey | Participants: 15 (soft-launch) | Est. 18 min | Pay: **$6.00/person ($20/hr — "Great!")**
+- Targeting: United States | Universal block list: Yes | PII: No
+- **Total to fund: $90.00** (fees 100% discounted by promo)
+- **Completion redirect (wire into Qualtrics end-of-survey):** `https://connect.cloudresearch.com/participant/project/F064F43848/complete` | Code: `F064F43848`
+- ⚠️ Open: survey-URL field validation + completion-redirect handshake = one paired Qualtrics+CloudResearch task to finish at finalize time
+
+## Test responses to delete before analysis
+
+- At least 1 self-test response recorded on Jul 1 via the live link — remove in Data & Analysis before the real dataset is cleaned.
