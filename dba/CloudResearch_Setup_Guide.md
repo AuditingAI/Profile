@@ -14,7 +14,7 @@
 - [ ] **A funding source** — debit/credit card or wire. CloudResearch is **prepaid** (you load money first, then pay per response).
 - [ ] **IRB protocol number** — IRB-25-0462 — keep it copy-paste handy.
 - [ ] **Compensation amount** — **$6.00 USD per completed response** (within IRB-approved fixed compensation language).
-- [ ] **Target sample size** — soft-launch **15**, full launch **60–80**.
+- [ ] **Target sample size** — soft-launch **15**, full launch **n = 100 valid** (collect extra to net 100 after exclusions). *Budget ≈ 100+ × $6 ≈ $600+.*
 
 ---
 
@@ -148,7 +148,7 @@ Tell me which step number and what the screen says. Don't troubleshoot alone for
 
 - **Wed Jun 24 evening:** 10–15 valid responses in hand.
 - **Sun Jun 28:** W07 reports "data collection live; n=X collected, attention-check pass rate Y%, soft-launch quality decision: proceed/revise."
-- **Jul 5 (W08):** scaling toward 60–80.
+- **Jul 5 (W08):** scaling toward n = 100 valid.
 - **Jul 12 (W09):** collection closes; cleaning + descriptive analysis begins.
 - **Jul 19:** final manuscript with EFA results.
 

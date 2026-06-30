@@ -22,11 +22,11 @@ DATE: Tuesday, June 30, 2026
 | **M3** | 1-day micro-pilot | Wed Jul 1 AM | 3–4 contacts confirm it works end-to-end; wording-only fixes applied |
 | **M4** | **Data collection begins** | **Wed Jul 1** | CloudResearch soft-launch (15) live |
 | **M5** | Soft-launch quality gate | Thu Jul 2 | Attention-check pass rate, median time, screen-out rate reviewed → go/no-go to full launch |
-| **M6** | Methodology meeting w/ Dr. Rey | **Thu Jul 2, 11:00 AM** | 4 method questions answered (n floor, rotation, mediation inputs, cross-loading rule) |
-| **M7** | **Full sample collected** | **Wed Jul 8** | n = 60–80 valid responses; collection closed; data exported |
+| **M6** | Methodology questions to Dr. Rey | ✅ Jun 30 | **Answered by email** — n=100, PAF + Direct Oblimin, EFA+reliabilities only, item rule. Meeting declined per his recommendation to focus on collection. |
+| **M7** | **Full sample collected** | **Wed Jul 8** | **n = 100 valid** responses; collection closed; data exported |
 | **M8** | Data cleaned | Fri Jul 10 | Reverse-coded; attention-fails/speeders/duplicates removed; analytic n documented; descriptives done |
-| **M9** | **EFA + reliability complete** | Mon Jul 13 | KMO + Bartlett; PAF; parallel analysis; rotation; pattern matrix; α per factor |
-| **M10** | Mediation complete | Tue Jul 14 | PROCESS Model 4, 5,000 bootstraps, AJQ/APR pathways |
+| **M9** | **EFA + reliabilities complete (FINAL ANALYSIS)** | Mon Jul 14 | KMO + Bartlett; PAF; parallel analysis; **Direct Oblimin** rotation; pattern matrix; item removal (<.30; .30–.40 case-by-case); Cronbach's α per factor |
+| ~~M10~~ | ~~Mediation~~ | — | **Out of scope** per advisor directive (no mediation/hypothesis testing this term) |
 | **M11** | Results + Discussion written | Thu Jul 17 | Ch. 4 (Results) + Ch. 5 (Discussion) drafted and integrated |
 | **M12** | **Final manuscript submitted** | **Sat–Sun Jul 18–19** | Rubric self-check passed; citations re-verified; formatted; uploaded to Canvas |
 

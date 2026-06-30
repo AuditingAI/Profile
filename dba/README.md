@@ -14,7 +14,7 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 ---
 
-> **The study.** Which audit-process interventions most effectively reduce **anchoring bias** in long-term (multi-year) auditor engagements — and do they work directly, or through judgment-quality and process-rigor pathways? Eleven constructs, sixteen hypotheses, validated by exploratory factor analysis and mediation on a target of 60–80 audit professionals.
+> **The study.** Which audit-process interventions most effectively reduce **anchoring bias** in long-term (multi-year) auditor engagements? Eleven constructs and a sixteen-hypothesis model (proposed framework). **For this summer project, the analysis validates the measurement model via exploratory factor analysis and reliability** on a target of **n = 100 valid** audit-professional responses; hypothesis and mediation testing are future research (per advisor directive, 2026-06-30).
 
 <div align="center">
 
@@ -60,9 +60,9 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 | Jul 1 | Survey LIVE + CloudResearch draft | ✅ |
 | Jul 2, 11 AM | Dr. Rey methodology meeting | 📅 |
 | Jul 2–3 | Finalize → fund → **soft-launch (data begins)** | ⬜ |
-| Jul 3–8 | Scale to n = 60–80 | ⬜ |
+| Jul 3–8 | Scale to **n = 100 valid** | ⬜ |
 | Jul 9–10 | Clean data | ⬜ |
-| Jul 11–13 | EFA + mediation | ⬜ |
+| Jul 11–13 | **EFA + reliabilities** | ⬜ |
 | Jul 14–17 | Write Results + Discussion | ⬜ |
 | **Jul 18–19** | Submit final manuscript | 🎯 |
 
@@ -105,8 +105,9 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 ## 📊 Methods at a glance
 
-- **Sample:** 60–80 US audit professionals via CloudResearch (MTurk backup).
-- **Analysis:** EFA (PAF, rotation, KMO + Bartlett + parallel analysis); reliability α ≥ .70; mediation via PROCESS Model 4 (5,000 bootstraps).
+- **Sample:** **n = 100 valid** US audit professionals via CloudResearch (MTurk backup).
+- **Analysis (this project):** EFA — **Principal Axis Factoring + Direct Oblimin rotation**, KMO + Bartlett + parallel analysis; reliability (Cronbach's α). *No mediation/hypothesis testing this term (advisor directive); model + hypotheses are the proposed framework / future research.*
+- **Item rule:** remove loadings < .30; decide .30–.40 case-by-case (keep if removal worsens the pattern matrix).
 - **Theory lens:** dual-process theory via the anchoring-and-adjustment heuristic.
 - **Rigor remedies:** anonymity, reverse items, block randomization, attention checks; planned Harman's test + marker variable for common method bias.
 

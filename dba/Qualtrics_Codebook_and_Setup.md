@@ -54,7 +54,7 @@ This is the only step the TXT format cannot do for you. Click **Survey Flow** (l
 11. Block 17 (Debrief)
 12. **End of Survey** with redirect URL to CloudResearch (Step 7)
 
-> Simpler alternative if randomizing-around-attention-checks gets fiddly: keep blocks in import order (TA→RA→AT→SAP→AC1→FR→IR→RPG→PMI→AC2→AJQ→APR→RAB). Less ideal for EFA defense but acceptable for a 60–80-n study.
+> Simpler alternative if randomizing-around-attention-checks gets fiddly: keep blocks in import order (TA→RA→AT→SAP→AC1→FR→IR→RPG→PMI→AC2→AJQ→APR→RAB). Less ideal for EFA defense but acceptable for an n = 100 study.
 
 ---
 

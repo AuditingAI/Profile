@@ -21,10 +21,10 @@ DATE: Tuesday, June 30, 2026
 | **Tue Jun 30 (TODAY)** | **Go live** | Build + publish Qualtrics; send to 3–4 pilot contacts; set up CloudResearch |
 | Wed Jul 1 | **Soft-launch** | CloudResearch soft-launch (15) — **collection officially begins** |
 | Thu Jul 2 | Quality gate | Review first 15: attention checks, timing, screen-outs → go/no-go |
-| Fri Jul 3 – Tue Jul 7 | **Scale** | Full launch toward **n = 60–80**; monitor daily |
+| Fri Jul 3 – Tue Jul 7 | **Scale** | Full launch toward **n = 100 valid**; monitor daily |
 | Wed Jul 8 | Close | Stop collection; export data |
 | Thu Jul 9 – Fri Jul 10 | **Clean** | Reverse-code, drop attention-check fails / speeders / duplicates; finalize analytic sample; descriptives |
-| Sat Jul 11 – Mon Jul 13 | **Analyze** | EFA (KMO, Bartlett, parallel analysis, PAF + varimax, loadings) + reliability (α); mediation (PROCESS Model 4) |
+| Sat Jul 11 – Mon Jul 14 | **Analyze** | EFA (KMO, Bartlett, parallel analysis, **PAF + Direct Oblimin**, loadings) + reliability (Cronbach's α). *No mediation — out of scope per advisor.* |
 | Tue Jul 14 – Thu Jul 17 | **Write** | Results (Ch. 4) + Discussion (Ch. 5); integrate into manuscript |
 | Fri Jul 18 | Polish | Proofread, citations re-verified, formatting |
 | **Sat–Sun Jul 18–19** | **Submit** | Final manuscript to Canvas |
@@ -80,7 +80,7 @@ Review the 15:
 
 - Top up CloudResearch to ~$640 total; raise target to 80.
 - Monitor once daily. No need to babysit.
-- Goal: **n = 60–80 valid by Jul 8.**
+- Goal: **n = 100 valid by Jul 8.**
 
 ---
 
@@ -97,10 +97,9 @@ When data lands, the plan is fixed:
 1. **Screen + clean:** reverse-code position-4 items (`6 − x`); drop attention-check failures and implausibly fast responses; document the analytic n.
 2. **Factorability:** KMO (≥ .70 target) + Bartlett's test of sphericity.
 3. **Extract:** principal-axis factoring; decide # factors via parallel analysis + scree + eigenvalues.
-4. **Rotate:** varimax; inspect the pattern matrix; flag cross-loadings and weak loadings (< .40).
+4. **Rotate:** **Direct Oblimin** (oblique); inspect the pattern matrix; remove loadings < .30, and decide .30–.40 case-by-case (keep an item if removing it worsens the pattern matrix).
 5. **Reliability:** Cronbach's α per retained factor (≥ .70).
-6. **Mediation:** PROCESS Model 4, 5,000 bootstraps, for the AJQ/APR pathways.
-7. **Report:** update Ch. 4 (Results) and Ch. 5 (Discussion); Ch. 1–3 (intro, lit, model, hypotheses) are already written.
+6. **Report:** write the Data Analysis section (EFA factor structure + reliabilities) and a results narrative; Ch. 1–3 (intro, lit, model, hypotheses) are already written. *Mediation/hypothesis testing is out of scope this term (advisor directive) and noted as future research.*
 
 ---
 

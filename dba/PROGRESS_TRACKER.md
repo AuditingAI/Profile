@@ -9,6 +9,8 @@ UPDATED: July 1, 2026 (~2 AM)
 **Goal:** Final manuscript submitted by **Jul 18–19, 2026.**
 **Status: ON TRACK** — the two hardest blockers (survey + recruiting platform) are DONE.
 
+> **Advisor directive (2026-06-30):** Analysis scope = **EFA + reliabilities only** (no mediation/hypothesis testing this term). Target **n = 100 valid**. Extraction **PAF + Direct Oblimin**. See `correspondence/2026-06-30_Rey_directive_analysis_scope.md`.
+
 ---
 
 ## ✅ DONE (as of Jul 1)
@@ -48,9 +50,9 @@ UPDATED: July 1, 2026 (~2 AM)
 | Jul 1–2 | Pilot link to Richard + friends | 🔜 |
 | **Jul 2, 11 AM** | Dr. Rey methodology meeting | 📅 scheduled |
 | Jul 2–3 | Finalize survey → fund → **soft-launch (data begins)** | ⬜ |
-| Jul 3–8 | Scale to **n = 60–80** | ⬜ |
+| Jul 3–8 | Scale to **n = 100 valid** | ⬜ |
 | Jul 9–10 | Clean data | ⬜ |
-| Jul 11–13 | **EFA + mediation** | ⬜ |
+| Jul 11–13 | **EFA + reliabilities** (PAF + Direct Oblimin) | ⬜ |
 | Jul 14–17 | Write Results (Ch. 4) + Discussion (Ch. 5) | ⬜ |
 | **Jul 18–19** | Submit final manuscript | 🎯 |
 
