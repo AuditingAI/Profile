@@ -29,6 +29,12 @@ CELLH=S("cellh",f="Helvetica-Bold",s=8.8,l=11.5,c=white,sa=0)
 QUOTE=S("quote",s=9.8,l=14,c=GREY,sa=6)
 
 def inl(t):
+    # drop images/badges entirely
+    t=re.sub(r"!\[[^\]]*\]\([^)]*\)","",t)
+    # markdown link -> just the link text
+    t=re.sub(r"\[([^\]]+)\]\([^)]*\)",r"\1",t)
+    # strip stray html div/sub/img tags
+    t=re.sub(r"</?(div|sub|sup|img)[^>]*>","",t)
     t=html.escape(t)
     t=re.sub(r"\*\*(.+?)\*\*",r"<b>\1</b>",t)
     t=re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)",r"<i>\1</i>",t)
@@ -49,6 +55,18 @@ while i<n:
     s=raw[i].rstrip()
     st=s.strip()
     if st=="":
+        i+=1; continue
+    # code fence -> monospace block
+    if st.startswith("```"):
+        i+=1; buf=[]
+        while i<n and not raw[i].strip().startswith("```"):
+            buf.append(html.escape(raw[i])); i+=1
+        i+=1
+        story.append(Paragraph("<br/>".join(buf) or "&nbsp;",
+            S("code",f="Courier",s=8.5,l=11,sa=8)))
+        continue
+    # html-only / image-only line -> skip if nothing left
+    if (st.startswith("<") and st.endswith(">")) or re.fullmatch(r"!\[[^\]]*\]\([^)]*\)",st):
         i+=1; continue
     if st=="---":
         story.append(HRFlowable(width="100%",thickness=0.6,color=GREY,spaceBefore=6,spaceAfter=8)); i+=1; continue
