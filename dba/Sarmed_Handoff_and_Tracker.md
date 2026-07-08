@@ -12,7 +12,7 @@ DATE: July 1, 2026
 
 **Live survey (share this):** https://fiu.qualtrics.com/jfe/form/SV_3lae5xJsPcRfIN0
 
-> **Context:** CloudResearch's self-service panel can't reach auditors (niche professional audience), so we need a paid **managed panel** and/or free professional outreach. The survey is LIVE and works via the direct link right now.
+> **Context:** CloudResearch's self-service panel can't reach auditors. **Dr. Rey recommended Prolific — that is now our PRIMARY route** (prescreens by occupation/industry, fast, cheaper than managed research). CloudResearch Managed Research is the backup. The survey is LIVE via the direct link now.
 
 ---
 
@@ -20,15 +20,15 @@ DATE: July 1, 2026
 
 | # | Task | Owner | Due | Status |
 |---|---|---|---|---|
-| 1 | Reply to CloudResearch Managed Research (JB) with study spec → get quote | Sarmed | **Jul 2** | ☐ |
-| 2 | Get 2–3 competing panel quotes (Prolific, Prime Panels, Centiment, Qualtrics) | Sarmed | **Jul 3** | ☐ |
-| 3 | Build the quote-comparison (cost / speed / auditor verification) | Sarmed | **Jul 3** | ☐ |
-| 4 | Finalize Qualtrics for launch (screen-outs, consent letter, force-response, redirect) | Sarmed + Yasir | **Jul 3** | ☐ |
-| 5 | Launch free outreach — LinkedIn + IIA/AICPA chapters + FIU alumni | Sarmed | **Jul 2** | ☐ |
-| 6 | Provide IRB consent letter + approve panel spend | **Yasir only** | **Jul 2** | ☐ |
-| 7 | Pick panel + fund + launch | **Yasir only** | **Jul 4** | ☐ |
+| **1** | **Set up Prolific study** (account → build → prescreen US audit/finance → check eligible count → soft-launch 15) — see `Prolific_Setup_Guide.md` | Sarmed + Yasir | **Jul 2** | ☐ |
+| 2 | Report Prolific **eligible-participant count** (tells us if supply is there) | Sarmed | **Jul 2** | ☐ |
+| 3 | Finalize Qualtrics for launch (consent letter, Prolific completion redirect + PROLIFIC_PID, force-response) | Sarmed + Yasir | **Jul 2** | ☐ |
+| 4 | BACKUP: get CloudResearch Managed Research quote (only if Prolific supply thin) | Sarmed | **Jul 3** | ☐ |
+| 5 | Free outreach — LinkedIn + IIA/AICPA chapters + FIU alumni | Sarmed | **Jul 2** | ☐ |
+| 6 | Provide IRB consent letter + approve spend | **Yasir only** | **Jul 2** | ☐ |
+| 7 | Fund Prolific + scale to 100 | **Yasir only** | **Jul 3** | ☐ |
 | 8 | Daily response tracking toward n=100 (flag attention-check fails/speeders) | Sarmed | Daily | ☐ |
-| 9 | Hit **n = 100 valid** | Both | **Jul 11** | ☐ |
+| 9 | Hit **n = 100 valid** | Both | **Jul 9–10** | ☐ |
 
 **Reporting cadence:** Sarmed sends a **1-line status every evening** (e.g., "Quotes: 2/3 back. Responses: 12. LinkedIn posted."). Update this table's Status column each time.
 
