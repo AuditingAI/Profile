@@ -35,6 +35,7 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 | 📄 [`Research_Paper_YMalik_v4.docx`](Research_Paper_YMalik_v4.docx) | Full paper — Ch. 1–3, model, hypotheses |
 | 🗺️ [`DBA_Master_Action_Pack.pdf`](DBA_Master_Action_Pack.pdf) | Week-by-week action plan |
 
+**🛰️ Governance Console (live dashboard):** https://claude.ai/code/artifact/88e88dae-8818-48dc-9bab-263774af0d93
 **🔗 Live survey:** https://fiu.qualtrics.com/jfe/form/SV_3lae5xJsPcRfIN0
 
 ---
@@ -45,11 +46,12 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 |---|---|
 | Survey built + published in Qualtrics (73 items) | ✅ **LIVE** |
 | Verified end-to-end on mobile | ✅ |
-| CloudResearch recruiting project (15 × $6, US, $90) | ✅ Draft built |
-| Peer review #1 — wording (CPA/CFA/FRM) | ✅ Incorporated → v2.1 |
-| Peer review #2 — methodology | ✅ Addressed (Limitations section) |
-| Dr. Rey methodology meeting | 📅 Thu Jul 2, 11 AM |
-| Data collection → EFA → manuscript | 🔜 Jul 1–19 |
+| Peer review ×2 (wording + methodology) → v2.1 | ✅ Incorporated |
+| Analysis directive locked (EFA + reliabilities, n=100, PAF + Direct Oblimin) | ✅ |
+| EFA + reliability playbook (from advisor's assignment) | ✅ Built |
+| **Data collection** | 🟢 **Live — 12 valid responses to date** |
+| Recruiting platform | 🔵 **Prolific (primary, launching)** · Managed research (backup) |
+| n = 100 → EFA → manuscript | 🔜 Jul 9–10 → Jul 19 |
 
 ---
 
@@ -57,13 +59,12 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 | When | Milestone | Status |
 |---|---|---|
-| Jul 1 | Survey LIVE + CloudResearch draft | ✅ |
-| Jul 2, 11 AM | Dr. Rey methodology meeting | 📅 |
-| Jul 2–3 | Finalize → fund → **soft-launch (data begins)** | ⬜ |
-| Jul 3–8 | Scale to **n = 100 valid** | ⬜ |
-| Jul 9–10 | Clean data | ⬜ |
-| Jul 11–13 | **EFA + reliabilities** | ⬜ |
-| Jul 14–17 | Write Results + Discussion | ⬜ |
+| Jul 1 | Survey LIVE · data collection begins | ✅ |
+| Jul 2–3 | Prolific launch · finalize consent + redirect · fund | 🔵 active |
+| Jul 3–9 | Scale to **n = 100 valid** | ⬜ |
+| Jul 10 | Clean data | ⬜ |
+| Jul 10–14 | **EFA + reliabilities** (PAF + Direct Oblimin) | ⬜ |
+| Jul 14–17 | Write Data Analysis + results | ⬜ |
 | **Jul 18–19** | Submit final manuscript | 🎯 |
 
 ---
