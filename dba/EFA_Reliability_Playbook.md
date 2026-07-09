@@ -29,7 +29,8 @@ DATE: July 1, 2026
    - Remove **attention-check failures** (AC1 ≠ "Disagree", AC2 ≠ "Agree").
    - Remove **speeders** (implausibly fast page times) and straight-liners.
    - Document how many you removed → this is your **analytic n**.
-4. **⚠ Reverse-code the (R) items** — item 4 of every construct: `TA_4, RA_4, AT_4, SAP_4, FR_4, IR_4, RPG_4, PMI_4, AJQ_4, APR_4, RAB_4`.
+4. **Outlier analysis (its own Results subsection — both course exemplars report it):** after cleaning, screen each construct with **boxplots and z-scores** (|z| > 3.29 as the conventional flag); document every keep/drop decision with a one-line rationale in the exclusion log. Removal is the exception, not the rule — an extreme-but-genuine professional opinion is data, not noise.
+5. **⚠ Reverse-code the (R) items** — item 4 of every construct: `TA_4, RA_4, AT_4, SAP_4, FR_4, IR_4, RPG_4, PMI_4, AJQ_4, APR_4, RAB_4`.
    - In SPSS: Transform → Recode into Same/Different Variables → `1→5, 2→4, 3→3, 4→2, 5→1` (i.e., `new = 6 − old`).
    - **This is mandatory before both EFA interpretation and reliability** — Dr. Rey's assignment flags exactly this (their item 3 was reverse-coded).
 
@@ -42,7 +43,7 @@ DATE: July 1, 2026
 1. Move **all 55 construct items** into the **Variables** box.
 2. **Descriptives** button → select **all options** (gives you KMO, Bartlett's, anti-image matrix, correlation matrix, determinant, reproduced correlations).
 3. **Extraction** button → Method = **Principal axis factoring**; check **Scree plot**.
-4. **Rotation** button → **Direct Oblimin**.
+4. **Rotation** button → run the analysis **twice — once with Varimax, once with Direct Oblimin** (one rotation per run, exactly as Assignment 4 teaches). **Report Direct Oblimin** with the theoretical justification that the constructs are correlated; the Varimax run is your comparison evidence that the solution is stable across rotations.
 5. **Options** button → **Sorted by size** + **Suppress small coefficients** = **.30**.
 6. **OK** to run.
 

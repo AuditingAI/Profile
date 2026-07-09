@@ -16,7 +16,7 @@
 - [ ] **Descriptives + normality tests** - Histograms, boxplots, Q-Q, skewness/kurtosis, Shapiro-Wilk (goes to Normality appendix)
 - [ ] **Run EFA per Assignment 4 recipe** - KMO (+Kaiser & Rice adjective) + Bartlett; per-item KMO >= .50 via anti-image; determinant > .00001; PAF + scree; both Varimax and Oblimin, report one justified; suppress loadings < .3; residuals < .05 check; watch RPG split
 - [ ] **Reliability analysis** - Reverse-code PMI_4R first; Cronbach's alpha + item-total statistics (alpha-if-deleted) per construct
-- [ ] **Regression + mediation analysis** - 16 hypotheses; AJQ and APR mediation paths
+- ~~**Regression + mediation analysis** - 16 hypotheses; AJQ and APR mediation paths~~ **OUT OF SCOPE per Dr. Rey Jun 30 directive (Scope Amendment v2.1, confirmed by Yasir Jul 8)** — analysis ends at EFA + reliabilities; H1–H16 = future research in Conclusions
 - [ ] **Update Analysis Decision Log** - Every analysis decision documented in 04_Data_and_Analysis
 
 ## THEN — Final Manuscript (due Jul 18-19)

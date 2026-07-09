@@ -2,6 +2,8 @@
 Yasir A. Malik | v2: 2026-07-08 (supersedes v1, archived in 99_Archive_Older_Drafts)
 Governing deadlines: **n=100 valid by Jul 11** · **Final manuscript Jul 18–19**
 
+> **⚠ SCOPE AMENDMENT v2.1 (2026-07-08, confirmed by Yasir).** Per Dr. Rey's written directive of Jun 30 — *"Your summer research project does not require testing any of the hypotheses (including mediation). Instead, your Data Analysis section should cover until EFA + Reliabilities"* — **Phase 3 step 8 (regressions + mediation) and all hypothesis testing are OUT OF SCOPE for this manuscript.** The analysis ends at EFA + reliabilities. H1–H16 remain in Section III as the proposed framework and are addressed in Conclusions as future research. The Results narrative's final analytical subsection is Reliability, not hypothesis tests.
+
 **What changed in v2:** every phase is now aligned to Dr. Rey's own materials — the Assignment 4 EFA/reliability guided solution, the two Summer Research Exemplars (manuscript structure + Results narrative), the Prolific Setup Guide, the informed-pilot instrument template, and the Qualtrics collaborator/link instructions. Change log at the bottom.
 
 ---
@@ -52,7 +54,7 @@ This is Dr. Rey's own guided methodology; the manuscript's Data Analysis section
 5. **Model fit check:** reproduced correlations — residuals < .05, report the percentage; concern threshold >50%.
 6. **Watch item:** RPG dimensionality — if it splits, pre-agreed protocol: report + Dr. Rey sign-off (I draft the email).
 7. **Reliability:** Cronbach's alpha per scale + item-total statistics with alpha-if-item-deleted (exact Assignment 4 output set).
-8. **Hypotheses (16):** regressions for direct paths; mediation via AJQ/APR (bootstrapped indirect effects, 5,000 resamples).
+8. ~~**Hypotheses (16):** regressions for direct paths; mediation via AJQ/APR (bootstrapped indirect effects, 5,000 resamples).~~ **OUT OF SCOPE per Scope Amendment v2.1** — analysis ends at step 7 (reliability). Hypotheses discussed qualitatively in Conclusions as future research.
 9. **Write-up in the guide's reporting voice** — the Assignment 4 closing paragraph is the template sentence structure for the EFA narrative.
 10. **Verification pass (data:validate-data):** every number re-derived programmatically before it enters the manuscript.
 
@@ -72,8 +74,8 @@ Target: 11,000–16,500 words (both exemplars sit in this band). Structure (exem
 | II | Literature Review | Constructs TA→RAB from 08_Expansion drafts; gaps; hypotheses emerge with rationale |
 | III | Research Model & Hypotheses | Model diagram, construct definitions, H1–H16 formal statements |
 | IV | Methodology | Design, instrument, 5-pt Likert justification (Preston & Colman 2000; Dawes 2008), sampling, Prolific procedure, IRB-25-0462, consent, anonymity |
-| V | Results | **Exemplar narrative order:** Informed Pilot (Richard review + pilot, using the question-quality typology: double-barreled/leading/loaded/confusing) → Qualtrics & Survey Instrument build (consent letter, screeners, force-response, attention checks — document what IS in the live build) → Data Collection → Data Validation → Outliers → Demographics → Normality → EFA → Reliability → Hypothesis tests → interpretation |
-| — | Conclusions & Recommendations | Findings per RQ/hypothesis; practice implications; limitations; **future research = AI/LLM dissertation bridge (only AI mention)** |
+| V | Results | **Exemplar narrative order (per Scope Amendment v2.1):** Informed Pilot (Richard review + pilot, using the question-quality typology: double-barreled/leading/loaded/confusing) → Qualtrics & Survey Instrument build (consent letter, screeners, force-response, attention checks — document what IS in the live build) → Data Collection → Data Validation → Outliers → Demographics → Normality → EFA → **Reliability (final analytical subsection)** → interpretation of the validated measurement model |
+| — | Conclusions & Recommendations | Findings per RQ (measurement-model validation); practice implications; limitations; **hypotheses H1–H16 positioned as the tested-next framework**; **future research = AI/LLM dissertation bridge (only AI mention)** |
 | VI | References | APA 7, DOI-formatted like exemplar 2 |
 | — | Appendices (lettered) | Instrument v2, recruitment materials, IRB letter, informed-pilot feedback matrix (professor's xlsx format), exclusion log, Normality appendix, full EFA outputs |
 
@@ -110,7 +112,7 @@ Sunday weekly update (next: **Jul 12**; confirm W08 vs W09 numbering). Advisor q
 | Literature Review (8) | Phase 4 §II from 08_Expansion |
 | Model & Hypotheses (8) | Phase 4 §III — diagram + definitions + H1–H16 |
 | Methodology (8) | Phase 4 §IV + IRB documentation |
-| **Data Analysis (12)** | Phases 2–3 run Assignment 4's exact recipe: cleaning, descriptives, normality, outliers, EFA (full pre-checks), reliability + item-total, mediation, charts/tables |
+| **Data Analysis (12)** | Phases 2–3 run Assignment 4's exact recipe: cleaning, descriptives, normality, outliers, EFA (full pre-checks), reliability + item-total, charts/tables — **ends at reliability per Scope Amendment v2.1 (no mediation)** |
 | Conclusions + Recommendations (6) | Phase 4, per-hypothesis + limitations |
 | References + Appendices (4) | APA 7 sweep + lettered appendices incl. instrument, recruitment, pilot matrix, data tables |
 | Academic Writing (20) | Exemplar-benchmarked prose, APA 7, consistency sweep |
