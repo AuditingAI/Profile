@@ -18,6 +18,7 @@ UPDATED: July 1, 2026 (~2 AM)
 
 - [x] Research model, hypotheses, full paper (Ch. 1–3) — *done earlier*
 - [x] Instrument finalized (v2.1) + audit-practitioner peer review incorporated
+- [x] **Jul 9 status:** 20 valid responses; funding constraint (job loss) → free-channel recruitment; status email + 3 questions sent to Dr. Rey; day-by-day sprint locked (`Daily_Sprint_Jul09_to_Jul19.md`)
 - [x] **Survey built in Qualtrics** — 73 items, 20 blocks, content-audited
 - [x] Anonymity + bot/duplicate protection configured
 - [x] Consent added + **survey PUBLISHED LIVE**
