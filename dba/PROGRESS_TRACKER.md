@@ -19,6 +19,9 @@ UPDATED: July 1, 2026 (~2 AM)
 - [x] Research model, hypotheses, full paper (Ch. 1–3) — *done earlier*
 - [x] Instrument finalized (v2.1) + audit-practitioner peer review incorporated
 - [x] **Jul 9 status:** 20 valid responses; funding constraint (job loss) → free-channel recruitment; status email + 3 questions sent to Dr. Rey; day-by-day sprint locked (`Daily_Sprint_Jul09_to_Jul19.md`)
+- [x] **Prolific FUNDED for 100 participants and LIVE** (paid — R-05 mitigated)
+
+> **🚨 JUL 16 REALITY CHECK (from Gmail sweep):** Manuscript due **Jul 18–19 — 2–3 days out**. The Jul 13 freeze date has passed → **freeze survey + export data TODAY (Jul 16)**, run cleaning + EFA + reliabilities **Jul 16–17**, write Results **Jul 17–18**, submit **Jul 18–19**. Prolific study notifications go to **ymali001@fiu.edu** (not gmail) — check the FIU inbox + Prolific dashboard for fill status. Also on the calendar: **AmEx Audit Director interview Thu Jul 17, 1:30 PM ET.**
 - [x] **Survey built in Qualtrics** — 73 items, 20 blocks, content-audited
 - [x] Anonymity + bot/duplicate protection configured
 - [x] Consent added + **survey PUBLISHED LIVE**
