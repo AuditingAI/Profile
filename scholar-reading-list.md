@@ -143,3 +143,9 @@ Cross-cutting work on governance, regulation that intersects with audit methodol
 Your current "Auditor Bias" alert keyword pulls in ~50% accounting/finance auditor papers. Consider replacing it with something like:
 `("algorithmic audit" OR "AI audit" OR "LLM bias" OR "fairness audit") AND (LLM OR "vision-language" OR "machine learning" OR "neural network")`
 in Scholar to cut the noise at the source.
+
+---
+
+## Jun–Jul 2026 alert triage (2026-07-16, pre-submission sweep)
+
+29 "Auditor Bias" alerts reviewed (Jun 1 – Jul 16). **Verdict: no impact on Ch. 1–4** — no new work on anchoring or process interventions in human auditor judgment. ~80% of alerts now concern algorithmic/AI-bias auditing (LLM audits, fairness auditing, AI-driven digital audit governance) — supports the Future Research AI/LLM bridge narrative only. Single human-auditor item (Tampubolon 2026, overconfidence/ethical decisions, minor venue) judged not citation-worthy for the qualifying manuscript.
