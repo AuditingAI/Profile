@@ -1,13 +1,14 @@
 ---
 TITLE: Progress Tracker — Anchoring Bias Study (Final Sprint)
 AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
-UPDATED: July 1, 2026 (~2 AM)
+UPDATED: July 20, 2026
 ---
 
 # 📊 Progress Tracker — Final Sprint to Manuscript
 
-**Goal:** Final manuscript submitted by **Jul 18–19, 2026.**
-**Status: ON TRACK** — the two hardest blockers (survey + recruiting platform) are DONE.
+**Goal was:** Final manuscript submitted by **Jul 18–19, 2026.**
+
+> **🚨 STATUS AS OF JUL 20 — DEADLINE PASSED, NOT SUBMITTED.** The Jul 18–19 window closed without submission. Prolific was funded for 100 participants (paid) but final achieved n is unconfirmed — Prolific/Qualtrics status must be checked directly (app.prolific.com; account is on ymali001@fiu.edu, not accessible from this session). Data was never frozen, exported, cleaned, or analyzed — no EFA/reliability results exist yet. A late-submission status email requesting Dr. Rey's guidance was drafted 2026-07-20 (see `correspondence/2026-07-20_Rey_late_submission_status.md`). **Immediate plan:** check actual sample size today, freeze + export regardless of final n, run EFA + reliabilities on the achieved sample (report shortfall transparently as a limitation per the pre-agreed small-n contingency below), submit as soon as the analysis is done.
 
 > **Advisor directive (2026-06-30):** Analysis scope = **EFA + reliabilities only** (no mediation/hypothesis testing this term — reconfirmed by Yasir Jul 8, Scope Amendment v2.1). Target **n = 100 valid by Jul 11** (decision gate Jul 9 evening: trajectory < ~85 triggers backup). Extraction **PAF; both rotations run, Direct Oblimin reported**. See `correspondence/2026-06-30_Rey_directive_analysis_scope.md`.
 > **Governing plan:** `00_Execution/YMalik_Master_Execution_Plan_v2_ACTIVE.md` + `00_Execution/TASKS.md` (Jul 8) — phases 0–5, exemplar manuscript skeleton (11,000–16,500 words), rubric traceability.
