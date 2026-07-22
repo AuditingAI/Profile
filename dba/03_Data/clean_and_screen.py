@@ -12,32 +12,36 @@ def exclude(mask, reason):
         log.append((rid, reason))
     df = df[~mask]
 
-# 1. Preview / test responses
+# --- Order matters: label each exclusion by its *primary* cause. ---
+
+# 1. Researcher test data
 exclude(df["Status"] == "Survey Preview", "Survey preview (researcher test)")
 exclude(df["OPEN_TEXT"].astype(str).str.strip().str.lower() == "test run", "Self-identified test response")
 
-# 2. Incomplete
+# 2. Incomplete sessions
 exclude(df["Finished"] != True, "Did not finish survey (Finished=False)")
 
-# 3. Screening failures
-exclude(df["S1_COUNTRY"] != "Yes", "Failed screen: not US-based")
-exclude(df["S2_LANGUAGE"] != "Yes", "Failed screen: not fluent English")
-exclude(df["S3_AUDIT_ROLE"] != "Yes", "Failed screen: no audit-related role in last 24mo")
-exclude(df["S5_ATTESTATION"] != "Yes, I confirm", "Failed attestation")
+# 3. Finished but substantively empty (blank Likert blocks) — checked BEFORE
+#    attention checks so missing data isn't mislabeled as an AC failure.
+exclude(df["TA_1"].isna() | df["RAB_5"].isna(), "Finished=True but substantive Likert blocks blank")
 
-# 4. Attention checks
-exclude(df["AC1"] != "Disagree", "Failed attention check AC1 (expected 'Disagree')")
-exclude(~df["AC2"].isin(["Agree", "Strongly agree"]), "Failed attention check AC2 (expected 'Agree')")
+# 4. Eligibility screens (as built into the IRB-approved instrument)
+exclude(df["S1_COUNTRY"] != "Yes", "Failed screen S1: not US-based")
+exclude(df["S2_LANGUAGE"] != "Yes", "Failed screen S2: not fluent English")
+exclude(df["S3_AUDIT_ROLE"] != "Yes", "Failed screen S3: no audit-related role in last 24mo")
+exclude(df["S4_CONTINUING_ENG"] != "Yes", "Failed screen S4: no continuing (multi-year) engagement experience")
+exclude(df["S5_ATTESTATION"] != "Yes, I confirm", "Failed S5 attestation")
 
-# 5. Substantive completeness: require the core Likert blocks to be filled (spot check TA_1 and RAB_5)
-exclude(df["TA_1"].isna() | df["RAB_5"].isna(), "Missing substantive Likert data despite Finished=True")
+# 5. Attention checks (only reached by complete, eligible respondents)
+exclude(df["AC1"] != "Disagree", "Failed attention check AC1 (required 'Disagree')")
+exclude(~df["AC2"].isin(["Agree", "Strongly agree"]), "Failed attention check AC2 (required 'Agree')")
 
 print(f"\nExcluded: {len(log)}")
 for rid, reason in log:
     print(f"  {rid}: {reason}")
 
 print(f"\n=== FINAL VALID N: {len(df)} ===")
-print(df[["ResponseId", "RecordedDate", "Duration (in seconds)", "OPEN_TEXT"]].to_string())
+print(df[["ResponseId", "RecordedDate", "Duration (in seconds)", "S4_CONTINUING_ENG", "D2_ROLE", "D5_LONGTERM_EXPOSURE"]].to_string())
 
 df.to_csv("cleaned_valid_responses.csv", index=False)
 
