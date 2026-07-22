@@ -15,8 +15,13 @@ Distinct from Dr. Rey's Research Project / Qualifying Examination course, which 
 ## Action taken
 - Email sent to ugs@fiu.edu requesting guidance to reopen/submit the 2025–2026 evaluation, referencing Panther ID 1687105.
 
+## Stakes — why this is now urgent
+Fall registration opened per registrar email received 07/13/2026 (classes begin Aug 24, 2026). Registrar's own notice instructs students to "confirm you have cleared any pending items or holds on your To-Do List" before registering — this hold is exactly that kind of blocker. Registrar notice also directs graduate students to their **program coordinator**: forwarded to **Ximena Lainez** (likely DBA program coordinator) 07/13/2026; specific follow-up naming the Mentoring Plan Hold sent 07/21/2026 asking if she can expedite on the program side.
+
 ## Still needed
 - [ ] UGS response on how to access the current-year form.
+- [ ] Ximena Lainez response — can program office expedite, or is this purely a UGS-side fix?
 - [ ] Once open: complete Section 1 (updated credits/GPA) and Section 2 (accomplishments, integrity training, goals) — reference last year's form for structure.
 - [ ] Loop in Major Professor **Miguel Aguirre-Urreta** to complete Section 3 and re-trigger the approval chain (Major Professor → GPD → Dean → UGS).
 - [ ] Confirm hold clears once the evaluation is submitted/approved — ask UGS directly whether submission alone clears it or full approval is required.
+- [ ] Confirm Fall registration is not blocked before the add/drop window matters.
