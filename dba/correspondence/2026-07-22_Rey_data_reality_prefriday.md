@@ -26,10 +26,10 @@
 >
 > At n = 4, I don't believe CFA in Jamovi can produce an interpretable result for an 11-construct, 55-item model — the model wouldn't be identified — and I'd rather tell you that now than hand you output that looks like analysis but isn't. So I'd like your guidance Friday on two points:
 >
-> 1. **Eligibility:** the two non-US respondents gave complete, thoughtful responses. If the US-only restriction was a convenience choice rather than a design requirement, admitting them brings n to 6. Your call.
+> 1. **Eligibility and sample growth:** the two non-US respondents gave complete, thoughtful responses. If the US-only restriction was a convenience choice rather than a design requirement, admitting them brings n to 6. Relatedly, I have direct professional contacts in the audit communities in **London and Canada** who could recruit additional qualified auditors quickly — if you think broadening the geographic scope is defensible (and IRB-permissible, since the approved protocol screens for US-based participants), that's a realistic path to a meaningfully larger sample for this study or its dissertation continuation. Your call on both.
 > 2. **Analysis framing:** consistent with the small-n contingency we discussed, I propose submitting Friday with: full descriptives, scale reliabilities where computable, item-level analysis, a qualitative synthesis of the open-text responses (which are genuinely rich — practicing auditors describing anchoring in their own engagements), and the CFA model fully specified in Jamovi as the intended analysis, reported honestly as underpowered at the achieved sample. The paper would be framed as a pilot/feasibility study, with the measurement model as the dissertation's starting point.
 >
-> I'll have the full manuscript with all sections finalized either way, and the complete exclusion log is documented for the record. If you'd prefer a different approach, I'll follow your direction.
+> I'll have the full manuscript with all sections finalized either way. **The full dataset (raw export and screened file) is attached to this email** — kept off the public project repository for participant confidentiality — and the screening methodology and exclusion log are documented in the repository for the record. If you'd prefer a different approach, I'll follow your direction.
 >
 > What time works Friday?
 >

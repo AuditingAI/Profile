@@ -7,10 +7,12 @@
 
 | ResponseId | Recorded | Notes |
 |---|---|---|
-| R_5XWxEfPGGJzpso9 | 2026-06-30 16:05 | Internal audit, Big 4, Financial services, 6-10yr int. exp. |
+| R_5XWxEfPGGJzpso9 | 2026-06-30 16:05 | Complete, all screens passed |
 | R_65Wleya4RqVqfN3 | 2026-07-01 10:04 | 17.8hr duration (left open, not continuous) — flagged, not excluded, since data is complete |
-| R_3neXhvsYnz0duIf | 2026-07-15 13:07 | External audit, Mid-tier, Financial services |
-| R_9GYSf7lLWWrP1jr | 2026-07-15 13:45 | External audit, Small firm, Government/nonprofit |
+| R_3neXhvsYnz0duIf | 2026-07-15 13:07 | Complete, all screens passed |
+| R_9GYSf7lLWWrP1jr | 2026-07-15 13:45 | Complete, all screens passed |
+
+*(Respondent-level demographics withheld from this public log per IRB confidentiality; available in the private dataset shared directly with the advisor.)*
 
 ## Exclusion breakdown (19 excluded) — v2, corrected labels (2026-07-22 re-run)
 
