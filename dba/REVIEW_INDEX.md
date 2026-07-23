@@ -7,6 +7,22 @@ This page is the single entry point to the live project record. Every link below
 
 ---
 
+## 📊 Chapter Status Dashboard
+
+| Chapter | Status | Per the late-July meeting | Direct link |
+|---|---|---|---|
+| **Ch. 1 — Introduction** | 🟡 **IN REVISION** | Significant improvement required; being reworked to frame the study as executed | *(lands here when ready)* |
+| **Ch. 2 — Literature Review** | ✅ **STANDS** | No changes — 11 construct sections + theory treatment as approved May 30 | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md#chapter-2--review-of-the-literature) |
+| **Ch. 3 — Model & Hypotheses** | ✅ **STANDS** | No changes — model figure + 16 hypothesis sections as approved May 30 | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md#chapter-3--research-model-and-hypotheses) |
+| **Ch. 4 — Methodology** | 🟢 **REWRITTEN (v2)** | Contract-level detail of every planned analysis: cleaning protocol, EFA criteria, reliability, CFA, regression, PLS-SEM | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH4-6_DRAFT.md#chapter-4--research-methodology) |
+| **Ch. 5 — Data Analysis** | 🟢 **REWRITTEN (v2)** | Full collection experience (pilot, Qualtrics, CloudResearch, economics, population-specificity); closes: required analyses could not be performed | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH4-6_DRAFT.md#chapter-5--data-analysis) |
+| **Ch. 6 — Conclusions** | 🟢 **REWRITTEN (v2)** | Limitations → recommendations (start early; 20–30 floor; broaden population) → dissertation transition incl. AI/LLM audit-risk direction | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH4-6_DRAFT.md#chapter-6--conclusions) |
+| Appendix A — Instrument | ✅ **STANDS** | Full 11-construct, 55-item measurement instrument | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md#appendix-a--measurement-instrument-draft-for-review) |
+
+**Timeline:** submission target Friday · Sunday latest · Tuesday hard deadline. Literature currency: Scholar alerts re-swept July 23 — no new human-auditor anchoring work; Ch. 2 remains current.
+
+---
+
 ## 1 · The Manuscript
 
 | Document | What it contains | Link |
@@ -14,7 +30,6 @@ This page is the single entry point to the live project record. Every link below
 | **Chapters 4–6 (NEW, per our meeting)** | Ch. 4 Methodology written as a full analysis contract (cleaning protocol, EFA criteria, reliability, CFA, regression, PLS-SEM); Ch. 5 Data Analysis (collection experience, pilot, platforms, economics, population-specificity; closes: required analyses could not be performed); Ch. 6 Conclusions (limitations → recommendations → dissertation transition) | [Read Ch. 4–6](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH4-6_DRAFT.md) |
 | **Chapters 2–3 + Appendix A (standing)** | Literature review (11 construct sections + theory treatment), research model with figure, 16 hypothesis sections, full measurement instrument, verified reference pool | [Read Ch. 2–3](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md) |
 | **Research model figure** | The 11-construct dual-pathway model diagram | [View figure](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Anchoring_Bias_Research_Model.png) |
-| Chapter 1 | Under significant revision per meeting feedback — will appear here when ready | *(in progress)* |
 
 ## 2 · Data Collection Record (no participant data in this public repository)
 

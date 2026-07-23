@@ -149,3 +149,13 @@ in Scholar to cut the noise at the source.
 ## Jun–Jul 2026 alert triage (2026-07-16, pre-submission sweep)
 
 29 "Auditor Bias" alerts reviewed (Jun 1 – Jul 16). **Verdict: no impact on Ch. 1–4** — no new work on anchoring or process interventions in human auditor judgment. ~80% of alerts now concern algorithmic/AI-bias auditing (LLM audits, fairness auditing, AI-driven digital audit governance) — supports the Future Research AI/LLM bridge narrative only. Single human-auditor item (Tampubolon 2026, overconfidence/ethical decisions, minor venue) judged not citation-worthy for the qualifying manuscript.
+
+---
+
+## Jul 9–22, 2026 alert triage (2026-07-23 sweep, pre-final-submission)
+
+10 "Auditor Bias" alerts reviewed (Jul 9–22). **Verdict: no impact on Ch. 1–4 — the human-auditor anchoring literature in the manuscript remains current.** All 10 are algorithmic/AI-bias auditing (bucket b): HR bias audits, generative-AI cross-engine bias measurement, education fairness, text-to-image cultural bias, and unrelated domains (satellite precipitation XAI, sports gender bias).
+
+**One standout for the dissertation AI bridge:**
+- **Artificial intelligence and bias in banking and financial services: a comprehensive review and future research agenda** — N Krey, G Rancati, J Parajuli, RV Srivastava, *International Journal of Bank Marketing*, 2026.
+  *Why: comprehensive review + research agenda at exactly the AI × bias × financial-services intersection where the dissertation extension (AI/LLM audit tools and anchoring in bank audit risk) will sit. Candidate anchor citation for the dissertation proposal's motivation section.*
