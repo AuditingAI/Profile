@@ -1,19 +1,22 @@
 # Prolific Recovery Plan — Reclaim the ~$980 (Jul 23, 2026)
 
-## What the workspace shows (verified from account, Jul 23)
-- Study **"Audit Professional Judgment Survey (Academic Research)"** — created Jul 10, 2026, **still ACTIVE at 2%** (2 of 100 places filled in 13 days).
-- Workspace **available balance: $1.67** — i.e., nearly the full ~$1,000 outlay is escrowed inside the still-running study, not spent and not lost.
-- Prolific only charges for **approved submissions**. Unfilled places are never charged; stopping the study releases the committed budget back to the workspace balance, which can then be withdrawn/refunded or kept as credit.
+## What the workspace shows (verified from account, Jul 23 — updated with study page)
+- Study **"Audit Professional Judgment Survey (Academic Research)"** — published Jul 15, 2026, **still ACTIVE**, 2 of 100 places filled in 8 days of fielding.
+- **🔑 THE KEY NUMBER: "Eligible participants: 20 of 334,976."** Prolific's own screening says only ~20 people on the entire platform match the study's criteria (US + audit role + multi-year engagements) — prevalence ≈ 6 per 100,000. The study could never have filled 100 seats. This is now cited (as aggregate platform data) in manuscript Ch. 5.3.
+- Effective average reward: **$28.00/hr**, median completion ~15 min — compensation was generous; price was not the problem.
+- **Both completed submissions are already APPROVED** (participants paid — IRB obligation ✅ done). 3 others returned (started, didn't finish).
+- Workspace **available balance: $1.67** — nearly the full ~$1,000 outlay is escrowed inside the still-running study, not spent and not lost. Prolific charges only for approved submissions; stopping the study releases the committed budget back to the balance.
 
-## Why the study didn't fill (the honest diagnosis)
-The screeners (US-based + current/recent audit role + multi-year engagement experience) select a sliver of Prolific's pool, and the platform's prevalence for practicing auditors is tiny. At 2 completions in 13 days, the fill rate won't materially improve by waiting — the population isn't there. This matches the manuscript's Chapter 5 finding and is not a pricing problem ($6 for ~18 min ≈ $20/hr is a fair academic rate).
+## Why the study didn't fill (now proven, not inferred)
+20 eligible participants ≠ 100 target. Arithmetic, not execution. Waiting longer cannot fix a pool of 20.
 
-## Recommended actions — in order, ~15 minutes total
+## Recommended actions — in order, ~10 minutes total
 
-1. **PAUSE/STOP the study today.** Studies page → the active study → Pause (then Stop). Data collection is closed for the paper anyway (per Ch. 5); an active study now only delays fund recovery.
+1. **STOP the study today.** Study page → Action menu → Pause / Stop. Data collection is closed for the paper anyway (per Ch. 5); an active study now only delays fund recovery.
    - Direct link: https://app.prolific.com/researcher/workspaces/studies/6a508fe494392aa43ed7a1ac/submissions
-2. **Approve the legitimate completed submissions** (so those participants are paid — an IRB obligation).
+2. ~~Approve completed submissions~~ ✅ **Already done** (2 approved).
 3. **Confirm the released budget lands in the workspace balance** (Finance page): https://app.prolific.com/researcher/workspaces/6a4e7265a79f3d33156014d0/finance
+   - Before stopping, **screenshot the study page** showing "20 of 334,976 eligible" — that's citable evidence for the manuscript and the simulated-data conversation with Dr. Rey.
 4. **Decide: refund vs. credit.** Options once released:
    - **Withdraw/refund** to the original payment method (Finance → contact support if no self-serve option), or
    - **Keep as credit** for the dissertation relaunch (broader population, amended IRB) — zero friction later.
