@@ -30,4 +30,16 @@ Full plan agreed that day:
 
 ---
 
-**Status:** Both sets of requirements were implemented in `Research_Paper_YMalik_v4_master.md` (11 construct sections, theory section, model figure, 16 hypothesis sections, Appendix A instrument).
+## Late July 2026 — Resolution Meeting (small sample, path to completion)
+
+**The pivotal meeting.** With only a handful of usable responses collected, Dr. Rey proposed a solution to the university — and the university accepted it. Key outcomes:
+
+1. **Course is pass/fail** — no score needed; the goal is a quality submission that passes.
+2. **Chapters 1–3 stand** — no revisions needed there.
+3. **Chapter 4 (Methodology):** rewrite as a detailed *contract* of everything the study planned to do — full analytic sequence with criteria: cleaning protocol, EFA (KMO/Bartlett, PAF, retention rules, both rotations/Oblimin, item thresholds), reliability, CFA (fit indices), regression (diagnostics), PLS-SEM, mediation. The detail itself demonstrates scientific competence.
+4. **Chapter 5 (Data Analysis):** document the full collection experience — pilot results, Qualtrics + CloudResearch, the challenges, the population-specificity problem, the economics. **Do not state the exact respondent count** (say "only 4–5 responses were obtained"); **do not reproduce raw Qualtrics data** (platform terms). Close the chapter stating the required analyses (EFA, CFA, regression, PLS) could not be performed.
+5. **Chapter 6 (Conclusions):** limitations first (tiny, highly specific population — U.S. auditors), then recommendations (start collection extremely early — a week for others can be a year here; 20–30 respondents is a meaningful threshold; consider broadening the population), then reflection on adapting the work into the dissertation (change venue/scope for a collectible sample).
+6. **Parallel simulated-data exercise:** Dr. Rey built a simulated dataset with the same constructs; Yasir completes a data-analysis exercise on it *separately* to demonstrate analytic competency to the university. **It is not mentioned in the paper.** He sends it only after the three chapters are submitted.
+7. **Deadlines:** target Friday; Sunday at the latest; **Tuesday is the hard deadline** — after that he must submit an Incomplete. Quality over speed within that window.
+
+**Status:** Chapters 4–6 rewritten to this spec in `Research_Paper_YMalik_CH4-6_DRAFT.md` (v2), adversarially verified against each constraint above. Chapters 2–3 remain as implemented in `Research_Paper_YMalik_v4_master.md`.
