@@ -11,7 +11,8 @@ This page is the single entry point to the live project record. Every link below
 
 | Chapter | Status | Per the late-July meeting | Direct link |
 |---|---|---|---|
-| **Ch. 1 — Introduction** | 🟡 **IN REVISION** | Significant improvement required; being reworked to frame the study as executed | *(lands here when ready)* |
+| **📕 FULL PAPER (assembled)** | 🟢 **DRAFT READY** | Complete manuscript, Ch. 1–6 + references + Appendix A (~16,200 words) | [📄 PDF](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_FULL_DRAFT.pdf) · [Markdown](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_FULL_DRAFT.md) |
+| **Ch. 1 — Introduction** | 🟢 **REWRITTEN** | Fresh introduction framing the study as executed: background, problem, purpose, RQs, significance (incl. AI direction), definitions, organization | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH1_DRAFT.md) |
 | **Ch. 2 — Literature Review** | ✅ **STANDS** | No changes — 11 construct sections + theory treatment as approved May 30 | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md#chapter-2--review-of-the-literature) |
 | **Ch. 3 — Model & Hypotheses** | ✅ **STANDS** | No changes — model figure + 16 hypothesis sections as approved May 30 | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_v4_master.md#chapter-3--research-model-and-hypotheses) |
 | **Ch. 4 — Methodology** | 🟢 **REWRITTEN (v2)** | Contract-level detail of every planned analysis: cleaning protocol, EFA criteria, reliability, CFA, regression, PLS-SEM | [Open](https://github.com/AuditingAI/Profile/blob/claude/scholar-links-review-Plgk6/dba/Research_Paper_YMalik_CH4-6_DRAFT.md#chapter-4--research-methodology) |
