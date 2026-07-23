@@ -6,6 +6,8 @@ UPDATED: July 20, 2026
 
 # 📊 Progress Tracker — Final Sprint to Manuscript
 
+> **📖 Reviewing this project? Start here → [REVIEW_INDEX.md](REVIEW_INDEX.md)** — one-page guide with links to the manuscript, data-collection record, and governance documents.
+
 **Goal was:** Final manuscript submitted by **Jul 18–19, 2026.**
 
 > **🚨 STATUS AS OF JUL 20 (UPDATED — course-closing email received).** Confirmed data point: Qualtrics digest shows **22 total responses** as of Jul 17, 2026 (only +5 that week) — the funded 100-participant Prolific panel did not fill. Dr. Rey sent a class-wide closing email same day: final assignment has closed, all submitted manuscripts are final, **explicitly asking students not to request revisions or send additional versions by email**, and weekly-update assignments not submitted (or submitted >1 week late) will remain ungraded with no further consideration.
