@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 dba/03_Data/raw_export_*.csv
 dba/03_Data/cleaned_valid_responses.csv
+dba/03_Data/cleaned_numeric_recoded.csv
