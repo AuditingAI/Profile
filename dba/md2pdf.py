@@ -39,6 +39,7 @@ def inl(t):
     t=re.sub(r"\*\*(.+?)\*\*",r"<b>\1</b>",t)
     t=re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)",r"<i>\1</i>",t)
     t=re.sub(r"`(.+?)`",r'<font face="Courier">\1</font>',t)
+    t=re.sub(r"==(.+?)==",r'<font color="#B00020"><b>\1</b></font>',t)
     return t
 
 raw=open(SRC,encoding="utf-8").read().split("\n")
