@@ -4,6 +4,21 @@
 
 ---
 
+## 0 · Advisor Alignment Map — every change traces to Dr. Rey's own directives
+
+| v3 change | Dr. Rey's words (from the minuted meetings) | Source |
+|---|---|---|
+| **Add exactly 3 AI boxes** (Automated Anchoring, Sycophantic Confirmation, Recursive Epistemic Drift) onto the intact core | *"Tweak the model by incorporating **2–3 boxes** related to AI and existing constructs"* | May 20, 2026 meeting (Notion minutes) |
+| **Keep the 11-construct core intact** — same constructs, same theory, same hypotheses framework | *"Keep the existing research question and model without changes"* (the model survives; the AI layer attaches to it, not replaces it) | May 20, 2026 |
+| **Timing: dissertation work begins now** | *"After completing research project, immediately begin working on dissertation"* | May 20, 2026 |
+| **Broaden the population** to risk & assurance professionals | *"Consider adjusting the population of interest to a broader group... industry-adjacent roles rather than auditors specifically"* | Late-July 2026 resolution meeting |
+| **Start collection very early; plan a realistic floor** | *"Start data collection very early — it may take a year"; "20–30 respondents as a meaningful threshold"* | Late-July 2026 |
+| Future-research framing in the qualifying paper's final chapter | *"Include recommendations for further research that explicitly mention investigating the impact of new AI technologies"* | May 20, 2026 |
+
+**The one deviation requiring his explicit sign-off:** trimming the core from 5 to 3 items per construct (§1.2). "Keeping everything intact" argues for the full 55-item core; reach and length argue for the trim. **Both versions are prepared — this is presented to Dr. Rey as his call, not assumed.** Everything else in this document is execution of direction he has already given.
+
+---
+
 ## 1 · Design decisions (the three that matter)
 
 1. **Length budget: ≤ 12 minutes.** The v2 instrument (73 items, ~18 min) was too long for a scarce professional audience. v3 targets ~55 total items ≈ 10–12 min, which also improves panel economics (~$4.50–5.00/complete at fair hourly rates).
