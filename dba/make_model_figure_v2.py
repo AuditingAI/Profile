@@ -48,25 +48,26 @@ arrow(3.8, 6.6, 9.1, 6.6, "#8A8F98", style=(0,(4,3)), lw=1.4)
 ax.text(3.05, 8.05, "VALIDATED HUMAN-SIDE CORE (this study)", fontsize=9.5,
         color="#1A4E8A", fontweight="bold")
 
-# AI extension layer (dissertation)
-box(2.1, 2.9, 3.4, 1.35, "AI / LLM AUDIT TOOL\n(algorithmic decision aid)", AI_FACE, AI_EDGE)
-box(6.15, 2.9, 3.1, 1.35, "SYCOPHANCY RISK\n(model confirms the\nauditor's prior anchor)", AI_FACE, AI_EDGE)
-box(10.7, 2.9, 3.2, 1.35, "EPISTEMIC RISK\n(conclusions drift toward\nconfirmation, not evidence)", AI_FACE, AI_EDGE)
-arrow(3.8, 2.9, 4.55, 2.9, "#B00020")
-arrow(7.75, 2.9, 9.05, 2.9, "#B00020")
+# AI extension layer (dissertation) — refined 4-node chain
+box(1.85, 2.9, 2.9, 1.5, "LLM / AI\nAUDIT TOOL", AI_FACE, AI_EDGE, 10)
+box(4.95, 2.9, 2.9, 1.5, "AUTOMATED\nANCHORING\n(system-generated anchors\npumped at scale)", AI_FACE, AI_EDGE, 8.6)
+box(8.05, 2.9, 2.9, 1.5, "SYCOPHANTIC\nCONFIRMATION\n(model affirms the\nstated position)", AI_FACE, AI_EDGE, 8.6)
+box(11.35, 2.9, 3.0, 1.5, "RECURSIVE\nEPISTEMIC DRIFT\n(models redoing the same\nwork converge on error)", AI_FACE, AI_EDGE, 8.6)
+arrow(3.3, 2.9, 3.5, 2.9, "#B00020")
+arrow(6.4, 2.9, 6.6, 2.9, "#B00020")
+arrow(9.5, 2.9, 9.85, 2.9, "#B00020")
 
 # Cross-layer links
-arrow(10.7, 3.6, 10.7, 5.9, "#B00020", style=(0,(4,3)))
-ax.text(11.05, 4.75, "erodes", fontsize=9, color="#B00020", rotation=90, va="center")
+arrow(11.35, 3.68, 10.7, 5.9, "#B00020", style=(0,(4,3)))
+ax.text(11.5, 4.75, "erodes RAB", fontsize=9, color="#B00020", rotation=75, va="center")
 arrow(2.1, 5.8, 2.1, 3.62, "#1A4E8A", style=(0,(4,3)))
 ax.text(1.75, 4.7, "govern the tool", fontsize=9, color="#1A4E8A", rotation=90, va="center")
-arrow(6.15, 5.3, 6.15, 3.62, "#B00020", style=(0,(4,3)))
-ax.text(6.5, 4.5, "prior anchor enters the prompt", fontsize=8.5, color="#B00020", rotation=90, va="center")
+arrow(6.15, 5.3, 8.0, 3.68, "#B00020", style=(0,(4,3)))
+ax.text(7.15, 4.65, "prior anchor enters the prompt", fontsize=8.5, color="#B00020", rotation=-35, va="center")
 
 ax.text(3.05, 1.85, "AI EXTENSION LAYER (dissertation)", fontsize=9.5, color="#B00020", fontweight="bold")
-ax.text(6.75, 0.62, "Anchor chain: prior-period reference → LLM sycophancy reinforces it (Sharma et al., 2024; Fanous et al., 2025) → "
-        "human–AI feedback loop amplifies bias (Glickman & Sharot, 2025) → epistemic risk (Messeri & Crockett, 2024; NIST AI 600-1)",
-        ha="center", fontsize=8.6, color="#5A6068")
+ax.text(6.75, 0.62, "Refined chain: LLM output becomes the anchor itself — automated, continuous, at scale (automation bias: Parasuraman & Manzey, 2010) → sycophancy confirms it (Sharma et al., 2024; Fanous et al., 2025)\n→ feedback loops amplify (Glickman & Sharot, 2025) → recursive reprocessing converges and drifts (Shumailov et al., 2024, Nature; Messeri & Crockett, 2024) — the LLM layer itself produces the risk (NIST AI 600-1)",
+        ha="center", fontsize=8.0, color="#5A6068")
 
 plt.tight_layout()
 plt.savefig("Anchoring_Bias_Model_v2_Dissertation.png", bbox_inches="tight", facecolor="white")
