@@ -7,6 +7,14 @@ This page is the single entry point to the live project record. Every link below
 
 ---
 
+## 🖥️ Live Research Console
+
+**→ [Open the research console](https://claude.ai/code/artifact/fb53e89d-57cc-4673-adc7-3f488b4d3ed7)** — evidence position, the model with its AI extension drawn live, the six-rung enhancement ladder with gates, the evidence shelf, and the daily loop. Source: `dba/research_console.html`.
+
+Run **`/research`** in any session on this repo to sweep Scholar alerts, triage them against the argument, and refresh what the console reports.
+
+---
+
 ## 📊 Chapter Status Dashboard
 
 | Chapter | Status | Per the late-July meeting | Direct link |
