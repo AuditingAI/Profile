@@ -1,6 +1,7 @@
-# Instrument v3 (Dissertation) — DRAFT FOR ADVISOR + IRB REVIEW
-**Extends the validated qualifying-study instrument with the AI layer: Automated Anchoring · Sycophantic Confirmation · Recursive Epistemic Drift**
-**Status: DO NOT FIELD until (1) advisor/committee sign-off and (2) IRB amendment to IRB-25-0462 (new items + broadened population) is approved.**
+# Instrument v3 — CONCEPT SKETCH (not a commitment)
+**Status: parked until (1) the course is passed, (2) the simulated-data exercise is done, and (3) Dr. Rey sets the dissertation direction in conversation. Nothing here is promised to anyone.**
+
+**The whole move, in one sentence:** continue the same study with **minor tweaks** — broaden the screeners because the auditor-only population proved inaccessible (his late-July recommendation), and add the 2–3 AI boxes he prescribed in May because AI has significantly changed the landscape. Same model, same theory, same instrument core — adjusted where reality and the professor both already pointed.
 
 ---
 
