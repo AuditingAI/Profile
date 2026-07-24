@@ -2,7 +2,7 @@
 ## Complete Study Overview — Highlights, Shortcomings & the Path Forward
 
 **Yasir A. Malik** (PID 1687105) · FIU DBA Cohort 7.16 · GEB7913 · July 2026
-*Companion overview to the full manuscript (`Research_Paper_YMalik_FULL_DRAFT.pdf`). Shortcomings marked ==in red==.*
+*Companion overview to the full manuscript. Shortcomings marked ==in red==. Prepared for committee review: what was built, what was learned, and how the same model continues into the dissertation.*
 
 ---
 
@@ -57,6 +57,8 @@
 | 11 | Reduction in Anchoring Bias (RAB) | Outcome | Final judgments driven by current evidence, not initial reference points |
 
 Each construct: **5 Likert items** (1 reverse-coded) → **55 substantive items** total, plus 5 eligibility screens and 2 attention checks.
+
+![Figure 1. The validated research model — eight interventions, two mediators, one outcome.](Anchoring_Bias_Research_Model.png)
 
 ## 3. The 16 Hypotheses in Brief
 
@@ -118,7 +120,9 @@ Built in Qualtrics (v2.1 post-pilot, fielded July 1, 2026): 5 eligibility screen
 
 **What changes:** screener wording ("audit-related role" → "risk, audit, compliance, or controls role with recurring multi-period reviews"), the population section of the methods, and — ==required first — an IRB amendment (the approved protocol specifies U.S. auditors)==. **What does not change:** the 11 constructs, the 55 items (minor wording generalization at most), the 16 hypotheses, the analysis contract. Estimated prevalence effect: risk/compliance/finance professionals are plausibly **50–100× more prevalent** on research panels than practicing auditors — moving the eligible pool from ~20 into the thousands, at which point the recovered ~$980 funds a real sample.
 
-## 9. What Carries Forward to the Dissertation
+## 9. What Carries Forward to the Dissertation — the Model, Enhanced Not Replaced
+
+![Figure 2. The dissertation continuation: the SAME validated core, extended by the 2-3 AI boxes Dr. Rey prescribed (May 20) — automated anchoring, sycophantic confirmation, recursive epistemic drift — within the broadened risk & assurance population he recommended (late July).](Anchoring_Bias_Model_v2_Dissertation.png)
 
 The entire apparatus — model, instrument, pipeline, analysis contract — plus the AI extension: **do AI/LLM audit tools attenuate human anchors, or substitute algorithmic anchors of their own?** (Algorithm aversion: Commerford et al., 2022. Algorithmic anchors: Koreff, 2022; Kokina et al., 2025. Capability: Eulerich et al., 2024; Emett et al., 2025. Outcomes: Fedyk et al., 2022. Governance: PCAOB, 2024; IAASB, 2024.) The broadened risk-professional population is where AI decision aids are deploying fastest — the pivot and the AI extension reinforce each other.
 
