@@ -11,3 +11,6 @@ Dr. Rey — manuscript complete per the meeting (Ch.1 rewritten; Ch.4 methodolog
 1. Canvas submission — **by Sunday, July 26** (Tuesday hard deadline preserved as buffer).
 2. Simulated-data exercise — **returned within 48 hours of receipt**.
 3. Dissertation alignment meeting — **early August**, his convenience; minor tweaks only (broadened population + 2–3 AI boxes, both his own directives). No formal drafting before that conversation.
+
+## ✅ CONFIRMATION RECEIVED (logged Jul 24)
+Dr. Rey replied to the Jul 23 confirmation email with: **"Correct."** — written sign-off on the full plan: Ch. 1 significant revision, Ch. 2–3 untouched, Ch. 4–6 rewrites as described, submission Friday/Sunday (Tuesday hard), simulated-data exercise after submission. The reply-with-attachments (this file's email) responds within that confirmed thread.
