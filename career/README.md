@@ -22,3 +22,10 @@ The running memory — open recruiter threads, application statuses (APPLIED / R
 ## Maintenance
 - New resume package in Dropbox → no action needed (pipeline re-inventories `/Resume/Application_Package_*` each run); update the mapping table in SKILL.md only if a new role *family* appears.
 - Rubric/targets changed → edit both SKILL.md and the master prompt (keep in sync).
+
+## Academic track — SEPARATE profile (never mix)
+`ACADEMIC_CV_YMalik.md` is the **teaching/assistant-professor profile**: research-led (anchoring bias study, AI-audit agenda), practitioner-scholar framing. Rules:
+1. The `job-search` skill and its digests are **industry-only** (VP/Director AI governance/audit/risk). Academic roles never appear in the digest and industry comp targets never appear in the CV.
+2. Academic applications route through university portals (Rutgers: jobs.rutgers.edu · FIU: hr.fiu.edu/careers), not through the pipeline.
+3. The Dropbox package `Application_Package_Rutgers_Adjunct_2026` belongs to the academic track.
+4. Fill every `[CONFIRM]` marker in the CV before any submission — nothing unverified goes out.
