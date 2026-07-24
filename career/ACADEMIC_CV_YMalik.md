@@ -1,6 +1,6 @@
 # Yasir A. Malik
 **Doctoral Candidate (DBA) · Practitioner-Scholar in Auditing, Risk & AI Governance**
-NYC Metro / Newark NJ · ymali001@fiu.edu · [LinkedIn: CONFIRM URL] · [Phone: CONFIRM]
+Newark, NJ · ymali001@fiu.edu · linkedin.com/in/yasiramalik · +1 (305) 799-2443
 
 ---
 
@@ -11,11 +11,14 @@ Doctoral candidate researching **cognitive bias in audit judgment and the govern
 ## Education
 
 **Doctor of Business Administration (DBA)** — Florida International University, College of Business
-In progress; entered Spring 2024 · GPA 3.81 · Qualifying research project completed July 2026
+In progress, expected 2027 · GPA 3.81–3.87 [CONFIRM against current transcript — resume states 3.87, the 2024–25 official evaluation recorded 3.81] · Qualifying research project completed July 2026
 Dissertation (in development): *AI-augmented audit judgment — do algorithmic decision aids attenuate human anchoring or introduce algorithmic anchors of their own?*
 
-**[CONFIRM: Master's degree — institution, field, year]**
-**[CONFIRM: Bachelor's degree — institution, field, year]**
+**Master of Business Administration (MBA)** — Florida International University, 2011 · GPA 3.8
+
+**B.Sc., Banking & Finance** — London School of Economics (LSE), 2005
+
+**Columbia Engineering FinTech Boot Camp** — Columbia University, 2021 (ML, Python, algorithmic trading)
 
 ## Research
 
@@ -39,12 +42,12 @@ Dissertation (in development): *AI-augmented audit judgment — do algorithmic d
 **Audit & Risk Leadership — Citigroup and JPMorgan Chase** (15 years combined)
 Internal audit and risk roles across consumer and institutional banking; led AI innovation within audit including a production retrieval-augmented-generation tool that cut audit cycle time ~35%; governance work spanning meeting-discipline controls across 15 business units.
 
-**Bank Examiner — OCC, Federal Reserve, FDIC** *[CONFIRM years/agency order]*
+**Bank Examiner — OCC / Florida Office of Financial Regulation** (2011–2012)
 Safety-and-soundness examination experience across regulated institutions — direct regulatory perspective for auditing and bank-management courses.
 
 ## Certifications & Professional Affiliations
 
-**[CONFIRM: e.g., CPA / CIA / CISA / CFE — list only what is current]**
+FDIC Bank Examiner I · Registered Scrum Master · GCP Social/Behavioral Human Research (AI Ethics)
 
 ## Service & Ventures
 
