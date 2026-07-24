@@ -34,3 +34,18 @@
 
 ## Scholar alert currency
 Jul 9–22 sweep: 10 alerts, all algorithmic-bias auditing (bucket b) — no new human-auditor anchoring work; Ch. 2 remains current. Standout for dissertation motivation: Krey, Rancati, Parajuli, & Srivastava (2026), *Int. J. of Bank Marketing* — AI & bias in banking/financial services review + research agenda.
+
+## Addendum (Jul 24, 2026): Sycophancy → Epistemic Risk chain — verified sources
+
+**The dissertation's new causal layer:** prior-period anchor → LLM sycophancy confirms it → epistemic risk (conclusions drift toward confirmation). Figure: `Anchoring_Bias_Model_v2_Dissertation.png`.
+
+- Sharma et al. (2024), ICLR — foundational sycophancy evidence; RLHF rewards agreement over truth. arXiv:2310.13548
+- Perez et al. (2023), ACL Findings — sycophancy scales with model size/RLHF. arXiv:2212.09251
+- Fanous et al. (2025) — SycEval: sycophancy in 58% of tested cases; regressive (right→wrong) shifts under rebuttal. arXiv:2502.08177
+- Glickman & Sharot (2025), *Nature Human Behaviour* — human bias absorbed, amplified, fed back; users unaware. DOI: 10.1038/s41562-024-02077-2
+- Lee et al. (2025), CHI — GenAI confidence ↓ critical thinking in 936 real knowledge-work tasks. DOI: 10.1145/3706598.3713778
+- Messeri & Crockett (2024), *Nature* — illusions of understanding, epistemic monoculture. DOI: 10.1038/s41586-024-07146-0
+- Fotoh & Mugwira (2025), IJAIS — LLM over-reliance threatens professional skepticism in external audit. DOI: 10.1016/j.accinf.2025.100748
+- NIST AI 600-1 (2024) — "Human-AI Configuration" risk class: over-reliance, miscalibrated oversight.
+
+**Contribution claim:** sycophancy has validated behavioral metrics (SycophancyEval, SycEval); **epistemic risk has no standardized instrument** — operationalizing epistemic drift vs. independent-evidence benchmarks is the dissertation's measurement contribution.

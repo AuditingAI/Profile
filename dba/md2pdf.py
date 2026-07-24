@@ -66,8 +66,26 @@ while i<n:
         story.append(Paragraph("<br/>".join(buf) or "&nbsp;",
             S("code",f="Courier",s=8.5,l=11,sa=8)))
         continue
-    # html-only / image-only line -> skip if nothing left
-    if (st.startswith("<") and st.endswith(">")) or re.fullmatch(r"!\[[^\]]*\]\([^)]*\)",st):
+    # image line -> embed if the file exists, else skip
+    m_img = re.fullmatch(r"!\[([^\]]*)\]\(([^)]*)\)", st)
+    if m_img:
+        import os
+        from reportlab.platypus import Image as RLImage
+        img_path = m_img.group(2)
+        if os.path.exists(img_path):
+            try:
+                from PIL import Image as PILImage
+                w, h = PILImage.open(img_path).size
+                max_w = 6.6 * inch
+                scale = min(1.0, max_w / w)
+                story.append(RLImage(img_path, width=w*scale, height=h*scale))
+                if m_img.group(1):
+                    story.append(Paragraph(inl("*" + m_img.group(1) + "*"), S("cap", s=9, l=12, sa=10)))
+            except Exception:
+                pass
+        i+=1; continue
+    # html-only line -> skip
+    if st.startswith("<") and st.endswith(">"):
         i+=1; continue
     if st=="---":
         story.append(HRFlowable(width="100%",thickness=0.6,color=GREY,spaceBefore=6,spaceAfter=8)); i+=1; continue
