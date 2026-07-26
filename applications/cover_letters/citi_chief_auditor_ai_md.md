@@ -33,4 +33,4 @@ I would welcome the opportunity to discuss how I can build this function for Cit
 Sincerely,
 
 **Yasir A. Malik**
-YasirAMalik@gmail.com | +1 (305) 799-2443 | linkedin.com/in/yasiramalik | github.com/AuditingAI
+YasirAMalik@gmail.com | +1 (786) 704-8536 | linkedin.com/in/yasiramalik | github.com/AuditingAI

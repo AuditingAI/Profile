@@ -27,4 +27,4 @@ I would welcome the opportunity to discuss how my background fits the team. Than
 Sincerely,
 
 **Yasir A. Malik**
-YasirAMalik@gmail.com | +1 (305) 799-2443 | linkedin.com/in/yasiramalik
+YasirAMalik@gmail.com | +1 (786) 704-8536 | linkedin.com/in/yasiramalik

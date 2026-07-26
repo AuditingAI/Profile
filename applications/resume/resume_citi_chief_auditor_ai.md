@@ -2,7 +2,7 @@
 
 **AI Assurance & Audit Executive | Internal Audit (3LOD) | AI/GenAI Risk, Model Risk & Responsible AI**
 
-Newark, NJ • YasirAMalik@gmail.com • +1 (305) 799-2443 • linkedin.com/in/yasiramalik • github.com/AuditingAI
+Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/yasiramalik • github.com/AuditingAI
 
 ---
 

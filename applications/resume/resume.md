@@ -2,7 +2,7 @@
 
 **AI Assurance & Model Risk Executive | Internal Audit | Responsible AI Governance**
 
-Newark, NJ • YasirAMalik@gmail.com • +1 (305) 799-2443 • linkedin.com/in/yasiramalik • github.com/AuditingAI
+Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/yasiramalik • github.com/AuditingAI
 
 ---
 

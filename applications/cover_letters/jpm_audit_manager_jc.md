@@ -21,4 +21,4 @@ I'd welcome a conversation. The attached résumé maps the experience against th
 Sincerely,
 
 **Yasir A. Malik**
-YasirAMalik@gmail.com · +1 (305) 799-2443 · linkedin.com/in/yasiramalik · github.com/AuditingAI
+YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
