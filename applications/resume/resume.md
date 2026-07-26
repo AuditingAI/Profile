@@ -8,7 +8,7 @@ Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/y
 
 ## SUMMARY
 
-AI assurance and audit executive with 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC). Built independent assurance over enterprise AI/GenAI adoption — governance, model risk (SR 11-7), bias and fairness, hallucination, adversarial robustness, and third-party AI — and embedded AI-enabled audit accelerators that cut cycle time **35%**. Track record influencing examiners and audit committees on consent-order remediation, CCAR forecast validation across a **$2.6T** balance sheet, and Resolution & Recovery Planning that achieved the Federal Reserve's "not not-credible" rating. DBA candidate (FIU, GPA **3.87**) researching epistemic drift and sycophancy in LLM-assisted audit judgment. Founder, *Audit the Algorithm* — AI governance advisory for regulated financial services.
+AI assurance and audit executive with 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC). Built independent assurance over enterprise AI/GenAI adoption — governance, model risk (SR 11-7), bias and fairness, hallucination, adversarial robustness, and third-party AI — and embedded AI-enabled audit accelerators that cut cycle time **35%**. Track record influencing examiners and audit committees on consent-order remediation, CCAR forecast validation across a **$2.6T** balance sheet, and Resolution & Recovery Planning that achieved the Federal Reserve's "not not-credible" rating. DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Founder, *Audit the Algorithm* — AI governance advisory for regulated financial services.
 
 **Core domains:** AI/GenAI assurance • Model Risk Management (SR 11-7) • NIST AI RMF • EU AI Act • ISO/IEC 42001 & 23894 • Internal Audit (IIA / 3LOD) • Responsible AI • CCAR, RRP, Basel III • Consent order remediation • Regulator engagement (OCC, Fed, FDIC).
 
@@ -70,8 +70,8 @@ AI assurance and audit executive with 15+ years across Citi, JPMorgan, and U.S. 
 
 ## DOCTORAL RESEARCH & EDUCATION — Epistemic Risk & AI Governance
 
-**Doctor of Business Administration (DBA), in progress** — Florida International University • Expected 2028 • GPA **3.87**
-*Dissertation: Epistemic Drift & Sycophancy Risk in LLM-Assisted Audit Judgment* — mixed-methods study of when, why, and how auditor reasoning degrades under LLM assistance, with proposed control mechanisms aligned to SR 11-7 and NIST AI RMF.
+**Doctor of Business Administration (DBA), in progress** — Florida International University • Expected 2028 • GPA **3.81**
+*Qualifying research completed Jul 2026: Mitigating Anchoring Bias in Long-Term Auditor Engagements (IRB-25-0462). Dissertation in development* — how auditor reasoning degrades under LLM assistance, with proposed control mechanisms aligned to SR 11-7 and NIST AI RMF.
 
 **MBA, Financial Mathematics** (GPA 3.8) — Florida International University • 2011
 **Pre-MBA, International Banking** — Florida International University • 2007

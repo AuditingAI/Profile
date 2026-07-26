@@ -40,7 +40,7 @@ Currently pursuing doctoral research at Florida International University investi
 - VP Audit Manager, Citi
 - Risk Control Manager, JPMorgan Chase  
 - Bank Examiner, OCC
-- DBA Candidate, FIU (GPA: 3.87)
+- DBA Candidate, FIU (GPA: 3.81)
 - MBA, FIU | BSc Banking & Finance, LSE
 - FinTech Boot Camp, Columbia University
 

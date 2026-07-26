@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Former **federal bank examiner** (OCC / FL Office of Financial Regulation) who conducted safety-and-soundness examinations and **contributed to formal enforcement actions**, then spent a decade holding a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. Twenty years of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** researching how professionals and AI systems make decisions together — directly relevant as public agencies adopt automated decision systems.
+Former **federal bank examiner** (OCC / FL Office of Financial Regulation) who conducted safety-and-soundness examinations and **contributed to formal enforcement actions**, then spent a decade holding a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. Twenty years of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** (expected 2028) researching bias in professional judgment; completed an IRB-approved empirical study in July 2026 and is extending it to AI-assisted decisions — directly relevant as public agencies adopt automated decision systems.
 
 ## EXPERIENCE
 
@@ -24,7 +24,7 @@ Former **federal bank examiner** (OCC / FL Office of Financial Regulation) who c
 **Citi — AVP, Global Legal Entity Management** · Tampa, FL · *2012 – 2015* — Centralized **500+ data sources**, enabling automated **FR2900 and TIC** regulatory filings at **99.8% accuracy**.
 
 ## EDUCATION
-**DBA (candidate)**, Florida International University · GPA **3.87** · Expected 2027 · Dissertation: *Automation Bias in AI-Assisted Professional Judgment* — **IRB-approved** · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
+**DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS
 **Investigation & examination:** Independent examination · Evidence standards & workpaper documentation · Root-cause analysis · Enforcement action support · Remediation monitoring · Regulator and examiner engagement

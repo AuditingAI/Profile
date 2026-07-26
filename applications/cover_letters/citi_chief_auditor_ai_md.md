@@ -20,7 +20,7 @@ Direct evidence against the JD:
 
 - **High-impact, regulator-facing audit delivery.** I led consent-order audit execution at Citi, coordinated cross-functional regulatory deliverables that contributed to the Federal Reserve's "not not-credible" rating on JPMorgan's resolution plan, and have engaged directly with examiners at the OCC, Fed, FDIC, and FL OFR (as a former Bank Examiner myself). I am comfortable in front of Audit Committees and regulators on AI-specific topics.
 
-- **AI-specific frameworks and regulations.** My doctoral research and consulting practice track NIST AI RMF and the GenAI Profile, SR 11-7, ISO/IEC 42001 and 23894, the EU AI Act, and the Colorado AI Act in parallel. My dissertation, *Epistemic Drift & Sycophancy Risk in LLM-Assisted Audit Judgment* (FIU DBA, expected 2028, GPA 3.87), proposes measurement and control mechanisms for one of the unique AI risks this JD identifies.
+- **AI-specific frameworks and regulations.** My doctoral research and consulting practice track NIST AI RMF and the GenAI Profile, SR 11-7, ISO/IEC 42001 and 23894, the EU AI Act, and the Colorado AI Act in parallel. My dissertation in development — automation bias and over-reliance in LLM-assisted audit judgment (FIU DBA, expected 2028, GPA 3.81) — will propose measurement and control mechanisms for one of the unique AI risks this JD identifies.
 
 - **Closing the credential gap.** The JD highlights CISA, CIA, and CRISC as beneficial. I am sitting CIA Part 1 in Q3 2026 and CISA shortly thereafter; the IAPP AIGP (AI Governance Professional) is on the same track.
 

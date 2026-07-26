@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Twenty years across Citi, JPMorgan Chase, and the OCC. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.87) running an IRB-approved study of how professionals over-rely on AI — the adoption problem every AI program actually has to solve.
+Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Twenty years across Citi, JPMorgan Chase, and the OCC. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.81, expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to over-reliance on AI — the adoption problem every AI program actually has to solve.
 
 ## EXPERIENCE
 
@@ -24,7 +24,7 @@ Program leader who has run **50+ stakeholder regulatory programs** in financial 
 **OCC / FL Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
 
 ## EDUCATION
-**DBA (candidate)**, Florida International University · GPA **3.87** · Expected 2027 · Dissertation: *Automation Bias and Over-Reliance on AI-Assisted Tools* — **IRB-approved** · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021
+**DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021
 
 ## SKILLS
 **AI program delivery:** Program & portfolio management · Agile delivery · Cross-functional stakeholder leadership (50+) · Use-case intake & prioritization · Adoption and change management

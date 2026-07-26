@@ -48,7 +48,7 @@ follow-up after submitting.*
 >
 > I began my career as a bank examiner with the OCC and the Florida Office of Financial Regulation, conducting safety-and-soundness examinations and authoring workpapers that supported formal enforcement actions. Since then I've spent twenty years inside a global institution building the evidence regulators either accept or reject — most recently leading consent-order remediation at Citi, where issue-closure packages I authored were accepted by quality assurance and external regulators.
 >
-> I've also worked on the oversight problem that's arriving fast for public agencies: I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and my doctoral research is an IRB-approved study of automation bias — when professionals defer to a system because it sounded confident. Agencies adopting automated screening and triage tools will need oversight from someone who can read the model documentation, not just the policy memo.
+> I've also worked on the oversight problem that's arriving fast for public agencies: I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and my doctoral work examines bias in professional judgment — I completed an IRB-approved empirical study in July 2026 and am extending it to automation bias, when professionals defer to a system because it sounded confident. Agencies adopting automated screening and triage tools will need oversight from someone who can read the model documentation, not just the policy memo.
 >
 > Resume and cover letter are attached.
 >
@@ -73,7 +73,7 @@ is required before submitting — the DBA is in progress.*
 >
 > At Citi I centralized 500+ legal-entity data sources into governed master data, which enabled automated FR2900 and TIC regulatory filings at 99.8% accuracy — many local systems, one institutional truth, and a filing that cannot be wrong. A 25-campus university system has the same structural problem.
 >
-> I'm a former OCC bank examiner who led consent-order remediation accepted by federal regulators, I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and I'm a DBA candidate at FIU running an IRB-approved study of automation bias in AI-assisted judgment. I should say plainly that my governance career is financial services rather than higher education — the cover letter addresses that directly.
+> I'm a former OCC bank examiner who led consent-order remediation accepted by federal regulators, I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and I'm a DBA candidate at FIU (expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to AI-assisted decisions. I should say plainly that my governance career is financial services rather than higher education — the cover letter addresses that directly.
 >
 > Resume and cover letter are attached. Thank you for your consideration.
 >
@@ -119,7 +119,7 @@ Delivery (to $215K) on 2026-07-25 — a natural pivot if the first role closed.*
 ## Before sending — standing checks
 
 1. Confirm the number on every attachment reads **(786) 704-8536**.
-2. Never describe the DBA as complete: **"DBA candidate, expected 2027."**
+2. Never describe the DBA as complete: **"DBA candidate, expected 2028."** The completed IRB study (IRB-25-0462) is the *anchoring* project; the automation-bias dissertation is in development and is **not** approved.
 3. Never write "CIA certified" — the certification is in progress.
 4. Public-sector and university roles almost always require their own portal.
    The email supplements the application; it does not replace it.

@@ -22,7 +22,7 @@ Merges both search streams into one position:
 | Enterprise data governance across a federated org | Centralized 500+ legal-entity data sources → automated FR2900/TIC filings at 99.8% accuracy (Citi AVP, Global Legal Entity Management) |
 | Governance surviving external examination | Consent-order remediation and issue-closure packages accepted by QA and external regulators; former OCC bank examiner |
 | AI governance for institutional data | AI governance framework referencing NIST AI RMF and SR 11-7; RAG assistant cutting review time ~35% |
-| Academic credibility for a Dean title | DBA candidate (FIU, GPA 3.87), IRB-approved empirical study on automation bias |
+| Academic credibility for a Dean title | DBA candidate (FIU, GPA 3.81, expected 2028); IRB-approved empirical study on anchoring bias completed Jul 2026 |
 | Board / executive reporting | Board Audit Committee reporting at Citi |
 
 ## Honest gaps — addressed head-on in the cover letter
@@ -36,7 +36,7 @@ Merges both search streams into one position:
 The alert digest carried only the title and employer, not the full description. Open the posting and check:
 
 1. Required years and whether higher-ed experience is mandatory vs preferred.
-2. Whether a terminal degree is **required** (DBA is in progress, expected 2027 — never present it as complete).
+2. Whether a terminal degree is **required** (DBA is in progress, expected 2028 — never present it as complete).
 3. Reporting line (Chancellery? CIO? Provost?) and whether the role owns institutional research.
 4. Application mechanism — CUNY typically uses its own careers portal (cuny.jobs), not LinkedIn Easy Apply.
 5. Whether a separate statement (diversity, governance philosophy) is required — common for CUNY dean-level postings.

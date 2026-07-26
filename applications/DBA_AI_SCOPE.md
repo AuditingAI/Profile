@@ -1,4 +1,10 @@
 # DBA Scope Expansion — Adding an AI Layer that Doubles as a Career Asset
+> **Status note (2026-07-26):** this document describes a *dissertation direction under
+> development*. It is not an approved topic. The approved, completed work is the qualifying
+> research project *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462,
+> completed July 2026). Do not cite anything below as an approved dissertation or as
+> IRB-approved.
+
 
 Goal: make the DBA pull double duty as **academic credential + market signal**
 for AI assurance / governance roles. Right now the dissertation topic

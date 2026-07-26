@@ -24,7 +24,7 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 - Conducted joint federal-state CAMELS examinations; authored examination workpapers supporting formal enforcement actions. FDIC Bank Examiner I.
 
 ## EDUCATION
-- **DBA**, Florida International University · GPA **3.87** · Expected 2028 · Dissertation: *Mitigating Anchoring Bias in Long-Term Auditor Engagements*
+- **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment
 - **MBA, Financial Mathematics**, FIU · GPA 3.80 · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS

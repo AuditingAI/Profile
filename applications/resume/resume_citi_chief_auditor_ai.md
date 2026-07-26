@@ -8,7 +8,7 @@ Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/y
 
 ## SUMMARY
 
-Internal audit executive applying for **Chief Auditor, Artificial Intelligence (Job Req 26962614)**. 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC), spanning audit, technology, and data-focused mandates — the exact diversified background the role calls for. Track record of operating the role's dual mandate in miniature inside Citi Internal Audit today: **auditing AI** (governance, model risk, bias, fairness, hallucination, third-party AI) **and building with AI** (designed and shipped a RAG-based Workpaper Quality Assistant that cut audit cycle time **~35%**, with NIST AI RMF, SR 11-7, and XAI controls baked into the tool). DBA candidate (FIU, GPA **3.87**) researching epistemic drift and sycophancy risk in LLM-assisted audit judgment. Comfortable presenting to Audit Committees and engaging directly with OCC and Federal Reserve examiners.
+Internal audit executive applying for **Chief Auditor, Artificial Intelligence (Job Req 26962614)**. 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC), spanning audit, technology, and data-focused mandates — the exact diversified background the role calls for. Track record of operating the role's dual mandate in miniature inside Citi Internal Audit today: **auditing AI** (governance, model risk, bias, fairness, hallucination, third-party AI) **and building with AI** (designed and shipped a RAG-based Workpaper Quality Assistant that cut audit cycle time **~35%**, with NIST AI RMF, SR 11-7, and XAI controls baked into the tool). DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Comfortable presenting to Audit Committees and engaging directly with OCC and Federal Reserve examiners.
 
 **Frameworks & regulations (per JD):** IIA Standards • COSO • COBIT • NIST AI RMF & GenAI Profile • SR 11-7 • EU AI Act • ISO/IEC 42001 & 23894 • MLOps awareness • AI-specific security risks (prompt injection, adversarial inputs, data exfiltration).
 
@@ -80,8 +80,8 @@ Internal audit executive applying for **Chief Auditor, Artificial Intelligence (
 
 ## DOCTORAL RESEARCH & EDUCATION — Epistemic Risk & AI Governance
 
-**Doctor of Business Administration (DBA), in progress** — Florida International University • Expected 2028 • GPA **3.87**
-*Dissertation: Epistemic Drift & Sycophancy Risk in LLM-Assisted Audit Judgment* — mixed-methods study of when, why, and how auditor reasoning degrades under LLM assistance, with proposed control mechanisms aligned to SR 11-7 and NIST AI RMF.
+**Doctor of Business Administration (DBA), in progress** — Florida International University • Expected 2028 • GPA **3.81**
+*Qualifying research completed Jul 2026: Mitigating Anchoring Bias in Long-Term Auditor Engagements (IRB-25-0462). Dissertation in development* — how auditor reasoning degrades under LLM assistance, with proposed control mechanisms aligned to SR 11-7 and NIST AI RMF.
 
 **MBA, Financial Mathematics** (GPA 3.8) — Florida International University • 2011
 **Pre-MBA, International Banking** — Florida International University • 2007
