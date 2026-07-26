@@ -21,57 +21,64 @@ from reportlab.platypus import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
-def _styles() -> dict[str, ParagraphStyle]:
+def _styles(compact: float = 1.0) -> dict[str, ParagraphStyle]:
+    """Build the style sheet.
+
+    `compact` scales type and leading. Some tailored resumes carry one more
+    experience block than others, and each block costs vertical space
+    regardless of word count - a scale of about 0.92 recovers a page without
+    the reader noticing, which beats deleting evidence to fit.
+    """
     base = getSampleStyleSheet()
     body = ParagraphStyle(
         "Body",
         parent=base["BodyText"],
         fontName="Helvetica",
-        fontSize=10.2,
-        leading=14,
-        spaceAfter=6,
+        fontSize=10.2 * compact,
+        leading=14 * compact,
+        spaceAfter=6 * compact,
     )
     h1 = ParagraphStyle(
         "H1",
         parent=base["Heading1"],
         fontName="Helvetica-Bold",
-        fontSize=18,
-        leading=22,
-        spaceAfter=4,
+        fontSize=18 * compact,
+        leading=22 * compact,
+        spaceAfter=4 * compact,
         textColor="#222222",
     )
     h2 = ParagraphStyle(
         "H2",
         parent=base["Heading2"],
         fontName="Helvetica-Bold",
-        fontSize=12,
-        leading=15,
-        spaceBefore=10,
-        spaceAfter=4,
+        fontSize=12 * compact,
+        leading=15 * compact,
+        spaceBefore=10 * compact,
+        spaceAfter=4 * compact,
         textColor="#1a1a1a",
     )
     h3 = ParagraphStyle(
         "H3",
         parent=base["Heading3"],
         fontName="Helvetica-Bold",
-        fontSize=10.8,
-        leading=14,
-        spaceBefore=8,
-        spaceAfter=2,
+        fontSize=10.8 * compact,
+        leading=14 * compact,
+        spaceBefore=8 * compact,
+        spaceAfter=2 * compact,
     )
     bullet = ParagraphStyle(
         "Bullet",
         parent=body,
         leftIndent=14,
         bulletIndent=2,
-        spaceAfter=3,
+        spaceAfter=3 * compact,
     )
     italic = ParagraphStyle(
         "Italic",
         parent=body,
         fontName="Helvetica-Oblique",
         textColor="#555555",
-        spaceAfter=4,
+        spaceAfter=4 * compact,
     )
     quote = ParagraphStyle(
         "Quote",
@@ -98,13 +105,13 @@ def _inline(text: str) -> str:
     return text
 
 
-def _md_to_flowables(md_text: str) -> list:
-    styles = _styles()
+def _md_to_flowables(md_text: str, compact: float = 1.0) -> list:
+    styles = _styles(compact)
     flow: list = []
     for raw_line in md_text.splitlines():
         line = raw_line.rstrip()
         if not line.strip():
-            flow.append(Spacer(1, 4))
+            flow.append(Spacer(1, 4 * compact))
             continue
         if line.startswith("### "):
             flow.append(Paragraph(_inline(line[4:]), styles["h3"]))
@@ -119,7 +126,7 @@ def _md_to_flowables(md_text: str) -> list:
                 Paragraph(_inline(line[2:]), styles["bullet"], bulletText="•")
             )
         elif line.startswith("---"):
-            flow.append(Spacer(1, 6))
+            flow.append(Spacer(1, 6 * compact))
         elif line.startswith("*") and line.endswith("*") and not line.startswith("**"):
             flow.append(Paragraph(_inline(line.strip("*")), styles["italic"]))
         else:
@@ -127,7 +134,8 @@ def _md_to_flowables(md_text: str) -> list:
     return flow
 
 
-def build_pdf(md_path: Path, out_path: Path, title: str | None = None) -> Path:
+def build_pdf(md_path: Path, out_path: Path, title: str | None = None,
+              compact: float = 1.0) -> Path:
     md_text = md_path.read_text(encoding="utf-8")
     out_path.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(
@@ -135,12 +143,12 @@ def build_pdf(md_path: Path, out_path: Path, title: str | None = None) -> Path:
         pagesize=LETTER,
         leftMargin=0.75 * inch,
         rightMargin=0.75 * inch,
-        topMargin=0.6 * inch,
-        bottomMargin=0.6 * inch,
+        topMargin=0.6 * inch * compact,
+        bottomMargin=0.6 * inch * compact,
         title=title or out_path.stem,
         author="Yasir A. Malik",
     )
-    doc.build(_md_to_flowables(md_text))
+    doc.build(_md_to_flowables(md_text, compact))
     return out_path
 
 
@@ -193,10 +201,16 @@ def main() -> None:
     parser.add_argument("--md", type=Path, help="Single markdown source to convert")
     parser.add_argument("--out", type=Path, help="Output PDF path")
     parser.add_argument("--title", type=str, default=None)
+    parser.add_argument(
+        "--compact",
+        type=float,
+        default=1.0,
+        help="Scale type and leading (e.g. 0.92) to pull a resume back to one page",
+    )
     args = parser.parse_args()
 
     if args.md and args.out:
-        path = build_pdf(args.md, args.out, args.title)
+        path = build_pdf(args.md, args.out, args.title, args.compact)
         print(f"wrote {path}")
         return
 
