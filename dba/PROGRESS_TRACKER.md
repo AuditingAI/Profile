@@ -6,6 +6,10 @@ UPDATED: July 20, 2026
 
 # 📊 Progress Tracker — Final Sprint to Manuscript
 
+> **🎓 COURSE COMPLETE — Jul 26, 2026.** Manuscript submitted to Canvas. Dr. Rey's final course announcement received: pass/fail course, evaluated on the final manuscript. Milestone closed.
+>
+> **His closing guidance carried into the dissertation phase:** (1) review the manuscript critically before using it as the proposal/dissertation foundation; (2) **review the Turnitin Originality Report AND the AI Writing Report as diagnostic tools** — examine flagged passages and revise so the writing reflects the author's own scholarly voice, reasoning, and interpretation, rather than reading the percentages alone; (3) AI belongs in brainstorming, clarity, organization, and grammar — supporting, not replacing, scholarly thinking, synthesis, and interpretation; (4) the dissertation must demonstrate independent thinking and a theoretical contribution.
+
 > **📖 Reviewing this project? Start here → [REVIEW_INDEX.md](REVIEW_INDEX.md)** — one-page guide with links to the manuscript, data-collection record, and governance documents.
 
 **Goal was:** Final manuscript submitted by **Jul 18–19, 2026.**
