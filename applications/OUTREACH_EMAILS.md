@@ -85,17 +85,43 @@ is required before submitting — the DBA is in progress.*
 
 ---
 
-## 4. Amex — Colin Barry follow-up (LinkedIn message, not email)
+## 4. Amex — Colin Barry · **most overdue item in the pipeline**
 
-*Live recruiter relationship. Amex posted Director, U.S. Risk Initiative
-Delivery (to $215K) on 2026-07-25 — a natural pivot if the first role closed.*
+*Correction: Colin is a DIRECT EMAIL thread, not LinkedIn — `Colin.Barry@aexp.com`.
+He asked for availability on 2026-07-17 ("let me know what your availability
+looks like for Mon-Weds and I will send an updated invite") and has had no
+reply since. A draft reply is already sitting in Gmail; it only needs a send.
+Amex also posted Director, U.S. Risk Initiative Delivery (to $215K) on
+2026-07-25 — the natural pivot if the first role has closed.*
 
-> Hi Colin — following up on the Enterprise Project Governance role. I also saw Amex posted Director, U.S. Risk Initiative Delivery, which maps closely to my consent-order remediation and cross-enterprise risk program work at Citi. If the first role has moved on, I'd welcome a look at that one.
+> Hi Colin,
 >
-> Also, my current number is (786) 704-8536 — please update it from the one I first sent you.
+> Apologies for the delayed reply — that's on me, and I appreciate your patience after the Zoom trouble on the 17th.
 >
-> Thanks,
+> I'm still very interested in the Audit Director, Enterprise Project Governance role. My availability this week and next: [three concrete windows].
+>
+> Two quick notes. First, please update my number to (786) 704-8536 — the 305 number I gave you earlier is being retired. Second, I noticed Amex recently posted Director, U.S. Risk Initiative Delivery. If the Enterprise Project Governance role has moved on, I'd welcome a look at that one as well.
+>
+> Thanks again,
 > Yasir
+
+**Lesson worth keeping:** the 305 number went to a live recruiter on 2026-07-17,
+before the number change. Any thread older than that carries the wrong number
+and needs an explicit correction, not a silent swap.
+
+---
+
+## 4b. Google — Strategy & Ops Lead, Regulatory Affairs
+
+*`zshekh@google.com` followed up 2026-07-27 on an application a Googler
+invited you to make — a referral-flagged application, so the reply matters.
+Draft is already in Gmail.*
+
+**Subject:** RE: Following up on your recent application to Google
+
+> Thank you for following up on my application for Strategy and Operations Lead, Regulatory Affairs. I remain very interested.
+>
+> Twenty years in audit and risk at Citi and JPMorgan Chase, and I began my career as a bank examiner with the OCC — regulatory affairs from both sides of the table. At Citi I led consent-order remediation with evidence accepted by external regulators, and authored an AI governance framework referencing NIST AI RMF and SR 11-7. I also ship: a RAG document assistant that cut audit review time ~35%.
 
 ---
 
