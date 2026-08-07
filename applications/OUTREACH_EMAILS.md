@@ -1,5 +1,8 @@
 # Ready-to-send emails
 
+> **Check `PIPELINE_STATUS.md` first.** It lists closed and rejected leads.
+> Never draft outreach for anything on that CLOSED list.
+
 Copy, fill the bracketed bits, attach the named files, send. Written to be
 short — the resume and cover letter carry the argument, the email only has to
 get them opened.
@@ -85,29 +88,20 @@ is required before submitting — the DBA is in progress.*
 
 ---
 
-## 4. Amex — Colin Barry · **most overdue item in the pipeline**
+## 4. Amex — Colin Barry · **CLOSED — REJECTED. Do not contact.**
 
-*Correction: Colin is a DIRECT EMAIL thread, not LinkedIn — `Colin.Barry@aexp.com`.
-He asked for availability on 2026-07-17 ("let me know what your availability
-looks like for Mon-Weds and I will send an updated invite") and has had no
-reply since. A draft reply is already sitting in Gmail; it only needs a send.
-Amex also posted Director, U.S. Risk Initiative Delivery (to $215K) on
-2026-07-25 — the natural pivot if the first role has closed.*
+**Status: rejected (confirmed by Yasir, 2026-08-07). This lead is dead.**
+Do not draft follow-ups, do not suggest re-engaging, do not raise it as an
+overdue item. It was repeatedly surfaced as "live and overdue" on the strength
+of a 2026-07-17 message asking for availability; that inference was wrong and
+the nagging was not welcome.
 
-> Hi Colin,
->
-> Apologies for the delayed reply — that's on me, and I appreciate your patience after the Zoom trouble on the 17th.
->
-> I'm still very interested in the Audit Director, Enterprise Project Governance role. My availability this week and next: [three concrete windows].
->
-> Two quick notes. First, please update my number to (786) 704-8536 — the 305 number I gave you earlier is being retired. Second, I noticed Amex recently posted Director, U.S. Risk Initiative Delivery. If the Enterprise Project Governance role has moved on, I'd welcome a look at that one as well.
->
-> Thanks again,
-> Yasir
+Nothing here needs an email. Kept only so a future session does not
+rediscover the July thread and mistake it for an open lead.
 
-**Lesson worth keeping:** the 305 number went to a live recruiter on 2026-07-17,
-before the number change. Any thread older than that carries the wrong number
-and needs an explicit correction, not a silent swap.
+**Lesson worth keeping:** the 305 number went to a live recruiter on
+2026-07-17, before the number change. Any thread older than that carries the
+wrong number and needs an explicit correction, not a silent swap.
 
 ---
 
@@ -115,7 +109,8 @@ and needs an explicit correction, not a silent swap.
 
 *`zshekh@google.com` followed up 2026-07-27 on an application a Googler
 invited you to make — a referral-flagged application, so the reply matters.
-Draft is already in Gmail.*
+Not yet sent; paste the text below. (An earlier note here claimed a Gmail
+draft existed — it did not. See the tooling note in `PIPELINE_STATUS.md`.)*
 
 **Subject:** RE: Following up on your recent application to Google
 
