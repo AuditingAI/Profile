@@ -1,7 +1,10 @@
 # Ready-to-send emails
 
-> **Check `PIPELINE_STATUS.md` first.** It lists closed and rejected leads.
-> Never draft outreach for anything on that CLOSED list.
+> **Check the Notion Job Pipeline first** (🎯 Career Command Center →
+> Job Pipeline → Stage board). Anything in the Rejected or Declined columns is
+> dead: no follow-ups, no pivots to another req at the same employer, no
+> listing it as overdue. `PIPELINE_STATUS.md` is the offline mirror of that
+> board.
 
 Copy, fill the bracketed bits, attach the named files, send. Written to be
 short — the resume and cover letter carry the argument, the email only has to

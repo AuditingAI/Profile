@@ -1,5 +1,12 @@
 # Pipeline status — read this before suggesting any outreach
 
+> **Superseded by Notion as of 2026-08-07.** The live record is now the
+> **Job Pipeline** database inside 🎯 Career Command Center
+> (`app.notion.com/p/3b54ffd38c7e81feae9cfefadca47c47`), with open work in the
+> **Next Actions** database beside it. Update Notion, not this file. This copy
+> is kept so a session without a Notion connection is not flying blind, and so
+> the closed list survives if a connector drops.
+
 Canonical record of what is live and what is closed. **Check the CLOSED list
 before drafting anything.** Re-raising a dead lead wastes the owner's time and
 is the single most annoying failure mode of this workflow.
@@ -39,6 +46,17 @@ to another Amex req, do not list it as an outstanding action.
   minimums, "tactical execution engine" brief, ceiling below the RAI role's
   midpoint. Applying to both through one referrer signals uncertainty about
   level.
+
+## Tooling note — Dropbox is stale, do not link to it
+
+Every file under Dropbox `/Resume/Application_Package_*` is dated
+**2026-06-05**. They carry the retired (305) 799-2443 number, GPA 3.87,
+"expected 2027", and the IRB overclaim. A Dropbox share link therefore sends
+the wrong facts to a recruiter, which is worse than sending nothing.
+
+The Dropbox connector also cannot upload binary files, so corrected PDFs
+cannot be pushed there from a session — the owner has to re-upload by hand.
+Until that happens, attach from `applications/resume/` instead.
 
 ## Tooling note — drafts
 
