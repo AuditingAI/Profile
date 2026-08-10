@@ -159,3 +159,59 @@ in Scholar to cut the noise at the source.
 **One standout for the dissertation AI bridge:**
 - **Artificial intelligence and bias in banking and financial services: a comprehensive review and future research agenda** — N Krey, G Rancati, J Parajuli, RV Srivastava, *International Journal of Bank Marketing*, 2026.
   *Why: comprehensive review + research agenda at exactly the AI × bias × financial-services intersection where the dissertation extension (AI/LLM audit tools and anchoring in bank audit risk) will sit. Candidate anchor citation for the dissertation proposal's motivation section.*
+
+---
+
+## Jul 21 – Aug 9, 2026 alert triage (2026-08-10 sweep)
+
+9 "Auditor Bias" alerts reviewed. **8 rejected at the relevance gate, 1 accepted.** Rejected set is
+the same pattern as the last three sweeps: L2 speaking-assessment fairness, volatility-forecast
+auditing, spatial fairness in algorithmic decisions, e-recruitment cultural bias, generative
+recommender fairness, skills-based job matching, HR algorithmic auditing. All are *algorithmic
+auditing* — machines being audited — not *human auditor judgment*.
+
+### Accepted — and it is the most relevant paper this alert has ever returned
+
+- **How LLMs Audit Each Other: Five Mechanisms of Auditor Bias in Cross-Model Peer Review Under
+  Identity Disclosure and Cross-Lingual Conditions** — O EFT, 2026.
+  *Why it matters:* this is the dissertation extension chain, already partly instrumented by someone
+  else. "Cross-model peer review" is **recursive epistemic drift** — successive models reprocessing
+  the same work and converging on each other. "Auditor bias under identity disclosure" is adjacent to
+  **sycophantic confirmation** — the model's output shifting toward the position it believes the
+  counterparty holds. Five named mechanisms give the extension a citable vocabulary instead of
+  three phrases invented in this repo.
+  *Action:* obtain the full text before drafting the extension section. Check whether the five
+  mechanisms map onto the three-link chain, and whether any is measured rather than asserted —
+  a measured mechanism is a scale the dissertation could adapt.
+
+### Adversarial flag (Pass 5 — never bury these)
+
+- **AI-Powered Browsers Are Broadly Accurate News Summarizers That Reduce Political Bias and Negative
+  Affect** — Y Xia, D Batorski, E Wertz, M Mamakos, L Li et al., arXiv 2026.
+  *Why it matters:* evidence pointing the **other way** — AI assistance reducing rather than
+  amplifying bias in a judgment task. Different domain and a lay-reader task rather than a
+  professional-judgment one, so it is not fatal. But an argument that AI degrades professional
+  judgment has to engage with the case that it sometimes improves it, or a committee member will
+  raise it first.
+
+### Recruitment precedent (Pass 3 — the binding constraint)
+
+**None found.** Fourth consecutive sweep with no study that successfully recruited auditors or a
+comparable specialist population. Directive 5 remains unserved by the literature sweep.
+
+### The alert query itself is the problem
+
+Eight of nine rejected, and the same ratio held across the Jun–Jul and Jul 9–22 sweeps: roughly
+**80–90% of what "Auditor Bias" returns is algorithmic-audit work**, because Scholar reads "auditor"
+as "the thing auditing a model." The sweep is not failing; the query is mis-pointed.
+
+**Replace the single alert with two, so the two literatures stop competing in one inbox:**
+
+1. Human-auditor judgment — the qualifying study's literature, and where Directive 5's recruitment
+   precedent would appear:
+   `("anchoring bias" OR "professional skepticism" OR "audit judgment" OR "auditor judgment") AND (auditor OR audit OR assurance)`
+
+2. The dissertation extension — where the accepted paper above came from:
+   `("automation bias" OR "algorithmic appreciation" OR sycophancy OR "model collapse" OR "epistemic drift") AND (LLM OR "large language model" OR "AI assistant")`
+
+Keep "Auditor Bias" running for one month alongside them to confirm nothing is lost, then retire it.
