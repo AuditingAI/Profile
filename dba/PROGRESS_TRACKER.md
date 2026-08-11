@@ -12,6 +12,8 @@ UPDATED: July 20, 2026
 >
 > **His closing guidance carried into the dissertation phase:** (1) review the manuscript critically before using it as the proposal/dissertation foundation; (2) **review the Turnitin Originality Report AND the AI Writing Report as diagnostic tools** — examine flagged passages and revise so the writing reflects the author's own scholarly voice, reasoning, and interpretation, rather than reading the percentages alone; (3) AI belongs in brainstorming, clarity, organization, and grammar — supporting, not replacing, scholarly thinking, synthesis, and interpretation; (4) the dissertation must demonstrate independent thinking and a theoretical contribution.
 
+> **📈 Publication pipeline and the argument chain → [PUBLICATION_TRACKER.md](PUBLICATION_TRACKER.md)** — where each publishable output stands, and the standing link-by-link argument for the AI extension chain. Reviewed every Friday sweep; challenges are recorded there, not smoothed over.
+
 > **📖 Reviewing this project? Start here → [REVIEW_INDEX.md](REVIEW_INDEX.md)** — one-page guide with links to the manuscript, data-collection record, and governance documents.
 
 **Goal was:** Final manuscript submitted by **Jul 18–19, 2026.**
