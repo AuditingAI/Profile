@@ -1,87 +1,135 @@
-# Project 01 — Downscaling Indus Groundwater Depletion to Governance Units
+# Project 01 — Institutional Determinants of Groundwater Depletion in the Indus Basin
 
-Status: **scoping** · Owner: YA · Opened 2026-08-11
+Status: **rescoped 2026-08-11** · Owner: YA · Opened 2026-08-11
 
-## The gap
+> **Scope change.** This project originally proposed downscaling GRACE
+> groundwater depletion to governance-unit resolution. **That has been done.**
+> The literature search that was step 1 has now been run, and it killed the
+> original contribution. What survives — and is now cheaper to execute — is the
+> institutional half. See "What the search found" below.
 
-Groundwater governance in the Indus Basin is debated at the level of provinces,
-districts, and canal commands. Groundwater *measurement* from satellite
-gravimetry (GRACE / GRACE-FO) resolves at roughly 300 km — coarser than every
-unit at which policy is made. So the governance literature argues about
-institutions using a depletion signal that cannot be attributed to any specific
-institution.
+## What the search found
 
-That is a genuine, stateable gap. It is also the kind of gap that is closed by
-methods work rather than by fieldwork, which makes it tractable from outside
-Pakistan and outside a hydrology department.
+The GRACE-downscaling method for the Indus is published and mature:
 
-## Proposed contribution
+- **Arshad et al. (2024).** *Downscaled-GRACE Data Reveal Anthropogenic and
+  Climate-Induced Water Storage Decline Across the Indus Basin.* Water Resources
+  Research. Downscales GRACE/GRACE-FO to **1 km²** across **20 Indus
+  sub-regions**, 2002–2023, using a geographically-weighted random forest
+  (RFgw). Finds irreversible TWS and GWS decline in all 20 sub-regions, steepest
+  downstream. `[verified — citation and abstract; full text paywalled, not yet read]`
+  https://doi.org/10.1029/2023WR035882
+- **"Downscaling GRACE/GRACE-FO data for improving terrestrial and groundwater
+  storage monitoring and assessment in transboundary Indus Basin and its
+  sub-regions."** ESS Open Archive preprint. `[verified — preprint exists]`
+  https://doi.org/10.22541/essoar.173395770.08839790/v1
+- **"Bridging the resolution gap: Machine learning for local-scale groundwater
+  drought monitoring in Punjab, Pakistan."** Journal of Hydrology: Regional
+  Studies (2025). `[unverified — title and venue only]`
+- **Systematic review (2025):** *GRACE Downscaling and Machine Learning Models
+  for Groundwater Prediction.* Hydrology. `[verified]`
+  https://doi.org/10.3390/hydrology13050135
 
-Estimate groundwater storage change at district / canal-command resolution by
-downscaling the GRACE signal using higher-resolution covariates, then test
-whether the resulting spatial pattern correlates with institutional variables
-the governance literature proposes.
+**Conclusion: do not build a downscaling pipeline.** Reproducing this would be
+a training exercise, not a contribution. It would also be visible as such to
+anyone in the field.
 
-### Method sketch
+## The gap that survives
 
-1. **Baseline.** Groundwater storage anomaly = GRACE total water storage anomaly
-   − (soil moisture + snow water equivalent + surface water), the latter three
-   from GLDAS/NOAH. This is the standard approach; reproduce it first for the
-   whole basin and validate against any available PCRWR well records.
-2. **Covariates at fine resolution.**
-   - Sentinel-1 InSAR land subsidence — subsidence is a physical consequence of
-     aquifer compaction and is available at tens of metres.
-   - Sentinel-2 / Landsat cropping intensity and crop type — proxies for
-     irrigation demand.
-   - MODIS MOD16 evapotranspiration — the consumptive-use term.
-   - Canal surface-water delivery records where obtainable — abstraction is
-     partly a residual of surface supply shortfall.
-3. **Downscaling.** Fit a statistical model (random forest or a Bayesian
-   spatial model) mapping covariates to the coarse GRACE signal, then predict at
-   covariate resolution. Validate with held-out in-situ wells.
-4. **Institutional test.** Regress district-level depletion rate on:
-   - position on the canal (head / middle / tail)
-   - electricity tariff regime and subsidy history
-   - colonial-era settlement and land-tenure classification
-   - tubewell density from agricultural census
+The two literatures still do not touch each other:
 
-### Honest risks
+- **Satellite work** (Arshad et al. and successors) produces a fine-resolution
+  depletion surface, and explains it with *climatic and anthropogenic* drivers
+  in the broad sense — precipitation, irrigated area, population. It contains no
+  institutional variables.
+- **Institutional work** establishes the mechanisms — tail-enders receive less
+  canal water and pump deeper, more brackish groundwater (World Bank evidence
+  from ~4,000 watercourse outlets); electricity subsidies function as de facto
+  abstraction policy. But this evidence is farm-survey cross-section, not
+  spatially joined to a depletion surface. `[verified — mechanisms are
+  established in the literature; the absence of a spatial join is our
+  assessment, and must be confirmed by a proper systematic search before it is
+  claimed in print]`
 
-- **Downscaling can manufacture structure.** A model trained to predict a coarse
-  signal from fine covariates will produce fine-resolution output whether or not
-  that output is real. Validation against independent in-situ data is not
-  optional; without it this is not publishable, and should not be published.
-- **In-situ well data may be unobtainable.** PCRWR access is the critical
-  dependency. If it fails, the project reduces to a methods paper with synthetic
-  validation only — still publishable, considerably weaker.
-- **The institutional variables may be uncodeable.** Colonial settlement
-  classification in particular may not exist in machine-readable form.
-- **This may already exist.** GRACE downscaling is an active global literature.
-  **Do the literature search before writing any code.** If someone has done this
-  for the Indus, the contribution is the institutional test, not the method.
+Nobody appears to have asked: **does the depletion surface line up with the
+institutional geography?** That is a question the governance strand has been
+arguing about qualitatively for years without a spatial test.
+
+## Revised contribution
+
+Take the published downscaled depletion surface as input. Join it spatially to
+institutional variables. Test whether institutional geography explains variance
+in depletion after controlling for the physical and climatic drivers already
+identified.
+
+### Independent variables
+
+| Variable | Source | Obtainability |
+|---|---|---|
+| Canal command position (head / middle / tail) | Punjab Irrigation Dept. watercourse outlet data; World Bank annex | `[unverified]` — likely the hard one |
+| Electricity tariff regime and subsidy history | NEPRA tariff notifications, by feeder/region | `[unverified]` |
+| Tubewell density | Pakistan Agricultural Census | `[unverified]` |
+| Cropping pattern (rice/sugarcane share) | Sentinel-2 / provincial crop reporting | Open |
+| Colonial-era settlement and tenure class | Historical settlement reports, canal colony boundaries | `[assumption]` — may not be machine-readable |
+
+### Controls
+
+Precipitation (CHIRPS), evapotranspiration (MOD16), surface-water delivery
+where available — the drivers Arshad et al. already established, so that any
+institutional effect is measured net of them.
+
+### Why this is defensible
+
+It is the only version of this project where the technical work and the
+governance framing are both load-bearing. A hydrologist cannot code canal-tail
+position and colonial tenure class as meaningful variables. A political
+ecologist cannot run a spatial regression on a 1 km depletion surface. That is
+what makes it a genuine two-sided problem rather than a request for someone's
+time.
+
+## Honest risks
+
+- **The institutional data may not exist at usable resolution.** This is now the
+  binding constraint, not the satellite work. Canal command boundaries in
+  digital form are the single point of failure — resolve this before anything
+  else.
+- **The result may be null.** Depletion may be explained entirely by cropping
+  pattern and rainfall, with no residual institutional signal. That is a
+  publishable finding and should be published if found. Decide now, before
+  seeing results, that a null goes to press — otherwise this becomes an exercise
+  in finding the answer you wanted.
+- **Spatial autocorrelation will inflate significance** if handled naively. Use
+  spatial error / spatial lag models or cluster standard errors by canal command.
+- **Ecological inference.** A district-level correlation between tariff regime
+  and depletion does not establish that individual farmers responded to tariffs.
+  State this limit explicitly rather than letting a reader over-read it.
+- **The gap claim needs verification.** "Nobody has joined these" is currently
+  `[assumption]` based on one search round. Run a proper systematic search
+  before asserting novelty in any draft.
 
 ## Immediate next steps
 
-- [ ] Literature search: "GRACE downscaling", "groundwater downscaling machine
-      learning", restricted to Indus / South Asia. Establish what exists.
-- [ ] Reproduce the standard basin-scale GRACE groundwater anomaly. This is a
-      solved problem and a good calibration of whether the toolchain works.
-- [ ] Establish whether PCRWR well data is obtainable, and on what terms.
-- [ ] Write a one-page problem statement. If it cannot be stated in one page,
-      it is not yet a project.
+- [ ] Systematic search to confirm the gap is real — Scopus/Web of Science, not
+      just Google. If someone has done this, rescope again.
+- [ ] Read Arshad et al. (2024) in full. Determine whether the downscaled
+      product is publicly released or must be requested from the authors.
+- [ ] Establish whether digital canal command boundaries exist for Punjab. This
+      is the go/no-go item.
+- [ ] Write the one-page problem statement.
 
 ## On collaboration
 
-The point of doing steps 1–4 above *before* approaching anyone is that it
-changes the nature of the approach. "I have reproduced the basin-scale signal,
-here is the notebook, I think it can be pushed to district resolution but I need
-ground-truth wells" is a collaboration proposal. "I would like to collaborate"
-is a request for someone else's time.
+The sequence matters. Do the systematic search, secure the depletion surface,
+and confirm the canal data exists — *then* approach anyone. At that point the
+message is "I have the depletion surface and the canal geography joined, the
+institutional coding is where I'm out of my depth, here is the notebook." That
+is a proposal. Before that point it is a request for someone else's time, and
+it will be read as one.
 
-Norms worth holding to:
+Norms:
 
-- Approach on the work, citing specific papers you have actually read.
-- One message. If there is no reply, that is a reply.
-- Never list anyone as a co-author without explicit written consent.
-- Publish what you produce under your own name regardless of whether anyone
-  joins. The work should stand alone; that is what makes it worth joining.
+- Approach on the work, citing papers actually read in full.
+- One message. No reply is a reply.
+- No one is listed as a co-author without explicit written consent.
+- Publish under your own name regardless of who joins. Work that stands alone is
+  what makes it worth joining.

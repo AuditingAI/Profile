@@ -144,8 +144,10 @@ actually operates on. Bridging that resolution gap is the open problem.
 
 ## Open questions worth a paper
 
-1. Can GRACE-derived depletion be downscaled to canal-command or district
-   resolution using InSAR subsidence and cropping-pattern data as covariates?
+1. ~~Can GRACE-derived depletion be downscaled to canal-command or district
+   resolution?~~ **Closed 2026-08-11 — this is done.** Arshad et al. (2024,
+   Water Resources Research) downscale to 1 km² across 20 Indus sub-regions
+   using geographically-weighted random forest. See Project 01.
 2. Does groundwater depletion rate correlate with the *institutional* variables
    the governance literature proposes — canal-tail position, colonial-era
    settlement type, electricity tariff regime — at a resolution where that
@@ -155,4 +157,42 @@ actually operates on. Bridging that resolution gap is the open problem.
 
 Question 2 is the bridge between the two strands and the most defensible
 collaboration premise: it requires both the governance framing and the technical
-work, and neither side can do it alone.
+work, and neither side can do it alone. **With question 1 now closed by
+published work, question 2 is also cheaper to attempt** — the depletion surface
+is an input rather than something to build. This is now Project 01.
+
+---
+
+## Quantitative strand — key works
+
+- **Arshad et al. (2024).** *Downscaled-GRACE Data Reveal Anthropogenic and
+  Climate-Induced Water Storage Decline Across the Indus Basin.* Water Resources
+  Research. 1 km² downscaling, 20 sub-regions, 2002–2023, RFgw model. Declining
+  TWS/GWS in all 20 sub-regions, steepest downstream. No institutional
+  variables. `[verified — citation and abstract; full text paywalled]`
+  https://doi.org/10.1029/2023WR035882
+- *Downscaling GRACE/GRACE-FO data ... transboundary Indus Basin and its
+  sub-regions.* ESS Open Archive preprint. `[verified — preprint exists]`
+  https://doi.org/10.22541/essoar.173395770.08839790/v1
+- *Bridging the resolution gap: ML for local-scale groundwater drought
+  monitoring in Punjab, Pakistan.* J. Hydrology: Regional Studies (2025).
+  `[unverified — title/venue only]`
+- *GRACE Downscaling and Machine Learning Models for Groundwater Prediction: A
+  Systematic Review.* Hydrology (2025). `[verified]`
+  https://doi.org/10.3390/hydrology13050135
+
+## Institutional strand — established mechanisms
+
+- **Canal position.** Tail-end farmers receive less canal water (partly from
+  upstream theft) and pump deeper, more brackish groundwater than head-reach
+  farmers. Evidence base is ~4,000 watercourse outlets across Punjab, via World
+  Bank analysis. `[verified — mechanism established]`
+  https://documents1.worldbank.org/curated/en/099141503012329215/pdf/P17671802abac1004084c10f1343a94e4fe.pdf
+- **Electricity subsidies** function as de facto abstraction policy, encouraging
+  extraction above the unsubsidised level. `[verified — mechanism established]`
+- Farm-level demand estimation exists for Punjab, Pakistan (positive
+  mathematical programming, n≈200 farms). `[unverified]`
+
+**The seam:** these mechanisms are established at farm-survey scale and have not
+been spatially joined to the downscaled depletion surface. `[assumption — needs
+a systematic search to confirm]`
