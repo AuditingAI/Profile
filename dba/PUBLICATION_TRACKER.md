@@ -81,7 +81,7 @@ log, the platform's own eligibility figure, and the cost record.
 **What is missing:** a target venue, a 3,000–4,000 word write-up, and a decision on how much
 platform detail can be disclosed without breaching terms.
 
-**Status:** ⬜ not started · **Blocking:** nothing but drafting time · **Owner:** Yasir
+**Status:** 🟡 **draft v1 written** (2026-08-10, ~3,400 words) — `P1_Feasibility_Note/MANUSCRIPT_DRAFT_v1.md` · **Blocking:** 4 items in `P1_Feasibility_Note/SUBMISSION_CHECKLIST.md` — advisor sign-off (incl. co-authorship), platform terms, IRB aggregate-reporting confirmation, and reconciling the exact n against the course manuscript's deliberate hedge · **Owner:** Yasir
 
 ---
 
