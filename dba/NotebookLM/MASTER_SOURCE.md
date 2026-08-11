@@ -1,3 +1,9 @@
+> ⚠️ **SUPERSEDED — 11 August 2026.** This pack was built 24 July 2026, before the qualifying
+> examination result, Dr. Rey's five directives, chain v1.1, and the P1 manuscript draft. Do not
+> study from it and do not upload it to NotebookLM.
+>
+> **Current pack: [`sources/`](sources/) — see [README.md](README.md) for setup and the daily loop.**
+
 # MASTER SOURCE — Anchoring Bias in Audit Judgment & AI Epistemic Risk
 Yasir A. Malik · FIU DBA Cohort 7.16 · IRB-25-0462 · July 2026
 
