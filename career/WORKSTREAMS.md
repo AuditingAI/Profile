@@ -16,7 +16,7 @@ a recruiter's email to be useful, it is the wrong file.
 | # | Track | Outcome that ends it | Cadence | Skill | Private store |
 |---|---|---|---|---|---|
 | 1 | **Industry roles** — AI governance / model risk / audit leadership | Signed offer, NY/NJ metro or remote | Daily | `/job-search` | 🔒 Job Search Profile + Weekly Status Log |
-| 2 | **Academic track** — teaching appointment | Adjunct or lecturer contract, FIU or Rutgers | Weekly | `/job-search` (academic lane) | Academic CV confirmations |
+| 2 | **Academic track** — teaching appointment | Professor of practice, clinical, or lecturer contract | Weekly | `/academic-jobs` | Academic CV confirmations |
 | 3 | **Research** — DBA dissertation | Approved proposal → defense | Weekly sweep, daily inbox | `/research` | Scholar alerts, advisor correspondence |
 | 4 | **Practice** — Audit the Algorithm advisory | First paid engagement | Monthly | — | Client conversations |
 
@@ -53,7 +53,7 @@ Measured over ten runs, not assumed:
 | **LinkedIn job alerts (Gmail)** | Carries the entire AI-governance / model-risk lane. Primary source. |
 | **Indeed API** | Returned **zero** for `model risk management director` eight consecutive days while LinkedIn delivered three such roles. Keep as a wide net for adjacent risk/GRC titles; do not rely on it in lane. |
 | **Recruiter DMs** | Highest value per item, lowest volume. Zero for three consecutive runs. When one arrives it outranks everything. |
-| **Indeed for teaching** | Useless. Academic hiring runs through institutional portals, HigherEdJobs, and faculty referral. Do not search it here. |
+| **Indeed / LinkedIn for teaching** | Useless — verified repeatedly (returns nursing and social-work adjunct roles in unrelated states). Academic hiring runs through AAA Career Center, HigherEdJobs, institution portals, and above all faculty referral. `/academic-jobs` handles this lane and never touches these sources. |
 | **Institutional portals** | The only real channel for track 2 — `search.careers.fiu.edu`, Rutgers Newark. Must be checked by hand. |
 
 ---
