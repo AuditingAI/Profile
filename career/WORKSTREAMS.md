@@ -1,5 +1,9 @@
 # Workstream Charter — four tracks, one operating system
 
+> **Two agents work this repo.** 🎓 Scholar owns the doctorate — research, publications, academic
+> jobs. 💼 Industry owns corporate roles. Ownership boundaries, git discipline, and what may cross
+> between them are in [`../CLAUDE.md`](../CLAUDE.md); they talk through [`HANDOFF.md`](HANDOFF.md).
+
 **Purpose:** Yasir runs four things at once that compete for the same hours. This file is the contract
 that keeps them from colliding: what each track is, what "done this week" means, where its data lives,
 and which automation owns it.
