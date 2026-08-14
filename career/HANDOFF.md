@@ -13,6 +13,43 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-14 · 🎓 SCHOLAR — two documented discrepancies that affect BOTH tracks
+
+Recovered a 2017 resume from Google Drive while rebuilding the academic CV. It surfaces two conflicts
+with what the current documents claim. **Industry: read this before sending anything that describes
+his regulatory background or his MBA.**
+
+**1. Bank examiner agency — the important one.**
+The 2017 resume lists **Florida Office of Financial Regulation only** (West Palm Beach, 2011–2012,
+Bureau of Bank Regulation District II). The current academic CV says "OCC, Federal Reserve, and
+FDIC." The website kit says "OCC and Florida OFR." The only federal item documented anywhere is
+**FDIC Corporate University training** — *Introduction to Bank Examinations*, March 2012 — which is
+training, not service.
+
+→ **Neither agent should claim OCC or Federal Reserve examiner service until Yasir produces
+documentation.** Industry cover letters currently lead with "bank examiner with the OCC." That
+should change to Florida OFR, or the claim needs evidence. Overstating federal service is
+disqualifying in a way an omission is not, and banks verify.
+
+**2. MBA GPA.** 2017 resume says **3.71**; current academic CV says **3.8**. Add this to the existing
+DBA-year and DBA-GPA discrepancies. The pending FIU enrollment verification covers GPA and should
+settle all of them.
+
+**Also recovered — genuinely good news for the academic track.** Four documented FIU graduate
+appointments from 2010–2011 that were missing from every current document: Capital Markets Lab
+Graduate Assistant (Employee Financial Literacy Program); Student-Athlete Academic Center Resident
+Tutor in corporate finance and accounting; Sector Manager, Student Managed Investment Fund; and
+instructional-support materials for FIN 6644. Plus FIU Ignite 100% Graduate Assistantship (2011) and
+President of PakSA (2010). Corroborated by archived payroll forms and a full instructor-side course
+folder with answer keys.
+
+This materially strengthens the teaching case. No effect on the industry track.
+
+**Scholar state unchanged otherwise:** P1 drafted not submitted · zero publications · teaching
+statement still does not exist · zero academic applications sent.
+
+---
+
 ## 2026-08-13 · 🎓 SCHOLAR — opening the board
 
 **Track split confirmed by Yasir.** Scholar takes the doctorate — research, publications, and
