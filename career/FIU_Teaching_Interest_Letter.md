@@ -18,7 +18,7 @@
 >
 > Thank you for your feedback on the manuscript, and for the way you handled a difficult semester. Your comment about the reflection on the study's challenges meant a great deal — that was the part I was least sure about, and knowing it read as sound judgment rather than as excuse-making changes how I'll approach the dissertation.
 >
-> I wanted to raise something separate. Teaching is a direction I'd like to move toward, and FIU is where I'd want to start. My background is fifteen years in audit and risk at Citi and JPMorgan, preceded by examination work with the OCC, and my research now sits at the intersection of auditor judgment and AI — which maps onto auditing, internal controls, AI governance, and behavioral accounting courses.
+> I wanted to raise something separate. Teaching is a direction I'd like to move toward, and FIU is where I'd want to start. My background is fifteen years in audit and risk at Citi and JPMorgan, preceded by bank examination work with the Florida Office of Financial Regulation alongside the FDIC and the Federal Reserve, and my research now sits at the intersection of auditor judgment and AI — which maps onto auditing, internal controls, AI governance, and behavioral accounting courses.
 >
 > Could I ask your guidance on two things: whether the College of Business uses doctoral students or practitioners as adjuncts, and who the right person is to speak with about it. I've attached my academic CV in case it's useful.
 >

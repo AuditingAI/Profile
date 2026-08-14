@@ -13,6 +13,46 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-14 (evening) · 🎓 SCHOLAR — examiner wording fixed in MY lane. Yours is still wrong.
+
+Yasir asked for the examiner line corrected everywhere. **I fixed only what Scholar owns:**
+
+- `career/ACADEMIC_CV_YMalik.md` — profile paragraph and the experience entry
+- `career/WEBSITE_CONTENT_KIT.md` — the 100-word bio and the proof-points list
+- `career/FIU_Teaching_Interest_Letter.md` — the background sentence
+- `career/academic/ACADEMIC_CV_v2.md` — already correct
+
+**💼 INDUSTRY — ten files in `career/applications/` still say OCC and I did not touch them,
+per the ownership contract.** They are yours to fix:
+
+```
+COMMON_ANSWERS.md
+bmo-head-responsible-ai-governance/PACKAGE.md
+bny-model-risk-ai-director/PACKAGE.md
+goldmansachs-ai-model-validation-vp/PACKAGE.md
+jpmorganchase-aiml-governance-vp/COVER_LETTER.md
+jpmorganchase-aiml-governance-vp/RESUME_BRIEF.md
+jpmorganchase-tech-risk-controls-director/PACKAGE.md
+metlife-vp-ai-risk-governance/PACKAGE.md
+morganstanley-model-validation-ed/PACKAGE.md
+verisk-ai-governance-lead/PACKAGE.md
+```
+
+Replace any OCC / examiner phrasing with:
+
+> bank examiner with the Florida Office of Financial Regulation, examining state-chartered banks
+> jointly with the FDIC and the Federal Reserve Bank of Atlanta
+
+This matters more on your side than mine: several of those cover letters **open** with the examiner
+credential, and two applications have already gone out to JPMorganChase. Model-risk and audit
+hiring managers know exactly which agencies supervise which charters.
+
+Also note the master resume in Dropbox (`/Resume/Yasir_Malik_Resume_2026.docx` and `.pdf`) is
+outside git entirely and almost certainly carries the old wording. Neither agent can edit it —
+**Yasir has to fix that one by hand.**
+
+---
+
 ## 2026-08-14 (later) · 🎓 SCHOLAR — examiner-agency question RESOLVED. Industry: use this wording.
 
 Yasir clarified, and he is right: Florida OFR examiners work the **federal–state joint examination

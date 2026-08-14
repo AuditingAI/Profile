@@ -6,7 +6,7 @@ Newark, NJ · ymali001@fiu.edu · linkedin.com/in/yasiramalik · +1 (305) 799-24
 
 ## Profile
 
-Doctoral candidate researching **cognitive bias in audit judgment and the governance of AI-assisted decision-making**, bringing 15 years of audit and risk leadership practice at Citi and JPMorgan — including service as a bank examiner with the OCC, Federal Reserve, and FDIC — into the classroom. Built and deployed a production RAG/AI tool inside Citi's audit function (35% cycle-time reduction), giving students a rare bridge between auditing theory, behavioral research, and the AI tools reshaping the profession. Seeking assistant professor / adjunct appointments in accounting, auditing, or business analytics.
+Doctoral candidate researching **cognitive bias in audit judgment and the governance of AI-assisted decision-making**, bringing 15 years of audit and risk leadership practice at Citi and JPMorgan — including service as a bank examiner with the Florida Office of Financial Regulation, examining state-chartered banks jointly with the FDIC and the Federal Reserve Bank of Atlanta — into the classroom. Built and deployed a production RAG/AI tool inside Citi's audit function (35% cycle-time reduction), giving students a rare bridge between auditing theory, behavioral research, and the AI tools reshaping the profession. Seeking assistant professor / adjunct appointments in accounting, auditing, or business analytics.
 
 ## Education
 
@@ -42,7 +42,8 @@ Dissertation (in development): *AI-augmented audit judgment — do algorithmic d
 **Audit & Risk Leadership — Citigroup and JPMorgan Chase** (15 years combined)
 Internal audit and risk roles across consumer and institutional banking; led AI innovation within audit including a production retrieval-augmented-generation tool that cut audit cycle time ~35%; governance work spanning meeting-discipline controls across 15 business units.
 
-**Bank Examiner — OCC / Florida Office of Financial Regulation** (2011–2012)
+**Bank Examiner — Florida Office of Financial Regulation, Bureau of Bank Regulation** (2011–2012)
+Safety-and-soundness examinations of state-chartered community banks conducted on a joint and alternating basis with the **FDIC** and the **Federal Reserve Bank of Atlanta** under the federal–state supervisory programme.
 Safety-and-soundness examination experience across regulated institutions — direct regulatory perspective for auditing and bank-management courses.
 
 ## Certifications & Professional Affiliations

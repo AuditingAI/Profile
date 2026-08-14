@@ -12,7 +12,7 @@
 > Bank examiner. Audit executive. AI builder. Now researching how AI reshapes professional judgment — and what governance actually has to catch.
 
 **Bio (100 words, for speaker pages and LinkedIn):**
-> Yasir A. Malik is a doctoral researcher and practitioner in audit, risk, and AI governance. Over fifteen years he led internal audit and risk work at Citigroup and JPMorgan Chase, following service as a bank examiner with the OCC and state regulators. At Citi he built and deployed a retrieval-augmented AI assistant into the audit function, cutting review cycle time by roughly 35%, and proposed an AI governance framework grounded in the NIST AI Risk Management Framework and SR 11-7. His doctoral research at Florida International University examines cognitive bias in audit judgment — and what happens to that judgment when AI systems enter the workflow.
+> Yasir A. Malik is a doctoral researcher and practitioner in audit, risk, and AI governance. Over fifteen years he led internal audit and risk work at Citigroup and JPMorgan Chase, following service as a bank examiner with the Florida Office of Financial Regulation, examining state-chartered banks jointly with the FDIC and the Federal Reserve Bank of Atlanta. At Citi he built and deployed a retrieval-augmented AI assistant into the audit function, cutting review cycle time by roughly 35%, and proposed an AI governance framework grounded in the NIST AI Risk Management Framework and SR 11-7. His doctoral research at Florida International University examines cognitive bias in audit judgment — and what happens to that judgment when AI systems enter the workflow.
 
 ---
 
@@ -58,7 +58,7 @@
 ## 4 · Proof points (all verifiable — no embellishment)
 
 - Fifteen years in audit and risk at **Citigroup** and **JPMorgan Chase**
-- **Bank examiner** — OCC and Florida Office of Financial Regulation [CONFIRM final agency wording]
+- **Bank examiner** — Florida Office of Financial Regulation, Bureau of Bank Regulation (District II), 2011–2012; state-chartered bank examinations conducted jointly and on alternating cycles with the **FDIC** and the **Federal Reserve Bank of Atlanta**. Trained at FDIC Corporate University. *(OCC removed 2026-08-14 — the OCC supervises national banks, which have no state supervisor, so no federal–state joint programme exists there.)*
 - Built and deployed a **production RAG assistant** in Citi's audit function — **~35% review cycle-time reduction**
 - Proposed an **AI governance framework** referencing **NIST AI RMF** and **SR 11-7** for an internal governance team
 - Led the firm's **Resolution and Recovery Planning** program at JPMorgan, coordinating 50+ stakeholders on Federal Reserve and FDIC submissions
