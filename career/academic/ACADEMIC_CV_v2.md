@@ -154,10 +154,15 @@ retrieval-augmented AI review assistant that reduced review cycle time by approx
 an AI governance framework proposal referencing the NIST AI Risk Management Framework and SR 11-7.
 
 **Florida Office of Financial Regulation** — West Palm Beach, FL, 2011–2012
-Bank Examiner, Bureau of Bank Regulation (District II). Safety-and-soundness examinations of
-community banks up to $3B in assets; CAMELS ratings; credit-risk and interest-rate-risk assessment;
-findings presented to boards of directors and senior management; coordination with the FDIC and the
-Federal Reserve Bank of Atlanta.
+**Bank Examiner, Bureau of Bank Regulation (District II).** Safety-and-soundness examinations of
+state-chartered community banks with up to $3B in total assets, conducted on a **joint and
+alternating basis with the Federal Deposit Insurance Corporation and the Federal Reserve Bank of
+Atlanta** under the federal–state supervisory programme. Assigned CAMELS component and composite
+ratings; assessed credit risk in the loan portfolio, interest-rate sensitivity, liquidity, and the
+adequacy of board-approved policies; presented findings to boards of directors and senior management
+and negotiated corrective programmes. Prepared and exchanged confidential supervisory reports with
+federal counterparts. Trained at **FDIC Corporate University** (*Introduction to Bank Examinations*,
+2012).
 
 **Systemax Inc. (NYSE: SYX)** — Miami, FL, 2010–2011 · MBA Intern, promoted to Analyst
 
@@ -194,12 +199,23 @@ Literacy Program**. "Ignite Future" is **FIU Ignite — 100% Graduate Assistants
 
 1. **MBA GPA.** The 2017 resume states **3.71**. Your current academic CV states **3.8**. Neither is
    verified. The pending enrollment verification covers GPA — use whatever it returns.
-2. **Bank examiner agency.** The 2017 resume lists **Florida Office of Financial Regulation only**.
-   Your current CV says "OCC, Federal Reserve, and FDIC"; the website kit says "OCC and Florida
-   OFR." Only the FDIC Corporate University *training* is documented. **This one matters** — claiming
-   federal examiner service you cannot document is the kind of thing that ends a candidacy. I have
-   written the entry as Florida OFR, which is what the record supports. If you did work for the OCC,
-   find the documentation before restoring it.
+2. **Bank examiner agencies — resolved 14 Aug, and the resolution is an improvement.**
+   You are right about the joint-examination programme, and your own 2017 resume corroborates it:
+   *"Highly sensitive information sharing with the related Regulatory Agencies such as Federal
+   Deposit Insurance Corporation (FDIC) Federal Reserve Bank of Atlanta (FRB)."* Florida OFR examines
+   state nonmember banks jointly and on alternating cycles with the **FDIC**, and state member banks
+   with the **Federal Reserve**. Both are now stated explicitly, with the mechanism named — which
+   reads as someone who understands the supervisory architecture rather than someone listing agencies.
+
+   **The OCC has been dropped, deliberately.** The OCC charters and supervises *national* banks, and
+   national banks have no state supervisor — so there is no federal–state joint examination programme
+   with the OCC the way there is with the FDIC and the Fed. A reader who examines banks for a living,
+   or a business-school colleague who teaches bank regulation, will notice that immediately, and it
+   would cast doubt on the two claims that are solidly true. Losing one agency to make the other two
+   unimpeachable is a good trade.
+
+   If you did have specific OCC exposure — a detail, a secondment, a shared examination of a
+   converting charter — tell me what it was and I will write it accurately.
 3. **FIN 6644.** The materials are consistent with instructional support, but no title is documented.
    I have not called you a teaching assistant. If the appointment had a formal title, use it; if it
    was informal, describe it as course support or remove it.

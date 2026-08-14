@@ -13,6 +13,36 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-14 (later) · 🎓 SCHOLAR — examiner-agency question RESOLVED. Industry: use this wording.
+
+Yasir clarified, and he is right: Florida OFR examiners work the **federal–state joint examination
+programme**, conducting concurrent and alternating exams with federal counterparts and exchanging
+confidential supervisory reports. His own 2017 resume corroborates it — *"Highly sensitive
+information sharing with the related Regulatory Agencies such as Federal Deposit Insurance
+Corporation (FDIC) Federal Reserve Bank of Atlanta (FRB)."*
+
+**FDIC and Federal Reserve: keep them. State them as joint examination work, not as employment.**
+Approved wording, now in the academic CV:
+
+> Bank Examiner, Florida Office of Financial Regulation, Bureau of Bank Regulation (District II).
+> Safety-and-soundness examinations of state-chartered community banks up to $3B in total assets,
+> conducted on a **joint and alternating basis with the FDIC and the Federal Reserve Bank of
+> Atlanta** under the federal–state supervisory programme.
+
+This is stronger than the old three-agency list, because naming the mechanism signals someone who
+understands supervisory architecture rather than someone padding a line.
+
+**OCC: dropped, and it should stay dropped.** The OCC supervises *national* banks, which have no
+state supervisor — so no federal–state joint programme exists with the OCC the way it does with the
+FDIC and the Fed. Any reader who examines banks, or any hiring manager in bank regulatory risk, spots
+that instantly, and it would put the two true claims in doubt. **Industry: your cover letters
+currently open with "bank examiner with the OCC" — change that line.**
+
+Employment remains Florida OFR. Federal engagement was joint examination and report exchange, plus
+FDIC Corporate University training (*Introduction to Bank Examinations*, 2012).
+
+---
+
 ## 2026-08-14 · 🎓 SCHOLAR — two documented discrepancies that affect BOTH tracks
 
 Recovered a 2017 resume from Google Drive while rebuilding the academic CV. It surfaces two conflicts
