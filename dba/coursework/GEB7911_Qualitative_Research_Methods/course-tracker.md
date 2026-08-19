@@ -16,7 +16,8 @@ itself if needed.)*
 ## Format
 
 - **Zoom classes:** Tuesdays 7:00–9:30pm — video attendance required, recordings do not count
-- **Residencies:** in-person, FIU MMC, 9:30am–5:30pm, monthly — attendance required
+- **Residencies:** in-person, FIU MMC, 9:30am–5:30pm, **Friday AND Saturday**, monthly — attendance
+  mandatory. Fall 2026: 8/21–22, 9/18–19, 10/16–17, 11/13–14
 - Canvas is the *live* extension of the syllabus — dates there govern over this document
 
 ## Textbook
@@ -55,7 +56,7 @@ was an embellishment. Use the wording above.)*
 | 2 | Zoom | Assumptions, Frameworks, Study Design | Mon 8/24 | Tue **8/25**, 7–9:30pm | Confirmed — Zoom link provided |
 | 3 | Zoom | Introducing & Focusing the Study | Mon 8/31 | Tue **9/1**, 7–9:30pm | Confirmed |
 | 4 | Zoom | Data Collection | Mon 9/7 | Tue **9/8**, 7–9:30pm | Confirmed |
-| 5 | Residency | Data Analysis & Representation | ⬜ unconfirmed | **⬜ unconfirmed — inferred ~wk of 9/14** | **Low — no Zoom link exists for this slot; verify in Canvas** |
+| 5 | Residency | Data Analysis & Representation | Thu 9/17, 11:59pm | **Fri 9/18 – Sat 9/19**, 9:30am–5:30pm, FIU MMC | **Confirmed — FIU published DBA calendar, see `../FIU_DBA_ACADEMIC_CALENDAR.md`** |
 | 6 | Zoom | Writing a Qualitative Study | Mon 9/21* | Tue **9/22**, 7–9:30pm | Confirmed |
 | 7 | Zoom | Validation & Evaluation | Mon 9/28 | Tue **9/29**, 7–9:30pm | Confirmed — also optional Proposal draft window |
 | 8 | Zoom | Proposal Presentations | — | Tue **10/6**, 7–9:30pm | Confirmed |
@@ -69,9 +70,10 @@ copy-paste artifact since Week 6 is a Zoom week per the schedule table. Treated 
 
 ## Open items — confirm in Canvas
 
-- [ ] **Week 5 Residency exact date.** Not in the syllabus or the Zoom links provided. The gap
-  between the two Zoom-link batches implies mid-September, but the day of week is unknown (Week 1's
-  residency was a Friday, not necessarily the pattern).
+- [x] ~~**Week 5 Residency exact date.**~~ **RESOLVED 19 Aug 2026: Friday 18 – Saturday 19
+  September**, from FIU's published Cohort 8.14/8.15 academic calendar. Every residency is a
+  Friday *and* Saturday, not a single day — Week 1 is 8/21–8/22, not just 8/21. See
+  `../FIU_DBA_ACADEMIC_CALENDAR.md`.
 - [ ] **Whether Week 8 includes a 3rd in-person residency.** The syllabus's Scholarly Exchange
   section says the in-person poster exchange happens "during our last Residency," but the weekly
   schedule table lists Week 8 as Zoom-only. These two statements don't reconcile from the document

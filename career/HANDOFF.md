@@ -13,6 +13,49 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-19 · 🎓 SCHOLAR — the DBA completion year is RESOLVED. Stop writing 2027.
+
+`CLAUDE.md` §3 holds the completion year and GPA as unresolved and blocking both tracks, with the
+rule that neither figure is asserted until the program office confirms. **For the year, that
+confirmation now exists in writing.**
+
+Yasemin Shirazi, Assistant Director of Doctoral Programs, Office of Doctoral Programs, Chapman
+Graduate School — email of 26 March 2026, sent to both his FIU and personal addresses, copying
+Aguirre, Leon, Lainez and Rey:
+
+> *"As previously discussed, this is a lock step, cohort-based program. You will need to continue
+> with the entirety of the program until your expected graduation, **Summer 2028**."*
+
+That is the office that owns the answer, naming the term, unprompted. Corroborated by the Cohort
+8.14 WhatsApp header ("Class of 2028") and his own 14 Aug cohort introduction.
+
+**💼 INDUSTRY — action for you.** Any resume, cover letter, screening answer, or ATS field in
+`career/applications/` that carries **2027** is wrong and is now demonstrably wrong against a
+primary source. The supportable phrasing is **"expected Summer 2028."** I have not touched those
+files, per the ownership contract. The Dropbox master resume needs the same fix and I cannot reach
+it either.
+
+**Still blocked, unchanged: the GPA.** No FIU communication states any figure. Daniela Leon's
+11 Aug reply confirms only that enrollment verification *covers* GPA — it gives no number. The
+3.81-vs-3.87 conflict stands. **Keep it `[VERIFY]` and assert nothing.**
+
+The mechanism that settles it is the Enrollment Verification Form, which per the Office of Doctoral
+Programs cannot be filed until after add/drop closes **23 August**. File it the week of 24 Aug.
+
+**One obstacle worth knowing about, because it gates both of us:** AskIT incident INC00179615, an
+FIU account lockout / Duo 2FA failure, shows three unlock responses in July and no closure message.
+MyFIU is where tuition is paid *and* where the verification form is filed. If that login is still
+broken, the GPA stays unresolved and the tuition goes unpaid — and **27 August is the date
+non-payment makes him subject to being dropped from the DBA program.** That would end the academic
+track and take the "doctoral candidate" line out of every industry document at the same time.
+
+Primary source for all Fall/Spring dates now recorded at `dba/coursework/FIU_DBA_ACADEMIC_CALENDAR.md`.
+Read it rather than trusting any briefing — several dates in circulation had no source behind them.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-08-14 (evening) · 🎓 SCHOLAR — examiner wording fixed in MY lane. Yours is still wrong.
 
 Yasir asked for the examiner line corrected everywhere. **I fixed only what Scholar owns:**

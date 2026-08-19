@@ -1,51 +1,76 @@
-# Canvas Inbox message — draft to paste (GEB7911, Dr. Gonzalez)
+# Messages to send — GEB7911 and the unidentified second course
 
-*This is a draft for the Canvas Inbox, not an email — the syllabus lists Canvas Inbox as the
-primary channel with a 24-hour response commitment.*
+*Drafts only. Nothing here is sent automatically. Copy, rewrite in your own voice, send yourself.*
 
-> **To:** Dr. Cristina Gonzalez
-> **Subject:** GEB7911 — Two scheduling questions (Week 5 Residency; Week 8 poster exchange)
+---
+
+## 1. Yasemin Shirazi — the second course. Send this first.
+
+**This is the highest-value message in the file.** She is the Assistant Director of Doctoral
+Programs and she sends a per-term email naming your enrolled courses — she sent exactly that on
+26 March 2026 for Summer C. **No Fall 2026 equivalent has arrived in the Gmail account.** It most
+likely went only to `ymali001@fiu.edu`, which is not connected to this workspace.
+
+> **To:** yshiraz@fiu.edu
+> **Cc:** daleon@fiu.edu
+> **Subject:** Fall 2026 course enrollment confirmation — Yasir A. Malik, Cohort 8.14
+>
+> Hi Yasemin,
+>
+> Could you confirm my Fall 2026 course enrollment? For Summer C you sent a note listing the
+> course, the instructor, and the term deadlines, which was very useful for planning.
+>
+> I have GEB 7911 with Dr. Gonzalez on Tuesdays. I understand there is a second course meeting on
+> Thursdays beginning 27 August, but I do not have the course code, the instructor, or the Zoom
+> link for it.
+>
+> Could you also send both to yasiramalik@gmail.com as well as my FIU address? I have had an
+> intermittent account issue (AskIT incident INC00179615) and want to be certain I am not missing
+> term communications.
+>
+> Thank you,
+> Yasir A. Malik
+> DBA Candidate, Cohort 8.14 · Panther ID on file
+
+**Fallback if she does not reply before 27 August:** log into Canvas at fiu.instructure.com or
+MyFIU and read the Fall 2026 schedule directly. That is the authoritative source and it does not
+depend on anyone replying.
+
+---
+
+## 2. Dr. Gonzalez — one question left, not two
+
+The Week 5 residency question is **answered** and should not be asked. FIU's published Cohort
+8.14/8.15 calendar gives every Fall residency: 21–22 Aug, 18–19 Sep, 16–17 Oct, 13–14 Nov, each
+Friday *and* Saturday. Week 5 is **18–19 September**.
+
+Only the poster question remains.
+
+> **To:** Dr. Cristina Gonzalez (Canvas Inbox — the syllabus names it as the primary channel,
+> 24-hour response commitment)
+> **Subject:** GEB7911 — Week 8 poster Scholarly Exchange
 >
 > Dr. Gonzalez,
 >
-> I've gone through the syllabus closely to plan the rest of the term and have two scheduling
-> questions I'd like to confirm ahead of time.
+> One scheduling question as I plan the term. The Scholarly Exchange Description refers to the
+> poster session taking place "during our last Residency," but the weekly schedule lists Week 8 as
+> a Zoom session, and the program calendar puts the final Fall residency on 13–14 November — after
+> our Week 8 date of 6 October.
 >
-> 1. **Week 5 Residency date/time.** The syllabus doesn't list an exact date for the Week 5
->    (Data Analysis and Representation) residency, and unlike the other sessions, no Zoom link was
->    provided for that slot — which suggests it's in-person but leaves the specific date open. Could
->    you confirm the date, time, and location so I can plan around it?
->
-> 2. **Week 8 poster Scholarly Exchange.** The Scholarly Exchange Description section refers to the
->    poster session taking place "during our last Residency," but the weekly schedule table lists
->    Week 8 as a Zoom session. Could you clarify whether there's a third in-person residency for the
->    poster exchange, or whether that language carried over from a prior term? I'd like to get any
->    travel arrangements settled early if an in-person date is coming.
+> Could you clarify whether the poster exchange happens on Zoom in Week 8, or in person at a later
+> residency? I would like to settle travel early if it is in person.
 >
 > Thank you,
 > Yasir A. Malik
 > DBA Candidate, Cohort 8.14
 
+---
+
 ## Notes
 
-- This draft is paste-ready for Canvas Inbox — copy the blockquote text above (To/Subject lines
-  are for your reference; Canvas Inbox handles recipient and subject separately) into a new
-  message to Dr. Cristina Gonzalez and send it yourself. There is no auto-send capability here —
-  nothing gets sent until you do it.
-- Tone check: two short, specific questions framed as forward planning ("I want to plan ahead"),
-  not as gaps in what was provided. No claims are made about dates, GPA, or program status —
-  consistent with the standing rule that unconfirmed facts don't get asserted anywhere in this
-  repo.
-- Once she replies, update `course-tracker.md`'s "Open items — confirm in Canvas" section and the
-  Week 5 / Week 8 rows in the schedule table.
-
-## Second course
-
-No syllabus or details for Yasir's second DBA course (per Cohort 8.14/8.15 course load) have been
-provided yet, so no equivalent Canvas message can be drafted for it. To do the same for that
-course, the following is needed:
-
-- Course code and title
-- Professor's name and email (or confirmation Canvas Inbox is the channel, as with GEB7911)
-- The syllabus PDF, or Canvas access, so open questions can be identified the same way they were
-  here
+- Canvas Inbox handles recipient and subject separately — the To/Subject lines above are for your
+  reference. Copy the message body only.
+- No claims are made in either draft about GPA, completion year, or program status.
+- The Shirazi draft mentions the AskIT incident because it is true, it is unresolved as of the last
+  reply on file (13 July), and it gives her a concrete reason to copy your personal address.
+- Once either replies, update `course-tracker.md` and `../FIU_DBA_ACADEMIC_CALENDAR.md`.
