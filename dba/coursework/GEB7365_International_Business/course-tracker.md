@@ -1,183 +1,225 @@
 # GEB 7365 — International Business Theory and Practice
-**FIU Chapman Graduate School of Business | DBA Cohort 8.14 | Fall 2026 | Hybrid/Certified**
+**FIU Chapman Graduate School | DBA Cohort 8.14 | Fall 2026 | Prof. William Newburry**
 
-*Source: `DBA_IB_Fall_2026_Syllabus_RXM.pdf`, provided by Yasir 19 Aug 2026. This is the second
-course — previously unidentified. Both the RXM and RXO syllabi were supplied; see the section
-warning below.*
+*Sources: the live Canvas syllabus page (pasted 19 Aug 2026) and `DBA_IB_Fall_2026_Syllabus_RXM.pdf`.
+**They disagree on dates.** See the reconciliation below before trusting any deadline.*
 
 ---
 
-## ⚠️ Section check — do this before Friday
+## 🚨 The date problem — read this first
 
-**RXM and RXO are the same course with swapped meeting days.**
+The Canvas syllabus **prose** carries a weekly schedule whose dates do not match the FIU DBA
+academic calendar, do not match the PDF, and do not fall on the days of the week they claim.
 
-| | RXM | RXO |
+| Canvas prose says | Day of week in **2026** | Day of week in **2025** |
 |---|---|---|
-| Residencies | **Sat 22 Aug · Sat 19 Sep** | Fri 21 Aug · Fri 18 Sep |
-| Online (Zoom) | **Thursdays** — 27 Aug · 3, 10, 24 Sep · 1, 8 Oct | Tuesdays — 25 Aug · 1, 8, 22, 29 Sep · 6 Oct |
+| "August 16–17 (Residency)" | Sun–Mon | **Sat–Sun** |
+| "September 27–28 (Residency)" | Sun–Mon | **Sat–Sun** |
 
-**Working assumption: Yasir is in RXM.** The reasoning is by elimination — GEB 7911 is section RXM,
-meets Tuesdays 7–9:30pm, and holds its residency on **Friday 21 August**. RXO's IB residency is also
-Friday 21 August at 9:30am, which would be a direct collision, and its Tuesday Zooms would collide
-with GEB 7911's. Only the RXM pairing produces a workable schedule.
+**The weekly schedule is last year's calendar, left in place.** Both "residency weekends" land on
+Saturday–Sunday in 2025 and on Sunday–Monday in 2026. FIU's published Cohort 8.14/8.15 calendar puts
+the Fall residencies on **21–22 August** and **18–19 September**, and Newburry's own email says
+*"I look forward to meeting you this weekend"* — which is 21–22 August, not 16–17.
 
-**Confirm in Canvas or MyFIU anyway.** If the enrolment is actually RXO, every date in this file is
-wrong by one day and the whole term plan changes.
+**What to trust:** the Canvas *assignment table* (auto-generated, carries real 2026 due dates) and
+the FIU academic calendar. **Not** the prose schedule's dates. The prose's **topics and readings are
+current** — it is only the dates that are stale.
+
+### Reconciled deadlines
+
+| Assignment | Canvas assignment table | Canvas prose | Use this | Confirm? |
+|---|---|---|---|---|
+| Initial Project Idea | **8/27/26** | "Sept. 3–5" | **Thu 27 Aug** | ⚠️ ask |
+| Project Presentation | **9/19/26** | "Sept. 27–28 Residency" | **Sat 19 Sep** | ⚠️ ask |
+| Formal Project Report | **10/9/26** | "Due October 7" | **Wed 7 Oct** (work to the earlier) | ⚠️ ask |
+| Peer Evaluations | **10/9/26** | "No later than October 7" | **Wed 7 Oct** | ⚠️ ask |
+
+**Ask Newburry to confirm all four.** One email settles it, and he has to answer the group/topic
+email anyway.
 
 ---
 
 ## Professor
 
-**William Newburry** — Primary Instructor
+**William Newburry** — Chair, Department of International Business
 newburry@fiu.edu · 305.348.1103 · MANGO 447
-**Department of International Business** (he chairs it)
-**Office hours: Thursdays 4:00–6:00pm**
+**Office hours: Thursdays 4:00–6:00pm** — three hours before the Thursday Zoom class.
+He signs his emails **"Bill."**
 
-*Note: office hours are 4–6pm Thursdays and the Zoom class is 7–9:30pm Thursdays. Same evening —
-a standing slot to raise something before class.*
+## Meeting pattern (Section RXM)
 
-## Meeting pattern (RXM)
+- **Residencies:** Sat **22 Aug** and Sat **19 Sep** · 9:30am–6:00pm · **CBC 152**, FIU MMC
+- **Zoom:** Thursdays **7:00–9:30pm** — 27 Aug · 3, 10, 24 Sep · 1, 8 Oct
+- Course time zone: **Eastern**
 
-- **Residency:** Sat 22 Aug and Sat 19 Sep · **9:30 AM – 6:00 PM** · **CBC 152**, MMC
-- **Zoom:** Thu 27 Aug · 3, 10, 24 Sep · 1, 8 Oct · **7:00 – 9:30 PM**
-- Course time zone: **Eastern**. All due dates are ET.
-- Hybrid: half in class, half out of class through Canvas.
+**Zoom link (from Canvas):** `https://fiu.zoom.us/j/83536762819?pwd=JR3JC4jQHZA6UiF7qXVSeCcfOCuIES.1`
+Meeting ID **835 3676 2819** · Passcode **6x026q**
 
-*Residency runs to 6:00pm, half an hour later than GEB 7911's 5:30pm. Do not book a Saturday
-evening flight against a 5:30 assumption.*
+*Section check: RXO is the same course on the opposite days (Friday residency, Tuesday Zoom). RXM is
+the assumption throughout because RXO would collide with GEB 7911 twice over. Verify in Canvas.*
 
-## Grading
+## Grading — the live Canvas table governs
 
-The syllabus prose and the Canvas schedule do not fully agree. **Canvas points govern** — that is
-what actually computes the grade.
+| Component | Weight |
+|---|---|
+| Class Participation and Online Exercises | 20% |
+| Topic Area Summary and Presentation | 20% |
+| Initial Project Idea | 5% |
+| Project Presentation | 20% |
+| **Formal Project Report** | **30%** |
+| Peer Evaluations | 5% |
 
-| Assessment | Due | Canvas points | Prose says |
-|---|---|---|---|
-| Initial Project Idea | **27 Aug** | 5 | 5% — max 3 double-spaced pages |
-| Project Presentation | **19 Sep** (residency) | 20 | 20% |
-| Final Paper | **9 Oct** | **30** | *prose says "Formal Project Report, due October 8, 20%"* |
-| Individual Participation | 9 Oct | 20 | 20% |
-| Topic Area Written Analysis and Presentation | 9 Oct | 20 | 20% — the article summary presentation |
-| Peer Evaluations | 9 Oct | 5 | 5% |
+*This resolves the earlier conflict: the report is **30%**, not the 20% the PDF prose claimed.*
 
-**Two conflicts to raise with Newburry:** the final paper is 20% in the prose and 30 points in
-Canvas, and it is dated 8 October in one place and 9 October in the other. Ask early — it is a
-third of the grade.
+**Grade scale:** A 95–100 · A− 90–94 · B+ 87–89 · B 83–86 · B− 80–82.
+**"At the doctoral level, anything less than an A is considered sub-level performance. I will only
+be assigning grades of A, A−, or B for this seminar."**
 
-**Late policy: 10% per day.** Discussions are stricter — *"No late work will be accepted."*
-
-## What the assessments actually require
-
-**Individual Participation (20%).** *"Classroom participation is ABSOLUTELY essential. There will be
-some cold calling."* Read every article before the session; be ready to state the contribution,
-place it in the field, and critique it. Graded on going beyond recitation — relevance, building on
-others, and use of article concepts.
-
-**Topic Area Written Analysis and Presentation (20%).** Summarise the articles in **one module** for
-the class. ≤10 minutes. Submit slides **and a 10-page written summary** on the day of presentation
-via Canvas. Three required components:
-1. Summary of the major module article findings
-2. Contributions of the module articles
-3. **Relation of the articles to others examined in this course and prior courses in the DBA program**
-
-*Component 3 is the opening.* It explicitly invites connecting IB literature to the qualitative
-methods course and to the dissertation. Pick the module that lets him do that.
-
-**Mini-Research Project (group of 3–4).** Groups and details assigned at the **first class meeting,
-22 August**. Stated goal: *"produce a manuscript that can be submitted to a top academic conference
-in the field of international business."*
-
-*This is a real publication opportunity inside a graded course.* `../../PUBLICATION_TRACKER.md`
-records "Citable output to date: none." A conference submission out of this course would change that.
-
-**Final online week:** each group presents a 15-minute overview of the full paper.
+**Late policy: −15%**, not accepted more than one week past the due date. *(The PDF said 10%/day —
+the live page says a flat 15%. Live page governs.)* Assignments are due **before class** on the due
+date.
 
 ---
 
-## Session 1 — Saturday 22 August, residency
+## The research project — what Bill's email actually changed
 
-**Topics:** Course Overview · What is International Business? · **Expectations for Publishing in Top
-International Business Journals** · **Initial Project Theme Discussions** · Core Theories of Foreign
-Direct Investment
+His email of 19 August adds three things the syllabus does not say plainly:
 
-**Readings — all six were supplied and all six are for this one session:**
+1. **You may do the project individually.** *"I will allow you to complete this individually if
+   anyone desires, although it is generally better to work in groups."*
+2. **Groups self-select.** He will assign them if asked, but expects students to sort it out. He
+   says explicitly: think about potential group members **before class this weekend**, because
+   *"we will allow some time for the groups to meet and discuss their initial project ideas during
+   the residency."*
+3. **There is a Module 1 slide deck on Canvas** describing the project. Read it before Saturday —
+   it is not in either syllabus PDF.
 
-1. **Chandra, R., & Newburry, W. (1997).** A Cognitive Map of the International Business Field.
-   *International Business Review*, 6(4), 387–410.
-2. **Rugman, A. M., Verbeke, A., & Nguyen, P. C. Q. T. (2011).** Fifty years of international
-   business theory and beyond. *Management International Review*, 51, 755–786.
-3. **Buckley, P. J., Doh, J. P., & Benischke, M. H. (2017).** Towards a renaissance in international
-   business research: Big questions, grand challenges, and the future of IB scholarship.
-   *Journal of International Business Studies*, 48, 1045–1064.
-4. **Tan, D., et al. (2020).** A review of research on the growth of multinational enterprises: A
-   Penrosean lens. *Journal of International Business Studies*, 51, 498–537.
-5. **Lu, J., et al. (2022).** Foreignness research in international business: Major streams and
-   future directions. *Journal of International Business Studies*, 53, 449–480.
-6. **Yao, et al. (2024).** A review of 50 years of research since Knickerbocker (1973): Competitive
-   dynamics in international business. *Journal of International Business Studies*.
+**Required step, easy to miss:** *"Please e-mail me your group selections (or choice to do the
+project individually) and topic area for approval **prior to doing extensive work**."* That approval
+email is a gate on everything downstream.
 
-### How to read six papers in two days
+**Project constraints (his three criteria):**
+- A topic of interest to the group
+- A topic where you can make a **theoretical contribution**
+- A topic where you **could potentially collect data** — *actual data is not required*
 
-They are not six independent papers. **Five of the six are review articles**, and the first one is
-by the instructor. Read them as a single argument about what the field is and where it is going.
+*That third criterion matters more than it looks. It means a project can be argued on a model and a
+design without fielding anything — which is exactly the position the dissertation data collection is
+in.*
 
-- **Read Chandra & Newburry first, and read it closely.** It is Newburry's own mapping of the IB
-  field. On day one, in his classroom, it is the paper most likely to be discussed against his own
-  framing — and the one where having a view is most visible.
-- **Then Rugman/Verbeke/Nguyen and Buckley/Doh/Benischke as a pair.** Both are "where has the field
-  been and where should it go" pieces, written six years apart. The productive question is what
-  changed between them, and whether Buckley et al.'s "grand challenges" agenda actually answers
-  Rugman et al.'s account of the theory.
-- **Then Tan (growth), Lu (foreignness), Yao (competitive dynamics) as three domain reviews.**
-  Skim method sections; concentrate on each one's "future directions" section. That is where a
-  research question comes from, and one is due in five days.
+### Project Presentation (20%) — what must be in it
 
-**Do not read all six front to back.** For each: abstract, introduction, the framework or typology,
-and the future-research agenda. That is what a discussion of contribution and critique needs, and it
-is what the participation grade actually rewards.
+10–15 minutes, **content over style**, seven required elements:
+1. Overall research topic 2. Why it is important 3. Intended contribution 4. Study model
+5. Justified preliminary hypotheses 6. How you would study it empirically — data sources, method,
+timeframe 7. Any preliminary evidence
 
-**Practical:** the article summary presentation requires placing a module's articles in relation to
-each other. Take notes in that shape from the start — one line per paper on *claim*, *contribution*,
-*what it leaves open* — rather than re-reading later.
+Put the presenter's name on the **bottom of every slide**. **Email the deck to Newburry by midnight
+the day before you present — no changes accepted after that.**
+
+### Formal Project Report (30%)
+
+≤ **30 pages** double-spaced, 12-point, inclusive of everything. Must follow **Academy of
+International Business / Journal of International Business Studies** formatting.
+
+## Topic Area Summary and Presentation (20%)
+
+Summarize **at least one research topic from the course** — one of the eight weekly topics below,
+not a single article. Written document **plus** a PowerPoint of **up to 5 minutes maximum**
+*(the PDF said 10 minutes and a 10-page written summary — the live page says 5 minutes; work to the
+shorter)*. Slides submitted afterward.
+
+Three required components:
+1. Summary of the major topic-area findings, *including but not limited to the assigned articles*
+2. Critical assessment — contributions, limitations, future extensions
+3. **Relation of the topic area to others in this course and to prior courses in your DBA program**
+
+*Component 3 is the opening.* It explicitly invites tying an IB topic back to GEB 7911 and to the
+dissertation.
+
+---
+
+## Full course schedule — topics and readings
+
+*Dates below are the corrected 2026 dates, not the stale ones in the Canvas prose.*
+
+### 1 · Sat 22 Aug — RESIDENCY · Foundations
+Course Overview · What is International Business? · Publishing in Applied IB Journals ·
+Initial Project Theme Discussions · **Core Theories of Foreign Direct Investment**
+
+- Rugman, Verbeke & Nguyen (2011), *MIR* 51: 755–786 — Fifty years of IB theory and beyond
+- Buckley, Doh & Benischke (2017), *JIBS* 48: 1045–1064 — Towards a renaissance in IB research
+- Tan et al. (2020), *JIBS* 51: 498–537 — Growth of MNEs: A Penrosean lens
+- Lu et al. (2022), *JIBS* 53: 449–480 — Foreignness research in IB
+- Yao et al. (2024), *JIBS* 55: 522–550 — 50 years since Knickerbocker: Competitive dynamics in IB
+- *(PDF version also lists Chandra & Newburry (1997), IBR 6(4): 387–410 — A Cognitive Map of the IB
+  Field. The live Canvas list drops it. **Read it anyway** — it is his own paper and he may well
+  raise it.)*
+
+### 2 · Thu 27 Aug — Zoom · Internationalization and Performance
+- Contractor, Kundu & Hsu (2003), *JIBS* 34(1): 5–18 — Three-stage theory of international expansion
+- Mezias (2002), *SMJ* 23: 229–244 — Liabilities of foreignness: US labor judgments
+- Arregle et al. (2021), *JIBS* 52: 1159–1198 — Family firm internationalization
+- Ghemawat (2001), *HBR* 79(8): 137–147 — Distance still matters
+
+### 3 · Thu 3 Sep — Zoom · Entry Mode Choice + Preliminary Project Update
+- Newburry & Zeira (1997), *JWB* 32(2): 87–102 — EIJVs vs IAs vs IGIs
+- Brouthers & Hennart (2007), *JoM* 33: 395–425 — Boundaries of the firm: entry mode research
+- Chen, Park & Newburry (2009), *SMJ* 30(11): 1133–1156 — Parent contribution and control in IJVs
+- Nippa & Reuer (2019), *JIBS* 50: 555–597 — Future of international joint venture research
+
+### 4 · Thu 10 Sep — Zoom · Structuring the Multinational Corporation
+- Rugman & Verbeke (2004), *JIBS* 35: 3–18 — Regional and global strategies of MNEs
+- Lopez, Kundu & Ciravegna (2009), *JIBS* 40: 1228–1238 — Born global or born regional?
+- Aguilera, Marano & Haxhi (2019), *JIBS* 50: 457–498 — International corporate governance
+- Meyer, Li & Schotter (2020), *JIBS* 51: 538–576 — Managing the MNE subsidiary
+- Zeng et al. (2023) — MNE control and coordination
+
+### 5 · Thu 24 Sep — Zoom · Institutions, Culture and Local Adaptation
+- Deephouse, Newburry & Soleimani (2016), *JWB* 51: 463–473 — National contexts and corporate reputation
+- Fainshmidt, Judge, Aguilera & Smith (2018), *JWB* 53: 307–322 — Varieties of institutional systems
+- Cuervo-Cazurra, Gaur & Singh (2019), *JIBS* 50: 598–632 — Pro-market institutions and global strategy
+- Samiee et al. (2024), *JIBS* 55: 285–302 — Country-of-origin perceptions
+
+### 6 · Emerging Markets: What are They and Why are They Important?
+- Ramamurti (2012), *GSJ* 2: 41–47 — What is really different about emerging market multinationals?
+- Luo & Tung (2007), *JIBS* 38: 481–498 — Springboard perspective
+- Cuervo-Cazurra & Genc (2008), *JIBS* 39: 957–979 — Transforming disadvantages into advantages
+- Luo, Zhang & Bu (2019), *JIBS* 50: 633–667 — Developed country MNEs in developing economies
+
+### 7 · Sat 19 Sep — RESIDENCY · Final Project Presentations + Emerging Markets and IB Theory
+- Geleilate, Magnusson, Parente & Alvarado-Vargas (2016), *JIM* 22: 380–402
+- Cuervo-Cazurra (2012), *GSJ* 2: 153–167 — Solving the Goldilocks debate
+- Newburry, Gardberg & Sanchez (2014), *JIM* 20(3): 327–344 — Employer attractiveness in Latin America
+- Buckley et al. (2023), *JWB* 58: 1–18 — EMNE studies and interdisciplinary inquiry
+
+### 8 · Thu 1 Oct / Thu 8 Oct — Zoom · Nonmarket Strategies in International Business
+- Sun et al. (2021), *JIBS* 52: 1818–1853 — Cross-border institutional complexity, nonmarket strategy
+- Caprar et al. (2022), *JIBS* 53: 1449–1483 — Countercultural business practices
+- Bruijn (2024), *JIBS* 55: 136–156 — MNE–civil society interactions
+
+*Sessions 6 and 7 are listed out of date order in the Canvas prose because of the stale calendar.
+The topic sequence is reliable; the mapping of topics to specific Thursdays is not. Confirm.*
 
 ---
 
-## The Initial Project Idea — due Thursday 27 August (5%)
+## Where Newburry appears in his own reading list
 
-Max 3 double-spaced pages: the research question and why the topic matters. Theme discussions happen
-at the 22 August residency, so the idea should be formed enough to argue for a group around it.
+He is an author on **four** assigned papers: Chandra & Newburry (1997), Newburry & Zeira (1997),
+Chen, Park & Newburry (2009), Deephouse, Newburry & Soleimani (2016), and Newburry, Gardberg &
+Sanchez (2014) — five, in fact, across sessions 1, 3, 5 and 7.
 
-**The obvious move is to make the dissertation work IB-shaped rather than starting cold.** Two
-directions that are genuinely IB questions, not audit questions in disguise:
-
-1. **Automation bias in audit judgment across institutional contexts.** The anchoring/AI-judgment
-   model is currently specified without a country dimension. Whether deference to a machine-generated
-   starting point varies with national institutional strength, regulatory regime, or cultural
-   distance is an IB question, and it connects directly to the Lu et al. foreignness stream.
-2. **Specialist professional populations as a methodological constraint in IB research.** P1's
-   finding — roughly six eligible per hundred thousand on a general panel — generalises well beyond
-   auditors. Cross-national IB survey work depends on reaching narrow professional populations in
-   multiple countries at once. That is a methods contribution to IB, and the evidence already exists.
-
-Direction 2 is the stronger fit for a conference paper on this timeline: **the data collection is
-already done and the argument is already written.** `../../P1_Feasibility_Note/MANUSCRIPT_DRAFT_v1.md`
-would need reframing for an IB audience, not new fieldwork — which matters when the full paper is
-due 9 October.
-
-**Constraint to respect:** this is a group project of 3–4. The topic has to be one three other people
-want to work on, not a solo dissertation chapter with collaborators attached.
-
----
+His own work clusters on **joint ventures and parent control**, **corporate reputation across
+national contexts**, and **employer attractiveness / foreignness in Latin America**. A project in
+those neighbourhoods gets an engaged supervisor rather than a polite one.
 
 ## Open items
 
-- [ ] **Confirm the section — RXM or RXO.** Everything above depends on it.
-- [ ] Get the **Zoom link** for the Thursday sessions. It is in Canvas under the course navigation
-      menu, not in the syllabus, and GEB 7911's links do not cover this course.
-- [ ] Resolve the **final paper conflict**: 20% vs 30 points, 8 Oct vs 9 Oct.
-- [ ] Complete the Canvas onboarding items — Academic Honesty Policy quiz, Practice Quiz,
-      self-introduction in the discussion board. All zero points, all expected in week one.
-- [ ] Choose which **module** to present for the Topic Area analysis (20%).
-- [ ] Confirm whether the AI-use policy matches GEB 7911's 25% cap — this syllabus points to a
-      Canvas "Policies & Resources" page rather than stating one. **Do not assume the cap is the
-      same. Check before using AI on anything graded here.**
+- [ ] **Confirm the four dates** in the reconciliation table above
+- [ ] **Confirm the section** — RXM or RXO
+- [ ] **Read the Module 1 slides on Canvas** — they describe the project and are not in either PDF
+- [ ] **Email Newburry the group/individual decision and topic area for approval** — required before
+      extensive work
+- [ ] Choose the **topic area** for the 20% summary presentation
+- [ ] **AI-use policy** — this syllabus points to a Canvas Policies page and states no cap. Do not
+      assume GEB 7911's 25% cap applies here. Check before using AI on anything graded.
