@@ -118,6 +118,25 @@ Every output should be shaped accordingly, without ever making it a topic:
 Protocol lives in `dba/coursework/HOW_TO_READ.md`; the live ordered queue in
 `dba/coursework/READING_QUEUE.md`. Keep the queue current — it is the interface.
 
+## House rules for anything he hands in
+
+**Deliverables are Word (.docx), never PDF.** Build with
+`dba/coursework/_templates/build_submission.py` — it carries the wordmark, the repo and site links,
+the house palette from `live.html`, and the source and AI-use blocks. PDF only if a portal demands it.
+
+**Every submission carries two closing blocks:**
+1. **Sources referenced** — including his own research records, cited as his work with the
+   repository named. His data and argument are his; cite them that way.
+2. **Statement on AI use** — written out in full, matching the course's policy. Never a placeholder
+   telling him to write one.
+
+**Anything he must supply or verify is written in ALL CAPS AND YELLOW-HIGHLIGHTED, inline, at the
+exact spot.** Never a to-do list in chat saying "remember to fill this in." Put it in the document
+where he will hit it.
+
+**Do the work; do not hand back instructions.** He is directing this; the execution is the job. Say
+what was done and what is left highlighted, then stop.
+
 ## Output
 
 Short. Tables for schedules. Bold the thing that will hurt if missed. One next action, named.
