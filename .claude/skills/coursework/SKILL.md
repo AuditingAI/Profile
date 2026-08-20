@@ -100,6 +100,24 @@ pick a date when two sources disagree.
 
 **"Where do I stand"** → read `COURSE_LOG.md`. Report Decided / Open / Next. Do not re-derive.
 
+## How he reads — design around this, do not mention it
+
+Yasir has ADD. Starting and staying are the scarce resources; comprehension is not the problem.
+Every output should be shaped accordingly, without ever making it a topic:
+
+- **Give an order, not options.** A list of five things he could do costs more than it delivers.
+  One next action, named.
+- **One thing visible at a time.** Never hand over a nine-paper list; hand over paper one.
+- **Time-box everything** and say how long it takes. "25 minutes" is actionable; "read this" is not.
+- **Every reading task carries one question to answer.** A target makes a page scan itself.
+- **Name the finish line** before the work starts.
+- **Find the block that already exists** — a flight, a wait, a gap between calls — rather than
+  asking him to manufacture one.
+- **Externalise immediately.** Note cards are written during reading, never after.
+
+Protocol lives in `dba/coursework/HOW_TO_READ.md`; the live ordered queue in
+`dba/coursework/READING_QUEUE.md`. Keep the queue current — it is the interface.
+
 ## Output
 
 Short. Tables for schedules. Bold the thing that will hurt if missed. One next action, named.
