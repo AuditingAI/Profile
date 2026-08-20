@@ -90,18 +90,28 @@ half of the Tuesday list above. The Tuesday slots from 20 October to 8 December 
 
 So Year II Term 1 is **four courses run in two half-term blocks**, two at a time.
 
-### The second course — strong inference, not yet confirmed
+### The second course — CONFIRMED 19 August 2026
 
-Yasir's second course meets **Thursdays, first session 27 August**, and he believes the professor is
-"William Newberry." FIU's faculty is **William Newburry** — Management & International Business,
-Ryder Eminent Scholar in Global Business.
+**GEB 7365, International Business Theory and Practice**, with **William Newburry** — Professor,
+Ryder Eminent Scholar, and Chair of the Department of International Business. Syllabus supplied by
+Yasir 19 Aug. Full detail in `GEB7365_International_Business/course-tracker.md`.
 
-On that basis the second course is most likely **GEB 7365, International Business Theory and
-Practice**, the one course in the Term 1 block that matches his field. MAN 7275 (Organizational
-Behavior Management) is the alternative if he is teaching outside his specialism.
+The earlier inference from Newburry's chairmanship was right, but note what settled it: the
+syllabus, not the reasoning. The reasoning only narrowed the candidates.
 
-**This is not confirmed.** Nothing in Gmail or Drive names the course, the professor, or a Zoom
-link. The syllabus Yasir uploads will settle it. Until then, do not state a course code anywhere.
+**The residency weekend is two different courses, not one two-day event.** This is the correction
+that matters most:
+
+| Day | Course | Time | Place |
+|---|---|---|---|
+| **Friday** | GEB 7911 — Gonzalez | 9:30am – 5:30pm | FIU MMC |
+| **Saturday** | GEB 7365 — Newburry | 9:30am – **6:00pm** | **CBC 152** |
+
+Both Fall residency weekends work this way: 21–22 August and 18–19 September.
+
+**Section caveat.** GEB 7365 runs as RXM (Saturday residency, Thursday Zoom) and RXO (Friday
+residency, Tuesday Zoom). RXM is the assumption here, by elimination — RXO would collide with
+GEB 7911 on both counts. Verify in Canvas.
 
 ---
 
