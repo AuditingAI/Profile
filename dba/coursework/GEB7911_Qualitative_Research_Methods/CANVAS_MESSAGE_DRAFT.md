@@ -38,7 +38,12 @@ depend on anyone replying.
 
 ---
 
-## 2. Dr. Gonzalez — one question left, not two
+## 2. Dr. Gonzalez — send after the memo, not before
+
+Send this **after** Learning Memo 1 is submitted. A scheduling question that arrives before the
+first assignment reads as planning around the work rather than doing it.
+
+### One question left, not two
 
 The Week 5 residency question is **answered** and should not be asked. FIU's published Cohort
 8.14/8.15 calendar gives every Fall residency: 21–22 Aug, 18–19 Sep, 16–17 Oct, 13–14 Nov, each
