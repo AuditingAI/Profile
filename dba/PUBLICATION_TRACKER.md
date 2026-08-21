@@ -142,3 +142,48 @@ that closes it fastest.
 - L2 is dated by construction. Model behaviour moves; a claim about it that carries no date is a
   claim that will quietly become false.
 - Nothing here is described as a finding until data exists. The extension has **no findings**.
+
+---
+
+## P4 — AIB Latin America 2027 · the first real submission window
+
+*Source: GEB 7365 class session, 21 August 2026 — "AIB Latin America Conference Overview", Prof.
+William Newburry. Meeting notes in Notion.*
+
+**Academy of International Business, Latin America Chapter** · San Juan, Puerto Rico ·
+**3–5 March 2027**
+
+| Track | Deadline | Requires | Verdict |
+|---|---|---|---|
+| Paper (competitive) | **3 Sep 2026** | Completed research and data | **Not viable.** Four valid responses; the AI extension is argued, not tested |
+| **Poster / interactive** | **20 Nov 2026** | No completed data required | **This is the target** |
+
+The class was explicitly steered toward interactive and poster sessions for exactly this situation.
+
+**Why this matters to this tracker.** GEB 7365's project brief asks for "a manuscript that can be
+submitted to a top academic conference in international business," and the instructor devoted a
+session to one conference. The course project and the conference submission are the same artifact.
+The Formal Project Report is due 7–9 October; the poster deadline is 20 November. **A revision pass,
+not a second project.**
+
+**The Latin America requirement is not a blocker.** The class was told a regional angle can be added
+via a comparison or a regional framework such as GLOBE. P1's finding — eligibility prevalence near
+six per hundred thousand on a general panel — extends directly: whether that prevalence is worse in
+Latin American panels, and what it implies for anyone attempting a comparative IB survey across the
+region, is a Latin America question with US evidence already in hand.
+
+Candidate tracks: **International Strategy**, or **Teaching & Learning** framed as doctoral research
+methods. Ten tracks exist; each has two chairs and 2–3 peer reviewers per paper.
+
+**Costs to know before committing.** The corresponding author is expected to review **10–20**
+submitted papers, landing in the same window as coursework. FIU offers partial travel funding but
+the process was described as cumbersome — start the paperwork early.
+
+**What alumni actually got from it**, per the session: every speaker named networking and mentorship
+above the CV line. One is now mentored by a full professor in France; one met the researcher they
+had cited throughout their dissertation; a classmate co-authored there and is in second-round
+journal review. Several said outside feedback led them to substantially revise their research
+question and model. Given that chain link L3 is the acknowledged weak one, that is the more
+valuable outcome than the submission itself.
+
+**Status:** not submitted. No abstract drafted. Decision to target 20 November recorded 21 Aug 2026.
