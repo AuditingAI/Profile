@@ -1,6 +1,6 @@
 ---
 TITLE: Progress Tracker — Anchoring Bias Study (Final Sprint)
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 UPDATED: July 20, 2026
 ---
 

@@ -1,6 +1,6 @@
 ---
 TITLE: Full Survey Questionnaire — v2 (post peer review)
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 COURSE: GEB7913 — Instructor: Prof. Dr. Juan Rey
 DATE: Sunday, June 21, 2026
 ---
@@ -8,7 +8,7 @@ DATE: Sunday, June 21, 2026
 # Full Survey Questionnaire — v2 (Post Peer Review)
 
 **Study:** Mitigating Anchoring Bias in Long-Term Auditor Engagements — An EFA-Based Validation Study
-**Researcher:** Yasir A. Malik (PID 1687105) | **Advisor:** Prof. Dr. Juan Rey | **IRB:** IRB-25-0462
+**Researcher:** Yasir A. Malik (PID on file) | **Advisor:** Prof. Dr. Juan Rey | **IRB:** IRB-25-0462
 **Version:** v2.1 — incorporates Richard's peer review including his follow-up chat comments (see `04_Peer_Review/`)
 
 > **Response scale (all construct items):** 5-point Likert — *1 = Strongly disagree · 2 = Disagree · 3 = Neither agree nor disagree · 4 = Agree · 5 = Strongly agree.* **(R)** = reverse-coded (`6 − response` at cleaning).

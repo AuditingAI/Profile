@@ -1,7 +1,7 @@
 # Data Collection Readiness Checklist
 
 **Project:** Mitigating Anchoring Bias in Long-Term Auditor Engagements
-**Author:** Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+**Author:** Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 **Advisor:** Prof. Dr. Juan Rey
 **Compiled:** June 1, 2026 — updated with 03_Recruitment_and_Pilot READY packet
 **Owner of unchecked items:** Yasir (this is the work that must happen before pilot launch)

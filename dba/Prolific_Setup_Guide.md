@@ -1,6 +1,6 @@
 ---
 TITLE: Prolific Setup Guide (Primary Recruiting Route)
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 DATE: July 2026
 ---
 

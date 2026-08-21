@@ -24,7 +24,7 @@
 >
 > Best regards,
 > Yasir A. Malik
-> PID 1687105 | FIU DBA Cohort 7.16
+> PID [PID redacted] | FIU DBA Cohort 7.16
 
 ## Notes
 - Links point to the repo and live artifacts, not a "new version" of the manuscript itself — keeps this inside his stated boundary on the current course.

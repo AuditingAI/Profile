@@ -25,7 +25,7 @@
 >
 > Sincerely,
 > Yasir A. Malik
-> PID 1687105 | FIU DBA Cohort 7.16
+> PID [PID redacted] | FIU DBA Cohort 7.16
 
 ## Why this email matters
 - Creates a shared written record of the verbal agreement (protects both sides).

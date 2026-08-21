@@ -1,13 +1,13 @@
 ---
 TITLE: Project Update — Peer Review Incorporated, Instrument Fielding This Week
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 COURSE: GEB7913 — Instructor: Prof. Dr. Juan Rey
 DATE: Sunday, June 21, 2026
 ---
 
 # Project Update — One Page
 
-**To:** Prof. Dr. Juan Rey | **From:** Yasir A. Malik (PID 1687105) | **Date:** June 21, 2026
+**To:** Prof. Dr. Juan Rey | **From:** Yasir A. Malik (PID on file) | **Date:** June 21, 2026
 **Re:** Peer review of the survey instrument; instrument fielding this week per your timeline
 
 ---
@@ -38,4 +38,4 @@ DATE: Sunday, June 21, 2026
 **Full detail** (the verbatim review, the point-by-point response, and the v2 instrument) is on the project repository:
 https://github.com/AuditingAI/Profile/tree/claude/scholar-links-review-Plgk6/dba/04_Peer_Review
 
-— Yasir A. Malik | PID 1687105 | FIU DBA Cohort 7.16 | IRB-25-0462
+— Yasir A. Malik | PID [PID redacted] | FIU DBA Cohort 7.16 | IRB-25-0462

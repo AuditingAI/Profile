@@ -1,6 +1,6 @@
 # 📖 Reviewer's Guide — Anchoring Bias Study (YMalik, GEB7913)
 
-**For:** Professor Juan Rey · **Student:** Yasir A. Malik (PID 1687105) · FIU DBA Cohort 7.16
+**For:** Professor Juan Rey · **Student:** Yasir A. Malik (PID on file) · FIU DBA Cohort 7.16
 **Updated:** July 23, 2026 · **Branch:** `claude/scholar-links-review-Plgk6`
 
 This page is the single entry point to the live project record. Every link below opens the current version of the document on this branch — the repository updates as the work progresses, so what you see is always the latest state.

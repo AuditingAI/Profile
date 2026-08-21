@@ -7,7 +7,7 @@
 ![Recruiting](https://img.shields.io/badge/CloudResearch-project_built-1A4E8A?style=for-the-badge)
 ![Manuscript](https://img.shields.io/badge/final_manuscript-Jul_19_2026-B8650A?style=for-the-badge)
 
-**Yasir A. Malik** · PID 1687105 · FIU DBA Cohort 7.16
+**Yasir A. Malik** · PID [PID redacted] · FIU DBA Cohort 7.16
 GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 </div>

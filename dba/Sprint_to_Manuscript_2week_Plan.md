@@ -1,6 +1,6 @@
 ---
 TITLE: Sprint to Manuscript — 2-Week Data-Collection-First Plan
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 COURSE: GEB7913 — Instructor: Prof. Dr. Juan Rey
 DATE: Tuesday, June 30, 2026
 ---

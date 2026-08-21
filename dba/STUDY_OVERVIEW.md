@@ -1,7 +1,7 @@
 # Mitigating Anchoring Bias in Long-Term Auditor Engagements
 ## Complete Study Overview — Highlights, Shortcomings & the Path Forward
 
-**Yasir A. Malik** (PID 1687105) · FIU DBA Cohort 7.16 · GEB7913 · July 2026
+**Yasir A. Malik** (PID on file) · FIU DBA Cohort 7.16 · GEB7913 · July 2026
 *Companion overview to the full manuscript. Shortcomings marked ==in red==. Prepared for committee review: what was built, what was learned, and how the same model continues into the dissertation.*
 
 ---

@@ -1,6 +1,6 @@
 ---
 TITLE: Catch-Up Status & Re-baseline — Anchoring-Bias Project
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 ADVISOR: Prof. Dr. Juan Rey
 DATE: Sunday, June 14, 2026
 ---
@@ -46,7 +46,7 @@ Sincerely,
 Yasir
 
 Yasir A. Malik
-PID 1687105 | FIU DBA Cohort 7.16
+PID [PID redacted] | FIU DBA Cohort 7.16
 
 ---
 

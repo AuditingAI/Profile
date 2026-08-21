@@ -1,6 +1,6 @@
 ---
 TITLE: Mitigating Anchoring Bias in Long-Term Auditor Engagements — Chapters 4–6 (Methodology, Data Analysis, Conclusions)
-AUTHOR: Yasir A. Malik (PID 1687105)
+AUTHOR: Yasir A. Malik (PID on file)
 PROGRAM: FIU College of Business — DBA — Cohort 7.16
 COURSE: GEB7913 — Instructor: Professor Juan Rey
 VERSION: v2 — revised per advisor meeting feedback (July 2026)

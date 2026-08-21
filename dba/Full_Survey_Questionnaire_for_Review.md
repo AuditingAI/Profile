@@ -1,6 +1,6 @@
 ---
 TITLE: Full Survey Questionnaire — Reviewer Copy
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 COURSE: GEB7913 — Instructor: Prof. Dr. Juan Rey
 DATE: Sunday, June 21, 2026
 ---
@@ -8,7 +8,7 @@ DATE: Sunday, June 21, 2026
 # Full Survey Questionnaire — Reviewer Copy
 
 **Study:** Mitigating Anchoring Bias in Long-Term Auditor Engagements — An EFA-Based Validation Study
-**Researcher:** Yasir A. Malik (PID 1687105), FIU DBA Cohort 7.16
+**Researcher:** Yasir A. Malik (PID on file), FIU DBA Cohort 7.16
 **Advisor:** Prof. Dr. Juan Rey | **Course:** GEB7913 | **IRB Protocol:** IRB-25-0462
 **Estimated completion time:** 15–20 minutes | **Compensation:** $6.00 USD
 

@@ -1,6 +1,6 @@
 ---
 TITLE: Mitigating Anchoring Bias in Long-Term Auditor Engagements — An EFA-Based Validation Study
-AUTHOR: Yasir A. Malik (PID 1687105)
+AUTHOR: Yasir A. Malik (PID on file)
 PROGRAM: FIU College of Business — Doctor of Business Administration — Cohort 7.16
 COURSE: GEB7913 — Instructor: Professor Juan Rey
 VERSION: v4.2 (cleanup: removed scaffolding 'Optional further reading' callouts and two orphan references; no substantive changes to argument or hypotheses)

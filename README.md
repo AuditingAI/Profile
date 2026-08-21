@@ -6,6 +6,17 @@
 
 ---
 
+## 🎓 Doctoral research
+
+This repository also carries the doctoral research programme behind the consulting work —
+**[Auditing the Auditor](RESEARCH.md)**: what happens to professional judgment when the machine
+answers first, and agrees with you.
+
+Includes the model, the instrument, the data record, and the study that could not be fielded —
+along with the finding that came out of that.
+
+---
+
 ## Overview
 
 Audit the Algorithm helps banks, asset managers, and fintechs answer the question no one else is asking: **How do you audit an AI that reasons, adapts, and might be telling you what you want to hear?**

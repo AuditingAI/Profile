@@ -1,13 +1,13 @@
 ---
 TITLE: Student Project Update — Anchoring Bias in Long-Term Auditor Engagements
-AUTHOR: Yasir A. Malik (PID 1687105) — FIU DBA Cohort 7.16
+AUTHOR: Yasir A. Malik (PID on file) — FIU DBA Cohort 7.16
 COURSE: GEB7913 — Instructor: Prof. Dr. Juan Rey
 DATE: Sunday, June 14, 2026 (Project Week 5 of 9)
 ---
 
 # Student Project Update — Yasir A. Malik
 
-**PID 1687105 | Cohort 7.16 | GEB7913**
+**PID [PID redacted] | Cohort 7.16 | GEB7913**
 **Submitted:** Sunday, June 14, 2026
 **Reporting period:** Catch-up covering June 1 – June 14, 2026 (Weeks 2–4 of 9 missed; Week 5 in progress)
 **Current stage:** Stage 2 — Qualtrics and Survey Instrument (PRIMARY); Stage 1 (READY, awaiting Stage 2a closure); Stage 4 (in maintenance)
