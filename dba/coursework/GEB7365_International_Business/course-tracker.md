@@ -6,38 +6,61 @@
 
 ---
 
-## 🚨 The date problem — read this first
+## 🚨 Dates — corrected by Newburry, 20 August
 
-The Canvas syllabus **prose** carries a weekly schedule whose dates do not match the FIU DBA
-academic calendar, do not match the PDF, and do not fall on the days of the week they claim.
+**He says the syllabus Yasir has is an old version and that the Canvas dates are correct:**
 
-| Canvas prose says | Day of week in **2026** | Day of week in **2025** |
-|---|---|---|
-| "August 16–17 (Residency)" | Sun–Mon | **Sat–Sun** |
-| "September 27–28 (Residency)" | Sun–Mon | **Sat–Sun** |
+> *"Somehow, it seems you have an older version of the syllabus as these dates do not match the
+> syllabus dates on canvas or the ones on the syllabus I sent out… The dates in Canvas are correct.
+> We will also go over these in class so that everyone is clear on the requirements."*
 
-**The weekly schedule is last year's calendar, left in place.** Both "residency weekends" land on
-Saturday–Sunday in 2025 and on Sunday–Monday in 2026. FIU's published Cohort 8.14/8.15 calendar puts
-the Fall residencies on **21–22 August** and **18–19 September**, and Newburry's own email says
-*"I look forward to meeting you this weekend"* — which is 21–22 August, not 16–17.
+**This supersedes the earlier analysis in this file.** That analysis inferred from day-of-week
+patterns that the Canvas *prose* schedule carried Fall 2025 dates and that the Canvas *assignment
+table* should govern. The instructor's own statement outranks that inference. It is now recorded as
+what it was: a reasonable read of conflicting documents, not a fact.
 
-**What to trust:** the Canvas *assignment table* (auto-generated, carries real 2026 due dates) and
-the FIU academic calendar. **Not** the prose schedule's dates. The prose's **topics and readings are
-current** — it is only the dates that are stale.
+**Actions:** re-download the current syllabus from Canvas — the one in hand is superseded, and the
+**AI policy has now been added to it** (see below). Confirm every date in class Saturday; he has
+said he will go through them.
 
-### Reconciled deadlines
+### What is settled
 
-| Assignment | Canvas assignment table | Canvas prose | Use this | Confirm? |
-|---|---|---|---|---|
-| Initial Project Idea | **8/27/26** | "Sept. 3–5" | **Thu 27 Aug** | ⚠️ ask |
-| Project Presentation | **9/19/26** | "Sept. 27–28 Residency" | **Sat 19 Sep** | ⚠️ ask |
-| Formal Project Report | **10/9/26** | "Due October 7" | **Wed 7 Oct** (work to the earlier) | ⚠️ ask |
-| Peer Evaluations | **10/9/26** | "No later than October 7" | **Wed 7 Oct** | ⚠️ ask |
+**Zoom sessions — his own scheduling notice, 20 August. Seven Thursdays, 7:00 PM ET:**
 
-**Ask Newburry to confirm all four.** One email settles it, and he has to answer the group/topic
-email anyway.
+> 27 Aug · 3 Sep · 10 Sep · **17 Sep** · 24 Sep · 1 Oct · 8 Oct
 
----
+**⚠️ NEW ZOOM LINK — the one in the syllabus is superseded:**
+`https://fiu.zoom.us/j/88619828274?pwd=OnGYYeFJ6MSoAWUfK9O6mYwUkgDZpC.1`
+*(Topic: GEB7365 RXM 1268 Zoom Sessions — which also confirms the section is **RXM**.)*
+
+Note this list includes **17 September**, which the old syllabus omitted — seven sessions, not six.
+
+### Still unresolved until Saturday
+
+| Assignment | Old syllabus | Canvas prose | Working assumption |
+|---|---|---|---|
+| Initial Project Idea | 27 Aug | "Sept. 3–5" | **Prepare for 27 Aug.** Early costs nothing; late costs 15% |
+| Project Presentation | 19 Sep | "Sept. 27–28 Residency" | Confirm Saturday |
+| Formal Project Report | 9 Oct | "October 7" | Confirm Saturday |
+
+Residency dates for **travel** follow the official FIU DBA calendar — Dr. Gonzalez confirmed this
+independently on 20 August: *"Plan travel based on the official DBA calendar."*
+
+### 📅 Friday 21 August — the classes combine
+
+> *"I look forward to seeing you on Saturday (and actually for a short period where the classes will
+> combine late tomorrow morning)."*
+
+**Newburry is in the room on Friday, late morning.** Friday is not purely GEB 7911. Have at least
+the first two IB papers read before then, not just before Saturday.
+
+### On the proposed project topic
+
+> *"We will discuss the project topics in class. I would like to think a bit about the topic you
+> propose and how it fits the class."*
+
+Not approved and not rejected — reserved. Go in Saturday able to argue the fit in two sentences, and
+have a second option ready in case he steers away from it.
 
 ## Professor
 
@@ -52,8 +75,9 @@ He signs his emails **"Bill."**
 - **Zoom:** Thursdays **7:00–9:30pm** — 27 Aug · 3, 10, 24 Sep · 1, 8 Oct
 - Course time zone: **Eastern**
 
-**Zoom link (from Canvas):** `https://fiu.zoom.us/j/83536762819?pwd=JR3JC4jQHZA6UiF7qXVSeCcfOCuIES.1`
-Meeting ID **835 3676 2819** · Passcode **6x026q**
+**Zoom link — CURRENT, from his 20 Aug notice:**
+`https://fiu.zoom.us/j/88619828274?pwd=OnGYYeFJ6MSoAWUfK9O6mYwUkgDZpC.1`
+*(The 835 3676 2819 link printed in the syllabus is superseded. Do not use it.)*
 
 *Section check: RXO is the same course on the opposite days (Friday residency, Tuesday Zoom). RXM is
 the assumption throughout because RXO would collide with GEB 7911 twice over. Verify in Canvas.*
@@ -216,10 +240,11 @@ those neighbourhoods gets an engaged supervisor rather than a polite one.
 ## Open items
 
 - [ ] **Confirm the four dates** in the reconciliation table above
-- [ ] **Confirm the section** — RXM or RXO
+- [x] ~~Confirm the section~~ — **RXM confirmed** by the Zoom notice title, "GEB7365 RXM 1268"
 - [ ] **Read the Module 1 slides on Canvas** — they describe the project and are not in either PDF
 - [ ] **Email Newburry the group/individual decision and topic area for approval** — required before
       extensive work
 - [ ] Choose the **topic area** for the 20% summary presentation
-- [ ] **AI-use policy** — this syllabus points to a Canvas Policies page and states no cap. Do not
-      assume GEB 7911's 25% cap applies here. Check before using AI on anything graded.
+- [ ] **AI-use policy — now written into the syllabus.** *"The AI Policy has been added to the
+      syllabus."* (Newburry, 20 Aug.) **Re-download and read it before using AI on anything for this
+      course.** Do not assume it matches GEB 7911's 25% cap.

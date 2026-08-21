@@ -74,10 +74,9 @@ copy-paste artifact since Week 6 is a Zoom week per the schedule table. Treated 
   September**, from FIU's published Cohort 8.14/8.15 academic calendar. Every residency is a
   Friday *and* Saturday, not a single day — Week 1 is 8/21–8/22, not just 8/21. See
   `../FIU_DBA_ACADEMIC_CALENDAR.md`.
-- [ ] **Whether Week 8 includes a 3rd in-person residency.** The syllabus's Scholarly Exchange
-  section says the in-person poster exchange happens "during our last Residency," but the weekly
-  schedule table lists Week 8 as Zoom-only. These two statements don't reconcile from the document
-  alone.
+- [x] ~~Whether Week 8 includes a 3rd in-person residency.~~ **RESOLVED 20 Aug by Dr. Gonzalez:**
+  *"Week 8 is a Zoom session. Plan travel based on the official DBA calendar."* No third residency.
+  Travel follows `../FIU_DBA_ACADEMIC_CALENDAR.md`.
 - [ ] Research Proposal topic — the applied reading each week is meant to tie to it; anchoring
   bias / AI-assisted audit judgment is the natural fit given the dissertation thread.
 - [ ] Textbook acquired — confirm.
