@@ -80,11 +80,80 @@ s.addText("Both maps describe integration as TOPICAL — disciplines meet where 
 s.addShape(p.ShapeType.line,{x:10.62,y:5.40,w:0,h:1.30,line:{color:WARMB,width:1}});
 s.addText("6",{x:10.85,y:5.48,w:1.2,h:0.64,fontFace:DISP,fontSize:40,bold:true,color:GOLD,margin:0});
 s.addText("eligible per 100,000\nmeasured, before fielding",{x:10.85,y:6.14,w:1.95,h:0.44,fontFace:MONO,fontSize:8.5,color:MUTE,margin:0});
-s.addText("Yasir A. Malik   ·   github.com/AuditingAI/Profile   ·   1 / 2",
+s.addText("Yasir A. Malik   ·   github.com/AuditingAI/Profile   ·   1 / 3",
   {x:0.5,y:7.02,w:8,h:0.22,fontFace:MONO,fontSize:8.5,color:MUTE,margin:0,charSpacing:0.5});
 s.addNotes("Run map (a) with management fanned: strategy sits deep inside IB, HR partly, OB barely. One circle per discipline is too coarse. Run map (b): the crossbars are between SUB-FIELDS, and OB flowed back into management from IB rather than out of it. Both maps treat integration as topical. Method is a third, structural integration point.");
 
-/* ══ SLIDE 2 · FAQ ════════════════════════════════════ */
+
+/* ══ SLIDE 2 · DISCIPLINE OVERLAP ═════════════════════ */
+s=p.addSlide(); s.background={color:PAPER}; mark(s,false);
+s.addText("Six disciplines, thirteen shared boundaries — and two that do not exist",
+  {x:0.5,y:0.5,w:9.4,h:0.5,fontFace:DISP,fontSize:25,bold:true,color:INK,margin:0});
+s.addText("The relationships are consistent and the gaps are the finding. Drawn as a network rather than as overlapping circles, because six circles cannot hold these thirteen adjacencies without inventing regions that are not claimed.",
+  {x:0.5,y:1.02,w:9.6,h:0.46,fontFace:BODY,fontSize:12,italic:true,color:MUTE,margin:0});
+
+const NODE=[["SCM",3.40,1.98,"Supply Chain"],["MKT",2.20,2.68,"Marketing"],
+            ["GM",2.20,4.06,"Gen. Mgmt"],["IB",3.40,4.76,"Int'l Business"],
+            ["CSR",4.60,4.06,"CSR"],["FIN",4.60,2.68,"Finance"]];
+const POS={}; NODE.forEach(n=>POS[n[0]]={x:n[1],y:n[2]});
+const EDGES=[["MKT","FIN"],["MKT","IB"],["MKT","GM"],["MKT","CSR"],["MKT","SCM"],
+             ["FIN","IB"],["FIN","GM"],["FIN","CSR"],["FIN","SCM"],
+             ["IB","GM"],["IB","CSR"],["IB","SCM"],["GM","CSR"]];
+const GAPS=[["GM","SCM"],["CSR","SCM"]];
+const seg=(a,b,o)=>{const A=POS[a],B=POS[b];
+  s.addShape(p.ShapeType.line,{x:Math.min(A.x,B.x),y:Math.min(A.y,B.y),
+    w:Math.abs(B.x-A.x),h:Math.abs(B.y-A.y),
+    flipH:(B.x-A.x)*(B.y-A.y)<0, line:o});};
+EDGES.forEach(([a,b])=>seg(a,b,{color:NAVY,width:1.1,transparency:45}));
+GAPS.forEach(([a,b])=>seg(a,b,{color:"8C3A1B",width:1.6,dashType:"dash"}));
+NODE.forEach(([k,x,y,full])=>{
+  const big=(k==="MKT"||k==="FIN"||k==="IB");
+  s.addShape(p.ShapeType.ellipse,{x:x-0.44,y:y-0.44,w:0.88,h:0.88,
+    fill:{color:big?NAVY:WHITE},line:{color:k==="SCM"?"8C3A1B":NAVY,width:big?1:1.6}});
+  s.addText(k,{x:x-0.44,y:y-0.15,w:0.88,h:0.3,align:"center",fontFace:MONO,
+    fontSize:11,bold:true,color:big?WHITE:NAVY,margin:0});
+  s.addText(full,{x:x-0.72,y:y+0.46,w:1.44,h:0.2,align:"center",fontFace:MONO,
+    fontSize:8,color:MUTE,margin:0});
+});
+s.addShape(p.ShapeType.line,{x:0.72,y:5.62,w:0.34,h:0,line:{color:"8C3A1B",width:1.6,dashType:"dash"}});
+s.addText("no shared region",{x:1.16,y:5.52,w:1.6,h:0.2,fontFace:MONO,fontSize:8.5,color:"8C3A1B",margin:0});
+s.addShape(p.ShapeType.ellipse,{x:2.92,y:5.54,w:0.16,h:0.16,fill:{color:NAVY},line:{width:0}});
+s.addText("overlaps all five",{x:3.16,y:5.52,w:1.6,h:0.2,fontFace:MONO,fontSize:8.5,color:MUTE,margin:0});
+
+/* matrix */
+s.addShape(p.ShapeType.rect,{x:6.55,y:1.72,w:6.28,h:3.62,fill:{color:WHITE},line:{color:RULE,width:1}});
+s.addText("Every pairing, read off",{x:6.82,y:1.88,w:4,h:0.26,fontFace:DISP,fontSize:14,bold:true,color:INK,margin:0});
+const KEYS=["MKT","FIN","IB","GM","CSR","SCM"], AD={
+  MKT:["FIN","IB","GM","CSR","SCM"],FIN:["MKT","IB","GM","CSR","SCM"],
+  IB:["MKT","FIN","GM","CSR","SCM"],GM:["IB","CSR","MKT","FIN"],
+  CSR:["GM","MKT","FIN","IB"],SCM:["MKT","FIN","IB"]};
+const CX=9.00, CY=2.56, C=0.36;
+KEYS.forEach((k,j)=>s.addText(k,{x:CX+j*C,y:CY-0.30,w:C,h:0.24,align:"center",
+  fontFace:MONO,fontSize:8.5,bold:true,color:NAVY,margin:0}));
+KEYS.forEach((r,i)=>{
+  s.addText(r,{x:CX-1.02,y:CY+i*C+0.10,w:0.94,h:0.24,align:"right",fontFace:MONO,
+    fontSize:8.5,bold:true,color:r==="SCM"?"8C3A1B":NAVY,margin:0});
+  KEYS.forEach((c,j)=>{
+    const self=r===c, on=AD[r].indexOf(c)>=0;
+    s.addShape(p.ShapeType.rect,{x:CX+j*C,y:CY+i*C,w:C-0.05,h:C-0.05,
+      fill:{color: self?"EDEAE3" : on?NAVY : "FBF0EB"},
+      line:{color: self?RULE : on?NAVY : "E0BCAE", width:0.75}});
+    if(!self && !on) s.addText("—",{x:CX+j*C,y:CY+i*C+0.06,w:C-0.05,h:0.24,
+      align:"center",fontFace:MONO,fontSize:10,color:"8C3A1B",margin:0});
+  });
+});
+s.addText("Marketing, Finance and International Business each touch all five others. General Management and CSR touch everything except Supply Chain. Supply Chain touches only those three central disciplines — the two blank cells are the whole structure of the map.",
+  {x:6.82,y:4.92,w:5.74,h:0.60,fontFace:BODY,fontSize:11,color:"454B54",margin:0});
+
+s.addShape(p.ShapeType.rect,{x:0.5,y:5.86,w:12.33,h:1.04,fill:{color:WARM},line:{color:GOLD,width:2,dashType:"dash"}});
+s.addText("WHAT THE MAP STILL DOES NOT SAY",{x:0.78,y:5.98,w:6,h:0.22,fontFace:MONO,fontSize:9,bold:true,color:GOLD,margin:0,charSpacing:1.3});
+s.addText("It shows WHO touches WHOM, not what happens at the touch point. Name the intersections — international marketing, cross-border capital, global sourcing — and the same structural question returns: each one becomes international only when evidence must be gathered comparably in more than one country.",
+  {x:0.78,y:6.22,w:11.8,h:0.58,fontFace:BODY,fontSize:11.5,color:"454B54",margin:0});
+s.addText("Yasir A. Malik   ·   github.com/AuditingAI/Profile   ·   2 / 3",
+  {x:0.5,y:7.02,w:8,h:0.22,fontFace:MONO,fontSize:8.5,color:MUTE,margin:0,charSpacing:0.5});
+s.addNotes("Thirteen of fifteen possible pairings exist. The two that do not — General Management/Supply Chain and CSR/Supply Chain — are the entire structure. Drawn as a network because six circles cannot hold thirteen adjacencies without creating regions nobody claimed.");
+
+/* ══ SLIDE 3 · FAQ ════════════════════════════════════ */
 s=p.addSlide(); s.background={color:WHITE}; mark(s,false);
 s.addText("Questions I expect",{x:0.5,y:0.52,w:8,h:0.5,fontFace:DISP,fontSize:28,bold:true,color:INK,margin:0});
 s.addText("and the answers I am prepared to defend",{x:0.5,y:1.04,w:8,h:0.28,fontFace:BODY,fontSize:13,italic:true,color:MUTE,margin:0});
@@ -112,7 +181,7 @@ faqs.forEach((f,i)=>{
   s.addText("A",{x:x+0.24,y:y+0.66,w:0.3,h:0.24,fontFace:MONO,fontSize:10,bold:true,color:NAVY,margin:0});
   s.addText(f[1],{x:x+0.6,y:y+0.62,w:5.35,h:0.88,fontFace:BODY,fontSize:10.5,color:"454B54",margin:0});
 });
-s.addText("Yasir A. Malik   ·   github.com/AuditingAI/Profile   ·   2 / 2",
+s.addText("Yasir A. Malik   ·   github.com/AuditingAI/Profile   ·   3 / 3",
   {x:0.5,y:7.02,w:8,h:0.22,fontFace:MONO,fontSize:8.5,color:MUTE,margin:0,charSpacing:0.5});
 s.addNotes("The microscope objection is the one that matters. Answer: it is not a shared tool, it is a shared definition — comparison across countries requires comparable populations, so the constraint sits at the definition of the field. Do not overclaim past that: this is a second axis, not a replacement.");
 
