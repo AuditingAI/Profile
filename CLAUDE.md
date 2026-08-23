@@ -122,5 +122,10 @@ Read it at the start of every session. It is the only place the other agent's st
 - **AI-use rule from the advisor:** AI supports brainstorming, organisation, clarity, and grammar.
   The synthesis, argument, and interpretation must be Yasir's own. Anything either agent drafts is
   raw material he rewrites, not a finished submission.
+- **All academic correspondence is sent by Yasir from `ymali001@fiu.edu`, never from Gmail.** Anything
+  going to a professor, the program office, FIU administration, or a classmate is drafted here and
+  sent from the FIU mailbox — the Gmail connector reaches only `yasiramalik@gmail.com`, and a course
+  message arriving from a personal address reads wrong and can miss institutional filters. Industry
+  correspondence follows its own lane's channel.
 - **Draft freely. Send nothing** — no email, no application, no post — without his explicit
   per-item approval.
