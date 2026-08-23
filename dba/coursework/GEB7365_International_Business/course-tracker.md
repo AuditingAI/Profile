@@ -62,6 +62,60 @@ the first two IB papers read before then, not just before Saturday.
 Not approved and not rejected — reserved. Go in Saturday able to argue the fit in two sentences, and
 have a second option ready in case he steers away from it.
 
+## ⚠️ Two separate assignments — do not merge them
+
+The professor drew this distinction in the room, correcting a student who had made exactly this
+mistake:
+
+> *"This is a different assignment, I'm sorry. **We talked about the module presentation. This is
+> the actual group.**"*
+
+| | **Module presentation** | **Research project** |
+|---|---|---|
+| What | One week's four articles, dissected | An original IB study, proposed not run |
+| Partner | **Assigned by the professor**, notified by email | **Ana Paula** — "she's great to work with" |
+| Yasir's | **Thursday 27 Aug** — Internationalization and Performance | Runs to end of term |
+| Due | ≤10-page write-up + ≤10-min presentation | Idea Thu 27 Aug · presentation · written report |
+| Detail | `MODULE_PRESENTATION_Aug27.md` | `EMAIL_DRAFT_AnaPaula.md` |
+
+**There are two Anas.** The professor clarified it himself: *"Ana Paula and Ana Isabel"* and
+*"Ana Paula goes by Ana."* The transcript garbles hers as "Anna Paola" and "Anna Powell" — one
+person. Ana Isabel is a different student, in a different group, whose dissertation is on
+AI-driven applicant tracking systems.
+
+**Yasir's module partner is not named anywhere in the record.** The one female name appearing in a
+pairing context — "Yacoubi" — was the professor giving a hypothetical example, not an assignment.
+It arrives by email.
+
+## The research project is QUANTITATIVE
+
+Straight from the session, and it is the opposite of what GEB 7911 wants:
+
+- **2–3 focused hypotheses**, not 6–8 — depth of justification over breadth
+- **Validated existing scales** where possible
+- **A data collection plan — but no actual data collection**
+- **Name the analysis method** (regression)
+- Any IB topic, not restricted to course topics
+- Groups of 2–4; individual permitted but more work
+
+**This solves the recruitment problem for this course entirely.** No data is required, so the
+prevalence constraint that ended the qualifying study does not apply here. The two courses can run
+different arms of the same research honestly: Gonzalez gets the qualitative proposal, Newburry gets
+the quantitative one.
+
+## Conference — Latin America chapter
+
+Puerto Rico. Submission deadline moved roughly a month earlier than usual to allow visa processing.
+Realistic target is the **interactive or poster track** (work in progress), not the competitive
+paper. Only one author needs to attend for the paper to appear on the programme with all names.
+Submitting an individual paper separately from the group project is permitted if it ties to IB.
+
+## Field-map gaps he named
+
+After the group exercise he identified three areas missing from the maps: **cross-cultural
+management/anthropology**, **supply chain management**, and **exit and failure research**. The last
+is worth noting — a study that failed and produced a finding sits squarely in it.
+
 ## Professor
 
 **William Newburry** — Chair, Department of International Business
