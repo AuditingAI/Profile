@@ -1,174 +1,187 @@
-# Reaching n = 100 — the LinkedIn recruitment plan
+# Getting to n = 100 — the operating plan
 
-**The target:** 100 valid responses from auditors meeting the eligibility criteria. Until that
-exists, the model cannot be tested and the study stays a feasibility note.
+**Status: cleared to run.** LinkedIn recruitment is covered by IRB-25-0462 and the population now
+includes **risk and governance professionals**, not auditors alone. Both confirmed by Yasir,
+22 Aug 2026.
 
----
-
-## Read this before anything else — the IRB question
-
-**IRB-25-0462 was approved for a specific recruitment method.** Recruiting through LinkedIn direct
-messages is a *different* method. In most protocols that requires an **amendment**, submitted and
-approved *before* the first message goes out.
-
-Recruiting outside an approved protocol can invalidate the data entirely — collected, unusable, and
-a finding that cannot be reported. It is also the kind of thing that surfaces at defence.
-
-**Do this first: email the IRB office and ask whether the current approval covers professional
-social-media recruitment, and if not, what the amendment needs.** Nothing below starts until that
-comes back. It is a one-email question with a large downside if skipped.
+*The IRB document itself is not in this repository, so that clearance rests on his statement rather
+than on a file here. Worth dropping the approval letter into `dba/00_Execution/` at some point so
+the record is self-contained — not a blocker, just housekeeping.*
 
 ---
 
-## Why LinkedIn is a genuinely different channel from the panel
+## What changed, and why it matters more than anything else in this file
 
-The panel failed on **prevalence**: roughly 20 eligible of 334,976, near six per hundred thousand.
-That number describes a *general population* panel, where auditors are a rounding error.
+The original screener asked for **auditors**. The population is now **auditors and risk governance
+professionals** — anyone whose job involves reviewing work product they did not produce and forming
+a judgment on it.
 
-LinkedIn is not a general population. It is occupationally indexed — job title, employer, industry,
-seniority and certifications are all searchable fields. The specialist population problem largely
-disappears.
+That is not a small widening. It is the difference between a niche and a profession:
 
-**What replaces it is response rate**, and that is a different fight with different tactics.
+| Old frame | New frame |
+|---|---|
+| Internal and external auditors | Audit · **risk** · **compliance** · **controls** · **model validation** · **AI governance** |
+| ~6 eligible per 100,000 on a general panel | A recognised professional category with its own certifications, chapters and job titles |
+| The constraint was **prevalence** | The constraint is now **reach and response** |
+
+**The construct survives the widening intact.** Anchoring on a prior conclusion, and deference to a
+machine-generated one, is a judgment problem — not an audit-specific one. A model validator
+reviewing last quarter's output faces the same mechanism as an auditor reviewing last year's
+workpaper. Arguably the widened population is the *better* frame, because it names the phenomenon at
+the level it actually operates.
+
+**Say that in the write-up rather than presenting it as a convenience.** A population defined by the
+task rather than the job title is a stronger construct.
 
 ---
 
-## The arithmetic, stated honestly
+## Targeting — the full list
 
-These are planning figures, not measurements. Track the real ones from day one and replace them.
+### Titles to search
+**Audit:** Internal Auditor · Senior Auditor · Audit Manager · Audit Director · Chief Audit
+Executive · IT Auditor · External Auditor · Assurance Manager · Audit Partner
 
-| Stage | Planning rate | Needed to yield 100 |
+**Risk:** Risk Manager · Operational Risk · Model Risk · Enterprise Risk Management · Credit Risk
+Officer · Chief Risk Officer · Risk Governance Lead · Risk & Controls
+
+**Compliance and controls:** Compliance Officer · Regulatory Compliance · Internal Controls · SOX
+Lead · Controls Testing · Quality Assurance (risk)
+
+**Governance and validation:** Model Validation · Model Risk Management · AI Governance ·
+Responsible AI · Third-Party Risk · Governance Risk & Compliance
+
+### Certifications — often the fastest filter
+**CIA · CISA · CPA · CFE · CRMA · FRM · PRM · CRISC · CGEIT · CAMS**
+
+### Other filters
+Sector: banking · financial services · insurance · public accounting · consulting
+Geography: United States
+Seniority: enough tenure to have reviewed work across more than one cycle
+
+**The screener still decides eligibility.** Targeting gets the message to plausible people; the
+questionnaire decides who counts.
+
+---
+
+## The daily routine — 45 minutes, five days a week
+
+This is the whole plan. Everything else in this file supports it.
+
+| | | Minutes |
 |---|---|---|
-| Connection request → accepted | 20–30% | — |
-| Accepted → survey opened | 15–25% | — |
-| Opened → completed and valid | 50–70% | — |
-| **Compound** | **~2–5%** | **2,000–5,000 targeted contacts** |
+| **1** | Search one title from the list above, filtered to US + sector | 5 |
+| **2** | Send **20 connection requests** with a personalised note | 25 |
+| **3** | Send follow-ups to everyone who accepted **since the day before** | 10 |
+| **4** | Log the numbers in the tracker | 5 |
 
-**That is the honest number, and it is large.** At LinkedIn's safe pacing — roughly 20 connection
-requests a day before the account risks restriction — 2,000 contacts is about **five months of
-daily work**.
+**20 requests a day is the ceiling.** LinkedIn restricts accounts for bulk behaviour and a
+restriction ends the channel mid-study. No automation tools — they breach the terms and the
+restriction is frequently permanent.
 
-Which means the cold-outreach channel alone does not get there in a term. It has to be one of
-several, and the warm channels have to carry more than their share.
-
----
-
-## Five channels, best yield first
-
-### 1 · First-degree network — highest yield by far
-Fifteen years at Citigroup, JPMorgan Chase and the Florida OFR. Every former colleague in audit or
-risk is a first-degree contact who already knows the name.
-
-Expected completion from a personal ask: **40–60%**, an order of magnitude above cold.
-**200 first-degree asks plausibly yields 80–120.** This channel alone can carry the study.
-
-**Do this one first, and do it properly, before touching cold outreach.**
-
-### 2 · Warm introductions
-Ask each first-degree respondent for two referrals. Referral arrives with borrowed credibility and
-converts far better than cold. Compounds if the first channel is worked well.
-
-### 3 · Professional bodies
-**IIA chapters** (Miami, New York, New Jersey), **ISACA**, **AICPA** sections, state societies.
-Many circulate legitimate doctoral research to members. One newsletter placement can outperform a
-month of individual outreach.
-
-Approach the chapter's research or education officer, not the general inbox.
-
-### 4 · FIU's own network
-Alumni in audit, the Chapman doctoral network, and the cohort itself. Dr. Rey and the Office of
-Doctoral Programs may know which channels prior DBA students used successfully — that is worth
-asking before inventing one.
-
-### 5 · Cold LinkedIn outreach
-The residual, not the plan. Use it to top up a shortfall, not to carry the study.
+**100 requests a week. 400 a month.**
 
 ---
 
-## Targeting filters
+## What that produces
 
-**Titles:** Internal Auditor · Senior Auditor · Audit Manager · Audit Director · Chief Audit
-Executive · IT Auditor · External Auditor · Assurance Manager
-**Certifications:** CIA · CISA · CPA · CFE
-**Sector:** banking, financial services, insurance, public accounting
-**Geography:** United States, per the eligibility criteria
-**Seniority:** enough tenure to have worked multi-year engagements
+Planning figures. Replace them with your own from week two.
 
-**The screener still governs.** LinkedIn targeting gets the message to plausible people; eligibility
-is decided by the screener, not by a job title.
+| | Cold | Warm — first-degree |
+|---|---|---|
+| Accept | 25% | 85% |
+| → completes survey | 20% | 50% |
+| **Compound** | **~5%** | **~42%** |
+| To yield 100 | ~2,000 contacts | **~240 contacts** |
+
+### The route that actually gets there
+
+| Channel | Contacts | Expected valid |
+|---|---|---|
+| **First-degree — Citi, JPMC, Florida OFR** | 250 | **~105** |
+| Referrals — two asked of each respondent | 150 | ~35 |
+| IIA / ISACA / AICPA chapters — one placement | — | ~20 |
+| Cold LinkedIn — 400/month | 800 over 2 months | ~40 |
+
+**The first-degree network alone plausibly clears 100.** Fifteen years across two global banks and
+a state regulator is not a cold list — it is the single highest-yield asset in this study, and the
+widened population means far more of those contacts now qualify. Risk, compliance and controls
+colleagues who were ineligible last month are eligible now.
+
+**Work that channel first and properly. Cold outreach is the top-up, not the plan.**
 
 ---
 
-## Pacing and account safety
+## Messages
 
-- **Maximum 20 connection requests per day.** LinkedIn restricts accounts for bulk behaviour, and a
-  restricted account ends the channel mid-study
-- **No automation tools.** They breach LinkedIn's terms and the restriction is often permanent
-- Personalise every note — templated requests get ignored *and* reported
-- Working two hours a day, five days a week, this is a **months-long** effort. Plan for it
+Drafts. Nothing is sent from here, and academic correspondence goes from `ymali001@fiu.edu`.
 
----
+### Connection request — under 300 characters
 
-## What to say
+> Hi [Name] — I'm a doctoral candidate at FIU researching how AI-assisted review is changing
+> professional judgment in audit and risk. Fifteen years in audit and risk at Citi and JPMorgan
+> before this. Would value connecting with others who review work across cycles.
 
-Draft only. Nothing is sent from here, and academic correspondence goes from `ymali001@fiu.edu`.
+**No link in the connection request.** Connect first, ask second.
 
-### Connection request — under 300 characters, LinkedIn's limit
-
-> Hi [Name] — I'm a doctoral candidate at FIU researching how AI-assisted review is changing auditor
-> judgment. Fifteen years in audit at Citi and JPMorgan before this. I'd value connecting with
-> others who've worked long-tenure engagements.
-
-**No survey link in the connection request.** Connect first; ask second. Leading with the ask is
-what gets people marked as spam.
-
-### The follow-up, after they accept — wait a day
+### Follow-up — a day after they accept
 
 > Thanks for connecting, [Name].
 >
-> I'm running a study for my dissertation at Florida International University on anchoring in
-> long-term audit engagements — specifically what happens to judgment when an AI-generated
-> conclusion arrives before the reviewer has formed one.
+> I'm running a study for my doctorate at Florida International University on how professional
+> judgment holds up when an AI-generated conclusion arrives before the reviewer has formed one —
+> in audit, risk and controls work alike.
 >
-> It's a [X]-minute questionnaire, anonymous, approved under FIU IRB protocol 25-0462. No client
-> information, no employer identification — it's about how the work feels from the inside.
+> It's a [X]-minute questionnaire, anonymous, under FIU IRB protocol 25-0462. No client information,
+> no employer identification. It's about how the review work actually feels from the inside.
 >
-> If you've worked engagements across multiple years, your answers would be genuinely useful. And if
-> it's not for you, no problem at all — I'd still be glad to stay connected.
+> If you review work across more than one cycle — audit, risk, compliance, model validation — your
+> answers would be genuinely useful.
 >
 > [LINK]
 >
 > Yasir A. Malik · DBA Candidate, Florida International University
 
-**What makes it work:** it says who you are, why you can be trusted with the question, exactly what
-is being asked, how long it takes, and it gives an easy way to decline. All five matter.
+### First-degree — the one that matters most
+
+> [Name] — hope you're well.
+>
+> I'm finishing my doctorate at FIU. The research is on something we both lived: what happens to
+> review judgment when the system hands you an answer before you've formed your own.
+>
+> Would you take [X] minutes on the questionnaire? Anonymous, IRB approved, nothing about any
+> employer. And if two people in your team fit — audit, risk, controls, model validation — I'd be
+> grateful for the forward.
+>
+> [LINK]
+>
+> Thanks either way.
+> Yasir
+
+**Ask for the forward every time.** That single sentence is what turns 250 contacts into 400.
 
 ---
 
-## Track from the first message
+## Track from message one
 
-A study that reports its own recruitment funnel is a stronger study — and the numbers become a
-second contribution, exactly as the prevalence finding did.
-
-| Log per channel | |
+| Log daily | |
 |---|---|
-| Requests sent | Acceptance rate |
-| Follow-ups sent | Open rate |
-| Surveys started | Completion rate |
-| Screened out, and on which criterion | Valid responses |
+| Requests sent, by title searched | Accepted |
+| Follow-ups sent | Surveys started |
+| Completed | Screened out — **and on which criterion** |
 
-**Log the screen-out reasons.** If most people fail on one criterion, that criterion may be too
-tight — and knowing which one is a finding whether or not n=100 is reached.
+**Log the screen-out reason every time.** If most failures land on one criterion, that criterion is
+too tight — and knowing which one is itself a finding.
+
+The funnel numbers are also a second contribution. The prevalence figure already is one; a
+documented recruitment funnel for a specialist professional population is the natural companion to
+it.
 
 ---
 
 ## The honest position
 
-**n = 100 through cold LinkedIn outreach alone is not achievable this term.** Anyone promising
-otherwise is guessing.
+**This is now achievable.** Not through cold outreach — that arithmetic has not changed — but
+through a professional network of fifteen years against a population that is three or four times
+wider than it was last month.
 
-**n = 100 through the professional network, working it seriously, plausibly is** — and it is the
-only channel with a yield rate high enough to matter on this timeline.
-
-So the plan is: **IRB first, first-degree network second, everything else as top-up.** And the
-prevalence finding stays publishable regardless, because it is already evidenced.
+**250 warm asks is roughly six weeks of steady work.** That is the study.
