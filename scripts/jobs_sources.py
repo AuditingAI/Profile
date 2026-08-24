@@ -19,6 +19,7 @@ nothing is worse than no source at all.
 from __future__ import annotations
 
 import json
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -62,8 +63,21 @@ SCORE_4 = [
     "technology audit", "tech audit", "third party risk", "vendor risk",
     "data governance", "internal audit", "audit director", "audit manager",
     "controls", "regulatory", "compliance",
+    # AI programme and product leadership. These titles carry no risk or audit
+    # keyword at all, so without this tier they scored 0 and never reached the
+    # queue - which is how "Director, Program Management - AI" at PGIM, the
+    # best geography-plus-sponsorship match in the whole pipeline, was being
+    # dropped silently.
+    "ai program", "ai programme", "ai product", "ai strategy",
+    "ai transformation", "ai platform", "ai enablement", "ai adoption",
+    "data and ai", "data & ai", "ai and data", "ai & data",
 ]
 SCORE_3 = ["risk", "audit", "governance", "assurance", "policy", "trust and safety"]
+
+# Matches a standalone "AI" token or "artificial intelligence" anywhere in a
+# title - "Program Management - AI", "Head of AI", "AI/ML Governance". Guards
+# against matching inside words such as "said", "maintain", or "chair".
+AI_TOKEN = re.compile(r"(?:\bai\b|\bai[/&-]|artificial intelligence)")
 
 SENIORITY = ["vice president", "vp", "director", "head", "executive", "principal",
              "senior manager", "lead", "svp", "managing director", "md"]
@@ -90,6 +104,11 @@ def score_role(title: str, company: str, location: str) -> tuple[int, list[str]]
         score = 4
     elif any(k in t for k in SCORE_3):
         score = 3
+    elif AI_TOKEN.search(t):
+        # An AI title with no risk/audit/governance keyword. Worth a look at
+        # the senior end, not worth queuing as an individual contributor.
+        score = 3
+        tags.append("ai-adjacent")
 
     if score and any(s in t for s in SENIORITY):
         score = min(5, score + 1)
