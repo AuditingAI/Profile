@@ -99,3 +99,7 @@ Management Review* 14(4); Yin (1981), *Knowledge* 3(1).
 
 Every week also requires exploring one article tied to your own proposal topic — the anchoring-bias
 / AI-audit-judgment thread is the natural fit and doubles as dissertation reading.
+
+---
+
+**Both courses on one chart (Notion, live):** https://app.notion.com/p/3c64ffd38c7e81748e00edaeba5d093f

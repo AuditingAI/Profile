@@ -73,19 +73,21 @@ mistake:
 | | **Module presentation** | **Research project** |
 |---|---|---|
 | What | One week's four articles, dissected | An original IB study, proposed not run |
-| Partner | **Assigned by the professor**, notified by email | **Ana Paula** — "she's great to work with" |
+| Partner | **Daniela Garcia Aguirre** (Group A) — assigned by the professor, confirmed by his email of 22 Aug | **Anna Micheletti Banegas** (Group B) |
 | Yasir's | **Thursday 27 Aug** — Internationalization and Performance | Runs to end of term |
 | Due | ≤10-page write-up + ≤10-min presentation | Idea Thu 27 Aug · presentation · written report |
-| Detail | `MODULE_PRESENTATION_Aug27.md` | `EMAIL_DRAFT_AnaPaula.md` |
+| Detail | `MODULE_PRESENTATION_Aug27.md` | `EMAIL_DRAFT_AnaPaula.md` (addressed to the wrong name — rewrite for Anna) |
 
-**There are two Anas.** The professor clarified it himself: *"Ana Paula and Ana Isabel"* and
-*"Ana Paula goes by Ana."* The transcript garbles hers as "Anna Paola" and "Anna Powell" — one
-person. Ana Isabel is a different student, in a different group, whose dissertation is on
-AI-driven applicant tracking systems.
+**The roster is settled — corrected 22 August.** An earlier version of this file said the project
+partner was "Ana Paula" and that the module partner was unknown. Newburry's written roster of
+22 August resolves both:
 
-**Yasir's module partner is not named anywhere in the record.** The one female name appearing in a
-pairing context — "Yacoubi" — was the professor giving a hypothetical example, not an assignment.
-It arrives by email.
+- **Module partner: Daniela Garcia Aguirre** (Group A). His words: *"Daniela and Yasir, who
+  graciously volunteered to go first."*
+- **Project group: Group B, with Anna Micheletti Banegas.**
+- **There is no "Ana Paula" on the written roster.** The two Anas are **Anna Micheletti Banegas**
+  (Group B, with Yasir) and **Ana Isabel Hernandez** (Group E), whose dissertation is on AI-driven
+  applicant tracking systems. The transcript garbled the names; the written list governs.
 
 ## The research project is QUANTITATIVE
 
@@ -302,3 +304,7 @@ those neighbourhoods gets an engaged supervisor rather than a polite one.
 - [ ] **AI-use policy — now written into the syllabus.** *"The AI Policy has been added to the
       syllabus."* (Newburry, 20 Aug.) **Re-download and read it before using AI on anything for this
       course.** Do not assume it matches GEB 7911's 25% cap.
+
+---
+
+**Both courses on one chart (Notion, live):** https://app.notion.com/p/3c64ffd38c7e81748e00edaeba5d093f
