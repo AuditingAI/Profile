@@ -52,15 +52,22 @@ def run(par, text, *, font="Georgia", size=11.5, color=INK, bold=False,
     return r
 
 def build(spec, out):
+    """spec keys: title, meta, body, blocks, table, double_spaced.
+
+    double_spaced=True switches the body to 12pt / 2.0 line spacing for
+    submissions that specify double-spaced pages (GEB 7365 write-ups).
+    """
     doc = Document()
     s = doc.sections[0]
     s.top_margin = s.bottom_margin = Inches(0.85)
     s.left_margin = s.right_margin = Inches(1.0)
 
     n = doc.styles['Normal']
-    n.font.name = 'Georgia'; n.font.size = Pt(11.5); n.font.color.rgb = INK
+    ds = spec.get("double_spaced", False)
+    BODY_PT, BODY_LS = (12, 2.0) if ds else (11.5, 1.15)
+    n.font.name = 'Georgia'; n.font.size = Pt(BODY_PT); n.font.color.rgb = INK
     n.paragraph_format.space_after = Pt(9)
-    n.paragraph_format.line_spacing = 1.15
+    n.paragraph_format.line_spacing = BODY_LS
 
     # ---- wordmark ------------------------------------------------------
     wm = doc.add_paragraph(); wm.paragraph_format.space_after = Pt(2)
@@ -85,19 +92,47 @@ def build(spec, out):
 
     # ---- body ------------------------------------------------------------
     for para in spec["body"]:
+        if isinstance(para, dict) and para.get("h"):
+            p = doc.add_paragraph()
+            p.paragraph_format.space_before = Pt(16)
+            p.paragraph_format.space_after = Pt(4)
+            run(p, para["h"], font="Georgia", size=BODY_PT + 0.5,
+                color=ACCENT, bold=True)
+            continue
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         p.paragraph_format.space_after = Pt(9)
-        p.paragraph_format.line_spacing = 1.15
+        p.paragraph_format.line_spacing = BODY_LS
         for seg in para:
             if isinstance(seg, str):
-                run(p, seg)
+                run(p, seg, size=BODY_PT)
             else:
-                run(p, seg["t"], italic=seg.get("i", False),
+                run(p, seg["t"], size=BODY_PT, italic=seg.get("i", False),
                     bold=seg.get("b", False),
                     caps=seg.get("caps", False),
                     highlight=seg.get("hl", False),
                     color=ACCENT if seg.get("hl") else INK)
+
+    # ---- optional table ---------------------------------------------------
+    tb = spec.get("table")
+    if tb:
+        if tb.get("caption"):
+            c = doc.add_paragraph()
+            c.paragraph_format.space_before = Pt(16)
+            c.paragraph_format.space_after = Pt(5)
+            run(c, tb["caption"], font="Georgia", size=BODY_PT + 0.5,
+                color=ACCENT, bold=True)
+        t = doc.add_table(rows=0, cols=len(tb["rows"][0]))
+        t.style = 'Table Grid'
+        for ri, rowvals in enumerate(tb["rows"]):
+            cells = t.add_row().cells
+            for ci, val in enumerate(rowvals):
+                cp = cells[ci].paragraphs[0]
+                cp.paragraph_format.space_after = Pt(2)
+                cp.paragraph_format.line_spacing = 1.0
+                run(cp, val, size=8.5,
+                    bold=(ri == 0 or ci == 0),
+                    color=ACCENT if ri == 0 else INK)
 
     # ---- footer blocks ----------------------------------------------------
     for blk in spec.get("blocks", []):

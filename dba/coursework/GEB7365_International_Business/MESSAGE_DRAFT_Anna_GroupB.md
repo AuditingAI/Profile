@@ -1,15 +1,17 @@
-# Draft to Ana Paula — research project
+# Draft to Anna Micheletti Banegas — research project (Group B)
 
-The professor paired you for the **research project** (not the Thursday module presentation) and
-said: *"Why don't you reach out to Ana Paula?"* and *"she's great to work with."* She goes by **Ana**.
+**Corrected 24 Aug.** An earlier version of this file was addressed to "Ana Paula," who does not
+appear on Newburry's written roster. His roster of 22 August puts you in **Group B with Anna
+Micheletti Banegas** for the research project. Daniela Garcia Aguirre is your *module* partner —
+different assignment, see `MESSAGE_DRAFT_Daniela.md`.
 
-Send today. Nothing is sent from here.
+**Channel: Canvas Inbox.** Nothing is sent from here.
 
 > **Subject:** GEB 7365 project — hello from Yasir
 >
-> Hi Ana,
+> Hi Anna,
 >
-> Professor Newburry paired us for the research project on Saturday — good to be working together.
+> Newburry has us in Group B for the research project — good to be working together.
 >
 > The initial project idea is due Thursday, so I wanted to get something in front of you rather than
 > leave it to the last minute. Two things:
