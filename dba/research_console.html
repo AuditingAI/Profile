@@ -1,0 +1,400 @@
+<title>Research Console — Anchoring Bias & AI Judgment Risk</title>
+<style>
+  :root{
+    --paper:#F2F4F1; --card:#FFFFFF; --sunk:#EAEEE9; --line:#D6DCD5;
+    --ink:#111820; --mid:#4A5560; --faint:#7C8792;
+    --accent:#17495C; --accent-soft:rgba(23,73,92,.10);
+    --clear:#2E7D5B; --clear-soft:rgba(46,125,91,.12);
+    --gate:#B5822A; --gate-soft:rgba(181,130,42,.14);
+    --block:#B23A48; --block-soft:rgba(178,58,72,.12);
+    --serif:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#0D1216; --card:#141C22; --sunk:#101820; --line:#26333B;
+      --ink:#E2E8E6; --mid:#9AA6AE; --faint:#6B7780;
+      --accent:#5FB6C9; --accent-soft:rgba(95,182,201,.13);
+      --clear:#4FBE8B; --clear-soft:rgba(79,190,139,.14);
+      --gate:#DCAE55; --gate-soft:rgba(220,174,85,.14);
+      --block:#E06B78; --block-soft:rgba(224,107,120,.14);
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F2F4F1; --card:#FFFFFF; --sunk:#EAEEE9; --line:#D6DCD5;
+    --ink:#111820; --mid:#4A5560; --faint:#7C8792;
+    --accent:#17495C; --accent-soft:rgba(23,73,92,.10);
+    --clear:#2E7D5B; --clear-soft:rgba(46,125,91,.12);
+    --gate:#B5822A; --gate-soft:rgba(181,130,42,.14);
+    --block:#B23A48; --block-soft:rgba(178,58,72,.12);
+  }
+  :root[data-theme="dark"]{
+    --paper:#0D1216; --card:#141C22; --sunk:#101820; --line:#26333B;
+    --ink:#E2E8E6; --mid:#9AA6AE; --faint:#6B7780;
+    --accent:#5FB6C9; --accent-soft:rgba(95,182,201,.13);
+    --clear:#4FBE8B; --clear-soft:rgba(79,190,139,.14);
+    --gate:#DCAE55; --gate-soft:rgba(220,174,85,.14);
+    --block:#E06B78; --block-soft:rgba(224,107,120,.14);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:34px 22px 72px}
+  h1,h2,h3{margin:0;font-family:var(--serif);font-weight:600;text-wrap:balance;letter-spacing:-.01em}
+  .num{font-variant-numeric:tabular-nums}
+  .eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--faint)}
+  a{color:var(--accent)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+
+  header.top{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap;
+    padding-bottom:18px;border-bottom:2px solid var(--ink)}
+  header.top h1{font-size:31px;line-height:1.15}
+  header.top .sub{color:var(--mid);font-size:14px;margin-top:7px;max-width:60ch}
+  .themebtn{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;
+    color:var(--mid);background:var(--card);border:1px solid var(--line);padding:8px 12px;cursor:pointer}
+  .themebtn:hover{color:var(--ink);border-color:var(--accent)}
+
+  .strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;background:var(--line);
+    border:1px solid var(--line);margin-top:26px}
+  .cell{background:var(--card);padding:14px 16px}
+  .cell .k{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+  .cell .v{font-size:15px;font-weight:600;margin-top:6px;display:flex;align-items:center;gap:8px}
+  .dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%}
+  .d-clear{background:var(--clear)} .d-gate{background:var(--gate)} .d-block{background:var(--block)}
+  .cell .n{font-size:12px;color:var(--mid);margin-top:4px}
+
+  section{margin-top:44px}
+  .shead{display:flex;align-items:baseline;gap:14px;margin-bottom:16px}
+  .shead h2{font-size:20px}
+  .shead .rule{flex:1;height:1px;background:var(--line)}
+
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:16px}
+  .kpi{background:var(--card);border:1px solid var(--line);padding:17px}
+  .kpi .lab{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+  .kpi .big{font-family:var(--serif);font-size:33px;line-height:1.05;margin:9px 0 2px;font-variant-numeric:tabular-nums}
+  .kpi .cap{font-size:12.5px;color:var(--mid)}
+  .meter{height:5px;background:var(--sunk);margin-top:12px;overflow:hidden}
+  .meter i{display:block;height:100%;background:var(--accent)}
+  .meter i.thin{background:var(--block)}
+
+  /* live model */
+  .model{background:var(--card);border:1px solid var(--line);padding:22px;overflow-x:auto}
+  .layer{min-width:660px}
+  .layer + .layer{margin-top:26px;padding-top:24px;border-top:1px dashed var(--line)}
+  .ltag{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px;display:inline-block;padding:3px 8px}
+  .lt-core{color:var(--accent);background:var(--accent-soft)}
+  .lt-ext{color:var(--block);background:var(--block-soft)}
+  .flow{display:grid;grid-template-columns:1.35fr auto 1fr auto 1fr;align-items:center;gap:12px}
+  .node{border:1.5px solid var(--accent);background:var(--accent-soft);padding:12px 13px}
+  .node.med{border-color:var(--gate);background:var(--gate-soft)}
+  .node.out{border-color:var(--clear);background:var(--clear-soft)}
+  .node.ai{border-color:var(--block);background:var(--block-soft)}
+  .node .t{font-size:13px;font-weight:650;line-height:1.3}
+  .node .d{font-size:11.5px;color:var(--mid);margin-top:5px}
+  .arrow{font-family:var(--mono);color:var(--faint);font-size:17px;text-align:center}
+  .stack{display:grid;gap:10px}
+  .ivlist{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+  .iv{font-family:var(--mono);font-size:10.5px;padding:2px 6px;background:var(--card);border:1px solid var(--line);cursor:default}
+  .iv:hover{border-color:var(--accent);color:var(--accent)}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{font-family:var(--mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);
+    text-align:left;font-weight:600;padding:0 12px 9px;border-bottom:1px solid var(--line)}
+  td{padding:13px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  .scroll{overflow-x:auto;background:var(--card);border:1px solid var(--line);padding:16px 4px 6px}
+  .scroll table{min-width:640px}
+
+  .chip{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;white-space:nowrap}
+  .c-clear{color:var(--clear);background:var(--clear-soft)}
+  .c-gate{color:var(--gate);background:var(--gate-soft)}
+  .c-block{color:var(--block);background:var(--block-soft)}
+  .c-idle{color:var(--mid);background:var(--sunk)}
+
+  /* ladder */
+  .ladder{display:grid;gap:0;border:1px solid var(--line);background:var(--card)}
+  .rung{display:grid;grid-template-columns:56px 1fr;border-bottom:1px solid var(--line)}
+  .rung:last-child{border-bottom:0}
+  .rung .stage{background:var(--sunk);border-right:1px solid var(--line);display:flex;align-items:flex-start;
+    justify-content:center;padding-top:18px;font-family:var(--mono);font-size:12px;color:var(--faint)}
+  .rung .body{padding:16px 18px}
+  .rung h3{font-size:15.5px;font-family:var(--sans);font-weight:650;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .rung .how{font-size:13.5px;color:var(--mid);margin-top:8px}
+  .rung .how b{color:var(--ink);font-weight:600}
+  .rung .gate{margin-top:10px;font-size:12.5px;padding:9px 11px;background:var(--sunk);border-left:3px solid var(--gate)}
+  .rung.done .stage{color:var(--clear)}
+  .rung.now{background:var(--accent-soft)}
+
+  .shelf{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:14px}
+  .src{background:var(--card);border:1px solid var(--line);padding:15px}
+  .src .role{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+  .src ul{margin:0;padding-left:17px;font-size:12.8px;color:var(--mid)}
+  .src li{margin-bottom:6px}
+  .src li b{color:var(--ink);font-weight:600}
+
+  .loop{background:var(--card);border:1px solid var(--line);padding:20px}
+  .loop code{font-family:var(--mono);font-size:12.5px;background:var(--sunk);padding:2px 6px}
+  .steps{counter-reset:s;list-style:none;margin:14px 0 0;padding:0}
+  .steps li{counter-increment:s;position:relative;padding-left:30px;margin-bottom:11px;font-size:13.5px;color:var(--mid)}
+  .steps li::before{content:counter(s);position:absolute;left:0;top:1px;width:20px;height:20px;
+    font-family:var(--mono);font-size:11px;color:var(--accent);background:var(--accent-soft);
+    display:flex;align-items:center;justify-content:center}
+  .steps li b{color:var(--ink);font-weight:600}
+
+  footer{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);font-size:12px;color:var(--faint);
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  @media (max-width:720px){
+    .flow{grid-template-columns:1fr}
+    .arrow{transform:rotate(90deg)}
+    header.top h1{font-size:25px}
+  }
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <div>
+    <div class="eyebrow">FIU DBA · Cohort 7.16 · IRB-25-0462</div>
+    <h1>Anchoring Bias &amp; AI Judgment Risk</h1>
+    <p class="sub">Research console for the qualifying study and its dissertation continuation — what is proven, what is blocked, and the specific ladder that turns a 4-response pilot into a validated measurement model.</p>
+  </div>
+  <button class="themebtn" id="tt" type="button">Theme</button>
+</header>
+
+<div class="strip">
+  <div class="cell">
+    <div class="k">Manuscript</div>
+    <div class="v"><span class="dot d-clear"></span>Complete</div>
+    <div class="n">Ch. 1–6 + appendix · 16,200 words</div>
+  </div>
+  <div class="cell">
+    <div class="k">Canvas submission</div>
+    <div class="v"><span class="dot d-gate"></span>Due Sunday Jul 26</div>
+    <div class="n">Tuesday is the hard deadline</div>
+  </div>
+  <div class="cell">
+    <div class="k">Advisor agreement</div>
+    <div class="v"><span class="dot d-clear"></span>Confirmed in writing</div>
+    <div class="n">“Correct.” — Jul 23</div>
+  </div>
+  <div class="cell">
+    <div class="k">Panel funds</div>
+    <div class="v"><span class="dot d-block"></span>~$980 escrowed</div>
+    <div class="n">Recoverable — stop the live study</div>
+  </div>
+</div>
+
+<section>
+  <div class="shead"><h2>The evidence position</h2><div class="rule"></div></div>
+  <div class="kpis">
+    <div class="kpi">
+      <div class="lab">Usable responses</div>
+      <div class="big num">4–5</div>
+      <div class="cap">against a target of 100 · 23 raw starts</div>
+      <div class="meter"><i class="thin" style="width:5%"></i></div>
+    </div>
+    <div class="kpi">
+      <div class="lab">Eligible on panel</div>
+      <div class="big num">20</div>
+      <div class="cap">of 334,976 panelists — six per 100,000</div>
+      <div class="meter"><i class="thin" style="width:2%"></i></div>
+    </div>
+    <div class="kpi">
+      <div class="lab">Instrument</div>
+      <div class="big num">11 / 55</div>
+      <div class="cap">constructs / items — fielded, screens and checks proven</div>
+      <div class="meter"><i style="width:100%"></i></div>
+    </div>
+    <div class="kpi">
+      <div class="lab">Verified literature</div>
+      <div class="big num">81</div>
+      <div class="cap">references, incl. 10 AI-judgment sources added Jul 24</div>
+      <div class="meter"><i style="width:100%"></i></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>The model, and where it grows</h2><div class="rule"></div></div>
+  <div class="model">
+
+    <div class="layer">
+      <span class="ltag lt-core">Validated core — this study</span>
+      <div class="flow">
+        <div class="node">
+          <div class="t">Eight mitigation interventions</div>
+          <div class="d">Organizational practices theorized to disrupt the prior-period anchor</div>
+          <div class="ivlist">
+            <span class="iv" title="Training &amp; Awareness">TA</span><span class="iv" title="Rotation of Auditors">RA</span>
+            <span class="iv" title="Use of Analytical Tools">AT</span><span class="iv" title="Structured Auditing Processes">SAP</span>
+            <span class="iv" title="Feedback &amp; Reflection">FR</span><span class="iv" title="Independent Reviews">IR</span>
+            <span class="iv" title="Regulatory &amp; Professional Guidance">RPG</span><span class="iv" title="Performance Metrics &amp; Incentives">PMI</span>
+          </div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="stack">
+          <div class="node med"><div class="t">Auditor Judgment Quality</div><div class="d">Cognitive pathway</div></div>
+          <div class="node med"><div class="t">Audit Process Rigor</div><div class="d">Procedural pathway</div></div>
+        </div>
+        <div class="arrow">→</div>
+        <div class="node out"><div class="t">Reduction in Anchoring Bias</div><div class="d">Judgments driven by current evidence, not the initial reference point</div></div>
+      </div>
+    </div>
+
+    <div class="layer">
+      <span class="ltag lt-ext">Dissertation extension — the 2–3 AI boxes the advisor prescribed</span>
+      <div class="flow" style="grid-template-columns:1fr auto 1fr auto 1fr">
+        <div class="node ai"><div class="t">Automated anchoring</div><div class="d">The anchor is no longer memory — it is system output, generated continuously and at scale</div></div>
+        <div class="arrow">→</div>
+        <div class="node ai"><div class="t">Sycophantic confirmation</div><div class="d">The model affirms the position already stated instead of challenging it</div></div>
+        <div class="arrow">→</div>
+        <div class="node ai"><div class="t">Recursive epistemic drift</div><div class="d">Successive models redo the same work and converge on each other, not on evidence</div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>How the research gets enhanced</h2><div class="rule"></div></div>
+  <div class="ladder">
+
+    <div class="rung done">
+      <div class="stage">01</div>
+      <div class="body">
+        <h3>Close the course <span class="chip c-gate">Due Sun Jul 26</span></h3>
+        <div class="how">Read the highlighted review copy, then upload the clean Word file. <b>The paper is finished</b> — this rung is a delivery step, not a work step. Reply to the advisor thread already carries the draft and the status board.</div>
+      </div>
+    </div>
+
+    <div class="rung now">
+      <div class="stage">02</div>
+      <div class="body">
+        <h3>Prove the analysis competency <span class="chip c-idle">Awaiting his file</span></h3>
+        <div class="how">The advisor is sending a <b>simulated dataset with the same constructs</b>. Run the full pipeline on it — KMO and Bartlett, principal-axis factoring, both rotations with Direct Oblimin reported, item retention at .40, Cronbach's α with item diagnostics — and return it within 48 hours. This is the demonstration the university accepted in place of the missing sample.</div>
+        <div class="gate">Enhancement value: it converts the one thing the pilot could not show — that you can execute the analysis — into a documented artifact, separate from the paper.</div>
+      </div>
+    </div>
+
+    <div class="rung">
+      <div class="stage">03</div>
+      <div class="body">
+        <h3>Recover the recruitment budget <span class="chip c-block">~$980 sitting idle</span></h3>
+        <div class="how">Screenshot the eligibility panel first — <b>“20 of 334,976”</b> is citable evidence, not just a receipt — then stop the study so the escrowed funds release. Keep them as credit; they become the relaunch budget at roughly 150–180 completes.</div>
+      </div>
+    </div>
+
+    <div class="rung">
+      <div class="stage">04</div>
+      <div class="body">
+        <h3>Fix the population, not the effort <span class="chip c-clear">Free to test today</span></h3>
+        <div class="how">Build a <b>draft</b> panel study and read the live eligibility counter as screeners are added — it costs nothing and reports the true reachable population before a dollar is spent. Broaden the frame from auditors to <b>risk and assurance professionals</b>: internal audit, enterprise risk, compliance testing, credit review, quality assurance, SOX controls. Same multi-period anchoring mechanism, population orders of magnitude larger.</div>
+        <div class="gate">This is the single highest-leverage change available. The pilot did not fail on design or budget; it failed on a sampling frame of twenty people.</div>
+      </div>
+    </div>
+
+    <div class="rung">
+      <div class="stage">05</div>
+      <div class="body">
+        <h3>Re-specify the instrument <span class="chip c-gate">Advisor conversation first</span></h3>
+        <div class="how">Keep the eleven-construct core intact; add the three AI blocks with five items each and a routing question for respondents who never use AI tools. Trim the core to three items per construct so total length lands near twelve minutes — <b>shorter than the version that failed, despite carrying more theory</b>. Both the full-length and trimmed versions are drafted; the choice belongs to the advisor.</div>
+        <div class="gate">Hard gate — an IRB amendment covers both the broadened population and the new items. Nothing fields before it clears.</div>
+      </div>
+    </div>
+
+    <div class="rung">
+      <div class="stage">06</div>
+      <div class="body">
+        <h3>Run the study the pilot specified <span class="chip c-idle">Dissertation stage</span></h3>
+        <div class="how">Execute the Chapter 4 contract at an adequate sample: exploratory factor analysis, reliability, confirmatory factor analysis against the joint fit standard, then the structural stage. <b>The methodology chapter is already written</b> — this rung consumes work that exists rather than creating it.</div>
+        <div class="gate">Measurement contribution to claim: sycophancy has validated behavioral metrics; epistemic drift has none. Building that instrument is the original contribution.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>Evidence shelf</h2><div class="rule"></div></div>
+  <div class="shelf">
+    <div class="src">
+      <div class="role">Human anchor — the baseline</div>
+      <ul>
+        <li><b>Tversky &amp; Kahneman (1974)</b> — anchoring and adjustment</li>
+        <li><b>Henrizi et al. (2021)</b> — 85 practicing auditors; prior-year workpapers dominate as anchors</li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="role">AI attenuates</div>
+      <ul>
+        <li><b>Fedyk et al. (2022)</b> — firm AI investment, fewer restatements</li>
+        <li><b>Estep et al. (2024)</b> — AI evidence moves clients off management's estimate</li>
+        <li><b>Eulerich et al. (2024)</b> · <b>Emett et al. (2025)</b> — capability and live deployment</li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="role">AI relocates the bias</div>
+      <ul>
+        <li><b>Commerford et al. (2022)</b> — auditors discount AI evidence on subjective estimates</li>
+        <li><b>Koreff (2022)</b> — identical signals, inconsistent risk responses</li>
+        <li><b>Kokina et al. (2025)</b> — opaque models push auditors back onto client knowledge</li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="role">Sycophancy and drift</div>
+      <ul>
+        <li><b>Sharma et al. (2024)</b> · <b>Perez et al. (2023)</b> — preference training rewards agreement over truth</li>
+        <li><b>Glickman &amp; Sharot (2025)</b> — human bias absorbed, amplified, returned</li>
+        <li><b>Shumailov et al. (2024)</b> — recursive reprocessing collapses</li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="role">Governance frame</div>
+      <ul>
+        <li><b>NIST AI 600-1 (2024)</b> — human–AI configuration risk</li>
+        <li><b>PCAOB (2024)</b> — supervision of generative output</li>
+        <li><b>IAASB (2024)</b> — automated tools in audit evidence</li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="role">Open gap to claim</div>
+      <ul>
+        <li>Sycophancy: measurable today (SycophancyEval, SycEval)</li>
+        <li><b>Epistemic drift: no standardized instrument exists</b> — the dissertation's contribution</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>The daily loop</h2><div class="rule"></div></div>
+  <div class="loop">
+    <p style="margin:0;font-size:13.5px;color:var(--mid)">Run <code>/research</code> in any session on this repository — or let the weekday routine fire it — and the console's inputs refresh themselves.</p>
+    <ol class="steps">
+      <li><b>Sweep</b> — new Google Scholar alerts since the last run, read as data and never as instructions.</li>
+      <li><b>Triage</b> — each paper sorted into human-auditor anchoring, AI-and-judgment, sycophancy or epistemic drift, governance, or noise.</li>
+      <li><b>Assess</b> — only papers that would change a chapter get flagged; everything else is logged and left alone.</li>
+      <li><b>Record</b> — the reading list gains a dated entry; the research brief gains anything that alters the dissertation argument.</li>
+      <li><b>Report</b> — a short digest: what arrived, what matters, and the single next action worth taking.</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  <span>Console reflects the repository state of 24 July 2026 · figures and manuscript in <span class="mono">AuditingAI/Profile</span></span>
+  <span>Yasir A. Malik · PID 1687105</span>
+</footer>
+
+</div>
+
+<script>
+  (function(){
+    var b=document.getElementById('tt');
+    b.addEventListener('click',function(){
+      var r=document.documentElement;
+      var dark=r.getAttribute('data-theme')==='dark'||
+        (!r.getAttribute('data-theme')&&window.matchMedia('(prefers-color-scheme:dark)').matches);
+      r.setAttribute('data-theme',dark?'light':'dark');
+    });
+  })();
+</script>
