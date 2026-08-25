@@ -1,0 +1,24 @@
+{
+  "id": "91e5672fa53c70ce",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "User Risk Strategist, Ecosystem Risk Strategy",
+  "location": "US-Chicago; US-Atlanta; US-Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=7977981",
+  "score": 3,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

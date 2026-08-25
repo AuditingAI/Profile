@@ -1,0 +1,26 @@
+{
+  "id": "5d03adf90d0afcd0",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Treasury Finance AI and Quantitative Analytics, Americas",
+  "location": "NYC",
+  "url": "https://stripe.com/jobs/search?gh_jid=8079132",
+  "score": 3,
+  "score_reasons": [
+    "ai-adjacent"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
