@@ -1,0 +1,39 @@
+name: Job discovery
+
+on:
+  schedule:
+    # 10:30 UTC = 06:30 America/New_York during EDT. Runs before the digest
+    # workflow at 11:00 so the morning email reflects the fresh queue.
+    - cron: "30 10 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Discover roles and write the queue
+        run: python scripts/discover_jobs.py
+
+      - name: Commit new queue entries
+        run: |
+          git config user.name  "job-discovery[bot]"
+          git config user.email "job-discovery@users.noreply.github.com"
+          git add automation/queue
+          if git diff --staged --quiet; then
+            echo "No new roles — nothing to commit."
+            exit 0
+          fi
+          COUNT=$(git diff --staged --name-only \
+            | grep -c '^automation/queue/pending/' || true)
+          git commit -m "Queue ${COUNT} new role(s) for application"
+          git push

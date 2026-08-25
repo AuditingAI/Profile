@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Yasir A. Malik — Internal Audit & Risk Executive. AI governance, responsible AI, and model risk. 20+ years at Citi, JPMorgan Chase, and the OCC.">
+<title>Yasir A. Malik — Internal Audit & Risk Executive · AI Governance</title>
+<style>
+  :root{
+    --paper:#F6F3EC; --ink:#201C13; --muted:#6F6754; --brass:#A87E2F;
+    --rule:#D8D2C2; --rule-strong:#B8AE97; --chip:#EDE7D8; --ok:#4E6B45;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#14130F; --ink:#EAE4D6; --muted:#9C927B; --brass:#C9A254;
+      --rule:#2E2A20; --rule-strong:#4A4433; --chip:#211E16; --ok:#8FAE83;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#14130F; --ink:#EAE4D6; --muted:#9C927B; --brass:#C9A254;
+    --rule:#2E2A20; --rule-strong:#4A4433; --chip:#211E16; --ok:#8FAE83;
+  }
+  :root[data-theme="light"]{
+    --paper:#F6F3EC; --ink:#201C13; --muted:#6F6754; --brass:#A87E2F;
+    --rule:#D8D2C2; --rule-strong:#B8AE97; --chip:#EDE7D8; --ok:#4E6B45;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:16px/1.62 Georgia,'Times New Roman',serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+  a{color:var(--brass);text-decoration:none}
+  a:hover{text-decoration:underline}
+  a:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+  .mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+
+  /* header */
+  .seal{width:58px;height:58px;border:1.5px solid var(--brass);border-radius:50%;
+    display:flex;align-items:center;justify-content:center;color:var(--brass);
+    font:600 15px/1 ui-monospace,Menlo,monospace;letter-spacing:1px;margin-bottom:22px}
+  h1{font-size:clamp(30px,5.5vw,42px);line-height:1.08;margin:0 0 10px;font-weight:400;
+    letter-spacing:.5px;text-wrap:balance}
+  .role{font-size:17px;color:var(--muted);font-style:italic;margin:0 0 6px}
+  .thesis{font-size:21px;line-height:1.45;margin:26px 0 0;text-wrap:balance}
+  .thesis em{color:var(--brass);font-style:normal}
+
+  /* facts strip — the control-room readout */
+  .facts{display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--rule-strong);
+    border-bottom:1px solid var(--rule-strong);margin:34px 0 0;
+    font-family:ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums}
+  .fact{flex:1 1 150px;padding:14px 16px 12px;border-left:1px solid var(--rule)}
+  .fact:first-child{border-left:none;padding-left:0}
+  .fact b{display:block;font-size:19px;font-weight:600;color:var(--brass)}
+  .fact span{font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+
+  /* ledger sections */
+  section{margin-top:52px}
+  h2{font-size:13px;letter-spacing:2.5px;text-transform:uppercase;font-weight:600;
+    color:var(--muted);margin:0 0 4px;font-family:ui-monospace,Menlo,monospace}
+  .dbl{border:none;border-top:1px solid var(--rule-strong);margin:0 0 2px;position:relative}
+  .dbl::after{content:"";display:block;border-top:1px solid var(--rule-strong);margin-top:2px}
+  section>p{max-width:640px}
+
+  /* experience ledger */
+  .entry{display:grid;grid-template-columns:118px 1fr;gap:18px;padding:18px 0;
+    border-bottom:1px solid var(--rule)}
+  .entry:last-child{border-bottom:none}
+  .when{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:var(--muted);
+    padding-top:4px;font-variant-numeric:tabular-nums}
+  .entry h3{margin:0;font-size:17.5px;font-weight:600;line-height:1.3}
+  .entry .org{color:var(--brass)}
+  .entry p{margin:6px 0 0;font-size:15px;color:var(--ink)}
+  .entry .sub{font-style:italic;color:var(--muted);font-size:14px;margin-top:1px}
+  @media (max-width:560px){.entry{grid-template-columns:1fr}.when{padding-top:0}}
+
+  /* research block */
+  .rq{border-left:2px solid var(--brass);padding:4px 0 4px 18px;margin:18px 0;
+    font-size:18px;line-height:1.5;font-style:italic}
+  .ledger-rows{margin-top:8px}
+  .lrow{display:flex;gap:12px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--rule)}
+  .lrow:last-child{border-bottom:none}
+  .tick{color:var(--ok);font-family:ui-monospace,Menlo,monospace;font-size:13px;flex:none}
+  .lrow div{font-size:15px}
+  .lrow b{font-weight:600}
+  .lnote{font-size:12.5px;color:var(--muted);font-family:ui-monospace,Menlo,monospace;
+    margin-top:14px;letter-spacing:.3px}
+
+  /* expertise chips */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .chip{background:var(--chip);border:1px solid var(--rule);padding:5px 12px;
+    font-size:13.5px;border-radius:2px}
+
+  /* education */
+  .edu li{margin-bottom:8px}
+  ul{padding-left:20px;margin:14px 0 0}
+  li{margin-bottom:6px}
+
+  /* contact */
+  .contact{margin-top:18px;display:grid;gap:8px;font-family:ui-monospace,Menlo,monospace;font-size:14.5px}
+  .contact span{display:inline-block;width:92px;color:var(--muted);font-size:11px;
+    letter-spacing:1px;text-transform:uppercase}
+  footer{margin-top:64px;padding-top:14px;border-top:1px solid var(--rule);
+    font-size:12px;color:var(--muted);font-family:ui-monospace,Menlo,monospace;
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  @media (prefers-reduced-motion:no-preference){
+    .wrap>*{animation:rise .5s ease both}
+    @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="seal" aria-hidden="true">YAM</div>
+  <h1>Yasir A. Malik</h1>
+  <p class="role">Internal Audit &amp; Risk Executive — AI Governance, Responsible AI &amp; Model Risk</p>
+  <p class="role mono" style="font-style:normal;font-size:13px">Newark, NJ · NYC metro · hybrid-ready</p>
+
+  <p class="thesis">Twenty years judging controls from the outside — at Citi, JPMorgan&nbsp;Chase, and the&nbsp;OCC. Now building <em>AI systems that hold up to that judgment.</em></p>
+
+  <div class="facts">
+    <div class="fact"><b>20+</b><span>years · audit &amp; risk</span></div>
+    <div class="fact"><b>$180M</b><span>capital optimization identified</span></div>
+    <div class="fact"><b>~35%</b><span>faster audit review via RAG tool</span></div>
+    <div class="fact"><b>3</b><span>regulators served · OCC / Fed / FDIC</span></div>
+  </div>
+
+  <section>
+    <h2>Profile</h2><hr class="dbl">
+    <p>Internal audit and risk executive focused on AI governance, responsible AI, and model risk (SR&nbsp;11-7). A builder-auditor: built a text-based RAG document assistant used on live audit work and proposed an AI governance framework referencing NIST&nbsp;AI&nbsp;RMF and SR&nbsp;11-7. Former OCC bank examiner; led consent-order remediation, issue-closure packages, and legal-entity divestiture audits feeding QA review and external regulators. Active DBA researcher (FIU, GPA&nbsp;3.81, expected 2028): completed an IRB-approved empirical study of anchoring bias in auditor judgment in July 2026, now developing a dissertation on automation bias in AI-assisted judgment.</p>
+  </section>
+
+  <section>
+    <h2>Experience</h2><hr class="dbl">
+    <div class="entry">
+      <div class="when">2021 – 2026</div>
+      <div>
+        <h3>Vice President, Audit Manager · <span class="org">Citi</span></h3>
+        <div class="sub">Cross-Enterprise Program &amp; Change Management — New York</div>
+        <p>Led global risk-based thematic audits across 15+ business units; drove consent-order remediation and issue-closure packages reviewed by QA and external regulators, including legal-entity divestiture work. Built a prompt-engineered RAG assistant for audit and workpaper Q&amp;A (~35% faster review). Reported to senior leadership and the Board Audit Committee; mentored 8+ auditors on responsible AI adoption.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="when">2019 – 2021</div>
+      <div>
+        <h3>Risk Control Manager, Treasury &amp; CIO · <span class="org">JPMorgan Chase</span></h3>
+        <div class="sub">Capital Controls &amp; Resolution and Recovery Planning — Jersey City</div>
+        <p>Led the firm's Resolution &amp; Recovery Planning program across 50+ stakeholders in Legal, Treasury, and Operations for Fed and FDIC submissions; built reconciliation dashboards cutting manual review ~40%.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="when">2015 – 2019</div>
+      <div>
+        <h3>Capital Controller, Basel Measurement &amp; Analytics · <span class="org">JPMorgan Chase</span></h3>
+        <div class="sub">Preceded by Program Manager, CIB Resolution &amp; Recovery Planning — Brooklyn</div>
+        <p>Owned Basel III RWA calculations and capital adequacy reporting; identified $180M in capital optimization opportunities for CFO decision support.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="when">2011 – 2012</div>
+      <div>
+        <h3>Bank Examiner · <span class="org">OCC / FL Office of Financial Regulation</span></h3>
+        <div class="sub">Bureau of Bank Regulation — West Palm Beach</div>
+        <p>Safety-and-soundness examinations across credit, liquidity, and operational risk; contributed to enforcement actions and remediation monitoring.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="when">2005 – 2015</div>
+      <div>
+        <h3>Earlier · <span class="org">Citi</span> &amp; <span class="org">RBS</span></h3>
+        <p>AVP, Global Legal Entity Management, Citi (2012–2015): centralized 500+ legal-entity data sources for automated FR2900/TIC filings at 99.8% accuracy. Senior Business Analyst, Retail Credit Risk, RBS Dubai (2008–2009).</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Research &amp; Applied AI</h2><hr class="dbl">
+    <p class="rq">"When auditors work alongside AI tools, when do they stop exercising judgment — and what controls restore it?"</p>
+    <p>Doctoral research (DBA, Florida International University, expected 2028). Qualifying research completed July 2026: an IRB-approved empirical study of anchoring bias in long-term auditor engagements (IRB-25-0462). Dissertation in development extends this to automation bias and over-reliance on AI-assisted tools. The applied work below doubles as the research instrument.</p>
+    <div class="ledger-rows">
+      <div class="lrow"><span class="tick">✓</span><div><b>Automated research pipeline</b> — twice-daily market-signal system (Python/Bash, GitHub Actions): 5-factor bias model, rolling 10-day calibration, validation against three independent AI sources before publication.</div></div>
+      <div class="lrow"><span class="tick">✓</span><div><b>Audit-grade controls, self-imposed</b> — SHA-anchored append-only ledger, dated run-audit memos, policy-change records, pre-flight data-quality gates, published methodology. Synthetic paper-trade results, explicitly disclosed.</div></div>
+      <div class="lrow"><span class="tick">✓</span><div><b>RAG document assistant</b> — production use on live audit work at Citi; ~35% faster workpaper review.</div></div>
+      <div class="lrow"><span class="tick">✓</span><div><b>AI governance framework</b> — proposed internally at Citi, referencing NIST AI RMF and SR 11-7: model risk, explainability, human-in-the-loop controls.</div></div>
+    </div>
+    <p class="lnote">FULL CODE &amp; METHODOLOGY · <a href="https://github.com/MalikAI-786">github.com/MalikAI-786</a></p>
+  </section>
+
+  <section>
+    <h2>Expertise</h2><hr class="dbl">
+    <div class="chips">
+      <span class="chip">Internal Audit &amp; Controls</span>
+      <span class="chip">AI Governance &amp; Responsible AI</span>
+      <span class="chip">Model Risk · SR 11-7 · NIST AI RMF</span>
+      <span class="chip">Consent-Order Remediation</span>
+      <span class="chip">Regulatory Exams · OCC / Fed / FDIC</span>
+      <span class="chip">Resolution &amp; Recovery Planning</span>
+      <span class="chip">Basel III RWA &amp; Capital Adequacy</span>
+      <span class="chip">RAG &amp; Prompt Engineering</span>
+      <span class="chip">Executive &amp; Audit Committee Reporting</span>
+      <span class="chip">SQL · Tableau · Excel/VBA</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education &amp; Credentials</h2><hr class="dbl">
+    <ul class="edu">
+      <li><b>Doctor of Business Administration (candidate, expected 2028)</b> — Florida International University · GPA 3.81. Dissertation: <i>Automation Bias and Over-Reliance on AI-Assisted Tools in Auditor Judgment.</i></li>
+      <li><b>MBA</b> — Florida International University, 2011 · GPA 3.8</li>
+      <li><b>B.Sc., Banking &amp; Finance</b> — London School of Economics, 2005</li>
+      <li><b>Columbia Engineering FinTech Boot Camp</b> — 2021 · ML, Python, algorithmic trading coursework</li>
+      <li><b>Certifications</b> — FDIC Bank Examiner I · Registered Scrum Master · GCP Social/Behavioral Human Research (AI Ethics)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Correspondence</h2><hr class="dbl">
+    <div class="contact">
+      <div><span>Email</span><a href="mailto:YasirAMalik@gmail.com">YasirAMalik@gmail.com</a></div>
+      <div><span>Phone</span><a href="tel:+17867048536">+1 (786) 704-8536</a></div>
+      <div><span>LinkedIn</span><a href="https://linkedin.com/in/yasiramalik">linkedin.com/in/yasiramalik</a></div>
+      <div><span>GitHub</span><a href="https://github.com/MalikAI-786">github.com/MalikAI-786</a></div>
+    </div>
+  </section>
+
+  <footer>
+    <div>YASIR A. MALIK · NEWARK, NJ</div>
+    <div>FIGURES SOURCED &amp; VERIFIABLE · REFERENCES ON REQUEST</div>
+  </footer>
+</div>
+
+</body>
+</html>
