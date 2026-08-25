@@ -1,47 +1,52 @@
-**Learning Memo 2 — Assumptions, Frameworks, and Design**
+**Learning Memo 2 — Philosophical Assumptions and Interpretive Framework**
+Article: Gioia, D. A., & Chittipeddi, K. (1991). *Sensemaking and sensegiving in strategic change
+initiation.* Strategic Management Journal, 12(6), 433–448.
 Yasir A. Malik · GEB 7911 · 24 August 2026
 
-Last week I wrote that my qualifying study failed because I had matched the wrong method to my
-question. Chapter 2 has made me revise that. The method was not the first mistake. The assumptions
-underneath it were, and I never made them — I inherited them.
+Gioia and Chittipeddi never state their philosophical assumptions. Working them out from the
+article is what taught me something, because I had to reason backwards from design choices to the
+commitments those choices imply — which is the exercise I never performed on my own study.
 
-Creswell and Poth ask four questions of any study: what the researcher takes reality to be, what
-counts as knowledge and how close the researcher stands to it, what part values play, and what
-procedures follow from those answers. I had answers to all four. I had never stated one of them.
+**Ontological.** They treat reality as multiple and participant-constructed. The strategic change
+they follow is not an event with one correct description; it exists as the president's vision, the
+deans' readings of that vision, and the faculty's readings of the deans — several realities in play
+at once. A single-reality assumption would have made the divergence between those accounts
+measurement error to be minimised. Here the divergence *is* the finding.
 
-My fifty-five items treated anchoring as a property auditors carry — stable enough to hold still
-while I measured it, and the same thing in each of them. That is a position on the nature of
-reality. I did not argue for it. It arrived with the instrument. The design also placed me outside
-what I was studying: a screener, a scale, a distance. That is a position on knowledge, and it came
-free with the survey rather than from anything I decided. When the panel returned roughly twenty
-eligible people out of 334,976, I read it as a sampling problem. The harder reading is that I had
-committed to a picture of the world in which "how much anchoring" is a sensible thing to ask, and
-then found the world would not hold still for it.
+**Epistemological.** Knowledge is produced by proximity, and they engineer proximity deliberately.
+One author was embedded on site as a participant-observer over an extended period; the other was
+kept away from direct contact. That arrangement is an epistemological claim: closeness is what
+generates understanding, and it is also what threatens it, so the research team is built to hold
+both positions at once. I find this the most instructive design decision in the paper.
 
-Chapter 3 gives that a name. A qualitative design is meant to be emergent — the question, the
-sampling, and the form of the data are allowed to move as the study learns. Mine could not move. It
-was fixed the moment I wrote the items, months before a single response arrived, and every decision
-afterwards was constrained by a commitment I made before I knew anything.
+**Axiological.** Values are acknowledged rather than controlled away. The insider/outsider split
+functions as a reflexivity mechanism — instead of asserting neutrality, they install a colleague
+whose job is to interrogate the insider's interpretations. Bias is treated as a condition to be
+managed in the open.
 
-Gioia and Chittipeddi (1991) is the contrast that makes this concrete. Their study states its
-position instead of assuming it: the researchers occupy declared insider and outsider roles, and
-that arrangement is not a limitation they apologise for but the instrument itself. Their credibility
-comes from showing the reader the route from what was observed to what is claimed, and inviting
-judgement on the route. Mine came from a statistic I had not earned.
+**Methodological.** Inductive and emergent. They work from first-order informant terms up to
+second-order theoretical constructs, and the design moves across two phases as understanding
+develops rather than being fixed in advance. The sensemaking–sensegiving cycle is an output of that
+process, not a proposition tested by it.
 
-This changes what I intend to propose this term. My dissertation extension argues three links — a
-system-generated figure functioning as an anchor, a model agreeing with a stated position rather
-than challenging it, and successive systems converging on each other instead of on evidence. The
-first is a magnitude question and a survey suits it. The second is not a magnitude question at all.
-Asking how much an auditor defers presumes that deferring is a quantity. Asking what an auditor
-understands themselves to be doing when the system speaks first presumes nothing, and it is the
-question I actually want answered.
+**Interpretive framework: social constructivism, with a post-positivist discipline running
+underneath it.** The ontology is constructivist — meaning is made by participants and the
+researchers build theory upward from it. But the procedures are not loose. The staged design, the
+systematic first- and second-order coding, and the structured second phase all look like moves
+borrowed from a post-positivist concern with defensible inference. Table 2.2 sorts these frameworks
+cleanly; this article sits less cleanly than the table implies.
 
-So the proposal I want to write is a phenomenological one, and I want its assumptions stated on the
-first page rather than smuggled in with the method.
+That mixture is the thing I want to take with me. I had assumed a framework was a single label
+selected before fieldwork. What the article shows is a constructivist ontology paired with
+procedural rigour ordinarily associated with the other camp — and the rigour is what makes the
+constructivism credible rather than merely asserted.
 
-I have spent two years being careful inside a frame I never examined. That is the more expensive
-kind of error, because nothing about it looks like a mistake while it is happening.
+This matters directly to my own proposal. My qualifying study committed, without my noticing, to an
+ontology in which anchoring is a stable property auditors carry and a quantity I could ask "how
+much" about. I never argued for it; it arrived with the fifty-five-item instrument. If I now want to
+ask what an auditor understands themselves to be doing when an AI system produces a conclusion
+before they have formed one, that is a constructivist question, and I will have to state the
+assumption on the first page rather than let the method smuggle it in again.
 
 ---
-*AI use: [COMPLETE HONESTLY BEFORE SUBMITTING]*
+*AI use: [COMPLETE HONESTLY BEFORE SUBMITTING — 25% CAP]*
