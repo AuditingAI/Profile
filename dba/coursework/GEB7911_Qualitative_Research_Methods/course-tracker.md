@@ -81,6 +81,19 @@ copy-paste artifact since Week 6 is a Zoom week per the schedule table. Treated 
   bias / AI-assisted audit judgment is the natural fit given the dissertation thread.
 - [ ] Textbook acquired — confirm.
 
+## Scholarly Exchanges — nothing to submit
+
+Confirmed from the Canvas item for Week 2 (100 points, dated 25 Aug): **"There's no additional
+preparation required by you… There's no Canvas post required. The exchange activities will be done
+during class."** Prompts are given in the room and draw on that week's readings and learning memo.
+
+This matches Week 1, which was likewise attendance and participation with no post. The points are
+earned by being present on video and contributing — they roll up into the 25% Scholarly Exchanges
+and Course Reflections component. **The date on the Canvas item is the class date, not a deadline.**
+
+⚠️ Video attendance is required and recordings do not count. Missing the Zoom forfeits the points
+outright; there is nothing to submit late.
+
 ## Reading list by week (full citations)
 
 **Weeks 1–2 (repeated):** Gioia & Chittipeddi (1991), *Strategic Management Journal* 12(6);
