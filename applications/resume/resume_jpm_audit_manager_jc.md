@@ -18,7 +18,7 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 **JPMorgan Chase — Capital Controller / CIB RRP Program Manager** · NY/NJ · *Mar 2015 – Feb 2019*
 - Audited **$50B** portfolio of **equities, fixed income, OTC derivatives** under **Basel III**; identified **$180M** capital optimization. Coordinated CIB regulatory deliverables across Legal, Treasury, Operations.
 
-**OCC / Federal Reserve / FDIC / FL OFR — Bank Examiner** · *Apr 2011 – Mar 2012* — Joint federal-state CAMELS examinations; FDIC Bank Examiner I.
+**Florida Office of Financial Regulation — Bank Examiner** · *Apr 2011 – Mar 2012* — Joint federal-state CAMELS examinations; FDIC Bank Examiner I.
 
 ## EDUCATION
 - **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment

@@ -8,9 +8,9 @@ Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/y
 
 ## SUMMARY
 
-AI assurance and audit executive with 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC). Built independent assurance over enterprise AI/GenAI adoption — governance, model risk (SR 11-7), bias and fairness, hallucination, adversarial robustness, and third-party AI — and embedded AI-enabled audit accelerators that cut cycle time **35%**. Track record influencing examiners and audit committees on consent-order remediation, CCAR forecast validation across a **$2.6T** balance sheet, and Resolution & Recovery Planning that achieved the Federal Reserve's "not not-credible" rating. DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Founder, *Audit the Algorithm* — AI governance advisory for regulated financial services.
+AI assurance and audit executive with 15+ years across Citi, JPMorgan, and the Florida Office of Financial Regulation, with examination experience alongside federal banking regulators. Built independent assurance over enterprise AI/GenAI adoption — governance, model risk (SR 11-7), bias and fairness, hallucination, adversarial robustness, and third-party AI — and embedded AI-enabled audit accelerators that cut cycle time **35%**. Track record influencing examiners and audit committees on consent-order remediation, CCAR forecast validation across a **$2.6T** balance sheet, and Resolution & Recovery Planning that achieved the Federal Reserve's "not not-credible" rating. DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Founder, *Audit the Algorithm* — AI governance advisory for regulated financial services.
 
-**Core domains:** AI/GenAI assurance • Model Risk Management (SR 11-7) • NIST AI RMF • EU AI Act • ISO/IEC 42001 & 23894 • Internal Audit (IIA / 3LOD) • Responsible AI • CCAR, RRP, Basel III • Consent order remediation • Regulator engagement (OCC, Fed, FDIC).
+**Core domains:** AI/GenAI assurance • Model Risk Management (SR 11-7) • NIST AI RMF • EU AI Act • ISO/IEC 42001 & 23894 • Internal Audit (IIA / 3LOD) • Responsible AI • CCAR, RRP, Basel III • Consent order remediation • Regulator engagement (state and federal banking regulators).
 
 **Most relevant skills (per current market):** Control monitoring • Risk-based audit planning • Issue management • Root cause analysis • AI model validation • MLOps awareness • XAI (SHAP / LIME) • RAG architecture • Human-in-the-loop control design • Audit committee and regulator communication.
 
@@ -55,7 +55,7 @@ AI assurance and audit executive with 15+ years across Citi, JPMorgan, and U.S. 
 - Partnered with Compliance and Legal to standardize entity classifications, KYC linkage, and intra-group exposure reporting.
 
 ### Bank Examiner — Safety & Soundness
-**OCC / Federal Reserve / FDIC / FL Office of Financial Regulation** • West Palm Beach, FL • *Apr 2011 – Mar 2012*
+**Florida Office of Financial Regulation** • West Palm Beach, FL • *Apr 2011 – Mar 2012*
 
 - Conducted joint examinations of state and national banks using the **CAMELS** framework — capital adequacy, asset quality, management effectiveness, earnings, liquidity, and sensitivity to market risk.
 - Authored examination workpapers and supported formal enforcement actions, remediation directives, and follow-up reviews for complex institutions.

@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Former **federal bank examiner** (OCC / FL Office of Financial Regulation) who conducted safety-and-soundness examinations and **contributed to formal enforcement actions**, then spent a decade holding a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. Twenty years of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** (expected 2028) researching bias in professional judgment; completed an IRB-approved empirical study in July 2026 and is extending it to AI-assisted decisions — directly relevant as public agencies adopt automated decision systems.
+Former **bank examiner** (Florida Office of Financial Regulation) who conducted safety-and-soundness examinations alongside federal banking regulators and **contributed to formal enforcement actions**, then spent a decade holding a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. Twenty years of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** (expected 2028) researching bias in professional judgment; completed an IRB-approved empirical study in July 2026 and is extending it to AI-assisted decisions — directly relevant as public agencies adopt automated decision systems.
 
 ## EXPERIENCE
 
@@ -13,7 +13,7 @@ Former **federal bank examiner** (OCC / FL Office of Financial Regulation) who c
 - Investigated control failures to root cause across legal-entity divestitures; escalated findings and reported to senior leadership and the **Board Audit Committee**.
 - Authored an **AI governance framework** (NIST AI RMF, SR 11-7) covering model inventory, explainability, and human-in-the-loop controls; built a RAG document assistant that cut review cycle time **~35%**.
 
-**OCC / FL Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012*
+**Florida Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012*
 - Conducted **safety-and-soundness examinations** evaluating credit, liquidity, and operational risk; authored examination workpapers and **contributed to enforcement actions** and remediation monitoring. **FDIC Bank Examiner I**.
 
 **JPMorgan Chase — Risk Control Manager, Treasury & CIO** · Jersey City, NJ · *Mar 2019 – Jun 2021*

@@ -6,7 +6,7 @@ said out loud in the interview.
 
 | Item | Say this | Not this |
 |---|---|---|
-| Examiner history | OCC and the Florida Office of Financial Regulation | Federal Reserve Bank of Atlanta |
+| Examiner history | Florida Office of Financial Regulation (also examined banks alongside federal banking regulators — do not name which one) | OCC, or naming the Federal Reserve/FDIC specifically |
 | Tenure | ~20 years audit and risk (5 at Citi, 6 at JPMorgan, plus earlier roles) | "15 years" |
 | DBA | Candidate, FIU, expected 2028, GPA 3.81 | "2027," GPA 3.87, or implying it's complete |
 | IRB-25-0462 | Covers the completed anchoring-bias qualifying research (Jul 2026) only | The automation-bias dissertation — that is not approved, it's in development |

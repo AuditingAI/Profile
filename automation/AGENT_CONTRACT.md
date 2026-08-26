@@ -74,7 +74,7 @@ shipped document at least once:
 | Current employer | None — Citi role ended April 2026 (layoff) |
 | Degree in progress | DBA, Florida International University, expected 2028 |
 | Certifications | FDIC Bank Examiner I. **CIA is in progress, not held.** |
-| Examiner history | OCC and the Florida Office of Financial Regulation |
+| Examiner history | Florida Office of Financial Regulation |
 
 **Never answer these; leave them for Yasir.** Immigration and work
 authorization questions, salary *history* (as opposed to expectation),

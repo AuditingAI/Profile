@@ -20,7 +20,7 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 **JPMorgan Chase — Capital Controller, Basel Measurement** · Brooklyn, NY · *Sep 2017 – Feb 2019*
 - Owned **Basel III** RWA for a **$50B** equity book; identified **$180M** in capital optimization through portfolio analysis.
 
-**OCC / Federal Reserve / FDIC / FL OFR — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012*
+**Florida Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012*
 - Conducted joint federal-state CAMELS examinations; authored examination workpapers supporting formal enforcement actions. FDIC Bank Examiner I.
 
 ## EDUCATION
@@ -29,7 +29,7 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 
 ## SKILLS
 **Regulatory frameworks:** NIST AI RMF · SR 11-7 · ISO/IEC 42001, 23894, 27001 · EU AI Act · Colorado AI Act · PCAOB AS · Basel III · CCAR/SR 15-18 · COSO · COBIT · IIA Standards · Three Lines of Defense
-**Regulatory program management:** Third-party audit coordination · OCC/Fed/FDIC examiner engagement · Consent-order remediation · Issue management · Root-cause analysis · Cross-functional stakeholder management · Policy, process, and training design
+**Regulatory program management:** Third-party audit coordination · federal banking examiner engagement · Consent-order remediation · Issue management · Root-cause analysis · Cross-functional stakeholder management · Policy, process, and training design
 **AI/ML & technical:** Python · LangChain · RAG architectures · SHAP/LIME · Prompt engineering · Model risk tiering · AI red teaming · MLOps awareness · AWS SageMaker · Anthropic Claude API · SQL · Tableau
 
 ## CERTIFICATIONS

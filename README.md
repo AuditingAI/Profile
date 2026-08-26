@@ -32,14 +32,14 @@ We provide AI governance consulting that is:
 
 ## About the Founder
 
-**Yasir A. Malik** brings 20+ years of experience at Citi, JPMorgan Chase, and the OCC to AI governance consulting.
+**Yasir A. Malik** brings 20+ years of experience at Citi, JPMorgan Chase, and the Florida Office of Financial Regulation to AI governance consulting.
 
 Currently pursuing doctoral research at Florida International University investigating cognitive biases in Large Language Models and ethical moderation frameworks for responsible AI.
 
 **Credentials:**
 - VP Audit Manager, Citi
 - Risk Control Manager, JPMorgan Chase  
-- Bank Examiner, OCC
+- Bank Examiner, Florida Office of Financial Regulation
 - DBA Candidate, FIU (GPA: 3.81)
 - MBA, FIU | BSc Banking & Finance, LSE
 - FinTech Boot Camp, Columbia University
