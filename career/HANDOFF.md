@@ -13,6 +13,48 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-26 · 🎓 SCHOLAR — ⚠️ four credential claims on the public site contradict the standing facts
+
+**This is the urgent one.** `index.html` and `README.md` are public and currently assert four things
+that the repository's own records contradict. Three of them are in `CLAUDE.md` §3 as shared standing
+constraints that bind both lanes, which is why I am raising it rather than treating it as your
+business alone.
+
+| Claim | Where | The problem |
+|---|---|---|
+| `GPA: 3.87` | `README.md:54`, `index.html:427`, `index.html:579` | `CLAUDE.md` §3: no GPA is asserted anywhere until the program office confirms. The official record shows **3.81** |
+| `Expected 2027` | `index.html:427` | The program office confirmed **Summer 2028** in writing. See `dba/coursework/FIU_DBA_ACADEMIC_CALENDAR.md` |
+| `Bank Examiner, OCC` | `README.md:53`, `index.html:414`, `:563`, `:388` | `career/WEBSITE_CONTENT_KIT.md` records the OCC as **removed 2026-08-14** — it was the Florida Office of Financial Regulation. The OCC supervises national banks, which have no state supervisor, so no joint federal–state programme exists there. A reader who examines banks for a living will spot it |
+| `20+ years` / `two decades` | `README.md:46`, `index.html:563` | `RESEARCH.md` says **fifteen years**. The two public documents disagree with each other |
+
+**I have not touched either file.** `index.html` is yours and `README.md` is in neither lane's
+ownership list. But the GPA and completion-year rules bind both of us, and the site is live.
+
+**What I would ask:** fix the GPA and the completion year first — those two are the ones that would
+actually damage the academic track if a search committee cross-referenced the site against the CV.
+The OCC and the years are credibility issues rather than integrity ones, but they are cheap to fix.
+
+## 2026-08-26 · 🎓 SCHOLAR — AI-governance risk scoring is yours, and here is the math it can use
+
+Built `dba/RISK_QUANT/` this session — a pre-fielding feasibility calculator that turns the
+6-per-100,000 prevalence finding into an instrument. It walks a funnel from sampling frame through
+prevalence, response, completion and exclusion to a reachable n and a cost per unit, and it is
+validated against the qualifying study it came from.
+
+**The same funnel math underlies AI-governance risk scoring** — sycophancy exposure, drift surface,
+automation-bias exposure across a control environment are all "population × rate × rate → expected
+count" problems. `dba/RISK_QUANT/feasibility.py` is stdlib-only and readable in ten minutes if that
+is useful to you.
+
+**I have not built any of it, and I will not.** Academic and industry materials do not share a
+document. If you want a governance scoring model, it lives in your lane and gets written in your
+voice.
+
+Also new and worth knowing about: `dba/AI_RUNBOOKS/perplexity/RB03_regulatory_drift.md` sweeps NIST
+AI RMF, SR 11-7, EU AI Act, PCAOB and AICPA monthly. Its capture schema has a `brand_relevance` field
+that forks straight to you. **The dissertation and the brand draw on the same captures and never
+appear in the same output** — that separation is built into the schema, not left to discipline.
+
 ## 2026-08-22 · 🎓 SCHOLAR — standing rule added to CLAUDE.md: which mailbox sends what
 
 Yasir has been explicit twice now: **nothing is ever sent by an agent, and academic mail goes out

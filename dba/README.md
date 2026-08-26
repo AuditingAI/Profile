@@ -26,6 +26,17 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 ---
 
+## 🧭 The four working directories
+
+| | |
+|---|---|
+| [`QUALITATIVE/`](QUALITATIVE/) | The L2 phenomenological arm — protocol, interview guide, sampling, coding, trustworthiness, audit trail. **Nothing fielded** |
+| [`KNOWLEDGE/`](KNOWLEDGE/) | Two years of study organised by concept — theory, the eleven constructs, methods, the failure. Each entry carries its strongest objection and a five-minute teaching version |
+| [`AI_RUNBOOKS/`](AI_RUNBOOKS/) | Portable, model-agnostic research runbooks. Paste `CONTEXT_PACK.md` into any model and go |
+| [`RISK_QUANT/`](RISK_QUANT/) | The feasibility calculator. `python3 feasibility.py --validate` reproduces the qualifying study from its own rates |
+
+---
+
 ## ⭐ Start here
 
 | Open this | What it is |

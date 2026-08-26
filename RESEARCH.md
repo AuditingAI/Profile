@@ -108,9 +108,23 @@ by tracing them back.
 
 ## Where it is going
 
-- **P1** — the feasibility manuscript, drafted, four items blocking submission
-- **The qualitative arm** — proposal in development
+- **P1** — the feasibility manuscript, drafted, four items blocking submission. Its central argument
+  is now an instrument rather than an anecdote: [`dba/RISK_QUANT/`](dba/RISK_QUANT/) reproduces the
+  study from its own rates and shows that a survey at this prevalence needed a frame of ~9.6 million.
+- **The qualitative arm** — [`dba/QUALITATIVE/`](dba/QUALITATIVE/). Phenomenological protocol written
+  for L2: sampling, interview guide, coding plan, trustworthiness criteria, and an append-only audit
+  trail. Falsification conditions are stated before any data exists. **Nothing fielded, zero
+  participants, IRB modification not submitted.** L3 is deliberately not designed — it needs
+  longitudinal access that does not exist.
 - **AIB Latin America 2027**, San Juan — poster/interactive track, submission window 20 November 2026
+
+### The research infrastructure
+
+- [`dba/KNOWLEDGE/`](dba/KNOWLEDGE/) — the theory, the eleven constructs, the methods and the failure,
+  organised by concept rather than by document, each with its strongest objection stated.
+- [`dba/AI_RUNBOOKS/`](dba/AI_RUNBOOKS/) — model-agnostic research runbooks in plain markdown. The
+  repository is the memory; the model is swappable. Every captured source starts as a *lead* and only
+  becomes a citation once it has been read in full.
 
 ---
 
