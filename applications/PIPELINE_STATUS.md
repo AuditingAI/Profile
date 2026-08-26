@@ -11,7 +11,17 @@ Canonical record of what is live and what is closed. **Check the CLOSED list
 before drafting anything.** Re-raising a dead lead wastes the owner's time and
 is the single most annoying failure mode of this workflow.
 
-Last updated: 2026-08-07.
+Last updated: 2026-08-25 — synced to Notion (Job Pipeline row added for
+JPMorgan req 210759059 at **Interview** stage; "📌 Status — 25 Aug 2026" page
+created under Career Command Center; "Closed — do not contact" view added).
+
+## LIVE — the one that matters right now
+
+**JPMorgan — Internal Audit Manager VP, CIB Finance (req 210759059).**
+Recruiter screen cleared 17 Aug (Joshua Goot: "We should be good to proceed
+with interviews"). Comp discussed at $190K base + bonus, not confirmed.
+Scheduling coordinator has been silent since — **owner should nudge Goot by
+email.** Prep pack: `applications/interview_prep/jpm_210759059/`.
 
 ## CLOSED — do not contact, do not resurface
 
