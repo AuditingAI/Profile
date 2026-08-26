@@ -1,0 +1,366 @@
+================================================================================
+  FLIGHT PACK  --  Wed 26 Aug 2026  --  MIA to LGA
+  Yasir A. Malik  --  FIU DBA Cohort 8.14
+  Everything below opens in Notepad. Links are plain. Nothing needs an app.
+================================================================================
+
+  READ THIS FIRST
+  ---------------
+  You present TOMORROW, Thursday 27 August, 7:00 PM ET.
+  You go first. Newburry's email, 22 Aug: "Daniela and Yasir, who graciously
+  volunteered to go first."
+
+  The deck is built. The write-up is built. What is NOT done is listed at the
+  bottom under STILL OPEN. Read that before you read anything else.
+
+
+================================================================================
+  1. TOMORROW -- WHAT IS ACTUALLY DUE
+================================================================================
+
+  THU 27 AUG, 7:00 PM ET  --  GEB 7365 Zoom, YOU PRESENT
+    https://fiu.zoom.us/j/88619828274?pwd=OnGYYeFJ6MSoAWUfK9O6mYwUkgDZpC.1
+    (The 835 3676 2819 link in the syllabus is SUPERSEDED. Do not use it.)
+
+    Module 2: Internationalization and Performance
+    Partner: DANIELA GARCIA AGUIRRE  (Group A -- module only)
+    NOT Anna. Anna Micheletti Banegas is your RESEARCH PROJECT group (Group B).
+    Two different assignments. The professor corrected a student on exactly
+    this confusion in the room.
+
+    DELIVERABLES
+      - <=10 min shared presentation          DECK BUILT (9 slides)
+      - <=10 page write-up, INDIVIDUAL        DRAFT BUILT (1,854 words)
+        His rule, verbatim: "It's fine to do that for the presentation, but
+        for the write-up, you should still analyze all four."
+      - Initial Project Idea, <=3 pages       NOT BUILT -- date disputed,
+                                              bring it anyway
+
+    Office hours 4:00-6:00 PM, three hours before class, if anything is unclear.
+
+
+================================================================================
+  2. THE SPINE -- MEMORISE THIS ONE SENTENCE
+================================================================================
+
+  "All four papers are about the same failure: the field kept measuring the
+   wrong thing, or measuring one thing while believing it had measured
+   another."
+
+  CONTRACTOR  measured segments of one curve, reported them as different
+              relationships
+  MEZIAS      the field measured aggregate performance and believed it had
+              measured foreignness
+  GHEMAWAT    practitioners measured market size and believed they had
+              measured opportunity
+  ARREGLE     30 years, 220 studies, still "varied and at times incompatible
+              findings"
+
+  That is not four topics. It is one diagnosis, four times.
+
+
+================================================================================
+  3. THE FOUR PAPERS -- QUOTE, NUMBER, AND THE POINT
+================================================================================
+
+  [1] CONTRACTOR, KUNDU & HSU (2003), JIBS 34(1): 5-18
+      "A three-stage theory of international expansion"
+      https://scholar.google.com/scholar?q=%22A+three-stage+theory+of+international+expansion%22
+
+      THE CLAIM: the multinationality-performance relationship is SIGMOID.
+      Stage 1 negative (liability of foreignness, learning costs, no scale)
+      Stage 2 positive (scale, scope, learning outweigh the costs)
+      Stage 3 negative again (cost of managing scattered operations)
+
+      THE QUOTE THAT DOES THE WORK:
+      "Depending on which part of Figure 1 we examined, we can find linear
+       (positive and negative), U-shaped, and inverted-U-shaped segments."
+
+      THE SUB-FINDING: knowledge-based service firms (advertising, market
+      research, securities, publishing) over-expand into Stage 3 more readily
+      than capital-intensive ones (airlines, hotels, construction, retail),
+      because fixed-asset exposure is lower.
+
+      THE PRACTICE LINE:
+      "Few companies possess the managerial tools that would tell them when
+       they have over-internationalized."
+
+  [2] MEZIAS (2002), SMJ 23(3): 229-244
+      "Identifying liabilities of foreignness and strategies to minimize
+       their effects"
+      https://scholar.google.com/scholar?q=%22Identifying+liabilities+of+foreignness%22
+
+      THE MOVE: everyone agreed LOF existed, nobody could isolate it, because
+      performance measures aggregate advantages and disadvantages and transfer
+      pricing contaminates what is left. He finds a trace that does neither.
+
+      DESIGN: 486 British, German and Japanese subsidiaries in the US, matched
+      against 486 US-owned firms in the same industries and cities.
+
+      THE QUOTE:
+      "While most performance measures aggregate advantages and disadvantages,
+       labor lawsuits only measure labor-related disadvantage. Also, income
+       shifting or transfer pricing between parent and subsidiary do not
+       affect this measure."
+
+      THE STAKES: employee plaintiffs won 78.9% of defamation cases, 70.0% of
+      sexual discrimination and harassment, 58.4% of wrongful discharge.
+      Average jury award over $600,000. Legal fees averaging $100,000 to trial.
+
+  [3] GHEMAWAT (2001), HBR 79(8): 137-147
+      "Distance still matters: the hard reality of global expansion"
+      https://scholar.google.com/scholar?q=%22Distance+still+matters%22+Ghemawat
+
+      THE CLAIM: country portfolio analysis reads GDP, consumer wealth and
+      propensity to consume. It measures MARKET SIZE and is used as though it
+      measured OPPORTUNITY.
+
+      THE QUOTE:
+      "It ignores the costs and risks of doing business in a new market. Most
+       of those costs and risks result from barriers created by distance."
+
+      CAGE -- distance is FOUR things, not one:
+        C  Cultural       language, ethnicity, social norms, religion
+        A  Administrative colonial ties, currency, trade blocs, hostility
+        G  Geographic     physical distance, borders, transport, climate
+        E  Economic       consumer wealth, cost of resources, infrastructure
+
+      STAR TV: News Corporation paid roughly $825m 1993-95, reasoning that
+      satellite delivery beat geographic distance and English-language
+      programming beat the rest. Losses of roughly $500m across FY1996-99.
+      Geographic distance was the only kind they had actually solved.
+
+  [4] ARREGLE, CHIRICO, KANO, KUNDU, MAJOCCHI & SCHULZE (2021), JIBS 52: 1159-1198
+      "Family firm internationalization: past research and an agenda"
+      https://scholar.google.com/scholar?q=%22Family+firm+internationalization%22+Arregle
+
+      SCALE: 220 studies across three decades.
+
+      THE QUOTE:
+      "...has offered varied and at times incompatible findings on how family
+       ownership and management shape internationalization."
+
+      SEVEN IB THEMES: scale/depth, scope/breadth, entry mode, location,
+      process, timing and rhythm, PERFORMANCE.
+      Theme 7 is Contractor's question, asked of a different population,
+      eighteen years later. Still unresolved.
+
+
+================================================================================
+  4. THE ONE THING TO SAY OUT LOUD
+================================================================================
+
+  SUMIT K. KUNDU OF FIU is an author on BOTH Contractor (2003) and
+  Arregle (2021). Eighteen years apart. Same question about performance.
+  Still unresolved.
+
+  Nobody else in the room will have noticed. Say it near the close.
+
+
+================================================================================
+  5. THE SPLIT WITH DANIELA
+================================================================================
+
+  YOU     the SHAPE of the relationship
+          Contractor (the sigmoid), with Arregle as the same question asked
+          of family firms and still unresolved
+
+  DANIELA what the shape is MADE OF
+          Mezias (isolating the cost of foreignness), Ghemawat (what distance
+          actually contains)
+
+  BOTH    close on the measurement through-line and the forward connections
+
+  Slides 6 and 7 of the deck are hers, held as placeholders with her talking
+  points already on them. She can drop her own in or use those.
+
+  THE SPLIT IS FOR THE PRESENTATION ONLY. The write-ups are individual and
+  still analyse all four. Say that to her when you send the deck.
+
+
+================================================================================
+  6. FORWARD CONNECTIONS -- IF HE ASKS "SO WHAT"
+================================================================================
+
+  3 SEP, ENTRY MODE      If Stage 1 is genuinely negative, entry mode is a
+                         decision about how much of that early cost to absorb
+                         at once. Reframes entry mode as partly about POSITION
+                         ON THE CURVE, not only transaction costs and control.
+
+  24 SEP, INSTITUTIONS   Ghemawat's CAGE is a pre-Hofstede, pre-GLOBE way of
+                         saying what that session says with formal distance
+                         measures. Raises the question of whether
+                         formalisation improved the measurement or just made
+                         it look more precise.
+
+  BACK TO RESIDENCY 1    Rugman and Verbeke's firm-specific advantages are what
+                         carry a firm through Stage 1 at all. Without them the
+                         sigmoid is a description, not an explanation.
+
+  TO YOUR OWN WORK       A literature that cannot converge because it cannot
+                         agree on a measure has a METHODS problem, not a theory
+                         problem. Your qualifying study: 55 items, ~20 eligible
+                         out of 334,976. Same diagnosis, different scale.
+
+
+================================================================================
+  7. WHAT HE GRADES ON -- GEB 7365
+================================================================================
+
+  Formal Project Report        30%
+  Class Participation          20%
+  Topic Area Summary           20%
+  Project Presentation         20%
+  Initial Project Idea          5%
+  Peer Evaluations              5%
+
+  LATE: flat -15%, not accepted more than one week past due.
+  Assignments due BEFORE class on the due date.
+
+  GRADE SCALE: A 95-100, A- 90-94, B+ 87-89, B 83-86, B- 80-82.
+  "At the doctoral level, anything less than an A is considered sub-level
+   performance. I will only be assigning grades of A, A-, or B for this
+   seminar."
+
+  HOW HE WANTS THE RESEARCH TURNED IN:
+    Formal Project Report -- <=30 pages double-spaced, 12-point, inclusive of
+    everything, following ACADEMY OF INTERNATIONAL BUSINESS / JOURNAL OF
+    INTERNATIONAL BUSINESS STUDIES formatting.
+    JIBS style guide: https://www.palgrave.com/gp/journal/41267/authors
+
+    Project Presentation -- 10-15 min, CONTENT OVER STYLE, presenter name on
+    the BOTTOM OF EVERY SLIDE, emailed to Newburry by MIDNIGHT THE DAY BEFORE,
+    no changes accepted after that.
+
+
+================================================================================
+  8. THREE DATES HE HAS NOT SETTLED
+================================================================================
+
+  Newburry, 20 Aug: "Somehow, it seems you have an older version of the
+  syllabus... The dates in Canvas are correct. We will also go over these in
+  class so that everyone is clear on the requirements."
+
+  ASSIGNMENT              OLD SYLLABUS   CANVAS PROSE        WORK TO
+  Initial Project Idea    27 Aug         Sept 3-5            27 AUG
+  Project Presentation    19 Sep         Sept 27-28 res.     19 SEP
+  Formal Project Report    9 Oct         October 7            7 OCT
+
+  Early costs nothing. Late costs 15%. ASK HIM IN CLASS TOMORROW.
+
+
+================================================================================
+  9. THE OTHER COURSE -- GEB 7911, GONZALEZ
+================================================================================
+
+  Week 2 memo: SUBMITTED Mon 24 Aug. Week 2 Zoom: ATTENDED Tue 25 Aug.
+  Week 3 memo due MON 31 AUG 11:59 PM. Class Tue 1 Sep 7:00-9:30 PM.
+    Weeks 2-4 Zoom: https://fiu.zoom.us/j/82753821157?pwd=ZY2tBsrlJoIhPVGkmgfnbaaEvrnwgv.1
+
+  Week 3 topic: Introducing and Focusing the Study
+  Reading: Salo, Pirkkalainen, Chua & Koskelainen (2022), MIS Quarterly 46(2)
+    https://scholar.google.com/scholar?q=Salo+Pirkkalainen+Chua+Koskelainen+technostress
+
+  WHAT YOU ARGUED IN CLASS TUESDAY, so you stay consistent:
+  Gioia and Chittipeddi are social constructivist in ontology and run
+  post-positivist procedural discipline underneath. Table 2.2 has no box for
+  that, and the rigour is what makes the constructivism credible rather than
+  merely asserted.
+
+  Her AI policy: 25% cap, must label what was AI-written.
+  Newburry's AI policy: ADDED TO THE SYLLABUS 20 AUG. YOU HAVE NOT READ IT.
+  DO NOT ASSUME IT MATCHES 25%.
+
+
+================================================================================
+  10. YOUR OWN FILES -- GITHUB, ALL PUBLIC, ALL PLAIN LINKS
+================================================================================
+
+  START HERE
+  https://github.com/AuditingAI/Profile
+  https://github.com/AuditingAI/Profile/blob/main/RESEARCH.md
+
+  TOMORROW'S MATERIAL
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/MODULE_PRESENTATION_Aug27.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/MODULE_WRITEUP_draft.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/course-tracker.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/MESSAGE_DRAFT_Daniela.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/MESSAGE_DRAFT_Anna_GroupB.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/GEB7365_International_Business/EMAIL_DRAFT_Newburry.md
+
+  READING AND THEORY -- the two files to actually read on the plane
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/THEORY_MAP.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/READINGS.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/coursework/HOW_TO_READ.md
+
+  THE NEW KNOWLEDGE CANON -- built this week, teach from these
+  https://github.com/AuditingAI/Profile/blob/main/dba/KNOWLEDGE/README.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/KNOWLEDGE/01_THEORY.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/KNOWLEDGE/02_CONSTRUCTS.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/KNOWLEDGE/03_METHOD.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/KNOWLEDGE/04_THE_FAILURE.md
+
+  THE QUALITATIVE ARM -- for Gonzalez's proposal, 50% of that grade
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/README.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/PROTOCOL_phenomenology.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/INTERVIEW_GUIDE.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/SAMPLING_AND_RECRUITMENT.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/CODING_PLAN.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/TRUSTWORTHINESS.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/QUALITATIVE/AUDIT_TRAIL.md
+
+  AI RUNBOOKS -- paste CONTEXT_PACK into Perplexity and go
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/README.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/CONTEXT_PACK.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/SCHEMAS.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/perplexity/RB01_recruitment_precedent.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/perplexity/RB02_ai_audit_empirics.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/AI_RUNBOOKS/perplexity/RB03_regulatory_drift.md
+
+  FEASIBILITY CALCULATOR
+  https://github.com/AuditingAI/Profile/blob/main/dba/RISK_QUANT/FEASIBILITY_MODEL.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/RISK_QUANT/feasibility.py
+
+  THE STUDY RECORD
+  https://github.com/AuditingAI/Profile/blob/main/dba/STUDY_OVERVIEW.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/PUBLICATION_TRACKER.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/00_Execution/QUALITATIVE_REFRAME_L2_L3.md
+  https://github.com/AuditingAI/Profile/blob/main/dba/00_Execution/RECRUITMENT_PLAN_LinkedIn.md
+
+  RAW MARKDOWN -- if a page will not render, swap blob for raw:
+  https://raw.githubusercontent.com/AuditingAI/Profile/main/dba/KNOWLEDGE/01_THEORY.md
+
+
+================================================================================
+  11. STILL OPEN -- THE HONEST LIST
+================================================================================
+
+  [ ] EMAIL NEWBURRY the group selection (Group B, Anna Micheletti Banegas)
+      and the topic area FOR APPROVAL. His words: "prior to doing extensive
+      work." THIS IS A GATE ON THE 30% REPORT. Draft is in the repo.
+
+  [ ] SEND DANIELA the deck and the split. Draft is in the repo.
+
+  [ ] MESSAGE ANNA about the research project. Draft is in the repo,
+      readdressed -- it had the wrong name on it.
+
+  [ ] RE-DOWNLOAD THE GEB 7365 SYLLABUS. The AI policy was added 20 Aug and
+      you have not read it. Do this BEFORE using AI on anything for his course.
+
+  [ ] READ THE MODULE 1 SLIDE DECK ON CANVAS. It describes the project and is
+      in neither syllabus PDF.
+
+  [ ] INITIAL PROJECT IDEA, <=3 pages. Not written. Bring it tomorrow anyway.
+
+  [ ] CHOOSE THE TOPIC AREA for the 20% Topic Area Summary.
+
+  [ ] CHAPTERS 4-6 to Dr. Rey. Overdue since 28 July.
+
+  [ ] GPA AND COMPLETION YEAR still wrong on the public site. index.html says
+      GPA 3.87 and "Expected 2027". Official record shows 3.81, program office
+      confirmed Summer 2028. Flagged in career/HANDOFF.md.
+
+
+================================================================================
+  END. Read section 2 twice. Everything else is support.
+================================================================================

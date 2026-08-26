@@ -1,6 +1,6 @@
 # Draft to Daniela Garcia Aguirre — module presentation, Thursday 27 August
 
-**Channel: Canvas Inbox.** Send Tuesday morning — she needs time to answer and you present Thursday.
+**Channel: Canvas Inbox. Send tonight or first thing tomorrow — you present Thursday 7pm and she needs time to answer.**
 Nothing is sent from here.
 
 > **Subject:** Thursday's module — a proposed split
@@ -38,7 +38,14 @@ Nothing is sent from here.
 > One thing worth flagging: the split is for the presentation only. Bill was explicit that the
 > write-ups are individual and still have to analyse all four.
 >
-> Are you free for twenty minutes on Wednesday to run it once with a timer? Ten minutes goes faster
+> **I've built a draft deck** so we have something to work from rather than starting cold — nine
+> slides, and slides 6 and 7 are yours, held blank with talking points on them. Swap in your own or
+> use those, whichever is easier. I'll send it right after this.
+>
+> I've also put a shared minutes page together for tonight so we can capture what Bill settles on the
+> three disputed dates — he said he'd go over them in class. I'll share the link.
+>
+> Are you free for twenty minutes before class to run it once with a timer? Ten minutes goes faster
 > than it sounds.
 >
 > Best,
