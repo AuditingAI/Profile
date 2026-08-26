@@ -1,0 +1,27 @@
+{
+  "id": "368c8dfbef3f1820",
+  "discovered_at": "2026-08-26T11:03:10Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Account Executive, AI Sales",
+  "location": "San Francisco, CA",
+  "url": "https://stripe.com/jobs/search?gh_jid=7532733",
+  "score": 3,
+  "score_reasons": [
+    "ai-adjacent",
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
