@@ -1,0 +1,214 @@
+================================================================================
+  SPEAKER SCRIPT  --  GEB 7365 Module 2  --  Thu 27 Aug, 7:00 PM
+  Your half. Five minutes. Six slides. Fifty seconds each.
+  Keep this open next to Zoom. Do not read it aloud. Glance and talk.
+================================================================================
+
+  THE ONLY THING YOU MUST NOT FORGET
+  ----------------------------------
+  "The field kept measuring the wrong thing, or measuring one thing while
+   believing it had measured another."
+
+  If you blank at any point, say that sentence and keep going. Every slide
+  is an instance of it.
+
+
+================================================================================
+  SLIDE 1  --  HANDOFF                                        ~30 sec
+================================================================================
+
+  SAY:
+  "Thanks Daniela. She's shown us where the field disagrees and what distance
+   is actually made of. I want to ask a narrower question -- when the field
+   couldn't agree, what exactly was it measuring?
+
+   Two papers. Contractor, and Mezias. Then I'll pull all four together."
+
+  THAT'S IT. Move on. Do not explain the papers here.
+
+
+================================================================================
+  SLIDE 2  --  CONTRACTOR'S CURVE                             ~70 sec
+================================================================================
+
+  POINT AT THE CURVE. Let it do the work.
+
+  SAY:
+  "For thirty years this literature reported four different answers. Positive.
+   Negative. U-shaped. Inverted-U. All with real data.
+
+   Contractor, Kundu and Hsu say they were all looking at the same curve.
+   It's sigmoid. Three stages.
+
+   Stage one is negative -- liability of foreignness, learning costs, no scale
+   yet. Stage two turns positive as scale and learning outweigh the cost.
+   Stage three goes negative again because managing scattered operations
+   gets expensive.
+
+   Here's the line that matters." [PAUSE]
+
+  "Sample only the middle, and you publish a positive linear relationship.
+   Sample the ends, you publish an inverted U. The disagreement was partly
+   artefactual. The field wasn't arguing about firms -- it was sampling
+   different pieces of one curve."
+
+  ONE NUMBER TO REMEMBER: none. This slide is a picture.
+
+
+================================================================================
+  SLIDE 3  --  THE PRACTICE LINE                              ~55 sec
+================================================================================
+
+  SAY:
+  "There's a second finding that gets less attention and I think matters more.
+
+   Knowledge-based service firms -- advertising, market research, securities --
+   push into that bad third stage more readily than capital-intensive firms
+   like airlines or hotels. Lower fixed assets, so one more market is easy to
+   say yes to.
+
+   And then Contractor writes this." [READ THE QUOTE OFF THE SLIDE]
+
+   "'Few companies possess the managerial tools that would tell them when they
+    have over-internationalized.'
+
+   So if the relationship really is sigmoid, then 'should we internationalise?'
+   is the wrong question. 'Where are we on the curve?' is the right one --
+   and almost nobody can answer it."
+
+
+================================================================================
+  SLIDE 4  --  MEZIAS                                         ~70 sec
+================================================================================
+
+  SAY:
+  "Mezias is the craft lesson.
+
+   Everybody agreed liability of foreignness existed. Nobody could isolate it.
+   Why? Because performance measures roll advantages and disadvantages into one
+   number, and transfer pricing contaminates whatever's left.
+
+   So he stops trying to fix the measure. He finds a different one entirely --
+   US labour lawsuit judgments." [POINT AT THE QUOTE]
+
+  "'Labor lawsuits only measure labor-related disadvantage.'
+
+   The design is 486 foreign subsidiaries matched against 486 US-owned firms,
+   same industries, same cities. Average jury award over six hundred thousand
+   dollars, so this is real money, not a proxy nobody cares about.
+
+   The point isn't the lawsuits. It's that he did not improve the measurement
+   of performance. He abandoned it."
+
+  THREE NUMBERS: 486. 486. $600k.
+
+
+================================================================================
+  SLIDE 5  --  THE CONCLUSION                                 ~80 sec
+================================================================================
+
+  THIS IS YOUR SLIDE. Slow down here.
+
+  SAY:
+  "So let me pull all four together, Daniela's included.
+
+   These aren't four topics. They're one diagnosis, four times." [PAUSE]
+
+  "At each stage the field measured the wrong thing -- or measured one thing
+   while believing it had measured another.
+
+   Contractor measured segments of a curve and reported them as different
+   relationships.
+
+   Mezias's field measured aggregate performance and believed it had measured
+   foreignness.
+
+   Ghemawat's practitioners measured market size and believed they had measured
+   opportunity.
+
+   And Arregle -- thirty years, two hundred and twenty studies -- still reports
+   'varied and at times incompatible findings.'
+
+   Every one of them made progress by changing WHAT was measured. Not by
+   collecting more of the same thing.
+
+   A literature that can't converge because it can't agree on a measure has a
+   methods problem, not a theory problem."
+
+
+================================================================================
+  SLIDE 6  --  CLOSE                                          ~35 sec
+================================================================================
+
+  SAY:
+  "Two things to leave you with.
+
+   First -- and I only noticed this putting the deck together -- Sumit Kundu
+   of FIU is an author on both Contractor in 2003 and Arregle in 2021.
+   Eighteen years apart. Same question about performance. Still unresolved."
+
+  [PAUSE. Let that sit. This is the line people remember.]
+
+  "Second, forward: if stage one is genuinely negative, then entry mode next
+   week is really a decision about how much of that early cost you absorb at
+   once. And Ghemawat's CAGE is a pre-Hofstede way of saying what the
+   institutions session says with formal distance measures.
+
+   Happy to take questions."
+
+
+================================================================================
+  HOW TO REHEARSE  --  THREE PASSES, TWENTY MINUTES TOTAL
+================================================================================
+
+  PASS 1  (7 min)  Read this script out loud, off the page. Just once.
+                   Do not try to memorise. You are hearing the shape.
+
+  PASS 2  (7 min)  Deck on screen, script FACE DOWN. Talk through all six
+                   slides. You will stumble. That is the pass working --
+                   stumbling is where the learning happens, not reading.
+
+  PASS 3  (6 min)  Timer on. Talk through it again. Aim 4:30, not 5:00.
+                   Everyone runs long live.
+
+  THEN STOP. Do not do a fourth pass. It gets worse, not better.
+
+
+================================================================================
+  IF YOU BLANK
+================================================================================
+
+  Say: "The thread through all four of these is measurement."
+  Then look at the slide in front of you and describe what you see.
+
+  Every slide on your deck is designed so that describing it IS the point.
+  There is no hidden content you have to recall.
+
+
+================================================================================
+  WHAT YOU DO NOT NEED TO KNOW
+================================================================================
+
+  You do NOT need: the full Arregle seven themes. Ghemawat's four CAGE
+  letters in order. Mezias's moderator variables. Contractor's sample size.
+  Any citation year beyond the four on your slides.
+
+  If someone asks something you don't know, say:
+  "I don't have that in front of me -- what's your read on it?"
+
+  That is a completely normal thing for a doctoral student to say and it
+  turns a gap into a conversation.
+
+
+================================================================================
+  YOU ALREADY KNOW THIS
+================================================================================
+
+  You wrote the 1,854-word write-up. You found the Kundu connection.
+  The argument on slide 5 is yours -- it is the same argument you make about
+  your own qualifying study, which is that a field that cannot agree on a
+  measure has a methods problem.
+
+  You are not learning new material tonight. You are learning to say out loud
+  something you already worked out.
+================================================================================
