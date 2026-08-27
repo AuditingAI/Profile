@@ -181,3 +181,52 @@ same diagnosis at different scales.
 | **Measure** | Multiple DOI measures | Labour lawsuit judgments | CAGE distance | Synthesis |
 | **Claim** | M–P is sigmoid, three stages | LOF is isolable and measurable | Distance is four things | Findings remain incompatible |
 | **Conditioned on** | Stage position, sector type | Staffing, autonomy, age | Distance type | Family ownership |
+
+---
+
+## 5 · What follows for research design
+
+The four papers converge on a claim about method that is worth stating separately from the
+substantive findings, because it is the part that transfers.
+
+**Measurement choice is a theoretical act.** Mezias is the clearest demonstration. He does not
+improve the measurement of firm performance; he abandons it for a measure selected to isolate one
+construct rather than to summarise many. The finding exists only because of that choice. A study
+that had used better performance data would have produced a better version of the same
+uninterpretable number.
+
+**Operationalisation determines the visible shape of a relationship.** "Degree of
+internationalization" appears in this literature as foreign sales ratio, foreign assets ratio,
+country count, entropy measures, and the transnationality index. Contractor's contribution is not
+only that the relationship is sigmoid but that the field's disagreement about its shape was, in
+part, a disagreement about where each study happened to sample. Neither of those is a substantive
+finding about firms.
+
+**Volume does not resolve a measurement problem.** Arregle's review makes this unusually concrete:
+220 studies over three decades, and the authors' own summary is that findings remain "varied and at
+times incompatible." If accumulation were sufficient, thirty years would have been enough.
+
+**A framework can be useful without being a measure.** Ghemawat's CAGE is not tested in the article;
+it is offered because it decomposes something practitioners were treating as a single term. Its
+durability suggests that naming the parts of a construct can be a contribution in itself — but it
+also means CAGE inherits the measurement problem rather than solving it. How much cultural distance,
+measured how, remains open.
+
+**The through-line, stated as a design rule.** Before asking whether a relationship holds, ask what
+the available measure can and cannot isolate. Every one of these four papers made progress at the
+point where someone stopped collecting more of the same thing and changed what was being measured.
+
+## 6 · Limitations of this reading
+
+This write-up argues that four papers share one diagnosis. That framing is mine, and it has costs
+worth naming.
+
+It flattens genuine differences in purpose. Contractor and Mezias are empirical papers testing
+specific claims; Ghemawat is a practitioner framework; Arregle is a systematic review. Treating them
+as four instances of one problem risks implying they were attempting the same thing.
+
+It is also, by construction, unfalsifiable in the form stated. "The field measured the wrong thing"
+can be said of almost any literature that has not yet converged. The reading only earns its keep
+where the papers say so themselves — which they do here, in Contractor's account of sampling
+segments, in Mezias's justification for abandoning performance measures, and in Arregle's own
+summary of incompatible findings. Where the papers do not say it, I have not claimed it.
