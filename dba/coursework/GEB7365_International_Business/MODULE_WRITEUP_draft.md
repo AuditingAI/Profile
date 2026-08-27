@@ -230,3 +230,59 @@ can be said of almost any literature that has not yet converged. The reading onl
 where the papers say so themselves — which they do here, in Contractor's account of sampling
 segments, in Mezias's justification for abandoning performance measures, and in Arregle's own
 summary of incompatible findings. Where the papers do not say it, I have not claimed it.
+
+---
+
+# Appendices
+
+*Appendices sit outside the ten-page body, per the assignment brief.*
+
+## Appendix A · Comparison of the four studies
+
+*(the comparison table)*
+
+## Appendix B · Verification of quoted material
+
+Every quotation and reported figure in this write-up was checked against the source PDF on
+26 August 2026. None is paraphrased and presented as a quotation.
+
+| Claim | Source | Page |
+|---|---|---|
+| "Depending on which part of Figure 1 we examined…" | Contractor, Kundu & Hsu (2003) | 7 |
+| "Few companies possess the managerial tools…" | Contractor, Kundu & Hsu (2003) | 11 |
+| Knowledge-based vs capital-intensive; lower fixed capital burden | Contractor, Kundu & Hsu (2003) | 9 |
+| "While most performance measures aggregate advantages and disadvantages…" | Mezias (2002) | 231 |
+| 486 foreign subsidiaries vs 486 US firms, same industries and cities | Mezias (2002) | 229–231 |
+| 78.9% / 70.0% / 58.4%; award exceeded $600,000; fees ~$100,000 | Mezias (2002) | 232 |
+| "It ignores the costs and risks of doing business in a new market." | Ghemawat (2001) | 2 |
+| $825m paid 1993–95; FY1999 loss $141m on revenue $111m; ~$500m FY1996–99 | Ghemawat (2001) | 2 |
+| "Ignoring cultural distance was one of Star TV's biggest mistakes." | Ghemawat (2001) | 4 |
+| "varied and at times incompatible findings" | Arregle et al. (2021) | abstract |
+| Seven themes with shares; performance 12% | Arregle et al. (2021) | 6 |
+
+## Appendix C · References
+
+Arregle, J.-L., Chirico, F., Kano, L., Kundu, S. K., Majocchi, A., & Schulze, W. S. (2021). Family
+firm internationalization: Past research and an agenda for the future. *Journal of International
+Business Studies, 52*, 1159–1198.
+
+Contractor, F. J., Kundu, S. K., & Hsu, C.-C. (2003). A three-stage theory of international
+expansion: The link between multinationality and performance in the service sector. *Journal of
+International Business Studies, 34*(1), 5–18.
+
+Ghemawat, P. (2001). Distance still matters: The hard reality of global expansion. *Harvard Business
+Review, 79*(8), 137–147.
+
+Mezias, J. M. (2002). Identifying liabilities of foreignness and strategies to minimize their
+effects: The case of labor lawsuit judgments in the United States. *Strategic Management Journal,
+23*(3), 229–244.
+
+## Appendix D · Disclosure of AI use
+
+Per the FIU University Graduate School *Guidelines for the Use of AI in Graduate Research, Theses,
+and Dissertations*:
+
+**[COMPLETE THIS BEFORE SUBMITTING — STATE HONESTLY WHICH TOOLS AND FOR WHAT.]** Verification of
+quotations against the source PDFs, organisation of material, and formatting were AI-assisted. The
+reading of the four papers, the argument that they share one diagnosis, and the limitations stated
+in section 6 are the author's own.

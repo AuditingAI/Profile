@@ -102,7 +102,11 @@ def eyebrow(s, y, txt, color=GOLD):
        font=MONO, space=2.0, caps=True)
 
 def title(s, y, txt, size=29, color=INK):
-    tb(s, M, y, W-2*M, In(1.0), txt, size=size, color=color, bold=True, lead=1.12)
+    """Height is sized to the text, not padded — an oversized title box
+    overlaps everything beneath it and makes the deck unusable to edit."""
+    est = 1 if len(txt) < 62 else 2
+    h = In(0.30 + 0.34*est*(size/29.0))
+    tb(s, M, y, W-2*M, h, txt, size=size, color=color, bold=True, lead=1.12)
 
 def sigmoid(s, x0, y0, w, h, color=BLUE, width=3.0):
     """Editable freeform S-curve: down, up, down."""
@@ -315,8 +319,8 @@ for nm,got,thought,col in [("CONTRACTOR","segments of one curve","the shape of t
     bar(s, M, yy, In(0.045), In(0.34), col)
     tb(s, M+In(0.16), yy+In(0.07), In(1.4), In(0.2), nm, size=9.5, color=col,
        bold=True, font=MONO, space=1.1)
-    tb(s, hx1, yy+In(0.06), In(3.9), In(0.25), got, size=13.5, color=INK)
-    tb(s, hx2-In(0.55), yy+In(0.07), In(0.45), In(0.2), "→", size=13, color=STEEL)
+    tb(s, hx1, yy+In(0.06), In(3.6), In(0.25), got, size=13.5, color=INK)
+    tb(s, hx2-In(0.42), yy+In(0.07), In(0.3), In(0.2), "→", size=13, color=STEEL)
     tb(s, hx2, yy+In(0.06), In(4.2), In(0.25), thought, size=13.5, color=MUTE, italic=True)
     yy += In(0.44)
 rect(s, M, In(5.02), W-2*M, In(0.72), WARM, C(0xE4,0xD3,0xA8))
@@ -404,12 +408,12 @@ chrome(s, N)
 s = slide(); crest(s); N += 1
 eyebrow(s, In(1.05), "Appendix B  ·  every quote and figure, with its page")
 title(s, In(1.28), "Verification record.", size=28)
-cols = [M+In(0.1), M+In(0.85), M+In(6.4), M+In(9.5)]
+cols = [M+In(0.1), M+In(0.95), M+In(6.4), M+In(9.5)]
 for i,h in enumerate(["SLIDE","CLAIM","SOURCE","CHECKED"]):
-    tb(s, cols[i], In(2.02), In(3.0), In(0.2), h, size=8.5, color=MUTE, bold=True,
-       font=MONO, space=1.2)
-bar(s, M, In(2.22), W-2*M, Emu(9525), RULE)
-yy = In(2.34)
+    tb(s, cols[i], In(2.10), In(0.72) if i==0 else In(1.4), In(0.2), h,
+       size=8.5, color=MUTE, bold=True, font=MONO, space=1.2)
+bar(s, M, In(2.30), W-2*M, Emu(9525), RULE)
+yy = In(2.42)
 for n,claim,src in [("11","Sigmoid, three stages; four findings are segments of one curve","Contractor p.7, Fig. 1"),
                     ("11","“Depending on which part of Figure 1 we examined…”","Contractor p.7"),
                     ("12","Knowledge-based vs capital-intensive; lower fixed capital burden","Contractor p.9"),

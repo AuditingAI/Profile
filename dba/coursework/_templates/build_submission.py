@@ -113,9 +113,10 @@ def build(spec, out):
                     highlight=seg.get("hl", False),
                     color=ACCENT if seg.get("hl") else INK)
 
-    # ---- optional table ---------------------------------------------------
-    tb = spec.get("table")
-    if tb:
+    # ---- optional tables --------------------------------------------------
+    for _key in ("table", "table2"):
+      tb = spec.get(_key)
+      if tb:
         if tb.get("caption"):
             c = doc.add_paragraph()
             c.paragraph_format.space_before = Pt(16)
@@ -133,6 +134,29 @@ def build(spec, out):
                 run(cp, val, size=8.5,
                     bold=(ri == 0 or ci == 0),
                     color=ACCENT if ri == 0 else INK)
+
+    # ---- appendix (own page, outside the body page count) -----------------
+    ap = spec.get("appendix")
+    if ap:
+        doc.add_page_break()
+        for para in ap:
+            if isinstance(para, dict) and para.get("h"):
+                q = doc.add_paragraph()
+                q.paragraph_format.space_before = Pt(14)
+                q.paragraph_format.space_after = Pt(4)
+                run(q, para["h"], font="Georgia", size=BODY_PT + 0.5,
+                    color=ACCENT, bold=True)
+                continue
+            q = doc.add_paragraph()
+            q.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+            q.paragraph_format.space_after = Pt(8)
+            q.paragraph_format.line_spacing = BODY_LS
+            for seg in para:
+                if isinstance(seg, str): run(q, seg, size=BODY_PT)
+                else: run(q, seg["t"], size=BODY_PT, bold=seg.get("b", False),
+                          italic=seg.get("i", False), caps=seg.get("caps", False),
+                          highlight=seg.get("hl", False),
+                          color=ACCENT if seg.get("hl") else INK)
 
     # ---- footer blocks ----------------------------------------------------
     for blk in spec.get("blocks", []):
