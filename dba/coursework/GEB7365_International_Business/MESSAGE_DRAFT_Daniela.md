@@ -1,68 +1,91 @@
-# Draft to Daniela Garcia Aguirre — module presentation, Thursday 27 August
+# Reply to Daniela Garcia Aguirre — confirming the split and sending the deck
 
-**Channel: Canvas Inbox. Send tonight or first thing tomorrow — you present Thursday 7pm and she needs time to answer.**
-Nothing is sent from here.
+**⚠️ Corrected 26 Aug.** An earlier version of this file *proposed* a split. **She had already
+proposed one**, in her Canvas message of 23 August, and it is the opposite of what was drafted here.
+Sending a proposal now would read as not having read her message. This is a reply, not a proposal.
 
-> **Subject:** Thursday's module — a proposed split
+**Channel: Canvas Inbox** (that is where she wrote). **Send tonight.** She said she would send her
+presentation Tuesday night — check Canvas for it before you write.
+
+---
+
+## What she actually proposed, 23 August
+
+| | |
+|---|---|
+| **Her readings** | Arregle et al. (2021) — Family firm internationalization · Ghemawat (2001) — Distance Still Matters |
+| **Your readings** | **Contractor, Kundu & Hsu (2003)** · **Mezias (2002)** |
+| **Order** | She opens — introduction and her two papers. **You go second, and you take the conclusion.** |
+| **Time** | **Five minutes each**, not ten shared |
+| **Her deck** | *"I will send you my presentation on Tuesday night"* — that was 25 Aug. **Check Canvas.** |
+| Her words | *"Feel free to make any changes you think are necessary."* |
+
+**The conclusion is yours.** That is the best real estate in the presentation and she has handed it to
+you. Everything that ties the four papers together lands in your five minutes.
+
+---
+
+## The message
+
+> **Subject:** Re: Presentation
 >
 > Hi Daniela,
 >
-> Bill has us going first on Thursday with the Internationalization and Performance module. I have
-> read all four and wanted to put a proposal in front of you early rather than leave it to Wednesday
-> night.
+> That split works well — Contractor and Mezias for me, and I'll take the conclusion.
 >
-> **What I think holds the four together.** They are not four topics. They are one diagnosis, four
-> times: in each case the field measured the wrong thing, or measured one thing while believing it
-> had measured another. Contractor shows the literature was sampling different segments of a single
-> sigmoid curve and reporting them as different relationships. Mezias makes progress only by
-> abandoning aggregate performance measures for one — US labour lawsuit judgments — that isolates a
-> single disadvantage. Ghemawat shows practitioners measuring market size and believing they had
-> measured opportunity. Arregle, thirty years and 220 studies later, still reports "varied and at
-> times incompatible findings."
+> I've built my half. Six slides, and I've kept it to five minutes with a timer. Attaching it so you
+> can see where I land and adjust your closing line if you want to hand over cleanly.
 >
-> If we open on that, the ten minutes have a spine and we are not re-narrating papers the class has
-> already read.
+> **What I do with my two.** Contractor's three-stage curve is the reconciling account — the field
+> found positive, negative, U and inverted-U results because it was sampling different segments of one
+> sigmoid. Mezias is the craft lesson: he made progress on liability of foreignness only by abandoning
+> aggregate performance measures entirely, for one that isolates a single disadvantage.
 >
-> **The split I would propose — by argument, not page count:**
+> **Then the conclusion pulls all four together**, yours included, on one line — at each stage the
+> field measured the wrong thing, or measured one thing while believing it had measured another.
+> Contractor measured segments of a curve. Mezias's field measured aggregate performance and thought
+> it had measured foreignness. Ghemawat's practitioners measured market size and thought they had
+> measured opportunity. Arregle shows it unresolved after 220 studies. It reads as one diagnosis, four
+> times rather than four separate papers, and I think it makes the session land better than a summary
+> would.
 >
-> - **One of us: the shape of the relationship.** Contractor's three stages, with Arregle as the
->   same performance question asked of family firms and still unresolved.
-> - **The other: what the shape is made of.** Mezias on isolating the cost of foreignness, Ghemawat
->   on what "distance" actually contains.
-> - **Both of us, to close:** the measurement through-line, and the forward connections to entry
->   mode and to institutions and culture.
+> If that framing doesn't suit how you're setting yours up, tell me and I'll change it — you're
+> opening, so your framing should win.
 >
-> I am genuinely easy on which half I take — tell me which you would rather have and I will take the
-> other.
+> **One thing worth flagging:** the split covers the presentation only. Bill was explicit that the
+> write-ups are individual and still have to analyse all four papers.
 >
-> One thing worth flagging: the split is for the presentation only. Bill was explicit that the
-> write-ups are individual and still have to analyse all four.
+> I didn't see your deck come through — if you sent it, could you resend? Happy to run ours once with
+> a timer before class if you have twenty minutes.
 >
-> **I've built a draft deck** so we have something to work from rather than starting cold — nine
-> slides, and slides 6 and 7 are yours, held blank with talking points on them. Swap in your own or
-> use those, whichever is easier. I'll send it right after this.
->
-> I've also put a shared minutes page together for tonight so we can capture what Bill settles on the
-> three disputed dates — he said he'd go over them in class. I'll share the link.
->
-> Are you free for twenty minutes before class to run it once with a timer? Ten minutes goes faster
-> than it sounds.
->
-> Best,
+> See you Thursday,
 > Yasir
 
 ---
 
 ## Why it is shaped this way
 
-**It gives her something to react to, not a question to answer.** "What do you want to do?" costs
-her work. A concrete proposal she can accept or flip costs her thirty seconds.
+**It accepts in the first line.** She made a clear proposal; the useful reply confirms and moves on,
+rather than re-opening a settled question.
 
-**It offers her the choice of halves.** You did the framing; let her pick. That is the whole
-difference between a proposal and an instruction.
+**It tells her exactly what your conclusion will say.** She is opening, and she cannot write a
+handover if she does not know where you are going. This is the single most useful thing in the
+message.
 
-**It flags the write-up rule.** If she assumes the split covers the write-up too, she loses marks
-and it comes back on the pairing. Worth one sentence.
+**It gives her the veto on framing.** *"You're opening, so your framing should win"* costs nothing and
+is true — a shared presentation where the two halves argue different things reads badly to a room.
 
-**It asks for one rehearsal.** Ten minutes shared between two people who have not run it once
-becomes fourteen minutes in the room.
+**It flags the write-up rule.** If she assumes the split covers the write-up too, she loses marks and
+it comes back on the pairing. One sentence, no lecture.
+
+**It asks about her deck without accusing.** *"I didn't see your deck come through"* leaves room for
+it having been sent and missed — which given how her first message arrived, is entirely possible.
+
+---
+
+## Before you send
+
+- [ ] **Check Canvas for her Tuesday-night deck.** If it arrived, read it before writing — this
+      message assumes it did not, and that sentence has to come out if it did.
+- [ ] **Attach the deck** — `Malik_GEB7365_Module2_Deck.pdf`, six slides.
+- [ ] Time your five minutes once, out loud. Six slides in five minutes is fifty seconds each.

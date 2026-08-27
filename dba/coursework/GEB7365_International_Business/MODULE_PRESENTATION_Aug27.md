@@ -184,20 +184,30 @@ period.
 
 ---
 
-## The split to propose to Daniela
+## ⚠️ The split — SETTLED BY DANIELA, 23 AUGUST
 
-Split by argument, not page count:
+**This supersedes the split proposed earlier in this file, which was the reverse.** Her Canvas
+message of 23 Aug: *"As we agreed yesterday, we can each choose 2 readings to present on Thursday.
+If you are ok, I will choose..."*
 
-- **One of you:** the shape of the relationship — **Contractor**, with **Arregle** as the same
-  question asked of family firms and still unresolved
-- **The other:** what the shape is made of — **Mezias** on the cost of foreignness, **Ghemawat** on
-  what distance actually contains
-- **Together, to close:** the measurement through-line, and the forward connections
+| | |
+|---|---|
+| **Daniela** | **Arregle et al. (2021)** · **Ghemawat (2001)** — plus the introduction, and she goes first |
+| **Yasir** | **Contractor, Kundu & Hsu (2003)** · **Mezias (2002)** — **plus the conclusion** |
+| **Time** | **Five minutes each.** Not ten shared |
+| Her deck | Promised for Tuesday night, 25 Aug. **Check Canvas** |
+| Her words | *"Feel free to make any changes you think are necessary."* |
 
-**Ten minutes total.** He does not want the articles re-narrated — the class discusses them, the
-presentation frames them.
+**The conclusion is the prize and she handed it over.** Everything that ties the four papers together
+lands in Yasir's five minutes — which is where the measurement through-line and the Kundu observation
+belong.
 
----
+⚠️ **The split covers the presentation only.** Newburry, verbatim: *"It's fine to do that for the
+presentation, but for the write-up, you should still analyze all four."* The write-up
+(`MODULE_WRITEUP_draft.md`, 1,854 words) is unchanged and correct — it already covers all four.
+
+**Deck built to this split:** `Malik_GEB7365_Module2_Deck.pdf` — six slides, five minutes.
+Handoff → Contractor's curve → Contractor's practice line → Mezias → the conclusion → the close.
 
 ## Before Thursday
 
