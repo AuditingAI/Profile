@@ -3,12 +3,12 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
 
 ## SUMMARY
-15+ years coordinating regulatory audit portfolios under OCC, Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
+15+ years coordinating regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
 
 ## EXPERIENCE
 
 **Citi — Vice President, Audit Manager** · New York, NY · *Jul 2021 – Apr 2026*
-- Coordinated regulatory audit portfolio across 15+ business units under **OCC and Federal Reserve** oversight; led consent-order audit execution and sustainable-closure validation accepted by examiners.
+- Coordinated regulatory audit portfolio across 15+ business units under **Federal Reserve** oversight; led consent-order audit execution and sustainable-closure validation accepted by examiners.
 - Designed and operationalized Citi IA's **AI/GenAI regulatory program from scratch** (use-case intake, model risk tiering, control library, post-deployment monitoring) mapped to **NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, Colorado AI Act** — the exact "new and emerging regulations" lane.
 - Shipped a **RAG-based Workpaper Quality Assistant** with prompt-injection guardrails, SHAP/LIME explainability, and human-in-the-loop controls; cut cycle time **~35%**. Citi *Delivers with Pride* award.
 - Drove policy, process, and training development; mentored 8+ auditors on responsible AI and ethical decision-making in human–AI workflows.

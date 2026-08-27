@@ -8,7 +8,7 @@ Former **bank examiner** (Florida Office of Financial Regulation) who conducted 
 ## EXPERIENCE
 
 **Citi — Vice President, Audit Manager** · New York, NY · *Jul 2021 – Apr 2026*
-- Led independent, risk-based **thematic examinations across 15+ business units**, assessing operational resilience, change management, and regulatory compliance under OCC and Federal Reserve oversight.
+- Led independent, risk-based **thematic examinations across 15+ business units**, assessing operational resilience, change management, and regulatory compliance under Federal Reserve oversight.
 - Drove **consent-order remediation**: authored issue-closure packages and remediation evidence submitted to quality assurance and **external regulators** — findings written to withstand outside scrutiny.
 - Investigated control failures to root cause across legal-entity divestitures; escalated findings and reported to senior leadership and the **Board Audit Committee**.
 - Authored an **AI governance framework** (NIST AI RMF, SR 11-7) covering model inventory, explainability, and human-in-the-loop controls; built a RAG document assistant that cut review cycle time **~35%**.

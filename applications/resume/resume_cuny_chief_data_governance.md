@@ -8,7 +8,7 @@ Twenty years building enterprise data governance where the consequences of getti
 ## EXPERIENCE
 
 **Citi — Vice President, Audit Manager** · New York, NY · *Jul 2021 – Apr 2026*
-- Led risk-based thematic audits across **15+ business units**, assessing data quality, operational resilience, and regulatory alignment under OCC and Federal Reserve oversight.
+- Led risk-based thematic audits across **15+ business units**, assessing data quality, operational resilience, and regulatory alignment under Federal Reserve oversight.
 - Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls.
 - Drove **consent-order remediation**: issue-closure packages and evidence reviewed by quality assurance and external regulators. Reported to the **Board Audit Committee**.
 - Built a **RAG document assistant** for workpaper Q&A — **~35% faster review**.

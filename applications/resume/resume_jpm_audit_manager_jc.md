@@ -3,13 +3,13 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
 
 ## SUMMARY
-15+ years leading global and regional audit engagements at Citi Internal Audit and JPMorgan Chase. Six years at JPMC (2015–2021) covering CIB Resolution & Recovery Planning, Treasury & CIO CCAR/capital, and Basel III RWA across a **$50B** portfolio of equities, fixed income, and OTC derivatives. Five years at Citi as VP Internal Audit Manager leading consent-order audit execution under **OCC and Federal Reserve** oversight. Built and shipped a **RAG-based Workpaper Quality Assistant** (Python · LangChain · Alteryx integration) that cut audit cycle time **~35%** — directly relevant to the JD's Alteryx + Python + large-language-model expectation. Boomeranging into JPMC to apply that toolkit to Asset & Wealth Management audit coverage.
+15+ years leading global and regional audit engagements at Citi Internal Audit and JPMorgan Chase. Six years at JPMC (2015–2021) covering CIB Resolution & Recovery Planning, Treasury & CIO CCAR/capital, and Basel III RWA across a **$50B** portfolio of equities, fixed income, and OTC derivatives. Five years at Citi as VP Internal Audit Manager leading consent-order audit execution under **Federal Reserve** oversight. Built and shipped a **RAG-based Workpaper Quality Assistant** (Python · LangChain · Alteryx integration) that cut audit cycle time **~35%** — directly relevant to the JD's Alteryx + Python + large-language-model expectation. Boomeranging into JPMC to apply that toolkit to Asset & Wealth Management audit coverage.
 
 ## EXPERIENCE
 
 **Citi Internal Audit — Vice President, Audit Manager** · New York, NY · *Jul 2021 – Apr 2026*
 - Led **global and regional audits** end-to-end across 15+ business units using **internal audit methodologies**, evaluating and challenging control design and operating effectiveness for integrated business and technology risks; finalized findings and issued opinions on the control environment.
-- Partnered with **risk management, compliance, external auditors, and federal regulators (OCC, Federal Reserve)** on consent-order audit execution and sustainable-closure validation accepted by examiners; managed audit team members through reviews and constructive feedback.
+- Partnered with **risk management, compliance, external auditors, and federal regulators (Federal Reserve)** on consent-order audit execution and sustainable-closure validation accepted by examiners; managed audit team members through reviews and constructive feedback.
 - **Built the RAG-based Workpaper Quality Assistant** (Python, LangChain, vector DB, SHAP/LIME, prompt-injection guardrails) integrated with **Alteryx** workflows; identified continuous-audit and automation opportunities, cutting cycle time **~35%**. Citi *Delivers with Pride* award.
 
 **JPMorgan Chase — Risk Control Manager, Treasury & CIO** · Jersey City, NJ · *Mar 2019 – Jun 2021*

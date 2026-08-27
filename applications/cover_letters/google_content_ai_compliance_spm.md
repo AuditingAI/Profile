@@ -12,7 +12,7 @@ Building a compliance program for AI from the ground up is exactly the work I ha
 
 A few proof points against the role's requirements:
 
-- **Building compliance programs from the ground up.** At Citi I designed and stood up the audit framework around our consent order — including issue validation, sustainable closure standards, and cross-functional alignment with OCC and Federal Reserve examiners. At JPMorgan I rebuilt the enterprise capital control framework across Treasury and CIO, replacing manual, reactive controls with a centralized governance model and live feedback via CORE.
+- **Building compliance programs from the ground up.** At Citi I designed and stood up the audit framework around our consent order — including issue validation, sustainable closure standards, and cross-functional alignment with Federal Reserve examiners. At JPMorgan I rebuilt the enterprise capital control framework across Treasury and CIO, replacing manual, reactive controls with a centralized governance model and live feedback via CORE.
 
 - **AI-specific control frameworks.** I championed and deployed a RAG-based Workpaper Quality Assistant inside Internal Audit that cut cycle time 35% — and embedded NIST AI RMF, SR 11-7, XAI explainability, and human-in-the-loop safeguards directly into the workflow so the assistant itself was auditable. That is the same pattern Google's content and AI compliance program will need: controls that scale with the model, not around it.
 
