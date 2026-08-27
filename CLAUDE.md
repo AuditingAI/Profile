@@ -122,6 +122,13 @@ Read it at the start of every session. It is the only place the other agent's st
 - **AI-use rule from the advisor:** AI supports brainstorming, organisation, clarity, and grammar.
   The synthesis, argument, and interpretation must be Yasir's own. Anything either agent drafts is
   raw material he rewrites, not a finished submission.
+- **FIU University Graduate School AI policy is binding and sits above the syllabi.** Every use of AI
+  must be disclosed — naming the tool, the purpose, and what it produced — in the preliminary pages
+  of any proposal or dissertation draft, in the Methods section where it touched analysis, and in the
+  caption of any figure it helped make. Original unedited drafts must be preserved (git history does
+  this). **The committee must review and approve the AI use.** Never upload confidential,
+  identifiable or restricted data to a public AI platform. Full record and a draft disclosure
+  statement: `dba/00_Execution/FIU_AI_POLICY_2026.md`.
 - **All academic correspondence is sent by Yasir from `ymali001@fiu.edu`, never from Gmail.** Anything
   going to a professor, the program office, FIU administration, or a classmate is drafted here and
   sent from the FIU mailbox — the Gmail connector reaches only `yasiramalik@gmail.com`, and a course

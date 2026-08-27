@@ -69,6 +69,20 @@ retrieval. That stays with Claude — `../00_Execution/RESEARCH_AGENT_DESIGN.md`
 
 ---
 
+## ⚠️ The rule that overrides everything here
+
+**FIU University Graduate School policy §9: never upload confidential, sensitive, identifiable,
+proprietary or restricted data to a public AI platform.**
+
+For this programme that means, without exception: **no interview recording, no transcript, no
+participant identifier, no linking key and no un-de-identified survey response ever goes into
+Perplexity, ChatGPT, NotebookLM, Claude, or anything else.** The runbooks here search *published
+literature*. They never touch study data, and no future runbook may.
+
+Every use of these runbooks is disclosable under §3.1 and must be named in the preliminary pages of
+any proposal or dissertation drawing on their output. Record:
+`../00_Execution/FIU_AI_POLICY_2026.md`.
+
 ## Rules every runbook inherits
 
 1. **Nothing is asserted without a resolving source.** A dead URL is a dropped row.

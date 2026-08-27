@@ -16,8 +16,12 @@ procedure that a reader can follow and a committee can check, rather than a clai
 | Act as an adversary — "what have I missed, what am I over-reading?" | Decide what a participant meant |
 | Find literature | Decide when saturation is reached |
 
-**Three reasons this line is where it is, in ascending order of importance:**
+**Four reasons this line is where it is, in ascending order of importance:**
 
+0. **FIU University Graduate School policy**, binding and above the syllabi. It prohibits "using AI
+   to generate or re-write substantive portions" of a proposal or dissertation, and requires every
+   use to be disclosed and **approved by the committee**. See
+   `../00_Execution/FIU_AI_POLICY_2026.md`.
 1. Dr. Rey's standing instruction: AI supports brainstorming, organisation, clarity and grammar. The
    synthesis, argument and interpretation must be the researcher's own.
 2. GEB 7911 caps AI-created content at 25% and requires labelling what was AI-written.

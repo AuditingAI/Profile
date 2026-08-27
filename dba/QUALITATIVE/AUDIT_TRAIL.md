@@ -35,6 +35,28 @@ than filled in.
 
 ## Entries
 
+### 2026-08-27 · DESIGN
+**FIU University Graduate School AI guidelines received and recorded as binding.**
+**Reason.** Circulated by Dr. René M. Price, Associate Dean UGS. They sit above the course syllabi
+and above Dr. Rey's instruction; where standards differ, the stricter one applies.
+**Consequence.** Three things this arm did not previously account for. (1) Disclosure must appear in
+the preliminary pages of every proposal draft, in the Methods section where AI touched analysis, and
+in the caption of any AI-assisted figure. (2) **The committee must review and approve the AI use** —
+this has not been done and is now an open item for Dr. Rey. (3) Original unedited drafts must be
+preserved, which git history already satisfies more strongly than the policy requires. Full record
+and a draft disclosure statement: `../00_Execution/FIU_AI_POLICY_2026.md`.
+
+### 2026-08-27 · DESIGN
+**UGS §7 names "obsequiousness" as an unavoidable property of large language models.**
+**Reason.** Noted because it is directly relevant to the L2 link, which has until now been argued
+only from model-evaluation literature. FIU's own graduate school lists, among the risks of
+generative AI, the "tendency to agree, reinforce user assumptions, or provide overly confident
+answers."
+**Consequence.** A citable institutional acknowledgement that the phenomenon is recognised. It does
+**not** make L2 established — a policy document naming a risk is not evidence that the risk operates
+in audit judgment, and the distinction must be stated wherever this is cited.
+
+
 ### 2026-08-26 · DESIGN
 **The qualitative arm is scoped to L2 only. L3 is not designed.**
 **Reason.** L3 asks how the evidentiary basis of a judgment changes across successive engagements —
