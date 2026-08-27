@@ -4,3 +4,7 @@ __pycache__/
 dba/03_Data/raw_export_*.csv
 dba/03_Data/cleaned_valid_responses.csv
 dba/03_Data/cleaned_numeric_recoded.csv
+
+# Uploaded source documents containing personal identifiers — never commit
+**/citiComp*
+**/*CITI*certificate*

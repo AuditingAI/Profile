@@ -67,14 +67,20 @@ def arrow(x1,t1,x2,t2,color=STEEL,lw=1.4,dash=None,head=5):
     p.lineTo(x2-head*math.cos(a+0.4),y(t2)-head*math.sin(a+0.4)); p.close()
     c.drawPath(p,fill=1,stroke=0)
 
+SEAL="/home/user/Profile/assets/images/fiu-seal.png"
 def crest(t=40, light=False):
-    """FIU DBA institutional lockup — not the consulting brand."""
+    """FIU institutional lockup — official seal plus the school line."""
     fg = WHITE if light else BLUE
     sub = HexColor("#8FA3BC") if light else MUTE
-    box(M,t-2,3,30,fill=GOLD)
-    txt("FLORIDA INTERNATIONAL UNIVERSITY",M+14,t,MONOB,10,fg,track=1.9)
+    try:
+        c.drawImage(SEAL, M, y(t+34), width=34, height=34,
+                    mask='auto', preserveAspectRatio=True)
+        ox = M+46
+    except Exception:
+        box(M,t-2,3,30,fill=GOLD); ox = M+14
+    txt("FLORIDA INTERNATIONAL UNIVERSITY",ox,t,MONOB,10,fg,track=1.9)
     txt("Chapman Graduate School of Business  ·  Doctor of Business Administration",
-        M+14,t+15,BODY,10.5,sub)
+        ox,t+15,BODY,10.5,sub)
 def chrome(light=False):
     _n[0]+=1
     fg = HexColor("#7E93A8") if light else MUTE
@@ -297,4 +303,35 @@ for d,k,v in conn:
     txt(k,M+70,t,MONOB,9,HexColor("#8FA3BC"),track=1.3)
     para(v,M+16,t+16,W-2*M-36,BODY,13,HexColor("#B8C9D9"),lead=17); t+=52
 chrome(light=True); c.showPage()
+# ═══ 7 · BACKUP — only if asked how this connects to his own work ═══
+ground(); crest()
+eyebrow("Backup  ·  only if asked",104)
+title("The same error, in my own study.",128,30)
+
+box(M,168,W-2*M,46,fill=SOFT,r=4)
+para("Tversky & Kahneman (1974) — a wheel of fortune gave subjects 10 or 65 before they estimated the share of African countries in the UN. Median answers: 25 and 45.",
+     M+18,180,W-2*M-36,BODY,14,BODYC,lead=18)
+
+lw=(W-2*M-24)/2
+box(M,232,lw,150,fill=WHITE,stroke=RULE,r=5); box(M,232,lw,5,fill=BLUE)
+txt("WHAT MY MODEL MEASURES",M+18,252,MONOB,9,BLUE,track=1.2)
+para("Eight organisational interventions — training, rotation, analytical tools, structured processes, feedback, independent review, regulatory guidance, incentives — against anchoring bias, with expertise and confidence as moderators.",
+     M+18,272,lw-40,BODY,12.5,BODYC,lead=16)
+
+x2=M+lw+24
+box(x2,232,lw,150,fill=WHITE,stroke=RUST,lw=1.6,r=5); box(x2,232,lw,5,fill=RUST)
+txt("WHAT IT ACTUALLY MEASURES",x2+18,252,MONOB,9,RUST,track=1.2)
+para("Anchoring bias is captured by self-report, reverse-coded. It asks auditors to report how far their judgment was driven by a reference point — the one thing the bias reliably prevents them from noticing.",
+     x2+18,272,lw-40,BODY,12.5,BODYC,lead=16)
+para("Perceived judgment discipline, described as anchoring reduction.",
+     x2+18,352,lw-40,DISPI,12,RUST,lead=15)
+
+box(M,398,W-2*M,50,fill=WARM,stroke=HexColor("#E4D3A8"),r=4)
+para("Contractor measured segments of a curve. Mezias's field measured aggregate performance. I measured self-reported bias resistance. Three instances of the same error, and one of them is mine.",
+     M+18,410,W-2*M-36,DISPI,15,INK,lead=19)
+txt("→ AND TVERSKY & KAHNEMAN ALREADY WARNED ME: “PAYOFFS FOR ACCURACY DID NOT REDUCE THE ANCHORING EFFECT.”",
+    M,464,MONOB,8.5,BLUE,track=0.9)
+txt("WHICH IS A PROBLEM FOR MY OWN HYPOTHESIS ON INCENTIVES.",M,482,MONOB,8.5,RUST,track=0.9)
+chrome(); c.showPage()
+
 c.save(); print("wrote",out,"·",_n[0],"slides")
