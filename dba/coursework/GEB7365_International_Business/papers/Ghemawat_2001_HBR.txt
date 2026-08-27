@@ -1,0 +1,1156 @@
+Distance Still Matters: The Hard
+Reality of Global Expansion
+by Pankaj Ghemawat
+Reprint r0108k
+
+HBR Case Study
+r0108a
+What a Star – What a Jerk
+Sarah Cliffe
+First Person
+r0108b
+Natural-Born Entrepreneur
+Dan Bricklin
+Different Voice
+r0108c
+Is Success a Sin? A Conversation 
+with the Reverend Peter J. Gomes
+In Praise of Middle Managers
+r0108d
+Quy Nguyen Huy
+The Superefﬁcient Company
+r0108e
+Michael Hammer
+The Weird Rules of Creativity
+r0108f
+Robert I. Sutton
+What You Don’t Know 
+r0108g
+About Making Decisions
+David A. Garvin and Michael A. Roberto
+We Don’t Need Another Hero
+r0108h
+Joseph L. Badaracco, Jr.
+Best Practice
+r0108j
+Sustainable Growth, the DuPont Way
+Chad Holliday
+Tool Kit
+r0108k
+Distance Still Matters:
+The Hard Reality of Global Expansion
+Pankaj Ghemawat
+September 2001
+
+hen it was launched in 1991,
+Star TV looked like a sureﬁre
+winner. The plan was straightforward:
+The company would deliver television
+programming to a media-starved Asian
+audience. It would target the top 5% of
+Asia’s socioeconomic pyramid, a newly
+rich elite who could not only afford the
+services but who also represented an
+attractive advertising market. Since En-
+glish was the second language for most
+of the target consumers, Star would be
+able to use readily available and fairly
+cheap English-language programming
+rather than having to invest heavily in
+creating new local programs. And by
+using satellites to beam programs into
+people’s homes, it would sidestep the
+constraints of geographic distance that
+had hitherto kept traditional broad-
+casters out of Asia.Media mogul Rupert
+Murdoch was so taken with this plan –
+especially with the appeal of leveraging
+his Twentieth Century Fox ﬁlm library
+across the Asian market – that his com-
+pany, News Corporation, bought out
+Star’s founders for $825 million between
+1993 and 1995.
+The results have not been quite what
+Murdoch expected. In its fiscal year 
+ending June 30, 1999, Star reportedly
+lost $141 million, pretax, on revenues of 
+Copyright © 2001 by Harvard Business School Publishing Corporation. All rights reserved.
+3
+by Pankaj Ghemawat
+To o l K i t
+The Hard Reality of Global Expansion
+W
+Companies routinely exaggerate the attractiveness of foreign
+markets, and that can lead to expensive mistakes. Here’s a
+more rational approach to evaluating global opportunities.
+Distance 
+Still Matters
+
+$111 million. Losses in ﬁscal years 1996
+through 1999 came to about $500 mil-
+lion all told,not including losses on joint
+ventures such as Phoenix TV in China.
+Star is not expected to turn in a positive
+operating proﬁt until 2002.
+Star has been a high-proﬁle disaster,
+but similar stories are played out all the
+time as companies pursue global ex-
+pansion. Why? Because, like Star, they
+routinely overestimate the attractive-
+ness of foreign markets. They become 
+so dazzled by the sheer size of untapped
+markets that they lose sight of the vast
+difﬁculties of pioneering new, often
+very different territories. The problem 
+is rooted in the very analytic tools that 
+managers rely on in making judgments
+about international investments, tools
+that consistently underestimate the costs
+of doing business internationally. The
+most prominent of these is country
+portfolio analysis (CPA), the hoary but
+still widely used technique for deciding
+where a company should compete. By
+focusing on national GDP, levels of
+consumer wealth, and people’s propen-
+sity to consume, CPA places all the em-
+phasis on potential sales. It ignores the
+costs and risks of doing business in a
+new market.
+Most of those costs and risks result
+from barriers created by distance.By dis-
+tance,I don’t mean only geographic sep-
+aration, though that is important. Dis-
+tance also has cultural, administrative
+or political, and economic dimensions
+that can make foreign markets consid-
+erably more or less attractive. Just how
+much difference does distance make?
+A recent study by economists Jeffrey
+Frankel and Andrew Rose estimates the
+impact of various factors on a country’s
+trade ﬂows. Traditional economic fac-
+tors, such as the country’s wealth and
+size (GDP), still matter; a 1% increase 
+in either of those measures creates, on 
+average, a .7% to .8% increase in trade.
+But other factors related to distance, it
+turns out,matter even more.The amount
+of trade that takes place between coun-
+tries 5,000 miles apart is only 20% of the
+amount that would be predicted to take
+place if the same countries were 1,000
+miles apart.Cultural and administrative
+distance produces even larger effects.
+A company is likely to trade ten times as
+much with a country that is a former
+colony,for instance,than with a country
+to which it has no such ties. A common
+currency increases trade by 340%. Com-
+mon membership in a regional trading
+bloc increases trade by 330%. And so
+on. (For a summary of Frankel and
+Rose’s ﬁndings,see the exhibit “Mea-
+suring the Impact of Distance.”) 
+Much has been made of the death
+of distance in recent years. It’s been
+argued that information technolo-
+gies and, in particular, global com-
+munications are shrinking the world,
+turning it into a small and relatively
+homogeneous place. But when it
+comes to business, that’s not only
+an incorrect assumption, it’s a dan-
+gerous one. Distance still matters,
+and companies must explicitly and
+thoroughly account for it when
+they make decisions about global
+expansion.Traditional country port-
+folio analysis needs to be tempered
+by a clear-eyed evaluation of the
+many dimensions of distance and
+their probable impact on opportu-
+nities in foreign markets.
+The Four Dimensions 
+of Distance
+Distance between two countries can
+manifest itself along four basic di-
+mensions: cultural, administrative,
+geographic,and economic.The types
+of distance inﬂuence different busi-
+nesses in different ways.Geographic
+distance, for instance, affects the
+costs of transportation and commu-
+nications, so it is of particular im-
+4
+harvard business review
+T O O L K I T • Distance Still Matters
+Measuring the Impact
+of Distance 
+Economists often rely on the so-called gravity theory of trade ﬂows,
+which says there is a positive relationship between economic size and
+trade and a negative relationship between distance and trade. Models
+based on this theory explain up to two-thirds of the observed variations 
+in trade ﬂows between pairs of countries. Using such a model, economists
+Jeffrey Frankel and Andrew Rose1 have predicted how much certain dis-
+tance variables will affect trade.
+ 
+Change in 
+Distance Attribute
+International Trade (%) 
+income level: GDP per capita (1% increase) 
++0.7
+economic size: GDP (1% increase) 
++0.8
+physical distance (1% increase) 
+-1.1
+physical size (1% increase)* 
+-0.2
+access to ocean*  
++50
+common border 
++80
+common language 
++200
+common regional trading bloc 
++330
+colony-colonizer relationship
++900
+common colonizer 
++190
+common polity  
++300
+common currency  
++340
+1. Jeffrey Frankel and Andrew Rose,“An Estimate of the Effects of Currency Unions on Growth,”
+unpublished working paper, May 2000.
+*Estimated effects exclude the last four variables in the table.
+
+portance to companies that deal with
+heavy or bulky products, or whose op-
+erations require a high degree of coor-
+dination among highly dispersed peo-
+ple or activities. Cultural distance, by
+contrast, affects consumers’ product
+preferences. It is a crucial consideration
+for any consumer goods or media com-
+pany, but it is much less important for
+a cement or steel business.
+Each of these dimensions of distance
+encompasses many different factors,
+some of which are readily apparent; 
+others are quite subtle. (See the exhibit
+“The CAGE Distance Framework”for an
+overview of the factors and the ways in
+which they affect particular industries.)
+In the following pages, I will review the
+four principal dimensions of distance,
+starting with the two overlooked the
+most – cultural distance and adminis-
+trative distance.
+Cultural Distance. A country’s cul-
+tural attributes determine how people
+interact with one another and with com-
+panies and institutions. Differences in
+religious beliefs, race, social norms, and
+language are all capable of creating dis-
+tance between two countries. Indeed,
+they can have a huge impact on trade: All
+other things being equal,trade between
+Pankaj Ghemawat is the Jaime and 
+Joseﬁna Chua Tiampo Professor of Busi-
+ness Administration at Harvard Business
+School in Boston.His article “The Dubious
+Logic of Global Megamergers,” coau-
+thored by Fariborz Ghadar,was published
+in the July–August 2000 issue of HBR.
+The CAGE 
+Distance Framework
+The cultural, administrative, geographic, and economic (CAGE) distance framework helps
+managers identify and assess the impact of distance on various industries. The upper 
+portion of the table lists the key attributes underlying the four dimensions of distance. The
+lower portion shows how they affect different products and industries.
+attributes creating distance
+industries or products affected by distance
+september 2001
+5
+Distance Still Matters • T O O L K I T
+Cultural Distance
+different languages
+different ethnicities; lack 
+of connective ethnic or 
+social networks
+different religions
+different social norms 
+products have high 
+linguistic content (TV) 
+products affect cultural 
+or national identity of 
+consumers (foods)
+product features 
+vary in terms of:
+• size (cars) 
+• standards 
+(electrical appliances) 
+• packaging 
+products carry country-
+speciﬁc quality 
+associations (wines) 
+Administrative Distance
+absence of colonial ties
+absence of shared 
+monetary or political 
+association
+political hostility
+government policies
+institutional weakness 
+government involvement is
+high in industries that are:
+• producers of staple goods 
+(electricity)
+• producers of other 
+“entitlements” (drugs)
+• large employers (farming)
+• large suppliers to 
+government (mass 
+transportation)
+• national champions 
+(aerospace)
+• vital to national security
+(telecommunications) 
+• exploiters of natural 
+resources (oil, mining)
+• subject to high sunk 
+costs (infrastructure) 
+Geographic Distance
+physical remoteness
+lack of a common border
+lack of sea or river access
+size of country
+weak transportation or 
+communication links
+differences in climates
+products have a low 
+value-to-weight or bulk 
+ratio (cement)
+products are fragile 
+or perishable 
+(glass, fruit)
+communications and 
+connectivity are important 
+(ﬁnancial services)
+local supervision and 
+operational requirements 
+are high (many services)
+Economic Distance   
+differences in 
+consumer incomes
+differences in costs 
+and quality of: 
+• natural resources
+• ﬁnancial resources
+• human resources
+• infrastructure
+• intermediate inputs
+• information or knowledge
+nature of demand varies 
+with income level (cars)
+economies of standardi-
+zation or scale are 
+important (mobile phones) 
+labor and other factor 
+cost differences are salient
+(garments)
+distribution or business 
+systems are different 
+(insurance)
+companies need to be 
+responsive and agile 
+(home appliances)
+
+countries that share a language, for ex-
+ample, will be three times greater than
+between countries without a common
+language.
+Some cultural attributes, like lan-
+guage, are easily perceived and under-
+stood. Others are much more subtle.
+Social norms, the deeply rooted system
+of unspoken principles that guide indi-
+viduals in their everyday choices and 
+interactions, are often nearly invisible,
+even to the people who abide by them.
+Take, for instance, the long-standing
+tolerance of the Chinese for copyright
+infringement. As William Alford points
+out in his book To Steal a Book Is an 
+Elegant Offense (Stanford University
+Press, 1995), many people ascribe this
+social norm to China’s recent commu-
+nist past. More likely, Alford argues, it
+ﬂows from a precept of Confucius that
+encourages replication of the results of
+past intellectual endeavors: “I transmit
+rather than create; I believe in and love
+the Ancients.” Indeed, copyright in-
+fringement was a problem for Western
+publishers well before communism.
+Back in the 1920s,for example,Merriam
+Webster, about to introduce a bilingual
+dictionary in China, found that the
+Commercial Press in Shanghai had al-
+ready begun to distribute its own ver-
+sion of the new dictionary.The U.S.pub-
+lisher took the press to a Chinese court,
+which imposed a small ﬁne for using
+the Merriam Webster seal but did noth-
+ing to halt publication. As the ﬁlm and
+music industries well know, little has
+changed. Yet this social norm still con-
+founds many Westerners.
+Most often, cultural attributes create
+distance by inﬂuencing the choices that
+consumers make between substitute
+products because of their preferences
+for speciﬁc features. Color tastes, for
+example, are closely linked to cultural
+prejudices. The word “red” in Russian
+also means beautiful.Consumer durable
+industries are particularly sensitive to
+differences in consumer taste at this
+level. The Japanese, for example, prefer
+automobiles and household appliances
+to be small, reﬂecting a social norm
+common in countries where space is
+highly valued.
+Sometimes products can touch a
+deeper nerve, triggering associations 
+related to the consumer’s identity as a
+member of a particular community. In
+these cases, cultural distance affects 
+entire categories of products. The food
+industry is particularly sensitive to reli-
+gious attributes. Hindus, for example,
+do not eat beef because it is expressly
+forbidden by their religion. Products
+that elicit a strong response of this kind
+are usually quite easy to identify,though
+some countries will provide a few sur-
+prises. In Japan, rice, which Americans
+treat as a commodity, carries an enor-
+mous amount of cultural baggage.
+Ignoring cultural distance was one of
+Star TV’s biggest mistakes.By supposing
+that Asian viewers would be happy with
+English-language programming,the com-
+pany assumed that the TV business was
+insensitive to culture. Managers either
+dismissed or were unaware of evidence
+from Europe that mass audiences in
+countries large enough to support the
+development of local content generally
+prefer local TV programming.If they had
+taken cultural distance into account,
+China and India could have been pre-
+dicted to require signiﬁcant investments
+in localization. TV is hardly cement.
+Administrative or Political Dis-
+tance. Historical and political associa-
+tions shared by countries greatly affect
+trade between them. Colony-colonizer
+links between countries, for example,
+boost trade by 900%, which is perhaps
+not too surprising given Britain’s con-
+tinuing ties with its former colonies in
+the commonwealth, France’s with the
+franc zone of West Africa, and Spain’s
+with Latin America. Preferential trad-
+ing arrangements, common currency,
+and political union can also increase
+trade by more than 300% each. The 
+integration of the European Union is
+6
+harvard business review
+T O O L K I T • Distance Still Matters
+Industry Sensitivity
+to Distance
+The various types of distance affect
+different industries in different ways.
+To estimate industry sensitivity to
+distance, Rajiv Mallick, a research 
+associate at Harvard Business School,
+and I regressed trade between every
+possible pair of countries in the
+world in each of 70 industries (ac-
+cording to their SIC designations) 
+on each dimension of distance.
+The results conﬁrm the impor-
+tance of distinguishing between the
+various components of distance 
+in assessing foreign market opportu-
+nities. Electricity, for instance, is
+highly sensitive to administrative
+and geographic factors but not at 
+all to cultural factors. The following
+table lists some of the industries 
+that are more and less sensitive to
+distance.
+CULTURAL DISTANCE
+Linguistic Ties
+meat and meat preparations
+cereals and cereal preparations
+miscellaneous edible products 
+and preparations
+tobacco and tobacco products 
+ofﬁce machines and automatic 
+data-processing equipment
+MORE SENSITIVE
+LESS SENSITIVE
+photographic apparatuses,
+optical goods, watches
+road vehicles
+cork and wood
+metalworking machinery
+electricity current
+MORE SENSITIVE
+
+probably the leading example of delib-
+erate efforts to diminish administrative
+and political distance among trading
+partners. (Needless to say, ties must be
+friendly to have a positive inﬂuence on
+trade.Although India and Pakistan share
+a colonial history–not to mention a bor-
+der and linguistic ties–their mutual hos-
+tility means that trade between them is
+virtually nil.)
+Countries can also create adminis-
+trative and political distance through 
+unilateral measures. Indeed, policies of 
+individual governments pose the most
+common barriers to cross-border com-
+petition. In some cases, the difﬁculties
+arise in a company’s home country.
+For companies from the United States,
+for instance, domestic prohibitions on
+bribery and the prescription of health,
+safety, and environmental policies have
+a dampening effect on their interna-
+tional businesses.
+More commonly, though, it is the tar-
+get country’s government that raises
+barriers to foreign competition: tariffs,
+trade quotas, restrictions on foreign di-
+rect investment, and preferences for
+domestic competitors in the form of
+subsidies and favoritism in regulation
+and procurement. Such measures are
+expressly intended to protect domestic
+industries, and they are most likely to
+be implemented if a domestic industry
+meets one or more of the following
+criteria: 
+• It is a large employer. Industries that
+represent large voting blocs often re-
+ceive state support in the form of subsi-
+dies and import protection. Europe’s
+farmers are a case in point.
+• It is seen as a national champion. Re-
+ﬂecting a kind of patriotism, some in-
+dustries or companies serve as symbols
+of a country’s modernity and competi-
+tiveness. Thus the showdown between
+Boeing and Airbus in capturing the
+large passenger-jet market has caused
+feelings on both sides of the Atlantic to
+run high and could even spark a broader
+trade war. Also, the more that a govern-
+ment has invested in the industry, the
+more protective it is likely to be, and
+the harder it will be for an outsider to
+gain a beachhead.
+• It is vital to national security. Govern-
+ments will intervene to protect indus-
+tries that are deemed vital to national
+security–especially in high tech sectors
+such as telecommunications and aero-
+space. The FBI, for instance, delayed
+Deutsche Telekom’s acquisition of Voice-
+stream for reasons of national security.
+• It produces staples. Governments will
+also take measures to prevent foreign
+companies from dominating markets
+for goods essential to their citizens’
+everyday lives. Food staples, fuel, and
+electricity are obvious examples.
+september 2001
+7
+Distance Still Matters • T O O L K I T
+ADMINISTRATIVE DISTANCE
+Preferential Trading Agreements
+gold, nonmonetary
+electricity current
+coffee, tea, cocoa, spices
+textile ﬁbers
+sugar, sugar preparations,
+and honey
+GEOGRAPHIC DISTANCE
+Physical Remoteness
+electricity current
+gas, natural and manufactured
+paper, paperboard
+live animals
+sugar, sugar preparations,
+and honey
+ECONOMIC DISTANCE
+Wealth Differences
+(economic distance decreases trade)
+nonferrous metals
+manufactured fertilizers
+meat and meat preparations
+iron and steel
+pulp and waste paper
+gas, natural and manufactured
+travel goods, handbags
+footwear
+sanitary, plumbing, heating,
+and lighting ﬁxtures
+furniture and furniture parts 
+pulp and waste paper
+photographic apparatuses,
+optical goods, watches
+telecommunications and 
+sound-recording apparatuses
+coffee, tea, cocoa, spices
+gold, nonmonetary
+(economic distance increases trade)
+coffee, tea, cocoa, spices
+animal oils and fats
+ofﬁce machines and automatic 
+data-processing equipment
+power-generating machinery 
+and equipment
+photographic apparatuses,
+optical goods, watches
+LESS SENSITIVE
+
+• It produces an “entitlement”good or ser-
+vice. Some industries,notably the health
+care sector, produce goods or services
+that people believe they are entitled to
+as a basic human right. In these indus-
+tries, governments are prone to inter-
+vene to set quality standards and control
+pricing.
+• It exploits natural resources. A country’s
+physical assets are often seen as part 
+of a national heritage. Foreign compa-
+nies can easily be considered robbers.
+Nationalization,therefore,is a constant
+threat to international oil and mining
+multinationals.
+• It involves high sunk-cost commitments.
+Industries that require large,geography-
+speciﬁc sunk investments–in the shape,
+say, of oil reﬁneries or aluminum smelt-
+ing plants or railway lines – are highly
+vulnerable to interference from local
+governments.Irreversibility expands the
+scope for holdups once the investment
+has been made.
+Finally, a target country’s weak in-
+stitutional infrastructure can serve to
+dampen cross-border economic activity.
+Companies typically shy away from
+doing business in countries known for
+corruption or social conﬂict. Indeed,
+some research suggests that these con-
+ditions depress trade and investment
+far more than any explicit adminis-
+trative policy or restriction. But when
+a country’s institutional infrastructure
+is strong – for instance, if it has a well-
+functioning legal system – it is much
+more attractive to outsiders.
+Ignoring administrative and political
+sensitivities was Star TV’s other big mis-
+take. Foreign ownership of broadcast-
+ing businesses–even in an open society
+like the United States – is always po-
+litically loaded because of television’s
+power to inﬂuence people. Yet shortly
+after acquiring the company, Rupert
+Murdoch declared on record that satel-
+lite television was “an unambiguous
+threat to totalitarian regimes every-
+where” because it permitted people 
+to bypass government-controlled news
+sources. Not surprisingly, the Chinese
+government enacted a ban on the re-
+ception of foreign satellite TV services
+soon thereafter. News Corporation has
+begun to mend fences with the Chinese
+authorities, but it has yet to score any
+major breakthroughs in a country that
+accounts for nearly 60% of Star TV’s 
+potential customers. Murdoch of all 
+people should have foreseen this out-
+come,given his experience in the United
+States,where he was required to become
+a citizen in order buy the television com-
+panies that now form the core of the
+Fox network.
+Geographic Distance. In general,
+the farther you are from a country, the
+harder it will be to conduct business in
+that country. But geographic distance is
+not simply a matter of how far away the
+8
+harvard business review
+T O O L K I T • Distance Still Matters
+How Far Away Is China, Really?
+As Star TV discovered, China is a particularly tough nut to crack.
+In a recent survey of nearly 100 multinationals, 54% admitted that
+their total business performance in China had been “worse than
+planned,”compared with just 25% reporting “better than planned.”
+Why was the failure rate so high? The survey provides the predictable
+answer: 62% of respondents reported that they had overestimated
+market potential for their products or services.
+A quick analysis of the country along the dimensions of distance
+might have spared those companies much disappointment. Culturally,
+China is a long way away from nearly everywhere. First, the many 
+dialects of the Chinese language are notoriously difﬁcult for foreigners
+to learn, and the local population’s foreign-language skills are limited.
+Second, the well-developed Chinese business culture based on personal
+connections, often summarized in the term guanxi, creates barriers 
+to economic interchange with Westerners who focus on transactions
+rather than relationships. It can even be argued that Chinese consumers
+are “home-biased”; market research indicates much less preference for
+foreign brands over domestic ones than seems to be true in India, for
+example. In fact, greater China plays a disproportionate role in China’s
+economic relations with the rest of the world.
+Administrative barriers are probably even more important. A survey
+of members of the American Chamber of Commerce in China ﬂagged
+market-access restrictions, high taxes, and customs duties as the
+biggest barriers to proﬁtability in China. The level of state involve-
+ment in the economy continues to be high, with severe economic
+strains imposed by loss-making state-owned enterprises and techni-
+cally insolvent state-owned banks. Corruption, too, is a fairly signiﬁ-
+cant problem. In 2000, Transparency International ranked the country
+63rd out of 90, with a rating of one indicating the least perceived 
+corruption. Considerations such as these led Standard & Poor’s to 
+assign China a political-risk ranking of ﬁve in 2000, with six being 
+the worst possible score.
+So, yes, China is a big market, but that is far from the whole story.
+Distance matters, too, and along many dimensions.
+
+country is in miles or kilometers. Other
+attributes that must be considered in-
+clude the physical size of the country,
+average within-country distances to 
+borders, access to waterways and the
+ocean, and topography. Man-made geo-
+graphic attributes also must be taken
+into account–most notably, a country’s
+transportation and communications
+infrastructures.
+Obviously, geographic attributes in-
+ﬂuence the costs of transportation.
+Products with low value-to-weight or
+bulk ratios, such as steel and cement,
+incur particularly high costs as geo-
+graphic distance increases. Likewise,
+costs for transporting fragile or perish-
+able products become signiﬁcant across
+large distances.
+Beyond physical products, intangible
+goods and services are affected by geo-
+graphic distance as well. One recent
+study indicates that cross-border equity
+ﬂows between two countries fall off sig-
+niﬁcantly as the geographic distance be-
+tween them rises. This phenomenon
+clearly cannot be explained by trans-
+portation costs – capital, after all, is not
+a physical good. Instead, the level 
+of information infrastructure (crudely
+measured by telephone trafﬁc and the
+number of branches of multinational
+banks) accounts for much of the effect
+of physical distance on cross-border 
+equity ﬂows.
+Interestingly,companies that ﬁnd ge-
+ography a barrier to trade are often ex-
+pected to switch to direct investment in
+local plant and equipment as an alter-
+native way to access target markets.But
+current research suggests that this ap-
+proach may be ﬂawed: Geographic dis-
+tance has a dampening effect, overall,
+on investment ﬂows as well as on trade
+ﬂows. In short, it is important to keep
+both information networks and trans-
+portation infrastructures in mind when
+assessing the geographic inﬂuences on
+cross-border economic activity.
+Economic Distance. The wealth or
+income of consumers is the most impor-
+tant economic attribute that creates dis-
+tance between countries, and it has 
+a marked effect on the levels of trade
+and the types of partners a country
+trades with.Rich countries,research sug-
+gests, engage in relatively more cross-
+border economic activity relative to
+their economic size than do their poorer
+cousins. Most of this activity is with
+other rich countries, as the positive cor-
+relation between per capita GDP and
+trade ﬂows implies. But poor countries
+also trade more with rich countries than
+with other poor ones.
+Of course, these patterns mask varia-
+tions in the effects of economic dispari-
+ties–in the cost and quality of ﬁnancial,
+human, and other resources. Compa-
+nies that rely on economies of experi-
+ence, scale, and standardization should
+focus more on countries that have sim-
+ilar economic proﬁles. That’s because
+they have to replicate their existing busi-
+ness model to exploit their competitive
+advantage, which is hard to pull off in
+a country where customer incomes –
+not to mention the cost and quality of
+resources–are very different. Wal-Mart
+in India, for instance, would be a very
+different business from Wal-Mart in the
+United States. But Wal-Mart in Canada
+is virtually a carbon copy.
+In other industries,however,compet-
+itive advantage comes from economic
+arbitrage – the exploitation of cost and
+price differentials between markets.
+Companies in industries whose major
+cost components vary widely across
+countries – like the garment and foot-
+wear industries, where labor costs are
+important–are particularly likely to tar-
+get countries with different economic
+proﬁles for investment or trade.
+Whether they expand abroad for pur-
+poses of replication or arbitrage,all com-
+panies ﬁnd that major disparities in sup-
+ply chains and distribution channels are
+a signiﬁcant barrier to business. A re-
+cent study concluded that margins on
+distribution within the United States –
+the costs of domestic transportation,
+wholesaling,and retailing–play a bigger
+role, on average, in erecting barriers to
+imports into the United States than do
+international transportation costs and
+tariffs combined.
+More broadly, cross-country com-
+plexity and change place a premium on
+responsiveness and agility,making it hard
+for cross-border competitors, particu-
+larly replicators, to match the perfor-
+mance of locally focused ones because
+of the added operational complexity.
+In the home appliance business, for in-
+stance,companies like Maytag that con-
+centrate on a limited number of geog-
+raphies produce far better returns for
+investors than companies like Electro-
+lux and Whirlpool, whose geographic
+spread has come at the expense of sim-
+plicity and proﬁtability.
+A Case Study in Distance
+Taking the four dimensions of distance
+into account can dramatically change 
+a company’s assessment of the relative 
+attractiveness of foreign markets. One
+company that has wrestled with global
+expansion is Tricon Restaurants Inter-
+national (TRI), the international oper-
+ating arm of Tricon,which manages the
+Pizza Hut, Taco Bell, and KFC fast-food
+chains, and which was spun off from
+Pepsico in 1997.
+When Tricon became an independent
+company, TRI’s operations were far-
+ﬂung, with restaurants in 27 countries.
+But the proﬁtability of its markets var-
+ied greatly: Two-thirds of revenues and
+an even higher proportion of proﬁts
+came from just seven markets. Further-
+more, TRI’s limited operating cash ﬂow
+and Tricon’s debt service obligations left
+TRI with less than one-tenth as much
+money as archrival McDonald’s Inter-
+national to invest outside the United
+States. As a result, in 1998, TRI’s presi-
+dent, Pete Bassi, decided to rationalize
+its global operations by focusing its eq-
+uity investments in a limited number
+of markets.
+But which markets? The exhibit
+“Country Portfolio Analysis: A Flawed
+Approach”provides a portfolio analysis
+of international markets for the fast-
+food restaurant business, based on data
+used by TRI for its strategy discussions.
+The analysis suggests that the com-
+pany’s top markets in terms of size of
+opportunity would be the larger bub-
+bles to the center and right of the chart.
+Applying the effects of distance,how-
+ever, changes the map dramatically.
+Consider the Mexican market. Using
+Distance Still Matters • T O O L K I T
+september 2001
+9
+
+JAPAN
+KEY: (applies to both charts)
+1
+KOREA
+2
+TAIWAN
+3
+PUERTO RICO
+4
+MALAYSIA
+5
+AUSTRALIA
+6
+THAILAND
+7
+NEW ZEALAND
+8
+S. AFRICA
+9
+SINGAPORE
+10
+SAUDI ARABIA
+11
+POLAND
+12
+BELGIUM
+13
+FRANCE
+14
+GERMANY
+15
+SPAIN
+16
+UK
+17
+CANADA
+18
+MEXICO
+19
+CHINA
+20
+10
+harvard business review
+T O O L K I T • Distance Still Matters
+-5,000
+100
+0
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+40,000
+per capita income ($) 
+per capita fast-food consumption ($)
+200
+300
+400
+Mexico
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Mexico
+-5,000
+100
+0
+0
+5,000
+10,000
+15,000
+20,000
+25,000
+30,000
+35,000
+40,000
+per capita income ($)
+per capita fast-food consumption ($)
+200
+300
+400
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+13
+14
+15
+16
+17
+18
+19
+20
+11
+Country Portfolio Analysis: 
+A Flawed Approach
+Here’s how country portfolio analysis
+(CPA) works. A company’s actual and
+potential markets are plotted on a
+simple grid, with a measure of per
+capita income on one axis and some
+measure of product performance,
+often penetration rates, on the other.
+The location of the market on the grid
+reﬂects the attractiveness of the mar-
+ket in terms of individual consumer
+wealth and propensity to consume.
+The size of the bubble represents the
+total size of the market in terms of
+GDP or the absolute consumption 
+of the product or service in question.
+The bubbles provide a rough estimate
+of how large the relative revenue 
+opportunities are.
+This CPA map compares a number
+of non–U.S. markets for fast-food
+restaurants.
+Country Portfolio Analysis: 
+Adjusted for Distance
+Taking distance into account dra-
+matically changes estimates of 
+market opportunities. In the chart
+at right, each of the fast-food 
+markets has been adjusted for a
+number of distance attributes,
+based on the estimates by Frankel
+and Rose. The relative sizes of the
+bubbles are now very different.
+For example, Mexico, which was 
+less than one-tenth the size of 
+the largest international markets,
+Japan and Germany, ends up as the
+second largest opportunity. Clearly,
+the CPA approach paints an incom-
+plete picture, unless it is adjusted
+for distance.
+
+the CPA method, Mexico, with a total
+fast-food consumption of $700 million,
+is a relatively small market, ranking
+16th of 20. When combined with esti-
+mates of individual consumer wealth
+and per capita consumption, this rank-
+ing would imply that TRI should dis-
+pose of its investments there. But the
+exhibit “Country Portfolio Analysis: Ad-
+justed for Distance” tells a different
+story. When the fast-food consumption
+numbers for each country are adjusted
+for their geographic distance from Dal-
+las,TRI’s home base,Mexico’s consump-
+tion decreases less than any other coun-
+try’s,as you might expect,given Mexico’s
+proximity to Dallas. Based on just this
+readjustment, Mexico leaps to sixth
+place in terms of market opportunity.
+Further adjusting the numbers for a
+common land border and for member-
+ship in a trade agreement with the
+United States pushes Mexico’s ranking
+all the way up to second, after Canada.
+Not all the adjustments are positive: 
+adjusting for a common language–not
+a characteristic of Mexico–pushes Mex-
+ico into a tie for second place with the
+United Kingdom. Additional adjust-
+ments could also be made, but the 
+overall message is plain.Once distance is
+taken into account, the size of the mar-
+ket opportunity in Mexico looks very
+different. If TRI had used the CPA ap-
+proach and neglected distance,the com-
+pany’s planners might well have ended
+up abandoning a core market. Instead,
+they concluded, in Bassi’s words, that
+“Mexico is one of TRI’s top two or three
+priorities.”
+Factoring in the industry effects of dis-
+tance is only a ﬁrst step. A full analysis
+should consider how a company’s own
+characteristics operate to increase or re-
+duce distance from foreign markets.
+Companies with a large cadre of cos-
+mopolitan managers, for instance, will
+be less affected by cultural differences
+than companies whose managers are all
+from the home country. In TRI’s case,
+consideration of company-speciﬁc fea-
+tures made Mexico even more attrac-
+tive. The company already owned more
+than four-ﬁfths of its Mexican outlets
+and had a 38% share of the local market,
+well ahead of McDonald’s.
+Consideration of the interaction of
+company-speciﬁc features and distance
+is beyond the scope of this article. But
+whether the analysis is at the industry
+or company level, the message is the
+same: Managers must always be con-
+scious of distance–in all its dimensions.
+The CAGE distance framework is in-
+tended to help managers meet that
+challenge.While it is necessarily subjec-
+tive, it represents an important comple-
+ment to the tools used by most compa-
+nies seeking to build or rationalize their
+country market portfolios. Technology
+may indeed be making the world a
+smaller place, but it is not eliminating
+the very real–and often very high–costs
+of distance.
+Reprint r0108k
+To place an order, call 1-800-988-0886.
+september 2001
+11
+Distance Still Matters • T O O L K I T

@@ -1,0 +1,1946 @@
+Identifying Liabilities of Foreignness and Strategies to Minimize Their Effects: The Case of
+Labor Lawsuit Judgments in the United States
+Author(s): John M. Mezias
+Source: Strategic Management Journal, Vol. 23, No. 3 (Mar., 2002), pp. 229-244
+Published by: John Wiley & Sons
+Stable URL: http://www.jstor.org/stable/3094363
+Accessed: 13/02/2009 22:52
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at
+http://www.jstor.org/action/showPublisher?publisherCode=jwiley.
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+JSTOR is a not-for-profit organization founded in 1995 to build trusted digital archives for scholarship. We work with the
+scholarly community to preserve their work and the materials they rely upon, and to build a common research platform that
+promotes the discovery and use of these resources. For more information about JSTOR, please contact support@jstor.org.
+John Wiley & Sons is collaborating with JSTOR to digitize, preserve and extend access to Strategic
+Management Journal.
+http://www.jstor.org
+
+Strategic Management Journal 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+DOI: 10.1002/smj.220 
+I 
+IDENTIFYING 
+LIABILITIES 
+OF FOREIGNNESS AND 
+STRATEGIES TO MINIMIZE THEIR EFFECTS: THE 
+CASE OF LABOR LAWSUIT JUDGMENTS IN THE 
+UNITED STATES 
+JOHN M. MEZIAS* 
+Department of Management, University of Miami, Coral Gables, Florida, U.S.A. 
+Most foreign direct investment (FDI) theories assume that foreign subsidiaries are at a disad- 
+vantage relative to domestic firms; that is, they suffer a liability offoreignness. Following this 
+reasoning, most FDI research has focused on advantages foreign investors must possess to over- 
+come whatever disadvantages they face. Research directly investigating the sources of foreign 
+subsidiary disadvantages has been notably lacking, despite the fact that understanding disad- 
+vantages could uncover ways to reduce exposure to these liabilities offoreignness and improve 
+management of FDI. This study focuses on whether labor lawsuit judgments represent a liabil- 
+ity for foreign subsidiaries operating in the United States (U.S.). Specifically, I tested whether 
+486 British, German, and Japanese subsidiaries operating in the U.S. had more labor lawsuits 
+brought to judgment than a matched sample of U.S.-owned firms. Results indicate that foreign 
+subsidiaries faced significantly more labor lawsuit judgments in both federal and state juris- 
+dictions. I also investigated several variables hypothesized to be associated with a reduction in 
+labor lawsuit judgments facing foreign subsidiaries. Foreign subsidiaries who used American 
+top officers or whose parent firms had more U.S. operations faced fewer lawsuits, while foreign 
+subsidiaries using human resource professionals actually faced more labor lawsuit judgments. 
+Implications of these findings and avenues for future research are discussed. Copyright ? 2002 
+John Wiley & Sons, Ltd. 
+INTRODUCTION 
+Most foreign direct investment (FDI) theories 
+assume that foreign subsidiaries face disadvan- 
+tages or experience liabilities of their foreignness 
+relative to domestic firms because of information 
+asymmetries and transaction costs (Hymer, 1976), 
+distance impeding decision making (Kindleberger, 
+1969), and local biases (Vernon, 1977). Rec- 
+ognizing subsidiary disadvantage, Caves (1971) 
+argued that firms investing abroad must possess 
+enough specific asset advantages to counter these 
+disadvantages. Following this logic, most FDI 
+Key words: liability of foreignness; host country adapta- 
+tion; legal environment; labor lawsuit judgments; foreign 
+subsidiary management. 
+*Correspondence to: John M. Mezias, Department of Manage- 
+ment, University of Miami, 414 R. Jenkins Building, Coral 
+Gables, FL 33124-9145, U.S.A. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+research has focused on sources and types of 
+advantages that foreign investors must possess to 
+overcome whatever disadvantages they may face. 
+While advantages, such as intangible assets, do 
+affect subsidiary performance, disadvantages fac- 
+ing foreign subsidiaries also affect performance 
+(Zaheer, 1995; Mezias, 1999, 2000). Investigat- 
+ing these disadvantages could uncover strategies 
+that reduce exposure to these liabilities of foreign- 
+ness and improve management of FDI. However, 
+few studies document a specific liability of for- 
+eignness within a focal country and investigate 
+strategies that might reduce exposure to this dis- 
+advantage. 
+Recently several studies reported evidence of 
+labor-related subsidiary disadvantage in the United 
+States (U.S.) stemming from higher employee 
+expenses (Mincer and Higuchi, 1988; Lipsey, 
+1994) or lower profitability associated with not 
+Received 13 October 2000 
+Final revision received 20 July 2001 
+I 
+
+230 
+J. M. Mezias 
+adopting locally accepted practices (Zaheer, 1995). 
+However, these studies have some limitations. 
+Mincer and Higuchi (1988) compared only Japa- 
+nese and U.S. firms; so, higher employee expenses 
+could represent different human resource (HR) 
+approaches by Japanese firms rather than a liabil- 
+ity of foreignness. Lipsey (1994) focused exclu- 
+sively on manufacturing firms, despite the fact 
+that service firms represent a rapidly growing pro- 
+portion of U.S. gross domestic product. Zaheer 
+(1995) was first to tie liability of foreignness to 
+the failure to adopt host country practices. How- 
+ever, because she studied only firms in Tokyo 
+and New York City, it is possible that this lia- 
+bility is specific to these cities rather than more 
+broadly applicable. Additionally, transfer pricing 
+or income shifting between subsidiary and parent 
+could affect her profitability measure. In this study, 
+I build on this research by investigating foreign 
+subsidiaries from three countries, operating in both 
+service and manufacturing industries, and using 
+a measure unaffected by transfer pricing-labor 
+lawsuit judgments. I examine if labor lawsuit judg- 
+ments represent a liability of foreignness for for- 
+eign subsidiaries operating in the U.S. Specifically, 
+I compare the number of labor lawsuit judgments 
+against 486 British, German, and Japanese sub- 
+sidiaries operating in the U.S. with the number of 
+labor lawsuit judgments against 486 U.S.-owned 
+firms operating in the same industries and cities. 
+Using a subsample of the 486 foreign subsidiaries, 
+I go a step further by examining whether foreign 
+subsidiary behaviors, such as key staffing strate- 
+gies, level of autonomy, number of affiliated firms 
+a multinational enterprise (MNE) has in the U.S., 
+and foreign subsidiary age, affect exposure to labor 
+lawsuit judgments. 
+Why study labor lawsuit judgments? First, it is 
+important to identify how the U.S. legal environ- 
+ment, which embodies legal, social, and cultural 
+norms (Edelman and Suchman, 1997), can create 
+liabilities for foreign subsidiaries. Second, while 
+most performance measures aggregate advantages 
+and disadvantages, labor lawsuits only measure 
+labor-related disadvantage. Also, income shift- 
+ing or transfer pricing between parent and sub- 
+sidiary do not affect this measure. Thus, labor 
+lawsuits provide a unique window to directly 
+assess disadvantages. Third, there are significant 
+costs of noncompliance with U.S. labor laws. 
+Jury Verdict Research Corporation reports that 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+employee plaintiffs won 78.9 percent of defama- 
+tion cases, 70.0 percent of sexual discrimina- 
+tion and harassment cases, and 58.4 percent of 
+wrongful discharge cases. The average jury award 
+exceeded $600,000 and awards of several mil- 
+lion dollars were not uncommon (Edwards, 1994). 
+Legal fees for employment cases going to trial 
+average $100,000 and often firms pay over 
+$1,000,000 (Nye, 1995). Potentially more serious 
+than legal costs are workforce disruptions, reputa- 
+tional loss, and potential boycotts of nonconform- 
+ing firms. Lastly, research on this phenomenon is 
+sparse, which is especially surprising given that 
+employee discrimination suits increased 20 times 
+more than civil suits from 1969 to 1989 (Donohue 
+and Siegelman, 1991). The subsequent passage of 
+the 1991 Civil Rights Act and the Americans with 
+Disabilities Act has likely fueled further increases. 
+In this study I address two issues. First, I exam- 
+ine if labor lawsuit judgments represent a liability 
+of foreignness for foreign subsidiaries operating 
+in the United States. Second, I examine if for- 
+eign subsidiary behaviors affect this liability. In 
+the following section, I address the first issue by 
+reviewing literature on the U.S. legal environment 
+and diffusion of accepted HR practices. I interpret 
+this literature to suggest that foreign subsidiaries 
+will be more likely to face labor lawsuit judgments 
+than their domestic counterparts. I then investigate 
+the second issue by developing hypotheses about 
+which foreign subsidiaries will be most likely 
+to face labor lawsuit judgments based on strate- 
+gies and subsidiary characteristics. In the ensuing 
+section, I describe my sample and research design. 
+Then, I present and discuss the empirical results. I 
+close with a discussion of implications and avenues 
+for future research. 
+THE LEGAL ENVIRONMENT AND 
+DIFFUSION OF ACCEPTED HR 
+PRACTICES 
+Complexities of the legal environment pose a 
+serious challenge for all organizations operat- 
+ing in the U.S. especially in the area of labor 
+law. Compliance with some labor laws is obvi- 
+ous (e.g., minimum wage, regulated work hours), 
+but other laws are more complex (i.e., the Equal 
+Pay Act of 1963 and Title VII of the Civil 
+Rights Act of 1964). On the surface these laws 
+seem straightforward, but how exactly does a 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+firm demonstrate compliance with antidiscrimi- 
+nation legislation? Although these laws exert a 
+strong influence on employee-employer relation- 
+ships, they do not provide specific prescriptions for 
+compliance or mandates for changing employment 
+practices. 
+Legal environment theory (Edelman, 1990,1992) 
+addressed how adopting certain HR practices helps 
+organizations achieve at least the perception of 
+compliance with ambiguous laws. This theory 
+builds on institutional arguments that societal 
+norms influence both organizational structure and 
+behavior (Meyer and Rowan, 1977; DiMaggio 
+and Powell, 1983; Scott and Meyer, 1983; Scott, 
+1983). Edelman (1990: 1402) argued that ambigu- 
+ous 'law creates and helps to constitute, a nor- 
+mative environment to which organizations must 
+adapt.' According to this perspective, interplay 
+between organizations and the public legal order 
+determines which organizational practices are per- 
+ceived as legitimate and become accepted (Edel- 
+man, 1990, 1992). Documenting this complex pro- 
+cess with respect to labor practices, Baron, Dobbin, 
+and Jennings (1986) detailed the idiosyncratic evo- 
+lution of bureaucratic personnel practices in the 
+United States. The challenge is twofold: Firms 
+must identify and successfully implement accepted 
+HR practices. 
+This challenge may be especially daunting for 
+foreign subsidiaries. Legal and cultural norms are 
+specific to nations and culture strongly influences 
+laws and the diffusion of accepted HR practices 
+(Edelman, 1990, 1992). Managers of non-U.S. 
+operations are likely less familiar with U.S. culture 
+and laws than managers of U.S. firms. Given short 
+training periods and lengths of international assign- 
+ments, it is difficult for expatriates to develop a 
+deep understanding of their host country's society, 
+culture, and workplace regulations. Yet, identifying 
+and successfully implementing accepted HR prac- 
+tices requires a deep understanding of legal and 
+cultural norms. Additionally, expatriates may not 
+be ready for the complex array of U.S. labor laws 
+and regulations (Payson and Rosen, 1991). The 
+fragmented nature of the U.S. legal environment 
+adds to the complexity because case precedent and 
+cycles of judicial progressiveness differ by court at 
+both the federal and state level (Abzug and Mezias, 
+1993). Consequently, foreign managers are at a 
+disadvantage relative to domestic managers. 
+Other factors may also contribute to labor 
+problems facing foreign subsidiaries. Foreign 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+subsidiaries often use, at least initially, their 
+home country business practices, which likely 
+differ from accepted U.S. practices. Ewing (1982) 
+argued that when society views certain practices 
+(i.e., due process) as fair, not adopting these 
+practices creates perceptions of unfair governance 
+even if these practices do not violate employees' 
+rights. If societies perceive that some foreign 
+subsidiaries violate their norms of appropriate HR 
+practices, this perception may create a bias against 
+all foreign subsidiaries, including those using 
+accepted HR practices. Perceptions of unfairness 
+and biases against foreign subsidiaries, regardless 
+of justification, could lead to labor lawsuits. 
+Consequently, foreign subsidiaries may face more 
+labor lawsuits than their domestic counterparts. 
+Other things being equal, this suggests that they 
+are more likely to face labor lawsuits that go to 
+court and eventually result in judgments against 
+them. Stated formally, I test if foreign subsidiaries 
+face a disadvantage with respect to labor lawsuit 
+judgments. 
+Hypothesis 1: Foreign subsidiaries face more 
+labor lawsuit judgments than their domestic 
+counterparts. 
+REDUCING EXPOSURE TO LABOR 
+LAWSUIT JUDGMENTS 
+Foreign subsidiary staffing strategies 
+I have argued that foreign subsidiaries experience 
+a liability of foreignness with respect to labor law- 
+suit judgments. It is important to take the next step 
+to examine which staffing strategies might help 
+foreign subsidiaries reduce their exposure to labor 
+lawsuit judgments. As mentioned above, both iden- 
+tifying and implementing accepted HR practices is 
+a crucial task that requires a deep understanding of 
+legal and cultural norms. Americans likely have 
+a better understanding of U.S. legal and cultural 
+norms and have more experience working with 
+U.S. employees. Foreign subsidiaries with Ameri- 
+cans in charge of HR issues may benefit from their 
+deeper understanding of norms and their experi- 
+ence with U.S. employees. Subsidiaries with expa- 
+triates in charge of HR issues miss out on these 
+benefits and may be at a disadvantage identifying 
+and implementing accepted HR practices. Conse- 
+quently, subsidiaries with expatriates in charge of 
+HR issues may face more labor lawsuits. Stated 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+231 
+
+232 
+J. M. Mezias 
+formally, I test whether foreign subsidiaries with 
+an American in charge of HR issues face fewer 
+labor lawsuit judgments. 
+Hypothesis 2: Foreign subsidiaries with Amer- 
+icans in charge of HR issues face fewer labor 
+lawsuit judgments than subsidiaries with expa- 
+triates in charge of HR issues. 
+A separate issue is whether foreign subsidiaries 
+use an HR professional instead of a functional or 
+departmental manager to handle HR issues in addi- 
+tion to their other duties. Past research has shown 
+that HR professionals played an important role in 
+the complex evolution of modem U.S. personnel 
+practices (Baron et al., 1986). Indeed, Edelman 
+(1990, 1992) found that personnel professionals' 
+networks and mobility correlated highly with the 
+diffusion of legitimizing organizational practices. 
+Foreign subsidiaries with HR professionals may 
+benefit from their previous experience and net- 
+work connections and, thus, may be better able 
+to identify and implement accepted HR practices. 
+Consequently, HR professionals may help foreign 
+subsidiaries reduce their exposure to this liability. 
+Stated formally, I test whether foreign subsidiaries 
+with HR professionals face fewer labor lawsuit 
+judgments. 
+Hypothesis 3a: Foreign subsidiaries with HR 
+professionals face fewer labor lawsuit judg- 
+ments 
+than 
+subsidiaries 
+without 
+HR 
+professionals. 
+While past theory and research suggest that 
+HR professionals could help foreign subsidiaries 
+reduce exposure to labor lawsuit judgments, it is 
+important to note the potential for reverse causa- 
+tion in this relationship. That is, a foreign sub- 
+sidiary may only hire an HR professional if it 
+is having labor problems. Given the lag time in 
+filing and resolution of labor lawsuits, it might 
+appear that those foreign subsidiaries with HR pro- 
+fessionals actually experience more labor lawsuit 
+judgments. This 'hire to put out the fire' strat- 
+egy may result in findings opposite to what was 
+predicted in Hypothesis 3a. Therefore, I test a com- 
+peting hypothesis. Stated formally, I test whether 
+having an HR professional will be associated with 
+a greater number of labor lawsuit judgments. 
+Hypothesis 3b: Foreign subsidiaries with HR 
+professionals face more labor lawsuit judgments 
+than subsidiaries without HR professionals. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Although HR professionals are trained to deal 
+with labor problems, hiring an HR professional 
+may not be sufficient to reduce labor lawsuits judg- 
+ments. HR professionals often lack the managerial 
+discretion to significantly change practices, espe- 
+cially if those practices are used successfully by 
+their parent firms. Perhaps changing HR practices 
+and influencing implementation requires the sup- 
+port and understanding from those higher in the 
+hierarchy. To understand more fully the effect of 
+staffing strategies on labor lawsuit judgments, it 
+is necessary to examine who is the top officer at 
+these foreign subsidiaries. There is extensive litera- 
+ture on top officers influencing their organizations' 
+actions (Barnard, 1938; Andrews, 1971; Hambrick 
+and Mason, 1984; Hambrick, 1989). American top 
+officers are more familiar with U.S. cultural and 
+legal norms than expatriate top officers are. Con- 
+sequently, having an American top officer could 
+help a foreign subsidiary identify and especially 
+implement accepted HR practices that may reduce 
+labor lawsuit judgments. Stated formally, I test 
+whether having an American top officer reduces 
+the number of labor lawsuit judgments foreign sub- 
+sidiaries face. 
+Hypothesis 4: Foreign subsidiaries with Amer- 
+ican top officers face fewer labor lawsuit judg- 
+ments than subsidiaries with expatriate top 
+officers. 
+Subsidiary/parent relationship 
+All subsidiaries face conflicting pressure to main- 
+tain internal consistency with their parent's orga- 
+nizational practices and to adapt locally (Prahalad 
+and Doz, 1987; Evans and Doz, 1989; Bartlett 
+and Ghoshal, 1989). Although Kerr et al. (1960) 
+argued that management practices were becom- 
+ing more similar globally, Dunlop et al. (1975) 
+concluded that total convergence was impossi- 
+ble because of the social, political, and cultural 
+diversity of managerial approaches. The level of 
+adaptation to host country practices likely depends 
+on the level of autonomy given foreign sub- 
+sidiaries. A key issue in autonomy is the chain 
+of reporting among operations in an MNE. Fay- 
+erweather (1969) discussed how 'communication 
+gaps' between parent and subsidiary may inhibit a 
+foreign subsidiary's ability to respond quickly and 
+effectively to host country problems. Bartlett and 
+Ghoshal (1989) specifically tied communication 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+gaps to autonomy levels of subsidiary managers. 
+Greater autonomy from parent firms, which are 
+likely less in tune with host country norms and 
+practices than the foreign subsidiary's managers 
+are, may facilitate foreign subsidiary adaptation to 
+local conditions. Indeed, some MNEs may pro- 
+vide greater autonomy to encourage subsidiaries 
+to adopt local practices. Stated formally, I test if 
+greater autonomy from parent firms reduces the 
+number of labor lawsuit judgments foreign sub- 
+sidiaries face. 
+Hypothesis 5: Foreign subsidiaries with greater 
+autonomy from their parents face fewer labor 
+lawsuit judgments. 
+Extent of a MNE's involvement in the host 
+country 
+Recent research suggests that subsidiaries of 
+MNEs with more affiliated U.S. operations were 
+more likely to survive (Shaver, Mitchell, and 
+Yeung, 1997) and expand (Hennart and Park, 
+1994). Other studies found evidence of learn- 
+ing and diffusion of innovation across a network 
+of affiliated organizations (Argote, Beckman, and 
+Epple, 1990; Cool, Dierickx, and Szulanski, 1997). 
+An affiliated network may be a foreign subsidiary's 
+best opportunity for vicarious learning; that is, 
+learning from the experience of others (Miner and 
+Mezias, 1996). The argument is straightforward: It 
+is easier to identify and understand successful prac- 
+tices of affiliated firms than the practices of unaf- 
+filiated domestic firms. This organizational learn- 
+ing argument suggests that affiliated foreign sub- 
+sidiaries may benefit from learning and diffusion 
+related to identifying and implementing accepted 
+HR practices. There is also an institutional argu- 
+ment why foreign subsidiaries affiliated with more 
+U.S. operations might be less likely to experience 
+labor lawsuit judgments: They have higher pro- 
+files and are more visible. Greater visibility may 
+result in greater care to be in compliance because 
+more visible foreign subsidiaries are more vul- 
+nerable to normative pressures (Edelman, 1990). 
+Both arguments suggest that more host country 
+affiliations may reduce labor lawsuit judgments. 
+Stated formally, I test if having more affiliated 
+U.S. operations reduces the number of labor law- 
+suit judgments foreign subsidiaries face. 
+Hypothesis 6: Foreign subsidiaries of parent 
+firms with numerous U.S. operations face fewer 
+labor lawsuit judgments. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Organizational age has long been an impor- 
+tant predictor of population vital rates. Following 
+Stinchcombe (1965), the predominant view of the 
+effect of age, supported by considerable empiri- 
+cal evidence (Baum, 1996), has been a liability 
+of newness: Young organizations are at a survival 
+disadvantage. This ecological argument is con- 
+sistent with an organizational learning argument 
+that lack of experience and learning opportuni- 
+ties put younger firms at a disadvantage. While 
+affiliation with numerous subsidiaries may facili- 
+tate vicarious learning, age may be a measure of 
+experiential learning; that is, the extent to which 
+firms learn from their own experience (Miner and 
+Mezias, 1996). Thus, older foreign subsidiaries 
+may have learned to minimize their exposure to 
+labor lawsuit judgments. There is also a pure selec- 
+tion argument why older foreign subsidiaries may 
+face fewer labor lawsuit judgments: Younger for- 
+eign subsidiaries with numerous labor problems 
+may decide to shut down host country operations. 
+So, both a learning and selection argument would 
+suggest that older firms would experience fewer 
+labor lawsuit judgments. Stated formally, I test if 
+increased age reduces the number of labor lawsuit 
+judgments foreign subsidiaries face. 
+Hypothesis 7: Older foreign subsidiaries face 
+fewer labor lawsuit judgments. 
+EMPIRICAL 
+SETTING 
+Sample description 
+The foreign half of the sample consists of 486 
+British, German, and Japanese subsidiaries. By for- 
+eign subsidiary I am referring to any host coun- 
+try operation (e.g., sales offices, branch offices, 
+plants, or local headquarters) controlled by a for- 
+eign parent. I identified foreign subsidiaries using 
+the Subsidiaries of German Firms in the U.S., the 
+Directory of Japanese Affiliated Companies in the 
+U.S.A. and Canada, and the U.K./U.S.A. Directory: 
+A Directory of Bilateral Investment. The industries 
+represented include both service and manufactur- 
+ing and span numerous Standard Industrial Classi- 
+fication (SIC) codes. The second half of the sample 
+consists of 486 U.S. firms operating in the same 4- 
+digit SIC code and in the same location as the for- 
+eign subsidiaries. For example, if three Japanese, 
+two German, and four British-owned hotels oper- 
+ating in San Francisco were included among the 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+233 
+
+234 
+J. M. Mezias 
+foreign subsidiaries, then nine U.S.-owned hotels 
+were randomly selected from the total population 
+of U.S.-owned hotels operating in San Francisco. 
+The four locations satisfy several important 
+selection criteria. First, while anecdotal evidence 
+suggests that foreign subsidiaries have location 
+biases, Shaver (1998) found differences in the loca- 
+tion patterns of foreign and U.S.-owned manu- 
+facturing firms in the United States. He ranked 
+states according to foreign subsidiaries' location 
+preferences. For the states included in my sam- 
+ple, Georgia was most favored, Illinois was mod- 
+erately favored, California was moderately dis- 
+favored, and New York was highly disfavored. 
+Sampling from these locations provides variance 
+on factors not directly measured, e.g., right to 
+work legislation, average wage rates, and unioniza- 
+tion. The intention is to prevent spurious findings 
+linked to those factors. Second, federal district 
+courts have jurisdiction over specific geographic 
+regions corresponding to groups of states. Because 
+legal application and interpretation vary across 
+courts and judges, selecting locations under dif- 
+ferent federal district court jurisdictions affords a 
+more diversified national test of these hypotheses. 
+Obviously, these locations also provide state-level 
+jurisdictional diversity. Sampling from a single 
+metropolitan area within each state avoids prob- 
+lems associated with intrastate jurisdictional dif- 
+ferences. For example, New York State has 1076 
+different courts. Third, selected locations need suf- 
+ficient British, German, and Japanese subsidiaries 
+to ensure a large enough sample. Based on these 
+criteria, the Atlanta, Chicago, New York City, 
+and San Francisco metropolitan regions were the 
+chosen locations. 
+Testing my hypotheses requires tying each judg- 
+ment to the specific organization generating the 
+dispute. This allows me to track which staffing 
+strategies, practices, and characteristics are asso- 
+ciated with that labor lawsuit judgment. Court 
+jurisdiction provides an easy way to identify the 
+focal organization generating the dispute in a par- 
+ticular metropolitan area. However, this is prob- 
+lematic when organizations in a metropolitan area 
+have the exact same name, most notably branch 
+offices of banks. Because litigants' addresses are 
+not provided, it is almost impossible to identify 
+which of these same-named organizations gener- 
+ated the dispute leading to a judgment. Accord- 
+ingly, I excluded all same-named organizations 
+operating in the same metropolitan area. I also 
+excluded foreign subsidiaries with fewer than 10 
+employees because these smaller operations likely 
+use mostly expatriates. Expatriates would be reluc- 
+tant to air grievances with their parent company or 
+its subsidiary operations in a host country forum 
+such as the U.S. courts (Clermont and Eisenberg, 
+1996). 
+Originally, I identified 549 foreign subsidiaries; 
+of these, 3 moved outside their original metropoli- 
+tan area, 8 went out of business, 1 was acquired, 
+and 51 were unreachable. Consequently, these 63 
+subsidiaries were dropped; the remaining 486 sub- 
+sidiaries comprised the sample to test Hypothe- 
+sis 1. Table 1 depicts their national origin and 
+metropolitan locations; there is a matched U.S. 
+firm for each foreign subsidiary in the analysis to 
+test Hypothesis 1. To obtain some of the data to 
+test Hypotheses 2 through 7, I created a survey 
+and sent it to each foreign subsidiary. Initially, 
+192 foreign subsidiaries responded and 64 more 
+responded when I re-sent the survey, yielding 256 
+foreign subsidiaries and a response rate of approxi- 
+mately 53 percent. However, missing items left me 
+with only 176 usable surveys; as a result, the sam- 
+ple size for models testing Hypotheses 2 through 
+7 was 176. 
+Dependent variables 
+While performance measures, such as profits or 
+return on investment, aggregate a firm's advan- 
+tages and disadvantages, labor lawsuit judgments 
+Table 1. Foreign subsidiaries by national origin and metropolitan area 
+Atlanta 
+Chicago 
+New York 
+San Francisco 
+Totals 
+Germany 
+15 
+4 
+43 
+5 
+67 
+Japan 
+38 
+29 
+122 
+44 
+233 
+United Kingdom 
+23 
+17 
+134 
+12 
+186 
+Totals 
+76 
+50 
+299 
+61 
+486 
+The U.S. firms selected identically match this locational distribution. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Strat. Mgmt. J., 23: 229-244 
+(2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+directly measure only the disadvantages. Addi- 
+tionally, accounting techniques such as transfer 
+pricing or income shifting between parent and 
+subsidiary cannot manipulate this measure, which 
+is an important concern when assessing foreign 
+subsidiary performance. Thus, labor lawsuit judg- 
+ments provide a unique window to assess directly 
+a liability of foreignness. I use two dependent 
+variables to track labor lawsuit judgments brought 
+against each firm. One is the count of labor law- 
+suit judgments brought in federal courts, and the 
+other is the count of those brought in state courts. 
+Tracking both federal and state judgments provides 
+a more comprehensive assessment of whether for- 
+eign subsidiaries operating in the U.S. face a lia- 
+bility of foreignness with respect to labor lawsuit 
+judgments. Since my hypotheses are tied to the 
+activities at specific subsidiary locations, I count 
+only labor lawsuit judgments from courts with 
+jurisdiction in the focal firm's specific location: 
+either Atlanta, Chicago, New York City, or San 
+Francisco. 
+Why use labor lawsuit judgments rather than 
+simply counting labor lawsuit filings? Unfortu- 
+nately, records of lawsuits filed are only broken 
+down into two categories: civil and criminal. In 
+addition to labor lawsuits, civil filings include 
+product liability, contract disputes, patent infringe- 
+ments, insurance, securities, antitrust, and a host 
+of other types of civil actions. Since civil filings 
+are commingled, it is extremely difficult to dis- 
+aggregate labor lawsuit filings from other civil 
+filings and in many cases this is not possible. 
+Consequently, it does not seem reasonable to use 
+civil lawsuit filings to test labor-related hypotheses 
+because the count would include different types of 
+civil actions. In addition, using labor lawsuit judg- 
+ments provides a conservative test of the hypoth- 
+esis of liability of foreignness. Evidence strongly 
+suggests that foreigners are much more likely to 
+settle or abandon U.S. lawsuits rather than liti- 
+gate. Based on their study of more than 94,000 
+federal lawsuits from 1987 to 1994, Clermont and 
+Eisenberg (1996: 1133-1134) concluded that for- 
+eign firms: 
+... are reluctant to litigate in American courts for a 
+variety of reasons, including the apprehension that 
+American courts exhibit xenophobic bias and the 
+pecuniary and non-pecuniary distastes for litigating 
+in a distant place. 
+Of course, it is this reluctance to litigate as 
+defendants that is most relevant: They specifically 
+argue that foreign subsidiaries satisfy most claims 
+prior to going to litigation. Since foreigners are 
+more likely to satisfy claims before they come 
+to judgment, any bias or endogeneity stemming 
+from a potential settlement bias works in favor 
+of the null hypothesis. Thus, testing if foreign 
+subsidiaries face more labor lawsuit judgments is 
+a conservative test. 
+Although filing procedures for federal courts 
+are not appreciably different from those for state 
+courts, there are key differences that influence a 
+litigant's choice of jurisdiction. Federal statutes 
+can create rights, such as family-leave legislation, 
+unavailable in some states. If you work in a state 
+without an equivalent statute, then you must file 
+family-leave lawsuits in federal court. Lawsuits 
+with parties from different states also fall under 
+federal jurisdiction. In addition, remedies in federal 
+and state courts may differ substantially. For exam- 
+ple, federal courts limit punitive damages under 
+Title VII to $300,000, while California does not 
+limit punitive damages for suits filed under its 
+equivalent statute. Federal and state courts also dif- 
+fer in terms of who decides cases; for example, 
+until recently there was no right to a jury trial in 
+Title VII federal suits. Similarly, federal jury ver- 
+dicts require a unanimous vote of all six jurors, 
+while California jury verdicts require only nine 
+of twelve jurors. In addition to these differences 
+between federal and state courts, the fragmented 
+nature of the U.S. legal environment creates vari- 
+ance in cycles of progressiveness and case prece- 
+dent across courts (Abzug and Mezias, 1993). For 
+all of these reasons, it is necessary to analyze fed- 
+eral and state labor lawsuit judgments separately. 
+At the same time, examining both provides a more 
+comprehensive test of this liability of foreignness. 
+I used the Labor Library of Lexis-Nexis to track 
+labor judgments. This library documents all labor 
+lawsuit judgments against firms except for rare 
+cases in which the judge does not allow the judg- 
+ment to be made available. I also used The Ameri- 
+can Bench (Finn, 1996), a reference source for all 
+U.S. courts, to identify federal and state courts with 
+jurisdiction over the selected metropolitan areas. 
+The period of analysis is 1995-96 because detailed 
+data on foreign subsidiaries, specifically subsidiary 
+size data, have only recently become available and 
+are not available on a consistent basis. I use two 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+235 
+Strat. Mgmt. J., 23: 229-244 
+(2002) 
+
+236 
+J. M. Mezias 
+dependent variables to track the number of labor 
+lawsuit judgments: 
+* Federal is the count of federal labor lawsuit 
+judgments against a firm in 1995 and 1996. 
+* State is the count of state labor lawsuit judg- 
+ments against a firm in 1995 and 1996. 
+Independent variables 
+Most data on foreign subsidiaries came from the 
+British, German, and Japanese chambers of com- 
+merce and trade. Some data came from the Direc- 
+tory of Corporate Affiliations and some data came 
+from the Lexis-Nexis state incorporation database 
+files and the American Business Information file. 
+A survey instrument provided data on foreign sub- 
+sidiary staffing strategies and it supplemented data 
+on number of employees, number of affiliated U.S. 
+offices, and subsidiary reporting requirements. The 
+list of the independent variables follows: 
+* Foreign is a dummy variable representing if 
+the focal firm is foreign or domestic. Foreign 
+subsidiaries were coded 1 and U.S. firms were 
+coded 0. 
+* USHR is a dummy variable representing if the 
+focal subsidiary has an American in charge of 
+HR issues. Those using Americans were coded 
+1 and those using expatriates were coded 0. 
+* HRPro is a dummy variable representing if the 
+focal subsidiary's officer in charge of HR issues 
+is an HR professional. If HR or Personnel is 
+part of this officer's title, then the variable was 
+coded 1, if not the variable was coded 0. 
+* USTopExec is a dummy variable representing 
+if the focal subsidiary has had an American 
+top officer (titles vary from CEO, President, 
+to Chairman). Subsidiaries with American top 
+officers were coded 1 and subsidiaries with 
+expatriate top officers were coded 0. 
+* ReportUS is a dummy variable reflecting the 
+reporting chain of command for the focal sub- 
+sidiary. Subsidiaries reporting directly to an 
+affiliated U.S. operation were coded 1 and sub- 
+sidiaries reporting directly to its parent were 
+coded 0. 
+* USOffices is the total number of affiliated U.S. 
+operations of the focal subsidiary's parent. 
+* Age represents the number of years the focal 
+firm has operated in the particular metropolitan 
+location, rounded to the nearest year. 
+Control variables 
+Although I do not offer substantive hypotheses for 
+these variables, it is important to control for the 
+effects of size and location. Only three of the four 
+location variables could be included in the analy- 
+sis. I included them based on alphabetical order, 
+leaving San Francisco as the excluded category. 
+Table 2 reports correlations and descriptive statis- 
+tics. The following are the control variables: 
+* Size represents the total number of employees 
+working in the focal firm. 
+* Atlanta represents firms located in the Atlanta 
+metropolitan area, which were coded 1 and all 
+other firms were coded 0. 
+* Chicago represents firms located in the Chicago 
+metropolitan area, which were coded 1 and all 
+other firms were coded 0. 
+* New York represents firms located in the New 
+York City metropolitan area, which were coded 
+1 and all other firms were coded 0. 
+Estimation method 
+These dependent variables are counts of rare 
+events. Using ordinary least-squares regression on 
+this type of data would provide unbiased esti- 
+mation, but would be less efficient than estima- 
+tion techniques designed for limited dependent 
+variables. A Poisson process is designed specif- 
+ically for limited dependent variables and pro- 
+vides more efficient estimation than ordinary least- 
+squares regression for such data. In addition, count 
+data is bound from below (i.e., zero); therefore, 
+a firm cannot have a negative count of lawsuits. 
+However, using ordinary least-squares regression 
+could yield a negative count estimation, which 
+is meaningless in terms of practical interpreta- 
+tion. Accordingly, I use the Poisson process as 
+the baseline model (Maddala, 1984). These models 
+are commonly used to study patents (e.g., Zucker, 
+Darby, and Armstrong, 1998; Wang, Cockburn, 
+and Puterman, 1998), organizational founding rates 
+(e.g., Ranger-Moore, Banaszak-Holl, and Hannan, 
+1989, 1991; Mezias and Mezias, 2000), and FDI 
+entries (e.g., Kogut and Chang, 1991; Anand and 
+Kogut, 1997). 
+The basic Poisson model for event count data is 
+the following: 
+Pr(Yt = y) = e-X(Xit)[X(Xi,)/y!], y = 0, 1, 2,.... 
+(1) 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Strat. Mgmt. J., 23: 229-244 
+(2002) 
+
+0 ~0 
+tQ Table 2. Correlation matrix and descriptive statistics 
+0 
+0 
+Variable 
+1 
+2 
+3 
+1D Federal 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+2 State 
+0.308** 
+1 
+(972) 
+3 Foreign 
+0.069* 
+0.131** 1 
+(972) 
+(972) 
+4 USHR 
+0.044 
+0.074 
+1 
+(248) 
+(248) 
+S HRPro 
+0. 175** 
+0. 190** 
+0.229** 1 
+(224) 
+(224) 
+1 
+6 USTopExec 
+0.220 
+0.013 
+0.268** 0.118 
+1 
+(236) 
+(236) 
+(231) 
+(207) 
+7 ReportUS 
+-0.033 
+-0.034 
+0. 152* 
+0.056 
+0.283** 1 
+(306) 
+(306) 
+(222) 
+(200) 
+(210) 
+8 USOffices 
+-0.020 
+-0.035 
+0. 139* 
+0.051 
+0.087 
+0. 1 87** 
+1 
+(245) 
+(245) 
+(237) 
+(215) 
+(228) 
+(220) 
+9 Age 
+0.024 
+0.000 
+-0.060 
+0.022 
+-0.055 
+-0.066 
+-0.062 
+0.096 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+1 0 Size 
+0. 163** 
+0.162** -0.017 
+0. 170** 0.348** 0. 185** -0.023 
+0.109 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+1 1 Atlanta 
+-0.037 
+-0.059 
+0.000 
+0.073 
+0.048 
+0. 130* 
+0. 112* 
+0.037 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+12 Chicago 
+-0.013 
+-0.043 
+0.000 
+-0.123 
+0. 135* 
+0.043 
+0. 152** 
+0.038 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+13 New York 
+0.071* 
+0. 108** 0.000 
+-0.102 
+-0.047 
+-0.095 
+-0.300** 
+-0.056 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+14 San Francisco 
+-0.052 
+-0.055 
+0.000 
+-0.044 
+-0.105 
+0.046 
+0.181** 
+0.006 
+(972) 
+(972) 
+(972) 
+(248) 
+(224) 
+(236) 
+(306) 
+(245) 
+Mean 
+0.07 
+0.10 
+0.50 
+0.82 
+0.38 
+0.62 
+0.32 
+16.89 
+S.D. 
+0.51 
+0.65 
+0.50 
+0.39 
+0.49 
+0.49 
+0.47 
+29.42 
+Minimum 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+Maximum 
+1 3 
+1 1 
+1 
+1 
+1 
+1 
+1 
+200 
+0.056 
+(972) 
+-0.038 
+(972) 
+0.007 
+(972) 
+0.057 
+(972) 
+-0.049 
+(972) 
+21.08 
+15.66 
+2 
+106 
+-0.076*
+(972) 
+-0.023 
+(972) 
+0.099*
+(972) 
+-0.042 
+(972) 
+112.84 
+331.36 
+10 
+6000 
+--- ----------- 
+w 
+w 
+t--l-) 
+t'.) IC 
+p < 0.05; **p < 0.01; (n) 
+I 
+t'li 
+.41. 
+8 t'i 
+l< 
+R. 
+C/) 
+0 
+r 
+p- 
+co 
+0*- 
+I 
+
+238 
+J. M. Mezias 
+where X is the rate at which events occur. This is 
+a function of the matrix of independent variables 
+Xi, where i = the ith independent variable and 
+t = time. The Poisson distribution of Equation (1) 
+has expected value and variance of 
+E[Y,] = VAR[Y,] = -Xit 
+This model assumes that the expected number of 
+events and the variance of the expected number of 
+events equal the rate at which events occur, XXi,. 
+This parameter is estimated using the values of Xi, 
+to predict X, in the following equation: X, = e(Xt)?t. 
+Some count data can be heterogeneous, which 
+would violate the assumption of equal mean and 
+variance. Tracing their argument back to Green- 
+wood and Yule (1920), Ranger-Moore et al. (1991) 
+recommended using the negative binomial regres- 
+sion model to correct for violations of this assump- 
+tion. The negative binomial model has a scaling 
+parameter to deal with unexplained heterogeneity 
+or overdispersion, and it offers a more efficient 
+estimation than the Poisson model when dealing 
+with heterogeneous data. Like the Poisson model, 
+the negative binomial is a generalized linear model 
+that provides more efficient estimations for count 
+data than ordinary least-squares regression. I used 
+LIMDEP (Greene, 1989) software for the analysis 
+because it estimates both the Poisson and negative 
+binomial models. For all analyses, both models 
+were run to see if the negative binomial offered 
+any improvement over the Poisson model. 
+RESULTS 
+Table 3 reports negative binomial regression 
+results of a federal and a state model testing 
+Hypothesis 1. In both models, the alpha variable 
+was significant, suggesting overdispersion in the 
+data; accordingly, negative binomial regression 
+was used. Both models included a constant, a 
+dummy variable indicating if the firm was foreign, 
+location variables, Age, and Size. The number of 
+observations was 972; this included the 486 foreign 
+subsidiaries as well as the 486 matched American 
+firms. Positive coefficients indicate the variable 
+is correlated with an increased number of labor 
+lawsuit judgments; negative coefficients indicate 
+the variable is correlated with a reduced number 
+of labor lawsuit judgments. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Table 3. Negative binomial regression results 
+for labor lawsuit judgments against U.S. and 
+foreign firms 
+Variable 
+Federal 
+State 
+Constant 
+-15.708 
+-6.856 
+(0.000) 
+(-5.152)** 
+Foreign 
+0.984 
+2.592 
+(2.235)* 
+(1.854)* 
+Atlanta 
+11.004 
+0.478 
+(0.000) 
+(0.326) 
+Chicago 
+11.679 
+1.151 
+(0.000) 
+(0.919) 
+New York 
+11.903 
+2.318 
+(0.000) 
+(1.282) 
+Age 
+0.010 
+0.004 
+(0.680) 
+(0.150) 
+Size 
+0.002 
+0.002 
+(3.968)** 
+(1.954)* 
+ALPHA 
+8.195 
+13.263 
+(3.466)** 
+(3.824)** 
+Chi-square 
+100.411 
+200.218 
+d.f. 
+6 
+6 
+p-value 
+0.000 
+0.000 
+N 
+972 
+972 
+*p < 0.05; **p < 0.01 for one-tailed tests 
+(t-statistic) 
+The federal model tested federal labor law- 
+suit judgments; the state model tested state labor 
+lawsuit judgments. For both models the variable 
+Foreign was significant in the predicted positive 
+direction, indicating that foreign subsidiaries had 
+significantly more labor lawsuit judgments even 
+after controlling for location, age, and size. These 
+results strongly support Hypothesis 1 at both the 
+federal and state levels of jurisdiction, indicating 
+that foreign subsidiaries operating in the U.S. do 
+experience a liability of foreignness with respect to 
+labor lawsuit judgments. Size was positive and sig- 
+nificant, indicating that firms with more employees 
+faced significantly more labor lawsuit judgments. 
+Intuitively, more employees should increase the 
+probability of facing a labor lawsuit. The chi- 
+square 'goodness of fit' test for both models was 
+highly significant. The location variables were not 
+significant, suggesting that this liability is nation- 
+wide. 
+Table 4 reports Poisson regression results of a 
+federal and a state model testing why some foreign 
+subsidiaries may face fewer labor lawsuit judg- 
+ments (Hypotheses 2-6). Statistical tests did not 
+detect overdispersion in either model; accordingly, 
+Poisson regression was used. The federal and state 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+Table 4. 
+Poisson regression results for 
+judgments against foreign subsidiaries 
+labor lawsuit 
+Variable 
+Federal 
+State 
+Constant 
+-2.819 
+-2.980 
+(-3.192)** 
+(-2.767)** 
+USHR 
+-0.046 
+1.377 
+(-0.054) 
+(1.310) 
+HRPro 
+1.419 
+2.213 
+(2.170)* 
+(3.946)** 
+USTopExec 
+-0.700 
+-1.096 
+(-1.049) 
+(-2.536)** 
+ReportUS 
+0.794 
+-0.144 
+(1.224) 
+(-0.264) 
+USOffices 
+-0.053 
+-0.042 
+(-1.788)* 
+(-2.236)* 
+Age 
+-0.006 
+-0.041 
+(-0.290) 
+(-2.277)* 
+Size 
+0.002 
+0.002 
+(3.084)** 
+(5.071)** 
+Chi-square 
+21.114 
+87.575 
+d.f. 
+7 
+7 
+p-value 
+0.004 
+0.000 
+N 
+176 
+176 
+*p < 0.05; **p < 0.01 for one-tailed tests 
+(t-statistic) 
+models included a constant and controlled for Size. 
+Some of the data to test these hypotheses came 
+from a survey sent only to foreign subsidiaries; the 
+sample size of 176 represents the number of usable 
+responses to that survey. Results were consistent 
+across both models, including chi-square 'good- 
+ness of fit' tests, which were highly significant. 
+Hypothesis 2 (USHR) tested if foreign sub- 
+sidiaries using Americans to handle HR issues face 
+fewer labor lawsuit judgments. At both the federal 
+and state levels, USHR was not significant; this 
+hypothesis was not supported. The nationality of 
+the officer handling HR issues did not affect a for- 
+eign subsidiary's exposure to labor lawsuit judg- 
+ments. Although Americans may better understand 
+U.S. culture and laws, this did not mitigate the 
+disadvantage of foreign subsidiaries with respect 
+to labor lawsuit judgments. Understanding culture 
+and law may be a necessary condition for identi- 
+fying and implementing accepted practices, but it 
+may not be sufficient. 
+To test Hypotheses 3a and 3b, the dummy vari- 
+able HRPro, indicating whether an HR profes- 
+sional was in charge of HR issues, was used. 
+Hypothesis 3a predicted a negative effect for this 
+variable, while Hypothesis 3b predicted a posi- 
+tive effect. For both the federal and state models, 
+HRPro was significant and positive, indicating that 
+foreign subsidiaries using HR professionals actu- 
+ally faced more labor lawsuit judgments. These 
+results provide support for Hypothesis 3b and, con- 
+sequently, its competing Hypothesis 3a was not 
+supported. 
+Hypothesis 4 (USTopExec) tested if foreign sub- 
+sidiaries with American top officers faced fewer 
+labor lawsuit judgments. Although USTopExec 
+was not significant in the federal model, it was 
+significant in the predicted negative direction in 
+the state model. These mixed findings illustrate the 
+importance of incorporating jurisdictional differ- 
+ences into research designs (Abzug and Mezias, 
+1993). Perhaps American top officers were more 
+effective at reducing state-level labor lawsuit judg- 
+ments because, unlike federal laws and statutes, 
+state laws vary nationally. It seems that the benefits 
+of American top officers are more likely to emerge 
+in the less universalistic state legal environments. 
+Hypothesis 5 (ReportUS) was not supported at 
+the federal or state level. Autonomy, as measured 
+by reporting requirements, had no significant effect 
+on the number of labor lawsuit judgments. For my 
+data, there is no indication that increased auton- 
+omy helps foreign subsidiaries avoid labor lawsuit 
+judgments. USOffices was significant in the pre- 
+dicted negative direction in both the federal and 
+state models, indicating strong support for Hypoth- 
+esis 6: Foreign subsidiaries with more affiliated 
+U.S. operations faced fewer labor lawsuit judg- 
+ments. Hypothesis 7 received limited support. Age 
+was significant and negative in the state model, 
+indicating that older foreign subsidiaries faced 
+fewer labor lawsuit judgments. However, Age was 
+not significant at the federal level. As mentioned 
+above, mixed findings illustrate the importance of 
+incorporating jurisdictional differences (Abzug and 
+Mezias, 1993). Lastly, the control variable Size 
+was positive and significant in both models indi- 
+cating that firms with more employees face more 
+labor lawsuit judgments. 
+Discussion 
+Findings at both the federal and state levels indi- 
+cate that foreign subsidiaries face more labor law- 
+suit judgments than their domestic counterparts. 
+Having documented this liability of foreignness, 
+I take the next step by examining foreign sub- 
+sidiaries' strategies and characteristics associated 
+with reduced exposure to this liability. Based on 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+239 
+Strat. Mgmt. J., 23: 229-244 
+(2002) 
+
+240 
+J. M. Mezias 
+past literature, I predicted that this liability is 
+largely a knowledge deficit with respect to under- 
+standing legal and cultural norms and to identi- 
+fying and implementing accepted HR practices. 
+Thus, I argue that foreign subsidiaries should hire 
+people with this knowledge. Only a third of the 
+foreign subsidiaries surveyed had HR professionals 
+on location; most had functional managers handle 
+HR issues. American managers likely have a bet- 
+ter understanding of legal and cultural norms, but 
+the findings suggest that putting American func- 
+tional managers in charge of HR is not sufficient to 
+help foreign subsidiaries reduce labor lawsuit judg- 
+ments. Given that HR professionals helped estab- 
+lish accepted labor practices, I argued that mini- 
+mizing labor problems and reducing labor lawsuit 
+judgments may require that managers in charge 
+of HR be professionally trained. Interestingly, for- 
+eign subsidiaries with HR professionals on location 
+actually faced more labor lawsuit judgments. 
+There are two primary explanations for why 
+foreign subsidiaries using HR professionals had 
+more labor lawsuit judgments. First, it is possi- 
+ble that HR professionals exacerbate labor prob- 
+lems. However, evidence about their experience 
+and network connections argues against this expla- 
+nation. Alternatively, reverse causation is a plau- 
+sible second explanation. That is, foreign sub- 
+sidiaries wait until labor problems surface before 
+hiring HR professionals. Although Rosenzweig 
+and Nohria (1993) argued that the HR function 
+requires the most local adaptation, Rosenzweig and 
+Singh (1991) cautioned that adopting host-country 
+practices depends heavily on the presence of a 
+legal imperative. Labor lawsuit judgments provide 
+a legal imperative. Although data on the timing of 
+these hires was not available, which is a limita- 
+tion of my study, follow-up phone calls revealed 
+that several foreign subsidiaries with labor law- 
+suit judgments only hired HR professionals after 
+HR problems arose. This 'hire to put out the fire' 
+explanation suggests that, in addition to nation- 
+ality and professional training, the timing of for- 
+eign subsidiary staffing strategies may be critical 
+to reducing exposure to this liability. 
+Another subsidiary strategy likely to affect expo- 
+sure to labor lawsuit judgments is staffing of the 
+top manager position. Reducing labor lawsuit judg- 
+ments may require support and understanding of 
+a leader with sufficient managerial discretion to 
+adopt local practices, which may be contrary to 
+those of the parent firm. A subsidiary's top officer 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+presumably has such discretion and limited support 
+for Hypothesis 4 suggests that foreign subsidiaries 
+benefit from having host country nationals as their 
+top officers. Using American top officers was not 
+associated with fewer federal-level labor lawsuit 
+judgments; this suggests that perhaps expatriate top 
+officers have less trouble complying with the more 
+universalistic federal laws. However, the presence 
+of an American top officer was associated with 
+fewer labor lawsuit judgments at the state level, 
+suggesting that the advantage of using American 
+top officers emerged in the more idiosyncratic state 
+legal environments. 
+Aspects of the parent-subsidiary relationship 
+could also affect exposure to this liability. In par- 
+ticular, I tested if the level of reporting auton- 
+omy was associated with fewer labor lawsuit judg- 
+ments. Reporting to a U.S. headquarters, rather 
+than directly to the home country headquarters, 
+made no significant difference in the number of 
+labor lawsuit judgments. One interpretation is that 
+increased autonomy does not help foreign sub- 
+sidiaries adopt local HR practices. However, it is 
+also possible that a better measure of autonomy 
+is needed. Operationalizing USReport as a binary 
+variable may capture overall autonomy, but may 
+miss subtleties of the reporting relationship that 
+are relevant to labor issues. 
+The findings that subsidiaries of MNEs with 
+more affiliated U.S. operations were associated 
+with fewer labor lawsuit judgments are consistent 
+with an organizational learning argument (Argote 
+et al., 1990; Cool et al., 1997): Knowledge about 
+identifying and implementing successful HR prac- 
+tices is transferred across affiliated operations help- 
+ing all affiliated subsidiaries. These results suggest 
+that foreign subsidiaries may engage in vicarious 
+learning about handling labor problems. They are 
+also consistent with the institutional argument that 
+greater visibility results in increased vulnerability 
+to normative pressure and greater care to demon- 
+strate compliance. It is important to recognize a 
+potential selection bias: From an ecological per- 
+spective, firms encountering fewer problems are 
+more likely to survive and expand. 
+With respect to Age, limited support for Hypoth- 
+esis 7 is consistent with a liability of newness 
+(Stinchcombe, 1965). Age was associated with 
+fewer state-level labor lawsuit judgments, but was 
+not significant at the federal level. State laws 
+vary, which may make direct experience in a 
+specific state more critical to reducing state-level 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+lawsuit judgments. If Age better captures expe- 
+riential learning at a specific location, then that 
+may explain why it was associated with fewer 
+state-level labor lawsuit judgments. Because fed- 
+eral laws apply nationally, direct experience may 
+be less critical at the federal level. Again, it is 
+important to recognize a potential selection bias: 
+From an ecological perspective, firms encounter- 
+ing numerous labor lawsuit judgments are more 
+likely to leave that location. 
+CONCLUSIONS 
+AND IMPLICATIONS 
+This is one of the first studies that both documents 
+a liability of foreignness and examines strategies 
+designed to minimize its effects on foreign sub- 
+sidiaries. It is part of an emerging research stream 
+designed to broaden the scope of FDI research by 
+specifically investigating host country disadvan- 
+tages. I provide empirical evidence of a specific 
+liability of foreignness: Foreign subsidiaries oper- 
+ating in the U.S. are at a disadvantage with respect 
+to labor lawsuit judgments. I investigate this liabil- 
+ity at both the federal and state jurisdictional levels 
+and across geographic regions to ensure a compre- 
+hensive test of this liability. Further, since foreign 
+subsidiaries settle or abandon most claims (Cler- 
+mont and Eisenberg, 1996), investigating labor 
+lawsuits brought to judgment is a conservative test 
+of this liability. 
+Understanding and responding to U.S. labor 
+laws challenge all firms operating in the United 
+States, but these findings indicate that it is espe- 
+cially daunting for managers of foreign subsidia- 
+ries. From this perspective, the relative ability of 
+U.S. firms to avoid labor lawsuit judgments stems 
+from decades of adjusting to civil rights legisla- 
+tion and societal and cultural norms that permeate 
+business practices. This experience and familiar- 
+ity with norms make it easier for domestic firms 
+to both identify and implement accepted HR prac- 
+tices that help ensure compliance with labor laws. 
+Foreign subsidiaries are relatively unfamiliar with 
+U.S. cultural, social, and legal norms. They are 
+also inexperienced in dealing with U.S. employees, 
+the myriad of state and federal laws and regula- 
+tions, and court-enforced labor rights. 
+Endogenous factors can also affect the num- 
+ber of labor lawsuit judgments foreign subsidiaries 
+face. For example, MNEs producing locally may 
+worry about local rivals appropriating their 
+proprietary technology. Fear of appropriation may 
+encourage foreign investors to use expatriates 
+rather than host country nationals in key manage- 
+rial positions. Regardless of intention, exclusive 
+use of expatriates in managerial positions is likely 
+to run afoul of U.S. labor laws that prohibit dis- 
+crimination based on national origin. 
+Entry mode decisions may indirectly affect labor 
+relations at foreign subsidiaries. It is an open 
+question as to whether acquisitions or greenfield 
+investments would differentially affect exposure to 
+labor lawsuit judgments. Conceptually, what about 
+an acquisition might affect a foreigi subsidiary's 
+exposure to legal liability? On the negative side, 
+changing established HR practices of an acquired 
+firm could lead to employee resentment and labor 
+problems. Alternatively, there are at least three 
+potentially positive effects from an acquisition: 
+local information, host country managerial expe- 
+rience, and embeddedness in local systems. The 
+information issue is problematic despite the fact 
+that acquired firms presumably have greater local 
+information than foreign acquirers do. As Shaver 
+et al. (1997: 814) cautioned, 'the ultimate respon- 
+sibility for decision-making and implementation 
+falls on the investing firm's managers who have 
+an incomplete understanding of the host nation 
+operating environment.' Host country experience 
+and local embeddedness may be more promising 
+positive effects from acquisition because foreign 
+investors may benefit from the experience and net- 
+work connections of local managers staying with 
+the acquired firm. The complexity of these effects, 
+and the fact that not all occur with every acquisi- 
+tion, suggest the need to develop the more direct 
+measures I employed in this study. Indeed, investi- 
+gating nationality and professional training of key 
+managers, autonomy, the number of affiliated host 
+country operations, and age more directly assesses 
+labor lawsuit exposure than a dummy variable indi- 
+cating entry mode decision can. These more direct 
+measures better capture variance with respect to 
+this particular liability and reduce the potential for 
+spurious findings. Additionally, the findings with 
+respect to these variables provide some evidence 
+of which strategies and characteristics are associ- 
+ated with reduced exposure to labor lawsuit judg- 
+ments. Entry mode decisions affect many aspects 
+of foreign subsidiary performance, but are made 
+for many reasons. To fully investigate this com- 
+plex relationship is beyond the scope of this study, 
+but future researchers should investigate how entry 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+241 
+Strat. Mgnmt. J., 23: 229-244 
+(2002) 
+
+242 
+J. M. Mezias 
+mode decisions affect specific liabilities of foreign- 
+ness. 
+Overall, these results have several implications 
+for expatriate managers. Foreign subsidiaries 
+should recognize managing U.S. employees as 
+an important challenge and adjust their strategies 
+accordingly. These findings suggest that incor- 
+porating U.S. executives in decision making can 
+reduce a foreign subsidiary's exposure to this dis- 
+advantage. Additionally, subsidiaries should utilize 
+affiliated operations as resources to help guide 
+them in identifying and implementing U.S. accept- 
+ed practices. They could transfer experienced em- 
+ployees across affiliated operations to more effec- 
+tively deal with labor problems. 
+A lack of embeddedness in local systems may 
+contribute to liabilities of foreignness. Embedded- 
+ness facilitates information spillovers and vicari- 
+ous learning, which may be especially important 
+for those unfamiliar with host country social, cul- 
+tural, and legal norms. Early efforts to 'plug-in' 
+to local systems could help foreign subsidiaries 
+gain knowledge and legitimacy and appear less for- 
+eign. Foreign managers that join trade or industry 
+groups, expatriate organizations, and attend profes- 
+sional conferences may benefit from information 
+spillovers and vicarious learning. Other activities, 
+such as sponsoring local charities, may also help 
+foreign subsidiaries enhance their reputations, gain 
+legitimacy, and appear less foreign. While these 
+activities may not directly reduce exposure to lia- 
+bilities of foreignness, they may provide useful 
+information and learning opportunities and create 
+positive perceptions that may indirectly help min- 
+imize exposure. 
+My study provides foreign investors with a rudi- 
+mentary guideline for deciding when to choose 
+local adaptation over maintaining parent firm prac- 
+tices. When operating in host countries with pow- 
+erful institutions, such as the U.S. courts, foreign 
+subsidiaries are under greater pressure to comply 
+and face higher costs of noncompliance. In such 
+environments, subsidiaries identifying and imple- 
+menting host country practices increase their legit- 
+imacy and reduce their exposure to liabilities of 
+foreignness. The problem is that these practices are 
+often tacit, culture-based understandings, which 
+may not be easily detected or implemented by for- 
+eign managers. 
+Although my research focuses on a liability of 
+foreignness with respect to labor lawsuit judg- 
+ments, foreign subsidiaries operating in the U.S. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+could suffer liabilities in other legal areas as well 
+as in areas not related to law. Many liabilities 
+stem from difficulties in understanding the more 
+tacit aspects of cultural and social norms, which 
+vary by country. Given the idiosyncratic nature of 
+liabilities of foreignness, developing a theory of 
+liabilities of foreignness requires that researchers 
+identify specific liabilities in different countries. 
+It also requires taking the next step to investigate 
+strategies that may minimize the effects of these 
+liabilities. This next step increases our understand- 
+ing of a specific liability, sheds light on frame- 
+works investigating liabilities of foreignness, and 
+is informative to managers of MNEs. 
+My study provides a framework for identifying 
+liabilities of foreignness and investigating strate- 
+gies that reduce exposure to them. Key subsidiary 
+staffing strategies, parental experience and com- 
+mitment in the host country, and direct subsidiary 
+experience are all likely to affect exposure to most 
+liabilities of foreignness. The timing of implement- 
+ing liability-reducing strategies may also be crit- 
+ical. Unfortunately, the cross-sectional nature of 
+my data is a limitation in trying to investigate the 
+issue of timing. Identifying when liability-reducing 
+strategies are implemented and utilizing longitu- 
+dinal data could help us better understand mech- 
+anisms affecting liabilities of foreignness. Future 
+research could overcome this limitation by using 
+longitudinal data to investigate when foreign sub- 
+sidiaries hire HR professionals. This would help to 
+determine if HR professionals hired from the start 
+reduce labor lawsuit exposure or if HR profession- 
+als hired after labor problems arise succeed in min- 
+imizing current and future labor problems. In gen- 
+eral, using a longitudinal design could help better 
+identify mechanisms and processes foreign firms 
+use to learn and overcome liabilities of foreign- 
+ness. Another possible limitation of my study is the 
+use of a global measure of subsidiary autonomy. 
+Rather than measuring the general level of auton- 
+omy, future researchers should measure autonomy 
+related to the specific liability of foreignness, e.g., 
+autonomy with respect to labor issues. 
+Researchers investigating any liabilities of for- 
+eignness should examine different dimensions of 
+each liability (e.g., federal and state levels), sample 
+in several regions, and carefully consider control 
+variables. For my study, measuring size as the 
+number of employees was most relevant. However, 
+my data were not disaggregated into expatriates 
+and host country nationals. Future research might 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+Labor Lawsuit Judgments as Liabilities of Foreignness 
+try to investigate how the ratio of expatriates to 
+host country national employees affects exposure 
+to liabilities of foreignness. 
+As more firms engage in FDI, research designed 
+to improve our understanding of the liabilities 
+of foreignness becomes more critical. The pre- 
+dominate focus of FDI research has been inves- 
+tigating sources and types of advantages foreign 
+subsidiaries must possess to operate successfully 
+abroad and overcome whatever local disadvan- 
+tages they may encounter. While these advantages 
+strongly determine performance, minimizing lia- 
+bilities of foreignness facing foreign subsidiaries 
+also affects subsidiary performance. Better under- 
+standing of specific liabilities of foreignness can 
+uncover ways to minimize exposure to these dis- 
+advantages and thus improve the management of 
+FDI. These research streams are important and 
+complementary, but the paucity of research inves- 
+tigating disadvantages limits efforts to improve our 
+understanding of a range of important factors that 
+affect the success of FDI. 
+ACKNOWLEDGEMENTS 
+I appreciate helpful comments from Rikki Abzug, 
+John Bradford, Samuel Craig, John Daniels, 
+William Greene, William Guth, Jeffrey Kerr, Andy 
+King, Xavier Martin, Stephen Mezias, Patricia 
+Robinson, Darryl Salas, and especially Myles 
+Shaver. I would also like to thank Professor Will 
+Mitchell and two anonymous reviewers for their 
+insights and helpful comments. Participants at the 
+Institutions, Conflict, and Change Workshop at 
+Northwestern University and the South Florida 
+International Business Research Seminar also pro- 
+vided helpful feedback on an earlier draft. A Uni- 
+versity of Miami School of Business Administra- 
+tion Summer Research Support Grant helped sup- 
+port this research. 
+REFERENCES 
+Abzug R, Mezias SJ. 1993. The fragmented state and 
+due process protection in organizations: the case of 
+comparable worth. Organization Science 4: 433-435. 
+Anand J, Kogut B. 1997. Technological capabilities 
+of 
+countries, firm rivalry and foreign direct 
+investment. Journal of International Business Studies 
+28: 445-465. 
+Andrews KR. 1971. The Concept of Corporate Strategy. 
+Dow Jones-Irwin: New York. 
+Argote L, Beckman SL, Epple D. 1990. The persistence 
+and transfer of learning in industrial settings. 
+Management Science 36: 140-154. 
+Baron JN, Dobbin FR, Jennings PD. 1986. War and peace: 
+the evolution of moder personnel administration. 
+American Journal of Sociology 92: 350-383. 
+Barnard CI. 1938. The Functions of the Executive. 
+Harvard University Press: Cambridge, MA. 
+Bartlett CA, Ghoshal S. 1989. Managing Across Borders. 
+Harvard Business School Press: Boston, MA. 
+Baum JAC. 1996. Organizational ecology. In Handbook 
+of Organizational Studies, Clegg SR, Hardy C, 
+Nord W (eds). Sage: London; 77-114. 
+British-American Chamber of Commerce. 1995. The 
+UK/USA Directory: A Directory of Bilateral Invest- 
+ment. British-American Chamber of Commerce: New 
+York. 
+Caves RE. 1971. International corporations: the industrial 
+economics of foreign investment. Economica 38(149): 
+1-27. 
+Clermont KM, Eisenberg T. 1996. Commentary: xeno- 
+philia in American courts. Harvard Law Review 
+109(5): 1120-1143. 
+Cool KO, Dierickx I, Szulanski G. 1997. Diffusion of 
+innovations within organizations: electronic switching 
+in the Bell system, 1971-1982. Organization Science 
+8: 543-557. 
+DiMaggio PJ, Powell WW. 1983. The iron cage revisited: 
+institutional isomorphism and collective rationality in 
+organizational fields. American Sociological Review 
+48: 47-160. 
+Donohue J, Siegelman P. 1991. The changing nature of 
+employment discrimination litigation. Stanford Law 
+Review 43: 983-1000. 
+Dunlop JT, Harbison HH, Kerr C, Meyer CA. 1975. 
+Industrialism and Industrial Man Reconsidered. Inter- 
+University Study of Labor Problems in Economic 
+Development: Princeton, NJ. 
+Edelman LB. 1990. Legal environments and organiza- 
+tional governance: the expansion of due process in the 
+American workplace. American Journal of Sociology 
+95: 1401-1440. 
+Edelman LB. 1992. Legal ambiguity and symbolic 
+structures: organizational mediation of civil rights law. 
+American Journal of Sociology 97: 1531-1576. 
+Edelman LB, Suchman MC. 1997. The legal environ- 
+ments of organizations. Annual Review of Sociology 
+23: 479-515. 
+Edwards R. 1994. Reshaping employee protections for a 
+global economy. Challenge 37: 34-39. 
+Evans P, Doz YL. 
+1989. The dualistic organiza- 
+tion. In Human Resource Management in Interna- 
+tional Firms: Change, Globalization, and Innovation, 
+Evans P, Doz Y, Laurent A (eds). Macmillan: Lon- 
+don; 219-242. 
+Ewing DW. 1982. Due process: will business default? 
+Harvard Business Review 60(6): 114-122. 
+Fayerweather J. 1969. International Business Manage- 
+ment: A Conceptual Framework. McGraw-Hill: New 
+York. 
+Finn MT (ed.). 1996. The American Bench: Judges of the 
+Nation. Forster-Long: Sacramento, CA. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+243 
+Strat. Mgmt. J., 23: 229-244 (2002) 
+
+244 
+J. M. Mezias 
+German American Chamber of Commerce. 1996. 
+Subsidiaries of German Firms in the US1996/97. 
+GACC: New York. 
+Greene WH. 1989. LIMDEP. Econometric Software: 
+New York. 
+Greenwood M, Yule GU. 1920. An inquiry into the 
+nature of frequency distributions of multiple hap- 
+penings, with particular reference to the occurrence 
+of multiple attacks of disease or repeated accidents. 
+Journal of the Royal Statistical Society, Series A 83: 
+255-279. 
+Hambrick DC. 1989. Guest editor's introduction: putting 
+top managers back in the strategic picture. Strategic 
+Management Journal, Summer Special Issue 10: 
+5-15. 
+Hambrick DC, Mason PA. 1984. Upper echelons: the 
+organization as a reflection of its top managers. 
+Academy 
+of 
+Management 
+Review 
+9: 
+193-206. 
+Hennart J, Park Y. 1994. Location, governance, and 
+strategic determinants of Japanese manufacturing 
+investment in the United States. Strategic Management 
+Journal 15(6): 419-436. 
+Hymer SH. 1976. The International Operations of 
+National Firms: A Study of Direct Foreign Investment. 
+MIT Press: Cambridge, MA. 
+Japan External Trade Organization.. 1997. The Directory 
+of Japanese Affiliated Companies in the USA 
+and Canada 1997-1998. 
+Japan External Trade 
+Organization: Tokyo. 
+Kerr C, Dunlop JT, Harbison HH, Meyer CA. 1960. 
+Industrialism and Industrial Man. Harvard University 
+Press: Boston, MA. 
+Kindleberger CP. 1969. American Business Abroad: Six 
+Lectures on Direct Investment. Yale University Press: 
+New Haven, CT. 
+Kogut B, Chang SJ. 1991. Technological capabilities and 
+Japanese foreign direct investment in the United 
+States. Review of Economics and Statistics 73: 
+401-413. 
+Lipsey RE. 1994. Foreign-owned firms and US wages. 
+Working paper 4927, National Bureau of Economic 
+Research. 
+Maddala GS. 1984. Limited Dependent and Qualitative 
+Variables in Econometrics. Cambridge University 
+Press: Cambridge, U.K. 
+Meyer JW, Rowan B. 1977. Institutional organizations: 
+formal structure as myth and ceremony. American 
+Journal of Sociology 83: 343-363. 
+Mezias JM. 1999. Labor lawsuits: a source of disadvan- 
+tage for foreign subsidiaries in the United States. Doc- 
+toral dissertation, New York University. 
+Mezias JM. 2000. Do labor lawsuits represent a liability 
+of foreignness for foreign subsidiaries operating in the 
+United States? In Best Paper Proceedings, Academy of 
+Management Meeting: Toronto. 
+Mezias JM, Mezias SJ. 2000. Resource partitioning, 
+the foundation of specialist firms and innovation: 
+the American feature film industry, 1912-1929. 
+Organization Science 11: 306-322. 
+Mincer J, Higuchi M. 1988. Wage structures and labour 
+turnover in the US and Japan. Journal of the Japanese 
+and International Economies 2: 97-133. 
+Miner AS, Mezias SJ. 1996. Ugly ducklings no more: 
+pasts and futures of organizational learning research. 
+Organization Science 7: 88-99. 
+Nye D. 1995. When the fired fight back. Across the Board 
+32(6): 31-34. 
+Payson MF, Rosen PB. 1991. Playing by fair rules. HR 
+Magazine 36(4): 42-43. 
+Prahalad CK, Doz YL. 1987. The Multinational Mission: 
+Balancing Local Demands and Global Visions. Free 
+Press: New York. 
+Ranger-Moore J, Banaszak-Holl J, Hannan MT. 1989. 
+Effects of density and environmental conditions on 
+founding rates of financial institutions. Technical 
+Report 89-3, Department of Sociology, Cornell 
+University: Ithaca, NY. 
+Ranger-Moore J, Banaszak-Holl J, Hannan MT. 1991. 
+Density-dependent dynamics in regulated industries: 
+founding rates of banks and life insurance companies. 
+Administrative Science Quarterly 36: 36-65. 
+Rosenzweig PM, Nohria N. 1993. Influences on human 
+resource management practices in multinational 
+corporations. Journal of International Business Studies 
+26: 229-251. 
+Rosenzweig PM, Singh JV. 1991. Organizational envi- 
+ronments and the multinational enterprise. Academy 
+of Management Review 16: 340-361. 
+Scott WR. 1983. The organization of environments: 
+networks, culture, and historical elements. In 
+Organizational Environments: Rituals and Rationality, 
+Meyer JW, Scott WR (eds). Sage: Beverly Hills, CA; 
+155-175. 
+Scott WR, Meyer JW. 1983. The organization of societal 
+sectors. In Organizational Environments: Rituals 
+and Rationality, Meyer JW, Scott WR (eds). Sage: 
+Beverly Hills, CA; 129-153. 
+Shaver JM. 1998. Do foreign-owned and US-owned 
+establishments exhibit the same location pattern 
+in American manufacturing industries? Journal of 
+International Business Studies 29: 469-491. 
+Shaver JM, Mitchell W, Yeung B. 1997. The effect of 
+own-firm and other-firm experience on foreign direct 
+investment survival in the United States, 1987-92. 
+Strategic Management Journal 18(10): 811-824. 
+Stinchcombe AL. 1965. Social structures in organiza- 
+tions. In Handbook of Organizations, March JG (ed.). 
+Rand-McNally: Chicago; 153-193. 
+Vernon R. 1977. Storm over the Multinational: The Real 
+Issues. Harvard University Press: Boston, MA. 
+Wang P, Cockbur IM, Puterman ML. 1998. Analysis 
+of patent data: a mixed Poisson regression model 
+approach. Journal of Business and Economic Statistics 
+16: 27-41. 
+Zaheer S. 1995. Overcoming the liability of foreignness. 
+Academy of Management Journal 38: 341-363. 
+Zucker LG, Darby MR, Armstrong J. 1998. Geographi- 
+cally localized knowledge: spillovers or markets? Eco- 
+nomic Inquiry 36: 65-86. 
+Copyright ? 2002 John Wiley & Sons, Ltd. 
+Strat. Mgmt. J., 23: 229-244 (2002) 
