@@ -321,13 +321,14 @@ c.line(mid,y(ty-8),mid,y(ty-52)); c.setDash()
 txt("SUMIT K. KUNDU  ·  FIU",mid,ty-72,MONOB,11,GOLD,align="c",track=1.8)
 txt("author on both",mid,ty+22,DISPI,13,HexColor("#8FA3BC"),align="c")
 
-box(M,306,W-2*M,44,fill=HexColor("#0C2547"),stroke=HexColor("#1B3252"),r=4)
-para("The same question about multinationality and performance, asked of a different population eighteen years later — and still unresolved.",
-     M+18,318,W-2*M-36,DISPI,15,WHITE,lead=19)
+box(M,300,W-2*M,74,fill=HexColor("#0C2547"),stroke=GOLD,lw=1.4,r=4)
+txt("AND ARREGLE COUNTS IT",M+18,312,MONOB,9,GOLD,track=1.5)
+para("Of the 220 studies, internationalization performance is 12% of them — the smallest theme but one. Thirty years, and the question Contractor asked is the one the field looked at least.",
+     M+18,329,W-2*M-36,DISPI,14.5,WHITE,lead=19)
 
 conn=[("3 SEP","ENTRY MODE","If stage one is negative, mode choice is a decision about how much of that cost to absorb at once."),
       ("24 SEP","INSTITUTIONS","CAGE is a pre-Hofstede way of saying what that session says with formal distance measures.")]
-t=368
+t=392
 for d,k,v in conn:
     box(M,t,3,44,fill=GOLD)
     txt(d,M+16,t,MONOB,9,GOLD,track=1.3)
