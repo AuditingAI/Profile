@@ -1,0 +1,227 @@
+================================================================================
+  SEND PACK  ·  Friday 28 August 2026
+  Yasir A. Malik  ·  GEB 7365 International Business  ·  Prof. William Newburry
+================================================================================
+
+  NOTHING HERE HAS BEEN SENT. Everything below is copy-and-paste.
+  All course email goes from  ymali001@fiu.edu  --  never Gmail.
+
+
+--------------------------------------------------------------------------------
+  THREE THINGS GO OUT. IN THIS ORDER.
+--------------------------------------------------------------------------------
+
+  1.  CANVAS UPLOAD          write-up + presentation        do this FIRST
+  2.  EMAIL TO NEWBURRY      confirm Tuesday + the topic
+  3.  CALENDAR INVITE        ONLY after he replies yes
+
+  Why that order: the email says "before I put real work into it." If the
+  Module 2 submission is not already in Canvas when he opens the email, that
+  sentence reads as though nothing has been done yet. Upload first.
+
+
+--------------------------------------------------------------------------------
+  "CC WHO?"  --  SHORT ANSWER: NOBODY.
+--------------------------------------------------------------------------------
+
+  The research project became INDIVIDUAL in Thursday's class. There is no
+  group, so there is no group to copy.
+
+    NOT Daniela   -- Module 2 is finished. She has no stake in your project.
+    NOT Anna      -- she joined a different group. Copying her re-opens a
+                     question that already closed.
+    NOT DBA staff -- a topic conversation with your instructor is not an
+                     administrative matter. Copying an office turns a
+                     five-second yes/no into a thread.
+    NOT yourself at Gmail -- FIU sent mail already lands in the FIU mailbox,
+                     and a personal address on a course thread is the exact
+                     thing to avoid.
+
+  ONE recipient: newburry@fiu.edu. That is the whole answer.
+
+
+================================================================================
+  1  ·  CANVAS UPLOAD
+================================================================================
+
+  Both files go to the SAME Module 2 assignment. Written document AND
+  presentation -- the tracker records both are required, submitted through
+  Canvas, due the day of the presentation.
+
+  FILE 1 -- the write-up  (this is the graded document)
+      Malik_GEB7365_ModuleWriteup_Aug27.docx
+      2,214 words of body, roughly 8.9 pages against the 10-page cap.
+      Appendices A-D sit AFTER a page break, so they do not count toward it.
+
+  FILE 2 -- the presentation
+      GEB7365_Module2_COMBINED.pptx
+      18 slides. Daniela's 9 are byte-for-byte hers; yours follow; 3
+      appendix slides at the end. Editable, and the chart overlaps she
+      flagged on WhatsApp are fixed -- verified zero collisions.
+
+  KEEP FOR YOURSELF, DO NOT UPLOAD
+      Malik_FIU_DBA_Module2_Deck.pdf     your 7-slide half, FIU-branded,
+                                         for reading on a phone
+      Malik_Module2_SHARED_PACK.pdf      the coordination pack
+
+  >>> ONE THING TO DO BEFORE YOU UPLOAD THE .DOCX <<<
+
+  The last page of the write-up has a yellow highlighted line in capitals.
+  It is the only unfinished thing in the whole pack.
+
+  Open the current GEB 7365 syllabus on Canvas and look at the AI section
+  (it was added 20 August; the copy you have is older).
+
+     - If it asks for a specific disclosure format or a percentage,
+       edit the paragraph above the yellow line to match, then delete
+       the yellow line.
+     - If it does not, just DELETE THE YELLOW LINE and upload.
+
+  Either way the yellow line must be gone before you submit. The paragraph
+  above it is already written, already true, and already covers what FIU's
+  University Graduate School requires -- tool named, purpose stated, and an
+  explicit statement that the argument and interpretation are yours.
+
+
+================================================================================
+  2  ·  EMAIL TO PROFESSOR NEWBURRY
+================================================================================
+
+  FROM:     ymali001@fiu.edu     <-- not Gmail
+  TO:       newburry@fiu.edu
+  CC:       none
+  SUBJECT:  GEB 7365 -- Tuesday call, individual project (Yasir Malik)
+
+  ---------------- copy everything between the lines ----------------
+
+Dear Professor Newburry,
+
+Following up on Thursday's class -- I'll be doing the research project
+individually, and wanted to get a time on the calendar this week to go over the
+topic before I put real work into it.
+
+Does Tuesday, 1 September, 3:00 PM ET work on Zoom? If not, anything after
+1:00 PM that day works on my end -- happy to use the standing GEB 7365 link, or
+whatever you prefer.
+
+The topic, so the call is useful rather than a cold pitch: the methodological
+constraint that narrow specialist professional populations place on
+cross-national international business research.
+
+The background is first-hand. My qualifying study required a sample of
+experienced auditors. Applying the eligibility criteria to a commercial research
+panel of 334,976 members returned approximately twenty eligible participants --
+a prevalence near six per hundred thousand. Of twenty-three raw responses, four
+survived screening.
+
+The IB question is not about my study. Comparative designs depend on reaching the
+same narrow professional population in several countries at once, and that
+constraint compounds per country -- a design that is marginal in one national
+frame can be impossible across four. I have not found the literature treating
+this explicitly, and I think there is a theoretical contribution in specifying
+the conditions under which a cross-national design like that is feasible at all.
+
+It fits the three criteria from your email: it interests me directly, it admits a
+theoretical contribution, and data could potentially be collected -- the
+prevalence figures are observable on a panel's own configuration screen before
+fielding, so the empirical work is a matter of access rather than
+instrumentation. Going individual actually simplifies this -- no compromise topic
+needed.
+
+I have a second angle in reserve if you'd rather steer me toward something closer
+to the course's core topics -- glad to hear it Tuesday rather than have you read
+it in writing first.
+
+Thanks again for Thursday -- appreciated the note on how the presentation came
+together.
+
+Best regards,
+Yasir A. Malik
+DBA Candidate, Cohort 8.14
+
+  ------------------------- end of email -------------------------
+
+  NOTHING IN THIS EMAIL IS UNRESOLVED. The time is hedged inside the message
+  itself, so there is no fact to check before sending. Paste and send.
+
+  ONE LINE TO HAVE IN YOUR HEAD FOR THE CALL -- NOT IN THE EMAIL.
+  If he steers you away from the auditor-population angle, the fallback in one
+  sentence: a project that takes one of the four Module 2 papers' measurement
+  problems -- Contractor's DOI operationalisation, or Mezias's labour-lawsuit
+  proxy -- and makes that the IB topic instead. Said out loud if asked. Keeping
+  it out of the email is deliberate: the first pitch should read as a decision,
+  not a menu.
+
+
+================================================================================
+  3  ·  CALENDAR INVITE  --  HOLD UNTIL HE REPLIES
+================================================================================
+
+  DO NOT SEND THIS WITH THE EMAIL. You are asking whether 3:00 PM works. An
+  invite that arrives before the answer has decided for him, and the email
+  already offers "anything after 1:00 PM" -- which the invite contradicts.
+
+  The moment he replies, send it. Fields ready:
+
+      TITLE     GEB 7365 -- Final project topic discussion
+                (Yasir Malik / Prof. Newburry)
+      WHEN      Tuesday, 1 September 2026, 3:00-3:30 PM ET
+                ** move to whatever time he names in his reply **
+      WHERE     Zoom -- use the standing GEB 7365 link if he says so,
+                otherwise your personal room
+      GUEST     newburry@fiu.edu          (no one else)
+      ORGANISER ymali001@fiu.edu          (not Gmail -- an invite from a
+                personal address is the same problem as an email from one)
+
+      NOTE / DESCRIPTION, paste as-is:
+
+        Individual research project. Working topic: the methodological
+        constraint that narrow specialist professional populations place on
+        cross-national IB research -- prevalence, reachable sample size, and
+        when a comparative design stops being feasible. Second angle in
+        reserve if you'd prefer something closer to the core course topics.
+
+      LENGTH    30 minutes. Book it as 30 even if you think it runs longer --
+                a half-hour ask gets accepted; an hour gets deferred.
+
+
+================================================================================
+  4  ·  DANIELA  --  OPTIONAL, TWO LINES, NOT REQUIRED
+================================================================================
+
+  The long coordination message that was drafted is CLOSED and should not be
+  sent -- the presentation already happened and it answers a question that
+  resolved itself in the room. Newburry's own note was that it was
+  "well-coordinated for a first presentation."
+
+  If you want to close the loop, this is the whole thing:
+
+        Thanks for the coordination on Module 2 -- that went well.
+        Good luck with the rest of the term.
+
+  Send it or don't. Nothing depends on it.
+
+
+================================================================================
+  STATE OF PLAY -- what is done, what is not
+================================================================================
+
+  DONE, sitting on disk, nothing further needed:
+      write-up, 8.9 pages, 2 tables, 4 appendices
+      combined deck, 18 slides, overlaps fixed
+      your own 7-slide FIU-branded PDF
+      the email, zero open questions
+
+  OPEN, and only you can close them:
+      [ ] the yellow line on the last page of the .docx (Section 1 above)
+      [ ] upload both files to Canvas
+      [ ] send the email
+      [ ] send the invite AFTER he replies
+
+  NOT part of tonight, but still owed and getting older:
+      - re-download the GEB 7365 syllabus (AI section added 20 Aug, unread)
+      - Chapters 4-6 to Dr. Rey, overdue since 28 July
+      - ask Dr. Rey to review and approve the AI use -- FIU UGS section 3.2
+        requires committee approval and it has never been done
+
+================================================================================
