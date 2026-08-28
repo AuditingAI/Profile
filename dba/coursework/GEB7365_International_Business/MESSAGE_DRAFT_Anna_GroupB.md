@@ -1,11 +1,21 @@
-# Draft to Anna Micheletti Banegas — research project (Group B)
+# OBSOLETE — do not send. Kept for the record.
 
-**Corrected 24 Aug.** An earlier version of this file was addressed to "Ana Paula," who does not
-appear on Newburry's written roster. His roster of 22 August puts you in **Group B with Anna
-Micheletti Banegas** for the research project. Daniela Garcia Aguirre is your *module* partner —
-different assignment, see `MESSAGE_DRAFT_Daniela.md`.
+**⚠️ SUPERSEDED 27 August, in class.** The 22 August written roster put Yasir and Anna in a
+research-project group together. That has since changed: per the live class transcript, *"Anna
+approved to join the two-person group; Yasir confirmed working alone on final project."* Anna has
+joined a different two-person group. Yasir's project is now individual.
 
-**Channel: Canvas Inbox.** Nothing is sent from here.
+**This file is kept only so the sequence of corrections is visible in the repo's history** — an
+earlier version was addressed to "Ana Paula," a name not on Newburry's written roster; that was
+fixed to Anna Micheletti Banegas on 24 August; and the grouping itself is now gone as of 27 August.
+Nothing below should be sent to anyone.
+
+The current, live draft for the project is `EMAIL_DRAFT_Newburry.md` — a Tuesday Zoom proposal for
+an individual project, not a message to a partner.
+
+---
+
+*Everything below this line is the retired draft. Do not send it.*
 
 > **Subject:** GEB 7365 project — hello from Yasir
 >

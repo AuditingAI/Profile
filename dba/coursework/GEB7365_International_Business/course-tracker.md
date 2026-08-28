@@ -73,21 +73,92 @@ mistake:
 | | **Module presentation** | **Research project** |
 |---|---|---|
 | What | One week's four articles, dissected | An original IB study, proposed not run |
-| Partner | **Daniela Garcia Aguirre** (Group A) — assigned by the professor, confirmed by his email of 22 Aug | **Anna Micheletti Banegas** (Group B) |
-| Yasir's | **Thursday 27 Aug** — Internationalization and Performance | Runs to end of term |
-| Due | ≤10-page write-up + ≤10-min presentation | Idea Thu 27 Aug · presentation · written report |
-| Detail | `MODULE_PRESENTATION_Aug27.md` | `EMAIL_DRAFT_AnaPaula.md` (addressed to the wrong name — rewrite for Anna) |
+| Partner | **Daniela Garcia Aguirre** (Group A) — assigned by the professor, confirmed by his email of 22 Aug | **None — individual.** Confirmed live in class, 27 Aug |
+| Yasir's | **Thursday 27 Aug** — Internationalization and Performance ✅ presented | Runs to end of term |
+| Due | ≤10-page write-up + ≤10-min presentation | Idea · presentation · written report |
+| Detail | `MODULE_PRESENTATION_Aug27.md` | `EMAIL_DRAFT_Newburry.md` — now framed around the Tuesday Zoom, not a group |
 
-**The roster is settled — corrected 22 August.** An earlier version of this file said the project
-partner was "Ana Paula" and that the module partner was unknown. Newburry's written roster of
-22 August resolves both:
+**⚠️ SUPERSEDED 27 August — the project is now individual, not Group B.**
 
-- **Module partner: Daniela Garcia Aguirre** (Group A). His words: *"Daniela and Yasir, who
-  graciously volunteered to go first."*
-- **Project group: Group B, with Anna Micheletti Banegas.**
-- **There is no "Ana Paula" on the written roster.** The two Anas are **Anna Micheletti Banegas**
-  (Group B, with Yasir) and **Ana Isabel Hernandez** (Group E), whose dissertation is on AI-driven
-  applicant tracking systems. The transcript garbled the names; the written list governs.
+Confirmed in Newburry's own class, per the session transcript: *"Anna approved to join the
+two-person group; Yasir confirmed working alone on final project."* Anna Micheletti Banegas has
+joined a different two-person group. **Yasir is doing the research project alone.**
+
+This corrects the 22 August record below, which is now history rather than current status:
+
+- ~~Project group: Group B, with Anna Micheletti Banegas~~ — **superseded.**
+- `MESSAGE_DRAFT_Anna_GroupB.md` is **obsolete.** Do not send it. Kept in the repo, marked as such,
+  for the record of how the confusion happened (the transcript first garbled "Ana Paula," then the
+  written roster corrected it to Anna, and the roster itself has now been superseded by him going
+  solo).
+- **Why this is good news, not a setback.** A solo project needs no partner compromise on topic. The
+  proposal already drafted — the prevalence/measurement-constraint argument tying directly to his
+  own dissertation — was written before this was known and needs no rework. See §"What tonight's
+  class actually decided" below.
+
+## What tonight's class actually decided — 27 Aug, live transcript
+
+**Source: the class's own session transcript**, captured via the Notion meeting recorder and
+fetched afterward. This is a primary source — Newburry's own words in the room — not a summary
+written by an assistant. Where a detail below is flagged `[CLASSROOM DISCUSSION, unverified against
+the PDF]`, that means the AI transcription tool produced it and it has not yet been checked against
+the source paper; treat it as a lead, not a citation, per this repo's standing rule.
+
+### Confirmed administrative facts
+
+- **The topic-analysis write-up (the four-paper document) is due the same day as the presentation**
+  — tonight — **submitted through Canvas**, both the PowerPoint and the written document.
+- **Each presenter individually covers all four articles**, even though the presentation was split.
+  Matches what was already built.
+- **Write-up structure, per Newburry in class:** (1) summary of major findings, (2) critical
+  assessment — theory and real-world, (3) connection to other DBA course topics. `[VERIFY]` — this is
+  slightly different phrasing from the four headings already used
+  (`MODULE_WRITEUP_draft.md`: major findings / importance & contribution / limitations /
+  connections). The existing structure covers all three of his points; not rewritten on the strength
+  of a transcript alone.
+- **Daniela and Yasir's deck was called out as well-coordinated for a first presentation.**
+- **The Canvas upload portal may not accept the presentation file** — Daniela flagged this by text
+  before class. Newburry is checking and will fix it if broken. Not a blocker on Yasir's side.
+- **Grades on Initial Project Ideas:** expected by end of day Wednesday, "definitely by weekend."
+- **Students absent from the last residency** (including Anna and one other) will be assigned one of
+  the two emerging-markets presentation weeks (24 Sep or 1 Oct) — email a preference if there is one.
+- **Next week's topic: Entry Mode.** Newburry will send the readings shortly.
+
+### The project is now individual — the one fact that changes everything downstream
+
+> *"Anna approved to join the two-person group; Yasir confirmed working alone on final project."*
+
+No partner. See the superseded-roster note above.
+
+### A Zoom meeting with Newburry is now the approval mechanism, not an email
+
+> *"Yasir to set up Zoom with professor (Tuesday after 1:00 PM) to discuss the final project."*
+
+This replaces the standalone approval email that was drafted earlier. `EMAIL_DRAFT_Newburry.md` is
+rewritten around proposing **Tuesday 1 Sep, 3:00 PM ET** — inside the window he asked for.
+
+### Classroom detail worth keeping, flagged by source quality
+
+- Testing non-linearity: a **U-shaped** relationship needs the base variable squared; an **S-curve**
+  needs it **cubed** — both terms must be statistically significant. Useful for the project's own
+  methodology section if the topic ends up testing a curved relationship.
+- DOI (degree of internationalization) is commonly foreign sales/total sales or foreign
+  employees/total employees; newer **entropy measures** capture geographic spread, not just volume.
+- Liability of foreignness runs in both directions (US firms abroad too) and can occasionally reverse
+  into an advantage — raised in discussion, not something pulled from the Mezias PDF extract already
+  in this repo.
+- `[CLASSROOM DISCUSSION, unverified against the PDF]` — Mezias data described as collected
+  in-person from court districts in Atlanta, Chicago and San Francisco, with a noted positive
+  correlation between having an HR professional and lawsuit counts (read as reverse causation — firms
+  hire HR reactively after being sued). Neither detail matched anything pulled from the source PDF
+  text in this repo's earlier verification pass. Could be real material from the paper's methods
+  section that a page-search missed, or a transcription artefact. **Do not cite without confirming
+  against the PDF directly.**
+- Yasir referenced Citi operating in roughly 200 countries at a loss as a live example of Stage 3.
+  Worth keeping for the report if a real-world anchor is wanted — it is his own professional
+  background, not a claim from any paper.
+
+---
 
 ## The research project is QUANTITATIVE
 
@@ -298,8 +369,9 @@ those neighbourhoods gets an engaged supervisor rather than a polite one.
 - [ ] **Confirm the four dates** in the reconciliation table above
 - [x] ~~Confirm the section~~ — **RXM confirmed** by the Zoom notice title, "GEB7365 RXM 1268"
 - [ ] **Read the Module 1 slides on Canvas** — they describe the project and are not in either PDF
-- [ ] **Email Newburry the group/individual decision and topic area for approval** — required before
-      extensive work
+- [x] ~~Email Newburry the group/individual decision~~ — **resolved live in class, 27 Aug: individual,
+      confirmed.** Topic area still needs his approval — that is now the agenda for the Tuesday Zoom,
+      not a standalone email. See `EMAIL_DRAFT_Newburry.md`.
 - [ ] Choose the **topic area** for the 20% summary presentation
 - [ ] **AI-use policy — now written into the syllabus.** *"The AI Policy has been added to the
       syllabus."* (Newburry, 20 Aug.) **Re-download and read it before using AI on anything for this
