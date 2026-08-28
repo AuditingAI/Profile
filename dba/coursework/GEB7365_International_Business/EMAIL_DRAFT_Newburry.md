@@ -24,8 +24,8 @@ to confirm a time and give him the topic in advance so the meeting is not spent 
 > Following up on tonight's class — I'll be doing the research project individually, and wanted to
 > get a time on the calendar this week to go over the topic before I put real work into it.
 >
-> **Does Tuesday, 1 September, 3:00 PM ET work on Zoom?** Happy to use the standing GEB 7365 link, or
-> whatever you prefer.
+> **Does Tuesday, 1 September, 3:00 PM ET work on Zoom?** If not, anything after 1:00 PM that day
+> works on my end — happy to use the standing GEB 7365 link, or whatever you prefer.
 >
 > **The topic, so the call is useful rather than a cold pitch:** the methodological constraint that
 > narrow specialist professional populations place on cross-national international business
@@ -48,8 +48,8 @@ to confirm a time and give him the topic in advance so the meeting is not spent 
 > rather than instrumentation. Going individual actually simplifies this — no compromise topic
 > needed.
 >
-> If you'd rather steer me toward something closer to the course's core topics, I'm glad to hear it
-> Tuesday rather than have you read it in writing first.
+> I have a second angle in reserve if you'd rather steer me toward something closer to the course's
+> core topics — glad to hear it Tuesday rather than have you read it in writing first.
 >
 > Thanks again for tonight — appreciated the note on how the presentation came together.
 >
@@ -59,12 +59,17 @@ to confirm a time and give him the topic in advance so the meeting is not spent 
 
 ---
 
-## Before you send this
+## ✅ Ready to send — nothing left open
 
-- [ ] Confirm 3:00 PM Tuesday still works on your side before naming it as a firm ask.
-- [ ] If you'd rather propose a range instead of a fixed time, say "3:00 or 4:00 PM, whichever suits
-      you" — his action item said "after 1:00 PM," so anything in that window is fair game.
-- [ ] Have the second topic option ready in one sentence, in case he steers on the call.
+The time is hedged in the email itself ("if not, anything after 1:00 PM works"), so there is nothing
+to pre-confirm before sending. **Copy the quoted block above, paste into a new message from
+`ymali001@fiu.edu` to `newburry@fiu.edu`, send.**
+
+**One line to have ready in your head for the call, not the email** — the second topic option, in
+case he steers away from the first: a project reframing one of the four Module 2 papers'
+measurement problem (Contractor's DOI operationalisation, or Mezias's labour-lawsuit proxy) as the
+IB topic instead of the auditor-population angle. Said in one sentence if asked, not written down —
+keeping it out of the email is deliberate, so the first pitch reads as a decision, not a menu.
 
 ## Why it is shaped this way
 

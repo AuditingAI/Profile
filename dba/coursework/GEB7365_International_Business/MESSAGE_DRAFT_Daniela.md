@@ -1,11 +1,14 @@
-# Reply to Daniela Garcia Aguirre — confirming the split and sending the deck
+# CLOSED — do not send. The presentation already happened.
 
-**⚠️ Corrected 26 Aug.** An earlier version of this file *proposed* a split. **She had already
-proposed one**, in her Canvas message of 23 August, and it is the opposite of what was drafted here.
-Sending a proposal now would read as not having read her message. This is a reply, not a proposal.
+**⚠️ Superseded 27 Aug, after class.** This was a pre-class reply confirming the split and sending
+the deck. The presentation is done — Newburry's own class transcript: *"Daniela and Yasir, who
+co-produced an integrated PowerPoint — noted as well-coordinated for a first presentation."* The
+split was never in dispute by the time class started; sending this now would be answering a question
+that already resolved itself in the room.
 
-**Channel: Canvas Inbox** (that is where she wrote). **Send tonight.** She said she would send her
-presentation Tuesday night — check Canvas for it before you write.
+**If you want to send her something, a two-line thank-you covers it** — something like *"That went
+well, thanks for the coordination"* — but nothing below this line needs to go out. Kept for the
+record of how the split was actually resolved before class (§ below, unchanged from 26 Aug).
 
 ---
 

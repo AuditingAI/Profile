@@ -209,11 +209,13 @@ presentation, but for the write-up, you should still analyze all four."* The wri
 **Deck built to this split:** `Malik_GEB7365_Module2_Deck.pdf` — six slides, five minutes.
 Handoff → Contractor's curve → Contractor's practice line → Mezias → the conclusion → the close.
 
-## Before Thursday
+## Before Thursday — closed out, 27 Aug
 
-- [ ] Send Daniela the proposed split
-- [ ] Message **Anna Micheletti Banegas** — Group B, the research project
-- [ ] Submit the **initial project idea**
-- [ ] Confirm Canvas access
-- [ ] **Check this course's AI policy** before drafting anything graded — it was added after the
-      syllabus went out and is not GEB 7911's 25% cap
+- [x] ~~Send Daniela the proposed split~~ — moot by class time, she'd already proposed her own; see
+      `MESSAGE_DRAFT_Daniela.md`
+- [x] ~~Message Anna Micheletti Banegas — Group B, the research project~~ — **superseded.** The
+      project is individual as of tonight's class; Anna is in a different group.
+      `MESSAGE_DRAFT_Anna_GroupB.md` is retired
+- [ ] Submit the **initial project idea** — date still disputed, unresolved by the transcript
+- [x] Confirm Canvas access — write-up + deck went up tonight
+- [ ] **Check this course's AI policy** — still unread. Do this before the Tuesday call, not after
