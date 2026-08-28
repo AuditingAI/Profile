@@ -35,6 +35,19 @@ than filled in.
 
 ## Entries
 
+### 2026-08-28 · IRB
+**The IRB position was being carried as one task. It is four, and three have never been submitted.**
+**Reason.** Writing the Fall coursework accounting forced an inventory. The four are: the Topaz
+PI-change amendment, recorded on 1 June as "to be filed this week" and never confirmed filed or
+approved; the qualitative arm, unsubmitted and with the modification-or-new-protocol question still
+open; and the population and instrument amendments for the survey, which are not pending work but
+conditional on a decision — whether the survey arm relaunches at all — that only Dr. Rey can make.
+**Consequence.** Full accounting in `../00_Execution/IRB_STATUS_2026-08-28.md`. Nothing about this
+arm changes: it remains unsubmitted and **no participant may be approached.** Two of the three next
+steps cost nothing — verifying the Topaz record, and asking the IRB office whether this is a
+modification or a new protocol, which is a question rather than a submission and which sets the
+entire timeline.
+
 ### 2026-08-27 · DESIGN
 **FIU University Graduate School AI guidelines received and recorded as binding.**
 **Reason.** Circulated by Dr. René M. Price, Associate Dean UGS. They sit above the course syllabi

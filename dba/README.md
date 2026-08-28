@@ -31,6 +31,8 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 | | |
 |---|---|
 | [`QUALITATIVE/`](QUALITATIVE/) | The L2 phenomenological arm — protocol, interview guide, sampling, coding, trustworthiness, audit trail. **Nothing fielded** |
+| [`00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md`](00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md) | What the two Fall 2026 courses cover against the advisor's five directives — and what they do not. Read the second table first |
+| [`00_Execution/IRB_STATUS_2026-08-28.md`](00_Execution/IRB_STATUS_2026-08-28.md) | Four IRB items, not one. Three unsubmitted, one unverified. What each blocks and the order to clear them |
 | [`KNOWLEDGE/`](KNOWLEDGE/) | Two years of study organised by concept — theory, the eleven constructs, methods, the failure. Each entry carries its strongest objection and a five-minute teaching version |
 | [`AI_RUNBOOKS/`](AI_RUNBOOKS/) | Portable, model-agnostic research runbooks. Paste `CONTEXT_PACK.md` into any model and go |
 | [`RISK_QUANT/`](RISK_QUANT/) | The feasibility calculator. `python3 feasibility.py --validate` reproduces the qualifying study from its own rates |

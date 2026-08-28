@@ -116,6 +116,16 @@ by tracing them back.
   trail. Falsification conditions are stated before any data exists. **Nothing fielded, zero
   participants, IRB modification not submitted.** L3 is deliberately not designed — it needs
   longitudinal access that does not exist.
+- **The two Fall 2026 courses** — GEB 7365 (international business) and GEB 7911 (qualitative
+  methods) each build a real arm of this work: the feasibility argument and the quantitative design in
+  one, the L2 phenomenology proposal in the other.
+  [`dba/00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md`](dba/00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md)
+  maps that against the advisor's five directives and states plainly what it does **not** cover:
+  neither course collects a single response, neither rebuilds Chapters 2 and 3, and a course grade is
+  not committee approval.
+- **IRB** — four separate items, three never submitted and one never confirmed filed:
+  [`dba/00_Execution/IRB_STATUS_2026-08-28.md`](dba/00_Execution/IRB_STATUS_2026-08-28.md). The
+  interview arm has no clearance and no participant may be approached.
 - **AIB Latin America 2027**, San Juan — poster/interactive track, submission window 20 November 2026
 
 ### The research infrastructure
