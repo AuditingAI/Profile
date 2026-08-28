@@ -35,13 +35,45 @@ said he will go through them.
 
 Note this list includes **17 September**, which the old syllabus omitted — seven sessions, not six.
 
-### Still unresolved until Saturday
+### ✅ RESOLVED 28 August — the Canvas assignment list, read directly
 
-| Assignment | Old syllabus | Canvas prose | Working assumption |
+The dates below are from the **Canvas Assignment List for GEB7365 RXM 1268**, screenshotted
+28 August 2026. This is the authoritative source and it settles every date that was open. Where it
+disagrees with the old syllabus, the class transcript, or the Canvas prose schedule, **it wins.**
+
+| Assignment | Canvas due date | Points | State on 28 Aug |
+|---|---|---|---|
+| **Initial Project Idea** | **27 Aug, 11:59 PM** | 5 | ⚠️ **NOT SUBMITTED — LATE** |
+| Project Presentation | 19 Sep, 11:59 PM | 20 | Not submitted, not started |
+| Final Paper | 9 Oct, 11:59 PM | 30 | Not submitted, not started |
+| Individual Participation | 9 Oct, 11:59 PM | 20 | Not submitted — *check whether it wants an upload* |
+| Peer Evaluations | 9 Oct, 11:59 PM | 5 | Not submitted, not open |
+| Topic Area Written Analysis and Presentation | **9 Oct, 11:59 PM** | 20 | Ready to upload |
+
+Points total 100, so this is the full grade structure and it matches the weights in the grading
+section below.
+
+**Two corrections this forces.**
+
+1. **The Initial Project Idea is a graded Canvas upload that is now late.** It was treated in this
+   repo as something the Tuesday Zoom would cover. It is not — the meeting is a conversation, the
+   assignment is a submission, and only one of them has a due date that has passed. Flat −15%, and
+   **not accepted at all after 3 September**. Document built 28 Aug:
+   `Malik_GEB7365_InitialProjectIdea.docx`.
+2. **The topic-area write-up is due 9 October, not the night of the presentation.** The 27 August
+   class transcript said same-day; Canvas says 9 October. The live Canvas page governs — that rule is
+   already stated in the grading section of this file — so the write-up was never late. It is being
+   uploaded early anyway, while the presentation is fresh.
+
+*Superseded, kept for the record of what was uncertain before the list was read:*
+
+| Assignment | Old syllabus | Canvas prose | Working assumption at the time |
 |---|---|---|---|
 | Initial Project Idea | 27 Aug | "Sept. 3–5" | **Prepare for 27 Aug.** Early costs nothing; late costs 15% |
 | Project Presentation | 19 Sep | "Sept. 27–28 Residency" | Confirm Saturday |
 | Formal Project Report | 9 Oct | "October 7" | Confirm Saturday |
+
+*The old syllabus was right on all three and the Canvas prose was wrong on all three.*
 
 Residency dates for **travel** follow the official FIU DBA calendar — Dr. Gonzalez confirmed this
 independently on 20 August: *"Plan travel based on the official DBA calendar."*

@@ -3,6 +3,14 @@
 **⚠️ SEND FROM `ymali001@fiu.edu`. Never Gmail.** A message to a professor arriving from a personal
 address reads wrong and can miss institutional filters. Nothing is sent from here — copy and send.
 
+**⚠️ Updated 28 Aug — the Canvas assignment list changed the picture.** `Initial Project Idea` was
+due 27 Aug 11:59 PM and shows **Not Submitted**. It is late and is not accepted after 3 September.
+The Tuesday call does not substitute for it — that is a conversation, this is a graded upload. The
+document now exists (`Malik_GEB7365_InitialProjectIdea.docx`) and the email below now references it,
+so **upload it before sending this**. Also corrected: the Module 2 write-up is due **9 October**, not
+the night of the presentation — the transcript said otherwise, the live Canvas page governs. See
+`CANVAS_LOAD_SHEET.txt`.
+
 **Rewritten 27 Aug, after class.** The earlier version of this file was an approval email proposing
 "Group B — Anna Micheletti Banegas and Yasir Malik." That is no longer the situation. Confirmed live
 in class tonight, per the session transcript: *"Anna approved to join the two-person group; Yasir
@@ -21,8 +29,11 @@ to confirm a time and give him the topic in advance so the meeting is not spent 
 >
 > Dear Professor Newburry,
 >
-> Following up on tonight's class — I'll be doing the research project individually, and wanted to
+> Following up on Thursday's class — I'll be doing the research project individually, and wanted to
 > get a time on the calendar this week to go over the topic before I put real work into it.
+>
+> I've also just submitted my Initial Project Idea in Canvas. That went in later than it should have
+> and I'm sorry for it; it sets the topic out in more detail than this note does.
 >
 > **Does Tuesday, 1 September, 3:00 PM ET work on Zoom?** If not, anything after 1:00 PM that day
 > works on my end — happy to use the standing GEB 7365 link, or whatever you prefer.
@@ -51,7 +62,7 @@ to confirm a time and give him the topic in advance so the meeting is not spent 
 > I have a second angle in reserve if you'd rather steer me toward something closer to the course's
 > core topics — glad to hear it Tuesday rather than have you read it in writing first.
 >
-> Thanks again for tonight — appreciated the note on how the presentation came together.
+> Thanks again for Thursday — appreciated the note on how the presentation came together.
 >
 > Best regards,
 > Yasir A. Malik

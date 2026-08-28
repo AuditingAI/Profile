@@ -11,13 +11,27 @@
   THREE THINGS GO OUT. IN THIS ORDER.
 --------------------------------------------------------------------------------
 
-  1.  CANVAS UPLOAD          write-up + presentation        do this FIRST
+  0.  INITIAL PROJECT IDEA   ** LATE SINCE LAST NIGHT -- UPLOAD FIRST **
+  1.  CANVAS UPLOAD          write-up + presentation
   2.  EMAIL TO NEWBURRY      confirm Tuesday + the topic
   3.  CALENDAR INVITE        ONLY after he replies yes
 
-  Why that order: the email says "before I put real work into it." If the
-  Module 2 submission is not already in Canvas when he opens the email, that
-  sentence reads as though nothing has been done yet. Upload first.
+  >>> STEP 0 IS NEW AND IT IS THE URGENT ONE. The Canvas assignment list
+  shows INITIAL PROJECT IDEA due 27 August 11:59 PM, NOT SUBMITTED. It is
+  late, it is worth 5 points, and it is not accepted at all after 3 September.
+  The Tuesday call does not cover it -- that is a conversation, this is a
+  graded upload. The document now exists: Malik_GEB7365_InitialProjectIdea.docx.
+  Full instructions and the comment text are in CANVAS_LOAD_SHEET.txt. <<<
+
+  CORRECTION TO WHAT I TOLD YOU LAST NIGHT: the Module 2 write-up is NOT due
+  the night of the presentation. Canvas shows Topic Area Written Analysis and
+  Presentation due 9 OCTOBER. I was working from the class transcript; the
+  live Canvas page governs. Nothing about it is late. Upload it today anyway,
+  while the presentation is fresh.
+
+  Why the rest of the order: the email says "before I put real work into it."
+  If nothing is in Canvas when he opens the email, that sentence reads as
+  though nothing has been done yet. Upload first.
 
 
 --------------------------------------------------------------------------------
@@ -99,6 +113,10 @@ Dear Professor Newburry,
 Following up on Thursday's class -- I'll be doing the research project
 individually, and wanted to get a time on the calendar this week to go over the
 topic before I put real work into it.
+
+I've also just submitted my Initial Project Idea in Canvas. That went in later
+than it should have and I'm sorry for it; it sets the topic out in more detail
+than this note does.
 
 Does Tuesday, 1 September, 3:00 PM ET work on Zoom? If not, anything after
 1:00 PM that day works on my end -- happy to use the standing GEB 7365 link, or
