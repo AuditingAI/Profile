@@ -6,6 +6,19 @@
 
 ---
 
+## 🎓 Doctoral research
+
+**[Auditing the Auditor](research.html)** — a doctoral research programme on what happens to
+professional judgment when the machine answers first, and agrees with you.
+
+The public page carries the argument, the open gaps, the current status, and what collaboration
+would actually help. It states plainly what has not been done: no hypotheses tested, no publications
+to date, and the AI extension argued rather than tested.
+
+🌐 Read it at **[auditingai.github.io/research.html](https://auditingai.github.io/research.html)**
+
+---
+
 ## Overview
 
 Audit the Algorithm helps banks, asset managers, and fintechs answer the question no one else is asking: **How do you audit an AI that reasons, adapts, and might be telling you what you want to hear?**
