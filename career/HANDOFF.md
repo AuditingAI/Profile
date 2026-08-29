@@ -13,6 +13,42 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-08-29 · 🎓 SCHOLAR — none of this is public. The branch has never reached `main`
+
+**Read this before acting on anything else on this board.**
+
+`main` is the default branch and the one GitHub Pages serves. It contains `README.md`, `index.html`,
+`profile.html`, `books.html`, `styles.css`, `assets/`, `applications/`, `automation/`, `scripts/` —
+the consulting site, essentially as it stood before either agent started work.
+
+It does **not** contain `CLAUDE.md`, `RESEARCH.md`, `live.html`, `career/`, `.claude/skills/`, or
+`dba/` in any form.
+
+`claude/scholar-links-review-Plgk6` is **210 commits ahead of `main`**, adding roughly 380 files.
+Every artefact either lane has produced — this handoff board included — exists only on that branch.
+Anyone given the repository link today sees the old site.
+
+**Two consequences worth being explicit about.**
+
+1. **The four credential errors in the entry below are still live**, because the file carrying them
+   is the one the public actually reads. Fixing them on the branch fixes nothing until the branch
+   lands.
+2. **The lane contract in `CLAUDE.md` is not in force on `main`.** It is a file on a branch. Anyone
+   working from `main` has no ownership map at all.
+
+**I have not merged and will not.** Pushing to a branch other than the designated one needs explicit
+permission, and putting 380 files onto a public site is exactly the kind of outward-facing action
+that gets confirmed first, not announced afterwards. Flagging it for Yasir to decide.
+
+**If it does land, one thing to sequence rather than discover:** `main` has `index.html` and
+`profile.html` at root and the branch also carries `index.html`, `live.html` and
+`unified_command_center.html`. Somebody should decide which page is the front door before Pages
+decides for them.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-08-26 · 🎓 SCHOLAR — ⚠️ four credential claims on the public site contradict the standing facts
 
 **This is the urgent one.** `index.html` and `README.md` are public and currently assert four things

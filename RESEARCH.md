@@ -5,7 +5,9 @@
 Yasir A. Malik · DBA candidate, Florida International University · Chapman Graduate School of Business
 Fifteen years in audit and risk at Citigroup and JPMorgan Chase · former bank examiner, Florida Office of Financial Regulation
 
-🌐 [auditingai.github.io](https://auditingai.github.io) · 📊 [Live research register](live.html)
+🌐 [auditingai.github.io](https://auditingai.github.io) · 📊 [Live research register](live.html) · 🖼️ [Status deck, eight slides](dba/00_Execution/RESEARCH_STATUS_DECK.pdf)
+
+*If you have thirty seconds, read the deck. If you have five minutes, read this page.*
 
 ---
 
@@ -77,6 +79,59 @@ navigate reliance on a system that agrees with them.
 > *"The open-text responses are genuinely rich and audit-literate — worth a short qualitative
 > synthesis regardless of what quantitative path is chosen."*
 > — the project's own data screening log, written before that conclusion was reached formally
+
+---
+
+## What is outstanding — and who releases it
+
+A research page that lists only what is finished is a brochure. This is the live board.
+
+### The five approval gates
+
+| Who | What they hold | State |
+|---|---|---|
+| **Dissertation advisor** | Chapters 4–6 · the Chapter 2–3 rebuild · whether the survey arm relaunches · approval of AI use under FIU UGS §3.2 | **Chapters overdue since 28 July. The AI-use approval has never been requested** |
+| **FIU IRB** | Whether an interview arm is a modification to IRB-25-0462 or a new protocol · approval before any participant is approached | **Three items unsubmitted, one never confirmed filed** |
+| **Qualitative methods faculty** | The L2 proposal — whether phenomenology fits the question | Protocol drafted; not yet reviewed |
+| **International business faculty** | Project topic approval | In motion |
+| **Dissertation committee** | Proposal defence · the UGS §3.2 review of AI use | Downstream. Composition `[VERIFY]` |
+
+**The advisor gate holds the most and has been asked for the least.** That is the honest read, and
+it is written here rather than in a private file because the whole point of this repository is that
+the record does not flatter the researcher.
+
+Full accounting: [`dba/00_Execution/IRB_STATUS_2026-08-28.md`](dba/00_Execution/IRB_STATUS_2026-08-28.md).
+
+### Three known weaknesses in the model
+
+Named here because a model whose weaknesses are stated is defensible, and one whose are not is
+fragile the first time someone looks properly.
+
+1. **The outcome construct measures the wrong thing.** Reduction in Anchoring Bias is captured by
+   self-report. It asks auditors to report how far their judgment was driven by a reference point —
+   which is precisely what anchoring prevents them from noticing. It needs either an honest rename to
+   *perceived judgment discipline*, or replacement with a behavioural measure: a planted anchor and an
+   observable adjustment.
+2. **Automation bias and algorithm aversion contradict each other**, and the literature supports
+   both. L1 assumes over-trust and currently has no account of when under-trust occurs instead.
+   Specifying the moderators — task type, expertise, stakes, and whether output arrives before or
+   after the human forms a view — is a theoretical contribution in itself.
+3. **The sample constraint is structural, not a matter of effort.** Six eligible per hundred thousand
+   is not solved by working harder or spending more.
+
+### What is being done about it
+
+| Route | What it produces | When |
+|---|---|---|
+| [`dba/QUALITATIVE/`](dba/QUALITATIVE/) | The L2 phenomenological design — a study twelve people can sustain where a survey cannot | Blocked on IRB |
+| [`dba/RISK_QUANT/`](dba/RISK_QUANT/) | Feasibility as a parameter rather than an apology: the calculator reproduces the failed study from its own rates | Working now |
+| [`dba/AI_RUNBOOKS/`](dba/AI_RUNBOOKS/) | A model-agnostic research pipeline that refuses unsourced claims and runs an adversarial pass on its own output | Working now |
+| [`dba/KNOWLEDGE/`](dba/KNOWLEDGE/) | Two years of reading organised by concept, each theory carrying its strongest objection | Working now |
+
+**The runbooks deserve one line of explanation.** A research pipeline built to refuse unsourced
+claims, report a quiet search as quiet, and argue against its own conclusions is not incidental to
+this programme — it is the L2 argument implemented. A researcher who lets a model confirm his topic
+is running his own dissertation's failure mode on himself.
 
 ---
 
