@@ -7,6 +7,8 @@ Fifteen years in audit and risk at Citigroup and JPMorgan Chase · former bank e
 
 🌐 [auditingai.github.io](https://auditingai.github.io) · 📊 [Live research register](live.html) · 🖼️ [Status deck, eight slides](dba/00_Execution/RESEARCH_STATUS_DECK.pdf)
 
+**→ [The public research page](research.html)** — the argument, the open gaps, and what collaboration would actually help. Written for someone who has never met me.
+
 *If you have thirty seconds, read the deck. If you have five minutes, read this page.*
 
 ---
