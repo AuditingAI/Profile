@@ -168,6 +168,18 @@ specialist population declines faster than linearly as national frames are added
 criteria intersect rather than sum.* That is a claim, it is testable from panel configuration screens,
 and it is yours. Argue it from the reading, do not just assert it.
 
+## Week 2½ · Weekend of Sat 12 – Sun 13 Sep — the GAB application
+
+Not research. Two hours, and it has to happen this weekend rather than the next one.
+
+- [ ] **Graduate Advisory Board 2026–27 application.** Deadline **Fri 18 Sep, 11:59 PM** — the same
+      midnight the deck is due to Newburry. Draft answers and the project pitch are in
+      [`../OPPORTUNITIES/GAB_2026-27.md`](../OPPORTUNITIES/GAB_2026-27.md). Do it on the 12th and
+      forget it
+
+*(The email says "September 18, 2025." That year is a typo — 18 Sep 2025 was a Thursday, 18 Sep 2026
+is a Friday, and the subject line says 2026-2027. Confirm on the form.)*
+
 ## Week 3 · Mon 14 – Fri 18 Sep — build the deck and rehearse
 
 - [ ] Deck built. Name on the bottom of every slide. All seven elements visibly present
