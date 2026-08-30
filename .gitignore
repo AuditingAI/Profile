@@ -1,1 +1,15 @@
 __pycache__/
+
+# ── Runner sessions and credentials — never commit ─────────────────────
+# The browser profile under automation/runner/sessions/ holds live login
+# cookies for employer portals. Repo AGENTS.md rule 3: no credentials in
+# version control. These patterns are the enforcement.
+automation/runner/sessions/
+automation/runner/out/
+automation/runner/node_modules/
+**/storage-state.json
+**/cookies.json
+*.env
+.env*
+*.pem
+*.key

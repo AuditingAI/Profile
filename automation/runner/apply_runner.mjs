@@ -37,7 +37,7 @@ import readline from "node:readline";
 import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(HERE, "..", "..");
+const ROOT = process.env.REPO_ROOT ?? path.resolve(HERE, "..", "..");
 const PENDING = path.join(ROOT, "automation", "queue", "pending");
 const SUBMITTED = path.join(ROOT, "automation", "queue", "submitted");
 const SKIPPED = path.join(ROOT, "automation", "queue", "skipped");
@@ -45,7 +45,8 @@ const SKIPPED = path.join(ROOT, "automation", "queue", "skipped");
 // The browser profile lives OUTSIDE the repo on purpose: the repo is public
 // and sessions/cookies must never be committed. Delete this directory to
 // log out of everything.
-const PROFILE_DIR = path.join(os.homedir(), ".job-runner-profile");
+const PROFILE_DIR = process.env.RUNNER_PROFILE_DIR
+  ?? path.join(os.homedir(), ".job-runner-profile");
 
 // Facts the runner may type into a form. Nothing else is ever autofilled.
 // These mirror automation/AGENT_CONTRACT.md — if they disagree, the
@@ -134,7 +135,8 @@ async function autofill(page) {
 async function main() {
   fs.mkdirSync(PROFILE_DIR, { recursive: true, mode: 0o700 });
   const browser = await chromium.launchPersistentContext(PROFILE_DIR, {
-    headless: false,              // a visible browser is the point
+    headless: process.env.HEADLESS === "1",  // visible by default; the
+                                  // point is that you can see and finish it
     viewport: null,
     args: ["--start-maximized"],
   });

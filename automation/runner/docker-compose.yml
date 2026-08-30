@@ -1,0 +1,37 @@
+# Two commands, one volume.
+#
+#   docker compose run --rm login    → opens a browser, you sign in once
+#   docker compose run --rm apply    → works the queue, logged in already
+#
+# ./sessions is on YOUR disk. It holds the browser profile with the login
+# cookies. It is in .gitignore and .dockerignore, so it cannot reach GitHub
+# and cannot be baked into an image. Delete the folder to sign out of
+# everything.
+
+services:
+  login:
+    build: .
+    command: ["--login"]
+    volumes:
+      - ./sessions:/sessions
+      # X11 passthrough so the browser window appears on your desktop.
+      # On macOS: install XQuartz, run `xhost +localhost` first.
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+    network_mode: host
+
+  apply:
+    build: .
+    # Mount the repo read-only: the runner needs to read the queue and the
+    # resume PDFs, and has no business writing to your working tree.
+    volumes:
+      - ./sessions:/sessions
+      - ../../:/repo:ro
+      - ./out:/out
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - REPO_ROOT=/repo
+      - OUT_DIR=/out
+    network_mode: host
