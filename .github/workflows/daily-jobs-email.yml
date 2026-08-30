@@ -2,10 +2,11 @@ name: Daily jobs email
 
 on:
   schedule:
-    # 11:00 UTC = 07:00 America/New_York during EDT, 06:00 during EST.
-    # Weekdays only - job boards barely move at weekends and a digest that
-    # arrives when nothing changed trains you to stop opening it.
-    - cron: "0 11 * * 1-5"
+    # 22:30 UTC = 6:30 PM America/New_York during EDT (5:30 PM during EST).
+    # Weekday evenings by the owner's request: mornings are interview prep,
+    # the evening is the application block, so the digest arrives when the
+    # work begins rather than twelve hours before it.
+    - cron: "30 22 * * 1-5"
   workflow_dispatch:
 
 jobs:
