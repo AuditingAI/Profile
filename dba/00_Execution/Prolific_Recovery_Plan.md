@@ -1,5 +1,10 @@
 # Prolific Recovery Plan — Reclaim the ~$980 (Jul 23, 2026)
 
+> ⚠️ **Unverified since 23 July 2026 — 39 days.** `DATA_COLLECTION_CLOSEOUT.md` (19 Aug)
+> describes the same study as never launched with zero participants, which contradicts everything
+> below. Nothing has been recovered. Reconciliation and next actions:
+> [`REFUND_STATUS_2026-08-31.md`](REFUND_STATUS_2026-08-31.md).
+
 ## What the workspace shows (verified from account, Jul 23 — updated with study page)
 - Study **"Audit Professional Judgment Survey (Academic Research)"** — published Jul 15, 2026, **still ACTIVE**, 2 of 100 places filled in 8 days of fielding.
 - **🔑 THE KEY NUMBER: "Eligible participants: 20 of 334,976."** Prolific's own screening says only ~20 people on the entire platform match the study's criteria (US + audit role + multi-year engagements) — prevalence ≈ 6 per 100,000. The study could never have filled 100 seats. This is now cited (as aggregate platform data) in manuscript Ch. 5.3.

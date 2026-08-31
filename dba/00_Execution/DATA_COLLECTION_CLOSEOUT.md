@@ -75,6 +75,12 @@ public — and they should be rotated regardless of how the refund question reso
 
 ---
 
+> ⚠️ **DO NOT SEND AS WRITTEN — 31 Aug 2026.** This draft states that no participants were
+> recruited and none were paid. `Prolific_Recovery_Plan.md` (23 Jul) records the study as
+> published on 15 July with **two submissions approved and paid**. The two records contradict
+> each other and the dashboard has not been checked since 23 July. Resolve first:
+> [`REFUND_STATUS_2026-08-31.md`](REFUND_STATUS_2026-08-31.md).
+
 ## Draft 1 — Prolific refund
 
 **Send from the email the Prolific account is registered under.** No Prolific mail has ever arrived

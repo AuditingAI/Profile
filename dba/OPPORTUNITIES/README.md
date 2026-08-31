@@ -31,6 +31,17 @@ that same night. Do the GAB application **the weekend before**, not that week.
 
 ---
 
+## Money already owed — before chasing new funding
+
+| Item | Amount | Age | State |
+|---|---|---|---|
+| **[Prolific research funds](../00_Execution/REFUND_STATUS_2026-08-31.md)** | **~$980** | 52 days | 🔴 **Not recovered.** Two records disagree on whether the study ever launched — resolve on the dashboard before sending anything |
+| CloudResearch balance | Unknown | — | ⚪ Confirm a balance exists before requesting anything |
+
+**Worth putting first.** Roughly a thousand dollars already belonging to this study is a better
+source of research funding than most of the lanes below, and it needs ten minutes rather than an
+application.
+
 ## The categories worth watching
 
 Each of these is a real lane. What sits in it is `[VERIFY]` until confirmed on the UGS site or in a
