@@ -60,3 +60,15 @@ reliably.
   consider the unbranded master instead: a consulting brand on a resume
   signals an outside business activity, which some employers require to be
   disclosed.
+
+## The GenAI-risk master (Sep 2026)
+
+`genai-risk-master.html` → `Yasir_Malik_Resume_GenAI_Risk_Master.pdf`. The
+default resume for every application from September 2026 onward. Repositions
+the candidate around the risks generative AI introduces (sycophancy and
+judgment drift, automation bias, hallucination, adversarial input, third-party
+AI) and carries a three-row "Where the Research Is Going" table with honest
+statuses: completed / in development / planned. Never states or implies the
+dissertation is approved. Examiner history is the Florida Office of Financial
+Regulation only — the string "OCC" must not appear anywhere in the output, and
+the build verifies that along with the one-page and name-extraction checks.
