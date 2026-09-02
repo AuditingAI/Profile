@@ -53,7 +53,10 @@ RESUME_RULES: list[tuple[str, str]] = [
     (r"\b(inspector general|public sector|integrity|compliance officer)",
      "applications/resume/Yasir_Malik_Resume_NYC_InspectorGeneral.pdf"),
 ]
-DEFAULT_RESUME = "applications/resume/Yasir_Malik_Resume_Master.pdf"
+# The GenAI-risk master (built 2 Sep 2026 from builders/genai-risk-master.html)
+# is the default for every role that no tailored rule claims. It carries the
+# research-trajectory table and the corrected examiner history.
+DEFAULT_RESUME = "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master.pdf"
 
 MIN_SCORE = 3  # anything below this is noise; it never reaches the queue
 

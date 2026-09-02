@@ -8,6 +8,7 @@ never hand-edit a PDF.
 | `build_branded_resume.py` | `Yasir_Malik_Resume_Google_CloudRAI_Branded.pdf` | `python3 build_branded_resume.py` (needs `reportlab`) |
 | `master-resume.html` | `A_Yasir_Malik_Resume_2026.pdf` (carries the portfolio URL) | headless Chromium, below |
 | `master-resume-no-url.html` | `Yasir_Malik_Resume_Master.pdf` (no portfolio URL — safe while that URL is dead) | headless Chromium, below |
+| `genai-risk-master.html` | **`Yasir_Malik_Resume_GenAI_Risk_Master.pdf` — the current default.** Repositioned around the risks GenAI introduces (sycophancy, judgment drift, automation bias, hallucination, adversarial input, third-party AI) with a three-row "Where the Research Is Going" table. Same Georgia/Harvard ATS design, one page. Built 2 Sep 2026. | headless Chromium, below |
 
 Chromium render:
 
@@ -48,7 +49,22 @@ brand instead of skipping an opaque graphic, and the file lands at ~6 KB
 instead of ~67 KB, which is what makes it small enough to attach to an email
 reliably.
 
+## Verifying without pdftotext
+
+`pdftotext` is not installed in the cloud session image, and the system
+`cryptography` package there is broken, which takes `pypdf` and `pdfminer`
+down with it on import. `pip install cffi` repairs it. If it does not, pypdf
+supports running without cryptography — set `sys.modules["cryptography"] =
+None` before importing and it uses its pure-Python provider. The check that
+matters is the same either way: one page, `YASIR A. MALIK` extracts as one
+string, the phone is present, and `\bOCC\b` matches zero times.
+
 ## Standing content rules
+
+- **Never write "OCC".** The examiner history is the Florida Office of
+  Financial Regulation, "alongside federal banking regulators" if context is
+  needed. This was wrong on shipped documents and was purged repo-wide on
+  26–27 Aug 2026; do not reintroduce it.
 
 - Phone is **+1 (786) 704-8536**. The 305 number is personal and retired.
 - **DBA in progress, expected 2028**, GPA 3.81. Never "Dr. Malik".
