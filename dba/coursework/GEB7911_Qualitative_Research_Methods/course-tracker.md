@@ -48,6 +48,24 @@ Five Approaches*, 5th ed. Sage.
 secondary repo stated a stricter "prior permission required for every assignment" framing — that
 was an embellishment. Use the wording above.)*
 
+## ⚠️ Week 3 assigned three things — see the class record
+
+Confirmed from the Notion class notes for 1 Sep. The Wispr recording stopped at 7:23 PM and captured
+none of it.
+
+| # | What | Due |
+|---|---|---|
+| 1 | **Learning Memo 4 — the proposal INTRODUCTION section** (problem · purpose · RQ · framework · terminology) | **Mon 7 Sep, 11:59 PM** |
+| 2 | **Peer review** of a classmate's introduction, auto-assigned in Canvas | On assignment |
+| 3 | Read the Week 4 article | Before Tue 8 Sep |
+
+Standing: **email draft RQs to Dr. Gonzalez** — she is workshopping them individually by email.
+
+Full record: [`WEEK3_CLASS_RECORD_2026-09-01.md`](WEEK3_CLASS_RECORD_2026-09-01.md) ·
+Scaffold: [`MEMO4_INTRO_SCAFFOLD.md`](MEMO4_INTRO_SCAFFOLD.md)
+
+**Memo 4 is the first 3–4 pages of the 50% proposal, not a throwaway.**
+
 ## Confirmed schedule
 
 | Wk | Format | Topic | Memo due | Class/Residency | Confidence |
@@ -55,7 +73,7 @@ was an embellishment. Use the wording above.)*
 | 1 | Residency | Intro to Qualitative Research & Inquiry Approaches | Thu 8/20, 11:59pm | **Fri 8/21**, 9:30am–5:30pm, FIU MMC | High — matches Canvas "Scholarly Exchange Week 1, due 8/21" |
 | 2 | Zoom | Assumptions, Frameworks, Study Design | Mon 8/24 | Tue **8/25**, 7–9:30pm | Confirmed — Zoom link provided |
 | 3 | Zoom | Introducing & Focusing the Study | Mon 8/31 | Tue **9/1**, 7–9:30pm | Confirmed |
-| 4 | Zoom | Data Collection | Mon 9/7 | Tue **9/8**, 7–9:30pm | Confirmed |
+| 4 | Zoom | Data Collection | **Mon 9/7 — MEMO 4 = the proposal INTRODUCTION section, 3–4pp** | Tue **9/8**, 7–9:30pm | Confirmed |
 | 5 | Residency | Data Analysis & Representation | Thu 9/17, 11:59pm | **Fri 9/18 – Sat 9/19**, 9:30am–5:30pm, FIU MMC | **Confirmed — FIU published DBA calendar, see `../FIU_DBA_ACADEMIC_CALENDAR.md`** |
 | 6 | Zoom | Writing a Qualitative Study | Mon 9/21* | Tue **9/22**, 7–9:30pm | Confirmed |
 | 7 | Zoom | Validation & Evaluation | Mon 9/28 | Tue **9/29**, 7–9:30pm | Confirmed — also optional Proposal draft window |
