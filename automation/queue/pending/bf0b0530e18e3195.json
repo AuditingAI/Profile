@@ -1,0 +1,24 @@
+{
+  "id": "bf0b0530e18e3195",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Credit Risk Analyst, North American Underwriter",
+  "location": "Toronto, Remote-Canada ",
+  "url": "https://stripe.com/jobs/search?gh_jid=7612192",
+  "score": 3,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

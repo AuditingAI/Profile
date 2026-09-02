@@ -8,8 +8,9 @@ It is parked here because Notion writes are currently rejected with
 replace the page content with everything below the rule and delete this file.
 
 The page as it stands today is wrong in five ways: it says 15 years instead of
-~20, it lists the Federal Reserve among the examiner postings (it was the OCC
-and the Florida Office of Financial Regulation), it omits the 2028 / GPA 3.81 /
+~20, it lists the Federal Reserve among the examiner postings (it was the
+Florida Office of Financial Regulation, alongside unnamed federal banking
+regulators), it omits the 2028 / GPA 3.81 /
 IRB scope corrections, it maps every role to a Dropbox package that has been
 stale since 2026-06-05, and it points standing state at a prose page instead of
 the Job Pipeline database.
@@ -29,8 +30,9 @@ the Job Pipeline database.
 ## Candidate profile
 
 Yasir A. Malik — Newark, NJ (NYC metro). **~20 years** in audit and risk at Citi
-and JPMorgan Chase. Began his career as a **bank examiner with the OCC and the
-Florida Office of Financial Regulation**; holds the FDIC Bank Examiner I
+and JPMorgan Chase. Began his career as a **bank examiner with the Florida
+Office of Financial Regulation**, examining banks alongside federal banking
+regulators; holds the FDIC Bank Examiner I
 certification. Built and shipped a production RAG assistant inside Citi that cut
 audit review time ~35%, and authored an AI governance framework referencing NIST
 AI RMF and SR 11-7.
@@ -45,9 +47,10 @@ when the top of the posted range is ≥ $250K.
 
 Contact: +1 (786) 704-8536 · YasirAMalik@gmail.com · linkedin.com/in/yasiramalik
 
-**Never claim:** Federal Reserve examiner experience · "15 years" · "CIA
-certified" (in progress) · "Dr. Malik" or a completed doctorate · IRB approval
-for the dissertation.
+**Never claim:** OCC or Federal Reserve examiner experience — say "Florida
+Office of Financial Regulation" and, if needed, generic "federal banking
+regulators" only · "15 years" · "CIA certified" (in progress) · "Dr. Malik" or
+a completed doctorate · IRB approval for the dissertation.
 
 ## Sponsorship is the ranking constraint
 

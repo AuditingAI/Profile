@@ -46,13 +46,13 @@ information" box.*
 NYC Jobs / the agency portal — this note is for a referral, a recruiter, or a
 follow-up after submitting.*
 
-**Subject:** Inspector General — Yasir A. Malik (former OCC bank examiner)
+**Subject:** Inspector General — Yasir A. Malik (former Florida OFR bank examiner)
 
 > Hello,
 >
 > I'm writing regarding the Inspector General position.
 >
-> I began my career as a bank examiner with the OCC and the Florida Office of Financial Regulation, conducting safety-and-soundness examinations and authoring workpapers that supported formal enforcement actions. Since then I've spent twenty years inside a global institution building the evidence regulators either accept or reject — most recently leading consent-order remediation at Citi, where issue-closure packages I authored were accepted by quality assurance and external regulators.
+> I began my career as a bank examiner with the Florida Office of Financial Regulation, examining banks alongside federal banking regulators and conducting safety-and-soundness examinations and authoring workpapers that supported formal enforcement actions. Since then I've spent twenty years inside a global institution building the evidence regulators either accept or reject — most recently leading consent-order remediation at Citi, where issue-closure packages I authored were accepted by quality assurance and external regulators.
 >
 > I've also worked on the oversight problem that's arriving fast for public agencies: I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and my doctoral work examines bias in professional judgment — I completed an IRB-approved empirical study in July 2026 and am extending it to automation bias, when professionals defer to a system because it sounded confident. Agencies adopting automated screening and triage tools will need oversight from someone who can read the model documentation, not just the policy memo.
 >
@@ -79,7 +79,7 @@ is required before submitting — the DBA is in progress.*
 >
 > At Citi I centralized 500+ legal-entity data sources into governed master data, which enabled automated FR2900 and TIC regulatory filings at 99.8% accuracy — many local systems, one institutional truth, and a filing that cannot be wrong. A 25-campus university system has the same structural problem.
 >
-> I'm a former OCC bank examiner who led consent-order remediation accepted by federal regulators, I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and I'm a DBA candidate at FIU (expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to AI-assisted decisions. I should say plainly that my governance career is financial services rather than higher education — the cover letter addresses that directly.
+> I'm a former Florida OFR bank examiner who led consent-order remediation accepted by federal regulators, I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and I'm a DBA candidate at FIU (expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to AI-assisted decisions. I should say plainly that my governance career is financial services rather than higher education — the cover letter addresses that directly.
 >
 > Resume and cover letter are attached. Thank you for your consideration.
 >
@@ -119,7 +119,7 @@ draft existed — it did not. See the tooling note in `PIPELINE_STATUS.md`.)*
 
 > Thank you for following up on my application for Strategy and Operations Lead, Regulatory Affairs. I remain very interested.
 >
-> Twenty years in audit and risk at Citi and JPMorgan Chase, and I began my career as a bank examiner with the OCC — regulatory affairs from both sides of the table. At Citi I led consent-order remediation with evidence accepted by external regulators, and authored an AI governance framework referencing NIST AI RMF and SR 11-7. I also ship: a RAG document assistant that cut audit review time ~35%.
+> Twenty years in audit and risk at Citi and JPMorgan Chase, and I began my career as a bank examiner with the Florida Office of Financial Regulation — regulatory affairs from both sides of the table. At Citi I led consent-order remediation with evidence accepted by external regulators, and authored an AI governance framework referencing NIST AI RMF and SR 11-7. I also ship: a RAG document assistant that cut audit review time ~35%.
 
 ---
 
@@ -129,7 +129,7 @@ draft existed — it did not. See the tooling note in `PIPELINE_STATUS.md`.)*
 
 > Hi [Name] — thanks for reaching out, and yes, I'm interested.
 >
-> Quick background: 20 years in audit and risk at Citi and JPMorgan Chase, former OCC bank examiner, now focused on AI governance and model risk. I'm Newark-based and open to NYC metro or hybrid.
+> Quick background: 20 years in audit and risk at Citi and JPMorgan Chase, former Florida OFR bank examiner, now focused on AI governance and model risk. I'm Newark-based and open to NYC metro or hybrid.
 >
 > Resume attached. Happy to talk this week — I'm reachable at (786) 704-8536.
 >

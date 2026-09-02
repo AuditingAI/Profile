@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Twenty years running risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **OCC bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU, expected 2028) researching over-reliance on AI tools — the human-factors half of Responsible AI.
+Twenty years running risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **Florida OFR bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU, expected 2028) researching over-reliance on AI tools — the human-factors half of Responsible AI.
 
 ## EXPERIENCE
 
@@ -20,7 +20,7 @@ Twenty years running risk and safety programs where a bad launch is a federal ma
 
 **JPMorgan Chase — Capital Controller, Basel Measurement** · Brooklyn, NY · *2017 – 2019* — Owned **Basel III RWA** and capital adequacy reporting; identified **$180M** in optimization. **Citi — AVP, Global Legal Entity Management** · Tampa, FL · *2012 – 2015* — Centralized **500+ data sources**, enabling automated **FR2900/TIC** filings at **99.8% accuracy**.
 
-**OCC / FL Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *2011 – 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
+**Florida Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *2011 – 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
 
 ## EDUCATION
 **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted judgment · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021

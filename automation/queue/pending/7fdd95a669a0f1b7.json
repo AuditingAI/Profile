@@ -1,0 +1,26 @@
+{
+  "id": "7fdd95a669a0f1b7",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Forward Deployed AI Accelerator, Marketing",
+  "location": "Remote in the US, Remote in Canada",
+  "url": "https://stripe.com/jobs/search?gh_jid=8055930",
+  "score": 3,
+  "score_reasons": [
+    "ai-adjacent"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

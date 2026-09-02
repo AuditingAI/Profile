@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Twenty years across Citi, JPMorgan Chase, and the OCC. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.81, expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to over-reliance on AI — the adoption problem every AI program actually has to solve.
+Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Twenty years across Citi, JPMorgan Chase, and the Florida Office of Financial Regulation. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.81, expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to over-reliance on AI — the adoption problem every AI program actually has to solve.
 
 ## EXPERIENCE
 
@@ -21,7 +21,7 @@ Program leader who has run **50+ stakeholder regulatory programs** in financial 
 
 **Citi — AVP, Global Legal Entity Management** · Tampa, FL · *2012 – 2015* — Centralized **500+ data sources** into governed master data, enabling automated **FR2900 and TIC** filings at **99.8% accuracy**.
 
-**OCC / FL Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
+**Florida Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *Apr 2011 – Mar 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
 
 ## EDUCATION
 **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021

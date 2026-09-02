@@ -1,0 +1,24 @@
+{
+  "id": "7fca028ceddcafd2",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Program Manager, Risk Ops Enablement",
+  "location": "US-Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=7214197",
+  "score": 3,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_PGIM_AI_Director.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

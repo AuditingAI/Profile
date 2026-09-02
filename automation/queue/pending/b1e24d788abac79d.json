@@ -1,0 +1,24 @@
+{
+  "id": "b1e24d788abac79d",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Internal Audit Lead, Stablecoins & Digital Assets",
+  "location": "San Francisco, Seattle, New York City",
+  "url": "https://stripe.com/jobs/search?gh_jid=7997826",
+  "score": 5,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

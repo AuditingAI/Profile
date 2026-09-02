@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Auditing the Auditor — doctoral research in progress</title>
+<meta name="description" content="A doctoral research programme on what happens to professional judgment when the machine answers first, and agrees with you. Open questions, current status, and where collaboration would help.">
+<style>
+:root{
+  --paper:#FBFAF7; --panel:#FFFFFF; --ink:#14171C; --ink-2:#4A5058; --ink-3:#767D86;
+  --rule:#D8D4CB; --rule-2:#EDEAE3; --accent:#1F4E79; --accent-soft:#E8EFF6;
+  --gold:#8A6410; --deep:#0E2237;
+  --live:#1F7A4D; --warn:#B5730F; --stale:#9A2B2B;
+  --live-bg:#E6F2EB; --warn-bg:#FBF1E0; --stale-bg:#F7E7E7;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F1216; --panel:#161A20; --ink:#E9E7E2; --ink-2:#A8AEB6; --ink-3:#767D86;
+  --rule:#2A2F37; --rule-2:#1F242B; --accent:#7FB0DC; --accent-soft:#17222D;
+  --gold:#D9A249; --deep:#0A0F16;
+  --live:#5FBF8C; --warn:#D9A249; --stale:#D6706E;
+  --live-bg:#132018; --warn-bg:#221B0E; --stale-bg:#231314;
+}}
+:root[data-theme="dark"]{
+  --paper:#0F1216; --panel:#161A20; --ink:#E9E7E2; --ink-2:#A8AEB6; --ink-3:#767D86;
+  --rule:#2A2F37; --rule-2:#1F242B; --accent:#7FB0DC; --accent-soft:#17222D;
+  --gold:#D9A249; --deep:#0A0F16;
+  --live:#5FBF8C; --warn:#D9A249; --stale:#D6706E;
+  --live-bg:#132018; --warn-bg:#221B0E; --stale-bg:#231314;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);
+  font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem 5rem}
+a{color:var(--accent)}
+.eyebrow{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--gold);margin:0 0 .5rem;font-weight:700}
+h1{font-size:clamp(2rem,4.4vw,3.1rem);line-height:1.08;letter-spacing:-.02em;margin:0 0 1rem;font-weight:600}
+h2{font-size:clamp(1.3rem,2.4vw,1.75rem);line-height:1.15;letter-spacing:-.01em;margin:0 0 .35rem;font-weight:600}
+h3{font-size:1.02rem;margin:0 0 .35rem;font-weight:600}
+p{margin:0 0 .9rem}
+.lede{font-size:clamp(1.05rem,1.8vw,1.28rem);color:var(--ink-2);max-width:62ch}
+header.hero{background:var(--deep);color:#EDF1F6;padding:4rem 0 3.2rem;margin-bottom:3rem;
+  border-bottom:3px solid var(--gold)}
+header.hero .wrap{padding-bottom:0}
+header.hero h1{color:#fff}
+header.hero .lede{color:#B9C6D6}
+.who{font-family:var(--mono);font-size:.74rem;line-height:1.85;color:#8FA2B8;margin-top:1.6rem;
+  padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.14)}
+.who strong{color:#DCE4EE}
+section{margin:0 0 3.2rem;scroll-margin-top:1rem}
+.sub{color:var(--ink-3);font-size:.95rem;margin:0 0 1.4rem;font-style:italic}
+.grid{display:grid;gap:1rem}
+@media(min-width:760px){.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}}
+.card{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:1.15rem 1.25rem}
+.card.k{border-left:3px solid var(--accent)}
+.card.warn{border-left:3px solid var(--warn);background:var(--warn-bg)}
+.card.stale{border-left:3px solid var(--stale);background:var(--stale-bg)}
+.card.live{border-left:3px solid var(--live);background:var(--live-bg)}
+.tag{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;
+  text-transform:uppercase;font-weight:700;padding:.2rem .45rem;border-radius:2px;margin-bottom:.5rem}
+.t-live{background:var(--live-bg);color:var(--live)}
+.t-warn{background:var(--warn-bg);color:var(--warn)}
+.t-stale{background:var(--stale-bg);color:var(--stale)}
+.t-acc{background:var(--accent-soft);color:var(--accent)}
+.small{font-size:.88rem;color:var(--ink-2)}
+.mono{font-family:var(--mono);font-size:.76rem;color:var(--ink-3)}
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-size:.9rem;min-width:520px}
+th,td{text-align:left;padding:.6rem .7rem;border-bottom:1px solid var(--rule-2);vertical-align:top}
+th{font-family:var(--mono);font-size:.63rem;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:700;border-bottom:1px solid var(--rule)}
+.chain{display:grid;gap:.85rem}
+@media(min-width:860px){.chain{grid-template-columns:repeat(3,1fr)}}
+.link .n{font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.1em;
+  padding:.22rem .5rem;border-radius:2px;color:#fff;display:inline-block;margin-bottom:.6rem}
+.funnel{display:grid;gap:.4rem;margin:.4rem 0 1rem}
+.fbar{display:flex;align-items:center;gap:.9rem;background:var(--panel);
+  border:1px solid var(--rule);border-left-width:3px;border-radius:2px;padding:.6rem .9rem}
+.fbar .fn{font-size:1.35rem;font-weight:600;font-variant-numeric:tabular-nums;min-width:5.4rem}
+.fbar .fl{font-size:.86rem;color:var(--ink-2)}
+.pull{background:var(--deep);color:#E6ECF4;border-left:3px solid var(--gold);
+  padding:1.3rem 1.5rem;border-radius:3px;font-size:1.08rem;line-height:1.5}
+.pull strong{color:#fff}
+.ask{background:var(--accent-soft);border:1px solid var(--accent);border-radius:3px;padding:1.4rem 1.5rem}
+footer{border-top:1px solid var(--rule);padding-top:1.4rem;color:var(--ink-3);font-size:.84rem}
+.nav{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;margin-top:1.6rem}
+.nav a{margin-right:1.1rem;white-space:nowrap;display:inline-block;color:#9FB4CC;text-decoration:none;
+  border-bottom:1px solid rgba(159,180,204,.35)}
+.nav a:hover{color:#fff}
+ul{margin:0 0 .9rem;padding-left:1.15rem}li{margin-bottom:.4rem}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Doctoral research in progress · Florida International University</p>
+    <h1>Auditing the Auditor</h1>
+    <p class="lede">What happens to professional judgment when the machine answers first — and
+    agrees with you.</p>
+    <div class="who">
+      <strong>Yasir A. Malik</strong> · DBA candidate, Chapman Graduate School of Business<br>
+      Fifteen years in audit and risk at Citigroup and JPMorgan Chase<br>
+      Former bank examiner, Florida Office of Financial Regulation
+    </div>
+    <div class="nav">
+      <a href="#argument">The argument</a><a href="#gaps">Open gaps</a><a href="#status">Status</a><a href="#partner">Partner on this</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section id="argument">
+  <p class="eyebrow">The argument</p>
+  <h2>Three links. Only the first is a cognitive bias.</h2>
+  <p class="sub">Keeping that distinction is the difference between an argument that survives examination and one that does not.</p>
+  <p>An auditor reviewing a multi-year engagement has always had an anchor: last year's conclusion.
+  Anchoring-and-adjustment is among the most replicated findings in judgment research — people start
+  from the reference point they are given and adjust too little. Something changed. The anchor is now
+  generated by a system. It is automatic, it is continuous, it arrives <em>before</em> the reviewer
+  has formed a view — and when the reviewer states a position, the system tends to agree with it.</p>
+  <div class="chain">
+    <div class="card link"><span class="n" style="background:var(--live)">L1</span>
+      <h3>Automated anchoring</h3>
+      <p class="small">System output functions as an anchor — automated, continuous, arriving first.</p>
+      <p class="mono">AUTOMATION BIAS · a human cognitive bias<br>Question: how much · Method: survey</p></div>
+    <div class="card link"><span class="n" style="background:var(--warn)">L2</span>
+      <h3>Sycophantic confirmation</h3>
+      <p class="small">The model agrees with a stated position rather than challenging it.</p>
+      <p class="mono">SYCOPHANCY · model behaviour, not a bias<br>Question: how · Method: interviews</p></div>
+    <div class="card link"><span class="n" style="background:var(--stale)">L3</span>
+      <h3>Recursive epistemic drift</h3>
+      <p class="small">Successive systems reprocess earlier machine-influenced work and converge on
+      each other rather than on evidence.</p>
+      <p class="mono">MODEL COLLAPSE · a property of a system of models<br>Question: how, over time · Method: longitudinal</p></div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Why it matters beyond auditing</p>
+  <div class="pull">
+    Every framework now governing AI — SR 11-7, the NIST AI Risk Management Framework, the EU AI Act
+    — <strong>assumes a competent human reviewer sits above the model.</strong> None of them measures
+    whether that reviewer's judgment survives contact with it.
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">What has actually been done</p>
+  <h2>Stated plainly, because overstatement is the failure mode this programme studies.</h2>
+  <div class="tscroll"><table>
+    <tr><th>Element</th><th>State</th></tr>
+    <tr><td>Qualifying examination</td><td><span class="tag t-live">Passed</span> July 2026</td></tr>
+    <tr><td>Model — eleven constructs, fifty-five items, sixteen hypotheses</td><td><span class="tag t-live">Built</span></td></tr>
+    <tr><td>Instrument — IRB-approved, fielded</td><td><span class="tag t-live">Built</span></td></tr>
+    <tr><td>Hypotheses tested</td><td><span class="tag t-stale">None</span> the sample did not support it</td></tr>
+    <tr><td>Peer-reviewed publications</td><td><span class="tag t-stale">None to date</span></td></tr>
+    <tr><td>The AI extension (L1–L3)</td><td><span class="tag t-warn">Argued, not tested</span> no findings exist</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <p class="eyebrow">The finding that came out of the failure</p>
+  <h2>The instrument worked. The population did not exist.</h2>
+  <p class="sub">Applying the study's eligibility criteria to a commercial research panel, July 2026.</p>
+  <div class="funnel">
+    <div class="fbar" style="border-left-color:var(--accent)"><span class="fn">334,976</span><span class="fl">panel members screened</span></div>
+    <div class="fbar" style="border-left-color:var(--accent)"><span class="fn">~20</span><span class="fl">matched the eligibility criteria — a prevalence near six per hundred thousand</span></div>
+    <div class="fbar" style="border-left-color:var(--warn)"><span class="fn">23</span><span class="fl">raw responses recorded</span></div>
+    <div class="fbar" style="border-left-color:var(--stale)"><span class="fn">4</span><span class="fl">survived screening</span></div>
+  </div>
+  <p>A survey at that prevalence needed a sampling frame of roughly 9.6 million. The panel held about
+  three and a half percent of it. <strong>This is not a story about insufficient effort.</strong> It is
+  a structural property of studying a narrow specialist population, it is measurable in advance, and
+  the profession's methods literature treats it as a limitation to apologise for rather than as a
+  parameter to design around.</p>
+  <p>That reframing is now a research question in its own right: <em>under what conditions is a
+  cross-national study of a rare professional population feasible at all?</em></p>
+</section>
+
+<section id="gaps">
+  <p class="eyebrow">Open gaps</p>
+  <h2>What is unresolved — including the parts that are uncomfortable.</h2>
+  <p class="sub">A research page that lists only what is finished is a brochure.</p>
+  <div class="grid g3">
+    <div class="card stale">
+      <span class="tag t-stale">Measurement</span>
+      <h3>The outcome construct measures the wrong thing</h3>
+      <p class="small">Reduction in anchoring bias is captured by self-report. It asks auditors to
+      report how far their judgment was driven by a reference point — which is precisely what
+      anchoring prevents them from noticing.</p>
+      <p class="small"><strong>What it needs:</strong> an honest rename to <em>perceived judgment
+      discipline</em>, or replacement with a behavioural measure — a planted anchor and an observable
+      adjustment.</p>
+    </div>
+    <div class="card warn">
+      <span class="tag t-warn">Theory</span>
+      <h3>Automation bias and algorithm aversion contradict</h3>
+      <p class="small">The literature supports both: people over-trust algorithms, and people
+      under-trust them. L1 assumes over-trust and has no account of when the reverse occurs.</p>
+      <p class="small"><strong>What it needs:</strong> the moderators specified rather than a side
+      picked — task type, expertise, stakes, and whether output arrives before or after the human
+      forms a view. Resolving it is a contribution in itself.</p>
+    </div>
+    <div class="card warn">
+      <span class="tag t-warn">Access</span>
+      <h3>L3 has no design, deliberately</h3>
+      <p class="small">Asking how the evidentiary basis of a judgment changes across successive
+      engagements is a process-over-time question. It needs multi-year engagement files or repeated
+      access to the same auditors across years.</p>
+      <p class="small"><strong>What it needs:</strong> archival access that does not currently exist.
+      Writing a protocol for a study that cannot be run would repeat the error already made once.</p>
+    </div>
+  </div>
+</section>
+
+<section id="status">
+  <p class="eyebrow">Where it is going</p>
+  <h2>Four routes, and what each is waiting on.</h2>
+  <div class="grid g2">
+    <div class="card k"><span class="tag t-warn">Blocked on ethics review</span>
+      <h3>The qualitative arm — L2</h3>
+      <p class="small">A phenomenological design: what auditors experience when a system agrees with
+      them, and how they account for it afterwards. Protocol, sampling plan, coding scheme,
+      trustworthiness criteria and an append-only audit trail are written. Falsification conditions
+      were committed <em>before</em> any data exists — four outcomes that would weaken or collapse the
+      argument, timestamped so they cannot be quietly revised.</p>
+      <p class="small"><strong>Nothing fielded. Zero participants. No participant may be approached
+      until approval is in hand.</strong></p></div>
+    <div class="card k"><span class="tag t-live">Working now</span>
+      <h3>Feasibility as a parameter</h3>
+      <p class="small">A calculator that takes panel size, prevalence, eligibility and completion
+      rates and returns reachable sample and cost per usable response — validated by reproducing the
+      study that produced it. Its useful output is the threshold where a survey design stops being
+      viable and an interview design becomes the honest choice.</p></div>
+    <div class="card k"><span class="tag t-live">Working now</span>
+      <h3>A research pipeline built against its own subject</h3>
+      <p class="small">Model-agnostic runbooks in plain markdown: every claim carries a resolving
+      source, a search that finds nothing is reported as finding nothing, and an adversarial pass runs
+      against the programme's own conclusions. This is not incidental — <strong>a researcher who lets
+      a model confirm his topic is running his own dissertation's failure mode on himself.</strong></p></div>
+    <div class="card k"><span class="tag t-warn">Drafted, not submitted</span>
+      <h3>The feasibility manuscript</h3>
+      <p class="small">The prevalence finding written as a methodological contribution rather than an
+      anecdote. Complete in draft; not submitted, and claimed as nothing more than that.</p></div>
+  </div>
+</section>
+
+<section id="partner">
+  <p class="eyebrow">Partner on this</p>
+  <div class="ask">
+    <h2>What would actually help.</h2>
+    <p>The binding constraint on this programme is not analysis and it is not writing. <strong>It is
+    access to a population that is genuinely rare.</strong> Three kinds of collaboration would move it,
+    in descending order of how much difference they would make:</p>
+    <ul>
+      <li><strong>Access to experienced auditors</strong> — a firm, an internal audit function, or a
+      professional body willing to let members be invited to a study on judgment. Twelve interviews
+      would open L2. A commercial panel could not supply them at any budget.</li>
+      <li><strong>Archival access across engagement years</strong> — the only thing that makes L3 a
+      study rather than an argument. Anonymised, historical, and it does not have to be recent.</li>
+      <li><strong>Co-authorship on the feasibility question</strong> — particularly from anyone working
+      on cross-national research methods, hard-to-reach populations, or survey methodology in
+      international business. The manuscript is drafted and would be better with a methodologist on it.</li>
+    </ul>
+    <p style="margin-bottom:0">Also genuinely welcome: <strong>being told the argument is wrong.</strong>
+    The falsification conditions are written down precisely so that someone can hold the work to them.</p>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">What is deliberately not on this page</p>
+  <div class="card">
+    <p class="small" style="margin-bottom:.5rem">No participant data, no transcripts, no recordings, no
+    identifiers, and no linking keys — none of it appears in the public repository and none ever will.
+    Anonymised extracts appear only after a participant has approved them at member check, and only
+    where the write-up requires them.</p>
+    <p class="small" style="margin-bottom:0">Figures on this page are quoted from the study's own
+    screening and exclusion records. Where a fact is unverified it is marked as unverified rather than
+    rounded into something cleaner.</p>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Auditing the Auditor</strong> · doctoral research in progress · updated 29 August 2026</p>
+  <p class="mono">Florida International University · Chapman Graduate School of Business · Doctor of Business Administration</p>
+  <p class="small" style="margin-bottom:0">The research, the argument and the interpretation are the
+  author's own. AI assistance is used for organisation, drafting and verification, and is disclosed
+  under FIU University Graduate School policy wherever this work is submitted.</p>
+</footer>
+
+</div>
+</body>
+</html>

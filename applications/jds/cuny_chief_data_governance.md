@@ -20,7 +20,7 @@ Merges both search streams into one position:
 | Requirement (inferred from title/level) | Evidence |
 |---|---|
 | Enterprise data governance across a federated org | Centralized 500+ legal-entity data sources → automated FR2900/TIC filings at 99.8% accuracy (Citi AVP, Global Legal Entity Management) |
-| Governance surviving external examination | Consent-order remediation and issue-closure packages accepted by QA and external regulators; former OCC bank examiner |
+| Governance surviving external examination | Consent-order remediation and issue-closure packages accepted by QA and external regulators; former Florida OFR bank examiner |
 | AI governance for institutional data | AI governance framework referencing NIST AI RMF and SR 11-7; RAG assistant cutting review time ~35% |
 | Academic credibility for a Dean title | DBA candidate (FIU, GPA 3.81, expected 2028); IRB-approved empirical study on anchoring bias completed Jul 2026 |
 | Board / executive reporting | Board Audit Committee reporting at Citi |

@@ -130,7 +130,7 @@ JOBS: list[tuple] = [
      160000, 220000, "$160K–$220K", "May 2026",
      "https://jobs.rbc.com/ca/en/search-results?keywords=internal%20audit&locations=Jersey%20City",
      8.0,
-     "Jersey City office, PATH from Newark. RBC's US private bank build-out needs audit talent that can engage OCC."),
+     "Jersey City office, PATH from Newark. RBC's US private bank build-out needs audit talent that can engage federal banking regulators."),
 
     (2, "Panasonic North America", "Director, Internal Audit", "—",
      "Corporate", "Newark, NJ",

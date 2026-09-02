@@ -1,0 +1,26 @@
+{
+  "id": "9adf2c7d4ec51108",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Accounting AI Solutions Lead",
+  "location": "Seattle, San Francisco, New York",
+  "url": "https://stripe.com/jobs/search?gh_jid=8103750",
+  "score": 4,
+  "score_reasons": [
+    "ai-adjacent"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bc0a163b86ecdf76",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Risk Advisory Strategist, Card Network Compliance",
+  "location": "Chicago, SEA, SF, NYC, US-Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=7594866",
+  "score": 4,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

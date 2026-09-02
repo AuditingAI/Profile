@@ -16,7 +16,7 @@ I am applying for the Director, Program Management — AI role. Two things make 
 
 **The adoption problem, studied properly.** My doctoral work at FIU centres on bias in professional judgment: I completed an IRB-approved empirical study in July 2026, and my dissertation in development extends it to automation bias — when professionals stop exercising judgment because a tool sounded confident. Most AI programs fail not on model quality but on how people use the output. I bring a researcher's framing to the change-management half of the job, which is usually the half that decides whether the program delivers value.
 
-**Why PGIM specifically.** I live in Newark. This is a firm I can commit to for the long term in the city I have built my life in, and PGIM's scale means AI programs here have real consequence for real portfolios rather than being pilots that never ship. My twenty years in banking risk — Citi, JPMorgan Chase, and the OCC as a bank examiner — mean I already speak the regulatory language PGIM's AI initiatives have to satisfy.
+**Why PGIM specifically.** I live in Newark. This is a firm I can commit to for the long term in the city I have built my life in, and PGIM's scale means AI programs here have real consequence for real portfolios rather than being pilots that never ship. My twenty years in banking risk — Citi, JPMorgan Chase, and the Florida Office of Financial Regulation as a bank examiner — mean I already speak the regulatory language PGIM's AI initiatives have to satisfy.
 
 I would welcome the conversation.
 

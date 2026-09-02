@@ -1,0 +1,26 @@
+{
+  "id": "f901a8b5aa941e65",
+  "discovered_at": "2026-08-27T20:41:49Z",
+  "stream": "corporate",
+  "company": "Robinhood",
+  "title": "Crypto Risk Lead",
+  "location": "Toronto, Canada",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8144996?t=gh_src=&gh_jid=8144996",
+  "score": 3,
+  "score_reasons": [
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

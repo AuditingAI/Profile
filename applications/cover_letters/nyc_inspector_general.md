@@ -8,7 +8,7 @@ Re: Inspector General
 
 Dear Hiring Committee,
 
-I am applying for the Inspector General position. I began my career as a **bank examiner with the OCC and the Florida Office of Financial Regulation**, conducting safety-and-soundness examinations and authoring the workpapers that supported formal enforcement actions. I have spent the twenty years since on the other side of that table — inside a global institution, building the evidence that regulators either accept or reject. Both halves of an Inspector General's job are work I have already done.
+I am applying for the Inspector General position. I began my career as a **bank examiner with the Florida Office of Financial Regulation**, examining banks alongside federal banking regulators and conducting safety-and-soundness examinations and authoring the workpapers that supported formal enforcement actions. I have spent the twenty years since on the other side of that table — inside a global institution, building the evidence that regulators either accept or reject. Both halves of an Inspector General's job are work I have already done.
 
 **Independent examination, and findings that survive challenge.** At Citi I led risk-based thematic examinations across 15+ business units and drove **consent-order remediation** — authoring the issue-closure packages and remediation evidence submitted to quality assurance and external regulators. Consent-order work is unforgiving: an institution under a federal order has every incentive to declare itself fixed, and the examiner's job is to determine whether the evidence actually supports that claim. I learned to write findings that hold up when the subject of the finding is powerful and motivated to disagree.
 

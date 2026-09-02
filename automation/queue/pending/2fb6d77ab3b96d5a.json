@@ -1,0 +1,27 @@
+{
+  "id": "2fb6d77ab3b96d5a",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Global Partner Marketing Lead, AI",
+  "location": "South San Francisco HQ or Seattle",
+  "url": "https://stripe.com/jobs/search?gh_jid=7819587",
+  "score": 3,
+  "score_reasons": [
+    "ai-adjacent",
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

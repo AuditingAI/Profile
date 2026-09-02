@@ -1,0 +1,26 @@
+{
+  "id": "1bd1c6a2b3c6316f",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Compliance Manager, User Enablement",
+  "location": "Dublin OR London",
+  "url": "https://stripe.com/jobs/search?gh_jid=7530580",
+  "score": 3,
+  "score_reasons": [
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

@@ -56,7 +56,7 @@ Mökander, Schuett, Floridi, et al. (2023) proposed a three-layer LLM audit
 model (governance / model / application). No one has translated it to a
 **bank-supervisory** context yet. You are the right person to do it.
 
-- **Why it matters:** gives examiners (OCC, Fed, FDIC) a vocabulary they
+- **Why it matters:** gives bank examiners a vocabulary they
   don't currently have, and gives you a co-authoring opportunity with the
   original authors.
 - **Output:** white paper / law-review-style essay co-published with one of

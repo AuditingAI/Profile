@@ -1,0 +1,24 @@
+{
+  "id": "b85d6a42a935f571",
+  "discovered_at": "2026-08-25T11:01:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Product Manager - Compliance, Bridge",
+  "location": "New York, San Francisco or Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=7979422",
+  "score": 4,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

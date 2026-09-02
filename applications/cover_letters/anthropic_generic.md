@@ -7,7 +7,7 @@ Re: AI Policy / Trust & Safety / Risk & Assurance — Anthropic
 
 Dear Hiring Team,
 
-I am writing to express interest in roles at Anthropic that sit at the intersection of AI policy, model risk, and assurance. I have spent 15+ years inside the regulated financial system — at Citi, JPMorgan, and as a federal Bank Examiner with the OCC, Fed, and FDIC — and the last five of those years applying that lens to AI itself. I now run a small consultancy, Audit the Algorithm, and am completing a DBA at FIU on epistemic drift and sycophancy risk in LLM-assisted judgment.
+I am writing to express interest in roles at Anthropic that sit at the intersection of AI policy, model risk, and assurance. I have spent 15+ years inside the regulated financial system — at Citi, JPMorgan, and as a Bank Examiner with the Florida Office of Financial Regulation, alongside federal banking regulators — and the last five of those years applying that lens to AI itself. I now run a small consultancy, Audit the Algorithm, and am completing a DBA at FIU on epistemic drift and sycophancy risk in LLM-assisted judgment.
 
 The reason I want to work at Anthropic specifically: your published work on Constitutional AI, responsible scaling, and model evaluation matches the operating discipline I have argued banks and regulators need in order to deploy frontier models safely. I have built that discipline from the inside out — and I would like to build it for the lab whose research most directly informs how the rest of the industry will eventually have to govern these systems.
 

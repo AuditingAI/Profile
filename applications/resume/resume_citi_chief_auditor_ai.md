@@ -8,7 +8,7 @@ Newark, NJ • YasirAMalik@gmail.com • +1 (786) 704-8536 • linkedin.com/in/y
 
 ## SUMMARY
 
-Internal audit executive applying for **Chief Auditor, Artificial Intelligence (Job Req 26962614)**. 15+ years across Citi, JPMorgan, and U.S. bank regulators (OCC, Federal Reserve, FDIC), spanning audit, technology, and data-focused mandates — the exact diversified background the role calls for. Track record of operating the role's dual mandate in miniature inside Citi Internal Audit today: **auditing AI** (governance, model risk, bias, fairness, hallucination, third-party AI) **and building with AI** (designed and shipped a RAG-based Workpaper Quality Assistant that cut audit cycle time **~35%**, with NIST AI RMF, SR 11-7, and XAI controls baked into the tool). DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Comfortable presenting to Audit Committees and engaging directly with OCC and Federal Reserve examiners.
+Internal audit executive applying for **Chief Auditor, Artificial Intelligence (Job Req 26962614)**. 15+ years across Citi, JPMorgan, and the Florida Office of Financial Regulation, spanning audit, technology, and data-focused mandates — the exact diversified background the role calls for. Track record of operating the role's dual mandate in miniature inside Citi Internal Audit today: **auditing AI** (governance, model risk, bias, fairness, hallucination, third-party AI) **and building with AI** (designed and shipped a RAG-based Workpaper Quality Assistant that cut audit cycle time **~35%**, with NIST AI RMF, SR 11-7, and XAI controls baked into the tool). DBA candidate (FIU, GPA **3.81**, expected 2028) researching bias in auditor judgment, extending to LLM-assisted decisions. Comfortable presenting to Audit Committees and engaging directly with Federal Reserve examiners.
 
 **Frameworks & regulations (per JD):** IIA Standards • COSO • COBIT • NIST AI RMF & GenAI Profile • SR 11-7 • EU AI Act • ISO/IEC 42001 & 23894 • MLOps awareness • AI-specific security risks (prompt injection, adversarial inputs, data exfiltration).
 
@@ -32,7 +32,7 @@ Internal audit executive applying for **Chief Auditor, Artificial Intelligence (
 
 - Operate Citi IA's de-facto pilot of the role this JD describes: independent assurance over AI/GenAI adoption combined with hands-on construction of AI-enabled audit accelerators.
 - Designed and shipped a **RAG-based Workpaper Quality Assistant** that cut audit cycle time **~35%**. Embedded NIST AI RMF, SR 11-7, XAI (SHAP/LIME) explainability, prompt-injection guardrails, and human-in-the-loop controls so the assistant is itself auditable — addressing bias, fairness, hallucination, data-privacy, and adversarial-input risks at design time.
-- Led consent-order audit execution strategy across enterprise change programs; aligned issue validation and sustainable closure evidence with **OCC and Federal Reserve** examiners.
+- Led consent-order audit execution strategy across enterprise change programs; aligned issue validation and sustainable closure evidence with **Federal Reserve** examiners.
 - Directed global audits of strategic transformation initiatives across **15+ business units**, assessing program governance, third-party oversight, data integrity, and regulatory reporting effectiveness; strengthened readiness for supervisory review and regulatory challenge.
 - Defined the AI/GenAI tooling roadmap for Internal Audit: use-case intake, model risk tiering, control library, and post-deployment KPIs (adoption, coverage expansion, cycle-time reduction, exception rate).
 - Mentored **8+** auditors on responsible AI adoption, prompt engineering, and ethical decision-making in human–AI workflows; recognized with Citi's *Delivers with Pride* award for AI-powered audit quality assurance innovation.
@@ -65,7 +65,7 @@ Internal audit executive applying for **Chief Auditor, Artificial Intelligence (
 - Partnered with Compliance and Legal to standardize entity classifications, KYC linkage, and intra-group exposure reporting.
 
 ### Bank Examiner — Safety & Soundness
-**OCC / Federal Reserve / FDIC / FL Office of Financial Regulation** • West Palm Beach, FL • *Apr 2011 – Mar 2012*
+**Florida Office of Financial Regulation** • West Palm Beach, FL • *Apr 2011 – Mar 2012*
 
 - Conducted joint examinations of state and national banks using the **CAMELS** framework — capital adequacy, asset quality, management effectiveness, earnings, liquidity, and sensitivity to market risk.
 - Authored examination workpapers and supported formal enforcement actions, remediation directives, and follow-up reviews for complex institutions.
