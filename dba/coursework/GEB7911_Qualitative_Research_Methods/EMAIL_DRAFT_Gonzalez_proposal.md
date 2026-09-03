@@ -1,3 +1,16 @@
+# ⚠️ SUPERSEDED — do not send
+
+**Written before Week 1. Overtaken by events:** the residency happened, Weeks 1–3 ran, and Yasir
+spoke with Dr. Gonzalez one-to-one after class on 1 September. This letter introduces a direction
+she now already knows, at a length she no longer needs.
+
+**Use instead:** [`EMAIL_DRAFT_Gonzalez_RQ_2026-09-03.md`](EMAIL_DRAFT_Gonzalez_RQ_2026-09-03.md) —
+short, two questions, aimed at the RQ workshop she offered in class.
+
+Kept for the record of how the direction was originally reasoned through.
+
+---
+
 # Draft to Dr. Gonzalez — proposal direction
 
 Send via **Canvas Inbox** (the syllabus names it as the primary channel, 24-hour response
