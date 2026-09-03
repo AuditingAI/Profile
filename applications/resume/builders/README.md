@@ -8,7 +8,8 @@ never hand-edit a PDF.
 | `build_branded_resume.py` | `Yasir_Malik_Resume_Google_CloudRAI_Branded.pdf` | `python3 build_branded_resume.py` (needs `reportlab`) |
 | `master-resume.html` | `A_Yasir_Malik_Resume_2026.pdf` (carries the portfolio URL) | headless Chromium, below |
 | `master-resume-no-url.html` | `Yasir_Malik_Resume_Master.pdf` (no portfolio URL — safe while that URL is dead) | headless Chromium, below |
-| `genai-risk-master.html` | **`Yasir_Malik_Resume_GenAI_Risk_Master.pdf` — the current default.** Repositioned around the risks GenAI introduces (sycophancy, judgment drift, automation bias, hallucination, adversarial input, third-party AI) with a three-row "Where the Research Is Going" table. Same Georgia/Harvard ATS design, one page. Built 2 Sep 2026. | headless Chromium, below |
+| `build_genai_risk_branded.py` | **`Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf` — the current default (owner's call, 3 Sep 2026).** Same GenAI-risk content as the row below, in the Audit the Algorithm brand: wordmark as gold text, Times faces, hairline rules, research table as a reportlab `Table`. One page, ~7 KB. | `python3 applications/resume/builders/build_genai_risk_branded.py` (needs `reportlab`) |
+| `genai-risk-master.html` | `Yasir_Malik_Resume_GenAI_Risk_Master.pdf` — unbranded twin of the row above, for any portal that objects to a consulting wordmark. Repositioned around the risks GenAI introduces (sycophancy, judgment drift, automation bias, hallucination, adversarial input, third-party AI) with a three-row "Where the Research Is Going" table. Same Georgia/Harvard ATS design, one page. Built 2 Sep 2026. | headless Chromium, below |
 
 Chromium render:
 

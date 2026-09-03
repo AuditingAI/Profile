@@ -53,10 +53,13 @@ RESUME_RULES: list[tuple[str, str]] = [
     (r"\b(inspector general|public sector|integrity|compliance officer)",
      "applications/resume/Yasir_Malik_Resume_NYC_InspectorGeneral.pdf"),
 ]
-# The GenAI-risk master (built 2 Sep 2026 from builders/genai-risk-master.html)
-# is the default for every role that no tailored rule claims. It carries the
-# research-trajectory table and the corrected examiner history.
-DEFAULT_RESUME = "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master.pdf"
+# The branded GenAI-risk master (builders/build_genai_risk_branded.py) is the
+# default for every role that no tailored rule claims. Owner's decision, 3 Sep
+# 2026: the Audit the Algorithm wordmark goes on every application. It carries
+# the research-trajectory table and the corrected examiner history, and at
+# ~7 KB attaches anywhere. The unbranded twin (same content, Chromium build)
+# remains at Yasir_Malik_Resume_GenAI_Risk_Master.pdf if a form rejects it.
+DEFAULT_RESUME = "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf"
 
 MIN_SCORE = 3  # anything below this is noise; it never reaches the queue
 
