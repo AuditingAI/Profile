@@ -1,0 +1,26 @@
+{
+  "id": "1e8d42b7505ee178",
+  "discovered_at": "2026-09-03T14:41:51Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Internal Audit - Regulatory Lead, EMEA",
+  "location": "London",
+  "url": "https://stripe.com/jobs/search?gh_jid=8174610",
+  "score": 4,
+  "score_reasons": [
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
