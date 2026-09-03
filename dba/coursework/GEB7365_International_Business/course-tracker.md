@@ -241,6 +241,21 @@ He signs his emails **"Bill."**
 *Section check: RXO is the same course on the opposite days (Friday residency, Tuesday Zoom). RXM is
 the assumption throughout because RXO would collide with GEB 7911 twice over. Verify in Canvas.*
 
+## ✅ 3 September — the call happened, and he sent literature
+
+Prof. Newburry, by email after the call: *"It was good to talk with you just now. Here is the article
+I mentioned that may help as a start."* — Harzing, Reiche & Pudelko (2012), *Challenges in
+International Survey Research.*
+
+**Two things follow.** The topic-approval gate is closed in practice; a professor who sends you a
+starting reference has accepted the direction. And the paper is now **paper #1 on the runway**,
+displacing the one chosen for him.
+
+**The gap survives the paper** — they name response-rate variation across professions *and* across
+countries without ever multiplying the two, and their country response-rate table supplies the
+second parameter of his model empirically. Assessment and the reply draft:
+[`HARZING_2012_note_and_reply.md`](HARZING_2012_note_and_reply.md).
+
 ## Grading — the live Canvas table governs
 
 | Component | Weight |

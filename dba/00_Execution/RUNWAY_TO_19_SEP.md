@@ -60,6 +60,10 @@ None of this is study. It is the stuff that will otherwise sit in your head whil
 **Goal: five papers read, five note cards written, and one sentence you could defend to Newburry
 about what the field already says.**
 
+> ✅ **Updated 3 Sep — the Tuesday call happened and Newburry sent literature unprompted.** That is
+> the topic approved in practice. Paper #1 is now his recommendation, and the assessment is done:
+> the gap holds. See the note linked in row 1.
+
 The five below are chosen because they are *about the exact thing you are claiming is untreated.*
 If any of them treats it fully, your contribution shrinks and **you need to know that now, not in
 October.** That is the point of reading them.
@@ -70,7 +74,8 @@ October.** That is the point of reading them.
 
 | # | Paper | Why this one | Get it |
 |---|---|---|---|
-| 1 | **Harzing (1997)** — Response rates in international mail surveys: results of a 22-country study. *International Business Review* 6(6) | **Read this first.** It is the closest existing thing to your argument: what happens to response rates when the same instrument crosses borders. If your contribution survives this paper, it is real | FIU library · [doi.org/10.1016/S0969-5931(97)00040-2](https://doi.org/10.1016/S0969-5931%2897%2900040-2) |
+| 1 | ⭐ **Harzing, Reiche & Pudelko (2012)** — Challenges in international survey research. *European J. of International Management* | **Read this first — Newburry sent it to you on 3 Sep.** §2 and §4 are the ones that matter. Assessed: **your gap survives.** They name response-rate variation across professions *and* across countries and never multiply the two. Their country table gives you the second parameter empirically. Note: [`../coursework/GEB7365_International_Business/HARZING_2012_note_and_reply.md`](../coursework/GEB7365_International_Business/HARZING_2012_note_and_reply.md) | **In hand** |
+| 1b | Harzing (1997) — Response rates in international mail surveys: a 22-country study. *International Business Review* 6(6) | The earlier, narrower version of the same problem. Read only if time allows — 2012 supersedes it for your purposes | FIU library · [doi](https://doi.org/10.1016/S0969-5931%2897%2900040-2) |
 | 2 | **Welch, Marschan-Piekkari, Penttinen & Tahvanainen (2002)** — Corporate elites as informants in qualitative IB research. *International Business Review* 11(5) | IB's own treatment of reaching a hard-to-access professional population. Your auditors are a version of this | FIU library · [doi.org/10.1016/S0969-5931(02)00039-2](https://doi.org/10.1016/S0969-5931%2802%2900039-2) |
 | 3 | **Reeb, Sakakibara & Mahmood (2012)** — From the Editors: Endogeneity in IB research. *JIBS* 43(3) | How JIBS editors talk about a methodological problem when they want the field to take it seriously. **This is the register your paper has to be written in** | FIU library · [doi.org/10.1057/jibs.2011.63](https://doi.org/10.1057/jibs.2011.63) |
 | 4 | **Chang, van Witteloostuijn & Eden (2010)** — From the Editors: Common method variance in IB research. *JIBS* 41(2) | Same reason as 3, and it is the model for "a methods problem framed as a theory problem" | FIU library · [doi.org/10.1057/jibs.2009.88](https://doi.org/10.1057/jibs.2009.88) |
