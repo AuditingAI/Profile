@@ -54,6 +54,22 @@ That links tonight's topic to your project without hijacking the session.
 
 ---
 
+## 4 · ✅ RESOLVED — the 18–19 September weekend is fine
+
+**Checked 3 Sep: this is not a clash.** The DBA runs a **combined residency weekend** — both courses
+across Friday *and* Saturday at FIU MMC. The August precedent is explicit in this repository:
+*"Friday 21 August — the classes combine… Newburry is in the room on Friday, late morning. Friday is
+not purely GEB 7911."* Then Saturday 22 August was the 7365 residency.
+
+**18–19 September repeats that pattern.** You attend both days. Your 7365 project presentation sits
+inside the Saturday.
+
+**What does still bite:** the deck must reach Newburry by **midnight Friday 18 September**, no
+changes after — and Friday is a full residency day, 9:30am–5:30pm. **Finish the deck the week
+before.** Do not plan to touch it that evening.
+
+<details><summary>Superseded — what was flagged before checking</summary>
+
 ## 4 · ⚠️ Verify tonight or tomorrow: the 18–19 September weekend
 
 | Course | What the record says |
@@ -79,3 +95,5 @@ after — which is the night of the 7911 residency day. Build it the week before
 
 You are still in Week 1 of the runway: five papers by Sunday, then the model and hypotheses.
 Tonight is a checkpoint, not a deadline. Nothing is due.
+
+</details>
