@@ -1,0 +1,26 @@
+{
+  "id": "94c133c077984f82",
+  "discovered_at": "2026-09-04T14:29:59Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Chief Compliance Officer (APAC)",
+  "location": "Singapore",
+  "url": "https://stripe.com/jobs/search?gh_jid=8023529",
+  "score": 3,
+  "score_reasons": [
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_NYC_InspectorGeneral.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
