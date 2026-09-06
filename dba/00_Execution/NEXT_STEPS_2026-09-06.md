@@ -71,4 +71,4 @@ NEXT WEEKEND    GAB application (2 hrs, draft ready).
 WEEK OF THE 14TH Build + send the 7365 deck before the 18th residency swallows the day.
 ```
 
-Notion: **[🗺️ Next Steps — 6 Sep](https://app.notion.com/p/PLACEHOLDER)** *(created below)*
+Notion: **[🗺️ Next Steps — 6 Sep](https://app.notion.com/p/3d34ffd38c7e81068861e6c59468fca3)**
