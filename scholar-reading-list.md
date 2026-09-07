@@ -134,9 +134,48 @@ Cross-cutting work on governance, regulation that intersects with audit methodol
 - **[Understanding and Mitigating Unintended Bias in Medical AI Systems](https://assets.pubpub.org/c99608f92-d70f-46c1-a72c-df272215f13e/p59ca6018-7725-43a3-8dc6-991479dc6bf6/udb8b0293-3c81-4a66-a8c2-c82afb5d27a5/Tyner-Monroe_et_al._(2026)_Just_Accepted-11775576076298.pdf)** — S Tyner-Monroe, B Rakova, JY Kim, M Sendak, S Balu et al., Harvard Data Science Review, 2026
   *Why: Introduces a Unintended Bias Risk Matrix grounded in empirical AI-testing experience — practical, from a recognizable group.*
 
+## 9. Auditor judgment, audit quality & AI reliance in the audit profession (~16 papers)
+
+New cluster surfaced by the "Auditor Bias" alert backlog (3 Aug – 6 Sep 2026): papers about the accounting/assurance audit profession itself — auditor cognitive bias, professional skepticism, and AI reliance in audit/assurance — as distinct from the algorithmic-fairness-audit literature in sections 1–8 above. Direct hits on the dissertation's own intersection (auditor judgment × AI reliance), not just papers that happen to contain the word "audit."
+
+- **[Professional Judgment and AI Disclosure Governance in Audit and Sustainability Assurance: Public Evidence from the UK Big Four](https://www.mdpi.com/1911-8074/19/9/675)** — R Krasteva-Hristova, Journal of Risk and Financial Management, 2026
+  *Why: Discusses AI misjudgment as a candidate cause in statutory audit failure and the PCAOB's amendments to AS 1105/AS 2301 — closest direct hit yet to the dissertation's core question.*
+- **[The Effect of Generative AI on Audit Judgment Quality through Professional Scepticism and Governance](https://journal.nexuspublishing.co.id/jsmb/article/download/9/37)** — D Wirianto, S Krisnawati, Journal of Strategic Management & Business Nexus, 2026
+  *Why: Tests algorithm aversion and automation bias as explanations for a non-significant AI-utilisation/professional-scepticism link — names two of the dissertation's own constructs directly.*
+- **[Artificial Intelligence (AI), Audit Quality, and the Future of Professional Judgment: Policy and Governance Challenges in Auditing-A Systematic Literature Review](https://cspub-ijcisim.org/index.php/ijcisim/article/download/3899/3147)** — G Odoch, International Journal of Computer Information Systems …, 2026
+  *Why: Systematic review whose title is almost a paraphrase of the dissertation's own framing — explainability crisis for auditors, algorithmic bias threatening audit objectivity.*
+- **[Digital Transformation in the Audit Process in Nigeria: Balancing Artificial Intelligence, Cybersecurity, and Professional Skepticism](https://www.researchgate.net/profile/Adamu-Idris-Adamu/publication/412123505)** — OO Ekundayo, TS Orshi, SN Odunko, ACCOUNTING AND FINANCE, 2026
+  *Why: Auditor training gaps and systematic model bias set directly against professional skepticism in a live audit-process context.*
+- **[Exploration on Application of Large Language Models in Unstructured Audit Materials](https://hbem.net/index.php/ojs/article/download/57/55)** — W Li, Highlights in Business, Economics and Management, 2026
+  *Why: Names hallucination, bias, transparency, and reliability as the open risks of generative AI in high-risk audit scenarios.*
+- **[LLM: Usage of ChatGPT and AI Tools. An academic analysis from an auditor's perspective.](https://iampoojatheauditor.com/LLMs-and-ChatGPT-An-Auditors-Perspective.pdf)** — P Singh, 2026
+  *Why: Practitioner-authored piece on LLM bias replication and the audit-methods needed for known/unknown risk in AI-assisted audit work.*
+- **[Artificial Intelligence and Audit Effectiveness in Global Accounting: A Big Four Analysis](https://www.researchgate.net/profile/Saad-Saadouni/publication/411038897)** — S Saadouni, S Habbani, 2026
+  *Why: Big Four-scoped look at AI perpetuating historical bias in flagging client risk characteristics — directly on the AI-reliance-in-audit question.*
+- **[AI in Risk Management and Certification: Implications for Auditors and Assurance](https://link.springer.com/chapter/10.1007/978-3-032-35506-5_3)** — M van der Meulen, P Myrseth, … Conference on Computer Safety, Reliability, and …, 2026
+  *Why: Conformity-auditor perspective on AI-tool adoption, competency gaps, and governance guidance needs.*
+- **[The Role of AI-Assisted Accounting Information Systems in Enhancing Audit Effectiveness](https://ejournal.uhb.ac.id/index.php/globeforum/article/download/2451/1282)** — GB Kristianto, E Saraswati, Globe Forum, 2026
+  *Why: Ties audit effectiveness explicitly to auditor-level factors alongside AI-assisted accounting information systems.*
+- **[The effect of aggregating performance information on confirmation bias in subjective performance evaluations](https://www.sciencedirect.com/science/article/pii/S1044500526000181)** — JW Bentley, KM Stubbs, Management Accounting Research, 2026
+  *Why: Experimental design has auditors preparing audit work on a client under a confirmation-bias manipulation — core auditor-judgment-bias methodology, no AI required.*
+- **[Mental Health-Focused Intervention for Enhancing Professional Judgment in National Auditors: A Cognitive Bias Perspective](https://academic.oup.com/schizophreniabulletin/article/52/Supplement_2/S14/8762226)** — J Che, W Liu, Schizophrenia Bulletin, 2026
+  *Why: RCT (n=120 practicing national auditors) testing whether cognitive-bias-awareness training improves professional judgment quality.*
+- **[The effect of providing an opportunistic opportunity in financial statements, auditor certification, and financial reporting on the type of audit error](https://www.jmaak.ir/article_24467_en.html?lang=en)** — S Bozorgmehrian, Journal of Management Accounting and Auditing …, 2026
+  *Why: Auditor confirmation bias tested directly against Type I/II audit error rates on the Tehran Stock Exchange.*
+- **[Conspiracy illusion and auditors' professional skepticism: the moderating roles of tolerance for ambiguity and religious attitude](https://www.emerald.com/jaoc/article-abstract/doi/10.1108/JAOC-02-2026-0116/1390369)** — S Molavi, A Bazrafshan, Journal of Accounting & Organizational Change, 2026
+  *Why: Integrates cognitive bias and motivated reasoning into professional-skepticism research with auditor-training implications.*
+- **[Bridging the expectation performance gap in fraud detection: A systematic review of external auditors' responsibilities, audit failures, and regulatory responses](https://iessociety.org/index.php/IJBM/article/download/368/155)** — EOND Ocansey, E Peprah, International Journal of Business and Management …, 2026
+  *Why: Systematic review naming auditor independence, professional competence and scepticism as the drivers of the audit expectation gap.*
+- **[AI Security Risks in Enterprise Workflows: A Governance Architecture for the Validation Gap, Anchoring Bias, and Knowledge Staleness](https://www.pst-journal.org/wp-content/uploads/2026-2-3.pdf)** — L Botero, Power System Technology, 2026
+  *Why: Names anchoring bias and automation bias explicitly, and proposes a governance/audit layer to counteract them — adjacent AI-governance framing rather than audit-profession specific.*
+- **[Ask–Audit–Apply: A Framework for Clinical Reasoning with Artificial Intelligence](https://link.springer.com/article/10.1007/s11606-026-10741-8)** — A Jenkins, K Eisenberg, RC Ziegelstein, Journal of General Internal Medicine, 2026
+  *Why: Anchoring bias, premature closure, and automation bias in AI-assisted professional judgment — clinical domain, but the identical cognitive-bias/AI-reliance mechanism the dissertation studies.*
+- **[Auditing Implicit Sycophancy](https://books.google.com/books?hl=en&lr=lang_en&id=oNEAEgAAQBAJ&oi=fnd&pg=PA201&dq=Auditor+Bias&ots=JHELmcJ71G)** — T Han, B Xu, H Zhang, Y Lu, … Intelligence: The First Workshop on EI …, 2026
+  *Why: Structured audit framework (DESG) for detecting implicit sycophancy — sycophancy is one of the dissertation's own named constructs.*
+
 ---
 
-**Total: 46 papers across 8 sections.**
+**Total: 62 papers across 9 sections.**
 
 ## A note on your Scholar alert
 
