@@ -33,10 +33,9 @@ control; nobody has asked the people doing that reviewing what the experience of
 
 The purpose of this phenomenological study is to understand how experienced auditors experience and
 make sense of receiving an AI-generated conclusion that confirms a judgment they had already formed.
-Participants will be experienced auditors — [SET A THRESHOLD, e.g. five or more years] — in [SET
-AUDIT TYPE: external financial statement audit / internal audit / both] roles, with recurring
-multi-year engagement responsibility and meaningful, direct exposure to AI-generated analytical
-output in the course of that work. The phenomenon under study is the experience of encountering
+Participants will be experienced auditors — eight or more years — in internal audit roles,
+with recurring multi-year engagement responsibility and meaningful, direct exposure to AI-generated
+analytical output in the course of that work. The phenomenon under study is the experience of encountering
 machine-generated confirmation of a prior professional judgment.
 
 ## 3. Research Question
