@@ -9,6 +9,19 @@ Chapter numbers are `[VERIFY]` against the 5th edition before this text enters t
 
 ## 1 · The central question
 
+> ⚠️ **7 Sep 2026 — flagged, not yet resolved.** Dr. Gonzalez (GEB 7911) reviewed a course-proposal
+> version of this question and pointed out that "reliance on" presupposes the finding a
+> phenomenological study should discover openly. The GEB 7911 memo now uses an open version: *"How
+> do experienced auditors experience and make sense of receiving an AI-generated conclusion that
+> confirms a judgment they had already formed?"* — see
+> `../coursework/GEB7911_Qualitative_Research_Methods/GONZALEZ_FEEDBACK_2026-09-07.md`.
+>
+> **This file's question is left unchanged for now.** The course proposal and the dissertation are
+> not required to match word for word — the open version is the methodologically correct starting
+> RQ; the sharper "reliance" framing may still be the right one to return to once the study has
+> findings to sharpen with. Revisit this file's wording once Chapters 4–6 work resumes, rather than
+> letting the two drift apart silently.
+
 > **How do experienced auditors describe and account for their reliance on AI-generated conclusions
 > when the system's output agrees with a position they have already formed?**
 

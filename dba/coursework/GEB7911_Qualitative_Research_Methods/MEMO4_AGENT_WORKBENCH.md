@@ -88,24 +88,34 @@ polish or accuracy. An honest, structurally-complete draft beats a perfect one s
 
 ## 3 · What is already decided — do not re-derive these
 
-**Research question — already compliant, use as-is:**
+> ⚠️ **REVISED 7 Sep, same afternoon — Dr. Gonzalez reviewed the RQ by email and asked for one real change.**
+> The original RQ and purpose statement both **presupposed reliance** — they assumed the auditor
+> defers to the AI before the study has looked. Phenomenology has to stay open to what participants
+> actually report (deference, skepticism, more checking, confidence — anything). Her email, and the
+> corrected wording below, are in **§3a**. Use §3a, not the version below it, which is kept only to
+> show what changed and why.
 
-> How do experienced auditors describe and account for their reliance on AI-generated conclusions
-> when the system's output agrees with a position they have already formed?
+**Research question — corrected, use this version:**
 
-Opens with *how*, exploratory verb, non-directional, no "factors." This passed every rule the
-professor gave in Week 3 class.
+> How do experienced auditors experience and make sense of receiving an AI-generated conclusion
+> that confirms a judgment they had already formed?
 
-**Purpose statement — the five script slots, per Dr. Gonzalez's Week 3 instruction:**
+Still opens with *how*, still non-directional, still no "factors" — and now it no longer tells the
+reader what the auditor does with the confirmation. That is the finding, not the premise.
+
+**Purpose statement — the five script slots, corrected:**
 
 | Slot | Value |
 |---|---|
 | Approach | phenomenological |
 | Verb | **understand** — congruent with phenomenology. Never "develop" (signals grounded theory) |
-| Central phenomenon | Auditors' reliance on an AI-generated conclusion that confirms a position they already hold |
-| Participants | Experienced auditors with recurring multi-year engagement responsibility |
-| Site / context | Not a single firm — a professional population / industry context. She confirmed in class this is acceptable when there is no named organisation |
-| General definition | Needs one plain sentence — not yet written |
+| Central phenomenon | **Experiencing an AI-generated conclusion that confirms a judgment already formed** — not "reliance on" it. Reliance is one possible finding, not the definition |
+| Participants | Experienced auditors (state a threshold, e.g. 5+ years), in a defined type of audit work, with recurring multi-year engagement responsibility **and meaningful, direct exposure to AI-generated analytical output in that work** — her three named criteria |
+| Site / context | Not a single firm — a professional population, defined by the participant criteria above rather than by an employer. Confirmed acceptable both in Week 3 class and in her email |
+| General definition | One plain sentence, still needed — define the phenomenon itself (an AI system producing an output that matches a judgment the auditor already reached), not the auditor's response to it |
+
+**§3a — see `GONZALEZ_FEEDBACK_2026-09-07.md` in this folder for the full before/after and why.**
+Read that file before drafting Parts 1–3 tonight — it changes the problem statement too.
 
 **Interpretive framework: constructivism.** Required for this course, not optional. State it in the
 first sentence of Part 4, do not leave it implied — the class's own critique of the model article was
