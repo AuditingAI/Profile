@@ -10,19 +10,21 @@ folder is reference material it points to; this file is the live task.
 
 ## 0 · Update this block before switching agents or ending a session
 
-**Last updated:** 7 Sep 2026, morning · **Due:** tonight, Mon 7 Sep, 11:59 PM ET
+**Last updated:** 7 Sep 2026, evening · **Due:** tonight, 11:59 PM ET
 
 | Part | Status |
 |---|---|
-| 1. Focus & research problem | ⬜ Not started |
-| 2. Purpose statement | ⬜ Not started |
-| 3. Research question | ✅ Already compliant — see §3 below, just needs pasting in |
-| 4. Interpretive framework & positionality | ⬜ Not started |
-| 5. Key terminology table | ⬜ Not started |
-| AI-use disclosure line | ⬜ Not written |
-| Word/PDF file, named with first+last name | ⬜ Not built |
-| Uploaded to Canvas | ⬜ Not done |
+| 1. Focus & research problem | ✅ Done |
+| 2. Purpose statement | ✅ Done — 8+ years, internal audit |
+| 3. Research question | ✅ Done — Gonzalez-corrected open version |
+| 4. Interpretive framework & positionality | ✅ Done — his own words, option A from the field-notes tool |
+| 5. Key terminology table | ✅ Done |
+| AI-use disclosure line | ✅ Written, in the docx appendix |
+| Word/PDF file, named with first+last name | ✅ **`Malik_Yasir_GEB7911_Memo4.docx`** — built, structurally verified, 674 words |
+| Uploaded to Canvas | ⬜ **← the one thing left. Do this.** |
 | Peer review (separate, auto-assigned later) | ⬜ Not yet assigned |
+
+**Full text lives in `MEMO4_DRAFT.md` in this folder. The submission file is `Malik_Yasir_GEB7911_Memo4.docx`, same folder.**
 
 **Whichever agent is reading this: update the checkboxes above as you help him finish each part,
 so the next tool he opens — even hours later — knows exactly what's left.**

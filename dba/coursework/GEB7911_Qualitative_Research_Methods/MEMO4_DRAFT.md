@@ -1,6 +1,6 @@
 # Memo 4 — working draft, in progress
 
-**Filling in live. Parts 1–3 are locked below. Part 4 is waiting on you — see the note.**
+**Complete.** All five parts locked — ready to move into the submission document.
 
 ---
 
@@ -51,17 +51,14 @@ here, that means auditors' own accounts of what it is like to receive AI-generat
 the data itself, not a proxy for a single correct account waiting to be recovered. Evidence will be
 gathered through semi-structured, audio-recorded interviews.
 
-> ⛔ **STOP — this is yours to write, not mine.** The next paragraph is your positionality: what your
-> fifteen years in audit at Citigroup and JPMorgan Chase, and your time as a bank examiner, give you
-> as a researcher (access, vocabulary, the ability to hear what an auditor isn't saying) — and what
-> it costs you (you already believe the phenomenon is real, so you're at risk of hearing confirmation
-> everywhere). Then one sentence on what you do about it — your confirmation hazard log.
->
-> **Two or three sentences. Say it out loud first if that's easier, then type it.** This is the part
-> of the memo that is actually yours, and it's also the strongest paragraph available to you — nobody
-> else in that class can write it.
-
-[POSITIONALITY — YOUR WORDS HERE]
+I am not an outsider to this setting. Fifteen years in audit and risk at Citigroup and
+JPMorgan Chase, and prior experience as a bank examiner for the Florida Office of Financial
+Regulation, give me direct familiarity with the vocabulary, pressures, and judgment calls this study
+asks participants to describe. That same background is also a risk: I already believe the phenomenon
+under study is real, which makes me more likely to hear confirmation in what a participant says than
+a genuinely neutral listener would. To guard against that, every occasion on which I notice myself
+feeling confirmed by a participant's account is logged in a confirmation hazard log kept for the
+duration of the study.
 
 ## 5. Key Terminology
 
