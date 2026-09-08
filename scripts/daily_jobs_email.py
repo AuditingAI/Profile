@@ -43,6 +43,7 @@ from jobs_sources import (  # noqa: E402
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+QUEUE = REPO_ROOT / "automation" / "queue"
 
 GOOGLE_QUERIES = [
     "AI governance", "responsible AI", "model risk", "internal audit",
@@ -108,6 +109,21 @@ def _row_html(job: dict) -> str:
             f" <span style='color:#666'>{job.get('location','')}</span>{badges}</li>")
 
 
+def queue_counts() -> dict[str, int]:
+    """Counts from automation/queue/ - the discover_jobs.py pipeline.
+
+    This digest's own corporate/teaching lists come from a separate,
+    older scoring pass (see module docstring). The queue is the one an
+    external agent actually works from, so its backlog has to be visible
+    here or it silently grows unseen.
+    """
+    counts = {}
+    for name in ("pending", "submitted", "skipped"):
+        d = QUEUE / name
+        counts[name] = len(list(d.glob("*.json"))) if d.exists() else 0
+    return counts
+
+
 def build_email_body(corporate: list[dict], teaching: list[dict],
                      report: SourceReport) -> tuple[str, str]:
     today = date.today().isoformat()
@@ -154,6 +170,21 @@ def build_email_body(corporate: list[dict], teaching: list[dict],
         p.extend(["", note])
         h.append(f"<p style='color:#a33'><b>{note}</b></p>")
 
+    q = queue_counts()
+    backlog_line = (
+        f"QUEUE (automation/queue/, separate from the lists above): "
+        f"{q['pending']} pending, {q['submitted']} submitted, {q['skipped']} skipped."
+    )
+    p.extend(["", backlog_line])
+    if q["pending"] and not q["submitted"]:
+        note = (f"{q['pending']} roles are queued and NONE have been submitted - "
+                f"run the local runner (automation/runner/) or work "
+                f"automation/queue/pending/ directly.")
+        p.append(note)
+        h.append(f"<h3>Queue backlog</h3><p style='color:#a33'><b>{note}</b></p>")
+    else:
+        h.append(f"<h3>Queue backlog</h3><p>{backlog_line}</p>")
+
     p.extend(["", "Resume + seed cover letters attached.", ""])
     h.append("<p>Resume + seed cover letters attached.</p>")
     return "\n".join(p), "".join(h)
@@ -187,7 +218,7 @@ def send_email(corporate: list[dict], teaching: list[dict], report: SourceReport
     msg.add_alternative(html, subtype="html")
 
     attach_pdfs(msg, [
-        REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Master.pdf",
+        REPO_ROOT / "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
         REPO_ROOT / "applications/cover_letters/google_content_ai_compliance_spm.pdf",
         REPO_ROOT / "applications/cover_letters/anthropic_generic.pdf",
     ])
