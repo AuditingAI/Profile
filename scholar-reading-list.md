@@ -254,3 +254,17 @@ as "the thing auditing a model." The sweep is not failing; the query is mis-poin
    `("automation bias" OR "algorithmic appreciation" OR sycophancy OR "model collapse" OR "epistemic drift") AND (LLM OR "large language model" OR "AI assistant")`
 
 Keep "Auditor Bias" running for one month alongside them to confirm nothing is lost, then retire it.
+
+## 10. External framing for L2/L3 — not peer-reviewed, leads only (added 9 Sep 2026)
+
+Jennifer Kinne, jenniferkinne.com. Essays, not papers. Read for framing and for the sources she
+cites; do not cite the posts themselves. Assessment: `dba/00_Execution/KINNE_2026-09-09.md`.
+
+| Post | Date | Why | State |
+|---|---|---|---|
+| Silent Reinforcement: AI Systems and the Epistemic Vulnerability of Users | 17 Jul 2025 | "Cognitive integrity, the preservation of human reasoning quality over time" — candidate L3 outcome construct | lead |
+| Optimizing Against the Gradient: RLHF, MDL Compression, and the Structural Inevitability of Epistemic Drift | 2026 | A mechanism for L3; uses the exact term the Scholar audit found zero times | lead |
+| The Measurement Problem in AI Risk: Why Output Variance Doesn't Capture Epistemic Drift | 2026 | The construct-11 critique at field level | lead |
+| The Wrong Variable | 17 Jul 2026 | The L2 framing: the question is what happens to the human | lead |
+| In the Absence of Reason | 14 May 2026 | Governance frameworks as unexamined; the practice-section critique | lead — **body not yet obtained** |
+| Naming is Not Explaining | 2026 | Anti-anthropomorphism discipline | lead |

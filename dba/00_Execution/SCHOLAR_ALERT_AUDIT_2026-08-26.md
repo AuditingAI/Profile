@@ -129,3 +129,13 @@ the fourth**, and unlike the others it was still happening at the moment it was 
       correctly. They are not, and the gate cannot compensate for a collection error upstream.
 - [ ] Re-run this count after alerts A–D have been live a month. If `epistemic drift` is still 0,
       the terms are wrong, not the literature.
+
+---
+
+## Addendum, 9 September 2026 — "epistemic drift" has an external user
+
+The count above found the term zero times in 1,637 Scholar-alert papers. It now has one confirmed
+external user outside the peer-reviewed literature: Jennifer Kinne, whose essays use the exact
+phrase in two titles. Not a Scholar hit, not peer-reviewed, and not evidence that L3 is
+established. It is evidence that the term is not this repository's private coinage, which changes
+what alert B should say: add `OR "epistemic drift"` to it. See `KINNE_2026-09-09.md`.
