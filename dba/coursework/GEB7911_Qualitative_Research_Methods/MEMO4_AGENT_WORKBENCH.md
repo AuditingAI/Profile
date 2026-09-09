@@ -20,8 +20,8 @@ folder is reference material it points to; this file is the live task.
 | 4. Interpretive framework & positionality | ✅ Done — his own words, option A from the field-notes tool |
 | 5. Key terminology table | ✅ Done |
 | AI-use disclosure line | ✅ Written, in the docx appendix |
-| Word/PDF file, named with first+last name | ✅ **`Malik_Yasir_GEB7911_Memo4.docx`** — built, structurally verified, 674 words |
-| Uploaded to Canvas | ⬜ **← the one thing left. Do this.** |
+| Word/PDF file, named with first+last name | ✅ **`Malik_Yasir_GEB7911_Memo4.docx`** — rebuilt 9 Sep against the actual guidance PDF: double-spaced APA, purpose follows the required script, all four assumption types labelled, one citation, Figure 1 (three-link chain), Section 6 links to the public research page and dba/QUALITATIVE, Section 7 peer-review FAQ. 1,804 words, zero em-dashes |
+| Uploaded to Canvas | ⬜ **← OVERDUE since 7 Sep. Flat 15% penalty, hard refusal ~14 Sep. Upload today.** |
 | Peer review (separate, auto-assigned later) | ⬜ Not yet assigned |
 
 **Full text lives in `MEMO4_DRAFT.md` in this folder. The submission file is `Malik_Yasir_GEB7911_Memo4.docx`, same folder.**

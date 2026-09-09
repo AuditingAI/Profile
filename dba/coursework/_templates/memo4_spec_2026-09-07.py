@@ -10,7 +10,7 @@ spec = {
    "GEB 7911 · Qualitative Research Methods · Instructor: Dr. Cristina Gonzalez",
    "September 7, 2026",
  ],
- "double_spaced": False,
+ "double_spaced": True,
  "body": [
   {"h2": "1. Focus and Research Problem"},
 
@@ -118,15 +118,103 @@ spec = {
  },
 
  "appendix": [
+  {"h2": "6. Where This Study Sits in the Larger Programme"},
+
+  ["This proposal is the qualitative arm of a research programme that began as a quantitative "
+   "dissertation study. That study specified eleven constructs and a fifty-five-item survey "
+   "instrument examining organisational interventions against anchoring bias in long-term audit "
+   "engagements. When fielded, it established that the eligible population is roughly six per "
+   "hundred thousand: a commercial research panel of 334,976 members returned about twenty "
+   "eligible participants. The same population that could not support a survey of one hundred "
+   "can support an interview study of ten to fifteen, which is the study proposed here."],
+
+  ["The programme argues a three-link chain, shown in Figure 1. The quantitative study addresses "
+   "the first link by survey. This proposal addresses the second link by phenomenological "
+   "interview. The third link is stated as future work and is not designed, because it requires "
+   "longitudinal access to engagement files that does not currently exist."],
+
+  {"image": "/home/user/Profile/dba/coursework/GEB7911_Qualitative_Research_Methods/fig_three_link_chain.png",
+   "width_in": 6.4,
+   "caption": "Figure 1. The three-link chain. Only the first link is a human cognitive bias. This proposal addresses the second link."},
+
+  ["The full programme, including the quantitative model, the data record, the feasibility "
+   "finding, and the current status of each arm, is public at auditingai.github.io/research.html. "
+   "The complete qualitative design behind this introduction (the interview protocol, sampling "
+   "plan, coding plan, trustworthiness criteria, and an append-only audit trail) is in the "
+   "project repository under dba/QUALITATIVE at github.com/AuditingAI/Profile. Nothing in "
+   "either location contains participant data; no participant has been approached."],
+
+  {"h2": "7. Anticipated Questions for Peer Review"},
+
+  ["The peer review for this memo examines alignment among the research problem, purpose, and "
+   "research question. The questions below are the ones I would ask of this draft myself, with "
+   "the reasoning behind each choice, so that a reviewer can test the alignment directly rather "
+   "than reconstruct it."],
+
+  [{"t":"Why phenomenology rather than grounded theory or case study?","b":True},
+   " The research question asks what an experience is like and how it is made sense of. That is "
+   "the question phenomenology is built to answer. Grounded theory would commit the study to "
+   "generating a theory it is not yet positioned to generate. Case study would require a bounded "
+   "site, and this study has none."],
+
+  [{"t":"Why is there no named site or organisation?","b":True},
+   " Phenomenology studies a phenomenon across the people who have experienced it, wherever they "
+   "sit. The site is the shared professional context: internal auditors with recurring engagement "
+   "responsibility and direct exposure to AI-generated output. This was confirmed as acceptable "
+   "for the proposal by the course instructor."],
+
+  [{"t":"Why does the purpose statement say receiving rather than relying on?","b":True},
+   " An earlier draft said relying on. That wording assumed the finding before any data existed: "
+   "it treated reliance as the phenomenon rather than as one of several possible responses. The "
+   "revised wording keeps the purpose open to whatever participants report, which could be "
+   "deference, skepticism, further checking, or something not yet anticipated. This is the "
+   "alignment the assignment asks a reviewer to test: the problem describes a gap in what is "
+   "understood about the experience, the purpose studies the experience, and the question asks "
+   "about the experience without pre-specifying the answer."],
+
+  [{"t":"How does this relate to the quantitative dissertation?","b":True},
+   " They address different links in the same chain, and different kinds of question. The "
+   "dissertation asks how much, by survey. This proposal asks how, by interview. The two are "
+   "designed to inform each other rather than to substitute for each other, and the course "
+   "proposal is not required to match the dissertation's central question word for word."],
+
+  [{"t":"Is the researcher too close to the subject?","b":True},
+   " Yes, and that is stated rather than hidden. Fifteen years in audit gives access and "
+   "vocabulary, and it also gives a prior belief that the phenomenon is real. The confirmation "
+   "hazard log in the design is the control: every occasion on which the researcher notices "
+   "feeling confirmed by a participant is recorded, because a researcher who feels validated by "
+   "an auditor describing exactly the deference his own model predicts is experiencing the "
+   "phenomenon under study, inside the study."],
+
+  [{"t":"Why interviews only, with no triangulation?","b":True},
+   " Because the phenomenon is a subjective experience, and the first-person account is the data "
+   "rather than a proxy for something more objective behind it. A second source would be "
+   "appropriate if the study were testing whether reliance occurred. It is not. It is asking "
+   "what the experience of confirmation is like."],
+
+  [{"t":"Why ten to fifteen participants?","b":True},
+   " Because saturation is the stopping rule, and in a phenomenological design with a narrowly "
+   "defined population, prior work and the course text both place saturation in that range. The "
+   "number is stated as a plan, not a promise. Collection stops when three consecutive interviews "
+   "produce no new meaning unit."],
+
+  [{"t":"What is the ethics status?","b":True},
+   " The existing approval, IRB-25-0462, covers an anonymous online survey. An interview arm with "
+   "audio recording and identifiable participants requires either a modification or a new "
+   "protocol, and that has not yet been submitted. No participant may be approached until it is. "
+   "This proposal is a design; it does not collect data."],
+
   {"h2": "Reference"},
   ["Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. "
    "Science, 185(4157), 1124-1131."],
 
   {"h2": "Disclosure of Artificial Intelligence Use"},
-  ["AI (Claude) was used to organise this document against the assignment's five prescribed "
-   "components and to draft the terminology definitions and structural language. The research "
-   "problem, purpose, research question, interpretive framework, and the positionality reflection "
-   "are my own."],
+  ["AI (Claude) was used to organise this document against the assignment's prescribed "
+   "components, to draft the terminology definitions and Figure 1, and to draft the structural "
+   "language of Sections 6 and 7 from decisions already documented in my own research protocol. "
+   "The research problem, purpose statement, research question, interpretive framework and "
+   "assumptions, positionality reflection, and every methodological decision described in this "
+   "document are my own. I have reviewed and revised all AI-assisted text."],
  ],
 }
 json.dump(spec, open('memo4.json','w'))

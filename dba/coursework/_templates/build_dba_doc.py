@@ -113,6 +113,15 @@ def build(spec, out):
                 _segs(p, it["bullet"], size=size)
             elif isinstance(it, dict) and "pagebreak" in it:
                 doc.add_page_break()
+            elif isinstance(it, dict) and "image" in it:
+                doc.add_picture(it["image"], width=Inches(it.get("width_in", 6.0)))
+                doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+                if it.get("caption"):
+                    cp = doc.add_paragraph()
+                    cp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    cp.paragraph_format.space_after = Pt(12)
+                    cp.paragraph_format.line_spacing = 1.0
+                    _font(cp.add_run(it["caption"]), size=size - 1.5, italic=True)
             elif isinstance(it, dict) and "__table__" in it:
                 rows = spec["tables"][it["__table__"]]
                 t = doc.add_table(rows=0, cols=len(rows[0]))
