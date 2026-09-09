@@ -33,7 +33,12 @@ spec = {
    " auditors experience receiving that output, or how they make sense of it in the moment. That "
    "is a process question, and a survey cannot answer it. My own prior study tried to measure this "
    "by self-report and ran into the same limit every self-report measure of this kind runs into: "
-   "it asks a person to notice the one thing the bias in question prevents them from noticing."],
+   "it asks a person to notice the one thing the bias in question prevents them from noticing. "
+   "The anchoring-and-adjustment literature originating with Tversky and Kahneman (1974) "
+   "establishes that judgments formed from a starting point adjust insufficiently away from it, "
+   "and that the effect persists even when participants are motivated toward accuracy. What that "
+   "literature has not examined is what happens when the starting point is produced by a machine "
+   "that also agrees with the conclusion the professional had already reached."],
 
   ["This matters to two audiences. For research, it separates two things the literature currently "
    "conflates: automation bias, which is a human tendency, and sycophancy, which is a property of "
@@ -44,13 +49,18 @@ spec = {
 
   {"h2": "2. Purpose Statement"},
 
-  ["The purpose of this phenomenological study is to understand how experienced auditors experience "
-   "and make sense of receiving an AI-generated conclusion that confirms a judgment they had "
-   "already formed. Participants will be experienced auditors, with eight or more years in "
-   "internal audit roles, recurring multi-year engagement responsibility, and meaningful, direct "
-   "exposure to AI-generated analytical output in the course of that work. The phenomenon under "
-   "study is the experience of encountering machine-generated confirmation of a prior professional "
-   "judgment."],
+  ["The purpose of this phenomenological study is to understand the experience of receiving an "
+   "AI-generated conclusion that confirms a judgment already formed, for experienced internal "
+   "auditors, at organizations where AI-supported analytical tools are used in live engagement "
+   "work. At this stage in the research, receiving AI-generated confirmation will be generally "
+   "defined as the moment an AI system produces an analytical output matching a conclusion the "
+   "auditor had already reached independently."],
+
+  ["Participants will be experienced internal auditors with eight or more years of practice, "
+   "recurring multi-year engagement responsibility, and meaningful, direct exposure to "
+   "AI-generated analytical output in the course of that work. Consistent with a phenomenological "
+   "design, the site is defined by the shared professional context in which the phenomenon occurs "
+   "rather than by a single named organization."],
 
   {"h2": "3. Research Question"},
 
@@ -59,11 +69,22 @@ spec = {
 
   {"h2": "4. Interpretive Framework and Assumptions"},
 
-  ["This study is approached from a constructivist interpretive framework. Constructivism holds "
-   "that multiple realities exist and that meaning is constructed through individuals' lived "
-   "experience. In this study, that means auditors' own accounts of what it is like to receive "
-   "AI-generated confirmation are the data itself, not a proxy for a single correct account waiting "
-   "to be recovered. Evidence will be gathered through semi-structured, audio-recorded interviews."],
+  ["This study is approached from a social constructivist, inductive interpretive framework."],
+
+  [{"t":"Ontological assumptions.","b":True},
+   " Multiple realities exist. There is no single correct account of what it is like to receive "
+   "machine-generated confirmation waiting to be recovered. There are as many accounts as there "
+   "are auditors who have experienced it, and the variation among them is part of the finding "
+   "rather than error to be averaged away."],
+
+  [{"t":"Epistemological assumptions.","b":True},
+   " Evidence consists of participants' own first-person descriptions of the experience, gathered "
+   "through semi-structured, audio-recorded interviews. Closeness to participants is treated as a "
+   "condition of knowing rather than a threat to it. The account is the data, not a proxy for "
+   "something more objective sitting behind it."],
+
+  [{"t":"Axiological assumptions.","b":True},
+   " My own values are present in this study and are stated rather than bracketed away."],
 
   ["I am not an outsider to this setting. Fifteen years in audit and risk at Citigroup and JPMorgan "
    "Chase, and prior experience as a bank examiner for the Florida Office of Financial Regulation, "
@@ -73,6 +94,13 @@ spec = {
    "than a genuinely neutral listener would. To guard against that, every occasion on which I "
    "notice myself feeling confirmed by a participant's account is logged in a confirmation hazard "
    "log kept for the duration of the study."],
+
+  [{"t":"Methodological assumptions.","b":True},
+   " Of the five qualitative approaches, this study uses phenomenology. The research question asks "
+   "what an experience is like and how it is made sense of, which is the question phenomenology is "
+   "built to answer. A grounded theory design would commit the study to generating theory it is "
+   "not yet positioned to generate, and a case study design would require a bounded site this "
+   "study does not have."],
 
   {"h2": "5. Key Terminology"},
  ],
@@ -90,6 +118,10 @@ spec = {
  },
 
  "appendix": [
+  {"h2": "Reference"},
+  ["Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. "
+   "Science, 185(4157), 1124-1131."],
+
   {"h2": "Disclosure of Artificial Intelligence Use"},
   ["AI (Claude) was used to organise this document against the assignment's five prescribed "
    "components and to draft the terminology definitions and structural language. The research "
