@@ -30,6 +30,7 @@ GEB7913 · Advisor **Prof. Dr. Juan Rey** · IRB **IRB-25-0462**
 
 | | |
 |---|---|
+| [`AGENT_MAP.md`](AGENT_MAP.md) | **Read this first if you are a second agent.** Where everything lives, what is true today, the hard constraints, and how to come up to speed without reading 168 files |
 | [`QUALITATIVE/`](QUALITATIVE/) | The L2 phenomenological arm — protocol, interview guide, sampling, coding, trustworthiness, audit trail. **Nothing fielded** |
 | [`00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md`](00_Execution/COURSEWORK_AS_DISSERTATION_ENGINE.md) | What the two Fall 2026 courses cover against the advisor's five directives — and what they do not. Read the second table first |
 | [`00_Execution/IRB_STATUS_2026-08-28.md`](00_Execution/IRB_STATUS_2026-08-28.md) | Four IRB items, not one. Three unsubmitted, one unverified. What each blocks and the order to clear them |

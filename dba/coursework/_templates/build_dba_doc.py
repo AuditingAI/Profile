@@ -59,8 +59,42 @@ def _segs(par, segs, size=11):
                   bold=s.get("b", False), italic=s.get("i", False),
                   highlight=s.get("hl", False))
 
+def _set_lang(doc, lang):
+    """Declare the document language on the Normal style so it inherits."""
+    rpr = doc.styles['Normal'].element.get_or_add_rPr()
+    el = rpr.find(qn('w:lang'))
+    if el is None:
+        el = OxmlElement('w:lang')
+        rpr.append(el)
+    el.set(qn('w:val'), lang)
+
+
+def _alt(shape, text):
+    """Write the alt text Word and the accessibility checkers actually read.
+
+    python-docx leaves <wp:docPr> with only a name, which every checker reports
+    as a missing text alternative. Both attributes are set: descr is what
+    screen readers announce, title is what older Word versions show.
+    """
+    if not text:
+        return
+    dp = shape._inline.docPr
+    dp.set('descr', text)
+    dp.set('title', text[:255])
+
+
 def build(spec, out):
     doc = Document()
+
+    # ---- document properties -------------------------------------------
+    # Required by WCAG 2.1 AA and checked by the FIU repository: a document
+    # title distinct from the filename, and a declared language.
+    cp = doc.core_properties
+    cp.title = spec["title"]
+    cp.author = spec.get("author", "Yasir A. Malik")
+    if spec.get("subtitle"):
+        cp.subject = spec["subtitle"]
+    _set_lang(doc, spec.get("lang", "en-US"))
 
     sec = doc.sections[0]
     sec.top_margin = sec.bottom_margin = Inches(1.0)
@@ -116,6 +150,10 @@ def build(spec, out):
             elif isinstance(it, dict) and "image" in it:
                 doc.add_picture(it["image"], width=Inches(it.get("width_in", 6.0)))
                 doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+                # WCAG 2.1 AA: every meaningful image needs a text alternative.
+                # FIU Scholarship Commons returns untagged / un-alt-texted files.
+                _alt(doc.inline_shapes[-1],
+                     it.get("alt") or it.get("caption") or "")
                 if it.get("caption"):
                     cp = doc.add_paragraph()
                     cp.alignment = WD_ALIGN_PARAGRAPH.CENTER

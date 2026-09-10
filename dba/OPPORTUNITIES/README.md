@@ -20,6 +20,14 @@ and it is the only feed. Leave it on and triage here instead.
 
 ---
 
+## Standing infrastructure
+
+| | |
+|---|---|
+| **[FIU Scholarship Commons](FIU_SCHOLARSHIP_COMMONS.md)** | The institutional repository, announced 10 Sep by Dr. Aguirre-Urreta. **Nothing currently qualifies** — it takes externally validated work only. Read it for the accessibility bar, which every future submission must clear |
+
+---
+
 ## Live now
 
 | Opportunity | Deadline | Days left | Effort | State |

@@ -135,6 +135,12 @@ spec = {
 
   {"image": "/home/user/Profile/dba/coursework/GEB7911_Qualitative_Research_Methods/fig_three_link_chain.png",
    "width_in": 6.4,
+   "alt": "Flow diagram of the three-link chain. An AI tool enters recurring review work. "
+          "Link one: the system output becomes the anchor, arriving before the reviewer forms a view. "
+          "Link two: the model confirms the position the reviewer has already stated rather than "
+          "challenging it. Link three: successive models reprocess the same work and conclusions "
+          "converge on each other rather than on evidence. Only link one is a human cognitive bias. "
+          "This proposal addresses link two.",
    "caption": "Figure 1. The three-link chain. Only the first link is a human cognitive bias. This proposal addresses the second link."},
 
   ["The full programme, including the quantitative model, the data record, the feasibility "
