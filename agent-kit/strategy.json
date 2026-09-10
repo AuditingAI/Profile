@@ -1,0 +1,208 @@
+{
+  "_rules": "Read agent-kit/rules.json before acting on anything in this file.",
+
+  "version": "2026-09-10",
+  "owner_decision": "Three streams, run in this order of priority. Set by Yasir 10 Sep 2026.",
+
+  "streams": [
+    {
+      "id": "gsib",
+      "priority": 1,
+      "name": "The eight U.S. G-SIBs",
+      "why": "Global systemically important banks are where twenty years of examiner, capital, and audit history converts directly. They have the largest AI governance build-outs under SR 11-7 and the most established green-card sponsorship records. This is the home-field stream.",
+      "min_score": 3,
+      "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
+      "keywords": [
+        "AI governance", "AI risk", "responsible AI", "model risk", "AI audit",
+        "algorithmic risk", "technology audit", "internal audit", "audit director",
+        "third party risk", "data governance", "controls", "regulatory"
+      ],
+      "targets": [
+        {
+          "company": "JPMorgan Chase",
+          "board": "workday",
+          "tenant": "jpmc", "site": "External", "host": "wd1",
+          "verified": true,
+          "note": "Best-known territory. Yasir worked Treasury/CIO and Basel here 2015-2021."
+        },
+        {
+          "company": "Bank of America",
+          "board": "custom",
+          "url": "https://careers.bankofamerica.com/en-us/job-search",
+          "verified": false,
+          "note": "Not on Workday. Needs a scraper or manual pass; no JSON endpoint wired yet."
+        },
+        {
+          "company": "Citigroup",
+          "board": "excluded",
+          "verified": true,
+          "excluded": true,
+          "note": "Past employer - the April 2026 layoff. Scored 1 and ranked last by policy in scripts/jobs_sources.py. Listed here only so the G-SIB set is complete and nobody re-adds it by mistake."
+        },
+        {
+          "company": "Goldman Sachs",
+          "board": "oracle",
+          "url": "https://higher.gs.com/roles",
+          "verified": false,
+          "note": "Oracle Candidate Experience tenant (hdpc.fa.us2.oraclecloud.com). Blocked from cloud sessions by egress policy AND by bot detection. Must be worked from the local runner."
+        },
+        {
+          "company": "Morgan Stanley",
+          "board": "unknown",
+          "url": "https://www.morganstanley.com/careers",
+          "verified": false,
+          "note": "Tenant string not confirmed. Do not guess one - a wrong tenant reports FAILED in the digest, which is the signal to look it up, not to invent it."
+        },
+        {
+          "company": "Wells Fargo",
+          "board": "workday",
+          "tenant": "wellsfargojobs", "site": "Wells_Fargo_Jobs", "host": "wd1",
+          "verified": true
+        },
+        {
+          "company": "BNY",
+          "board": "workday",
+          "tenant": "bnymellon", "site": "BNY_Careers", "host": "wd1",
+          "verified": true
+        },
+        {
+          "company": "State Street",
+          "board": "workday",
+          "tenant": "statestreet", "site": "Global", "host": "wd1",
+          "verified": true
+        }
+      ]
+    },
+
+    {
+      "id": "ai",
+      "priority": 2,
+      "name": "Frontier AI labs and big-tech AI governance",
+      "why": "This is where the doctoral research is pointed and where the Audit the Algorithm brand reads as an asset rather than a side business. Lower sponsorship certainty than the banks and far more competition, but the only stream where the AI work is the job rather than a governance layer over someone else's product.",
+      "min_score": 3,
+      "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
+      "keywords": [
+        "responsible AI", "AI governance", "AI policy", "AI safety", "trust and safety",
+        "model risk", "AI assurance", "AI compliance", "AI risk", "policy enforcement",
+        "AI program", "AI strategy"
+      ],
+      "targets": [
+        {
+          "company": "Anthropic",
+          "board": "greenhouse", "slug": "anthropic",
+          "verified": true,
+          "note": "Trust & Safety, Policy, and Assurance functions are the fit."
+        },
+        {
+          "company": "Google",
+          "board": "google-careers",
+          "verified": true,
+          "note": "Cloud Responsible AI and Trust & Safety. There is a warm referral path here - see the Asad thread in Gmail."
+        },
+        {
+          "company": "OpenAI",
+          "board": "greenhouse", "slug": "openai",
+          "verified": false
+        },
+        {
+          "company": "Microsoft",
+          "board": "custom",
+          "url": "https://jobs.careers.microsoft.com/global/en/search",
+          "verified": false,
+          "note": "Office of Responsible AI. No public JSON endpoint wired yet."
+        },
+        {
+          "company": "Scale AI",
+          "board": "greenhouse", "slug": "scaleai",
+          "verified": false
+        },
+        {
+          "company": "Databricks",
+          "board": "greenhouse", "slug": "databricks",
+          "verified": false
+        }
+      ]
+    },
+
+    {
+      "id": "adjunct",
+      "priority": 3,
+      "name": "Adjunct and professor-of-practice teaching",
+      "why": "Universities are H-1B cap-exempt, which changes the immigration math entirely - this is the only stream where sponsorship is structurally easier rather than harder. It also compounds: teaching AI audit while writing the dissertation on AI-assisted judgment makes both more credible. Runs alongside a corporate role, it does not replace one.",
+      "min_score": 3,
+      "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
+      "keywords": [
+        "adjunct", "lecturer", "professor of practice", "instructor",
+        "teaching faculty", "executive in residence", "clinical faculty"
+      ],
+      "subjects": [
+        "auditing", "accounting", "risk management", "business analytics",
+        "AI ethics", "AI governance", "fintech", "data governance"
+      ],
+      "targets": [
+        {
+          "company": "Rutgers University",
+          "board": "workday",
+          "tenant": "rutgers", "site": "Rutgers_Careers", "host": "wd1",
+          "verified": true,
+          "note": "Newark campus. Closest to home and the strongest accounting/audit faculty in-state."
+        },
+        {
+          "company": "NJIT",
+          "board": "workday",
+          "tenant": "njit", "site": "NJIT_Careers", "host": "wd1",
+          "verified": true,
+          "note": "Newark."
+        },
+        {
+          "company": "Montclair State University",
+          "board": "unknown",
+          "url": "https://montclair.wd1.myworkdayjobs.com/",
+          "verified": false
+        },
+        {
+          "company": "Seton Hall University",
+          "board": "unknown",
+          "url": "https://jobs.shu.edu/",
+          "verified": false
+        },
+        {
+          "company": "CUNY (Baruch / John Jay)",
+          "board": "custom",
+          "url": "https://cuny.jobs/",
+          "verified": false,
+          "note": "Baruch Zicklin for audit/accounting; John Jay for the public-integrity angle."
+        },
+        {
+          "company": "Stevens Institute of Technology",
+          "board": "unknown",
+          "url": "https://stevens.wd5.myworkdayjobs.com/",
+          "verified": false
+        },
+        {
+          "company": "New Jersey City University",
+          "board": "unknown",
+          "url": "https://www.njcu.edu/about/employment",
+          "verified": false
+        },
+        {
+          "company": "Pace University",
+          "board": "unknown",
+          "url": "https://careers.pace.edu/",
+          "verified": false
+        }
+      ]
+    }
+  ],
+
+  "ranking": {
+    "rule": "Sort by score descending, then sponsor_employer true first, then stream priority ascending.",
+    "min_score_to_queue": 3,
+    "note": "Scoring lives in scripts/jobs_sources.py. Titles carrying a bullseye AI-governance keyword score 5; seniority adds one; out-of-market subtracts one."
+  },
+
+  "geography": {
+    "in_market": ["New York", "NYC", "Manhattan", "Newark", "Jersey City", "New Jersey", "Remote", "Hybrid"],
+    "note": "Newark is home. Jersey City counts as much as Manhattan - several targets are headquartered in New Jersey."
+  }
+}

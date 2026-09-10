@@ -35,6 +35,38 @@ SUBMITTED = QUEUE / "submitted"
 SKIPPED = QUEUE / "skipped"
 LEDGER = QUEUE / "seen.json"
 
+KIT = ROOT / "agent-kit"
+STRATEGY = KIT / "strategy.json"
+RULES = KIT / "rules.json"
+
+# Stamped as the first key of every queue file so an agent that opens one JSON
+# in isolation still sees the rules. Kept short on purpose - the full set is in
+# agent-kit/rules.json and the interface spec is automation/AGENT_CONTRACT.md.
+QUEUE_RULES = {
+    "read_first": "agent-kit/START_HERE.md",
+    "full_rules": "agent-kit/rules.json",
+    "contract": "automation/AGENT_CONTRACT.md",
+    "must": [
+        "Claim this role (status: claimed, agent.claimed_by, agent.claimed_at) and commit before touching the portal.",
+        "Attach package.resume verbatim. Do not substitute a different resume.",
+        "Move this file to submitted/ with a confirmation_ref, or to skipped/ with a reason. Commit the move.",
+    ],
+    "never": [
+        "Never store credentials, cookies, or tokens in this repository - it is public and git history is permanent.",
+        "Never answer immigration, work-authorization, salary-history, EEO, or attestation fields. Stop and skip instead.",
+        "Never send email as Yasir. Draft only.",
+        "Never write 'OCC' - the examiner history is the Florida Office of Financial Regulation.",
+        "Never write 'Dr. Malik' or 'CIA certified' - the DBA and the CIA are both in progress.",
+    ],
+    "facts": {
+        "name": "Yasir A. Malik",
+        "email": "YasirAMalik@gmail.com",
+        "phone": "+1 (786) 704-8536",
+        "location": "Newark, NJ",
+        "current_employer": "None - Citi role ended April 2026",
+    },
+}
+
 # Resume selection. First pattern that matches the title wins; the master
 # resume is the fallback. These are the files that actually exist in the repo -
 # a package that names a missing file is worse than one that names the generic.
@@ -96,37 +128,70 @@ def is_excluded(company: str) -> bool:
     return any(x in low for x in js.EXCLUDED_EMPLOYERS)
 
 
+def load_strategy() -> dict:
+    """The three streams. Owner-editable config, not code.
+
+    agent-kit/strategy.json is the single place target employers are added or
+    removed, so a non-programmer (or another agent) can change who gets
+    searched without touching this file.
+    """
+    return json.loads(STRATEGY.read_text(encoding="utf-8"))
+
+
 def collect(report: js.SourceReport) -> list[dict]:
-    """Run every configured source. A dead source reports, it does not crash."""
+    """Run every verified source in every stream.
+
+    A dead source reports and the run continues - a source that breaks and says
+    nothing is worse than no source at all. Targets marked verified: false have
+    no working endpoint yet and are skipped rather than guessed at; they surface
+    in the briefing as "needs an endpoint" so they get looked up rather than
+    invented.
+    """
     rows: list[dict] = []
+    google_queries: list[str] = []
 
-    boards = [
-        ("blackrock", "BlackRock"),
-        ("robinhood", "Robinhood"),
-        ("stripe", "Stripe"),
-        ("plaid", "Plaid"),
-    ]
-    for board, name in boards:
-        rows += js.fetch_greenhouse(board, name, report)
+    for stream in load_strategy()["streams"]:
+        sid = stream["id"]
+        search_hint = stream["keywords"][0] if stream.get("keywords") else ""
 
-    workdays = [
-        ("jpmc", "External", "JPMorgan Chase", "audit"),
-        ("pru", "PRU", "PGIM / Prudential", "governance"),
-        ("statestreet", "External", "State Street", "audit"),
-        ("wellsfargo", "External", "Wells Fargo", "risk"),
-    ]
-    for tenant, site, name, search in workdays:
-        rows += js.fetch_workday(tenant, site, name, report, search=search)
+        for target in stream["targets"]:
+            if target.get("excluded") or not target.get("verified"):
+                continue
+            company, board = target["company"], target.get("board")
 
-    rows += js.fetch_google(
-        ["AI governance", "responsible AI program manager", "regulatory"],
-        report,
-    )
+            if board == "workday":
+                found = js.fetch_workday(
+                    target["tenant"], target["site"], company, report,
+                    search=search_hint, host=target.get("host", "wd1"),
+                )
+            elif board == "greenhouse":
+                found = js.fetch_greenhouse(target["slug"], company, report)
+            elif board == "google-careers":
+                # Batched into one pass after the loop; the Google endpoint is
+                # queried by keyword, not by employer.
+                google_queries += stream["keywords"][:4]
+                continue
+            else:
+                continue
+
+            for row in found:
+                row["stream"] = sid
+            rows += found
+
+    if google_queries:
+        found = js.fetch_google(sorted(set(google_queries)), report)
+        for row in found:
+            row["stream"] = "ai"
+        rows += found
+
     return rows
 
 
 def build_entry(row: dict, score: int, reasons: list[str], stream: str) -> dict:
     return {
+        # First key on purpose. An agent reading one file out of context still
+        # gets the rules before it gets the role.
+        "_rules": QUEUE_RULES,
         "id": job_id(row["url"]),
         "discovered_at": now(),
         "stream": stream,
@@ -181,17 +246,30 @@ def main() -> int:
             skipped_dupe += 1
             continue
 
-        score, reasons = js.score_role(
-            row["title"], row["company"], row.get("location") or ""
-        )
-        stream = "corporate"
+        stream = row.get("stream", "gsib")
+
+        if stream == "adjunct":
+            # Universities post plenty of non-teaching roles. Score the
+            # teaching titles first here, and only fall back to the corporate
+            # rubric for things like a university's own internal-audit opening.
+            score = js.score_teaching(row["title"])
+            reasons = ["teaching title"]
+            if score < MIN_SCORE:
+                score, reasons = js.score_role(
+                    row["title"], row["company"], row.get("location") or ""
+                )
+        else:
+            score, reasons = js.score_role(
+                row["title"], row["company"], row.get("location") or ""
+            )
+            if score < MIN_SCORE:
+                teach = js.score_teaching(row["title"])
+                if teach >= MIN_SCORE:
+                    score, reasons, stream = teach, ["teaching title"], "adjunct"
+
         if score < MIN_SCORE:
-            teach = js.score_teaching(row["title"])
-            if teach >= MIN_SCORE:
-                score, reasons, stream = teach, ["teaching stream"], "teaching"
-            else:
-                skipped_low += 1
-                continue
+            skipped_low += 1
+            continue
 
         entry = build_entry(row, score, reasons, stream)
         fresh.append(entry)

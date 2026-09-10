@@ -185,6 +185,12 @@ def build_email_body(corporate: list[dict], teaching: list[dict],
     else:
         h.append(f"<h3>Queue backlog</h3><p>{backlog_line}</p>")
 
+    start = "Start any session - yours or an agent's - with:  ./agent-kit/run.sh"
+    p.extend(["", start])
+    h.append("<p>Start any session - yours or an agent's - with "
+             "<code>./agent-kit/run.sh</code> "
+             "(rules, all three streams, and the queue).</p>")
+
     p.extend(["", "Resume + seed cover letters attached.", ""])
     h.append("<p>Resume + seed cover letters attached.</p>")
     return "\n".join(p), "".join(h)
