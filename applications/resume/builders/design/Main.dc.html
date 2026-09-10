@@ -8,6 +8,11 @@
 <x-dc>
 <helmet>
   <style>
+    /* Every size below is the master's own point value converted at 96px/inch
+       (pt * 4/3), not a redrawn approximation: body 8.15pt, h2 9.2pt, table
+       7.9pt, page margin 0.3in/0.45in. Changing one here without changing it
+       in build_genai_risk_branded.py is how the canvas and the shipped PDF
+       drift apart. */
     body { margin: 0; }
     a { color: #6F6754; text-decoration: none; }
     a:hover { color: #B8860B; }
@@ -15,65 +20,66 @@
       width: 816px;
       min-height: 1056px;
       box-sizing: border-box;
-      padding: 35px 53px 30px;
+      padding: 28.8px 43.2px;
       background: #ffffff;
       color: #000000;
       font-family: 'Times New Roman', Times, serif;
-      font-size: 11.9px;
-      line-height: 15.1px;
+      font-size: 10.87px;
+      line-height: 13.15px;
       text-align: justify;
     }
     .center { text-align: center; }
-    .rule { border-bottom: 1px solid #000000; margin: 2px 0 3px; }
+    /* Section heads are BLACK. Gold is reserved for the wordmark and the
+       table's header rule - build_genai_risk_branded.py sets h2 to #000000
+       explicitly. */
     h2 {
-      font-size: 12.5px;
-      line-height: 14.7px;
+      font-size: 12.27px;
+      line-height: 14.4px;
       font-weight: bold;
-      letter-spacing: 0.6px;
+      letter-spacing: 1.2px;
       text-transform: uppercase;
-      margin: 7px 0 0;
+      color: #000000;
+      border-bottom: 1px solid #000000;
+      padding-bottom: 1px;
+      margin: 5px 0 2px;
     }
-    .sub { font-style: italic; font-size: 11.3px; color: #6F6754; margin: 0 0 1px; }
-    p { margin: 0 0 3px; }
-    ul { margin: 1px 0 0; padding-left: 15px; }
-    li { margin-bottom: 1.5px; }
-    .jobline { display: flex; justify-content: space-between; gap: 12px; margin-top: 4px; }
+    .sub { font-style: italic; font-size: 11.33px; color: #6F6754; margin: 0 0 1px; }
+    p { margin: 0 0 2px; }
+    ul { margin: 1px 0 0; padding-left: 14px; }
+    li { margin-bottom: 1px; }
+    .jobline { display: flex; justify-content: space-between; gap: 12px; margin-top: 3px; }
     .jobline b { font-size: 12px; }
     .dates { white-space: nowrap; font-weight: bold; }
-    table { width: 100%; border-collapse: collapse; margin-top: 3px;
-            font-size: 10.5px; line-height: 13px; }
-    th, td { border: 1px solid #000000; padding: 2px 5px; vertical-align: top;
+    table { width: 100%; border-collapse: collapse; margin-top: 2px;
+            font-size: 10.53px; line-height: 12.43px; }
+    th, td { border: 1px solid #000000; padding: 1px 4px; vertical-align: top;
              text-align: left; }
-    th { letter-spacing: 0.5px; text-transform: uppercase; font-size: 10.6px; }
+    th { letter-spacing: 0.6px; text-transform: uppercase; font-size: 10.67px; }
     td:first-child, th:first-child { width: 17%; }
   </style>
 </helmet>
 
 <div class="sheet">
 
-  <div class="center" style="font-size: 20px; line-height: 22.7px; margin-bottom: 1px">
+  <div class="center" style="font-size: 17.2px; line-height: 19.5px; margin-bottom: 1px">
     <b style="color: {{accent}}">Audit</b>
     <i style="color: #6F6754"> the </i>
     <b style="color: {{accent}}">Algorithm</b>
   </div>
 
-  <div class="center" style="font-size: 20.7px; line-height: 24px; font-weight: bold; letter-spacing: 1.2px">YASIR A. MALIK</div>
+  <div class="center" style="font-size: 18.67px; line-height: 21.5px; font-weight: bold; letter-spacing: 1.5px">YASIR A. MALIK</div>
 
-  <div class="center" style="font-size: 11.9px; line-height: 14.7px; margin-top: 1px">GenAI Risk &amp; Assurance Executive | Internal Audit &middot; Model Risk (SR 11-7) &middot; Responsible AI Governance | Doctoral Researcher in AI-Assisted Judgment</div>
+  <div class="center" style="font-size: 11.73px; line-height: 14.2px; margin-top: 1px">GenAI Risk &amp; Assurance Executive | Internal Audit &bull; Model Risk (SR 11-7) &bull; Responsible AI Governance | Doctoral Researcher in AI-Assisted Judgment</div>
 
-  <div class="center" style="font-size: 11.3px; line-height: 14px; margin-top: 2px; margin-bottom: 4px">Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786 &bull; auditingai.github.io</div>
+  <div class="center" style="font-size: 11.33px; line-height: 13.7px; margin-top: 2px; margin-bottom: 4px">Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786 &bull; auditingai.github.io</div>
 
-  <h2 style="color: {{accent}}">Executive Summary</h2>
-  <div class="rule"></div>
-  <p>Audit and risk executive with 20 years across Citi, JPMorgan Chase, and the Florida Office of Financial Regulation, now focused on the risks generative AI introduces that legacy control frameworks do not see: sycophancy and judgment drift in AI-assisted decisions, automation bias, hallucination, adversarial input, and unmanaged third-party AI. A builder-auditor &mdash; authored an AI governance framework referencing NIST AI RMF and SR 11-7, and shipped the RAG assistant it governs (~35% faster audit review). Led consent-order remediation accepted by federal regulators, CCAR forecast validation over a $2.6T balance sheet, and Resolution &amp; Recovery Planning that earned the Federal Reserve&rsquo;s &ldquo;not not-credible&rdquo; rating. DBA candidate at FIU (GPA 3.81, expected 2028) whose research measures how expert judgment degrades under AI assistance &mdash; the human-factors half of AI risk that model validation alone cannot cover.</p>
+  <h2>Executive Summary</h2>  <p>Audit and risk executive with 20 years across Citi, JPMorgan Chase, and the Florida Office of Financial Regulation, now focused on the risks generative AI introduces that legacy control frameworks do not see: sycophancy and judgment drift in AI-assisted decisions, automation bias, hallucination, adversarial input, and unmanaged third-party AI. A builder-auditor &mdash; authored an AI governance framework referencing NIST AI RMF and SR 11-7, and shipped the RAG assistant it governs (~35% faster audit review). Led consent-order remediation accepted by federal regulators, CCAR forecast validation over a $2.6T balance sheet, and Resolution &amp; Recovery Planning that earned the Federal Reserve&rsquo;s &ldquo;not not-credible&rdquo; rating. DBA candidate at FIU (GPA 3.81, expected 2028) whose research measures how expert judgment degrades under AI assistance &mdash; the human-factors half of AI risk that model validation alone cannot cover.</p>
 
-  <h2 style="color: {{accent}}">Where the Research Is Going</h2>
-  <div class="rule"></div>
-  <table>
+  <h2>Where the Research Is Going</h2>  <table>
     <tr>
-      <th>Stage</th>
-      <th>Work</th>
-      <th>Why it matters to an employer</th>
+      <th style="border-bottom: 1px solid {{accent}}">Stage</th>
+      <th style="border-bottom: 1px solid {{accent}}">Work</th>
+      <th style="border-bottom: 1px solid {{accent}}">Why it matters to an employer</th>
     </tr>
     <tr>
       <td>Completed &middot; Jul 2026</td>
@@ -92,13 +98,9 @@
     </tr>
   </table>
 
-  <h2 style="color: {{accent}}">Core Competencies</h2>
-  <div class="rule"></div>
-  <p>GenAI &amp; AI Risk Identification (sycophancy, judgment drift, automation bias, hallucination, prompt injection, model drift, third-party AI) | AI Governance &amp; Responsible AI (NIST AI RMF, EU AI Act, ISO/IEC 42001) | Model Risk Management (SR 11-7) | Internal Audit &amp; Controls (Global Internal Audit Standards, 3LOD, COSO) | Consent-Order Remediation &amp; Issue Closure | Regulatory Examination &amp; Supervisory Engagement | CCAR / SR 15-18 &bull; Basel III RWA &bull; Resolution &amp; Recovery Planning | Applied AI Build (RAG, LangChain, evaluation scripts, XAI &mdash; SHAP/LIME) | Executive &amp; Audit Committee Reporting</p>
+  <h2>Core Competencies</h2>  <p>GenAI &amp; AI Risk Identification (sycophancy, judgment drift, automation bias, hallucination, prompt injection, model drift, third-party AI) | AI Governance &amp; Responsible AI (NIST AI RMF, EU AI Act, ISO/IEC 42001) | Model Risk Management (SR 11-7) | Internal Audit &amp; Controls (Global Internal Audit Standards, 3LOD, COSO) | Consent-Order Remediation &amp; Issue Closure | Regulatory Examination &amp; Supervisory Engagement | CCAR / SR 15-18 &bull; Basel III RWA &bull; Resolution &amp; Recovery Planning | Applied AI Build (RAG, LangChain, evaluation scripts, XAI &mdash; SHAP/LIME) | Executive &amp; Audit Committee Reporting</p>
 
-  <h2 style="color: {{accent}}">Professional Experience</h2>
-  <div class="rule"></div>
-
+  <h2>Professional Experience</h2>
   <div class="jobline"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
   <div class="sub">Cross-Enterprise Program &amp; Change Management, Internal Audit | New York, NY</div>
   <ul>
@@ -127,18 +129,12 @@
     <li>Conducted CAMELS safety-and-soundness examinations of state and national banks alongside federal banking regulators; authored workpapers supporting formal enforcement actions.</li>
   </ul>
 
-  <h2 style="color: {{accent}}">Earlier Experience</h2>
-  <div class="rule"></div>
-  <p><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi,</b> Tampa, FL (2012&ndash;2015): Centralized 500+ legal-entity data sources into governed master data, enabling automated FR 2900 and TIC regulatory filings at 99.8% accuracy. Earlier: Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009).</p>
+  <h2>Earlier Experience</h2>  <p><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi,</b> Tampa, FL (2012&ndash;2015): Centralized 500+ legal-entity data sources into governed master data, enabling automated FR 2900 and TIC regulatory filings at 99.8% accuracy. Earlier: Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009).</p>
 
-  <h2 style="color: {{accent}}">Education</h2>
-  <div class="rule"></div>
-  <p><b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; Expected 2028 | GPA 3.81 &mdash; research above.<br>
+  <h2>Education</h2>  <p><b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; Expected 2028 | GPA 3.81 &mdash; research above.<br>
   <b>Master of Business Administration (MBA), Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; <b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021</p>
 
-  <h2 style="color: {{accent}}">Advisory, Certifications &amp; Technical Skills</h2>
-  <div class="rule"></div>
-  <p><b>Founder, Audit the Algorithm</b> (auditingai.github.io, 2024&ndash;): AI governance advisory for regulated financial services &mdash; bias and drift testing, regulator-defensible control frameworks, human&ndash;AI workflow design.<br>
+  <h2>Advisory, Certifications &amp; Technical Skills</h2>  <p><b>Founder, Audit the Algorithm</b> (auditingai.github.io, 2024&ndash;): AI governance advisory for regulated financial services &mdash; bias and drift testing, regulator-defensible control frameworks, human&ndash;AI workflow design.<br>
   <b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Social/Behavioral Human Research (AI Ethics). <i>In progress:</i> CIA Part 1, IAPP AIGP.<br>
   <b>Technical:</b> Python &bull; LangChain / LangGraph &bull; RAG and agentic RAG &bull; vector databases &bull; prompt engineering &bull; evaluation and red-teaming scripts &bull; SHAP / LIME &bull; SQL &bull; Alteryx &bull; Tableau &bull; Excel/VBA &bull; GitHub Actions.</p>
 
