@@ -69,6 +69,9 @@
     "unbranded_note": "Same content, no wordmark. Use for W-2 applications where a consulting brand would read as an outside business activity requiring disclosure.",
     "source_of_truth": "applications/resume/builders/build_genai_risk_branded.py",
     "rule": "Never hand-edit a PDF. Edit the builder and regenerate.",
+    "design_canvas": "https://claude.ai/code/artifact/51f52f0f-eddb-4f98-af9a-40af97273492",
+    "design_source": "applications/resume/builders/design/Main.dc.html",
+    "design_note": "Where Yasir refines the layout visually. The canvas is NOT the build - it is the design reference. Changes made there have to be ported back into build_genai_risk_branded.py before they reach a shipped PDF.",
     "verify_after_every_build": [
       "exactly one page",
       "'YASIR A. MALIK' extracts from the text layer as one contiguous string",

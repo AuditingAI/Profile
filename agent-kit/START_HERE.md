@@ -99,6 +99,12 @@ interface spec — claim, submit, write back — is
 | **Use this** | `applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf` |
 | **Built from** | `applications/resume/builders/build_genai_risk_branded.py` |
 | **Unbranded fallback** | `applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master.pdf` — same content, no wordmark, for W-2 applications where a consulting brand would read as an outside business activity |
+| **Design canvas** | [claude.ai/code/artifact/51f52f0f](https://claude.ai/code/artifact/51f52f0f-eddb-4f98-af9a-40af97273492) — where Yasir refines the layout visually. Source: `applications/resume/builders/design/Main.dc.html` |
+
+The canvas is a **design reference, not the build.** A change made there does not
+reach a shipped PDF until it is ported into `build_genai_risk_branded.py` and the
+PDF is regenerated. Keep the two in step or the resume you send stops matching
+the resume you designed.
 
 **Never hand-edit a PDF.** Edit the builder, regenerate, and verify four things
 every time: one page, `YASIR A. MALIK` extracts as one contiguous string, the

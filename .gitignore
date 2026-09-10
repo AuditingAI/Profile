@@ -13,3 +13,8 @@ automation/runner/node_modules/
 .env*
 *.pem
 *.key
+
+# Seeded design-canvas output: 2.4MB of generated editor code, rebuilt from
+# applications/resume/builders/design/Main.dc.html by the /design seeder.
+applications/resume/builders/design/*.html
+!applications/resume/builders/design/Main.dc.html
