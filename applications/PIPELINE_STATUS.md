@@ -57,6 +57,55 @@ He reached a real interview on the strongest-matching role in the pipeline and
 did not convert. That is the pattern worth attention: 9 interview processes, 0
 offers. It is an interview-performance problem, not a sourcing problem.
 
+## JPMORGAN — the full record, from the candidate portal (11 Sep 2026)
+
+Source of truth: `applications/jpm_application_history.json` (92 rows parsed
+from the portal dump). Every req ID is now in `automation/queue/seen.json` so
+discovery can never re-queue a role already applied to.
+
+**Fix first: the JPM candidate profile still carries the retired 305 number
+(+1 305-799-2443).** Every one of these 92 applications went out with a phone
+number that is no longer answered. Correct it on the portal before anything
+else — `jpmc.fa.oraclecloud.com` → Profile.
+
+### The numbers
+
+| | |
+|---|---|
+| Applications since Dec 2025 | **84** (92 lifetime) |
+| Peak month | April 2026 — **31** |
+| Reached interview | **2** — 210756005 (in-person, rejected 18 Jul), 210759059 (24 Aug, rejected 25 Aug) |
+| Offers | **0** |
+| Both interviews were in | Internal Audit Manager VP, Jersey City |
+
+By lane, since Dec 2025: audit 24 · finance/F&BM 15 · AI product/strategy 12 ·
+controls/tech-risk 10 · AI engineering/research 10 · compliance/risk 9 ·
+legal 1 · other 3. "Finance & Business Management — VP" alone was applied to
+**five times**.
+
+### What the data says, plainly
+
+The audit lane is the only one that has ever produced a conversation: 24
+applications, 2 interviews. The other 60 — Applied AI/ML VP (five times), AI
+Research Scientist, Machine Learning Engineer, Ontologist Lead, Data Science VP,
+Compensation Manager, Experience Research VP, an Assistant General Counsel
+posting — produced nothing, and JPMorgan's recruiters see the whole list on one
+candidate profile. Eighty-four applications to one employer in nine months,
+spread across nine functions, reads as a search without a target. That is the
+most likely reason the audit applications stopped converting after July.
+
+### Active — five, all auto-acknowledged, none with recruiter contact
+
+| Req | Role | Applied | Portal status |
+|---|---|---|---|
+| 210776418 | AI Valuation Chief of Staff, VP — F&BM | 11 Sep | Under Consideration |
+| 210759321 | Tech Risk and Controls Director — Employee Platforms | 11 Aug | Under Consideration |
+| 210773671 | AI/ML Governance & Automation Lead — VP | 10 Aug | Under Consideration |
+| 210758114 | External Reporting Controller, VP — CIB | 2 Jul | Under Consideration |
+| 210755008 | Audit Manager [Multiple Positions] | 10 Jun | **Under Review** — the only one that has moved |
+
+All five are in Notion. Do not chase any of them.
+
 ### Sibling JPMorgan CIB Audit reqs open in Jersey City as of 11 Sep
 
 Visible in the same careers search; none applied to. Worth a look **because the
