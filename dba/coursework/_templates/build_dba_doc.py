@@ -133,9 +133,13 @@ def build(spec, out):
         doc.add_paragraph().paragraph_format.space_after = Pt(4)
 
     # ---- body ------------------------------------------------------------
+    in_refs = [False]
+
     def emit(items):
         for it in items:
             if isinstance(it, dict) and "h1" in it:
+                # reference lists take a hanging indent, per APA and JIBS
+                in_refs[0] = it["h1"].strip().lower().startswith("reference")
                 p = doc.add_paragraph(it["h1"], style='Heading 1')
                 for r in p.runs: _font(r, size=size + 3, bold=True)
             elif isinstance(it, dict) and "h2" in it:
@@ -178,6 +182,9 @@ def build(spec, out):
                 p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
                 p.paragraph_format.line_spacing = ls
                 p.paragraph_format.space_after = Pt(8)
+                if in_refs[0]:
+                    p.paragraph_format.left_indent = Inches(0.5)
+                    p.paragraph_format.first_line_indent = Inches(-0.5)
                 _segs(p, it, size=size)
 
     emit(spec["body"])

@@ -2,7 +2,15 @@
 
 **⚠️ SEND FROM `ymali001@fiu.edu`. Never Gmail.** **Nothing is sent from here.** Copy, attach, send.
 
-**Attach:** `Malik_GEB7365_ProjectReport_DRAFT1.docx`
+**Attach:** `Malik_GEB7365_ProjectReport_DRAFT1.pdf` — **send the PDF, not the Word file.**
+
+A PDF arrives looking the way you built it on any machine. A .docx renders differently depending on
+his Word version and fonts, and it invites tracked changes on a draft you are still rewriting
+yourself. The .docx stays your editable master; the PDF is what goes out.
+
+**21 pages**, against his 30-page cap. Times, double-spaced, running head and page numbers,
+references with hanging indents, three tables and Figure 1 at the end, "Insert Table X About Here"
+markers in the body where he asked for them.
 
 ---
 
@@ -89,7 +97,7 @@ Sending is the better call.
 
 ## Before you hit send
 
-- [ ] **Attach `Malik_GEB7365_ProjectReport_DRAFT1.docx`.** The draft, not the deck
+- [ ] **Attach `Malik_GEB7365_ProjectReport_DRAFT1.pdf`.** The PDF, not the .docx, and not the deck
 - [ ] **Read the draft yourself first.** It is raw material, not a finished submission. If a sentence
       is not one you would defend out loud, change it before it goes. The advisor's rule and the UGS
       policy both put the synthesis with you, not with a tool
