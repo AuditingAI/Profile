@@ -108,8 +108,9 @@ All five are in Notion. Do not chase any of them.
 
 ### Sibling JPMorgan CIB Audit reqs open in Jersey City as of 11 Sep
 
-Visible in the same careers search; none applied to. Worth a look **because the
-210759059 process has stalled**, not instead of nudging it.
+Visible in the same careers search; none applied to. **These are in the one lane
+that has ever produced an interview.** If anything gets applied to at JPMorgan
+next, it is one of these — not another F&BM or Applied AI posting.
 
 | Role | Posted | Note |
 |---|---|---|
