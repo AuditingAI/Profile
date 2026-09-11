@@ -1,3 +1,8 @@
+> **CLOSED — req 210759059 was REJECTED 25 Aug 2026**, the morning after the
+> 24 Aug interview with Julia Lantsman. Do not nudge Joshua Goot, do not
+> reapply. Kept for the verified JD, which is reusable on the sibling CIB
+> Audit VP reqs. Full timeline at the bottom of this file.
+
 # Role — Internal Audit Manager, Vice President — Commercial & Investment Bank Finance
 
 **Req 210759059 · JPMorganChase · 545 Washington Blvd, Jersey City, NJ**
@@ -105,12 +110,12 @@ This is the strongest fit of anything in his current pipeline.
 
 ---
 
-## Application package
+## Package that was built for it (reusable, not sendable)
 
 | | |
 |---|---|
-| Cover letter | `applications/cover_letters/jpm_cib_finance_audit_vp_210759059.md` → `.pdf` (one page) |
-| Résumé | `applications/resume/Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf` |
+| Cover letter | `applications/cover_letters/jpm_cib_finance_audit_vp_210759059.md` — carries a DEAD banner; the PDF was deleted so it cannot be attached by mistake |
+| Résumé | `applications/resume/Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf` — still the right resume for any sibling CIB req |
 
 **Not the GenAI-risk branded master.** This is a financial-controls audit role;
 leading with GenAI positioning would bury the thing that actually matches. The
@@ -123,18 +128,31 @@ narrowly: reconciliation-heavy reporting processes are where automated testing
 pays, and someone who has built the tooling can judge whether an automated
 control is trustworthy rather than merely present.
 
-## What this changes about the interview
+## On the coverage-area question
 
-The prep pack previously said: *"Nobody has confirmed the actual coverage area
-(Market Equities vs. a different CIB Finance function) — ask early in the
-interview rather than assuming from the templated JD."* **That question is now
-answered** — do not spend interview time asking it. Spend it on the mapping
-table above.
+This pack used to instruct: *"ask the interviewer what the coverage area is
+rather than assuming from the templated JD."* The real JD answers it — CIB
+financial controls, not Market Equities. Worth carrying into a sibling req, but
+note the interview it was written for already happened on 24 Aug.
 
-## Open action — the scheduling coordinator never called
+## CLOSED — rejected 25 Aug 2026
 
-Joshua Goot said on 17 Aug, 11:14 PM that a coordinator would reach out "within
-the next day or two." As of 11 Sep that is **three and a half weeks of
-silence**. The cover letter above is written so it can be attached to a nudge to
-Goot, not only submitted through a portal. Owner sends it — nothing here sends
-mail.
+**Do not act on this req.** The earlier note here said the scheduling
+coordinator never called and the owner should nudge Joshua Goot. That was wrong.
+Gmail record:
+
+- 20 Aug — interview confirmed by Michelle Refuerzo (Zoom), cc Goot and Fiona Inigo
+- **24 Aug, 10:00 ET — interview held with Julia Lantsman**
+- 24 Aug, 18:34 — thank-you sent to joshua.goot@jpmchase.com
+- **25 Aug, 08:16 — rejected**, from `eino.fa.sender@workflow.mail.us2.cloud.oracle.com`,
+  subject "Your job application status (Job number: 210759059)"
+
+This pack is kept because the **verified JD above is reusable**: the sibling CIB
+Audit VP reqs in Jersey City share the template, and the coverage mapping
+(CCAR, Basel III RWA, FR 2900 / TIC, Treasury and liquidity, consent-order issue
+validation) transfers to any of them. Use it as source material, not as a live
+application.
+
+The interview itself is the thing to learn from — a real conversation on the
+best-matching role in the pipeline that did not convert. If any notes from 24 Aug
+exist, they are worth more than the JD.

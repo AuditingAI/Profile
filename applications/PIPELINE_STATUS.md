@@ -16,26 +16,46 @@ confirmed, cover letter built. Previously 2026-08-25: synced to Notion (Job Pipe
 JPMorgan req 210759059 at **Interview** stage; "📌 Status — 25 Aug 2026" page
 created under Career Command Center; "Closed — do not contact" view added).
 
-## LIVE — the one that matters right now
+## CORRECTED 11 Sep 2026 — 210759059 is dead, and this file said otherwise
 
-**JPMorgan — Internal Audit Manager VP, CIB Finance (req 210759059).**
-Recruiter screen cleared 17 Aug (Joshua Goot: "We should be good to proceed
-with interviews"). Comp discussed at $190K base + bonus, not confirmed.
-Scheduling coordinator has been silent since — as of 11 Sep that is **three and
-a half weeks** — **owner should nudge Goot by email.** Prep pack:
-`applications/interview_prep/jpm_210759059/`.
+**This file was wrong for seventeen days and caused bad advice twice.** It
+carried req 210759059 as LIVE at "interview stage, scheduling coordinator has
+gone silent, owner should nudge Joshua Goot." Gmail says otherwise, and Gmail is
+the system of record:
 
-**Updated 11 Sep 2026 — the real JD is now on file and the coverage area is
-confirmed.** It is *not* Market Equities, as the earlier templated guess assumed.
-It is CIB **financial controls**: integrity of financial statements, external and
-regulatory reporting compliance, inputs into capital planning, and accuracy of
-management, legal entity and liquidity reporting. Three of the four preferred
-qualifications are direct hits (CCAR, bank regulatory reporting, Treasury and
-liquidity); broker-dealer reporting is the one genuine gap. Cover letter built:
-`applications/cover_letters/jpm_cib_finance_audit_vp_210759059.pdf`, written so
-it can be attached to the nudge rather than only submitted through a portal.
-Résumé for this one is `Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf`, not the
-GenAI-risk branded master.
+| When | What actually happened |
+|---|---|
+| 17 Aug | Goot: "We should be good to proceed with interviews" |
+| 20 Aug | Michelle Refuerzo confirmed a Zoom interview (cc Goot, Fiona Inigo) |
+| **24 Aug, 10:00 ET** | **Interview held — Julia Lantsman** |
+| 24 Aug, 18:34 | Yasir sent his thank-you to joshua.goot@jpmchase.com |
+| **25 Aug, 08:16** | **Rejected.** "we are sorry to let you know we're moving forward with other candidates" (Job number 210759059) |
+
+The coordinator was never silent. The interview happened, and the answer came
+the next morning. **Do not nudge Goot. Do not draft a follow-up on 210759059.**
+
+**Lesson for this file:** "the recruiter has gone quiet" is an inference, and it
+was wrong here in the same way the Colin Barry thread was wrong below. Before
+ever calling a thread live and overdue, check Gmail for a status email from
+`eino.fa.sender@workflow.mail.us2.cloud.oracle.com` — that is the address
+JPMorgan's Oracle careers workflow sends rejections from, and it does not look
+like a recruiter.
+
+### Salvage from it
+
+The real JD *was* worth capturing and is now on file at
+`applications/interview_prep/jpm_210759059/` — coverage confirmed as CIB
+**financial controls** (financial-statement integrity, regulatory reporting,
+inputs into capital planning, legal entity and liquidity reporting), not Market
+Equities as previously guessed. Three of four preferred quals were direct hits;
+broker-dealer reporting was the gap. The cover letter
+`applications/cover_letters/jpm_cib_finance_audit_vp_210759059.md` is **dead as
+addressed** but its argument transfers directly to the sibling reqs below —
+rewrite the header and the req number, keep the mapping.
+
+He reached a real interview on the strongest-matching role in the pipeline and
+did not convert. That is the pattern worth attention: 9 interview processes, 0
+offers. It is an interview-performance problem, not a sourcing problem.
 
 ### Sibling JPMorgan CIB Audit reqs open in Jersey City as of 11 Sep
 
@@ -54,6 +74,8 @@ Visible in the same careers search; none applied to. Worth a look **because the
 
 | Employer / role | Outcome | Date |
 |---|---|---|
+| **JPMorgan — Internal Audit Manager VP, CIB Finance (req 210759059), recruiter Joshua Goot** | **Rejected the morning after the Julia Lantsman interview** | 2026-08-25 |
+| **JPMorgan — AI Compliance, Conduct & Operational Risk VP (req 210736041)** | **Rejected** | 2026-08-29 |
 | **Amex — Audit Director, Enterprise Project Governance (26009962), recruiter Colin Barry** | **Rejected** | confirmed 2026-08-07 |
 | Amex — VP Product Development, Agentic Commerce | Application update / not progressing | 2026-07-30 |
 | JPMorgan — Internal Audit Manager VP, CIB (req 210756005) | Rejected after in-person interview | 2026-07-18 |

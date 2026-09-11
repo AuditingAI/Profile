@@ -1,3 +1,12 @@
+> **DEAD AS ADDRESSED — do not send.** Req 210759059 was rejected 25 Aug 2026,
+> the morning after the 24 Aug interview with Julia Lantsman. This letter was
+> drafted 11 Sep before that was checked.
+>
+> The argument still holds for the sibling JPMorgan CIB Audit VP reqs in Jersey
+> City. To reuse it: change the date, the req number and the role title, and
+> re-verify the coverage area against that posting — the financial-controls
+> mapping below is specific to the CIB Finance req.
+
 September 11, 2026
 
 Hiring Team — Internal Audit, Corporate Sector
