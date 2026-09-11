@@ -1,3 +1,12 @@
+> ⚠️ **Superseded in part, 11 September 2026.** Email A below was folded into a single message that
+> also sends the report draft: **[`EMAIL_DRAFT_Newburry_11SEP_Draft1.md`](EMAIL_DRAFT_Newburry_11SEP_Draft1.md)**,
+> which is the one to send. **Email B, the presentation submission, still stands and is still held
+> for Friday 18 September.**
+>
+> The line below saying to hold the report draft back was wrong. The no-changes rule applies to the
+> **slides**, not the report. The report is due 9 October, so a draft sent now buys four weeks of
+> feedback.
+
 # Two drafts to Prof. Newburry
 
 **⚠️ SEND FROM `ymali001@fiu.edu`. Never Gmail.** A message to a professor arriving from a personal
@@ -110,8 +119,9 @@ weekend that already has your presentation in it.
 
 ## What is NOT in either email, deliberately
 
-**The report draft.** It is due 9 October and it is not finished. Sending an unfinished draft with a
-presentation invites him to grade it early and reply to the wrong document. Hold it.
+**~~The report draft.~~** ⚠️ **Reversed 11 Sep.** It goes today, in its own message. The report
+carries no no-changes rule and there are four weeks in which his reaction can still change it. See
+[`EMAIL_DRAFT_Newburry_11SEP_Draft1.md`](EMAIL_DRAFT_Newburry_11SEP_Draft1.md).
 
 **The GPA and the completion year.** Not relevant here, and they are unresolved until the program
 office confirms. Nothing in either draft asserts either.
