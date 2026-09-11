@@ -373,7 +373,17 @@ Initial Project Theme Discussions · **Core Theories of Foreign Direct Investmen
 - Meyer, Li & Schotter (2020), *JIBS* 51: 538–576 — Managing the MNE subsidiary
 - Zeng et al. (2023) — MNE control and coordination
 
-### 5 · Thu 24 Sep — Zoom · Institutions, Culture and Local Adaptation
+> ⚠️ **11 Sep 2026.** Newburry's Session 4 deck (slides 3 and 60) lists **four** readings for this
+> session, omitting Aguilera, Marano & Haxhi. The four he taught are saved in
+> [`papers/week4/`](papers/week4/). He has said the circulating syllabus is an older version, so the
+> deck governs. Aguilera remains worth reading for governance; it is not owed.
+
+### 5 · Institutions, Culture and Local Adaptation
+> ⚠️ **11 Sep 2026 — this session moved.** Slides 4 and 76 of Newburry's Session 4 deck place it at
+> the **18/19 September residency**, not Thu 24 Sep, and add a fifth reading not listed below:
+> **House, Javidan, Hanges & Dorfman (2002)**, *Understanding cultures and implicit leadership
+> theories across the globe: An introduction to project GLOBE*, *JWB* 37: 3-10. That is the same
+> weekend as the project presentation. Confirm in class.
 - Deephouse, Newburry & Soleimani (2016), *JWB* 51: 463–473 — National contexts and corporate reputation
 - Fainshmidt, Judge, Aguilera & Smith (2018), *JWB* 53: 307–322 — Varieties of institutional systems
 - Cuervo-Cazurra, Gaur & Singh (2019), *JIBS* 50: 598–632 — Pro-market institutions and global strategy

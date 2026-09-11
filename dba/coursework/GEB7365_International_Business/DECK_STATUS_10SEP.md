@@ -1,3 +1,8 @@
+> ⚠️ **Superseded in part, 11 September 2026.** Newburry's Session 4 deck changed two things in
+> this file: the presentation asks for **five** elements, not seven, and **Aguilera is not a Week 4
+> paper** so nothing is missing. Element 5 now exists. See
+> [`SESSION4_MINUTES_10SEP.md`](SESSION4_MINUTES_10SEP.md), which governs.
+
 # If Newburry asks about the deck tonight
 
 **10 September 2026.** Thursday Zoom, 7:00 PM ET. **Eight days to the wall.**
@@ -46,11 +51,11 @@ His list, in his order.
 | 7 | Any preliminary evidence | ✅ Your own study is the evidence: 334,976 → ~20 → 4 | `dba/00_Execution/DATA_COLLECTION_CLOSEOUT.md` |
 | — | **The deck itself** | ❌ **No file exists** | — |
 
-**Element 5 is the only thing standing between here and a finished deck.** A hypothesis has to fall
-out of a literature you have read. Four of the five week-4 papers are now saved in
-[`papers/week4/`](papers/week4/). **Aguilera, Marano & Haxhi (2019) is still missing** and it is the
-governance paper, which is the one most likely to carry a hypothesis about cross-national variation.
-Get it.
+**Element 5 existed nowhere on 10 September. It exists now.** Five hypotheses, each drawing its
+theoretical logic from one of the four Week 4 papers, are written up in
+[`Malik_GEB7365_ProjectReport_DRAFT1.docx`](Malik_GEB7365_ProjectReport_DRAFT1.docx) and summarised
+in [`SESSION4_MINUTES_10SEP.md`](SESSION4_MINUTES_10SEP.md). All four Week 4 papers are saved and
+the set is complete.
 
 ---
 

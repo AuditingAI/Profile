@@ -60,7 +60,7 @@ listserv email — **FIU's own pages govern, not anything asserted here.**
 | **Service & leadership** | GAB · committee seats · student representative roles | The academic CV's thinnest section. A department chair reads service, and there is nothing in it yet |
 | **Dissertation funding** | Fellowships supporting the writing year · `[VERIFY names and cycles on the UGS site]` | Directly relevant — the recruitment budget is the constraint that broke the qualifying study |
 | **Data-acquisition funding** | Small internal grants for collecting data · `[VERIFY]` | **The highest-value lane.** Panel access is the binding constraint; a grant that buys reach changes what is possible |
-| **Travel & conference awards** | Support for presenting | AIB Latin America 2027, San Juan — submission window 20 Nov 2026 |
+| **Travel & conference awards** | Support for presenting | AIB Latin America 2027, San Juan. **Paper 30 Sep 2026; Poster / Doctoral Consortium / PDW 20 Nov 2026** (Newburry Session 4 deck, slide 28) |
 | **Awards & recognition** | Doctoral student awards · `[VERIFY]` | CV lines, and they compound |
 | **Publishing calls** | Special issues, doctoral consortia | The P1 feasibility manuscript is drafted and needs a home |
 

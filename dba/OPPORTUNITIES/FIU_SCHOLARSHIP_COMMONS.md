@@ -36,14 +36,21 @@ Held against that gate, the current inventory:
 ## The one path that opens the door
 
 ```
-GEB 7365 Final Paper (9 Oct, AIB/JIBS format, ≤30 pages)
+GEB 7365 Formal Report (9 Oct, Newburry's format, ≤30 pages)
         ↓  rewrite out of coursework voice
-AIB Latin America 2027 submission (window opens 20 Nov 2026)
+AIB-LAC 2027 Doctoral Consortium / PDW (deadline 20 Nov 2026)
+   or   AIB Kuala Lumpur 2027 paper (deadline Jan 2027, TBD)
         ↓  acceptance = external validation by people outside the DBA program
 FIU Scholarship Commons, DBA Student Research collection
         ↓  DOI assigned
 Google Scholar indexes it in 4 to 8 weeks
 ```
+
+⚠️ **Corrected 11 Sep 2026.** This file first recorded 20 November as the AIB submission window. It
+is not. **The AIB-LAC paper deadline is 30 September 2026**; 20 November covers posters, the
+Doctoral Consortium and PDWs. Source: Newburry Session 4 deck, slide 28. The 30 September paper
+deadline falls **nine days before the course report is due**, so the Doctoral Consortium is the
+realistic route and Kuala Lumpur in January is the realistic paper route.
 
 That chain matters more than it looks. It is the first route by which anything in this repository
 becomes a **citable object with a DOI** rather than a file on a branch. Everything currently on the
@@ -135,7 +142,9 @@ concerned.
 | When | Action |
 |---|---|
 | **Now** | Nothing to submit. This file is the record so the announcement does not vanish into email |
-| **9 Oct** | Write the GEB 7365 Final Paper in AIB/JIBS format from the start, so the AIB submission is a rewrite and not a rebuild |
-| **20 Nov** | AIB Latin America 2027 submission window opens |
+| **30 Sep** | 🔴 AIB-LAC **paper** deadline. Almost certainly skipped: no data, and the course report is not due for another nine days |
+| **9 Oct** | GEB 7365 Formal Report, in Newburry's format from the start, so any submission is a rewrite and not a rebuild |
+| **20 Nov** | AIB-LAC **Doctoral Consortium / PDW** deadline. The realistic first external submission |
+| **Jan 2027** | AIB Kuala Lumpur paper deadline, TBD. The realistic first external *paper* |
 | **On acceptance** | Prepare the accessible PDF/A-2u, then submit to the DBA Student Research collection |
 | **Before April 2027** | Any earlier deposit must meet WCAG 2.1 AA or lose continued access |

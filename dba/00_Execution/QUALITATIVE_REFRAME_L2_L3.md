@@ -157,7 +157,7 @@ scenery, and the feasibility argument is already evidenced.
 
 **Prof. Newburry (GEB 7365).** He has reserved judgement on the topic. The IB angle is the
 cross-national extension — whether the same specialist population is reachable, and whether reliance
-patterns hold, outside a US-dominated panel. Ties to AIB Latin America, 20 November.
+patterns hold, outside a US-dominated panel. Ties to AIB Latin America: **paper deadline 30 Sep 2026**, Doctoral Consortium and PDW 20 Nov 2026.
 
 **Dr. Rey (dissertation).** This is the qualitative arm of the extension. L1 stays quantitative;
 L2 and L3 become a qualitative strand. The chain stops being three untested assertions and becomes

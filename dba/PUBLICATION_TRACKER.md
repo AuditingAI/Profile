@@ -155,8 +155,14 @@ William Newburry. Meeting notes in Notion.*
 
 | Track | Deadline | Requires | Verdict |
 |---|---|---|---|
-| Paper (competitive) | **3 Sep 2026** | Completed research and data | **Not viable.** Four valid responses; the AI extension is argued, not tested |
-| **Poster / interactive** | **20 Nov 2026** | No completed data required | **This is the target** |
+| Paper (competitive) | **30 Sep 2026** | Completed research and data | **Not viable.** Four valid responses; the AI extension is argued, not tested |
+| **Poster / Doctoral Consortium / PDW** | **20 Nov 2026** | No completed data required | **This is the target** |
+
+⚠️ **Deadline corrected 11 Sep 2026.** The paper deadline recorded here was **3 Sep**, taken from the
+21 August class session. **Newburry's Session 4 deck, slide 28, dated 8/10 September, says 30
+September 2026.** The later source governs. The 20 November date is unchanged but is now known to
+cover **posters, the Doctoral Consortium and PDWs**, not papers. Verify on
+https://lac.aib.world/2027-call-for-papers/ before relying on either.
 
 The class was explicitly steered toward interactive and poster sessions for exactly this situation.
 

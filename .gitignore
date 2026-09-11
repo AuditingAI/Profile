@@ -12,3 +12,4 @@ dba/03_Data/cleaned_numeric_recoded.csv
 # Generated build intermediates — the spec script is the source of truth and is
 # tracked, so the JSON it emits is regenerable churn on a two-agent branch
 dba/coursework/_templates/memo4.json
+dba/coursework/_templates/geb7365_report.json
