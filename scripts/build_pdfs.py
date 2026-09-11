@@ -153,6 +153,13 @@ def build_pdf(md_path: Path, out_path: Path, title: str | None = None,
 
 
 def build_all() -> list[Path]:
+    """Rebuild every markdown-sourced PDF.
+
+    Entries are (source, output, title) or (source, output, title, compact).
+    The compact scale is part of the build, not a flag someone has to remember:
+    a letter that only fits one page at 0.86 silently becomes a two-page letter
+    the next time this runs without it.
+    """
     outputs: list[Path] = []
     pairs = [
         (
@@ -189,10 +196,16 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/google_tpm_regulatory_audit.pdf",
             "Cover Letter - Google TPM III, Regulatory Audits",
         ),
+        (
+            REPO_ROOT / "applications/cover_letters/jpm_cib_finance_audit_vp_210759059.md",
+            REPO_ROOT / "applications/cover_letters/jpm_cib_finance_audit_vp_210759059.pdf",
+            "Cover Letter - JPMorgan CIB Finance Audit VP (210759059)",
+            0.86,
+        ),
     ]
-    for src, dst, title in pairs:
+    for src, dst, title, *rest in pairs:
         if src.exists():
-            outputs.append(build_pdf(src, dst, title))
+            outputs.append(build_pdf(src, dst, title, rest[0] if rest else 1.0))
     return outputs
 
 

@@ -11,7 +11,8 @@ Canonical record of what is live and what is closed. **Check the CLOSED list
 before drafting anything.** Re-raising a dead lead wastes the owner's time and
 is the single most annoying failure mode of this workflow.
 
-Last updated: 2026-08-25 — synced to Notion (Job Pipeline row added for
+Last updated: 2026-09-11 — real JD for req 210759059 on file, coverage area
+confirmed, cover letter built. Previously 2026-08-25: synced to Notion (Job Pipeline row added for
 JPMorgan req 210759059 at **Interview** stage; "📌 Status — 25 Aug 2026" page
 created under Career Command Center; "Closed — do not contact" view added).
 
@@ -20,8 +21,34 @@ created under Career Command Center; "Closed — do not contact" view added).
 **JPMorgan — Internal Audit Manager VP, CIB Finance (req 210759059).**
 Recruiter screen cleared 17 Aug (Joshua Goot: "We should be good to proceed
 with interviews"). Comp discussed at $190K base + bonus, not confirmed.
-Scheduling coordinator has been silent since — **owner should nudge Goot by
-email.** Prep pack: `applications/interview_prep/jpm_210759059/`.
+Scheduling coordinator has been silent since — as of 11 Sep that is **three and
+a half weeks** — **owner should nudge Goot by email.** Prep pack:
+`applications/interview_prep/jpm_210759059/`.
+
+**Updated 11 Sep 2026 — the real JD is now on file and the coverage area is
+confirmed.** It is *not* Market Equities, as the earlier templated guess assumed.
+It is CIB **financial controls**: integrity of financial statements, external and
+regulatory reporting compliance, inputs into capital planning, and accuracy of
+management, legal entity and liquidity reporting. Three of the four preferred
+qualifications are direct hits (CCAR, bank regulatory reporting, Treasury and
+liquidity); broker-dealer reporting is the one genuine gap. Cover letter built:
+`applications/cover_letters/jpm_cib_finance_audit_vp_210759059.pdf`, written so
+it can be attached to the nudge rather than only submitted through a portal.
+Résumé for this one is `Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf`, not the
+GenAI-risk branded master.
+
+### Sibling JPMorgan CIB Audit reqs open in Jersey City as of 11 Sep
+
+Visible in the same careers search; none applied to. Worth a look **because the
+210759059 process has stalled**, not instead of nudging it.
+
+| Role | Posted | Note |
+|---|---|---|
+| Tech Audit Manager VP — CIB **Data Management and Artificial Intelligence** (Plano TX + 1 more) | 08/21/2026 | The AI-audit title in the family. Check whether the second location is Jersey City before treating it as in-market. |
+| Internal Audit Manager VP — Commercial Investment Banking (Market Equities) | 07/14/2026 | This is the sibling posting the old prep pack mistook for 210759059 |
+| Commercial & Investment Bank Audit Manager — VP | 07/29/2026 | |
+| Markets Audit Manager — VP | — | |
+| Cloud Technology Audit — Executive Director | — | ED level, a step up |
 
 ## CLOSED — do not contact, do not resurface
 

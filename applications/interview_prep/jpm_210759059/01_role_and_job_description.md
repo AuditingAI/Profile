@@ -7,49 +7,88 @@ Recruiter confirmed 17 Aug, 11:14 PM: **"We should be good to proceed with
 interviews... I will have my interview scheduling coordinator reach out
 within the next day or two."**
 
-## What is verified vs. templated
+## VERIFIED — the real posting, supplied by the owner 11 Sep 2026
 
-The exact text of req 210759059 could not be independently retrieved — it is
-not indexed on the boards checked (JPMorgan careers site and ZipRecruiter are
-both blocked from this environment; SimplyHired, Evenbreak, and BuiltIn only
-surface JPMorgan's **sibling CIB Audit VP posting for Market Equities**, not
-Finance). JPMorgan's internal audit postings at this level share a common
-template across teams, with the team name and subject-matter specifics
-substituted. Duties and qualifications below are that shared template —
-**correct in structure, not guaranteed correct on the CIB Finance-specific
-detail.** Confirm the actual scope with the interviewer early rather than
-assuming.
+The earlier version of this file carried JPMorgan's *generic* CIB Audit VP
+template, because the actual req text could not be retrieved from this
+environment, and it guessed the coverage area was **Market Equities** (from a
+sibling posting). **That guess was wrong.** The real posting is below.
 
-## Job responsibilities (JPM's standard CIB Audit VP template)
+Posting date 06/17/2026 · Job Category Auditing · Business Unit Corporate
+Sector · Full time · 545 Washington Blvd, Jersey City, NJ 07310
+Published band, Jersey City: **$137,750 – $200,000** (confirms the figure
+previously inferred from the sibling posting).
 
-- Plan and lead audit engagements within Commercial & Investment Bank Finance
-- Oversee and perform audit testing; document audit reports
-- Partner with global Audit colleagues and business stakeholders
-- Use judgment to strengthen internal controls
-- Lead and execute risk-based audit coverage across the assigned function
-  (Market Equities, per the sibling posting — the Finance-specific coverage
-  area was not confirmed)
+### The coverage area — confirmed, and it is the best match in the pipeline
 
-## Required qualifications
+> "You will be executing program of audit coverage over Commercial and
+> Investment Bank's **financial controls**, including assessment of integrity of
+> financial statements and compliance with various external/regulatory
+> reporting requirements. You will also be assessing controls supporting
+> adequacy of **inputs into capital planning processes**, as well as accuracy of
+> **management, legal entity and liquidity reporting**."
 
-- 7+ years of internal/external audit experience or relevant financial
-  services business experience
-- Bachelor's degree or equivalent practical experience in financial services
-- Strong project leadership across multiple stakeholders
-- Knowledge of internal controls; ability to assess business and technology risk
-- Strong analytical skills — identifying control gaps, assessing impact and root cause
-- Excellent written and verbal communication, including presenting complex
-  issues to senior leaders
+Not Market Equities. Financial controls, capital planning inputs, and legal
+entity / liquidity reporting — which is the exact intersection of his JPMorgan
+and Citi record. Map it directly in the interview:
 
-## Preferred qualifications
+| What the JD asks to audit | His record |
+|---|---|
+| Inputs into capital planning | CCAR forecast validation + qualitative model challenge, $2.6T balance sheet, SR 15-18 (JPMC, Treasury & CIO) |
+| Integrity of financial statements / regulatory reporting | Basel III RWA and capital adequacy reporting, $50B book; $180M capital optimization identified |
+| Legal entity reporting accuracy | AVP Global Legal Entity Management (Citi): 500+ legal-entity data sources into governed master data, FR 2900 and TIC filings at 99.8% |
+| Liquidity reporting | Risk Control Manager, Treasury & CIO; automated reconciliations cut manual review ~40% |
+| Regulatory issue validation | Consent-order issue closure across 15+ business units, evidence accepted by external regulators (Citi) |
 
-- Professional certification (CPA, CIA) or a finance/accounting background
-  with willingness to pursue certification
-- Experience working as part of a global team across regions and time zones
+### Job responsibilities (verbatim)
+
+- Lead a variety of audit activities (audits, change activities, **regulatory
+  issue validations**, risk assessments) — planning, testing, risk and control
+  evaluation, issue dimensioning, report drafting — on time and within budget
+- Proactively collaborate with other Internal Audit teams: Technology, Data
+  Analytics, Regional, and Line of Business Audit
+- Finalize findings and use risk-based judgment to give an **overall opinion on
+  the control environment**, communicating results to senior management
+- Stay current on industry trends, regulatory developments and emerging risks;
+  provide thought leadership
+- Own self-development, including stretch assignments
+- Foster a culture of integrity, respect, diversity, excellence and innovation
+
+### Required qualifications (verbatim)
+
+- **7+ years** internal or external auditing experience, or relevant business
+  experience
+- Bachelor's degree (or relevant financial services experience)
+- Ability to lead projects and participate in assignments in a team environment
+- Solid understanding of internal control concepts, with the ability to
+  evaluate adequacy of controls considering **business and technology risks in
+  an integrated manner**
+- Excellent verbal and written communication; able to present complex and
+  sensitive issues to senior management and establish credibility
+- Strong analytical skills, particularly assessing probability and impact of an
+  internal control weakness
+- Enthusiastic, self-motivated, effective under pressure, willing to take
+  personal accountability
+- Flexible to changing priorities; able to multitask
+
+### Preferred qualifications (verbatim) — three of four are direct hits
+
+- Professional certification (**CPA or CIA**), or a Finance/Accounting degree
+  with willingness to pursue certification → **CIA Part 1 in progress, not
+  held.** Say it that way. He holds FDIC Bank Examiner I.
+- Experience operating as part of a **global team** → yes, Citi and JPMC both
+- Prior experience with **capital planning (CCAR), broker-dealer and bank
+  regulatory reporting, and Treasury/liquidity reporting** → CCAR yes, bank
+  regulatory reporting yes (FR 2900, TIC), Treasury/liquidity yes.
+  **Broker-dealer reporting (FOCUS, net capital, customer protection) is the
+  one genuine gap** — adjacent to bank-side work but not audited. Name it
+  before it is discovered.
+- Prior external or internal audit in financial services → yes, both
 
 ## Compensation — already negotiated in the recruiter screen
 
-- Published band for the sibling CIB Audit VP role: **$137,750–$200,000**
+- Published band, **confirmed on this req** (was previously inferred from a
+  sibling posting): **$137,750–$200,000** for Jersey City
 - Yasir opened at $200,000 base; Joshua Goot said that likely requires an ED
   platform / near-term promotion track and asked for flexibility
 - Yasir countered at **$190,000 base**, bonus to close the gap to $200K total
@@ -63,3 +102,39 @@ CIB Finance audit covers the financial-control and regulatory-reporting side
 of the Commercial & Investment Bank — the function Yasir's own JPMorgan
 history (Basel III RWA, CCAR, Resolution & Recovery Planning) sits inside.
 This is the strongest fit of anything in his current pipeline.
+
+---
+
+## Application package
+
+| | |
+|---|---|
+| Cover letter | `applications/cover_letters/jpm_cib_finance_audit_vp_210759059.md` → `.pdf` (one page) |
+| Résumé | `applications/resume/Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf` |
+
+**Not the GenAI-risk branded master.** This is a financial-controls audit role;
+leading with GenAI positioning would bury the thing that actually matches. The
+resume-selection rule in `scripts/discover_jobs.py` already routes `cib` /
+`capital` / `financial control` titles to the CIB Finance resume — that is the
+rule working as intended, not an oversight.
+
+The AI work still belongs in the letter, but as the fourth paragraph and framed
+narrowly: reconciliation-heavy reporting processes are where automated testing
+pays, and someone who has built the tooling can judge whether an automated
+control is trustworthy rather than merely present.
+
+## What this changes about the interview
+
+The prep pack previously said: *"Nobody has confirmed the actual coverage area
+(Market Equities vs. a different CIB Finance function) — ask early in the
+interview rather than assuming from the templated JD."* **That question is now
+answered** — do not spend interview time asking it. Spend it on the mapping
+table above.
+
+## Open action — the scheduling coordinator never called
+
+Joshua Goot said on 17 Aug, 11:14 PM that a coordinator would reach out "within
+the next day or two." As of 11 Sep that is **three and a half weeks of
+silence**. The cover letter above is written so it can be attached to a nudge to
+Goot, not only submitted through a portal. Owner sends it — nothing here sends
+mail.

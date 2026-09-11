@@ -79,7 +79,7 @@ flow.append(Paragraph(
     f'<font color="#6F6754"><i>the</i></font> '
     f'<font color="#B8860B"><b>Algorithm</b></font>', mark))
 flow.append(Paragraph("YASIR A. MALIK", name))
-flow.append(Paragraph("GenAI Risk &amp; Assurance Executive &mdash; Internal Audit &bull; Model Risk (SR 11-7) "
+flow.append(Paragraph("GenAI Risk &amp; Assurance Executive | Internal Audit &bull; Model Risk (SR 11-7) "
                       "&bull; Responsible AI Governance | Doctoral Researcher in AI-Assisted Judgment", tag))
 flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; "
                       "linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786 &bull; auditingai.github.io",
