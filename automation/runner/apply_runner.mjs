@@ -65,7 +65,21 @@ const FACTS = {
 
 // Never touch a field whose label matches any of these. They are the
 // candidate's to answer, every time.
-const FORBIDDEN = /(sponsor|immigration|work authoriz|visa|citizen|veteran|disab|gender|race|ethnic|salary history|compensation history|signature|attest|certify|criminal|felony)/i;
+// Biased to fail closed: a false positive costs one field the operator types
+// by hand, a false negative puts an answer in his name on a legal question.
+// "work authoriz" alone missed "are you legally authorized to work", which is
+// the single most common phrasing on a US application form - hence bare
+// authoriz/authoris.
+const FORBIDDEN = new RegExp([
+  "sponsor", "immigration", "authoriz", "authoris", "right to work",
+  "visa", "citizen", "nationality", "national origin",
+  "veteran", "military", "disab", "accommodat",
+  "gender", "\\bsex\\b", "sexual orientation", "pronoun", "race", "ethnic",
+  "salary history", "compensation history", "current salary", "prior salary",
+  "signature", "\\bsign\\b", "attest", "certify", "acknowledg", "consent",
+  "criminal", "felony", "felon", "conviction", "background check",
+  "social security", "\\bssn\\b", "date of birth", "\\bdob\\b",
+].join("|"), "i");
 
 const args = process.argv.slice(2);
 const has = (f) => args.includes(f);
@@ -101,17 +115,60 @@ function record(item, status, notes) {
   fs.writeFileSync(dest, JSON.stringify(item.entry, null, 2) + "\n");
   if (dest !== item.file) fs.unlinkSync(item.file);
   if (has("--commit")) {
-    execSync(`git add automation/queue && git commit -m "Queue: ${item.entry.company} — ${status}"`, { cwd: ROOT, stdio: "ignore" });
+    // A failed commit must not abort the run mid-queue: the queue files on
+    // disk are already correct, and "nothing to commit" exits non-zero, which
+    // execSync turns into a throw.
+    try {
+      execSync("git add automation/queue", { cwd: ROOT, stdio: "ignore" });
+      execSync(`git commit -m "Queue: ${item.entry.company} — ${status}"`,
+               { cwd: ROOT, stdio: "ignore" });
+    } catch {
+      console.log("  [warn] could not commit; queue file is written. Commit by hand.");
+    }
   }
 }
 
-/** Fill a Workday-style field by its label, skipping anything forbidden. */
+/** Fill a Workday-style field by its label, skipping anything forbidden.
+ *
+ * The forbidden check reads every identifier the field carries, not just
+ * aria-label: getByLabel also matches a <label for=...> element, and on those
+ * fields aria-label is null, so checking it alone made the guard pass on
+ * exactly the forms where it needed to bite. This is the safety mechanism -
+ * it fails closed (any error means do not fill).
+ */
 async function fillByLabel(page, labelRe, value) {
   try {
     const field = page.getByLabel(labelRe).first();
     if (await field.count() === 0) return false;
-    const label = (await field.getAttribute("aria-label")) ?? "";
-    if (FORBIDDEN.test(label)) return false;
+
+    const identifiers = await field.evaluate((el) => {
+      const out = [
+        el.getAttribute("aria-label"),
+        el.getAttribute("name"),
+        el.getAttribute("id"),
+        el.getAttribute("placeholder"),
+        el.getAttribute("data-automation-id"),
+      ];
+      if (el.id) {
+        for (const l of document.querySelectorAll(`label[for="${el.id}"]`)) {
+          out.push(l.textContent);
+        }
+      }
+      const wrapping = el.closest("label");
+      if (wrapping) out.push(wrapping.textContent);
+      const describedBy = el.getAttribute("aria-labelledby");
+      if (describedBy) {
+        for (const id of describedBy.split(/\s+/)) {
+          out.push(document.getElementById(id)?.textContent);
+        }
+      }
+      return out.filter(Boolean).join(" | ");
+    });
+
+    if (FORBIDDEN.test(identifiers)) {
+      console.log(`  skipped a field reserved for you: "${identifiers.slice(0, 70)}"`);
+      return false;
+    }
     await field.fill(value, { timeout: 3000 });
     return true;
   } catch { return false; }
@@ -143,9 +200,23 @@ async function main() {
   const page = browser.pages()[0] ?? await browser.newPage();
 
   if (has("--login")) {
-    await page.goto("https://careers.jpmorgan.com/us/en/sign-in");
-    console.log("\nLog in in the browser window. The session is saved in");
-    console.log(`${PROFILE_DIR} on this machine only. Close the window when done.`);
+    // One portal at a time: pass --login <url> for Goldman, Amex, Prudential
+    // and the rest. One persistent profile holds every session.
+    const target = argOf("--login") ?? "https://careers.jpmorgan.com/us/en/sign-in";
+    await page.goto(target);
+    console.log(`\nOpened ${target}`);
+    console.log("Log in in the browser window, then close it.");
+    console.log(`The session is saved in ${PROFILE_DIR} on this machine only —`);
+    console.log("never in the repo, never in a chat. Delete that folder to log out.\n");
+    console.log("Other portals, one at a time:");
+    for (const [name, url] of [
+      ["Goldman Sachs", "https://higher.gs.com"],
+      ["Morgan Stanley", "https://www.morganstanley.com/careers"],
+      ["Wells Fargo", "https://www.wellsfargojobs.com"],
+      ["BNY", "https://bnymellon.wd1.myworkdayjobs.com/BNY_Careers"],
+      ["State Street", "https://statestreet.wd1.myworkdayjobs.com/Global"],
+      ["Prudential / PGIM", "https://prudential.wd5.myworkdayjobs.com/PRUDENTIAL_CAREERS"],
+    ]) console.log(`  npm run login -- --login ${url}   # ${name}`);
     await new Promise((res) => browser.on("close", res));
     return;
   }
