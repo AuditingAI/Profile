@@ -1,0 +1,830 @@
+[
+  {
+    "req": "210776418",
+    "title": "AI Valuation Chief of Staff-Vice President-Finance & Business Management",
+    "location": "Columbus, OH and 1 more",
+    "status": "Under Consideration",
+    "applied": "2026-09-11",
+    "section": "active",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210759321",
+    "title": "Tech Risk and Controls Director- Employee Platforms",
+    "location": "Jersey City, NJ",
+    "status": "Under Consideration",
+    "applied": "2026-08-11",
+    "section": "active",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210773671",
+    "title": "AI/ML Governance & Automation Lead -Vice President",
+    "location": "New York, NY and 1 more",
+    "status": "Under Consideration",
+    "applied": "2026-08-10",
+    "section": "active",
+    "lane": "other"
+  },
+  {
+    "req": "210758114",
+    "title": "External Reporting Controller, Vice President - Commercial Investment Banking",
+    "location": "Brooklyn, NY",
+    "status": "Under Consideration",
+    "applied": "2026-07-02",
+    "section": "active",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210755008",
+    "title": "Audit Manager [Multiple Positions Available]",
+    "location": "Jersey City, NJ",
+    "status": "Under Review",
+    "applied": "2026-06-10",
+    "section": "active",
+    "lane": "audit"
+  },
+  {
+    "req": "210756306",
+    "title": "Business Management Vice President - Internal Audit",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-07-03",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210758174",
+    "title": "Compliance - Risk Management Oversight Program Lead - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-07-02",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210751919",
+    "title": "Technology Audit Manager, Vice President - Commercial Investment Bank Payments",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-07-02",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210759059",
+    "title": "Internal Audit Manager - Vice President - Commercial & Investment Bank Finance",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-07-02",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210756005",
+    "title": "Internal Audit Manager, Vice President - Commercial Investment Banking",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-07-02",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210761599",
+    "title": "Tech Audit Manager, Vice President Consumer Banking Technology",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-06-29",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210733006",
+    "title": "Governance Control Lead - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-06-29",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210761317",
+    "title": "Control Manager Lead, HR Data & AI Controls, Executive Director",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-06-24",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210752627",
+    "title": "GenAI & Agentic Product Manager, Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-06-05",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210749861",
+    "title": "Senior Product Associate - Data Governance",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-06-02",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210736041",
+    "title": "AI Compliance, Conduct and Operational Risk - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-06-02",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210748471",
+    "title": "Internal Audit Manager - Vice President - Asset Management",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-05-21",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210744132",
+    "title": "Risk Management - AI Governance - Model Risk - Executive Director",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-05-20",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210741269",
+    "title": "Risk Management \u2013 Model Risk Program Management \u2013 Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-05-13",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210739810",
+    "title": "Tech Risk and Controls Lead",
+    "location": "Plano, TX",
+    "status": "Not Selected",
+    "applied": "2026-05-13",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210741001",
+    "title": "Chief Data and Analytics Office Strategy, Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-05-12",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210733117",
+    "title": "Tech Senior Auditor - Commercial & Investment Banking",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210734388",
+    "title": "Tech Audit Manager - Commercial Investment Banking Technology",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210674102",
+    "title": "Tech Audit Manager, Vice President Consumer Banking Technology",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210711039",
+    "title": "Regulatory Reporting Policy - Vice President",
+    "location": "Brooklyn, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210735358",
+    "title": "Compensation Manager, Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210667897",
+    "title": "Digital Strategy Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210730519",
+    "title": "Machine Learning Engineer \u2013 Document Digitization (LLMs)-Vice President",
+    "location": "Jersey City, NJ",
+    "status": "No longer under consideration",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210729478",
+    "title": "Compliance Risk Management Lead - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210742513",
+    "title": "Vice President, AI for Product - Open Banking",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210736174",
+    "title": "Senior Associate, Financial Analytics & Reporting \u2013 Corporate Technology F&BM",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210742044",
+    "title": "Chief Data & Analytics Office - Control Manager \u2013 Vice President \u2013 Data Risk Lead",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210720525",
+    "title": "Finance & Business Management - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210733216",
+    "title": "Finance Control Manager - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210735414",
+    "title": "Data Strategy and AI Data Products - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210732154",
+    "title": "Finance & Business Management",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-30",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210713938",
+    "title": "Commercial & Investment Bank Resolution & Recovery Team, Vice President",
+    "location": "Brooklyn, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-28",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210686083",
+    "title": "Tech Audit Manager - Commercial Investment Banking Technology",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-28",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210724131",
+    "title": "Commercial & Investment Bank- Control Manager- Executive Director",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-28",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210707444",
+    "title": "Experience Research Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210727919",
+    "title": "Audit Manager, Vice President - Markets",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210730032",
+    "title": "Firmwide Control Management Strategic Program - Senior Associate",
+    "location": "Brooklyn, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "other"
+  },
+  {
+    "req": "210727429",
+    "title": "Data Science Vice President - Co Brand Analytics",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210733603",
+    "title": "Vice President, Ontologist Lead",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210723963",
+    "title": "Government Investigations and Regulatory Enforcement Attorney - Vice President, Assistant General Counsel",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "legal"
+  },
+  {
+    "req": "210732282",
+    "title": "Internal Audit Manager, Vice President - Commercial Investment Banking",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210733031",
+    "title": "VP Product Manager, AI Automation and Data Quality",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210734942",
+    "title": "Applied AI ML-Vice President",
+    "location": "New York, NY",
+    "status": "No longer under consideration",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210725871",
+    "title": "CCB Resolution and Recovery Team - VP",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210726871",
+    "title": "Vice President-Data Management Lead \u2013 CDO Governance",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "data governance"
+  },
+  {
+    "req": "210737662",
+    "title": "Control Manager - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-04-24",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210733956",
+    "title": "Finance & Business Management - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-04-14",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210719745",
+    "title": "Tech Risk and Controls Lead - Governance Risk & Control",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-17",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210720770",
+    "title": "Internal Audit, Analytics Solutions Director - Commercial Investment Banking",
+    "location": "Jersey City, NJ",
+    "status": "No longer under consideration",
+    "applied": "2026-03-07",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210708522",
+    "title": "Tech Audit Manager, Vice President \u2013 Commercial & Investment Banking Data Management and Artificial Intelligence",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-07",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210709421",
+    "title": "Audit Manager, Vice President - Chief Data Office",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-07",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210672835",
+    "title": "AI ML Executive Director",
+    "location": "New York, NY",
+    "status": "No longer under consideration",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210674594",
+    "title": "Compliance - Operational Risk Management Lead - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210709353",
+    "title": "Data Risk Management & Governance, Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210708633",
+    "title": "FRRA CCAR Y-14A Reporting & Analysis - Vice President",
+    "location": "Brooklyn, NY",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210718125",
+    "title": "Securities Services Liquidity - Business Manager - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210707470",
+    "title": "Finance & Business Management",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210712330",
+    "title": "Risk Management - AI Governance - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-03-05",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210709874",
+    "title": "Audit Manager - Commercial Investment Banking Payments",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-04",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210704176",
+    "title": "P&A Program Manager - Vice President",
+    "location": "Brooklyn, NY",
+    "status": "Not Selected",
+    "applied": "2026-03-04",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210718461",
+    "title": "Technology Audit Director \u2013 Corporate Technology \u2013 Finance Technology",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-03",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210718686",
+    "title": "Compliance Risk Management Lead (Digital Asset Initiatives) - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-03-03",
+    "section": "inactive",
+    "lane": "compliance/risk"
+  },
+  {
+    "req": "210694265",
+    "title": "Applied AI/ML - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-02-28",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210715394",
+    "title": "Commercial & Investment Bank Markets Audit Manager, Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-26",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210711384",
+    "title": "Internal Audit Manager, Vice President - Global Banking",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-25",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210602360",
+    "title": "Firmwide Chief Data Office - Control Manager",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-22",
+    "section": "inactive",
+    "lane": "controls/tech-risk"
+  },
+  {
+    "req": "210714011",
+    "title": "Applied AI ML - Vice President",
+    "location": "New York, NY",
+    "status": "No longer under consideration",
+    "applied": "2026-02-21",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210708185",
+    "title": "Technology Audit Senior Associate, Cybersecurity & Tech Controls",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-19",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210674339",
+    "title": "Tech Audit Manager, Vice President- Artificial Intelligence & Technology Platforms",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-19",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210712321",
+    "title": "Applied AI/ML - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-18",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210696739",
+    "title": "Technology Audit Director - Corporate Technology Compliance",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-08",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210688281",
+    "title": "Vice President-Strategic Program Manager",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-02-08",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210707566",
+    "title": "Finance & Business Management - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-08",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210663810",
+    "title": "AI Transformation & Strategic Execution - Executive Director",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-02-08",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210708293",
+    "title": "Vice President, Governance - Lifestyle",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-02-08",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210693623",
+    "title": "Internal Audit Manager - Vice President - Commercial Investment Banking Finance",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-04",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210701493",
+    "title": "Vice President-Applied AI/ML Lead",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2026-02-04",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210689448",
+    "title": "AI Research Scientist-Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2026-01-11",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210683610",
+    "title": "AI Strategy & Transformation Office - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2025-12-21",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210643509",
+    "title": "AI Research Scientist (AI Agents) - Senior Associate",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2025-08-13",
+    "section": "inactive",
+    "lane": "AI engineering/research"
+  },
+  {
+    "req": "210591374",
+    "title": "Technology Audit Manager, Vice President - Artificial Intelligence & Machine Learning",
+    "location": "Jersey City, NJ",
+    "status": "Not Selected",
+    "applied": "2025-07-18",
+    "section": "inactive",
+    "lane": "audit"
+  },
+  {
+    "req": "210634143",
+    "title": "Vice President \u2013 Business Manager, AI Solutions and Business Enablement",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2025-07-18",
+    "section": "inactive",
+    "lane": "finance/F&BM"
+  },
+  {
+    "req": "210646361",
+    "title": "Chief Data and Analytics Office Strategy, Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2025-07-18",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210616828",
+    "title": "GenAI Enablement Lead - Vice President",
+    "location": "New York, NY",
+    "status": "Not Selected",
+    "applied": "2025-06-28",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210640499",
+    "title": "AI Accelerator Lead - Vice President",
+    "location": "New York, NY",
+    "status": "No longer under consideration",
+    "applied": "2025-06-28",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210071338",
+    "title": "Corporate Control Management \u2013 Strategy and Initiatives Program Manager - Vice President",
+    "location": "Jersey City, NJ",
+    "status": "No longer under consideration for this position",
+    "applied": "2021-05-19",
+    "section": "inactive",
+    "lane": "AI product/strategy"
+  },
+  {
+    "req": "210074348",
+    "title": "Investment Banking - Financial Institutions Group -FinTech, Wealth & Asset Management - Associate",
+    "location": "New York, NY",
+    "status": "No longer under consideration",
+    "applied": "2021-03-03",
+    "section": "inactive",
+    "lane": "other"
+  }
+]

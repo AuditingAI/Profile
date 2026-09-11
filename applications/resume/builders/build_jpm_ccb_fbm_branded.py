@@ -85,8 +85,8 @@ flow.append(Paragraph(
     '<font color="#6F6754"><i>the</i></font> '
     '<font color="#B8860B"><b>Algorithm</b></font>', mark))
 flow.append(Paragraph("YASIR A. MALIK", name))
-flow.append(Paragraph("Vice President, Finance &amp; Business Management | Financial Control &bull; Capital &amp; Liquidity "
-                      "Reporting &bull; Regulatory Reporting &bull; Reporting Automation", tag))
+flow.append(Paragraph("AI Valuation Chief of Staff, Vice President &mdash; Finance &amp; Business Management | Financial Control "
+                      "&bull; Capital &amp; Liquidity Reporting &bull; AI Governance &bull; Reporting Automation", tag))
 flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; "
                       "linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786 &bull; auditingai.github.io",
                       contact))
@@ -218,7 +218,7 @@ flow.append(Paragraph(
 doc = SimpleDocTemplate(str(OUT), pagesize=LETTER,
                         leftMargin=0.55 * inch, rightMargin=0.55 * inch,
                         topMargin=0.36 * inch, bottomMargin=0.36 * inch,
-                        title="Yasir A. Malik - Resume - Finance & Business Management VP",
+                        title="Yasir A. Malik - Resume - AI Valuation Chief of Staff VP, F&BM (210776418)",
                         author="Yasir A. Malik",
                         subject="Finance & Business Management")
 doc.build(flow)

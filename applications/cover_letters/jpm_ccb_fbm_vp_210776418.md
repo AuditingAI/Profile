@@ -1,7 +1,6 @@
-> **Title not yet confirmed.** The posting metadata gives category Business
-> Management, function Finance, Consumer & Community Banking — but not the role
-> title. Before sending, replace the Re: line with the exact title from the
-> posting, and re-check the first paragraph against the actual responsibilities.
+> **Submitted 11 Sep 2026 (portal confirmation 04:39 UTC).** Title confirmed from the
+> candidate portal after submission: AI Valuation Chief of Staff. Kept for interview
+> prep and for any recruiter who asks for the letter.
 
 September 11, 2026
 
@@ -9,11 +8,11 @@ Hiring Team — Finance & Business Management, Consumer & Community Banking
 JPMorgan Chase
 Jersey City, NJ
 
-Re: Finance & Business Management, Vice President (Job ID 210776418)
+Re: AI Valuation Chief of Staff, Vice President — Finance & Business Management (Job ID 210776418)
 
 Dear Hiring Team,
 
-I am applying for the Finance & Business Management role posted under Job ID 210776418. I spent six years inside JPMorgan Chase — owning **Basel III RWA and capital adequacy reporting** on a $50B portfolio and surfacing **$180M** in capital optimization for CFO decision support, then leading **CCAR** forecast validation over a **$2.6T** balance sheet under SR 15-18. I would like to come back, on the Finance side rather than the assurance side.
+I am applying for the AI Valuation Chief of Staff role in Finance & Business Management, Job ID 210776418. I spent six years inside JPMorgan Chase — owning **Basel III RWA and capital adequacy reporting** on a $50B portfolio and surfacing **$180M** in capital optimization for CFO decision support, then leading **CCAR** forecast validation over a **$2.6T** balance sheet under SR 15-18. I would like to come back, on the Finance side rather than the assurance side.
 
 **What I actually do, stated plainly.** I take a reporting process that is manual, slow, and hard to defend, and I make it governed, automated, and defensible. Four instances, all measured: capital and liquidity reconciliations automated, cutting manual review effort **~40%** and removing a recurring source of reporting error. 500+ legal-entity data sources consolidated into governed master data, enabling automated **FR 2900 and TIC** filings at **99.8%** accuracy. $180M in capital optimization identified because someone read the RWA treatment closely enough to find it. And a retrieval-augmented reporting assistant I built myself in Python and LangChain, integrated with Alteryx, that cut review cycle time **~35%** — I did not commission that tool, I wrote it.
 
