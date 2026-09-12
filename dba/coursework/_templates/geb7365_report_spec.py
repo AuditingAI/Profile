@@ -117,37 +117,56 @@ spec = {
 
   {"h2": "Regionalization and the gap between the label and the reality"},
 
-  ["Rugman and Verbeke (2004) examined the sales of the largest multinationals and found that the "
-   "overwhelming majority were home-region oriented rather than global. The theoretical mechanism "
-   "is not simply distance. Firm-specific advantages developed in a home region transfer within "
-   "that region at low cost because the supporting institutions, customer expectations and "
-   "distribution structures are similar, and transfer across regions only by being rebuilt. The "
-   "label global describes an aspiration; the sales data describe a region."],
+  ["Rugman and Verbeke (2004) examined the sales of the 500 largest multinationals and found "
+   "that, of the 380 for which geographic sales data were available, 320 were home-region "
+   "oriented, averaging 80.3 percent of sales inside their home region of the triad. Only nine "
+   "firms met their definition of global. The label global describes an aspiration; the sales data "
+   "describe a region."],
+
+  ["The theoretical mechanism is not distance, and it is more specific than a general claim about "
+   "regional stickiness. They separate upstream from downstream firm-specific advantages. Upstream "
+   "advantages in technology and production travel comparatively well. Downstream advantages, "
+   "branding above all, are location-bound, and they observe that market success depends on "
+   "downstream advantages which are \"often restricted to the home triad region.\" A firm can "
+   "therefore operate globally at the upstream end while remaining regional in the only place the "
+   "sales data can see it."],
 
   ["Lopez, Kundu and Ciravegna (2009) applied the same test to firms that appear international "
-   "from inception. Their Costa Rican software cases are international from day one in the sense "
-   "the born-global literature intends, yet their activity concentrates regionally. The "
-   "contribution is the demonstration that a firm can satisfy the formal definition of a category "
-   "while failing the substantive one, and that the discrepancy is detectable only by measuring "
-   "where the activity actually lands rather than where the firm says it operates."],
+   "from inception, interviewing the founders or chief executives of 40 Costa Rican software "
+   "companies. Firms that satisfied the accepted definition of a born global turned out, on "
+   "inspection, to be exporting to Nicaragua, Panama, El Salvador, Guatemala and Honduras. Exactly "
+   "one firm in the sample had exported from inception to the market the firms themselves "
+   "described as strategic, the United States. The rest were, in their term, born regional."],
 
-  ["The extension proposed here is direct. A commercial research panel is a firm. It recruits its "
-   "membership through channels that are themselves institutionally embedded: professional "
-   "associations, employment platforms, advertising networks and payment infrastructures that "
-   "differ by region. There is no reason to expect the resulting membership to be regionally "
-   "neutral, and considerable reason grounded in this literature to expect it to be home-region "
-   "concentrated. For a general population the concentration may be immaterial because the "
+  ["Their conclusion is a measurement argument and it is the reason this paper leans on them. "
+   "Current definitions of born global, they write, \"can hide an important difference among "
+   "firms,\" because a definition resting on export share and a count of export markets will "
+   "classify a firm selling to its immediate neighbours identically to one selling across the "
+   "triad. The category was not wrong so much as unable to see the distinction that mattered. That "
+   "is the same failure this paper attributes to the overall response rate in comparative survey "
+   "work: a summary statistic that cannot distinguish a viable design from an unviable one."],
+
+  ["The extension proposed here is direct, and the upstream-downstream distinction is what makes "
+   "it more than an analogy. A commercial research panel is a firm whose entire product is a "
+   "downstream asset. Its advantage is its membership and its standing with that membership, built "
+   "through professional associations, employment platforms, advertising networks and payment "
+   "infrastructures that are institutionally specific and differ by region. A panel provider has "
+   "very little upstream advantage to leverage abroad: survey software is a commodity. On Rugman "
+   "and Verbeke's own account, a firm whose advantages are overwhelmingly downstream should be "
+   "more home-region bound than a manufacturer, not less. For a general population the concentration may be immaterial because the "
    "population is abundant everywhere. For a specialty present at a few per hundred thousand, a "
    "modest regional skew in recruitment is the difference between a reachable frame and an "
    "unreachable one."],
 
   {"h2": "Levels of analysis and the agency of local units"},
 
-  ["Meyer, Li and Schotter (2020) argue that the subsidiary is not an instrument of headquarters "
-   "but an actor with its own agency, embedded simultaneously in the internal network of the firm "
-   "and in an external national context, and that research on it must be explicitly multi-level "
-   "and dynamic. Their agenda is a corrective to designs that treat the country as the only level "
-   "that matters."],
+  ["Meyer, Li and Schotter (2020) organise over 600 articles around the subsidiary as the focal "
+   "unit of analysis and argue that it is an organization in its own right, holding some of the "
+   "multinational's most critical resources and operating at the front of a complex external "
+   "environment rather than taking instructions. Their agenda has two thrusts: that subsidiary "
+   "management is a multi-level phenomenon needing microfoundational work, and that it sits at the "
+   "interface of technology paradigm shifts and institutional disruption. Both are correctives to "
+   "designs that treat the country as the only level that matters."],
 
   ["The parallel to research design is exact and has not been drawn. Feasibility is determined at "
    "several levels at once: at the population level by prevalence, at the infrastructure level by "
@@ -159,20 +178,31 @@ spec = {
 
   {"h2": "Control, coordination, and the standardization tension"},
 
-  ["Zeng and colleagues (2023) review the mechanisms by which multinationals control and "
-   "coordinate dispersed units, and separate the two. Control is the imposition of a common "
-   "standard from the centre; coordination is the alignment of units that retain discretion. The "
-   "two are not the same instrument and they trade off, because tightening the first reduces the "
-   "local adaptation on which the second depends."],
+  ["Zeng, Grogaard and Bjorkman (2023) review a decade of work on how multinationals control and "
+   "coordinate dispersed units, and their contribution is conceptual clarity. They define control "
+   "as efforts to ensure units pursue organizational goals, oriented towards top-down, power-based "
+   "influence, and coordination as efforts to align goals, resources and activities across "
+   "interdependent units, oriented towards mutual adjustment. They identify four categories of "
+   "organizational mechanism: centralization, standardization, socialization, and output-oriented "
+   "mechanisms."],
 
-  ["Comparative survey research faces this tradeoff in an unusually pure form. Measurement "
-   "equivalence requires that the instrument be as nearly identical as possible across frames, "
-   "which is control. Achieving response requires adaptation to local norms of length, channel, "
-   "incentive, sponsorship and language register, which is coordination. Every increment of "
-   "standardization purchased for the sake of comparability is paid for in response, and the "
-   "payment is heaviest in exactly the frames that were weakest to begin with. The literature "
-   "treats equivalence and response as separate methodological concerns. They are the two sides "
-   "of one tradeoff, and for a narrow population the tradeoff binds."],
+  ["Two things in that review matter here. The first is that standardization is named as a "
+   "mechanism in its own right rather than folded into centralization, which gives the present "
+   "argument its vocabulary. The second is their stated gap: research remains, in their words, "
+   "\"fairly coarse regarding how various configurations and interactions of control and "
+   "coordination mechanisms affect intended outcomes,\" and they note a paucity of multilevel "
+   "studies and insufficient attention to adaptation. They do not claim that standardization and "
+   "adaptation trade off. They report that the interaction is understudied. The hypothesis below "
+   "proposes a specific form for that interaction, and it is a conjecture of this paper rather "
+   "than a finding carried over from theirs."],
+
+  ["Comparative survey research is an unusually clean setting in which to look for that "
+   "interaction. Measurement equivalence requires an instrument as nearly identical as possible "
+   "across frames, which is standardization in their sense. Achieving response requires adaptation "
+   "to local norms of length, channel, incentive, sponsorship and language register, which is "
+   "mutual adjustment. Both draw on the same instrument. The literature treats equivalence and "
+   "response as separate methodological concerns, and the proposal here is that they are two "
+   "faces of one design decision, with consequences that fall unevenly across frames."],
 
   {"h2": "The recurring lesson: measuring one thing while believing another was measured"},
 
@@ -265,8 +295,10 @@ spec = {
   ["The logic is the one Lopez, Kundu and Ciravegna used on born globals, transposed. A study "
    "satisfies the formal definition of cross-national by including frames from several countries. "
    "Whether it satisfies the substantive definition depends on where the achieved responses "
-   "actually land, which is a different measurement and is rarely reported with enough "
-   "granularity to check."],
+   "actually land, which is a different measurement and is rarely reported with enough granularity "
+   "to check. Their case is instructive about magnitude as well as direction: of 40 firms, the "
+   "reclassification left one. A category can survive contact with its own evidence almost not at "
+   "all and still be in general use, because nobody computes the second measurement."],
 
   ["The mechanism connecting this to H2 is straightforward. If panel coverage is regionally "
    "bounded, then achieved responses will concentrate in the frames where coverage is best, which "
@@ -308,12 +340,19 @@ spec = {
    "achieved response rate, and the association is stronger in frames with lower baseline "
    "response."],
 
-  ["The logic is Zeng and colleagues' separation of control from coordination. Standardization is "
-   "control: a common instrument imposed from the centre so that responses are comparable. "
-   "Response depends on coordination: adaptation of length, channel, sponsorship, incentive and "
-   "language register to what each frame will actually tolerate. These draw on the same "
-   "instrument and pull it in opposite directions. Every element held constant for the sake of "
-   "equivalence is an element that cannot be adapted for the sake of response."],
+  ["The logic borrows Zeng, Grogaard and Bjorkman's vocabulary and then goes beyond their review. "
+   "Standardization is one of their four organizational mechanisms, and it sits on the control "
+   "side: a common instrument imposed from the centre so that responses stay comparable. Response "
+   "depends instead on mutual adjustment: adaptation of length, channel, sponsorship, incentive "
+   "and language register to what each frame will tolerate. Both operate on the same instrument, "
+   "so every element held constant for the sake of equivalence is an element that cannot be "
+   "adapted for the sake of response."],
+
+  ["It should be said plainly that the review does not assert this tradeoff. What it asserts is "
+   "that the interactions between control and coordination mechanisms are coarsely understood and "
+   "that adaptation has received insufficient attention. This hypothesis is therefore a proposal "
+   "about a gap they name rather than a restatement of something they found, which is the reason "
+   "it is worth testing rather than citing."],
 
   ["The interaction is the part that matters for design. In a strong frame, standardization costs "
    "response that the frame can afford to lose. In a weak frame, the same standardization is "
@@ -536,7 +575,9 @@ spec = {
    "Business Review, 79(8), 137-147."],
   ["Harzing, A.-W., Reiche, B. S., & Pudelko, M. (2012). Challenges in international survey "
    "research: A review with illustrations and suggested solutions for best practice. European "
-   "Journal of International Management."],
+   "Journal of International Management. [Volume and page numbers to be confirmed: the copy "
+   "consulted is the January 2012 author manuscript, which states only that the paper is to be "
+   "published in this journal.]"],
   ["Lopez, L. E., Kundu, S. K., & Ciravegna, L. (2009). Born global or born regional? Evidence "
    "from an exploratory study in the Costa Rican software industry. Journal of International "
    "Business Studies, 40(7), 1228-1238."],
@@ -548,7 +589,7 @@ spec = {
    "Journal, 23(3), 229-244."],
   ["Rugman, A. M., & Verbeke, A. (2004). A perspective on regional and global strategies of "
    "multinational enterprises. Journal of International Business Studies, 35(1), 3-18."],
-  ["Zeng, R., Grogaard, B., & Steel, P. (2023). Navigating MNE control and coordination: A "
+  ["Zeng, R., Grogaard, B., & Bjorkman, I. (2023). Navigating MNE control and coordination: A "
    "critical review and directions for future research. Journal of International Business "
    "Studies, 54(9), 1599-1622."],
 

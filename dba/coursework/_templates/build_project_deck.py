@@ -269,26 +269,29 @@ chrome(); c.showPage()
 ground(); crest()
 element(3,"Justification of hypotheses")
 title("H2 and H3  ·  A research panel is a firm",140,size=27)
-para("Rugman and Verbeke showed that firms called global are home-region bound, because "
-     "firm-specific advantages transfer within a region cheaply and across regions only by being "
-     "rebuilt. Lopez, Kundu and Ciravegna found the same gap in ventures called born global.",
+para("Of the 380 largest multinationals with usable sales data, Rugman and Verbeke found 320 "
+     "home-region oriented, averaging 80.3 percent of sales at home. Nine were global. Their "
+     "mechanism is specific: upstream advantages in technology travel, downstream advantages such "
+     "as branding are location-bound.",
      M,192,W-2*M,BODY,14.5,BODYC,lead=20)
-box(M,268,W-2*M,64,fill=SOFT,r=4)
-para("A commercial research panel is a firm. It recruits through professional associations, "
-     "employment platforms, advertising markets and payment rails, each denser and cheaper inside "
-     "the region where the provider originated.",
+box(M,266,W-2*M,86,fill=SOFT,r=4)
+para("A research panel is a firm whose entire product is a downstream asset: its membership, and "
+     "its standing with that membership. Survey software is a commodity, so there is almost no "
+     "upstream advantage to carry abroad. On their own account it should be MORE home-region "
+     "bound than a manufacturer, not less.",
      M+22,282,W-2*M-44,BODY,13.5,INK,lead=17)
-arrow(W/2,340,W/2,360,color=STEEL,lw=1.4)
-box(M,368,COLW,112,fill=WHITE,stroke=TEAL,lw=1.4,r=4)
-txt("WHY IT BITES HARDER FOR SPECIALISTS",M+18,388,MONOB,8.5,TEAL,track=1.4)
+arrow(W/2,360,W/2,376,color=STEEL,lw=1.4)
+box(M,384,COLW,104,fill=WHITE,stroke=TEAL,lw=1.4,r=4)
+txt("WHY IT BITES HARDER FOR SPECIALISTS",M+18,404,MONOB,8.5,TEAL,track=1.4)
 para("A consumer panel is built by broad advertising anywhere. A panel of experienced auditors is "
      "built through professional bodies whose reach is national by construction.",
-     M+18,408,COLW-36,BODY,12.5,BODYC,lead=16)
-box(M+COLW+36,368,COLW,112,fill=WHITE,stroke=TEAL,lw=1.4,r=4)
-txt("AND WHY THE SAMPLE COLLAPSES",M+COLW+54,388,MONOB,8.5,TEAL,track=1.4)
-para("Set a global target, accept what arrives, and the result is formally multinational and "
-     "substantively regional, with no decision ever taken to that effect.",
-     M+COLW+54,408,COLW-36,BODY,12.5,BODYC,lead=16)
+     M+18,424,COLW-36,BODY,12.5,BODYC,lead=16)
+box(M+COLW+36,384,COLW,104,fill=WHITE,stroke=TEAL,lw=1.4,r=4)
+txt("AND WHY THE SAMPLE COLLAPSES",M+COLW+54,404,MONOB,8.5,TEAL,track=1.4)
+para("Of 40 Costa Rican software firms, exactly one had exported from inception to the market "
+     "the founders called strategic. The rest sold to neighbours. The category could not see the "
+     "difference.",
+     M+COLW+54,424,COLW-36,BODY,12.5,BODYC,lead=16)
 chrome(); c.showPage()
 
 # ═══ 9 · ELEMENT 3 — H4 and H5 ═══
@@ -311,15 +314,17 @@ para("Harzing's 47% in Korea was telephone. It exceeds the entire country spread
 box(M+COLW+36,188,COLW,268,fill=WHITE,stroke=GOLD,lw=1.4,r=4)
 box(M+COLW+36,188,COLW,5,fill=GOLD)
 txt("H5  ·  CONTROL AGAINST COORDINATION",M+COLW+54,212,MONOB,10,HexColor("#8A6A1F"),track=1.6)
-para("Zeng and colleagues separate control, a standard imposed from the centre, from coordination, "
-     "the alignment of units that keep discretion. The two trade off.",
+para("Zeng and colleagues name standardization as one of four organizational mechanisms, on the "
+     "control side, against coordination by mutual adjustment. They do NOT claim the two trade "
+     "off. They say the interaction is understudied.",
      M+COLW+54,234,COLW-36,BODY,12.5,BODYC,lead=16)
 para("Equivalence needs an identical instrument. Response needs adaptation of length, channel, "
-     "sponsorship and register. They pull the same instrument in opposite directions.",
-     M+COLW+54,300,COLW-36,BODY,12.5,BODYC,lead=16)
-box(M+COLW+54,378,COLW-36,62,fill=WARM,r=3)
+     "sponsorship and register. Proposing that these pull against each other is my conjecture "
+     "about a gap they name, not a finding I am borrowing.",
+     M+COLW+54,314,COLW-36,BODY,12.5,BODYC,lead=16)
+box(M+COLW+54,386,COLW-36,58,fill=WARM,r=3)
 para("A strong frame can afford the loss. A weak frame had no margin, and under H1 the weak frames "
-     "bind the design.",M+COLW+68,392,COLW-64,DISPI,12,INK,lead=15)
+     "bind the design.",M+COLW+68,398,COLW-64,DISPI,12,INK,lead=15)
 chrome(); c.showPage()
 
 # ═══ 10 · ELEMENT 4 — data collection ═══
