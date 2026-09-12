@@ -196,6 +196,12 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/google_tpm_regulatory_audit.pdf",
             "Cover Letter - Google TPM III, Regulatory Audits",
         ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_gbm_supervisory_risk_controls_vp_183007.md",
+            REPO_ROOT / "applications/cover_letters/gs_gbm_supervisory_risk_controls_vp_183007.pdf",
+            "Cover Letter - Goldman Sachs GBM Supervisory Risk & Controls VP (183007)",
+            0.92,
+        ),
     ]
     for src, dst, title, *rest in pairs:
         if src.exists():

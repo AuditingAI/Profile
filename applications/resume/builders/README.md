@@ -10,6 +10,7 @@ never hand-edit a PDF.
 | `master-resume-no-url.html` | `Yasir_Malik_Resume_Master.pdf` (no portfolio URL — safe while that URL is dead) | headless Chromium, below |
 | `build_genai_risk_branded.py` | **`Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf` — the current default (owner's call, 3 Sep 2026).** Same GenAI-risk content as the row below, in the Audit the Algorithm brand: wordmark as gold text, Times faces, hairline rules, research table as a reportlab `Table`. One page, ~7 KB. | `python3 applications/resume/builders/build_genai_risk_branded.py` (needs `reportlab`) |
 | `genai-risk-master.html` | `Yasir_Malik_Resume_GenAI_Risk_Master.pdf` — unbranded twin of the row above, for any portal that objects to a consulting wordmark. Repositioned around the risks GenAI introduces (sycophancy, judgment drift, automation bias, hallucination, adversarial input, third-party AI) with a three-row "Where the Research Is Going" table. Same Georgia/Harvard ATS design, one page. Built 2 Sep 2026. | headless Chromium, below |
+| `gs-gbm-src-vp.html` | `Yasir_Malik_Resume_GS_GBM_SRC_VP.pdf` — Goldman Sachs GBM Supervisory Risk & Controls VP (req 183007). Harvard ATS, **unbranded on purpose**: Goldman requires OBA disclosure and a consulting wordmark raises the question early. First-line positioning with a three-row role-mapping table. Built 12 Sep 2026. | headless Chromium, below |
 
 Chromium render:
 
