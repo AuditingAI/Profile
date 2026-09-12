@@ -1,12 +1,12 @@
 # START HERE — Yasir A. Malik job-search automation kit
 
 **If you are an AI agent (Astra, Grok, a browser runner) or a new human picking
-this up: read the ten rules below, then run the one command. Nothing else is
+this up: read the eleven rules below, then run the one command. Nothing else is
 required reading.**
 
 ---
 
-## The rules — all ten, before anything else
+## The rules — all eleven, before anything else
 
 1. **No credentials in this repository. Ever.** It is public and git history is
    permanent across every clone and fork. Credentials and sessions live only on

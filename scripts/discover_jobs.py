@@ -72,6 +72,8 @@ QUEUE_RULES = {
 # resume is the fallback. These are the files that actually exist in the repo -
 # a package that names a missing file is worse than one that names the generic.
 RESUME_RULES: list[tuple[str, str]] = [
+    (r"\b(data analytic|data scien|analytics lead|quantitative analy)",
+     "applications/resume/Yasir_Malik_Resume_GS_IA_DataAnalytics_VP.pdf"),
     (r"\b(supervisory risk|supervisory control|business control|first.line control|risk governance)",
      "applications/resume/Yasir_Malik_Resume_GS_GBM_SRC_VP.pdf"),
     (r"\b(cib|commercial.*investment|capital|basel|treasury|liquidity|"

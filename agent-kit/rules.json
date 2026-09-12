@@ -51,7 +51,8 @@
       "in_development": "Dissertation on automation bias and judgment drift in AI-assisted audit judgment. NOT IRB-approved.",
       "planned": "Audit Judgment Drift benchmark; three-layer LLM audit model; open-source AI Audit Playbook"
     },
-    "advisory": "Founder, Audit the Algorithm (auditingai.github.io, 2024-present)"
+    "advisory": "Founder, Audit the Algorithm (auditingai.github.io, 2024-present)",
+    "statistical_tools": "SPSS (doctoral research, IRB-25-0462), SAS and SQL (credit-risk MIS at RBS Dubai), Python/scikit-learn, Tableau, Power BI, Alteryx, Excel/VBA. NOT R - do not claim it."
   },
   "never_answer": [
     "immigration status",

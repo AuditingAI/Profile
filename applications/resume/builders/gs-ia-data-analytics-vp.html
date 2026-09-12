@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik — Resume</title>
+<style>
+  @page { size: Letter; margin: 0.3in 0.45in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 7.9pt; line-height: 1.19; color: #000; }
+  header { text-align: center; margin-bottom: 4px; }
+  /* letter-spacing must stay <= 1.5px: above that Chromium breaks the name into
+     spaced characters in the PDF text layer and an ATS cannot match it. */
+  h1 { font-size: 14pt; letter-spacing: 1.5px; font-weight: bold; }
+  .tagline { font-size: 8.7pt; margin-top: 1px; }
+  .contact { font-size: 8.4pt; margin-top: 2px; }
+  h2 { font-size: 9.1pt; letter-spacing: 1.2px; border-bottom: 1px solid #000; margin: 5px 0 2px; padding-bottom: 1px; text-transform: uppercase; }
+  p, li { text-align: justify; }
+  ul { padding-left: 14px; margin-top: 1px; }
+  li { margin-bottom: 1px; }
+  .job { display: flex; justify-content: space-between; margin-top: 3px; }
+  .job b { font-size: 8.9pt; }
+  .sub { font-style: italic; font-size: 8.4pt; }
+  .dates { white-space: nowrap; font-weight: bold; }
+  .tight { margin-top: 2px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 2px; font-size: 7.8pt; line-height: 1.16; }
+  th, td { border: 1px solid #000; padding: 1px 4px; vertical-align: top; text-align: left; }
+  th { font-size: 7.9pt; letter-spacing: 0.6px; text-transform: uppercase; }
+  td:first-child, th:first-child { width: 31%; }
+</style>
+</head>
+<body>
+<header>
+  <h1>YASIR A. MALIK</h1>
+  <div class="tagline">Audit Data Analytics | SQL &bull; Python &bull; ETL &amp; Data Governance &bull; Analytics Tooling for Audit Testing | The Auditor Who Builds the Tools</div>
+  <div class="contact">Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786</div>
+</header>
+
+<h2>Summary</h2>
+<p>Builds data tooling for audit from inside the audit function. Designed and shipped a production retrieval-augmented Workpaper Quality Assistant (Python, LangChain, vector search, SHAP/LIME) that cut audit review cycle time <b>~35%</b> at Citi Internal Audit &mdash; specified by the auditors who needed it, written by the auditor who could build it. Earlier, consolidated <b>500+ legal-entity data sources</b> into governed master data producing automated <b>FR 2900</b> and <b>TIC</b> filings at <b>99.8% accuracy</b> &mdash; ETL, data modeling, data-quality certification and governance, under regulatory examination. Quantitative training is formal: <b>MBA in Financial Mathematics</b>, and an active DBA whose completed study (IRB-25-0462) was a designed experiment analysed in SPSS. For an Embed team the differentiator is direction, not tooling alone &mdash; most analysts must learn what an auditor needs from a dataset. That has been answered from the other chair: sample selection, control-gap identification, and population completeness across <b>15+ business units</b>.</p>
+
+<h2>The Role's Requirements, Against the Record</h2>
+<table>
+  <tr><th>What the role asks for</th><th>Where it has been done</th></tr>
+  <tr><td>Data modeling, data engineering, data governance, entitlements; ETL over structured and unstructured data</td><td>Citi Global Legal Entity Management: 500+ legal-entity sources into governed master data with ownership, lineage, and access control, feeding automated FR 2900 and TIC filings at 99.8%. Unstructured ETL: the retrieval pipeline over audit workpapers. Automated capital and liquidity reconciliations at JPMorgan, ~40% less manual review.</td></tr>
+  <tr><td>Data quality / "data blessing"; completeness of data sources and data integrity for audit use</td><td>Both sides of it: produced the certified data at Citi GLEM, and consumed it as the audit VP deciding whether a population was complete enough to test against across 15+ business units.</td></tr>
+  <tr><td>Build production-ready analytical tools to automate repeatable audit processes</td><td>RAG Workpaper Quality Assistant &mdash; Python, LangChain, vector search, SHAP/LIME, prompt-injection guardrails, integrated with Alteryx workflows. In production; ~35% cycle-time reduction. Built to be auditable itself.</td></tr>
+  <tr><td>Statistics &mdash; distributions, time series, correlation, regression; partnering with audit teams to source data and identify risk</td><td>DBA qualifying research (IRB-25-0462, Jul 2026): designed experiment analysed in SPSS. Credit-risk MIS over a $500M+ retail portfolio in SAS and SQL. Five years as the audit VP those analytics partnerships exist to serve &mdash; risk assessment, audit planning, and the testing the analytic has to support.</td></tr>
+</table>
+
+<h2>Technical Skills</h2>
+<p><b>Languages &amp; Data:</b> Python &bull; SQL / RDBMS &bull; Excel/VBA &bull; SAS &bull; SPSS &bull; ETL pipelines (structured and unstructured) &bull; data modeling &bull; master data management &bull; data quality and certification &bull; data lineage and governance<br>
+<b>Analytics &amp; ML:</b> scikit-learn &bull; regression and classification &bull; clustering &bull; descriptive statistics and distributions &bull; time series &bull; SHAP / LIME explainability &bull; experiment design and statistical testing in SPSS<br>
+<b>NLP &amp; LLM:</b> LangChain / LangGraph &bull; retrieval-augmented generation and agentic RAG &bull; vector databases (Pinecone, ChromaDB) &bull; text analytics &bull; prompt engineering &bull; evaluation and red-teaming scripts &bull; Hugging Face<br>
+<b>Visualisation &amp; Workflow:</b> Tableau &bull; Power BI &bull; Alteryx &bull; GitHub Actions &bull; automated reporting<br>
+<b>Audit &amp; Risk:</b> IIA Standards &bull; COSO &bull; SOX ITGC &bull; Three Lines of Defense &bull; continuous auditing &bull; SR 11-7 model risk &bull; NIST AI RMF</p>
+
+<h2>Professional Experience</h2>
+<div class="job"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
+<div class="sub">Internal Audit, Cross-Enterprise Program &amp; Change Management | New York, NY</div>
+<ul>
+  <li><b>Designed and shipped the RAG-based Workpaper Quality Assistant</b> &mdash; Python, LangChain, vector search over unstructured workpapers, SHAP/LIME explainability, prompt-injection guardrails, Alteryx integration. Requirements from audit teams, built and put in production: <b>~35%</b> less review cycle time, and continuous coverage where sampling had been the only option.</li>
+  <li>Led risk-based audits end to end across <b>15+ business units</b> &mdash; defining populations, sample selection, control-gap identification; evaluating control design and operating effectiveness across business, finance, and technology risk.</li>
+  <li>Drove <b>consent-order remediation</b>: authored issue-closure packages and sustainable-closure evidence accepted by quality assurance and by external regulators.</li>
+  <li>Built independent assurance over enterprise AI adoption &mdash; use-case intake, risk tiering, control library, monitoring KPIs. Executive and Board Audit Committee reporting; coached 8+ auditors. Citi <i>Delivers with Pride</i> recognition.</li>
+</ul>
+
+<div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
+<div class="sub">Capital Controls &amp; Resolution and Recovery Planning | Jersey City, NJ</div>
+<ul>
+  <li><b>Automated capital and liquidity reconciliations</b>, cutting manual review <b>~40%</b> and removing a recurring source of reporting error &mdash; repeatable-process automation applied to capital data.</li>
+  <li>Led <b>CCAR</b> forecast validation and quantitative model challenge over a <b>$2.6T</b> balance sheet under SR 15-18, partnering with Finance, Treasury, and Model Risk.</li>
+  <li>Ran Resolution &amp; Recovery Planning across 50+ stakeholders in Legal, Treasury, and Operations, delivering regulator-ready submissions to the Federal Reserve and FDIC.</li>
+</ul>
+
+<div class="job"><b>Capital Controller, Basel Measurement &amp; Analytics &mdash; JPMorgan Chase</b><span class="dates">Sep 2017 &ndash; Feb 2019</span></div>
+<div class="sub">Brooklyn, NY &bull; preceded by Program Manager, CIB Resolution &amp; Recovery Planning (2015&ndash;2017)</div>
+<ul>
+  <li>Owned Basel III RWA and capital adequacy reporting across a <b>$50B</b> book of equities, fixed income, and OTC derivatives; analysis of RWA treatment surfaced <b>$180M</b> in capital optimization for CFO decision support.</li>
+</ul>
+
+<div class="job"><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi</b><span class="dates">2012 &ndash; 2015</span></div>
+<div class="sub">Tampa, FL</div>
+<ul>
+  <li><b>Consolidated 500+ legal-entity data sources into governed master data</b> &mdash; data modeling, ETL, ownership and lineage, and the data-quality controls that made it certifiable; enabled automated <b>FR 2900</b> and <b>TIC</b> filings at <b>99.8% accuracy</b>.</li>
+</ul>
+
+<div class="job"><b>Bank Examiner, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation</b><span class="dates">Apr 2011 &ndash; Mar 2012</span></div>
+<div class="sub">West Palm Beach, FL &bull; earlier: Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009)</div>
+<ul>
+  <li>Conducted CAMELS safety-and-soundness examinations alongside federal banking regulators. At RBS, built credit-risk MIS dashboards over a <b>$500M+</b> retail portfolio using SAS, SQL, and Excel/VBA, supplying weekly decisioning input to portfolio leadership.</li>
+</ul>
+
+<h2>Education</h2>
+<p class="tight"><b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, expected 2028 | GPA 3.81. Qualifying research completed Jul 2026: a designed empirical study of judgment under a persistent reference point (IRB-25-0462). Dissertation in development: automation bias in AI-assisted judgment.<br>
+<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; <b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021</p>
+
+<h2>Certifications</h2>
+<p class="tight">FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Social/Behavioral Human Research. <i>In progress:</i> CIA Part 1, IAPP AIGP.</p>
+</body>
+</html>
