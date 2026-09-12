@@ -88,7 +88,7 @@ flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 7
 # ---- Summary -----------------------------------------------------------------
 flow += section("EXECUTIVE SUMMARY")
 flow.append(Paragraph(
-    "Audit and risk executive with 20 years across Citi, JPMorgan Chase, and the Florida Office of Financial "
+    "Audit and risk executive across Citi, JPMorgan Chase, and the Florida Office of Financial "
     "Regulation, now focused on the risks generative AI introduces that legacy control frameworks do not see: "
     "sycophancy and judgment drift in AI-assisted decisions, automation bias, hallucination, adversarial input, "
     "and unmanaged third-party AI. A builder-auditor &mdash; authored an AI governance framework referencing NIST "

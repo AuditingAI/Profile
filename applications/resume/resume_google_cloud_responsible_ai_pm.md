@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Twenty years running risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **Florida OFR bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU, expected 2028) researching over-reliance on AI tools — the human-factors half of Responsible AI.
+Runs risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **Florida OFR bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU, expected 2028) researching over-reliance on AI tools — the human-factors half of Responsible AI.
 
 ## EXPERIENCE
 

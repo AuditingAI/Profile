@@ -67,7 +67,7 @@ portal.)
 | Governance forums, first-line monitoring evidence | Executive and Board Audit Committee reporting; 50+ stakeholder RRP program |
 | Stakeholders: bankers, Compliance, Engineering, Legal | RRP program spanned Legal, Treasury, Operations, Controllers, Model Risk |
 | Supervisory tools | Built the RAG monitoring assistant himself (Python/LangChain) |
-| 8–10 years, supervisory frameworks / regulatory implementation | 20 years; examiner + first-line + audit |
+| 8–10 years, supervisory frameworks / regulatory implementation | Examiner, first-line, and audit — comfortably past the bar. Do not state a career-length number. |
 
 ## The honest gap
 

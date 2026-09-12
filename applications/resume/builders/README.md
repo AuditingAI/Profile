@@ -68,6 +68,11 @@ string, the phone is present, and `\bOCC\b` matches zero times.
   needed. This was wrong on shipped documents and was purged repo-wide on
   26–27 Aug 2026; do not reintroduce it.
 
+- **Never state a career-length number** — "20 years", "15+ years", "two
+  decades", "a decade". Owner's rule, 12 Sep 2026: it dates him. Name the
+  institutions (Citi, JPMorgan Chase, Florida OFR) and let the dates on the
+  experience entries speak. Employer-specific spans ("six years at JPMorgan")
+  are fine. Purged repo-wide on 12 Sep; the verify step greps for it.
 - Phone is **+1 (786) 704-8536**. The 305 number is personal and retired.
 - **DBA in progress, expected 2028**, GPA 3.81. Never "Dr. Malik".
 - The IRB approval (IRB-25-0462) covers the **completed anchoring-bias

@@ -13,10 +13,10 @@
       "7. NEVER claim the dissertation is IRB-approved. IRB-25-0462 covers the COMPLETED anchoring-bias qualifying study only.",
       "8. Claim a role before acting on it (status: claimed) and commit, so two runners cannot submit the same application twice.",
       "9. A submission with no employer confirmation email did not happen. confirmation_ref must point at real evidence.",
-      "10. Work highest score first; among equal scores prefer sponsor_employer: true. Sponsorship is the ranking constraint on this search, not a nice-to-have."
+      "10. Work highest score first; among equal scores prefer sponsor_employer: true. Sponsorship is the ranking constraint on this search, not a nice-to-have.",
+      "11. NEVER state a career-length number - '20 years', '15+ years', 'two decades', 'a decade'. Owner's rule, 12 Sep 2026: it dates him. Name the institutions instead (Citi, JPMorgan Chase, Florida OFR). Employer-specific spans ('six years at JPMorgan') are fine - those describe a job, not an age."
     ]
   },
-
   "identity": {
     "name": "Yasir A. Malik",
     "email": "YasirAMalik@gmail.com",
@@ -27,7 +27,6 @@
     "github": "github.com/MalikAI-786",
     "site": "auditingai.github.io"
   },
-
   "facts_of_record": {
     "current_employer": "None. The Citi role ended April 2026 (layoff).",
     "most_recent_title": "Vice President, Audit Manager - Citi (Jul 2021 - Apr 2026)",
@@ -42,7 +41,10 @@
       "Registered Scrum Master",
       "GCP Social/Behavioral Human Research (AI Ethics)"
     ],
-    "certifications_in_progress": ["CIA Part 1", "IAPP AIGP"],
+    "certifications_in_progress": [
+      "CIA Part 1",
+      "IAPP AIGP"
+    ],
     "examiner_history": "Bank Examiner, Bureau of Bank Regulation, Florida Office of Financial Regulation (Apr 2011 - Mar 2012)",
     "research": {
       "completed": "Anchoring bias in long-term auditor engagements, IRB-25-0462, completed Jul 2026",
@@ -51,7 +53,6 @@
     },
     "advisory": "Founder, Audit the Algorithm (auditingai.github.io, 2024-present)"
   },
-
   "never_answer": [
     "immigration status",
     "work authorization",
@@ -61,7 +62,6 @@
     "any signature, e-signature, or attestation checkbox",
     "background-check consent"
   ],
-
   "resume": {
     "default": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
     "default_note": "The Audit the Algorithm branded GenAI-risk master. Owner's decision 3 Sep 2026: the wordmark goes on every application unless a portal rejects it.",
@@ -79,7 +79,6 @@
       "the string 'OCC' matches zero times"
     ]
   },
-
   "queue": {
     "inbox": "automation/queue/pending/",
     "done": "automation/queue/submitted/",
@@ -88,10 +87,15 @@
     "contract": "automation/AGENT_CONTRACT.md",
     "entry_format": "Every queue file carries a _rules block as its first key. Read it before acting on the file."
   },
-
   "hard_limits": {
     "portal_submission": "Cannot run from a sandboxed cloud session. JPMorgan, Goldman, and Amex run Workday/Oracle portals with bot detection that rejects headless traffic. Submission runs from automation/runner/ on Yasir's own machine, where a real browser holds a real logged-in session.",
     "what_is_actually_failing": "Volume is not the bottleneck. 168+ applications, 9 interview processes, 0 offers - roughly a 5% application-to-interview rate (normal at this level) and 0% interview-to-offer conversion. Automating submission scales the half that already works.",
     "implication": "If you are choosing between submitting ten more applications and improving one interview outcome, the second is worth more."
-  }
+  },
+  "never_write": [
+    "OCC",
+    "Dr. Malik",
+    "CIA certified",
+    "any career-length number: '20 years', '15+ years', 'two decades', 'a decade' (employer-specific spans are fine)"
+  ]
 }

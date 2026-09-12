@@ -36,6 +36,10 @@ required reading.**
    confirmations submitted zero applications.
 10. **Highest score first, sponsor employers first among ties.** Sponsorship is
     the ranking constraint on this search, not a nice-to-have.
+11. **Never state a career-length number** — "20 years", "15+ years", "two
+    decades", "a decade". Owner's rule, 12 Sep 2026: it dates him. Name the
+    institutions instead. Employer-specific spans ("six years at JPMorgan") are
+    fine — they describe a job, not an age.
 
 Machine-readable copy of all of the above, plus every fact that must be correct
 on a form: **`agent-kit/rules.json`**.
@@ -69,7 +73,7 @@ in **`agent-kit/strategy.json`**. In short:
 
 | # | Stream | What it is | Why it is on the list |
 |---|---|---|---|
-| 1 | **`gsib`** | The eight U.S. G-SIBs: JPMorgan Chase, Bank of America, Citigroup*, Goldman Sachs, Morgan Stanley, Wells Fargo, BNY, State Street | Twenty years of examiner, capital, and audit history converts directly. Largest AI-governance build-outs under SR 11-7, strongest sponsorship records. Home field. |
+| 1 | **`gsib`** | The eight U.S. G-SIBs: JPMorgan Chase, Bank of America, Citigroup*, Goldman Sachs, Morgan Stanley, Wells Fargo, BNY, State Street | The examiner, capital, and audit history converts directly. Largest AI-governance build-outs under SR 11-7, strongest sponsorship records. Home field. |
 | 2 | **`ai`** | Anthropic, Google, OpenAI, Microsoft, Scale AI, Databricks | Where the doctoral research points and where the Audit the Algorithm brand is an asset. Harder on sponsorship, far more competition — but the only stream where AI *is* the job. |
 | 3 | **`adjunct`** | Rutgers, NJIT, Montclair State, Seton Hall, CUNY, Stevens, NJCU, Pace | Universities are H-1B **cap-exempt** — the only stream where sponsorship gets structurally easier. Compounds with the dissertation. Runs alongside a corporate role, does not replace one. |
 

@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Twenty years across Citi, JPMorgan Chase, and the Florida Office of Financial Regulation. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.81, expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to over-reliance on AI — the adoption problem every AI program actually has to solve.
+Program leader who has run **50+ stakeholder regulatory programs** in financial services and who **builds AI systems personally**. Authored an AI governance framework against **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and shipped a production RAG document assistant that cut review cycle time **~35%**. Background: Citi, JPMorgan Chase, and the Florida Office of Financial Regulation. **Newark resident**, minutes from PGIM. **DBA candidate** (FIU, 3.81, expected 2028) whose completed IRB-approved study examined bias in auditor judgment, now extending to over-reliance on AI — the adoption problem every AI program actually has to solve.
 
 ## EXPERIENCE
 

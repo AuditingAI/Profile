@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Former **bank examiner** (Florida Office of Financial Regulation) who conducted safety-and-soundness examinations alongside federal banking regulators and **contributed to formal enforcement actions**, then spent a decade holding a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. Twenty years of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** (expected 2028) researching bias in professional judgment; completed an IRB-approved empirical study in July 2026 and is extending it to AI-assisted decisions — directly relevant as public agencies adopt automated decision systems.
+Former **bank examiner** (Florida Office of Financial Regulation) who conducted safety-and-soundness examinations alongside federal banking regulators and **contributed to formal enforcement actions**, then held a global institution to those standards from the inside. At Citi, led **consent-order remediation** — building the issue-closure evidence packages that quality assurance and external regulators accepted. A record of independent examination, evidence standards, and findings that survive challenge. **DBA candidate** (expected 2028) researching bias in professional judgment; completed an IRB-approved empirical study in July 2026 and is extending it to AI-assisted decisions — directly relevant as public agencies adopt automated decision systems.
 
 ## EXPERIENCE
 

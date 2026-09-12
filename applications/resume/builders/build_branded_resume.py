@@ -59,7 +59,7 @@ flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 7
 
 flow.append(Paragraph("SUMMARY", h2)); flow.append(rule())
 flow.append(Paragraph(
-    "Twenty years running risk and safety programs where a bad launch is a federal matter. Authored an "
+    "Runs risk and safety programs where a bad launch is a federal matter. Authored an "
     "AI governance framework referencing NIST AI RMF and SR 11-7 &mdash; model inventory, risk tiering, "
     "explainability, human-in-the-loop controls &mdash; and built the AI tooling it governs. Former Florida OFR "
     "bank examiner; led consent-order remediation with evidence accepted by federal regulators, which is pre-launch "

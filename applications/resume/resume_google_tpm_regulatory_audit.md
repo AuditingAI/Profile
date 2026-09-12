@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
 
 ## SUMMARY
-15+ years coordinating regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
+Coordinates regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
 
 ## EXPERIENCE
 

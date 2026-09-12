@@ -24,7 +24,8 @@ shows you the queue with what to do next. Everything an agent needs is in
 3. **Never state a credential the owner does not hold.** The DBA is in progress
    (expected 2028) — never "Dr. Malik". The CIA is in progress — never "CIA
    certified". The examiner history is the Florida Office of Financial
-   Regulation — the string "OCC" must not appear anywhere.
+   Regulation — the string "OCC" must not appear anywhere. And **never a
+   career-length number** ("20 years", "15+ years") — name the institutions.
 
 Full set, machine-readable, with every fact that must be correct on a form:
 [`agent-kit/rules.json`](agent-kit/rules.json).

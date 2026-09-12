@@ -52,7 +52,7 @@ follow-up after submitting.*
 >
 > I'm writing regarding the Inspector General position.
 >
-> I began my career as a bank examiner with the Florida Office of Financial Regulation, examining banks alongside federal banking regulators and conducting safety-and-soundness examinations and authoring workpapers that supported formal enforcement actions. Since then I've spent twenty years inside a global institution building the evidence regulators either accept or reject — most recently leading consent-order remediation at Citi, where issue-closure packages I authored were accepted by quality assurance and external regulators.
+> I began my career as a bank examiner with the Florida Office of Financial Regulation, examining banks alongside federal banking regulators and conducting safety-and-soundness examinations and authoring workpapers that supported formal enforcement actions. Since then I've worked inside global institutions building the evidence regulators either accept or reject — most recently leading consent-order remediation at Citi, where issue-closure packages I authored were accepted by quality assurance and external regulators.
 >
 > I've also worked on the oversight problem that's arriving fast for public agencies: I authored an AI governance framework referencing NIST AI RMF and SR 11-7, and my doctoral work examines bias in professional judgment — I completed an IRB-approved empirical study in July 2026 and am extending it to automation bias, when professionals defer to a system because it sounded confident. Agencies adopting automated screening and triage tools will need oversight from someone who can read the model documentation, not just the policy memo.
 >
@@ -119,7 +119,7 @@ draft existed — it did not. See the tooling note in `PIPELINE_STATUS.md`.)*
 
 > Thank you for following up on my application for Strategy and Operations Lead, Regulatory Affairs. I remain very interested.
 >
-> Twenty years in audit and risk at Citi and JPMorgan Chase, and I began my career as a bank examiner with the Florida Office of Financial Regulation — regulatory affairs from both sides of the table. At Citi I led consent-order remediation with evidence accepted by external regulators, and authored an AI governance framework referencing NIST AI RMF and SR 11-7. I also ship: a RAG document assistant that cut audit review time ~35%.
+> Audit and risk at Citi and JPMorgan Chase, and I began my career as a bank examiner with the Florida Office of Financial Regulation — regulatory affairs from both sides of the table. At Citi I led consent-order remediation with evidence accepted by external regulators, and authored an AI governance framework referencing NIST AI RMF and SR 11-7. I also ship: a RAG document assistant that cut audit review time ~35%.
 
 ---
 
@@ -129,7 +129,7 @@ draft existed — it did not. See the tooling note in `PIPELINE_STATUS.md`.)*
 
 > Hi [Name] — thanks for reaching out, and yes, I'm interested.
 >
-> Quick background: 20 years in audit and risk at Citi and JPMorgan Chase, former Florida OFR bank examiner, now focused on AI governance and model risk. I'm Newark-based and open to NYC metro or hybrid.
+> Quick background: audit and risk at Citi and JPMorgan Chase, former Florida OFR bank examiner, now focused on AI governance and model risk. I'm Newark-based and open to NYC metro or hybrid.
 >
 > Resume attached. Happy to talk this week — I'm reachable at (786) 704-8536.
 >

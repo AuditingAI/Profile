@@ -10,7 +10,7 @@ Dear Hiring Team,
 
 I am applying for the Chief Auditor, Artificial Intelligence role as an internal candidate. The dual mandate this position describes — to audit AI and to build with AI — is the work I have been doing inside Internal Audit at Citi for the past five years, at the scale of a single pilot rather than a global function. I would like to scale it.
 
-The role requires 15+ years of diversified experience across audit, technology, and data-focused mandates. My background covers all three: I have spent the last 15+ years between Citi, JPMorgan, and the Florida Office of Financial Regulation, and the last five of those translating those audit and risk fundamentals to AI specifically.
+The role asks for deep, diversified experience across audit, technology, and data-focused mandates. My background covers all three — Citi, JPMorgan, and the Florida Office of Financial Regulation — with the last five years spent translating those audit and risk fundamentals to AI specifically.
 
 Direct evidence against the JD:
 

@@ -57,6 +57,7 @@ QUEUE_RULES = {
         "Never send email as Yasir. Draft only.",
         "Never write 'OCC' - the examiner history is the Florida Office of Financial Regulation.",
         "Never write 'Dr. Malik' or 'CIA certified' - the DBA and the CIA are both in progress.",
+        "Never state a career-length number ('20 years', '15+ years', 'two decades') - name the institutions instead.",
     ],
     "facts": {
         "name": "Yasir A. Malik",

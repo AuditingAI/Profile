@@ -11,8 +11,8 @@ capital and liquidity reporting, CFO decision support, and reporting
 automation - and the audit tenure is framed as control fluency rather than as
 the main event.
 
-The honest gap is named in the summary rather than hidden: twenty years of this
-record is corporate and investment bank, not consumer. Pretending otherwise
+The honest gap is named in the summary rather than hidden: this record is
+corporate and investment bank, not consumer. Pretending otherwise
 fails at the first interview question.
 
 Run from repo root:
@@ -94,7 +94,7 @@ flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 7
 # ---- Summary -----------------------------------------------------------------
 flow += section("SUMMARY")
 flow.append(Paragraph(
-    "Twenty years in financial control, capital reporting, and business management across JPMorgan Chase and Citi. "
+    "Financial control, capital reporting, and business management across JPMorgan Chase and Citi. "
     "Six of those years were inside JPMorgan &mdash; owning Basel III RWA and capital adequacy reporting on a $50B "
     "book and surfacing $180M in capital optimization for CFO decision support, running CCAR forecast validation "
     "over a $2.6T balance sheet, and coordinating CIB regulatory deliverables across legal entities, controllers, "

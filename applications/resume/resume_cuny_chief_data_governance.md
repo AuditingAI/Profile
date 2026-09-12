@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Twenty years building enterprise data governance where the consequences of getting it wrong are federal. Centralized **500+ legal-entity data sources** into governed master data producing automated FR2900 and TIC filings at **99.8% accuracy**. Authored an AI governance framework against **NIST AI RMF and SR 11-7**; built the RAG tooling that cut review cycle time **~35%**. Former **Florida OFR bank examiner**; led consent-order remediation accepted by federal regulators. **DBA candidate** (FIU, 3.81, expected 2028) researching bias in professional judgment.
+Builds enterprise data governance where the consequences of getting it wrong are federal. Centralized **500+ legal-entity data sources** into governed master data producing automated FR2900 and TIC filings at **99.8% accuracy**. Authored an AI governance framework against **NIST AI RMF and SR 11-7**; built the RAG tooling that cut review cycle time **~35%**. Former **Florida OFR bank examiner**; led consent-order remediation accepted by federal regulators. **DBA candidate** (FIU, 3.81, expected 2028) researching bias in professional judgment.
 
 ## EXPERIENCE
 

@@ -45,7 +45,7 @@ We provide AI governance consulting that is:
 
 ## About the Founder
 
-**Yasir A. Malik** brings 20+ years of experience at Citi, JPMorgan Chase, and the Florida Office of Financial Regulation to AI governance consulting.
+**Yasir A. Malik** brings experience at Citi, JPMorgan Chase, and the Florida Office of Financial Regulation to AI governance consulting.
 
 Currently pursuing doctoral research at Florida International University investigating cognitive biases in Large Language Models and ethical moderation frameworks for responsible AI.
 
