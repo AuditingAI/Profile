@@ -220,6 +220,12 @@ def build_all() -> list[Path]:
             "Cover Letter - Goldman Sachs Office of Transformation Digital PM VP",
             0.88,
         ),
+        (
+            REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md",
+            REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.pdf",
+            "Cover Letter - BNY VP Auditor, Corporate Treasury, CIO and Risk",
+            0.92,
+        ),
     ]
     for src, dst, title, *rest in pairs:
         if src.exists():
