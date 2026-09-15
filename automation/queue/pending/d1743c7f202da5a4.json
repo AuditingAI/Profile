@@ -1,0 +1,26 @@
+{
+  "id": "d1743c7f202da5a4",
+  "discovered_at": "2026-09-15T15:12:22Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Sales Manager, AI",
+  "location": "New York or San Francisco",
+  "url": "https://stripe.com/jobs/search?gh_jid=8201700",
+  "score": 3,
+  "score_reasons": [
+    "ai-adjacent"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
