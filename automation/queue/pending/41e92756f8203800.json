@@ -1,0 +1,26 @@
+{
+  "id": "41e92756f8203800",
+  "discovered_at": "2026-09-16T15:08:12Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "Account Executive, AI Startups - Grower",
+  "location": "New York",
+  "url": "https://stripe.com/jobs/search?gh_jid=8204645",
+  "score": 4,
+  "score_reasons": [
+    "ai-adjacent"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
