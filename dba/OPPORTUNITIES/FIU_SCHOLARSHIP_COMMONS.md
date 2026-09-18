@@ -1,6 +1,6 @@
 # FIU Scholarship Commons — the institutional repository
 
-**Filed 10 September 2026.** Scholar lane. Source: the announcement from **Dr. Miguel Aguirre-Urreta,
+**Filed 10 September 2026. Sharpened 18 September** from Dr. Aguirre-Urreta's full announcement text. Scholar lane. Source: the announcement from **Dr. Miguel Aguirre-Urreta,
 Director of Doctoral Programs**, and the submission guide saved beside this file as
 [`FIU_Scholarship_Commons_guide.pdf`](FIU_Scholarship_Commons_guide.pdf).
 
@@ -16,6 +16,22 @@ The announcement sets one gate, and it is the whole story.
 
 > The repository is **not for research-in-progress work.** Work must be **externally validated**,
 > meaning accepted by somebody outside the DBA program. Dissertations are deposited elsewhere.
+
+**But the gate is lower than "a published paper," and the announcement is explicit about why.** It
+accepts **conference submissions, posters, presentations, workshops and panels**, not only journal
+articles, and Aguirre-Urreta gives the reasoning:
+
+> *"Not all conferences, workshops or meetings publish proceedings (some do not at all, and others
+> only limit them to a subset of the submissions), and therefore there is no record of your research
+> being accepted and/or presented. Those are also neither discoverable nor indexed by search engines,
+> including Google Scholar."*
+
+So the repository exists precisely for work that leaves no other trace. **An accepted AIB-LAC
+Doctoral Consortium submission is exactly the case it was built for.** Accepted or preprint versions
+of journal articles are allowed too, where the publisher's copyright policy permits.
+
+**What it still will not take:** research in progress, and the dissertation itself, which goes to a
+separate institutional repository with its own instructions.
 
 Held against that gate, the current inventory:
 
