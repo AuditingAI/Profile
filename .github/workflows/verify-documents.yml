@@ -1,0 +1,45 @@
+name: Verify documents
+
+# The harness. It answers one question on every push: can these documents be
+# attached to a real application today?
+#
+#   - every PDF is one page (the academic CV excepted), has a text layer, and
+#     extracts the name, phone and email an ATS searches for
+#   - no document or source breaks a standing content rule
+#   - every resume the pipeline can name exists and is sendable
+#   - every PDF still matches what its builder produces today
+#
+# scripts/verify_selftest.py then injects each of those failures into a
+# throwaway copy and asserts the harness catches it, so a rule that has been
+# quietly loosened shows up here rather than in front of a recruiter.
+
+on:
+  push:
+    paths:
+      - "applications/**"
+      - "automation/queue/**"
+      - "scripts/**"
+      - "agent-kit/**"
+      - ".github/workflows/verify-documents.yml"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: pip install --quiet reportlab pypdf
+
+      - name: Verify every document, rebuilding from source
+        run: python scripts/verify_documents.py --rebuild
+
+      - name: Prove the harness still catches what it claims to
+        run: python scripts/verify_selftest.py

@@ -17,6 +17,7 @@ never hand-edit a PDF.
 | `build_gs_ia_regulatory_relations_branded.py` | `Yasir_Malik_Resume_GS_IA_RegRelations_VP_Branded.pdf` — Goldman Sachs Internal Audit, Regulatory Relations VP. Branded at the owner's request. Header drawn by **`brand.py`**: the text wordmark (which is what `assets/images/logo.svg` is), or a raster mark above it the moment `assets/images/logo-mark.png` exists. Built 14 Sep 2026. | `python3 applications/resume/builders/build_gs_ia_regulatory_relations_branded.py` |
 | `build_gs_transformation_pm_branded.py` | `Yasir_Malik_Resume_GS_Transformation_PM_VP_Branded.pdf` — Goldman Sachs Office of Transformation, Digital Transformation PM VP. Branded. Built around the posting's own triad — revenue, risk and control, efficiency — as a priced table; programme delivery leads and the audit record supports. Built 14 Sep 2026. | `python3 applications/resume/builders/build_gs_transformation_pm_branded.py` |
 | `build_bny_treasury_cio_auditor_branded.py` | `Yasir_Malik_Resume_BNY_Treasury_CIO_Auditor_VP_Branded.pdf` — BNY VP Auditor, Corporate Treasury, CIO & Risk. Branded. **The best-matched role on the board**: his JPMorgan title was Risk Control Manager, Treasury & CIO, so he audits the function he ran. Leads with a table mapping each function in the role title to the seat he held in it. Built 14 Sep 2026. | `python3 applications/resume/builders/build_bny_treasury_cio_auditor_branded.py` |
+| `build_gs_hcm_data_product_branded.py` | `Yasir_Malik_Resume_GS_HCM_DataProduct_VP_Branded.pdf` — Goldman Sachs HCM Strategy, Data Program Product Management VP. Branded. **Built at the owner's explicit request after the fit was argued against** — he has never held a product-manager title. Leads with data products: the Citi GLEM legal-entity programme is promoted out of chronological order to sit first, because it is the only data product on the record. Claims no Snowflake, no Oracle HCM, no data mesh and no Jira, and the harness enforces that. Built 18 Sep 2026. | `python3 applications/resume/builders/build_gs_hcm_data_product_branded.py` |
 
 Chromium render:
 
@@ -56,6 +57,27 @@ rather than embedding `assets/images/logo.svg`. Two reasons: an ATS reads the
 brand instead of skipping an opaque graphic, and the file lands at ~6 KB
 instead of ~67 KB, which is what makes it small enough to attach to an email
 reliably.
+
+## The harness — run it, do not re-derive it
+
+```bash
+./agent-kit/run.sh verify --rebuild        # add --html to re-render the Chromium resumes
+```
+
+`scripts/verify_documents.py` runs every check on this page across every PDF in
+`applications/resume/` and `applications/cover_letters/`, plus the builders and
+markdown that generate them: one page, a real text layer, the name extracting
+contiguously, the phone and email, and every standing content rule below.
+`--rebuild` regenerates each PDF from its source and fails if the committed file
+no longer matches — which is how an edited builder with an uncommitted PDF gets
+caught. Rebuilds that change nothing are restored, so a verify run leaves no
+diff behind.
+
+`scripts/verify_selftest.py` injects each of those failures into a throwaway
+copy and asserts the harness catches it. Run it after changing a rule.
+
+The notes below explain *why* each check exists. They are not a substitute for
+running it.
 
 ## Verifying without pdftotext
 

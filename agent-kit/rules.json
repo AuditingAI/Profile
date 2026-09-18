@@ -78,7 +78,27 @@
       "'YASIR A. MALIK' extracts from the text layer as one contiguous string",
       "the phone number is present",
       "the string 'OCC' matches zero times"
-    ]
+    ],
+    "verify": {
+      "command": "./agent-kit/run.sh verify",
+      "full": "./agent-kit/run.sh verify --rebuild --html",
+      "script": "scripts/verify_documents.py",
+      "selftest": "scripts/verify_selftest.py",
+      "rule": "Never attach a document the harness has not passed. It fails the run on a red result, and the evening digest drops its attachments rather than mail a bad resume.",
+      "checks": [
+        "one page (the academic CV may run to four), a real text layer",
+        "'YASIR A. MALIK' extracts as one contiguous string - the letter-spacing trap",
+        "phone +1 (786) 704-8536 present, the retired 305 number absent, email present",
+        "no OCC, no career-length number, no 'Dr. Malik', no unqualified CIA claim",
+        "no unfilled [TO CONFIRM], no Snowflake / Oracle HCM / data mesh / Jira / R",
+        "no dissertation described as IRB-approved",
+        "every resume the discovery rules, the queue or the digest can name exists and is sendable",
+        "--rebuild: every PDF still matches what its source builds today"
+      ]
+    },
+    "blocked": {
+      "applications/resume/Yasir_Malik_CV_Academic_Branded.pdf": "Not sendable: carries [TO CONFIRM] placeholders for the graduate TA post, the SAAC tutoring, the FIU guest lectures and the Rutgers class visit. Only Yasir has those facts. Ask him; do not invent them."
+    }
   },
   "queue": {
     "inbox": "automation/queue/pending/",

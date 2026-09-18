@@ -59,10 +59,16 @@ before touching anything else.
 Other modes, if you need them:
 
 ```bash
+./agent-kit/run.sh verify      # check every document before you send one
 ./agent-kit/run.sh status      # queue counts only, no network calls
 ./agent-kit/run.sh discover    # refresh the queue, skip the briefing
 ./agent-kit/run.sh rules       # print the rules and exit
+./agent-kit/run.sh selftest    # prove the verifier still catches things
 ```
+
+`run.sh` runs `verify` as its last step and **exits non-zero if any document
+fails**. A red verify means do not apply yet — the queue is still worth
+reading, but nothing in it is safe to attach until the failures are fixed.
 
 ---
 
@@ -110,11 +116,36 @@ reach a shipped PDF until it is ported into `build_genai_risk_branded.py` and th
 PDF is regenerated. Keep the two in step or the resume you send stops matching
 the resume you designed.
 
-**Never hand-edit a PDF.** Edit the builder, regenerate, and verify four things
-every time: one page, `YASIR A. MALIK` extracts as one contiguous string, the
-phone number is present, and `OCC` matches zero times. The letter-spacing trap
-that fragments the name in the PDF text layer is documented in
-`applications/resume/builders/README.md` — do not undo that fix.
+**Never hand-edit a PDF.** Edit the builder, regenerate, and run the harness:
+
+```bash
+./agent-kit/run.sh verify --rebuild        # also: --rebuild --html
+```
+
+`scripts/verify_documents.py` is the check that used to be done by hand and was
+therefore done inconsistently. It reads every PDF in `applications/resume/` and
+`applications/cover_letters/` and asserts:
+
+- **format** — one page (the academic CV excepted), a real text layer,
+  `YASIR A. MALIK` extracting as one contiguous string, the phone and the email
+  present. The name check is the letter-spacing trap, documented in
+  `applications/resume/builders/README.md` — do not undo that fix.
+- **content** — no `OCC`, no career-length number, no "Dr. Malik", no
+  unqualified CIA claim, no unfilled `[TO CONFIRM]`, no tool he does not use,
+  no dissertation described as IRB-approved. Applied to the builders and
+  markdown sources too, so a violation is caught before it reaches a PDF.
+- **wiring** — every resume the discovery rules, the queue, or the digest can
+  name exists, is one page, and is not a superseded document.
+- **freshness** (`--rebuild`) — every PDF is regenerated from its source and
+  the extracted text compared. A PDF that no longer matches its builder is the
+  failure nobody notices. Identical rebuilds are restored so a verify run
+  leaves no diff behind.
+
+`./agent-kit/run.sh selftest` injects each of those failures into a throwaway
+copy of the repository and asserts the harness catches it. If you loosen a
+rule, that is where it shows up. Both run in CI on every push
+(`.github/workflows/verify-documents.yml`), and the evening digest runs the
+same checks and **drops its attachments** rather than mail a bad resume.
 
 ---
 

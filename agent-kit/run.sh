@@ -2,6 +2,7 @@
 # The one command. Run this first, every time.
 #
 #   ./agent-kit/run.sh            rules + streams + refresh discovery + queue
+#   ./agent-kit/run.sh verify     check every document before you send one
 #   ./agent-kit/run.sh status     queue counts and top roles, no network
 #   ./agent-kit/run.sh discover   refresh the queue only
 #   ./agent-kit/run.sh migrate    re-stamp queued roles after a config change
@@ -29,6 +30,17 @@ case "$MODE" in
   discover)
     exec "$PY" scripts/discover_jobs.py
     ;;
+
+  verify)
+    # Run this before attaching anything to a real application. --rebuild
+    # regenerates every PDF from its source and fails if the committed file
+    # no longer matches; --html also re-renders the Chromium resumes.
+    exec "$PY" scripts/verify_documents.py "${@:2}"
+    ;;
+
+  selftest)
+    exec "$PY" scripts/verify_selftest.py
+    ;;
   migrate)
     # Re-stamp already-queued roles after the default resume or the stream
     # strategy changes. Never deletes anything.
@@ -51,12 +63,28 @@ case "$MODE" in
       echo "         probably behind a proxy that blocks job boards."
     fi
 
+    echo
+    echo "=========================================================================="
+    echo "VERIFY - are the documents actually sendable"
+    echo "=========================================================================="
+    echo
+    # A failure here means do not apply yet. It never blocks discovery: the
+    # queue is still worth reading, you just cannot attach anything until the
+    # failures below are fixed.
+    "$PY" scripts/verify_documents.py || VERIFY_FAILED=1
+
     "$PY" agent-kit/brief.py --status
     "$PY" agent-kit/brief.py --next
+
+    if [ "${VERIFY_FAILED:-0}" = "1" ]; then
+      echo
+      echo "  [stop] verification failed. Fix the documents before you apply."
+      exit 1
+    fi
     ;;
   *)
     echo "unknown mode: $MODE" >&2
-    echo "use: rules | status | discover | all" >&2
+    echo "use: rules | status | discover | verify | selftest | migrate | all" >&2
     exit 2
     ;;
 esac
