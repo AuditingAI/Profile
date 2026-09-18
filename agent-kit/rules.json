@@ -98,6 +98,12 @@
     },
     "blocked": {
       "applications/resume/Yasir_Malik_CV_Academic_Branded.pdf": "Not sendable: carries [TO CONFIRM] placeholders for the graduate TA post, the SAAC tutoring, the FIU guest lectures and the Rutgers class visit. Only Yasir has those facts. Ask him; do not invent them."
+    },
+    "brand": {
+      "mark": "assets/images/logo-mark.png",
+      "mark_source": "assets/images/logo-mark.svg",
+      "note": "The A monogram in the brand gold, drawn at the top of every branded resume above the wordmark. Every branded builder draws it through applications/resume/builders/brand.py - replace the PNG and rerun the builders to change it everywhere; delete it and they fall back to the wordmark alone.",
+      "unbranded_on_purpose": "The Chromium-built Goldman resumes carry no mark: Goldman requires outside-business-activity disclosure and a consulting mark raises it early."
     }
   },
   "queue": {

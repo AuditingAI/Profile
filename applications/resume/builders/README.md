@@ -50,6 +50,36 @@ After any header change, verify:
 pdftotext out.pdf - | grep -c "YASIR A. MALIK"   # must be 1, not 0
 ```
 
+## The A mark
+
+`assets/images/logo-mark.svg` (and its 600px raster twin `logo-mark.png`) is the
+**A monogram**: the letter in the brand gold gradient (#B8860B → #DAA520), with
+the crossbar drawn as a hairline rule that runs clean through the letter and
+past both stems — the same rule that separates sections on the resume, so the
+mark and the document read as one system.
+
+Every branded builder draws it through `brand.py`, so it appears once, at the
+top, above the wordmark, which drops to a supporting line beneath it. The mark
+is 0.38 in tall; larger pushed the broad master onto a second page.
+
+**To swap in a different mark** (for example the one in Google Drive,
+`Edu_Photo_Audit_the_Algorithm_Logo.png`): replace
+`assets/images/logo-mark.png`, keep it square-ish and under ~600 px wide, then
+
+```bash
+cd applications/resume && for b in builders/build_*.py; do python3 "$b"; done
+python3 scripts/verify_documents.py --rebuild
+```
+
+Nothing else changes — `brand.py` picks the file up by path. Delete the file and
+every builder falls back to the wordmark alone.
+
+The unbranded Chromium resumes (`gs-gbm-src-vp.html`,
+`gs-ia-data-analytics-vp.html`, `genai-risk-master.html`,
+`master-resume-no-url.html`) carry no mark **on purpose** — Goldman requires
+outside-business-activity disclosure, and a consulting mark raises that question
+before anyone has read the first line.
+
 ## Why the branded resume draws the wordmark as text
 
 `build_branded_resume.py` renders "Audit the Algorithm" with coloured text

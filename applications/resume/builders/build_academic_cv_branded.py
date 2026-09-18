@@ -29,12 +29,15 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Table, TableStyle
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from brand import brand_block  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "applications" / "resume" / "Yasir_Malik_CV_Academic_Branded.pdf"
 
 GOLD = HexColor("#B8860B")
 MUTED = HexColor("#6F6754")
-S = float(sys.argv[1]) if len(sys.argv) > 1 else 0.92
+S = float(sys.argv[1]) if len(sys.argv) > 1 else 0.90  # 0.90 holds two pages with the mark in the header
 
 body = ParagraphStyle("body", fontName="Times-Roman", fontSize=9.2 * S,
                       leading=11.6 * S, alignment=TA_JUSTIFY, spaceAfter=2.4 * S)
@@ -93,8 +96,7 @@ usable = LETTER[0] - 1.1 * inch
 flow = []
 
 # ---- Header --------------------------------------------------------------------
-flow.append(Paragraph('<font color="#B8860B"><b>Audit</b></font> <font color="#6F6754"><i>the</i></font> '
-                      '<font color="#B8860B"><b>Algorithm</b></font>', mark))
+flow += brand_block(mark)
 flow.append(Paragraph("YASIR A. MALIK", name))
 flow.append(Paragraph("Curriculum Vitae", cvline))
 flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; "

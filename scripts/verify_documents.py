@@ -199,6 +199,26 @@ def normalise(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def fingerprint(path: Path) -> str:
+    """What a rebuild must reproduce: the text AND the embedded images.
+
+    Text alone is not enough. Adding the brand mark to every letterhead changes
+    no text at all, so a text-only comparison reported "unchanged" and the
+    restore step then reverted every rebuilt PDF - silently undoing the change
+    it was meant to verify. The image digest closes that hole.
+    """
+    reader = PdfReader(str(path))
+    text = normalise("\n".join((page.extract_text() or "") for page in reader.pages))
+    images = []
+    for page in reader.pages:
+        try:
+            for img in page.images:
+                images.append(f"{img.name}:{len(img.data)}")
+        except Exception:
+            images.append("unreadable-image")
+    return text + "\x00IMAGES\x00" + "|".join(sorted(images))
+
+
 # ---------------------------------------------------------------------------
 # Checks
 # ---------------------------------------------------------------------------
@@ -422,37 +442,36 @@ def discover_builders() -> dict[Path, Path]:
     return out
 
 
-def git_restore(paths: list[Path]) -> None:
-    """Undo timestamp-only churn so a verify run leaves no diff behind.
+def restore(originals: dict[Path, bytes]) -> None:
+    """Put back the exact bytes that were on disk before the rebuild.
 
-    Every PDF carries its build time in /CreationDate, so a rebuild that
-    changes nothing still rewrites the bytes. Restoring the identical files
+    Every PDF stamps its build time into /CreationDate, so a rebuild that
+    changes nothing still rewrites the file. Writing the original bytes back
     keeps `git status` meaningful: what is left modified after a verify run is
-    exactly what actually changed.
+    what actually changed.
 
-    Untracked paths are filtered out first - `git checkout` fails the whole
-    invocation on one unmatched pathspec, which silently restored nothing.
+    This restores the PRE-RUN bytes, not the last commit. An earlier version
+    ran `git checkout --` here, which reverted uncommitted work - a verify run
+    could silently undo the change it was being run to check.
     """
-    if not paths:
-        return
-    listed = subprocess.run(["git", "ls-files", "--", *[str(p) for p in paths]],
-                            cwd=ROOT, capture_output=True, text=True, check=False)
-    tracked = [line for line in listed.stdout.splitlines() if line]
-    if not tracked:
-        return
-    subprocess.run(["git", "checkout", "--", *tracked],
-                   cwd=ROOT, check=False,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    for path, data in originals.items():
+        try:
+            if path.read_bytes() != data:
+                path.write_bytes(data)
+        except OSError:
+            pass
 
 
 def check_freshness(rep: Report, include_html: bool) -> None:
     before: dict[Path, str] = {}
+    original_bytes: dict[Path, bytes] = {}
     targets: list[Path] = []
 
     builders = discover_builders()
     for script, output in builders.items():
         if output.exists():
-            before[output] = normalise(pdf_text(output)[0])
+            before[output] = fingerprint(output)
+            original_bytes[output] = output.read_bytes()
         targets.append(output)
 
     sys.path.insert(0, str(ROOT / "scripts"))
@@ -460,7 +479,8 @@ def check_freshness(rep: Report, include_html: bool) -> None:
 
     for src, dst, *_ in _build_all_pairs(build_pdfs):
         if dst.exists():
-            before[dst] = normalise(pdf_text(dst)[0])
+            before[dst] = fingerprint(dst)
+            original_bytes[dst] = dst.read_bytes()
 
     for script, output in builders.items():
         result = subprocess.run([sys.executable, str(script)], cwd=RESUMES,
@@ -477,19 +497,19 @@ def check_freshness(rep: Report, include_html: bool) -> None:
     if include_html:
         _rebuild_html(rep, before)
 
-    unchanged: list[Path] = []
+    unchanged: dict[Path, bytes] = {}
     for path, old in before.items():
         if not path.exists():
             rep.fail(rel(path), "disappeared", "the rebuild did not produce it")
             continue
-        new = normalise(pdf_text(path)[0])
+        new = fingerprint(path)
         if new == old:
-            unchanged.append(path)
+            unchanged[path] = original_bytes[path]
         else:
             rep.fail(rel(path), "stale",
                      "the committed PDF does not match what its source builds "
                      "today - the rebuilt file is now in place; review and commit it")
-    git_restore(unchanged)
+    restore(unchanged)
 
     for path in targets:
         if not path.exists():
@@ -531,7 +551,7 @@ def _rebuild_html(rep: Report, before: dict[Path, str]) -> None:
             if not built.exists():
                 rep.warn(rel(src), "chromium produced nothing", "")
                 continue
-            if normalise(pdf_text(built)[0]) != normalise(pdf_text(dst)[0]):
+            if fingerprint(built) != fingerprint(dst):
                 rep.fail(rel(dst), "stale (HTML)",
                          f"{source} renders different text than the committed PDF")
     finally:

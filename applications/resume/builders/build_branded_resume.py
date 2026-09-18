@@ -10,6 +10,11 @@ from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from brand import brand_block  # noqa: E402
 
 GOLD = HexColor("#B8860B")
 MUTED = HexColor("#6F6754")
@@ -48,10 +53,7 @@ def job(title, dates):
 
 
 flow = []
-flow.append(Paragraph(
-    f'<font color="#B8860B"><b>Audit</b></font> '
-    f'<font color="#6F6754"><i>the</i></font> '
-    f'<font color="#B8860B"><b>Algorithm</b></font>', mark))
+flow += brand_block(mark)
 flow.append(Paragraph("YASIR A. MALIK", name))
 flow.append(Paragraph("Responsible AI Program Manager &mdash; Governance, Safety Standards &amp; Enterprise Trust", tag))
 flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; "

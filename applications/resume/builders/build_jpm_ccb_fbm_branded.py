@@ -30,6 +30,10 @@ from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import inch
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Table, TableStyle
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from brand import brand_block  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "applications" / "resume" / "Yasir_Malik_Resume_JPM_CCB_FBM_Branded.pdf"
@@ -80,10 +84,7 @@ def section(title):
 flow = []
 
 # ---- Brand + identity --------------------------------------------------------
-flow.append(Paragraph(
-    '<font color="#B8860B"><b>Audit</b></font> '
-    '<font color="#6F6754"><i>the</i></font> '
-    '<font color="#B8860B"><b>Algorithm</b></font>', mark))
+flow += brand_block(mark)
 flow.append(Paragraph("YASIR A. MALIK", name))
 flow.append(Paragraph("AI Valuation Chief of Staff, Vice President &mdash; Finance &amp; Business Management | Financial Control "
                       "&bull; Capital &amp; Liquidity Reporting &bull; AI Governance &bull; Reporting Automation", tag))
