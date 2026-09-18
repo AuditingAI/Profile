@@ -24,3 +24,7 @@ chapter can be traced to the run that produced it, the query that found it, and 
 | — | — | — | — | **No runs yet** |
 
 Update this table after each run. One line, not a summary.
+
+| Date | Runbook | Screened | Captured | Headline |
+|---|---|---|---|---|
+| 2026-09-18 | RB01 | ~60 | 3 | **Nkansa & Bailey (2018)**: auditor survey response rates declined significantly across 75 published surveys, 1981-2016. Gives P1 a literature and names sponsorship as the untried remedy |
