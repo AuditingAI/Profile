@@ -220,6 +220,33 @@ def build_all() -> list[Path]:
             "Cover Letter - Goldman Sachs Office of Transformation Digital PM VP",
             0.88,
         ),
+        # Score-5 packages drafted 29 Aug and never built. A letter that
+        # exists only as markdown cannot be attached to anything, which is the
+        # same as not having written it.
+        (
+            REPO_ROOT / "applications/cover_letters/jpm_control_mgmt_ai_transformation_vp.md",
+            REPO_ROOT / "applications/cover_letters/jpm_control_mgmt_ai_transformation_vp.pdf",
+            "Cover Letter - JPMorgan Control Management VP, Innovation & AI Transformation",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/jpm_financial_analysis_bb_pxt_vp.md",
+            REPO_ROOT / "applications/cover_letters/jpm_financial_analysis_bb_pxt_vp.pdf",
+            "Cover Letter - JPMorgan VP Financial Analysis, Business Banking PXT",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/ms_capital_data_risk_vp.md",
+            REPO_ROOT / "applications/cover_letters/ms_capital_data_risk_vp.pdf",
+            "Cover Letter - Morgan Stanley VP, Capital & Data Risk",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
+            REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
+            "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
+            0.88,
+        ),
         (
             REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md",
             REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.pdf",
