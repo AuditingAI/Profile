@@ -2,6 +2,27 @@
 
 A curated subset of the broader filtered list (`scholar-links-filtered.md`), selected for methodological depth and topical breadth. Read in roughly this order: foundations → methodology → sub-area deep-dives.
 
+
+## 2026-09-18 · weekly brief intake, verified before entry
+
+Eight sources arrived in an externally produced weekly brief. **Seven verified, one could not be
+found.** Full verification, exact citations and download routes:
+[`dba/00_Execution/BRIEF_VERIFICATION_2026-09-18.md`](dba/00_Execution/BRIEF_VERIFICATION_2026-09-18.md).
+
+**All rows below are `read_state: lead`. None has been read in full. None may enter a chapter yet.**
+
+| Source | Bears on | Status |
+|---|---|---|
+| Mody, arXiv `2609.14245`, *Attribution-compression frontier in RAG* | **L3** | ✅ verified. 0.86 citation precision against summaries, **0.12 against source spans**. Closest thing yet to L3 measured directly |
+| Awuni et al., arXiv `2609.17857`, *Who judges matters* | L3 | ✅ verified. 9,312 judgments, same-family lift 3.4 to 8.4pp |
+| Gharsallah et al., arXiv `2609.15561`, *Can we trust the judges?* | L2, evaluation | ✅ verified |
+| Hummel et al. (2026), *MAJ* 41(5), 897-925 | Anchoring, DVs | ✅ verified. 284 auditors. **Separates search effort from judgment**, which the dissertation's DVs currently conflate |
+| Brazel, Leiby & Schaefer (2025), *JBE* 196(2), 439-450 | Incentives moderator | ✅ verified |
+| Vickneswaran (2026), *IJDG* | Tenure literature | ✅ verified, **open access** |
+| Cating, Hale & Valentine (2026), *Advances in Accounting* | Confidence | ✅ verified. Third author forename unresolved |
+| Hummel, *Exploring intuition in auditing*, *IJA* | Anchoring | 🔴 **NOT FOUND. Do not cite** |
+
+
 ## 1. Start here — surveys & foundational frameworks (read first, ~5 papers)
 
 These give you the landscape and vocabulary.
