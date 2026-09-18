@@ -74,6 +74,12 @@ QUEUE_RULES = {
 RESUME_RULES: list[tuple[str, str]] = [
     (r"\b(treasury|chief investment office|\bcio\b|capital adequacy).*\b(audit|auditor)|\b(audit|auditor)\b.*\b(treasury|chief investment office)",
      "applications/resume/Yasir_Malik_Resume_BNY_Treasury_CIO_Auditor_VP_Branded.pdf"),
+    # Narrow on purpose: it must be a DATA product role, not product
+    # management generally. He has never held a product-manager title, and a
+    # broad "product manag" rule would route ordinary PM postings to a resume
+    # that argues a case he can only make about data.
+    (r"\b(data product|data program product|product manag\w*[^.]{0,30}\bdata\b)",
+     "applications/resume/Yasir_Malik_Resume_GS_HCM_DataProduct_VP_Branded.pdf"),
     (r"\b(regulatory relation|regulatory affair|regulatory liaison|examination manag)",
      "applications/resume/Yasir_Malik_Resume_GS_IA_RegRelations_VP_Branded.pdf"),
     (r"\b(data analytic|data scien|analytics lead|quantitative analy)",
