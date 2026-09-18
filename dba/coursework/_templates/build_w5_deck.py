@@ -222,6 +222,42 @@ for who,head,body,crit,col in a:
 txt("NOBODY REPORTS INTER-CODER AGREEMENT. THREE DIFFERENT DEFENCES, ALL UNSTATED.",M,H-56,MONOB,8,MUTE,track=1.3)
 chrome(); c.showPage()
 
+# ACTIVITY A · ring 1
+COLW=(W-2*M-36)/2
+ground(); crest()
+eyebrow("Hands-on activity  ·  ring 1",112,RUST)
+title("We had a data problem before we had data",140,size=27)
+para("The artifacts were collected onto loose sheets. Before any coding was possible, the record had "
+     "to survive being read by someone who was not in the room.",
+     M,190,W-2*M,BODY,14.5,BODYC,lead=20)
+box(M,254,COLW,196,fill=WHITE,stroke=RUST,lw=1.4,r=4); box(M,254,COLW,5,fill=RUST)
+txt("WHAT THE SHEETS ACTUALLY SAID",M+18,278,MONOB,9,RUST,track=1.5)
+for i,ln in enumerate(["One sheet numbered 1 to 6",
+                       "Another began at \u201cItem 10\u201d",
+                       "A third began at \u201cItem 3\u201d",
+                       "The back of one restarted at 1, 2, 3",
+                       "Some items carried an owner. Some did not"]):
+    txt("\u00b7  "+ln,M+18,302+i*26,BODY,13,BODYC)
+box(M+COLW+36,254,COLW,196,fill=WARM,stroke=GOLD,r=4); box(M+COLW+36,254,COLW,5,fill=GOLD)
+txt("WHY THAT IS NOT HOUSEKEEPING",M+COLW+54,278,MONOB,9,HexColor("#8A6A1F"),track=1.5)
+para("\u201ciPad\u201d appears on two sheets. Nothing in the record tells us whether that is two iPads or "
+     "one iPad written down twice. Every count downstream inherits that.",
+     M+COLW+54,302,COLW-36,BODY,13,BODYC,lead=17)
+para("The fix is one row per object with an owner ID attached: P01-01 Yasir, Beats headphones.",
+     M+COLW+54,392,COLW-36,DISPI,12.5,INK,lead=16)
+box(M,458,W-2*M,46,fill=SOFT,r=4)
+para("Ring 1 is not filing. Get it wrong and rings 3 and 4 inherit the error without knowing it.",
+     M+20,470,W-2*M-40,DISPI,13.5,INK,lead=17)
+chrome(); c.showPage()
+
+figslide("w5_fig5_ladder.png","Hands-on activity  ·  ring 3","Our data structure, in Gerlach's format",
+ "Seven objects, four categories, three themes, in twenty minutes. Nobody was asked for a brand and every "
+ "qualifier was volunteered, which is precisely what makes the left column in vivo rather than ours.")
+
+figslide("w5_fig4_quadrant.png","Hands-on activity  ·  rings 4 and 5","What the artifacts turned out to be for",
+ "A third of the objects produce nothing at all. The phone and the iPad could not be placed, because they "
+ "enable the work and interrupt it, and we had no category for that. The unplaceable case is the finding.")
+
 # 8 FOR MY STUDY
 ground(); crest()
 eyebrow("What this changes for my proposal",112,GOLD)
