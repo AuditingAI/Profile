@@ -69,7 +69,7 @@ CUES = [
  (3,"1:15","GAP + QUESTION","Read the question off the slide. Land: parameter, not limitation.","signpost",None),
  (4,"1:55","THE MODEL","Four terms, four levels. Product, not a sum. Free on the interface.","",None),
  (5,"3:10","BINDING FRAME","ASK THE ROOM: who has read a paper with one overall response rate?","ask",RUST),
- (6,"4:40","FIVE HYPOTHESES","Name them, do not read them. Four papers, one argument.","",None),
+ (6,"4:40","FIVE HYPOTHESES","Signs: H1 monotone, H2 +, H3 +, H4 greater, H5 −. Say why two are unsigned.","signs",None),
  (7,"5:20","H1","Spain AND China. A conjunction. Breadth is fragility, not ambition.","",None),
  (8,"6:10","H2 AND H3","320 of 380. A panel is a firm and its product is entirely downstream.","",None),
  (9,"7:10","H4 AND H5","Harzing 47% by phone. Zeng is mine-vs-theirs: say which is which.","signpost",None),

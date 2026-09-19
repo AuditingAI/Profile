@@ -139,10 +139,21 @@ SAY:
 "H1 is the binding frame. H2 and H3 come from regionalization.
  H4 is level of analysis. H5 is standardization against response."
 
+NOW THE SIGN COLUMN. Do not skip it, it is the cheapest credibility
+in the deck:
+"H2 and H3 are positive. H5 is negative. H1 is monotone, not signed,
+ because it is analytic and there is no coefficient to estimate. And
+ H4 is a comparison of variance components, not a direction. Which
+ mode is higher is a different question, and this design does not
+ answer it."
+
 "I will take H1 on its own, then H2 and H3 together, then H4 and H5."
 
->> CUE: run your hand down the column once. Do not read the boxes.
->> KEYWORD: five hypotheses, four papers, one argument.
+>> IF ASKED why H5's main effect could come out flat: the support is
+>> the interaction. A strong frame absorbs standardization. A weak one
+>> cannot. A null main effect does not sink H5.
+>> CUE: run your hand down the sign column once. Do not read the boxes.
+>> KEYWORD: five hypotheses, four papers, two of them deliberately unsigned.
 """,
 
 # 7 H1

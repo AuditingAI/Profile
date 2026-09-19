@@ -64,6 +64,25 @@ Say these **exactly**. They are the phrases that carry the argument.
 | **Binding frame** | "The design is priced by its weakest frame, not its average one." |
 | **Downstream asset** | "A panel's entire product is downstream. Its membership, and its standing with them." |
 
+### The signs, and the two that have none
+
+| | Sign | What it is on |
+|---|---|---|
+| **H1** | monotone, not signed | Adding a frame can only lower joint feasibility or leave it level |
+| **H2** | **positive** | Home-region concordance raises specialist prevalence |
+| **H3** | **positive** | The narrower the population, the larger the coverage discrepancy |
+| **H4** | greater, not signed | Mode accounts for more variance than country. A comparison, not a direction |
+| **H5** | **negative** | Standardization lowers response, and the interaction is negative too |
+
+Say the unsigned two out loud rather than waiting to be asked. **H1 is analytic**, so there is no
+coefficient to estimate and a p-value would dress a deductive result as an empirical one. **H4
+compares variance components**, so which mode is higher is a different question this design does
+not answer.
+
+**And the trap in H5.** The support is the interaction, not the main effect. A strong frame absorbs
+standardization with little visible loss, a weak frame cannot, so the main effect can come out near
+zero while H5 holds. A null main effect does not sink it.
+
 ### The numbers, in order
 
 **334,976** screened · **20** eligible · **4** usable · **6 per hundred thousand**
@@ -127,6 +146,11 @@ Say these **exactly**. They are the phrases that carry the argument.
 > "It does, and I say so on the slide. Harzing's forty-seven percent in Korea was telephone, and it
 > beats the whole country spread by five times. One observation is not evidence. It is the reason
 > this is a hypothesis and not a finding."
+
+**"Which of these are directional?"**
+> "H2 and H3 are positive, H5 is negative. H1 and H4 carry no coefficient, and that is deliberate.
+> H1 is analytic, so there is nothing to estimate. H4 compares variance components rather than
+> predicting a direction. Both are marked unsigned on the slide."
 
 **"Is the triad the right way to cut region?"**
 > "That is the question I am least sure about. After the residency readings, Fainshmidt and

@@ -208,20 +208,29 @@ chrome()
 ground(); crest()
 element(3, "Preliminary hypotheses, and their justification")
 title("Five hypotheses", 140, size=27)
-hyps = [("H1", "Joint feasibility is set by the least feasible frame, not the mean. Adding a country can only weakly decrease it.", "Analytic  ·  the structure of a conjunction", BLUE),
-        ("H2", "Specialist prevalence on a panel is higher inside the panel provider's home region.", "Rugman & Verbeke (2004)", TEAL),
-        ("H3", "Studies described as cross-national achieve regionally concentrated coverage, more so as the population narrows.", "Lopez, Kundu & Ciravegna (2009)", TEAL),
-        ("H4", "Mode explains more variance in response than country does.", "Meyer, Li & Schotter (2020)", RUST),
-        ("H5", "Standardization is negatively associated with response, worst in the frames that already bind.", "Zeng et al. (2023)", GOLD)]
+# sign: what each hypothesis predicts, and where there is nothing to predict.
+# H1 is analytic and H4 compares variance components, so neither carries a
+# coefficient. Saying so on the slide is cheaper than being asked for one.
+hyps = [("H1", "≤", "MONOTONE", "Joint feasibility is set by the least feasible frame, not the mean. Adding a country can only weakly decrease it.", "Analytic  ·  the structure of a conjunction", BLUE),
+        ("H2", "+", "POSITIVE", "Specialist prevalence on a panel is higher inside the panel provider's home region.", "Rugman & Verbeke (2004)", TEAL),
+        ("H3", "+", "POSITIVE", "Studies described as cross-national achieve regionally concentrated coverage, more so as the population narrows.", "Lopez, Kundu & Ciravegna (2009)", TEAL),
+        ("H4", ">", "GREATER", "Mode explains more variance in response than country does.", "Meyer, Li & Schotter (2020)", RUST),
+        ("H5", "−", "NEGATIVE", "Standardization is negatively associated with response, worst in the frames that already bind.", "Zeng et al. (2023)", GOLD)]
 txt("EACH TAKES ITS LOGIC FROM ONE OF THIS WEEK'S FOUR PAPERS", M, 176, MONOB, 8, MUTE, track=1.4)
-tt = 196
-for tag, body, src, col in hyps:
-    box(M, tt, W - 2 * M, 58, fill=WHITE, stroke=RULE, r=3)
-    box(M, tt, 44, 58, fill=col, r=3)
-    txt(tag, M + 22, tt + 20, MONOB, 15, WHITE, align="c")
-    para(body, M + 60, tt + 12, W - 2 * M - 360, BODY, 12.5, INK, lead=15.5)
-    txt(src.upper(), W - M - 20, tt + 24, MONOB, 8, col, track=1.2, align="r")
-    tt += 62
+txt("SIGN", M + 71, 190, MONOB, 7, MUTE, track=1.2, align="c")
+tt = 198
+for tag, sign, slab, body, src, col in hyps:
+    box(M, tt, W - 2 * M, 52, fill=WHITE, stroke=RULE, r=3)
+    box(M, tt, 40, 52, fill=col, r=3)
+    txt(tag, M + 20, tt + 17, MONOB, 14, WHITE, align="c")
+    txt(sign, M + 71, tt + 12, DISP, 20, col, align="c")
+    txt(slab, M + 71, tt + 37, MONOB, 6.5, MUTE, track=0.8, align="c")
+    para(body, M + 104, tt + 10, 460, BODY, 12.5, INK, lead=15.5)
+    txt(src.upper(), W - M - 20, tt + 21, MONOB, 8, col, track=1.2, align="r")
+    tt += 56
+txt("UNSIGNED ON PURPOSE", M, 480, MONOB, 8, RUST, track=1.4)
+txt("H1 is analytic, so there is no coefficient to estimate. H4 compares variance components "
+    "rather than predicting a direction.", M + 150, 481, BODY, 11, BODYC)
 chrome()
 
 # ---- 7 H1 --------------------------------------------------------------
