@@ -90,7 +90,7 @@ def chrome(light=False):
     fg = HexColor("#7E93A8") if light else MUTE
     rule(H-32,color=HexColor("#1B3252") if light else RULE)
     txt("Yasir A. Malik  ·  Cohort 8.14",M,H-24,MONOB,8.5,fg,track=1.1)
-    txt("GEB 7365  ·  Project Presentation  ·  27 September 2026",W/2,H-24,MONO,8.5,fg,align="c")
+    txt("GEB 7365  ·  Project Presentation  ·  19 September 2026",W/2,H-24,MONO,8.5,fg,align="c")
     txt(f"{_n[0]}",W-M,H-24,MONOB,8.5,GOLD,align="r")
 def ground(dark=False):
     c.setFillColor(BLUE if dark else PAPER); c.rect(0,0,W,H,fill=1,stroke=0)
@@ -115,7 +115,7 @@ title("populations can and cannot be executed",274,size=24,color=HexColor("#B9C7
 rule(330,color=HexColor("#1B3252"))
 txt("YASIR A. MALIK",M,352,MONOB,11,GOLD,track=2.0)
 txt("Doctor of Business Administration  ·  Cohort 8.14",M,372,BODY,13,HexColor("#8FA3BC"))
-txt("Instructor: Prof. William Newburry  ·  27 September 2026",M,392,BODY,13,HexColor("#8FA3BC"))
+txt("Instructor: Prof. William Newburry  ·  19 September 2026",M,392,BODY,13,HexColor("#8FA3BC"))
 box(W-M-300,150,300,258,fill=HexColor("#0E2949"),r=4)
 txt("THE EVIDENCE IS MY OWN FAILED STUDY",W-M-276,176,MONOB,8.5,GOLD,track=1.4)
 txt("334,976",W-M-276,204,DISP,40,WHITE)
