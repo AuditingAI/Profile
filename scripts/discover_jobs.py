@@ -80,6 +80,8 @@ RESUME_RULES: list[tuple[str, str]] = [
     # that argues a case he can only make about data.
     (r"\b(data product|data program product|product manag\w*[^.]{0,30}\bdata\b)",
      "applications/resume/Yasir_Malik_Resume_GS_HCM_DataProduct_VP_Branded.pdf"),
+    (r"\b(third.part|vendor risk|vendor manag|supplier risk|outsourcing risk|procurement)",
+     "applications/resume/Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf"),
     (r"\b(regulatory relation|regulatory affair|regulatory liaison|examination manag)",
      "applications/resume/Yasir_Malik_Resume_GS_IA_RegRelations_VP_Branded.pdf"),
     (r"\b(data analytic|data scien|analytics lead|quantitative analy)",

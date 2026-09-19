@@ -160,6 +160,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "genai-risk-master.html": "Yasir_Malik_Resume_GenAI_Risk_Master.pdf",
     "gs-gbm-src-vp.html": "Yasir_Malik_Resume_GS_GBM_SRC_VP.pdf",
     "gs-ia-data-analytics-vp.html": "Yasir_Malik_Resume_GS_IA_DataAnalytics_VP.pdf",
+    "blackstone-tprm-miami.html": "Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
