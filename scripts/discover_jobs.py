@@ -91,6 +91,8 @@ RESUME_RULES: list[tuple[str, str]] = [
     (r"\b(cib|commercial.*investment|capital|basel|treasury|liquidity|"
      r"regulatory report|financial control)\b",
      "applications/resume/Yasir_Malik_Resume_JPM_CIB_Finance_Audit.pdf"),
+    (r"\b(trust and safety|trust &amp; safety|ai safety|frontier|foundation model)",
+     "applications/resume/Yasir_Malik_Resume_Google_CoreAIFoundations_VP_Branded.pdf"),
     (r"\b(responsible ai|ai governance|ai risk|model risk|ai polic)\b",
      "applications/resume/Yasir_Malik_Resume_Google_CloudRAI_Branded.pdf"),
     # No trailing \b on stems: "program manag" must match "Program Management",
