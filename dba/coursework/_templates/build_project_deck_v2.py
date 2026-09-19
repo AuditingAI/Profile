@@ -164,14 +164,15 @@ title("The gap, and the question",140,size=27)
 rows=[("THE TOPIC","Reaching a narrow specialist professional population in several national frames at once.",SOFT,BLUE),
       ("THE RECEIVED WISDOM","Sampling difficulty is an execution problem. It belongs to budget and local partners, and it appears in print as a limitation paragraph.",PALE,MUTE),
       ("THE GAP","Nobody has asked what happens when the population is rare. The quantities that decide it are observable before fielding, and they compound across frames.",WARM,GOLD),
-      ("THE RESEARCH QUESTION","Under what conditions is a comparative multi-country design on a narrow specialist population feasible at all, and where must a survey give way to another method?",SOFT,BLUE)]
-tt=186
+      ("THE RESEARCH QUESTION","Under what conditions is a comparative multi-country design on a narrow specialist population feasible at all, and where must a survey give way to another method?",SOFT,BLUE),
+      ("THE CONTRIBUTION","To move sampling feasibility from the status of a LIMITATION to the status of a PARAMETER. A parameter is estimated before a design and constrains it. A limitation is confessed after the design has failed.",WARM,GOLD)]
+tt=172
 for lab,body,fill,accent in rows:
-    box(M,tt,W-2*M,72,fill=fill,r=3)
-    box(M,tt,4,72,fill=accent)
-    txt(lab,M+20,tt+13,MONOB,9,accent,track=1.6)
-    para(body,M+20,tt+30,W-2*M-44,BODY,12.5,BODYC,lead=16.5)
-    tt+=80
+    box(M,tt,W-2*M,58,fill=fill,r=3)
+    box(M,tt,4,58,fill=accent)
+    txt(lab,M+20,tt+10,MONOB,9,accent,track=1.6)
+    para(body,M+20,tt+25,W-2*M-44,BODY,11.5,BODYC,lead=15)
+    tt+=65
 chrome(); c.showPage()
 
 # ═══ 4 · ELEMENT 2 — the model ═══
@@ -348,6 +349,34 @@ for lab,body in cells:
     tt+=52
 txt("NO DATA HAVE BEEN COLLECTED FOR THIS PROJECT. THIS IS THE DESIGN, NOT A RESULT.",
     M,H-56,MONOB,8,RUST,track=1.4)
+chrome(); c.showPage()
+
+# ═══ 10b · ELEMENT 4 — variable measures ═══
+ground(); crest()
+element(4,"How I would study it empirically  ·  variable measures")
+title("What gets measured, and how",140,size=27)
+box(M,182,W-2*M,78,fill=SOFT,r=4)
+txt("DEPENDENT VARIABLE",M+20,200,MONOB,9,BLUE,track=1.5)
+txt("Reachable usable sample  =  frame size  x  prevalence  x  response rate  x  screen survival",
+    M+20,220,BODY,13.5,INK)
+txt("Second DV for H4 and H5: achieved response rate, where a published study reports it",
+    M+20,242,BODY,11.5,BODYC)
+iv=[("H2","Region concordance","Binary. Does the national frame fall inside the provider's home region, on the triad classification",TEAL),
+    ("H3","Coverage discrepancy","Regional concentration implied by a study's stated design, minus the concentration of its achieved responses",GOLD),
+    ("H4","Mode","Categorical. Telephone, email or platform panel, face to face, mixed",RUST),
+    ("H5","Standardization index","Constructed over item wording, length, incentive, sponsorship and contact protocol held constant across frames",BLUE)]
+tt=266
+txt("INDEPENDENT VARIABLES",M,276,MONOB,9,BLUE,track=1.5)
+tt=290
+for tag,name,desc,col in iv:
+    box(M,tt,W-2*M,42,fill=WHITE,stroke=RULE,r=3)
+    box(M,tt,34,42,fill=col,r=3); txt(tag,M+17,tt+14,MONOB,11,WHITE,align="c")
+    txt(name,M+48,tt+12,DISP,13,INK)
+    txt(desc,M+230,tt+14,BODY,11,BODYC)
+    tt+=47
+txt("CONTROLS",M,486,MONOB,9,BLUE,track=1.5)
+txt("Prevalence  ·  frame size  ·  eligibility strictness, as the count of conjunctive screening criteria  ·  incentive at PPP  ·  field period  ·  year",
+    M+100,488,BODY,11,BODYC)
 chrome(); c.showPage()
 
 # ═══ 11 · ELEMENT 5 — analysis plan ═══
