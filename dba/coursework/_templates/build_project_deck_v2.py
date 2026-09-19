@@ -165,14 +165,18 @@ rows=[("THE TOPIC","Reaching a narrow specialist professional population in seve
       ("THE RECEIVED WISDOM","Sampling difficulty is an execution problem. It belongs to budget and local partners, and it appears in print as a limitation paragraph.",PALE,MUTE),
       ("THE GAP","Nobody has asked what happens when the population is rare. The quantities that decide it are observable before fielding, and they compound across frames.",WARM,GOLD),
       ("THE RESEARCH QUESTION","Under what conditions is a comparative multi-country design on a narrow specialist population feasible at all, and where must a survey give way to another method?",SOFT,BLUE),
-      ("THE CONTRIBUTION","To move sampling feasibility from the status of a LIMITATION to the status of a PARAMETER. A parameter is estimated before a design and constrains it. A limitation is confessed after the design has failed.",WARM,GOLD)]
-tt=172
+      ("THE CONTRIBUTION","To move sampling feasibility from the status of a LIMITATION to the status of a PARAMETER. A parameter is estimated before a design and constrains it. A limitation is confessed after the design has failed.",WARM,GOLD),
+      ]
+tt=170
 for lab,body,fill,accent in rows:
-    box(M,tt,W-2*M,58,fill=fill,r=3)
-    box(M,tt,4,58,fill=accent)
+    box(M,tt,W-2*M,56,fill=fill,r=3)
+    box(M,tt,4,56,fill=accent)
     txt(lab,M+20,tt+10,MONOB,9,accent,track=1.6)
     para(body,M+20,tt+25,W-2*M-44,BODY,11.5,BODYC,lead=15)
-    tt+=65
+    tt+=62
+txt("WHO BENEFITS",M,tt+10,MONOB,9,TEAL,track=1.6)
+txt("Researchers designing comparative work  \u00b7  doctoral committees assessing feasibility  "
+    "\u00b7  buyers of multi-country research",M+118,tt+11,BODY,11.5,INK)
 chrome(); c.showPage()
 
 # ═══ 4 · ELEMENT 2 — the model ═══
@@ -359,20 +363,24 @@ box(M,182,W-2*M,78,fill=SOFT,r=4)
 txt("DEPENDENT VARIABLE",M+20,200,MONOB,9,BLUE,track=1.5)
 txt("Reachable usable sample  =  frame size  x  prevalence  x  response rate  x  screen survival",
     M+20,220,BODY,13.5,INK)
-txt("Second DV for H4 and H5: achieved response rate, where a published study reports it",
-    M+20,242,BODY,11.5,BODYC)
-iv=[("H2","Region concordance","Binary. Does the national frame fall inside the provider's home region, on the triad classification",TEAL),
-    ("H3","Coverage discrepancy","Regional concentration implied by a study's stated design, minus the concentration of its achieved responses",GOLD),
-    ("H4","Mode","Categorical. Telephone, email or platform panel, face to face, mixed",RUST),
-    ("H5","Standardization index","Constructed over item wording, length, incentive, sponsorship and contact protocol held constant across frames",BLUE)]
+txt("Source: the panel audience-configuration interface, read free before any commitment. Second DV for H4 and H5: achieved response rate, from published method sections",
+    M+20,242,BODY,11,BODYC)
+iv=[("H2","Region concordance","Binary, triad classification","Provider incorporation and HQ filings",TEAL),
+    ("H3","Coverage discrepancy","Stated minus achieved regional concentration","Method sections of published cross-national studies",GOLD),
+    ("H4","Mode","Categorical: phone, email, panel, in person","Method sections, coded by two readers",RUST),
+    ("H5","Standardization index","Wording, length, incentive, sponsorship, protocol","Published instruments and appendices",BLUE)]
 tt=266
-txt("INDEPENDENT VARIABLES",M,276,MONOB,9,BLUE,track=1.5)
+txt("INDEPENDENT VARIABLES",M,268,MONOB,9,BLUE,track=1.5)
 tt=290
-for tag,name,desc,col in iv:
+txt("VARIABLE",M+48,278,MONOB,7.5,MUTE,track=1.2)
+txt("HOW MEASURED",M+230,278,MONOB,7.5,MUTE,track=1.2)
+txt("WHERE THE DATA COMES FROM",M+560,278,MONOB,7.5,MUTE,track=1.2)
+for tag,name,desc,src,col in iv:
     box(M,tt,W-2*M,42,fill=WHITE,stroke=RULE,r=3)
     box(M,tt,34,42,fill=col,r=3); txt(tag,M+17,tt+14,MONOB,11,WHITE,align="c")
-    txt(name,M+48,tt+12,DISP,13,INK)
-    txt(desc,M+230,tt+14,BODY,11,BODYC)
+    txt(name,M+48,tt+13,DISP,12.5,INK)
+    txt(desc,M+230,tt+14,BODY,10.5,BODYC)
+    txt(src,M+560,tt+14,BODY,10.5,TEAL)
     tt+=47
 txt("CONTROLS",M,486,MONOB,9,BLUE,track=1.5)
 txt("Prevalence  ·  frame size  ·  eligibility strictness, as the count of conjunctive screening criteria  ·  incentive at PPP  ·  field period  ·  year",
@@ -405,6 +413,12 @@ para("The nesting is not a convenience. It is the structure Meyer and colleagues
 box(M+COLW+54,378,COLW-36,42,fill=HexColor("#E8F1F0"),r=3)
 txt("H5 IS SUPPORTED ONLY BY THE INTERACTION, NOT THE MAIN EFFECT",
     M+COLW+68,394,MONOB,8,TEAL,track=1.2)
+box(M,448,W-2*M,58,fill=SOFT,r=4)
+txt("SOFTWARE",M+20,460,MONOB,9,BLUE,track=1.5)
+txt("R, with lme4 for the hierarchical models and base R for the sensitivity analysis.",
+    M+130,460,BODY,11.5,INK)
+txt("Stata as a cross-check on the multilevel estimates. All code and data versioned in git.",
+    M+130,480,BODY,11.5,INK)
 chrome(); c.showPage()
 
 # ═══ 12 · ELEMENT 4 — timeframe ═══
