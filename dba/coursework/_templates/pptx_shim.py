@@ -54,7 +54,7 @@ class Deck:
         sh.line.fill.background(); sh.shadow.inherit = False
         return self.s
 
-    def notes(self, text, size=10.0, font="Calibri"):
+    def notes(self, text, size=9.5, font="Calibri"):
         """Write the speaking script into the notes pane.
 
         Lines opening with '>>' are stage directions and are set bold so the
@@ -71,8 +71,8 @@ class Deck:
             # a PowerPoint notes page is 7.5 x 10 inches, so 540 x 720 pt.
             # The slide thumbnail sits in the top 300pt; the script gets the
             # rest, inside a 54pt margin on both sides.
-            body.left = Pt(54); body.top = Pt(312)
-            body.width = Pt(432); body.height = Pt(384)
+            body.left = Pt(54); body.top = Pt(306)
+            body.width = Pt(432); body.height = Pt(392)
         except Exception:
             pass
         lines = text.rstrip().split("\n")

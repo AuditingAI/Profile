@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*-
 """Toastmasters speaking notes, one block per slide, for the GEB 7365 deck.
 
+Revised 20 September 2026 against the residency minutes of 19 September.
+The order changed: the binding-frame chart is preliminary analysis, so it
+moved out of the model block and down to slide 13, which is what Newburry
+told the room that day. The level-of-analysis statement, the contribution
+hypothesis, and the spelled-out acronyms are the other three notes he gave.
+
 Structure per slide is fixed on purpose so the eye lands in the same place
 every time: a clock, the words to say, the physical cue, and the single
 keyword that slide exists to deliver. Opening 10 percent, body 80, close 10.
 """
 
 NOTES = [
-# 1 TITLE
 """[0:00 - 0:25]   OPENING   Block 1 of 6
 
 >> DO NOT START WITH YOUR NAME. Start with the number.
@@ -29,8 +34,7 @@ ROADMAP:
 >> KEYWORD: arithmetic, not bad luck.
 """,
 
-# 2 ELEMENT 1 TOPIC
-"""[0:25 - 1:15]   OPENING   Element 1
+"""[0:25 - 1:10]   OPENING   Element 1
 
 SAY:
 "To compare something across countries you have to reach the same
@@ -50,8 +54,7 @@ SAY:
 >> KEYWORD: fieldwork problem on the left, design parameter on the right.
 """,
 
-# 3 ELEMENT 1 GAP AND QUESTION
-"""[1:15 - 1:55]   OPENING ends here   Element 1
+"""[1:10 - 1:50]   OPENING ends here   Element 1
 
 SAY:
 "Received wisdom says sampling difficulty is an execution problem.
@@ -74,8 +77,7 @@ THE CONTRIBUTION, land this one:
 >> KEYWORD: parameter, not limitation.
 """,
 
-# 4 ELEMENT 2 MODEL
-"""[1:55 - 3:10]   BODY 1   Element 2
+"""[1:50 - 2:50]   BODY 1   Element 2   the model
 
 SAY:
 "Reachable usable sample is a product, not a sum. Four terms."
@@ -95,39 +97,18 @@ Walk them left to right, one breath each:
 "All four are readable on the panel's own interface, free, before
  anyone commits a dollar. That is why it is a parameter."
 
+NOW THE LEVEL OF ANALYSIS. Newburry asked three groups for this on
+19 September. Do not make him ask you:
+"Three levels. The cell, which is one occupation on one provider in
+ one national frame. Frames nested in regions. And providers
+ cross-classified, because a provider operates in several frames."
+
 >> CUE: four fingers, then close the hand on "product, not a sum."
->> KEYWORD: four terms, four different levels.
+>> SIGNPOST: "That is the model. Now the five hypotheses."
+>> KEYWORD: four terms, four different levels, three levels of analysis.
 """,
 
-# 5 BINDING FRAME
-"""[3:10 - 4:40]   BODY 1   Element 2   *** THE CENTRAL SLIDE ***
-
->> ASK THE ROOM FIRST. Then wait. Do not answer your own question.
-
-"How many of you have read a comparative paper that reported one
- overall response rate?"
-
-    ... wait for hands. Count them out loud if you like. ...
-
-"That is the number I am telling you is wrong."
-
-SAY:
-"Add four countries to a design. The mean response rate barely moves,
- fifteen point four down to nine point two. Looks survivable."
-
-"But the panel you need in each frame goes from eighteen point eight
- million to seventy two point two million. A factor of four."
-
-"The design is priced by its worst frame, not its average one. An
- average cannot satisfy a conjunction."
-
->> CUE: this is where you stand still. Do not walk.
->> KEYWORD: the average hides it, the worst frame decides it.
->> SIGNPOST: "That is the model. Now the hypotheses."
-""",
-
-# 6 FIVE HYPOTHESES
-"""[4:40 - 5:20]   BODY 2   Element 3
+"""[2:50 - 3:40]   BODY 1   Element 3   the five hypotheses
 
 >> DO NOT READ ALL FIVE. Name them and move. You have a slide each
 >> for the ones that matter.
@@ -139,25 +120,28 @@ SAY:
 "H1 is the binding frame. H2 and H3 come from regionalization.
  H4 is level of analysis. H5 is standardization against response."
 
-NOW THE SIGN COLUMN. Do not skip it, it is the cheapest credibility
-in the deck:
-"H2 and H3 are positive. H5 is negative. H1 is monotone, not signed,
- because it is analytic and there is no coefficient to estimate. And
- H4 is a comparison of variance components, not a direction. Which
- mode is higher is a different question, and this design does not
- answer it."
+NOW THE SIGN COLUMN. Cheapest credibility in the deck:
+"H2 and H3 are positive. H5 is negative. H1 is not signed, because it
+ is analytic and there is no coefficient to estimate. H4 compares
+ variance components, not a direction."
+
+AND SAY WHICH ONE IS THE CONTRIBUTION, before you are asked:
+"H1 is the structural result the design rests on. H2 is the
+ contribution, because it applies the regionalization thesis to a new
+ class of firm, a research panel."
 
 "I will take H1 on its own, then H2 and H3 together, then H4 and H5."
 
+>> CITATIONS ARE IN THE LINE, not in a footnote column. Deliberate,
+>> after the 19 September note on slide references.
 >> IF ASKED why H5's main effect could come out flat: the support is
->> the interaction. A strong frame absorbs standardization. A weak one
+>> the interaction. A strong frame absorbs standardization, a weak one
 >> cannot. A null main effect does not sink H5.
 >> CUE: run your hand down the sign column once. Do not read the boxes.
->> KEYWORD: five hypotheses, four papers, two of them deliberately unsigned.
+>> KEYWORD: four papers, five hypotheses, two deliberately unsigned.
 """,
 
-# 7 H1
-"""[5:20 - 6:10]   BODY 2   Element 3   H1
+"""[3:40 - 4:30]   BODY 2   Element 3   H1
 
 SAY:
 "To say a relationship differs between Spain and China is to assert
@@ -180,8 +164,7 @@ LAND IT:
 >> KEYWORD: a comparison is a conjunction, not an average.
 """,
 
-# 8 H2 H3
-"""[6:10 - 7:10]   BODY 2   Element 3   H2 and H3
+"""[4:30 - 5:40]   BODY 2   Element 3   H2 and H3
 
 >> THIS IS THE SLIDE THAT MAKES IT INTERNATIONAL BUSINESS. Say so.
 
@@ -211,8 +194,7 @@ SAY:
 >> KEYWORD: a panel is a firm, and its product is entirely downstream.
 """,
 
-# 9 H4 H5
-"""[7:10 - 8:00]   BODY 2   Element 3   H4 and H5
+"""[5:40 - 6:30]   BODY 2   Element 3   H4 and H5
 
 SAY H4:
 "Response is what happens when a person meets a request. Whether that
@@ -240,8 +222,7 @@ SAY H5, and be careful here:
 >> SIGNPOST: "That is the why. Now how I would test it."
 """,
 
-# 10 DATA COLLECTION
-"""[8:00 - 8:45]   BODY 3   Element 4   data sources
+"""[6:30 - 7:20]   BODY 3   Element 4   level of analysis and data sources
 
 SAY:
 "Panel providers expose an audience-configuration interface. You enter
@@ -260,13 +241,19 @@ SAY:
  reproduce three hundred and thirty four thousand to twenty to four is
  rejected."
 
+AND ANSWER THE QUESTION HE ASKED GROUP C:
+"Region is a variable here, not a setting. If I ran this in one region
+ there would be no variation in it and H2 would be unidentifiable. That
+ is why providers are chosen to differ on home region."
+
+>> SPELL OUT EVERY ACRONYM the first time. Purchasing power parity.
+>> Dependent variable. Headquarters. He raised this twice on 19 September.
 >> SAY THE DISCLAIMER OUT LOUD, do not let them read it:
 >> "No data has been collected for this project. This is the design."
 >> KEYWORD: free, before commitment, on the vendor's own interface.
 """,
 
-# 11 VARIABLE MEASURES
-"""[8:45 - 9:30]   BODY 3   Element 4   variable measures
+"""[7:20 - 8:10]   BODY 3   Element 4   variable measures
 
 >> THIS SLIDE IS SCORED. The rubric asks for variable measures
 >> explicitly. Walk the table, do not wave at it.
@@ -293,8 +280,7 @@ SAY:
 >> KEYWORD: every measure has a named source. Nothing is assumed.
 """,
 
-# 12 ANALYSIS PLAN
-"""[9:30 - 10:15]   BODY 3   Element 4   method
+"""[8:10 - 8:55]   BODY 3   Element 4   method
 
 SAY:
 "Two different kinds of claim need two different treatments."
@@ -324,8 +310,7 @@ SAY:
 >> KEYWORD: two kinds of claim, two treatments.
 """,
 
-# 13 TIMEFRAME
-"""[10:15 - 10:45]   BODY 3   Element 4   timeframe
+"""[8:55 - 9:25]   BODY 3   Element 4   timeframe
 
 SAY:
 "Nine months, four phases."
@@ -342,12 +327,41 @@ SAY:
  exemption with the IRB office before Phase 1 rather than assume it."
 
 >> CUE: trace the timeline left to right once with a flat hand.
->> SIGNPOST: "That is the design. Now what I actually have."
+>> SIGNPOST: "That is the design. Now the preliminary analysis."
 >> KEYWORD: no recruitment step at all.
 """,
 
-# 14 PRELIMINARY EVIDENCE
-"""[10:45 - 11:40]   EVIDENCE   Element 5
+"""[9:25 - 10:40]   EVIDENCE   Element 5   *** THE CENTRAL SLIDE ***
+
+>> ASK THE ROOM FIRST. Then wait. Do not answer your own question.
+
+"How many of you have read a comparative paper that reported one
+ overall response rate?"
+
+    ... wait for hands. Count them out loud if you like. ...
+
+"That is the number I am telling you is wrong."
+
+SAY:
+"Add four countries to a design. The mean response rate barely moves,
+ fifteen point four down to nine point two. Looks survivable."
+
+"But the panel you need in each frame goes from eighteen point eight
+ million to seventy two point two million. A factor of four."
+
+"The design is priced by its worst frame, not its average one. An
+ average cannot satisfy a conjunction."
+
+>> CUE: this is where you stand still. Do not walk.
+>> THIS SLIDE MOVED. It used to sit at number five, before the
+>> hypotheses. Newburry's 19 September instruction was hypotheses first,
+>> then measures, then preliminary analysis. It is analysis, so it
+>> belongs here.
+>> KEYWORD: the average hides it, the worst frame decides it.
+>> SIGNPOST: "That is the analysis. Now the evidence behind it."
+""",
+
+"""[10:40 - 11:40]   EVIDENCE   Element 5   my own study
 
 >> SLOW DOWN. This is the most honest slide in the talk and honesty
 >> is what gets remembered.
@@ -378,7 +392,6 @@ NOW SAY WHAT IT CANNOT DO:
 >> KEYWORD: say what your evidence cannot do.
 """,
 
-# 15 DOES NOT CLAIM
 """[11:40 - 12:20]   EVIDENCE   the limits, stated first
 
 >> PUT THIS BEFORE THE Q AND A ON PURPOSE. Say that out loud.
@@ -406,7 +419,6 @@ SAY:
 >> KEYWORD: the weakest part is the unit, and H1 being analytic.
 """,
 
-# 16 CLOSE
 """[12:20 - 13:00]   CLOSE   Block 6 of 6
 
 >> NO NEW MATERIAL. Return to the one message and stop.

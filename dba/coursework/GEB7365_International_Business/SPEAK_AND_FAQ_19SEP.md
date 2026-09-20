@@ -21,12 +21,16 @@ Toastmasters structure. **Opening 10 percent. Body 80. Close 10.**
 
 | Block | Time | Slides | What it does |
 |---|---|---|---|
-| **OPENING** | 75 sec | 1 to 3 | Hook, message, roadmap |
-| **BODY 1** | 3 min | 4, 5 | It is arithmetic, not effort |
-| **BODY 2** | 3 min | 6 to 9 | Five hypotheses, and why |
-| **BODY 3** | 3 min | 10 to 13 | How I would test it |
-| **EVIDENCE** | 70 sec | 14, 15 | My own failure |
-| **CLOSE** | 60 sec | 16 | The message again, plus the ask |
+| **OPENING** | 0:00 to 1:50 | 1 to 3 | Hook, message, roadmap |
+| **BODY 1** | 1:50 to 3:40 | 4, 5 | The model, the three levels, the five hypotheses |
+| **BODY 2** | 3:40 to 6:30 | 6 to 8 | Why each hypothesis follows |
+| **BODY 3** | 6:30 to 9:25 | 9 to 12 | How I would test it |
+| **EVIDENCE** | 9:25 to 12:20 | 13 to 15 | The analysis, my own failure, the limits |
+| **CLOSE** | 12:20 to 13:00 | 16 | The message again, plus the ask |
+
+> **The order changed on 20 September.** The binding-frame chart used to be slide 5. Newburry told
+> the room on 19 September: hypotheses and logic first, then measurement, then preliminary analysis,
+> and do not mix them. That chart is analysis, so it now sits at **slide 13**.
 
 **Signpost out loud between blocks.** Say *"That is the model. Now the hypotheses."* It costs two
 seconds and it is what the organised-presentation box is scoring.
@@ -158,6 +162,20 @@ zero while H5 holds. A null main effect does not sink it.
 > regions. I have not changed the deck, because I would rather raise the doubt than quietly revise
 > after the deadline."
 
+**"What is your level of analysis?"**
+> "Three levels. The cell, which is one occupation on one provider in one national frame. Frames
+> nested in regions. And providers cross-classified, because one provider operates in several
+> frames. It is on the model slide and again in the methods slide."
+
+**"Isn't region just your setting rather than a variable?"**
+> "It is a variable here. Providers are chosen to differ on home region precisely so that it varies.
+> If I ran this inside one region there would be no variation in it and H2 would be unidentifiable.
+> That is why provider selection is part of the design and not a convenience."
+
+**"Which of these is the contribution?"**
+> "H1 is the structural result the design rests on. H2 is the contribution, because it applies the
+> regionalization thesis to a class of firm nobody has applied it to. H3 to H5 bound it."
+
 ## About the method
 
 **"How do you get prevalence without paying?"**
@@ -206,10 +224,10 @@ zero while H5 holds. A null main effect does not sink it.
 | Pause after **334,976** | Read the slides |
 | Signpost between blocks | Apologise for being nervous |
 | Look at faces, not the screen | Say "um, basically" |
-| Ask the room one question on slide 5 | Rush the numbers |
+| Ask the room one question on slide 13 | Rush the numbers |
 | Stand still when you land a point | Fill silence |
 
-**The question to ask, on slide 5.** This is the only way to earn the *stimulating participants to
+**The question to ask, on slide 13.** This is the only way to earn the *stimulating participants to
 think* box:
 
 > "How many of you have read a comparative paper that reported one overall response rate?"

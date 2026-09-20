@@ -55,7 +55,7 @@ c.setFillColor(PAPER); c.rect(0,0,W,H,fill=1,stroke=0)
 
 # ---- header ----
 box(0,0,W,58,fill=BLUE)
-txt("ONE PAGE  ·  GEB 7365 PROJECT PRESENTATION  ·  19 SEPTEMBER 2026",
+txt("ONE PAGE  ·  GEB 7365 PROJECT PRESENTATION  ·  REVISED 20 SEPTEMBER 2026",
     M,14,MONOB,8,GOLD,track=1.6)
 txt("The average hides the answer. The worst country decides it.",M,28,DISP,19,HexColor("#FFFFFF"))
 txt("YASIR A. MALIK  ·  COHORT 8.14",W-M,16,MONOB,7.5,HexColor("#8FA3BC"),track=1.2,align="r")
@@ -66,18 +66,18 @@ txt("10 to 15 minutes  ·  opening 10%, body 80%, close 10%",W-M,32,BODY,9.5,
 CUES = [
  (1,"0:00","TITLE","\"I screened 334,976 people.\"  PAUSE TWO SECONDS.  \"I got four.\"","hook",RUST),
  (2,"0:25","THE TOPIC","General population = fieldwork problem. Rare population = arithmetic.","",None),
- (3,"1:15","GAP + QUESTION","Read the question off the slide. Land: parameter, not limitation.","signpost",None),
- (4,"1:55","THE MODEL","Four terms, four levels. Product, not a sum. Free on the interface.","",None),
- (5,"3:10","BINDING FRAME","ASK THE ROOM: who has read a paper with one overall response rate?","ask",RUST),
- (6,"4:40","FIVE HYPOTHESES","Signs: H1 monotone, H2 +, H3 +, H4 greater, H5 −. Say why two are unsigned.","signs",None),
- (7,"5:20","H1","Spain AND China. A conjunction. Breadth is fragility, not ambition.","",None),
- (8,"6:10","H2 AND H3","320 of 380. A panel is a firm and its product is entirely downstream.","",None),
- (9,"7:10","H4 AND H5","Harzing 47% by phone. Zeng is mine-vs-theirs: say which is which.","signpost",None),
- (10,"8:00","DATA SOURCES","Audience interface, free, before commitment. Say the no-data line aloud.","",None),
- (11,"8:45","MEASURES","Walk the table. DV, then H2 to H5, then controls. Do not wave.","scored",None),
- (12,"9:30","METHOD","Analytic vs inferential. No p-value on H1, and say why not.","",None),
- (13,"10:15","TIMEFRAME","Nine months. Notice what is missing: there is no recruitment step.","signpost",None),
- (14,"10:45","MY EVIDENCE","334,976 to 20 to 4. Then say what it CANNOT do. H1 yes, H2 no, H4 weak.","slow",RUST),
+ (3,"1:10","GAP + QUESTION","Read the question off the slide. Land: parameter, not limitation.","signpost",None),
+ (4,"1:50","THE MODEL","Four terms, four levels. THEN SAY THE THREE LEVELS OF ANALYSIS.","say it",RUST),
+ (5,"2:50","FIVE HYPOTHESES","Signs, then: H1 is structural, H2 IS THE CONTRIBUTION. Two unsigned.","signs",None),
+ (6,"3:40","H1","Spain AND China. A conjunction. Breadth is fragility, not ambition.","",None),
+ (7,"4:30","H2 AND H3","320 of 380. A panel is a firm and its product is entirely downstream.","",None),
+ (8,"5:40","H4 AND H5","Harzing 47% by phone. Zeng is mine-vs-theirs: say which is which.","",None),
+ (9,"6:30","DATA SOURCES","Three levels. Region is a VARIABLE, not a setting. Spell out every acronym.","say it",RUST),
+ (10,"7:20","MEASURES","Walk the table. DV, then H2 to H5, then controls. Do not wave.","scored",None),
+ (11,"8:10","METHOD","Analytic vs inferential. No p-value on H1, and say why not.","",None),
+ (12,"8:55","TIMEFRAME","Nine months. Notice what is missing: there is no recruitment step.","signpost",None),
+ (13,"9:25","PRELIM ANALYSIS","ASK THE ROOM: who has read a paper with one overall response rate?","ask",RUST),
+ (14,"10:40","MY EVIDENCE","334,976 to 20 to 4. Then say what it CANNOT do. H1 yes, H2 no, H4 weak.","slow",RUST),
  (15,"11:40","LIMITS","\"I would rather state the limits than be handed them.\" Four of them.","",None),
  (16,"12:20","CLOSE","Parameter before. Limitation after. Then STOP. \"Thank you. Questions.\"","stop",RUST),
 ]
@@ -113,7 +113,7 @@ ph = ["Parameter before a design. Limitation after it fails.",
       "A panel's whole product is a downstream asset."]
 tt = bt+14
 for p in ph:
-    txt("·  "+p,M,tt,BODY,9,BODYC); tt += 12
+    txt("·  "+p,M,tt,BODY,9,BODYC); tt += 11
 
 x2 = M+colw+12
 txt("THE NUMBERS, IN ORDER",x2,bt,MONOB,7.5,BLUE,track=1.4)
@@ -123,20 +123,21 @@ nums = ["334,976 screened  ·  20 eligible  ·  4 usable",
         "18.8M to 72.2M panel  ·  mean only 15.4 to 9.2%"]
 tt = bt+14
 for p in nums:
-    txt("·  "+p,x2,tt,BODY,9,BODYC); tt += 12
+    txt("·  "+p,x2,tt,BODY,9,BODYC); tt += 11
 
 x3 = M+2*(colw+12)
 txt("DO NOT",x3,bt,MONOB,7.5,RUST,track=1.4)
 dn = ["Read the slides.",
       "Apologise for being nervous.",
       "Rush the numbers. Pause after 334,976.",
-      "Trail off. End on the sentence, then stop."]
+      "Trail off. End on the sentence, then stop.",
+      "Use an acronym you have not spelled out."]
 tt = bt+14
 for p in dn:
-    txt("·  "+p,x3,tt,BODY,9,BODYC); tt += 12
+    txt("·  "+p,x3,tt,BODY,9,BODYC); tt += 11
 
 # ---- the three that hurt ----
-qb = bt + 66
+qb = bt + 80
 box(M,qb-8,W-2*M,1,fill=RULE)
 txt("THE THREE THAT HURT, AND THE ANSWER",M,qb,MONOB,7.5,RUST,track=1.4)
 hard = [("\"You failed to collect data. Why trust a design from you?\"",
@@ -151,7 +152,7 @@ hard = [("\"You failed to collect data. Why trust a design from you?\"",
 qw = (W-2*M-24)/3
 for i,(q,a) in enumerate(hard):
     qx = M + i*(qw+12)
-    box(qx,qb+14,qw,74,fill=HexColor("#FBEFE9"),r=3)
+    box(qx,qb+14,qw,70,fill=HexColor("#FBEFE9"),r=3)
     n = para(q,qx+10,qb+24,qw-20,DISP,8.5,RUST,lead=11)
     para(a,qx+10,qb+26+n,qw-20,BODY,8.3,BODYC,lead=10.5)
 

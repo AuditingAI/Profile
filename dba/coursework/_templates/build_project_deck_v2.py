@@ -90,7 +90,7 @@ def chrome(light=False):
     fg = HexColor("#7E93A8") if light else MUTE
     rule(H-32,color=HexColor("#1B3252") if light else RULE)
     txt("Yasir A. Malik  ·  Cohort 8.14",M,H-24,MONOB,8.5,fg,track=1.1)
-    txt("GEB 7365  ·  Project Presentation  ·  19 September 2026",W/2,H-24,MONO,8.5,fg,align="c")
+    txt("GEB 7365  ·  Project Presentation  ·  revised 20 September 2026",W/2,H-24,MONO,8.5,fg,align="c")
     txt(f"{_n[0]}",W-M,H-24,MONOB,8.5,GOLD,align="r")
 def ground(dark=False):
     c.setFillColor(BLUE if dark else PAPER); c.rect(0,0,W,H,fill=1,stroke=0)
@@ -115,7 +115,7 @@ title("populations can and cannot be executed",274,size=24,color=HexColor("#B9C7
 rule(330,color=HexColor("#1B3252"))
 txt("YASIR A. MALIK",M,352,MONOB,11,GOLD,track=2.0)
 txt("Doctor of Business Administration  ·  Cohort 8.14",M,372,BODY,13,HexColor("#8FA3BC"))
-txt("Instructor: Prof. William Newburry  ·  19 September 2026",M,392,BODY,13,HexColor("#8FA3BC"))
+txt("Instructor: Prof. William Newburry  ·  revised 20 September 2026",M,392,BODY,13,HexColor("#8FA3BC"))
 box(W-M-300,150,300,258,fill=HexColor("#0E2949"),r=4)
 txt("THE EVIDENCE IS MY OWN FAILED STUDY",W-M-276,176,MONOB,8.5,GOLD,track=1.4)
 txt("334,976",W-M-276,204,DISP,40,WHITE)
@@ -186,6 +186,9 @@ title("The model: four terms, four different levels",140,size=27)
 para("Reachable usable sample is a product, not a sum. Each term is decided at a different level, "
      "and attributing a failed frame to the country assigns to one level what another produced.",
      M,190,W-2*M,BODY,14.5,BODYC,lead=20)
+box(M,236,W-2*M,36,fill=WARM,stroke=GOLD,r=3)
+txt("LEVEL OF ANALYSIS",M+18,250,MONOB,8.5,HexColor("#8A6A1F"),track=1.5)
+txt("One occupation, on one provider, in one national frame. Cells nested in national frames, frames nested in regions, providers cross-classified.",M+172,250,BODY,11.5,INK)
 terms=[("FRAME SIZE","panel members","POPULATION",TEAL),
        ("× PREVALENCE","how rare the specialty is","INFRASTRUCTURE",BLUE),
        ("× RESPONSE RATE","who answers","INSTRUMENT",RUST),
@@ -193,71 +196,54 @@ terms=[("FRAME SIZE","panel members","POPULATION",TEAL),
 bw=(W-2*M-3*14)/4
 for i,(t1,t2,lvl,col) in enumerate(terms):
     x=M+i*(bw+14)
-    box(x,258,bw,128,fill=WHITE,stroke=col,lw=1.4,r=4)
-    box(x,258,bw,5,fill=col)
-    txt(t1,x+14,282,MONOB,11,INK,track=0.8)
-    para(t2,x+14,304,bw-28,BODY,12,BODYC,lead=15)
-    txt(lvl,x+14,356,MONOB,8,col,track=1.5)
-arrow(M+bw*2+14,404,M+bw*2+14,424,color=STEEL,lw=1.4)
+    box(x,282,bw,118,fill=WHITE,stroke=col,lw=1.4,r=4)
+    box(x,282,bw,5,fill=col)
+    txt(t1,x+14,306,MONOB,11,INK,track=0.8)
+    para(t2,x+14,328,bw-28,BODY,12,BODYC,lead=15)
+    txt(lvl,x+14,380,MONOB,8,col,track=1.5)
+arrow(M+bw*2+14,408,M+bw*2+14,424,color=STEEL,lw=1.4)
 box(M,432,W-2*M,52,fill=BLUE,r=4)
 txt("=  REACHABLE USABLE SAMPLE",M+20,450,MONOB,13,WHITE,track=1.6)
 txt("observable before a study is fielded, at no cost, on the panel's own interface",
     W-M-20,452,BODY,12.5,HexColor("#8FA3BC"),align="r")
 chrome(); c.showPage()
 
-# ═══ 5 · ELEMENT 2 — the binding-frame result ═══
-ground(); crest()
-element(2,"The study model")
-title("The result that makes this a paper and not a complaint",140,size=27)
-try:
-    c.drawImage(FIG1,M,y(186+272),width=W-2*M-286,height=272,mask='auto',preserveAspectRatio=True)
-except Exception:
-    box(M,186,W-2*M-286,272,fill=PALE,stroke=RULE,r=4)
-bx=W-M-268
-box(bx,186,268,272,fill=WARM,stroke=GOLD,r=4)
-txt("ADD FOUR COUNTRIES",bx+18,208,MONOB,8.5,HexColor("#8A6A1F"),track=1.5)
-txt("Mean response rate",bx+18,232,BODY,12,BODYC)
-txt("15.4%  →  9.2%",bx+18,250,DISP,19,MUTE)
-txt("barely moves",bx+18,276,DISPI,11.5,MUTE)
-rule(300,x=bx+18,w=232,color=HexColor("#E0D2AE"))
-txt("Panel needed in EACH",bx+18,312,BODY,12,BODYC)
-txt("18.8M  →  72.2M",bx+18,330,DISP,19,RUST)
-txt("a factor of four",bx+18,356,DISPI,11.5,RUST)
-rule(380,x=bx+18,w=232,color=HexColor("#E0D2AE"))
-para("The design is priced by its worst frame, not its average one. Reporting an overall response "
-     "rate reports the wrong statistic.",bx+18,394,232,DISPI,12,INK,lead=16)
-chrome(); c.showPage()
-
-# ═══ 6 · ELEMENT 3 — the five hypotheses ═══
+# ═══ 5 · ELEMENT 3 — the five hypotheses ═══
 ground(); crest()
 element(3,"Preliminary hypotheses, and their justification")
 title("Five hypotheses",140,size=27)
 # sign: what the hypothesis predicts, and where there is nothing to predict.
 # H1 is analytic and H4 compares variance components, so neither carries a
 # coefficient. Saying so on the slide is cheaper than being asked for one.
-hyps=[("H1","≤","MONOTONE","Joint feasibility is set by the least feasible frame, not the mean. Adding a country can only weakly decrease it.","Analytic  ·  the structure of a conjunction",BLUE),
-      ("H2","+","POSITIVE","Specialist prevalence on a panel is higher inside the panel provider's home region.","Rugman & Verbeke (2004)",TEAL),
-      ("H3","+","POSITIVE","Studies described as cross-national achieve regionally concentrated coverage, more so as the population narrows.","Lopez, Kundu & Ciravegna (2009)",TEAL),
-      ("H4",">","GREATER","Mode explains more variance in response than country does.","Meyer, Li & Schotter (2020)",RUST),
-      ("H5","−","NEGATIVE","Standardization is negatively associated with response, worst in the frames that already bind.","Zeng et al. (2023)",GOLD)]
-txt("EACH TAKES ITS LOGIC FROM ONE OF THIS WEEK'S FOUR PAPERS",M,176,MONOB,8,MUTE,track=1.4)
+# Citations live in the sentence, not in a side column: Newburry, 19 Sep,
+# "integrate citations into the slide text, the audience cannot read a footnote
+# list." Sign says what each one predicts; two of them predict no direction and
+# the slide says so rather than waiting to be asked.
+hyps=[("H1","≤","NEVER RISES","Joint feasibility is set by the least feasible frame, not the mean. Adding a country leaves it unchanged or lowers it, and can never raise it. Analytic: the structure of a conjunction.",BLUE),
+      ("H2","+","POSITIVE","Following Rugman and Verbeke (2004) on home-region orientation, specialist prevalence on a panel is higher inside the panel provider's home region.",TEAL),
+      ("H3","+","POSITIVE","Following Lopez, Kundu and Ciravegna (2009) on born-regional firms, studies described as cross-national achieve regionally concentrated coverage, more so as the population narrows.",TEAL),
+      ("H4",">","GREATER","Following Meyer, Li and Schotter (2020) on levels of analysis, mode explains more variance in response than country does.",RUST),
+      ("H5","−","NEGATIVE","Extending Zeng, Grogaard and Bjorkman (2023) on control against coordination, standardization is negatively associated with response, and worst in the frames that already bind.",GOLD)]
+txt("EACH TAKES ITS LOGIC FROM ONE OF THIS WEEK'S FOUR PAPERS, CITED IN THE LINE ITSELF",M,176,MONOB,8,MUTE,track=1.4)
 txt("SIGN",M+71,190,MONOB,7,MUTE,track=1.2,align="c")
-tt=198
-for tag,sign,slab,body,src,col in hyps:
-    box(M,tt,W-2*M,52,fill=WHITE,stroke=RULE,r=3)
-    box(M,tt,40,52,fill=col,r=3)
-    txt(tag,M+20,tt+17,MONOB,14,WHITE,align="c")
-    txt(sign,M+71,tt+12,DISP,20,col,align="c")
-    txt(slab,M+71,tt+37,MONOB,6.5,MUTE,track=0.8,align="c")
-    para(body,M+104,tt+10,460,BODY,12.5,INK,lead=15.5)
-    txt(src.upper(),W-M-20,tt+21,MONOB,8,col,track=1.2,align="r")
-    tt+=56
-txt("UNSIGNED ON PURPOSE",M,480,MONOB,8,RUST,track=1.4)
+tt=196
+for tag,sign,slab,body,col in hyps:
+    box(M,tt,W-2*M,46,fill=WHITE,stroke=RULE,r=3)
+    box(M,tt,40,46,fill=col,r=3)
+    txt(tag,M+20,tt+14,MONOB,14,WHITE,align="c")
+    txt(sign,M+71,tt+9,DISP,19,col,align="c")
+    txt(slab,M+71,tt+32,MONOB,6.5,MUTE,track=0.8,align="c")
+    para(body,M+104,tt+8,W-2*M-124,BODY,12,INK,lead=15)
+    tt+=50
+txt("THE CONTRIBUTION IS H2",M,456,MONOB,8,TEAL,track=1.4)
+txt("H1 is the structural result the design rests on. H2 carries the international business contribution, applying the regionalization thesis to research infrastructure.",
+    M+170,457,BODY,11,BODYC)
+txt("UNSIGNED ON PURPOSE",M,478,MONOB,8,RUST,track=1.4)
 txt("H1 is analytic, so there is no coefficient to estimate. H4 compares variance components rather than predicting a direction.",
-    M+150,481,BODY,11,BODYC)
+    M+170,479,BODY,11,BODYC)
 chrome(); c.showPage()
 
-# ═══ 7 · ELEMENT 3 — H1 justification ═══
+# ═══ 6 · ELEMENT 3 — H1 justification ═══
 ground(); crest()
 element(3,"Preliminary hypotheses, and their justification")
 title("H1  ·  A comparison is a conjunction, not an average",140,size=27)
@@ -279,7 +265,7 @@ para("Breadth is treated in comparative work as a virtue. It is purchased at a p
      M+22,436,W-2*M-44,DISPI,13.5,INK,lead=17)
 chrome(); c.showPage()
 
-# ═══ 8 · ELEMENT 3 — H2 and H3 ═══
+# ═══ 7 · ELEMENT 3 — H2 and H3 ═══
 ground(); crest()
 element(3,"Preliminary hypotheses, and their justification")
 title("H2 and H3  ·  A research panel is a firm",140,size=27)
@@ -308,7 +294,7 @@ para("Of 40 Costa Rican software firms, exactly one had exported from inception 
      M+COLW+54,424,COLW-36,BODY,12.5,BODYC,lead=16)
 chrome(); c.showPage()
 
-# ═══ 9 · ELEMENT 3 — H4 and H5 ═══
+# ═══ 8 · ELEMENT 3 — H4 and H5 ═══
 ground(); crest()
 element(3,"Preliminary hypotheses, and their justification")
 title("H4 and H5  ·  Level of analysis, and the price of equivalence",140,size=27)
@@ -341,7 +327,7 @@ para("A strong frame can afford the loss. A weak frame had no margin, and under 
      "bind the design.",M+COLW+68,398,COLW-64,DISPI,12,INK,lead=15)
 chrome(); c.showPage()
 
-# ═══ 10 · ELEMENT 4 — data collection ═══
+# ═══ 9 · ELEMENT 4 — data collection ═══
 ground(); crest()
 element(4,"How I would study it empirically  ·  data sources")
 title("What gets measured, and why it can be measured at all",140,size=27)
@@ -350,21 +336,22 @@ para("Panel providers expose an audience-configuration interface that returns an
      "reachable count once screening criteria are entered, before any commitment and at no cost. "
      "That is what makes feasibility a parameter rather than a limitation.",
      M+22,204,W-2*M-44,BODY,13.5,INK,lead=17)
-cells=[("UNIT OF ANALYSIS","One occupation, on one panel provider, in one national frame"),
+cells=[("LEVEL OF ANALYSIS","Three levels. The cell, the national frame, the region. Providers cross-classified"),
+       ("THE CELL","One occupation, on one panel provider, in one national frame"),
        ("THE MATRIX","6+ occupations  ×  8+ national frames  ×  3+ providers  ≈  144 cells"),
-       ("PROVIDERS CHOSEN TO VARY","On home region, deliberately. H2 is unidentifiable otherwise"),
+       ("REGION IS A VARIABLE, NOT A SETTING","Providers chosen to vary on home region. With one region there is no variation and H2 is unidentifiable"),
        ("THE VALIDATING CASE","My own study. A model that cannot reproduce 334,976 → 20 → 4 is rejected")]
 tt=266
 for lab,body in cells:
-    box(M,tt,W-2*M,44,fill=WHITE,stroke=RULE,r=3)
-    txt(lab,M+18,tt+15,MONOB,8.5,BLUE,track=1.5)
-    txt(body,M+286,tt+15,BODY,12.5,BODYC)
-    tt+=52
+    box(M,tt,W-2*M,38,fill=WHITE,stroke=RULE,r=3)
+    txt(lab,M+18,tt+12,MONOB,8.5,BLUE,track=1.5)
+    txt(body,M+286,tt+12,BODY,12,BODYC)
+    tt+=44
 txt("NO DATA HAVE BEEN COLLECTED FOR THIS PROJECT. THIS IS THE DESIGN, NOT A RESULT.",
     M,H-56,MONOB,8,RUST,track=1.4)
 chrome(); c.showPage()
 
-# ═══ 10b · ELEMENT 4 — variable measures ═══
+# ═══ 10 · ELEMENT 4 — variable measures ═══
 ground(); crest()
 element(4,"How I would study it empirically  ·  variable measures")
 title("What gets measured, and how",140,size=27)
@@ -372,9 +359,9 @@ box(M,182,W-2*M,78,fill=SOFT,r=4)
 txt("DEPENDENT VARIABLE",M+20,200,MONOB,9,BLUE,track=1.5)
 txt("Reachable usable sample  =  frame size  x  prevalence  x  response rate  x  screen survival",
     M+20,220,BODY,13.5,INK)
-txt("Source: the panel audience-configuration interface, read free before any commitment. Second DV for H4 and H5: achieved response rate, from published method sections",
+txt("Source: the panel audience-configuration interface, read free before any commitment. Second dependent variable for H4 and H5: achieved response rate, from published method sections",
     M+20,242,BODY,11,BODYC)
-iv=[("H2","Region concordance","Binary, triad classification","Provider incorporation and HQ filings",TEAL),
+iv=[("H2","Region concordance","Binary, triad classification","Provider incorporation and headquarters filings",TEAL),
     ("H3","Coverage discrepancy","Stated minus achieved regional concentration","Method sections of published cross-national studies",GOLD),
     ("H4","Mode","Categorical: phone, email, panel, in person","Method sections, coded by two readers",RUST),
     ("H5","Standardization index","Wording, length, incentive, sponsorship, protocol","Published instruments and appendices",BLUE)]
@@ -392,7 +379,7 @@ for tag,name,desc,src,col in iv:
     txt(src,M+560,tt+14,BODY,10.5,TEAL)
     tt+=47
 txt("CONTROLS",M,486,MONOB,9,BLUE,track=1.5)
-txt("Prevalence  ·  frame size  ·  eligibility strictness, as the count of conjunctive screening criteria  ·  incentive at PPP  ·  field period  ·  year",
+txt("Prevalence  ·  frame size  ·  eligibility strictness, as the count of conjunctive screening criteria  ·  incentive at purchasing power parity (PPP)  ·  field period  ·  year",
     M+100,488,BODY,11,BODYC)
 chrome(); c.showPage()
 
@@ -450,7 +437,30 @@ para("The constraint that ended my qualifying study was recruitment. This design
      M,bot+20,W-2*M,DISPI,13.5,INK,lead=18)
 chrome(); c.showPage()
 
-# ═══ 13 · ELEMENT 5 — preliminary evidence ═══
+# ═══ 13 · ELEMENT 2 — the binding-frame result ═══
+ground(); crest()
+element(5,"Preliminary analysis")
+title("Preliminary analysis: the design is priced by its worst frame",140,size=27)
+try:
+    c.drawImage(FIG1,M,y(186+272),width=W-2*M-286,height=272,mask='auto',preserveAspectRatio=True)
+except Exception:
+    box(M,186,W-2*M-286,272,fill=PALE,stroke=RULE,r=4)
+bx=W-M-268
+box(bx,186,268,272,fill=WARM,stroke=GOLD,r=4)
+txt("ADD FOUR COUNTRIES",bx+18,208,MONOB,8.5,HexColor("#8A6A1F"),track=1.5)
+txt("Mean response rate",bx+18,232,BODY,12,BODYC)
+txt("15.4%  →  9.2%",bx+18,250,DISP,19,MUTE)
+txt("barely moves",bx+18,276,DISPI,11.5,MUTE)
+rule(300,x=bx+18,w=232,color=HexColor("#E0D2AE"))
+txt("Panel needed in EACH",bx+18,312,BODY,12,BODYC)
+txt("18.8M  →  72.2M",bx+18,330,DISP,19,RUST)
+txt("a factor of four",bx+18,356,DISPI,11.5,RUST)
+rule(380,x=bx+18,w=232,color=HexColor("#E0D2AE"))
+para("The design is priced by its worst frame, not its average one. Reporting an overall response "
+     "rate reports the wrong statistic.",bx+18,394,232,DISPI,12,INK,lead=16)
+chrome(); c.showPage()
+
+# ═══ 14 · ELEMENT 5 — preliminary evidence ═══
 ground(); crest()
 element(5,"Preliminary evidence")
 title("The evidence I have is my own failed study",140,size=27)
@@ -482,7 +492,7 @@ para("This is one case, fully documented, and it is the reason the project exist
      M,474,W-2*M,DISPI,13.5,INK,lead=18)
 chrome(); c.showPage()
 
-# ═══ 12 · WHAT IT DOES NOT CLAIM ═══
+# ═══ 15 · WHAT IT DOES NOT CLAIM ═══
 ground(); crest()
 eyebrow("Before you ask  ·  the limits, stated first",112,RUST)
 title("What this model does not claim",140,size=27)
@@ -499,7 +509,7 @@ for lab,body in lims:
     tt+=76
 chrome(); c.showPage()
 
-# ═══ 13 · CLOSE ═══
+# ═══ 16 · CLOSE ═══
 ground(dark=True); crest(40,light=True)
 eyebrow("The contribution",130,GOLD)
 title("A parameter is estimated before a design.",178,size=32,color=WHITE)
