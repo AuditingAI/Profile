@@ -48,12 +48,21 @@ organisation, or P&L ownership of a product line.
 
 | | |
 |---|---|
-| Résumé | `applications/resume/Yasir_Malik_Resume_Google_CoreAIFoundations_VP_Branded.pdf` — branded, one page (`builders/build_google_core_ai_foundations_branded.py`, S=0.82) |
+| **Résumé — send this one** | `applications/resume/Yasir_Malik_Resume_Google_CoreAIFoundations_VP.pdf` — **plain, executive**, unbranded, one page (`builders/google-core-ai-foundations-vp.html`, Chromium) |
+| Résumé — branded alternate | `applications/resume/Yasir_Malik_Resume_Google_CoreAIFoundations_VP_Branded.pdf` (`builders/build_google_core_ai_foundations_branded.py`, S=0.82) |
 | Cover letter | `applications/cover_letters/google_core_ai_foundations_vp.md` → `.pdf` |
 
-Branded on purpose. Google is the one employer on the target list where the
-*Audit the Algorithm* mark reads as an asset rather than an outside-business-
-activity question — the brand and the role are about the same subject.
+**Owner chose the plain version, 20 Sep 2026**, and asked for it to read as
+executive. That is a format decision, not a content one: 18.5pt name, a short
+Profile paragraph in place of a keyword block, a numbers-first *Selected
+Results* table ($2.6T / $180M / ~35% / 99.8%), two or three bullets on the
+recent roles and a single line on the older ones. A VP page that reads like a
+dense analyst page reads as the wrong level.
+
+The branded cut stays in the repo as the alternate. Google is the one employer
+where the *Audit the Algorithm* mark would read as an asset rather than an
+outside-business-activity question — but for a VP screen the plain page carries
+more authority, and the brand is one click away on the résumé's own links.
 
 Header carries **Newark, NJ** with *"Preferred working location: New York, NY"*,
 per the owner's decision of 19 Sep. (The Miami framing used for Blackstone the

@@ -122,6 +122,12 @@ FORBIDDEN = [
      "name the institutions; the dates on the entries carry the tenure"),
     ("retired phone", RETIRED_AREA_CODE,
      "the 305 line is dead; the number is +1 (786) 704-8536"),
+    # A raw entity in the TEXT LAYER means the markup did not render - "&mdash;"
+    # or a mangled ".mdash;" printed where an em dash belonged. Found on a
+    # shipped page once, from a sed replacement whose "&" re-inserted the match.
+    # No content rule catches it, so it gets its own.
+    ("unrendered markup", r"&(?:amp|bull|mdash|ndash|nbsp|lt|gt|quot|#\d+);|\.(?:mdash|bull|ndash|amp);",
+     "the markup did not render - check the builder's escaping"),
     ("Dr. Malik", r"(?i)\bDr\.?\s+Malik\b",
      "the DBA is in progress, expected 2028"),
     ("CIA certified", r"(?i)\bCIA[\s-]certified\b",
@@ -161,6 +167,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "gs-gbm-src-vp.html": "Yasir_Malik_Resume_GS_GBM_SRC_VP.pdf",
     "gs-ia-data-analytics-vp.html": "Yasir_Malik_Resume_GS_IA_DataAnalytics_VP.pdf",
     "blackstone-tprm-miami.html": "Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf",
+    "google-core-ai-foundations-vp.html": "Yasir_Malik_Resume_Google_CoreAIFoundations_VP.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
@@ -325,8 +332,12 @@ def check_sources(rep: Report) -> None:
         body = re.sub(r'(?s)^\s*"""(?:.*?)"""', "", text, count=1)
         body = re.sub(r"(?m)^\s*#.*$", "", body)
         blocked_out = {out for out, _ in _blocked_outputs()}
-        skip = ({"unfilled placeholder"}
-                if _builder_output(src) in blocked_out else None)
+        # "unrendered markup" is a rendered-output rule: an entity in a builder
+        # is how you write an em dash, and only a leak into the PDF text layer
+        # is a defect.
+        skip = {"unrendered markup"}
+        if _builder_output(src) in blocked_out:
+            skip.add("unfilled placeholder")
         check_content_rules(rel(src), body, rep, skip)
 
 
