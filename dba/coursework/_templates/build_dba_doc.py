@@ -22,6 +22,7 @@ vendor, not a doctoral student.
 
 Usage:  python3 build_dba_doc.py <spec.json> <out.docx>
 """
+import re
 import json, sys
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
@@ -48,10 +49,32 @@ def _font(obj, name=FONT, size=11, bold=None, italic=None, color=INK,
         rf.set(qn(a), name)
     return obj
 
+_BOLD_RE = re.compile(r"\*\*(.+?)\*\*", re.S)
+
+def _md(text):
+    """Split a string on **bold** into runs. Unmatched asterisks stay literal.
+
+    The specs are written as readable prose, so emphasis is marked the way it
+    would be in a markdown note. Without this the asterisks printed verbatim
+    into the Word file, which is what they were doing.
+    """
+    out, i = [], 0
+    for m in _BOLD_RE.finditer(text):
+        if m.start() > i:
+            out.append(text[i:m.start()])
+        out.append({"t": m.group(1), "b": True})
+        i = m.end()
+    if i < len(text):
+        out.append(text[i:])
+    return out or [text]
+
 def _segs(par, segs, size=11):
     """A paragraph body: a string, or a list of strings and {t,b,i,hl} dicts."""
     if isinstance(segs, str): segs = [segs]
+    flat = []
     for s in segs:
+        flat.extend(_md(s) if isinstance(s, str) else [s])
+    for s in flat:
         if isinstance(s, str):
             _font(par.add_run(s), size=size)
         else:
