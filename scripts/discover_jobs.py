@@ -84,6 +84,9 @@ RESUME_RULES: list[tuple[str, str]] = [
      "applications/resume/Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf"),
     (r"\b(regulatory relation|regulatory affair|regulatory liaison|examination manag)",
      "applications/resume/Yasir_Malik_Resume_GS_IA_RegRelations_VP_Branded.pdf"),
+    (r"\b(audit innovation|innovation strateg|head of innovation|audit transformation|"
+     r"continuous monitoring|automated assurance)",
+     "applications/resume/Yasir_Malik_Resume_GS_IA_HeadInnovation_VP.pdf"),
     (r"\b(data analytic|data scien|analytics lead|quantitative analy)",
      "applications/resume/Yasir_Malik_Resume_GS_IA_DataAnalytics_VP.pdf"),
     (r"\b(supervisory risk|supervisory control|business control|first.line control|risk governance)",
