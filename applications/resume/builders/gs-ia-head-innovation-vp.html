@@ -8,8 +8,12 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
   /* Executive register: fewer items, larger type, more air. A VP page that
      reads like a dense analyst page reads as the wrong level. */
-  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.8pt; line-height: 1.19; color: #000; }
-  header { text-align: center; margin-bottom: 9px; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.8pt; line-height: 1.15; color: #000; }
+  header { text-align: center; margin-bottom: 8px; }
+  /* The monogram alone, no wordmark: it carries the brand without the
+     consulting name, which on a Goldman application would raise the
+     outside-business-activity question before anyone read a line. */
+  .mark { height: 26px; display: block; margin: 0 auto 2px; }
   /* letter-spacing must stay <= 1.5px: above that Chromium breaks the name into
      spaced characters in the PDF text layer and an ATS cannot match it. */
   h1 { font-size: 18.5pt; letter-spacing: 1.5px; font-weight: normal; }
@@ -33,13 +37,14 @@
 </head>
 <body>
 <header>
+  <img class="mark" src="../../../assets/images/logo-mark.png" alt="">
   <h1>YASIR A. MALIK</h1>
   <div class="tagline">Internal Audit Innovation &amp; AI Strategy &nbsp;|&nbsp; Analytics and Automated Assurance &nbsp;|&nbsp; Former Bank Examiner</div>
   <div class="contact">New York, NY &nbsp;&bull;&nbsp; YasirAMalik@gmail.com &nbsp;&bull;&nbsp; +1 (786) 704-8536 &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik &nbsp;&bull;&nbsp; github.com/MalikAI-786</div>
 </header>
 
 <h2>Profile</h2>
-<p>Has run this mandate in miniature. At Citi Internal Audit he <b>defined the AI tooling roadmap for the audit department</b> &mdash; use-case intake, risk tiering by criticality, control library, post-deployment monitoring KPIs &mdash; and then <b>built and shipped the product on it</b>: a retrieval-augmented Workpaper Quality Assistant in Python and LangChain, specified with the auditors who would use it and put into production at <b>~35%</b> less review cycle time. He also wrote the framework for <b>auditing the firm&rsquo;s own AI</b> &mdash; bias, drift, hallucination, adversarial robustness, third-party models &mdash; against NIST AI RMF and SR 11-7. The audit judgment underneath is the real thing: risk-based audits across <b>15+ business units</b>, consent-order remediation accepted by external regulators, and a career that began examining banks for the Florida Office of Financial Regulation. Doctoral research at FIU measures <b>automation bias in AI-assisted judgment</b> &mdash; the adoption risk an AI-enabled audit model brings with it.</p>
+<p>Has run this mandate in miniature. At Citi Internal Audit he <b>defined the AI tooling roadmap for the audit department</b> &mdash; use-case intake, risk tiering by criticality, control library, post-deployment monitoring KPIs &mdash; and then <b>built and shipped the product on it</b>: a retrieval-augmented Workpaper Quality Assistant in Python and LangChain, specified with the auditors who would use it, in production at <b>~35%</b> less review cycle time. He also wrote the framework for <b>auditing the firm&rsquo;s own AI</b> &mdash; bias, drift, hallucination, adversarial robustness, third-party models. That framework matters more now, not less: <b>SR 26-2</b>, the April 2026 interagency model risk guidance that superseded SR 11-7, puts <b>generative and agentic AI expressly outside its scope</b>. The control expectations are not yet written, and somebody has to audit those systems meanwhile. The audit judgment underneath is the real thing, and it began examining banks for the Florida Office of Financial Regulation.</p>
 
 <h2>Selected Results</h2>
 <table class="results">
@@ -57,7 +62,7 @@
   <li><b>Innovation strategy and roadmap:</b> defined the AI tooling roadmap for Internal Audit &mdash; use-case intake and prioritisation, risk tiering by criticality, control library, post-deployment monitoring KPIs. What got built, in what order, and what had to be true before it shipped.</li>
   <li><b>Delivery, not slideware:</b> designed, wrote and shipped the <b>RAG Workpaper Quality Assistant</b> in Python and LangChain &mdash; vector search over unstructured workpapers, SHAP/LIME explainability, prompt-injection guardrails, Alteryx integration. In production at <b>~35%</b> less review cycle time, with continuous coverage where sampling had been the only option.</li>
   <li><b>Auditing the firm&rsquo;s AI:</b> authored the control framework for enterprise AI adoption against NIST AI RMF and SR 11-7 &mdash; model risk, bias and fairness, drift, hallucination, adversarial robustness, third-party AI &mdash; and built independent assurance over it.</li>
-  <li><b>Audit judgment and adoption:</b> led risk-based audits across <b>15+ business units</b>; drove consent-order remediation accepted by external regulators; reported to executive management and the Board Audit Committee; coached <b>8+ auditors</b> on analytics-led testing.</li>
+  <li><b>Audit judgment and adoption:</b> led risk-based audits across <b>15+ business units</b>; drove consent-order remediation accepted by external regulators; reported to the Board Audit Committee; coached <b>8+ auditors</b> on analytics-led testing.</li>
 </ul>
 
 <div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
@@ -76,13 +81,12 @@
 <p class="one">Consolidated <b>500+ legal-entity data sources</b> into governed master data with ownership, lineage and data-quality controls &mdash; the data engineering that made automated <b>FR 2900</b> and <b>TIC</b> filings possible at <b>99.8%</b> accuracy under regulatory examination.</p>
 
 <div class="job"><b>Bank Examiner, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation</b><span class="dates">Apr 2011 &ndash; Mar 2012</span></div>
-<div class="sub">West Palm Beach, FL &nbsp;&bull;&nbsp; earlier: Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009)</div>
-<p class="one">Conducted CAMELS safety-and-soundness examinations of state and national banks alongside federal banking regulators; authored workpapers supporting formal enforcement actions. At RBS, built credit-risk MIS over a <b>$500M+</b> retail portfolio in SAS and SQL.</p>
+<p class="one">Conducted CAMELS safety-and-soundness examinations of state and national banks alongside federal banking regulators; authored workpapers supporting formal enforcement actions.</p>
 
 <h2>Education, Research &amp; Credentials</h2>
-<p><b>Doctor of Business Administration, Florida International University</b> &mdash; in progress, expected 2028 | GPA 3.81. Qualifying research completed Jul 2026 (IRB-25-0462): a designed experiment on anchoring in expert judgment, analysed in SPSS. Dissertation in development: <b>automation bias in AI-assisted judgment</b>.<br>
-<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &nbsp;&bull;&nbsp; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &nbsp;&bull;&nbsp; <b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br>
+<p><b>Doctor of Business Administration, Florida International University</b> &mdash; Year 2, expected 2028 | GPA 3.81. Dissertation: <b><i>Anchoring Bias in LLM-Assisted Audit Judgment</i></b> &mdash; a <b>mixed-methods</b> programme pairing a designed experiment (IRB-25-0462, analysed in SPSS) with a qualitative arm now in development. It asks the question arriving next: as systems move from assistive models toward agentic and, on the current trajectory, superintelligent capability, what stops expert judgment from quietly deferring to them?<br>
+<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &nbsp;&bull;&nbsp; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &nbsp;&bull;&nbsp; <b>Columbia Engineering FinTech Boot Camp</b><br>
 <b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Human Research; <i>in progress</i> CIA Part 1, IAPP AIGP.</p>
-<p style="margin-top:4px"><b>AI &amp; ML:</b> Generative AI and LLM prompting &bull; retrieval-augmented and agentic RAG &bull; LangChain / LangGraph &bull; vector databases &bull; SHAP / LIME &bull; scikit-learn &bull; red-teaming and evaluation scripts &nbsp;|&nbsp; <b>Data:</b> SQL &bull; Python &bull; Alteryx &bull; Tableau &bull; Power BI &bull; SAS &bull; SPSS &bull; automated pipelines and continuous monitoring &nbsp;|&nbsp; <b>Audit:</b> Global Internal Audit Standards &bull; COSO &bull; Three Lines of Defense &bull; SOX ITGC &bull; SR 11-7 &bull; NIST AI RMF &bull; EU AI Act</p>
+<p style="margin-top:4px"><b>AI &amp; ML:</b> Generative AI and LLM prompting &bull; retrieval-augmented and agentic RAG &bull; LangChain / LangGraph &bull; vector databases &bull; SHAP / LIME &bull; scikit-learn &bull; red-teaming and evaluation scripts &nbsp;|&nbsp; <b>Data:</b> SQL &bull; Python &bull; Alteryx &bull; Tableau &bull; Power BI &bull; SAS &bull; SPSS &bull; automated pipelines and continuous monitoring &nbsp;|&nbsp; <b>Audit &amp; Regulation:</b> Global Internal Audit Standards &bull; COSO &bull; Three Lines of Defense &bull; SOX ITGC &bull; <b>SR 26-2</b> model risk (2026, superseding SR 11-7) &bull; NIST AI RMF &bull; EU AI Act &bull; ISO/IEC 42001</p>
 </body>
 </html>
