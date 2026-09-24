@@ -1,0 +1,26 @@
+{
+  "id": "28406bf8a2713a8c",
+  "discovered_at": "2026-09-24T15:26:03Z",
+  "stream": "corporate",
+  "company": "Robinhood",
+  "title": "Internal Audit Senior Associate",
+  "location": "Ljubljana, Slovenia",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8202146?t=gh_src=&gh_jid=8202146",
+  "score": 3,
+  "score_reasons": [
+    "out-of-market"
+  ],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}

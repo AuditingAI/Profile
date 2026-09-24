@@ -1,0 +1,24 @@
+{
+  "id": "a6d6ed324634fa28",
+  "discovered_at": "2026-09-24T15:26:03Z",
+  "stream": "corporate",
+  "company": "Stripe",
+  "title": "People Operations Specialist, HR Compliance",
+  "location": "US-Remote",
+  "url": "https://stripe.com/jobs/search?gh_jid=8189015",
+  "score": 4,
+  "score_reasons": [],
+  "sponsor_employer": false,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_Master.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
