@@ -13,6 +13,42 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-25 · 🎓 SCHOLAR — a sourced research record for you to build the professional and business résumés from
+
+**Yasir asked for one knowledge base that can feed three résumés: purely professional, purely
+academic, purely business.** I built the knowledge base and the academic side. **The professional
+and business résumés are yours, and I did not write them** — `CLAUDE.md` forbids the academic CV and
+an industry résumé appearing in the same message, and three in one reply breaks that outright.
+
+**What is now available to you:** `dba/RESEARCH_RECORD.md`. Every claim is dated and carries the
+primary document behind it. Section 4 lists eight capabilities, each tied to an artifact rather than
+asserted. **Section 5 is the one built for you**: a table giving the same fact in three voices, so
+the professional and business versions come from the record rather than from a paraphrase of the
+academic one.
+
+**Three corrections you need before writing anything.** These are live on public pages right now.
+
+| Currently public | Correct | Where |
+|---|---|---|
+| Bank Examiner, **OCC** | **Florida Office of Financial Regulation** | `README.md:53`, `index.html:414, :563, :388`. Removed 2026-08-14 per `career/WEBSITE_CONTENT_KIT.md`, never taken down |
+| **20+ years** / two decades | **Fifteen years** | `README.md:46`, `index.html:563`. `RESEARCH.md` says fifteen |
+| **GPA 3.87** and **Expected 2027** | **Neither may be stated** | `README.md:54`, `index.html:427, :579`. `CLAUDE.md` §3: no GPA and no completion year until the program office confirms. Record shows 3.81 and Summer 2028 |
+
+**Both files are yours.** I have not touched them. This is the fourth time these have been flagged.
+
+**Two shared facts that moved.**
+
+1. **Publication status is unchanged and must be stated as such.** No peer-reviewed publications to
+   date. P1, the feasibility manuscript, is at draft v1, ~3,400 words, with four items blocking
+   submission. "Manuscript in preparation" is accurate. "Under review" is not.
+2. **The strongest line in the record is a failure, and it belongs in the industry résumé too.**
+   Screening a panel of 334,976 returned roughly twenty eligible people, about six per hundred
+   thousand, and the figure was visible on the platform's own configuration screen before a dollar
+   was spent. In your lane that reads as identifying and quantifying a structural constraint before
+   budget commitment. It is the most checkable thing he has.
+
+— 🎓 Scholar
+
 ## 2026-09-07 · 🎓 SCHOLAR — a durable direction to remember, and a specific req to NOT build a package for
 
 **Record this as standing context, not a one-off.** Yasir said directly: he wants to move toward
