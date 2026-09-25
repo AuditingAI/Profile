@@ -217,10 +217,56 @@ def build(spec, out):
         st.paragraph_format.space_after = Pt(6)
     _font(doc.styles['List Bullet'], size=size)
 
-    # ---- title ---------------------------------------------------------
-    h = doc.add_paragraph(spec["title"], style='Heading 1')
-    for r in h.runs: _font(r, size=size + 4, bold=True)
+    # ---- masthead with a personal mark, when the spec carries one --------
+    # A two-cell table with no borders: the mark on the left, the name and
+    # byline on the right. Used for the academic set, never for coursework,
+    # which carries the university's identity instead.
+    if spec.get("logo"):
+        mt = doc.add_table(rows=1, cols=2)
+        mt.autofit = False
+        lc, rc = mt.rows[0].cells
+        # Word honours cell widths; LibreOffice honours column widths and the
+        # table grid. Set all three, or one of the two renderers ignores it.
+        for col, w in zip(mt.columns, (0.95, 5.55)):
+            col.width = Inches(w)
+        lc.width = Inches(0.95); rc.width = Inches(5.55)
+        tblPr = mt._tbl.tblPr
+        lay = OxmlElement('w:tblLayout'); lay.set(qn('w:type'), 'fixed'); tblPr.append(lay)
+        tblW = tblPr.find(qn('w:tblW'))
+        if tblW is None:
+            tblW = OxmlElement('w:tblW'); tblPr.append(tblW)
+        tblW.set(qn('w:type'), 'dxa'); tblW.set(qn('w:w'), str(int(6.5 * 1440)))
+        grid = mt._tbl.tblGrid
+        for gc, w in zip(grid.findall(qn('w:gridCol')), (0.95, 5.55)):
+            gc.set(qn('w:w'), str(int(w * 1440)))
+        for cell in (lc, rc):
+            tcPr = cell._tc.get_or_add_tcPr()
+            borders = OxmlElement('w:tcBorders')
+            for side in ('top', 'left', 'bottom', 'right'):
+                b = OxmlElement('w:' + side); b.set(qn('w:val'), 'nil'); borders.append(b)
+            tcPr.append(borders)
+        lp = lc.paragraphs[0]
+        pic = lp.add_run().add_picture(spec["logo"], width=Inches(spec.get("logo_in", 0.72)))
+        _alt(pic, spec.get("logo_alt", "Personal mark"))
+        rp = rc.paragraphs[0]
+        rp.style = doc.styles['Heading 1']
+        _font(rp.add_run(spec["title"]), size=size + 9, bold=True)
+        if spec.get("subtitle"):
+            sp = rc.add_paragraph()
+            sp.paragraph_format.space_after = Pt(4)
+            _font(sp.add_run(spec["subtitle"]), size=size + 1, italic=True)
+        for line in spec.get("ident", []):
+            ip = rc.add_paragraph()
+            ip.paragraph_format.space_after = Pt(1)
+            ip.paragraph_format.line_spacing = 1.0
+            _segs(ip, line, size=size - 0.5)
+        doc.add_paragraph().paragraph_format.space_after = Pt(4)
+        spec = dict(spec, title=None, subtitle=None, ident=[])
 
+    # ---- title ---------------------------------------------------------
+    h = doc.add_paragraph(spec["title"], style='Heading 1') if spec.get("title") else None
+    if h is not None:
+        for r in h.runs: _font(r, size=size + 4, bold=True)
     if spec.get("subtitle"):
         p = doc.add_paragraph(); p.paragraph_format.space_after = Pt(10)
         _font(p.add_run(spec["subtitle"]), size=size + 1, italic=True)

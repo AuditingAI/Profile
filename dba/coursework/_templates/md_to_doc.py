@@ -10,7 +10,7 @@ rendering it plainly.
 Sections whose heading begins "Notes for Yasir" are working notes rather than
 part of the document, so they are cut along with everything under them.
 
-    python3 md_to_doc.py INPUT.md OUTPUT.docx "Title" "Subtitle" ["ident", ...] [--linebreaks]
+    python3 md_to_doc.py INPUT.md OUTPUT.docx "Title" "Subtitle" ["ident", ...] [--linebreaks] [--logo PNG] [--email X] [--phone X] [--pdf]
 """
 import json, re, subprocess, sys, os
 
@@ -121,7 +121,13 @@ def _plain(s):
     return s.replace("**", "").replace("*", "").replace("`", "").strip()
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    valued = {"--email", "--phone", "--logo"}
+    args, skip = [], False
+    for a in sys.argv[1:]:
+        if skip: skip = False; continue
+        if a in valued: skip = True; continue
+        if a.startswith("--"): continue
+        args.append(a)
     src, out, title, subtitle = args[0], args[1], args[2], args[3]
     ident = args[4:]
     body, tables = convert(src, linebreaks=("--linebreaks" in sys.argv))
@@ -135,13 +141,33 @@ def main():
         if isinstance(x, dict):
             return {k: clean(v) for k, v in x.items()}
         return x
-    spec = {"title": title, "subtitle": subtitle, "ident": ident,
-            "double_spaced": False,
-            "tables": clean(tables), "body": clean(body)}
+    # contact details are filled here, at build time, from flags. They never
+    # live in the repository (CLAUDE.md), so the markdown keeps {{EMAIL}} and
+    # {{PHONE}} and only the delivered file carries the real values.
+    fills = {}
+    for flag, key in (("--email", "{{EMAIL}}"), ("--phone", "{{PHONE}}")):
+        if flag in sys.argv:
+            fills[key] = sys.argv[sys.argv.index(flag) + 1]
+    def fill(x):
+        if isinstance(x, str):
+            for k, v in fills.items(): x = x.replace(k, v)
+            return x
+        if isinstance(x, list): return [fill(v) for v in x]
+        if isinstance(x, dict): return {k: fill(v) for k, v in x.items()}
+        return x
+    logo = sys.argv[sys.argv.index("--logo") + 1] if "--logo" in sys.argv else None
+    spec = {"title": title, "subtitle": subtitle, "ident": fill(ident),
+            "double_spaced": False, "logo": logo,
+            "logo_alt": "The Reference Mark, Yasir A. Malik's personal mark",
+            "tables": fill(clean(tables)), "body": fill(clean(body))}
     tmp = out + ".json"
     json.dump(spec, open(tmp, "w"))
     subprocess.check_call([sys.executable, os.path.join(HERE, "build_dba_doc.py"), tmp, out])
     os.remove(tmp)
+    if "--pdf" in sys.argv:
+        subprocess.run(["soffice", "--headless", "--convert-to", "pdf", "--outdir",
+                        os.path.dirname(os.path.abspath(out)), out],
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=300)
 
 if __name__ == "__main__":
     main()
