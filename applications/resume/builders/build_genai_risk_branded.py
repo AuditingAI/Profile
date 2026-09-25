@@ -194,7 +194,7 @@ flow += section("EDUCATION")
 flow.append(Paragraph(
     "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress; "
     "qualifying examination passed Jul 2026 &mdash; research above.<br/>"
-    "<b>Master of Business Administration (MBA), Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; "
+    "<b>Master of Business Administration (MBA), Florida International University</b> &mdash; 2011 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021", body))
 

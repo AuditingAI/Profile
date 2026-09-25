@@ -22,7 +22,7 @@ Leads global and regional audit engagements — Citi Internal Audit and JPMorgan
 
 ## EDUCATION
 - **DBA (in progress)**, Florida International University · in progress · Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*
-- **MBA, Financial Mathematics**, FIU · GPA 3.80 · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
+- **MBA, Financial Mathematics**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS
 **Audit & control frameworks:** IIA Standards · Internal audit methodologies · COSO · COBIT · Three Lines of Defense · SOX ITGC · Continuous auditing · Control-design and operating-effectiveness evaluation · Integrated business-and-technology risk assessment

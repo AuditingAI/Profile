@@ -83,7 +83,7 @@ Internal audit executive applying for **Chief Auditor, Artificial Intelligence (
 **Doctor of Business Administration (DBA), in progress** — Florida International University • in progress
 *Qualifying examination passed Jul 2026: Mitigating Anchoring Bias in Long-Term Auditor Engagements (IRB-25-0462). Dissertation in development* — how auditor reasoning degrades under LLM assistance, with proposed control mechanisms aligned to SR 11-7 and NIST AI RMF.
 
-**MBA, Financial Mathematics** (GPA 3.8) — Florida International University • 2011
+**MBA, Financial Mathematics** — Florida International University • 2011
 **Pre-MBA, International Banking** — Florida International University • 2007
 **B.Sc. Banking & Finance** — London School of Economics (LSE) • 2005
 **FinTech Boot Camp** — Columbia University • 2021

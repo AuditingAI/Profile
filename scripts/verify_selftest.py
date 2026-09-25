@@ -129,7 +129,7 @@ CASES = [
     ("queue entry loses its rules", inject_unstamped_queue, "rules not stamped", False),
     ("placeholder left in a letter", inject_placeholder, "unfilled placeholder", False),
     ("retired 305 number", inject_retired_phone, "retired phone", False),
-    ("DBA GPA and completion year stated", inject_dba_gpa, "DBA GPA or completion year", False),
+    ("DBA GPA and completion year stated", inject_dba_gpa, "GPA or DBA completion year", False),
     ("career-length number on the public site", inject_public_tenure, "career-length number", False),
 ]
 

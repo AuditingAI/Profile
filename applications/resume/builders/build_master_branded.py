@@ -202,7 +202,7 @@ flow.append(Paragraph(
     "Qualifying examination passed Jul 2026 (IRB-25-0462): a 55-item instrument on anchoring "
     "in audit judgment, designed and fielded under institutional ethics approval. "
     "Dissertation in development: <i>Anchoring Bias in LLM-Assisted Audit Judgment</i>.<br/>"
-    "<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; "
+    "<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021", body))
 

@@ -72,6 +72,11 @@ ARCHIVE = {
 # not sendable yet, and why. A blocked document is reported every run so it
 # cannot quietly become normal, and wiring one into the pipeline is a failure.
 BLOCKED = {
+    "applications/resume/Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf":
+        "is superseded by the Scholar lane's single academic CV, "
+        "career/academic/ACADEMIC_CV_v2.md, and names Dr. Juan C. Rey wrongly - "
+        "as 'Ray', and as dissertation chair when he supervised the qualifying "
+        "study. Academic documents are Scholar's to send",
     "applications/resume/Yasir_Malik_CV_Academic_Branded.pdf":
         "carries [TO CONFIRM] placeholders - the graduate TA post, the SAAC "
         "tutoring, the FIU guest lectures and the Rutgers class visit are "
@@ -125,11 +130,12 @@ FORBIDDEN = [
      "name the institutions; the dates on the entries carry the tenure"),
     # The DBA GPA and completion year are unresolved - 3.81 against a claimed
     # 3.87, Summer 2028 against a claimed 2027 - and the shared research record
-    # bars both until the FIU program office confirms. MBA GPA 3.8 is settled
-    # and is not matched here.
-    ("DBA GPA or completion year",
-     r"(?i)\b3\.8[17]\b|\bexpected\s+(?:\*\*)?20(?:2[6-9]|3\d)\b|\bsummer\s+2028\b",
-     "no DBA GPA and no completion year until the program office confirms them"),
+    # bars both until the FIU program office confirms. The MBA GPA is now
+    # unresolved as well - 3.8 on these documents, 3.71 on the 2017 resume -
+    # so no GPA figure of any kind passes.
+    ("GPA or DBA completion year",
+     r"(?i)\b3\.8[17]\b|\bGPA\W{0,4}\d\.\d|\bexpected\s+(?:\*\*)?20(?:2[6-9]|3\d)\b|\bsummer\s+2028\b",
+     "no GPA and no DBA completion year until the FIU program office confirms them"),
     # The qualifying study was a 55-item survey instrument, and 4 responses
     # survived screening. Calling it an experiment, or "analysed", overstates it.
     ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",
@@ -185,6 +191,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "gs-ia-head-innovation-vp.html": "Yasir_Malik_Resume_GS_IA_HeadInnovation_VP.pdf",
     "rutgers-rbs-adjunct-cv.html": "Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf",
     "master-executive.html": "Yasir_Malik_Resume_Master_Executive.pdf",
+    "business-advisory.html": "Yasir_Malik_Resume_Business_Advisory.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")

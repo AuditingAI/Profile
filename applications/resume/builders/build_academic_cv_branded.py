@@ -116,7 +116,7 @@ for b in [
 ]:
     flow.append(Paragraph(b, bullet, bulletText="•"))
 flow.append(entry("MBA, Financial Mathematics, Florida International University", "2011"))
-flow.append(Paragraph("GPA 3.8 &bull; preceded by the Pre-MBA program in International Banking, FIU, 2007", sub))
+flow.append(Paragraph("Preceded by the Pre-MBA program in International Banking, FIU, 2007", sub))
 flow.append(entry("B.Sc., Banking &amp; Finance, London School of Economics and Political Science", "2005"))
 flow.append(entry("Columbia Engineering FinTech Boot Camp, Columbia University", "2021"))
 
