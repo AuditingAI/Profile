@@ -221,8 +221,11 @@ Research
 The 24 September 2026 GEB 7365 minutes record his agreement to write in support of the Rutgers
 adjunct application; he asked for the CV and a draft paragraph. `[Send both from ymali001@fiu.edu.]`
 
-Further references available on request. `[Dr. Rey and Dr. Aguirre-Urreta must be asked before
-being listed.]`
+**Dr. Juan C. Rey**, Florida International University, College of Business — confirmed. Supervised
+the qualifying study; assessed the treatment of its recruitment failure as demonstrating sound
+research judgment. `[Reference-request email drafted: letters/EMAIL_Rey_Reference_Request.md]`
+
+Further references available on request. `[Dr. Aguirre-Urreta must be asked before being listed.]`
 
 ---
 

@@ -8,7 +8,7 @@ is probably wrong. Check before relying on it.
 ## 1 · Who you are working with
 
 Yasir A. Malik. DBA candidate, Florida International University, Chapman Graduate School of Business,
-Cohort 8.14. Fifteen years in audit and risk at Citigroup and JPMorgan Chase; former bank examiner at
+Cohort 8.14, Class of 2028. Audit and risk at Citigroup and JPMorgan Chase; former bank examiner at
 the Florida Office of Financial Regulation.
 
 Public record of the research programme: `github.com/AuditingAI/Profile` — see `RESEARCH.md`.
