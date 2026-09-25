@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body{margin:0;background:#0E1114;}
+    a{color:#F58E5C;text-decoration:none;} a:hover{color:#E0662E;}
+  </style>
+</helmet>
+
+<svg viewBox="0 0 1584 396" fill="none" style="width:1584px;height:396px;display:block;">
+  <rect width="1584" height="396" fill="{{bg}}"/>
+  <rect x="0" y="0" width="1584" height="6" fill="#E0662E"/>
+
+  <g transform="translate(1334 -110) scale(8.6)" opacity="{{ghost}}">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="{{ink}}" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="{{ink}}" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <g transform="translate(340 96) scale(1.15)">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="{{ink}}" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="{{ink}}" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <path d="M440 100 V174" stroke="{{rule}}" stroke-width="1.5"/>
+
+  <text x="468" y="140" font-family="'Bitstream Charter',Charter,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="40" fill="{{ink}}">Khudi: the discipline of not dissolving.</text>
+  <text x="470" y="176" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="15" letter-spacing="5.5" fill="{{desc}}">AUDIT &#183; RISK &#183; GOVERNANCE</text>
+
+  <path d="M340 232 H430" stroke="#E0662E" stroke-width="3"/>
+  <text x="340" y="284" font-family="'Bitstream Charter',Charter,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="29" fill="{{sub}}">Judgment that holds when the machine agrees with you.</text>
+
+  <sc-if value="{{showGuides}}" hint-placeholder-val="{{ true }}">
+    <g>
+      <rect x="117" y="88" width="1350" height="220" fill="none" stroke="#2E7FD4" stroke-width="2" stroke-dasharray="12 8"/>
+      <rect x="237" y="0" width="1110" height="396" fill="none" stroke="#D03030" stroke-width="2" stroke-dasharray="12 8"/>
+      <circle cx="200" cy="246" r="96" fill="rgba(208,48,48,.20)" stroke="#D03030" stroke-width="2"/>
+    </g>
+  </sc-if>
+</svg>
+</x-dc>
+<script data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark","section":"Cut"},"guides":{"editor":"boolean","default":false,"section":"Cut"},"$preview":{"width":1584,"height":396}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var light = (this.props.theme || 'dark') === 'light';
+    var t = light
+      ? { bg: '#F6F3F0', ink: '#171A1D', sub: '#5A646E', rule: '#E2DAD3', desc: '#AD4317', ghost: '.05' }
+      : { bg: '#0E1114', ink: '#EDEFF1', sub: '#A6B0BA', rule: '#263039', desc: '#E0662E', ghost: '.06' };
+    t.showGuides = this.props.guides === true;
+    return t;
+  }
+}
+</script>
+</body>
+</html>

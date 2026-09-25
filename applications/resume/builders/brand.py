@@ -10,16 +10,22 @@ Every branded builder draws its header through brand_header(). Two modes:
               when assets/images/logo-mark.png exists. Drop the file in and
               every builder picks it up on the next run.
 
-The mark is the owner's ORIGINAL logo: a navy magnifying glass over navy and
-gold dashes with a gold checkmark (navy #1B365D, gold #BF9222). The source is
-assets/images/logo-full.png, which also carries "AUDIT THE ALGORITHM" beneath
-the glass; logo-mark.png is that device alone, cropped, with the white
-knocked out. It was recovered on 25 Sep 2026 from auditingai-github-pages.zip
-in this repo, and is byte-identical to Edu_Photo_Audit_the_Algorithm_Logo.png
-in Google Drive. An "A" monogram drawn on 18 Sep stood in for it for a week
-and was wrong - the owner never used one.
+The mark is THE REFERENCE MARK, the owner's brand, designed in Claude Design:
+a charcoal A inside an open orange ring, with an orange node floating in the
+ring's 42-degree break and the A's crossbar overshooting the right leg toward
+the ring. Orange #E0662E, charcoal #171A1D. The full design system - lockups,
+palette, type, banner, signature, LinkedIn cover, business cards - is in
+assets/brand/reference-mark/, extracted from the canvas artifact
+"The Reference Mark" (claude.ai/artifact/Tg7FZJQJwnyw5RHZgCrDVk). Vector
+sources: assets/images/reference-mark.svg (two-tone, primary), -mono.svg, and
+-micro.svg (the 16-24 px cut, used as the favicon). logo-mark.png is the
+two-tone rasterised at 800 px with a transparent ground.
 
-Colours match logo.svg: gold #B8860B (gradient end #DAA520), muted #6F6754.
+History, so nobody repeats it: an "A" monogram was drawn from scratch on
+18 Sep, then replaced on 25 Sep by the magnifier-and-tick in
+auditingai-github-pages.zip (now logo-full.png). Neither was the brand. The
+Reference Mark never reached the repository until 25 Sep - it lived only in the
+design canvas, which is why every search of git came up empty.
 """
 from pathlib import Path
 
@@ -53,8 +59,10 @@ def brand_header(body_style, scale=1.0, mark_height=0.38 * inch):
         img.drawWidth = mark_height * ratio
         img.hAlign = "CENTER"
         out.append(img)
-        mark_style.fontSize = 10 * scale
-        mark_style.leading = 12 * scale
+        # The Reference Mark stands alone. The owner asked for the wordmark
+        # text to go, and the old gold "Audit the Algorithm" clashes with the
+        # mark's orange and charcoal.
+        return out
     out.append(Paragraph(WORDMARK, mark_style))
     return out
 
@@ -74,12 +82,7 @@ def brand_block(mark_style, mark_height=0.38 * inch):
         img.drawWidth = mark_height * ratio
         img.hAlign = "CENTER"
         out.append(img)
-        # The mark carries the brand once it is present, so the wordmark drops
-        # to a supporting line rather than competing with it.
-        mark_style = ParagraphStyle("markUnder", parent=mark_style,
-                                    fontSize=mark_style.fontSize * 0.66,
-                                    leading=mark_style.leading * 0.7,
-                                    spaceBefore=1)
+        return out  # the mark stands alone - see brand_header()
     out.append(Paragraph(WORDMARK, mark_style))
     return out
 

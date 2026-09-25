@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body{margin:0;background:#0E1114;}
+    a{color:#F58E5C;text-decoration:none;} a:hover{color:#E0662E;}
+  </style>
+</helmet>
+
+<svg viewBox="0 0 1125 675" fill="none" style="width:360px;height:216px;display:block;">
+  <rect width="1125" height="675" fill="#0E1114"/>
+
+  <g transform="translate(825 -70) scale(8.2)" opacity=".07">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="#EDEFF1" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="#EDEFF1" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <g transform="translate(466.5 150) scale(3)">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="#EDEFF1" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="#EDEFF1" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <path d="M502.5 430 H622.5" stroke="#E0662E" stroke-width="4"/>
+  <text x="562.5" y="490" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="24" letter-spacing="5" fill="#A6B0BA">MALIKAI-786.GITHUB.IO</text>
+
+  <sc-if value="{{showGuides}}" hint-placeholder-val="{{ true }}">
+    <g>
+      <rect x="37" y="37" width="1051" height="601" fill="none" stroke="#D03030" stroke-width="2" stroke-dasharray="10 8"/>
+      <rect x="74" y="74" width="977" height="527" fill="none" stroke="#2E7FD4" stroke-width="2" stroke-dasharray="10 8"/>
+    </g>
+  </sc-if>
+</svg>
+</x-dc>
+<script data-dc-script data-props='{"guides":{"editor":"boolean","default":false,"section":"Print"},"$preview":{"width":360,"height":216}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { showGuides: this.props.guides === true };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body{margin:0;background:#F6F3F0;}
+    a{color:#AD4317;text-decoration:none;} a:hover{color:#7C2E10;}
+  </style>
+</helmet>
+
+<svg viewBox="0 0 1125 675" fill="none" style="width:360px;height:216px;display:block;">
+  <rect width="1125" height="675" fill="#F6F3F0"/>
+  <rect x="0" y="0" width="1125" height="14" fill="#E0662E"/>
+
+  <g transform="translate(90 118) scale(1.75)">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="#171A1D" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="#171A1D" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <text x="90" y="330" font-family="'Bitstream Charter',Charter,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="74" fill="#171A1D">Yasir A. Malik</text>
+  <path d="M93 364 H165" stroke="#E0662E" stroke-width="4"/>
+  <text x="92" y="410" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="25" letter-spacing="6.5" fill="#5A646E">AUDIT &#183; RISK &#183; GOVERNANCE</text>
+  <path d="M90 448 H1035" stroke="#E2DAD3" stroke-width="2"/>
+
+  <text x="90" y="496" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="25" letter-spacing="1.2" fill="#5A646E">YasirAMalik@gmail.com</text>
+  <text x="90" y="540" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="25" letter-spacing="1.2" fill="#5A646E">+1 (786) 704-8536</text>
+  <text x="90" y="584" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="25" letter-spacing="1.2" fill="#5A646E">malikai-786.github.io</text>
+
+  <sc-if value="{{showGuides}}" hint-placeholder-val="{{ true }}">
+    <g>
+      <rect x="37" y="37" width="1051" height="601" fill="none" stroke="#D03030" stroke-width="2" stroke-dasharray="10 8"/>
+      <rect x="74" y="74" width="977" height="527" fill="none" stroke="#2E7FD4" stroke-width="2" stroke-dasharray="10 8"/>
+    </g>
+  </sc-if>
+</svg>
+</x-dc>
+<script data-dc-script data-props='{"guides":{"editor":"boolean","default":false,"section":"Print"},"$preview":{"width":360,"height":216}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { showGuides: this.props.guides === true };
+  }
+}
+</script>
+</body>
+</html>
