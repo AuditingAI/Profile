@@ -13,6 +13,7 @@ Scholar's. The body below is Industry's text, unchanged. The header is what has 
 | "Graduate Assistant in FIU's Financial Literacy Lab" | Yasir, 25 Sep: the role was **Lab Assistant** at the **State Farm Financial Literacy Lab** | Use his title and the lab's name at the time |
 | Real email and telephone number | Public repository. `CLAUDE.md`: placeholders only | `{{EMAIL}}` · `{{PHONE}}` |
 | "Professor Sumit Kundu's graduate course" | No course number or date anywhere in the record | Add both or cut the sentence |
+| "my research and teaching materials are public at auditingai.github.io/research.html" | **Dead link.** The repository's Actions history shows no Pages deployment ever, across all 63 runs, so the site does not exist; and `research.html` sits on `main`, which carries none of the research directories the sentence promises | Cut the sentence until Pages is enabled and this branch is merged, or point to a link that resolves |
 
 ## Claims that are Yasir's to stand behind, untouched by Scholar
 

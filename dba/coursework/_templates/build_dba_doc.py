@@ -96,15 +96,66 @@ def _md(text):
         out.extend(_bold(text[i:]))
     return out or [text]
 
+
+_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)|(https?://[^\s)<>\]]+)|(?<![\w/])((?:www\.)?linkedin\.com/in/[\w-]+)")
+
+def _add_hyperlink(par, text, url, size=11):
+    """A clickable link, as Word's own w:hyperlink, not underlined text.
+
+    A URL printed as plain text is not a link. Every PDF this repository had
+    produced so far carried its addresses that way, which is why "the links
+    don't work": there were none to work.
+    """
+    part = par.part
+    r_id = part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
+    h = OxmlElement("w:hyperlink"); h.set(qn("r:id"), r_id)
+    new_run = OxmlElement("w:r"); rPr = OxmlElement("w:rPr")
+    u = OxmlElement("w:u"); u.set(qn("w:val"), "single"); rPr.append(u)
+    c = OxmlElement("w:color"); c.set(qn("w:val"), "0B3D91"); rPr.append(c)
+    new_run.append(rPr)
+    t = OxmlElement("w:t"); t.text = text; t.set(qn("xml:space"), "preserve"); new_run.append(t)
+    h.append(new_run); par._p.append(h)
+    # size and face are applied through the run object so they match the body
+    from docx.text.run import Run
+    _font(Run(new_run, par), size=size)
+
+def _links(text):
+    """Split a plain string into text and {t,url} link segments."""
+    out, i = [], 0
+    for m in _LINK_RE.finditer(text):
+        if m.start() > i:
+            out.append(text[i:m.start()])
+        if m.group(1):
+            out.append({"t": m.group(1), "url": m.group(2)})
+        elif m.group(3):
+            # a sentence-ending period or comma is not part of the address
+            u = m.group(3).rstrip(".,;:)")
+            tail = m.group(3)[len(u):]
+            out.append({"t": u, "url": u})
+            if tail:
+                out.append(tail)
+        else:
+            out.append({"t": m.group(4), "url": "https://" + m.group(4).removeprefix("www.")})
+        i = m.end()
+    if i < len(text):
+        out.append(text[i:])
+    return out or [text]
+
 def _segs(par, segs, size=11):
     """A paragraph body: a string, or a list of strings and {t,b,i,hl} dicts."""
     if isinstance(segs, str): segs = [segs]
     flat = []
     for s in segs:
         flat.extend(_md(s) if isinstance(s, str) else [s])
+    # links are found after emphasis, on the plain pieces only
+    linked = []
     for s in flat:
+        linked.extend(_links(s) if isinstance(s, str) else [s])
+    for s in linked:
         if isinstance(s, str):
             _font(par.add_run(s), size=size)
+        elif "url" in s:
+            _add_hyperlink(par, s["t"], s["url"], size=size)
         else:
             _font(par.add_run(s["t"]), size=size,
                   bold=s.get("b", False), italic=s.get("i", False),
@@ -179,7 +230,8 @@ def build(spec, out):
         p = doc.add_paragraph()
         p.paragraph_format.space_after = Pt(1)
         p.paragraph_format.line_spacing = 1.0
-        _font(p.add_run(line), size=size - 0.5)
+        # through _segs, so an address in the byline becomes a real link
+        _segs(p, line, size=size - 0.5)
     if spec.get("ident"):
         doc.add_paragraph().paragraph_format.space_after = Pt(4)
 

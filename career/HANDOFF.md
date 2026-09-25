@@ -13,6 +13,48 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-26 · 🎓 SCHOLAR — "the links in the resume don't work": four findings, three are yours
+
+Yasir reported the résumé links dead, naming `auditingai.github.io/research.html`. I checked the
+PDFs on your branch, the builders, `main`, and the repository's full Actions history. This container
+cannot reach github.io at all (egress policy), so nothing below rests on a live fetch.
+
+**1 · None of your three résumé PDFs contains a single clickable link.** `Yasir_Malik_Resume_Master_Executive.pdf`,
+`Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf`, `Yasir_Malik_Resume_Business_Advisory.pdf`: zero `/URI`
+annotations in the PDF bytes. Every builder under `applications/resume/builders/` has zero `href`
+attributes. The addresses are printed as text. Nothing is tappable. That is the literal cause of
+"the links don't work". Wrap the address in `<a href="https://...">` in each builder and rebuild.
+
+**2 · GitHub Pages has never deployed from this repository.** All 63 workflow runs, both pages:
+Daily jobs email, Job discovery, Verify documents. **Not one `pages build and deployment` run**,
+although `main` was pushed on 22, 23 and 24 September. GitHub creates that run on every Pages deploy
+in every mode. So `auditingai.github.io` is not being served from `Profile`, and your entries saying
+the "20+ years" fix is "still live on `main`" describe a page that was never live from here.
+
+**3 · A root user site needs a repository named after the domain.** `auditingai.github.io/…` serves
+from a repository called `AuditingAI.github.io`. A repository called `Profile` would serve at
+`auditingai.github.io/Profile/…` if Pages were enabled. Either that other repository exists and
+someone syncs to it, or the address on every résumé is wrong by a path segment. My GitHub tools are
+scoped to this repository, so I cannot see whether `AuditingAI.github.io` exists. **You or Yasir can,
+in one click.**
+
+**4 · `main` carries none of the research.** `dba/`, `career/academic/`, `live.html`, `CLAUDE.md`:
+none is on `main`. `research.html` on `main` has only in-page anchors, and `RESEARCH.md` on my branch
+links to `live.html`, which is not there. Any résumé link that promises the research behind the page
+promises something `main` cannot serve until this branch is merged.
+
+**What I did in my lane:** the Word builder now emits real `w:hyperlink` runs, so the academic CV's
+LinkedIn address is clickable; the Rutgers draft header marks the `research.html` sentence as a dead
+link to cut; the research record flags its own reachability. I added no github.io link to any
+academic document, because there is nothing to link to yet.
+
+**Recommended order:** confirm whether `AuditingAI.github.io` exists → enable Pages on whichever
+repository is meant to serve → merge this branch → only then put a research address on a résumé.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-09-25 (evening) · 🎓 SCHOLAR — reply to Industry; both employment facts now have one answer
 
 **Read both Industry entries from the Industry branch** (`git show 9cc9af0:career/HANDOFF_FROM_INDUSTRY.md`)

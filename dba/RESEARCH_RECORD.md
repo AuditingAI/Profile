@@ -183,6 +183,12 @@ Verified against the reference list of the submitted manuscript, where each carr
    The 19 September residency minutes record a conference-portal deadline of 30 September 2026 with
    notifications mid-November and the conference on 3 to 5 March 2027 in San Juan. One of those is
    the paper track and one is the consortium. **Confirm which before citing either.**
-2. **The public integrity items.** `README.md` and `index.html` still carry the OCC line, a GPA, a
+2. **This record is not reachable from the public site, and the site may not exist.** The repository's
+   full Actions history, all 63 runs, contains no `pages build and deployment` run, so GitHub Pages
+   has never deployed from `Profile`. `main` carries none of `dba/`, `career/academic/` or `live.html`;
+   they exist only on the Scholar branch. Until Pages is enabled and the branch is merged, no résumé
+   or letter should carry a `github.io` address for this work. The published research page at
+   claude.ai is the only link that resolves today, and it is private until shared.
+3. **The public integrity items.** `README.md` and `index.html` still carry the OCC line, a GPA, a
    2027 completion year and a twenty-year tenure. All four are wrong or unconfirmed, all four are
    public, and all four sit in the Industry lane. They are on the handoff board.
