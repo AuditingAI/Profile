@@ -8,7 +8,7 @@ Re: Rutgers Business School, Lecturer/Adjunct (Part-Time), Fall 2026 — Posting
 
 Dear Colleagues,
 
-I am applying to teach in the Accounting and Information Systems unit, and I would be glad to be considered for Finance and Economics or Management Science and Information Systems as well. I live in Newark, a few minutes from the Washington Park campus, and I can teach in Newark, New Brunswick or Jersey City, in person or online.
+I am applying to teach in the Accounting and Information Systems unit, and I would be glad to be considered for Finance and Economics or Management Science and Information Systems as well. I live in Newark, a few minutes from the Washington Park campus, and I can teach in Newark, New Brunswick or Jersey City, in person or online. I am applying for Fall 2026 and would be glad to be considered for Spring 2027 and Fall 2027 as your needs arise.
 
 **What I would bring into the room is a career spent doing what the syllabus describes.** I spent five years as a Vice President in Citi's Internal Audit function, leading risk-based audits across fifteen-plus business units and reporting findings to executive management and a Board Audit Committee. Before that I validated CCAR forecasts over a $2.6 trillion balance sheet at JPMorgan Chase and ran Resolution & Recovery Planning into Federal Reserve and FDIC submissions. Before that I was a bank examiner for the Florida Office of Financial Regulation, conducting CAMELS examinations alongside federal banking regulators. When a student asks what a regulator actually does when they walk into a bank, I can answer from having been the person walking in.
 

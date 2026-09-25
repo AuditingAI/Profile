@@ -8,8 +8,16 @@ Every branded builder draws its header through brand_header(). Two modes:
               stays ~7 KB.
   mark      - a raster mark centred above the wordmark, used automatically
               when assets/images/logo-mark.png exists. Drop the file in and
-              every builder picks it up on the next run. Keep it under
-              ~600 px wide; it is drawn 0.55 in high.
+              every builder picks it up on the next run.
+
+The mark is the owner's ORIGINAL logo: a navy magnifying glass over navy and
+gold dashes with a gold checkmark (navy #1B365D, gold #BF9222). The source is
+assets/images/logo-full.png, which also carries "AUDIT THE ALGORITHM" beneath
+the glass; logo-mark.png is that device alone, cropped, with the white
+knocked out. It was recovered on 25 Sep 2026 from auditingai-github-pages.zip
+in this repo, and is byte-identical to Edu_Photo_Audit_the_Algorithm_Logo.png
+in Google Drive. An "A" monogram drawn on 18 Sep stood in for it for a week
+and was wrong - the owner never used one.
 
 Colours match logo.svg: gold #B8860B (gradient end #DAA520), muted #6F6754.
 """
