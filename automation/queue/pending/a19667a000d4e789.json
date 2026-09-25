@@ -1,0 +1,52 @@
+{
+  "_rules": {
+    "read_first": "agent-kit/START_HERE.md",
+    "full_rules": "agent-kit/rules.json",
+    "contract": "automation/AGENT_CONTRACT.md",
+    "must": [
+      "Claim this role (status: claimed, agent.claimed_by, agent.claimed_at) and commit before touching the portal.",
+      "Attach package.resume verbatim. Do not substitute a different resume.",
+      "Move this file to submitted/ with a confirmation_ref, or to skipped/ with a reason. Commit the move."
+    ],
+    "never": [
+      "Never store credentials, cookies, or tokens in this repository - it is public and git history is permanent.",
+      "Never answer immigration, work-authorization, salary-history, EEO, or attestation fields. Stop and skip instead.",
+      "Never send email as Yasir. Draft only.",
+      "Never write 'OCC' - the examiner history is the Florida Office of Financial Regulation.",
+      "Never write 'Dr. Malik' or 'CIA certified' - the DBA and the CIA are both in progress.",
+      "Never state a career-length number ('20 years', '15+ years', 'two decades') - name the institutions instead."
+    ],
+    "facts": {
+      "name": "Yasir A. Malik",
+      "email": "YasirAMalik@gmail.com",
+      "phone": "+1 (786) 704-8536",
+      "location": "Newark, NJ",
+      "current_employer": "None - Citi role ended April 2026"
+    }
+  },
+  "id": "a19667a000d4e789",
+  "discovered_at": "2026-09-25T15:27:27Z",
+  "stream": "gsib",
+  "company": "State Street",
+  "title": "AI Product Business Analyst - AI Enablement, AVP",
+  "location": "Burlington Massachusetts",
+  "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Burlington-Massachusetts/AI-Platform-SME--AVP_R-792291-1",
+  "score": 4,
+  "score_reasons": [
+    "sponsor",
+    "out-of-market"
+  ],
+  "sponsor_employer": true,
+  "status": "pending",
+  "package": {
+    "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
+    "cover_letter": null
+  },
+  "agent": {
+    "claimed_by": null,
+    "claimed_at": null,
+    "submitted_at": null,
+    "confirmation_ref": null,
+    "notes": null
+  }
+}
