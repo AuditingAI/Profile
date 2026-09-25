@@ -3,7 +3,7 @@
 **Doctoral Candidate (DBA) · Auditing, Behavioural Accounting & AI Governance**
 Newark, New Jersey · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik
 
-*v2 — 14 August 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
+*v2.1 — 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
 Contact fields are placeholders because this repo is public — fill at send time.
 **Do not send until the `[VERIFY]` items are resolved.** See the note at the end.*
 
@@ -73,6 +73,25 @@ for specialist populations; the operative quantity is eligible prevalence under 
 screeners, and it is observable in advance at no cost. Proposes a pre-fielding prevalence check.
 *Draft complete; venue selection in progress.*
 
+### Research instruments and open materials
+
+**Feasibility calculator.** The argument in the research note above, built as a working instrument
+rather than left as an anecdote. Reachable usable sample is modelled as a product of frame size,
+eligible prevalence, response rate and screen survival. It is validated by reproducing the study that
+produced it, and it shows that a survey at this prevalence would have needed a sampling frame near
+9.6 million. Python, plain standard library, versioned and public.
+
+**Phenomenological protocol for the qualitative arm.** A complete design written before any data
+exists: criterion sampling, interview guide, coding plan from horizontalisation through to composite
+description, trustworthiness criteria mapped to procedures rather than to definitions, and an
+append-only audit trail. Falsification conditions are stated in advance. *Nothing has been fielded.
+Zero participants. The ethics modification has not been submitted.*
+
+**Model-agnostic research runbooks.** A capture schema with provenance on every row, a rule that a
+source stays a lead until it has been read in full, and an adversarial pass run against the
+pipeline's own output. Built in plain markdown so the repository is the memory and the model is
+replaceable.
+
 ### Research programme in development
 
 The dissertation extends the validated human-side model into AI-assisted review through a three-link
@@ -85,11 +104,26 @@ its own validation.
 The empirical contribution targets the weakest link — whether professionals reading model output
 converge on each other — which is measurable and, to date, unmeasured.
 
+The chain is argued link by link rather than asserted, and each link carries its strongest challenge
+in writing: the first must be argued from expert-population evidence rather than undergraduate lab
+samples; the second describes current model behaviour and so is argued as a mechanism, the pressure
+to optimise on human approval, rather than as a property of any one model generation; and the third
+is stated plainly as an inference rather than a finding. Nothing in the chain has been tested, and
+the programme says so wherever it is presented.
+
 ### Methods
 
-Survey design and instrument validation · exploratory and confirmatory factor analysis ·
-reliability analysis · PLS-SEM (specified) · regression diagnostics · Jamovi, SPSS, Python (pandas,
-factor_analyzer), Qualtrics · qualitative synthesis of open-response data.
+**Quantitative.** Survey design and instrument validation · exploratory and confirmatory factor
+analysis · reliability analysis · PLS-SEM (specified) · regression diagnostics · sensitivity analysis
+across a parameter space · Jamovi, SPSS, Python (pandas, factor_analyzer), Qualtrics.
+
+**Qualitative.** Phenomenological design · criterion sampling and saturation as a stopping rule ·
+semi-structured protocol development and pilot testing · horizontalisation, meaning units, textural
+and structural description · trustworthiness criteria mapped to procedure · reflexive memoing and an
+append-only audit trail · NVivo.
+
+**Research governance.** Protocol approval and amendment tracking · participant protection ·
+institutional AI-use policy compliance and disclosure · reproducible pipelines in version control.
 
 ---
 

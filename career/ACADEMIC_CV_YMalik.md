@@ -1,59 +1,44 @@
-# Yasir A. Malik
-**Doctoral Candidate (DBA) · Practitioner-Scholar in Auditing, Risk & AI Governance**
-Newark, NJ · ymali001@fiu.edu · linkedin.com/in/yasiramalik · +1 (305) 799-2443
+# Academic CV — pointer, not a copy
+
+**The academic CV lives at [`academic/ACADEMIC_CV_v2.md`](academic/ACADEMIC_CV_v2.md).**
+That is the only version. Use it.
 
 ---
 
-## Profile
+## Why this file is a pointer
 
-Doctoral candidate researching **cognitive bias in audit judgment and the governance of AI-assisted decision-making**, bringing 15 years of audit and risk leadership practice at Citi and JPMorgan — including service as a bank examiner with the Florida Office of Financial Regulation, examining state-chartered banks jointly with the FDIC and the Federal Reserve Bank of Atlanta — into the classroom. Built and deployed a production RAG/AI tool inside Citi's audit function (35% cycle-time reduction), giving students a rare bridge between auditing theory, behavioral research, and the AI tools reshaping the profession. Seeking assistant professor / adjunct appointments in accounting, auditing, or business analytics.
+It used to be a second copy, and the two copies drifted, which is exactly the failure a CV cannot
+afford. The divergence was not cosmetic:
 
-## Education
+| | The copy that was here | `academic/ACADEMIC_CV_v2.md` |
+|---|---|---|
+| MBA cumulative GPA | 3.8 | 3.71, carrying a `[VERIFY]` |
+| DBA completion | "expected 2027" | Not stated. Marked `[VERIFY]`, with the cohort recorded as Class of 2028 |
+| DBA GPA | "3.81–3.87 [CONFIRM]" | Not stated at all |
+| Bank examiner | Florida OFR, joint with FDIC and the Federal Reserve Bank of Atlanta | Same, with the OCC deliberately excluded and the reasoning written down |
+| Contact block | A live email address and a **retired** telephone number, in a public repository | `{{EMAIL}}` and `{{PHONE}}` placeholders, filled at send time |
 
-**Doctor of Business Administration (DBA)** — Florida International University, College of Business
-In progress, expected 2027 · GPA 3.81–3.87 [CONFIRM against current transcript — resume states 3.87, the 2024–25 official evaluation recorded 3.81] · Qualifying research project completed July 2026
-Dissertation (in development): *AI-augmented audit judgment — do algorithmic decision aids attenuate human anchoring or introduce algorithmic anchors of their own?*
+Two numbers for the same degree is the kind of thing a search committee finds. A GPA range reads as
+carelessness in a document whose whole job is precision. And `CLAUDE.md` §3 forbids stating a DBA
+completion year or a GPA anywhere until the program office confirms them, which has not happened.
 
-**Master of Business Administration (MBA)** — Florida International University, 2011 · GPA 3.8
-
-**B.Sc., Banking & Finance** — London School of Economics (LSE), 2005
-
-**Columbia Engineering FinTech Boot Camp** — Columbia University, 2021 (ML, Python, algorithmic trading)
-
-## Research
-
-**Qualifying study (2026):** *Mitigating Anchoring Bias in Long-Term Auditor Engagements* — developed an 11-construct, 55-item measurement model (8 organizational interventions, 2 mediating conditions, outcome) with 16 hypotheses grounded in dual-process theory; IRB-approved (IRB-25-0462); instrument fielded via Qualtrics; executed as a pilot/feasibility study with a fully specified EFA→CFA→PLS-SEM analysis pipeline. Full manuscript ~16,000 words.
-
-**Research agenda:** the interaction of AI/LLM audit tools with practitioner cognitive bias — algorithm aversion vs. automation bias in audit risk assessment — extending the validated human-side measurement model into AI-augmented engagements. Grounded in current literature (Commerford et al. 2022, *JAR*; Fedyk et al. 2022, Eulerich et al. 2024, Estep et al. 2024, *RAST*; Emett et al. 2025, *Accounting Horizons*; PCAOB 2024 GenAI guidance).
-
-**Methods:** survey design & validation, EFA/CFA, reliability analysis, PLS-SEM (specified), Jamovi/SPSS, Python data pipelines, Qualtrics; qualitative synthesis.
-
-## Teaching Readiness
-
-**Prepared to teach:** Auditing (external & internal) · Accounting Information Systems · Internal Controls & SOX · Enterprise Risk Management · Behavioral Accounting / Judgment & Decision-Making · AI Governance & Responsible AI in Business · Data Analytics for Accountants.
-
-**Teaching-relevant experience:**
-- Adjunct application, Rutgers — Newark (2026): application package prepared **[CONFIRM status]**
-- 15 years of professional training, supervision, and mentorship of audit staff at two global banks — workpaper coaching, methodology training, judgment-quality feedback
-- Regular presenter to senior management and regulators; translated technical audit and AI topics for non-specialist audiences
-
-## Professional Experience (summary — practitioner credibility for the classroom)
-
-**Audit & Risk Leadership — Citigroup and JPMorgan Chase** (15 years combined)
-Internal audit and risk roles across consumer and institutional banking; led AI innovation within audit including a production retrieval-augmented-generation tool that cut audit cycle time ~35%; governance work spanning meeting-discipline controls across 15 business units.
-
-**Bank Examiner — Florida Office of Financial Regulation, Bureau of Bank Regulation** (2011–2012)
-Safety-and-soundness examinations of state-chartered community banks conducted on a joint and alternating basis with the **FDIC** and the **Federal Reserve Bank of Atlanta** under the federal–state supervisory programme.
-Safety-and-soundness examination experience across regulated institutions — direct regulatory perspective for auditing and bank-management courses.
-
-## Certifications & Professional Affiliations
-
-FDIC Bank Examiner I · Registered Scrum Master · GCP Social/Behavioral Human Research (AI Ethics)
-
-## Service & Ventures
-
-- Founder (in development): *Audit the Algorithm* — governance-first AI advisory; informs case material on AI assurance.
-- **[CONFIRM: professional memberships — IIA, AICPA, ISACA chapters]**
+**The contact details are the part that mattered most.** This repository is public. A real email
+address and a telephone number that is no longer in service sat in it. Both are now placeholders,
+per the standing rule that contact details live in Notion and never here.
 
 ---
-*References and full research manuscript available on request.*
+
+## What else is in the academic set
+
+| Document | Purpose |
+|---|---|
+| [`academic/ACADEMIC_CV_v2.md`](academic/ACADEMIC_CV_v2.md) | The CV |
+| [`academic/RESEARCH_STATEMENT.md`](academic/RESEARCH_STATEMENT.md) | The research statement |
+| [`academic/TEACHING_STATEMENT.md`](academic/TEACHING_STATEMENT.md) | The teaching statement |
+| [`academic/ACADEMIC_JOB_STRATEGY.md`](academic/ACADEMIC_JOB_STRATEGY.md) | Targets, timing, and the academic hiring calendar |
+| [`academic/letters/`](academic/letters/) | Cover letters |
+| [`../dba/RESEARCH_RECORD.md`](../dba/RESEARCH_RECORD.md) | The sourced evidence base all three documents draw from |
+
+**Industry may read all of this. None of it goes out alongside an industry résumé**, in the same
+message, application or email. That rule is in `CLAUDE.md` and it is not a formality: an industry
+recruiter reading this CV sees a candidate leaving for academia.

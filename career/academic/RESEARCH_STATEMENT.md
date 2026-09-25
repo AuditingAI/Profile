@@ -83,6 +83,41 @@ vary whether reviewers see model output and whose output they see, measure dispe
 AI assistance improving judgment in some tasks, and any serious treatment has to engage it rather
 than route around it.
 
+## The second arm, and why the method changed
+
+The recruitment failure did not only produce a paper. It changed the design of the programme, and I
+think the reasoning is worth stating because it is the kind of decision a committee should be able
+to audit.
+
+Twenty reachable people is a catastrophic sample for a fifty-five-item measurement model and a
+workable one for an interview study. The same twenty humans who made the quantitative design
+impossible make a qualitative design viable. So the programme now runs two arms rather than one, and
+the second arm exists because of what the population can supply rather than because I developed a
+preference for interviews. **Method is a function of feasibility, not of taste.** Writing that down,
+with the arithmetic attached, is more defensible than presenting a qualitative study as though it had
+been the plan all along.
+
+The second arm is a phenomenological study of how experienced auditors make sense of receiving a
+machine-generated conclusion that agrees with a judgment they had already formed independently. The
+protocol is written: criterion sampling, an interview guide, a coding plan running from
+horizontalisation to composite description, trustworthiness criteria mapped to procedures, and an
+append-only audit trail. Falsification conditions are stated before any data exists, for the same
+reason a pre-registration exists in quantitative work.
+
+Eligibility is defined by the phenomenon rather than by the job title. A participant must have
+actually received AI-generated output that confirmed a judgment they had already reached. General
+experience of AI-supported audit work does not qualify, and collapsing the two would produce a study
+about something adjacent to the question.
+
+**Nothing has been fielded. There are zero participants, and the ethics modification has not been
+submitted.** I would rather a reader learn that from me than discover it.
+
+One further piece belongs here because it bears on how I intend to work rather than on what I intend
+to find. The research pipeline I use is built to refuse unsourced claims, to report a quiet search
+as quiet, and to run an adversarial pass against its own output. That is not incidental to a
+programme about machine agreement. A researcher who lets a model confirm his own topic is running
+his dissertation's failure mode on himself.
+
 ## How I would contribute to a department
 
 **Research.** An active program at the intersection of auditor judgment and AI governance, with a
