@@ -24,13 +24,13 @@
       "current_employer": "None - Citi role ended April 2026"
     }
   },
-  "id": "4cb40e97e64b5000",
-  "discovered_at": "2026-09-15T15:12:22Z",
+  "id": "28406bf8a2713a8c",
+  "discovered_at": "2026-09-24T15:26:03Z",
   "stream": "legacy",
-  "company": "Stripe",
-  "title": "Third Party Risk Analyst",
-  "location": "Bengaluru",
-  "url": "https://stripe.com/jobs/search?gh_jid=8189018",
+  "company": "Robinhood",
+  "title": "Internal Audit Senior Associate",
+  "location": "Ljubljana, Slovenia",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8202146?t=gh_src=&gh_jid=8202146",
   "score": 3,
   "score_reasons": [
     "out-of-market"
@@ -38,7 +38,7 @@
   "sponsor_employer": false,
   "status": "pending",
   "package": {
-    "resume": "applications/resume/Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf",
+    "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
     "cover_letter": null
   },
   "agent": {

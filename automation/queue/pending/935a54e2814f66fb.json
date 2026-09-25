@@ -24,21 +24,19 @@
       "current_employer": "None - Citi role ended April 2026"
     }
   },
-  "id": "4cb40e97e64b5000",
-  "discovered_at": "2026-09-15T15:12:22Z",
+  "id": "935a54e2814f66fb",
+  "discovered_at": "2026-09-21T16:33:31Z",
   "stream": "legacy",
   "company": "Stripe",
-  "title": "Third Party Risk Analyst",
-  "location": "Bengaluru",
-  "url": "https://stripe.com/jobs/search?gh_jid=8189018",
-  "score": 3,
-  "score_reasons": [
-    "out-of-market"
-  ],
+  "title": "Crypto Controls and Compliance Advisor ",
+  "location": "Remote US",
+  "url": "https://stripe.com/jobs/search?gh_jid=8188326",
+  "score": 4,
+  "score_reasons": [],
   "sponsor_employer": false,
   "status": "pending",
   "package": {
-    "resume": "applications/resume/Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf",
+    "resume": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
     "cover_letter": null
   },
   "agent": {
