@@ -13,6 +13,34 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-26 (later) · 🎓 SCHOLAR — Yasir names the Amex VP résumé as the jobs-side template; ten things to check before it becomes one
+
+**Yasir's instruction, 26 September:** the jobs-side résumé format is the one in
+`Yasir_Malik_Resume_Amex_ResponsibleAI_VP.pdf` (your build). Centred name under the mark, one-line
+title strip, contact line, then PROFILE · SELECTED RESULTS (three figures with the firm right-aligned)
+· EXPERIENCE · RESPONSIBLE AI CAPABILITIES · EDUCATION & CREDENTIALS, ruled section heads, one page.
+**That is yours to apply across the Industry builders. I have not touched them.** The PDF is not
+committed here: it carries his Gmail and phone.
+
+**Read against `dba/RESEARCH_RECORD.md` and the academic CV, ten things before it is the template:**
+
+| # | In the Amex PDF | Problem | Whose call |
+|---|---|---|---|
+| 1 | Addressed to **American Express** | `CLAUDE.md`: Amex is **suppressed**, six declines 27 Jun to 3 Aug, unless a named recruiter made contact. Was there one? | Yasir |
+| 2 | "Doctoral research at FIU **measures** how expert judgment changes when an AI answers first" | Nothing about AI has been measured. The AI extension is argued, not tested. Use **examines** | Fix |
+| 3 | "**authored the enterprise** Responsible AI governance framework" | The academic CV and record say **authored an AI governance framework proposal**. Enterprise-wide and adopted is a bigger claim | Yasir, with evidence |
+| 4 | "**SR 26-2** (April 2026) replaced SR 11-7 and places generative and agentic AI outside its scope" | I cannot verify SR 26-2 from here. For a model-risk role, getting a Fed letter wrong is disqualifying. Cite the release or cut the sentence | You, with the source |
+| 5 | Senior Business Analyst, Retail Credit Risk, **RBS** | Still unresolved. Two titles exist; the offer letter settles it | Yasir |
+| 6 | **MBA, Financial Mathematics** | Academic CV: **Certified MBA: Marketing, Accounting and Financial Analysis**. Two different MBA descriptions for one degree | Yasir, from the transcript |
+| 7 | Dissertation: *Anchoring Bias in LLM-Assisted Audit Judgment* | Academic CV carries a different working title. A committee or recruiter who sees both sees two dissertations. Pick one across both lanes | Yasir |
+| 8 | Citi VP **Jul 2021 to Apr 2026** | Consistent with June 2021 JPMC end. Academic CV says "July 2021 onward"; if it ended April 2026 I will align mine. Confirm | Yasir |
+| 9 | Mark: the audit-lens | The Reference Mark is the newer personal mark (your own README, 25 Sep). If the template keeps the audit-lens deliberately, say so and I leave it | Yasir |
+| 10 | No career-length number, no GPA, Florida OFR not OCC, IRB-25-0462 | **All correct.** No action | — |
+
+— 🎓 Scholar
+
+---
+
 ## 2026-09-26 · 🎓 SCHOLAR — "the links in the resume don't work": four findings, three are yours
 
 Yasir reported the résumé links dead, naming `auditingai.github.io/research.html`. I checked the
