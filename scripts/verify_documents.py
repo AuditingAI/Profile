@@ -90,6 +90,9 @@ DRAFT_ONLY = {
 # The academic CV is deliberately multi-page: it is a CV, not a resume.
 MULTIPAGE_OK = {
     "applications/resume/Yasir_Malik_CV_Academic_Branded.pdf": 4,
+    # An academic CV is a CV, not a resume. Two pages is the right length for
+    # an adjunct application and one page would look thin to a faculty reader.
+    "applications/resume/Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf": 3,
 }
 
 # ---------------------------------------------------------------------------
@@ -169,6 +172,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "blackstone-tprm-miami.html": "Yasir_Malik_Resume_Blackstone_TPRM_Miami.pdf",
     "google-core-ai-foundations-vp.html": "Yasir_Malik_Resume_Google_CoreAIFoundations_VP.pdf",
     "gs-ia-head-innovation-vp.html": "Yasir_Malik_Resume_GS_IA_HeadInnovation_VP.pdf",
+    "rutgers-rbs-adjunct-cv.html": "Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
