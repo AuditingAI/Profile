@@ -42,3 +42,39 @@ argument: he has already written a control framework for exactly those systems,
 and he can point at the regulator's own words for why one was needed.
 
 Use it in the first line of any cover letter or recruiter reply here.
+
+---
+
+# Second sweep — 25 Sep 2026
+
+Wider search across ZipRecruiter and the job indexes. Same caveat: these are
+index results, not pages read from the employer. Confirm live before applying.
+
+## Highest value found
+
+| Role | Employer | Where | Reported band | Link |
+|---|---|---|---|---|
+| **Product Director — AI Governance Transformation** | JPMorgan Chase | New York | $255–267K (one index); $160–200K (another) — verify | [Built In NYC](https://www.builtinnyc.com/job/product-director-ai-governance-transformation/11086045) |
+| **Internal Audit/SOX — Director** | PwC | New York | $155–410K | [ZipRecruiter](https://www.ziprecruiter.com/jobs-search?search=Internal+Audit+SOX+Director&location=New+York%2C+NY) |
+| **VP, Head of IT Audit** | Broadridge | New York | $172–215K | [ZipRecruiter](https://www.ziprecruiter.com/jobs-search?search=VP+Head+of+IT+Audit+Broadridge&location=New+York%2C+NY) |
+| **VP Audit — Global Investment Banking** | Barclays | New York | $150–210K | [ZipRecruiter](https://www.ziprecruiter.com/jobs-search?search=VP+Audit+Global+Investment+Banking+Barclays&location=New+York%2C+NY) |
+| **Internal Audit, VP — Institutional Securities, Technology** | Morgan Stanley | New York | $135–203K | [ZipRecruiter](https://www.ziprecruiter.com/jobs-search?search=Internal+Audit+Vice+President+Institutional+Securities+Technology&location=New+York%2C+NY) |
+
+**On the JPMorgan role:** it is the strongest topical match found in either
+sweep — AI governance, product-shaped, at a firm where he already worked
+(2015–2021, so not an excluded employer). Two indexes disagree on the band by
+about $90K; check the posting itself.
+
+## Lower priority
+
+- **KPMG — Manager, SAP AI & Agent Governance** (NY, $143–190K). Right subject,
+  but manager level and SAP-specific.
+- **Smith Arnold Partners — IT Audit Manager** (NY, $150–175K). Agency listing,
+  manager level.
+
+## What was searched and found nothing worth listing
+
+Indeed's index returns generic finance and controller roles for these terms and
+was not useful. The niche is better served by searching each employer's own
+careers site directly, which is blocked from cloud sessions — so this list is
+a floor, not a ceiling.
