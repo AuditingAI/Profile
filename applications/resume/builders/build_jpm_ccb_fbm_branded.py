@@ -19,7 +19,7 @@ Run from repo root:
     python3 applications/resume/builders/build_jpm_ccb_fbm_branded.py
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA is in progress (expected 2028); CIA is in progress.
+Financial Regulation; DBA is in progress; CIA is in progress.
 """
 from pathlib import Path
 
@@ -209,8 +209,8 @@ flow.append(Paragraph(
 # ---- Education -------------------------------------------------------------------
 flow += section("EDUCATION &amp; CERTIFICATIONS")
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration, Florida International University</b> &mdash; in progress, expected 2028 | "
-    "GPA 3.81. <b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &bull; "
+    "<b>Doctor of Business Administration, Florida International University</b> &mdash; in progress. "
+    "<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br/>"
     "<b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Human Subjects Research. "

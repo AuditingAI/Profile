@@ -13,7 +13,7 @@ Run from repo root:
     python3 applications/resume/builders/build_master_branded.py
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA in progress (expected 2028); CIA in progress; never a
+Financial Regulation; DBA in progress; CIA in progress; never a
 career-length number - the dates on the entries speak.
 """
 import sys
@@ -99,7 +99,7 @@ flow.append(Paragraph(
     "consent-order closure evidence accepted by external regulators. Builds the tooling as well as the framework: "
     "a production RAG workpaper assistant (~35% faster review), automated reconciliations (~40% less manual "
     "review), 500+ legal-entity data sources into governed master data at 99.8% filing accuracy. Authored an AI "
-    "governance framework referencing NIST AI RMF and SR 11-7. DBA candidate at FIU (expected 2028, GPA 3.81) "
+    "governance framework referencing NIST AI RMF and SR 11-7. DBA candidate at FIU "
     "researching how expert judgment degrades under AI assistance.", body))
 
 # ---- Selected results --------------------------------------------------------
@@ -198,9 +198,10 @@ flow.append(Paragraph("Conducted CAMELS safety-and-soundness examinations of sta
 # ---- Education -------------------------------------------------------------------
 flow += section("EDUCATION")
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, expected "
-    "2028 | GPA 3.81. Qualifying research completed Jul 2026 (IRB-25-0462): a designed experiment on anchoring "
-    "in auditor judgment, analysed in SPSS. Dissertation in development: automation bias in AI-assisted judgment.<br/>"
+    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress. "
+    "Qualifying examination passed Jul 2026 (IRB-25-0462): a 55-item instrument on anchoring "
+    "in audit judgment, designed and fielded under institutional ethics approval. "
+    "Dissertation in development: <i>Anchoring Bias in LLM-Assisted Audit Judgment</i>.<br/>"
     "<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021", body))

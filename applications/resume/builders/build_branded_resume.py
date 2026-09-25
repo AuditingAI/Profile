@@ -65,7 +65,7 @@ flow.append(Paragraph(
     "AI governance framework referencing NIST AI RMF and SR 11-7 &mdash; model inventory, risk tiering, "
     "explainability, human-in-the-loop controls &mdash; and built the AI tooling it governs. Former Florida OFR "
     "bank examiner; led consent-order remediation with evidence accepted by federal regulators, which is pre-launch "
-    "safety review under the harshest possible audience. DBA candidate (FIU, expected 2028) researching "
+    "safety review under the harshest possible audience. DBA candidate (FIU) researching "
     "over-reliance on AI-assisted tools &mdash; the human-factors half of Responsible AI.", body))
 
 flow.append(Paragraph("PROFESSIONAL EXPERIENCE", h2)); flow.append(rule())
@@ -114,9 +114,9 @@ flow.append(Paragraph("<b>Assistant Vice President, Global Legal Entity Manageme
 
 flow.append(Paragraph("EDUCATION", h2)); flow.append(rule())
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, expected "
-    "2028 | GPA 3.81. Qualifying research completed Jul 2026: <i>Mitigating Anchoring Bias in Long-Term Auditor "
-    "Engagements</i> (IRB-25-0462). Dissertation in development: automation bias in AI-assisted judgment.<br/>"
+    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress. "
+    "Qualifying examination passed Jul 2026: <i>Mitigating Anchoring Bias in Long-Term Auditor "
+    "Engagements</i> (IRB-25-0462). Dissertation in development: <i>Anchoring Bias in LLM-Assisted Audit Judgment</i>.<br/>"
     "<b>Master of Business Administration (MBA), Florida International University</b> &mdash; 2011<br/>"
     "<b>B.Sc., Banking &amp; Finance, London School of Economics (LSE)</b> &mdash; 2005<br/>"
     "<b>Columbia Engineering FinTech Boot Camp, Columbia University</b> &mdash; 2021", body))

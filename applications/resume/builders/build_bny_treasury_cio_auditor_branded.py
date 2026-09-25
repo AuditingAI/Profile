@@ -19,7 +19,7 @@ Run from repo root:
     python3 applications/resume/builders/build_bny_treasury_cio_auditor_branded.py [scale]
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA in progress (expected 2028); CIA in progress; never a
+Financial Regulation; DBA in progress; CIA in progress; never a
 career-length number.
 """
 import sys
@@ -206,7 +206,7 @@ flow.append(Paragraph("Conducted <b>CAMELS</b> safety-and-soundness examinations
 flow += section("EDUCATION &amp; CERTIFICATIONS")
 flow.append(Paragraph(
     "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, "
-    "expected 2028 | GPA 3.81 &bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; "
+    "&bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; "
     "2011 &bull; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br/>"
     "<b>Certifications:</b> <b>FDIC Bank Examiner I</b> &bull; Registered Scrum Master &bull; GCP "

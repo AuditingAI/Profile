@@ -29,6 +29,10 @@ def sandbox(tmp: Path) -> Path:
         src = ROOT / name
         if src.exists():
             shutil.copytree(src, repo / name)
+    # the public pages sit at the root and are checked too
+    for page in [*ROOT.glob("*.html"), ROOT / "README.md"]:
+        if page.exists():
+            shutil.copy2(page, repo / page.name)
     return repo
 
 
@@ -95,6 +99,16 @@ def inject_retired_phone(repo: Path) -> None:
     md.write_text(md.read_text().replace("+1 (786) 704-8536", "(305) 555-0134", 1))
 
 
+def inject_dba_gpa(repo: Path) -> None:
+    md = repo / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md"
+    md.write_text(md.read_text() + "\n\nDBA candidate at FIU (GPA 3.81, expected 2028).\n")
+
+
+def inject_public_tenure(repo: Path) -> None:
+    page = repo / "index.html"
+    page.write_text(page.read_text().replace("</body>", "<p>Two decades in banking.</p></body>", 1))
+
+
 def inject_letter_spacing(repo: Path) -> None:
     """The failure this whole harness exists for: the name stops extracting."""
     html = repo / "applications/resume/builders/gs-gbm-src-vp.html"
@@ -115,6 +129,8 @@ CASES = [
     ("queue entry loses its rules", inject_unstamped_queue, "rules not stamped", False),
     ("placeholder left in a letter", inject_placeholder, "unfilled placeholder", False),
     ("retired 305 number", inject_retired_phone, "retired phone", False),
+    ("DBA GPA and completion year stated", inject_dba_gpa, "DBA GPA or completion year", False),
+    ("career-length number on the public site", inject_public_tenure, "career-length number", False),
 ]
 
 # Cases whose fault only shows up after a rebuild.

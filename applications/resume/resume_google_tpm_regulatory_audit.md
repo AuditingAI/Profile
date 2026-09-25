@@ -24,7 +24,7 @@ Coordinates regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB o
 - Conducted joint federal-state CAMELS examinations; authored examination workpapers supporting formal enforcement actions. FDIC Bank Examiner I.
 
 ## EDUCATION
-- **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment
+- **DBA (in progress)**, Florida International University · in progress · Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*
 - **MBA, Financial Mathematics**, FIU · GPA 3.80 · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS

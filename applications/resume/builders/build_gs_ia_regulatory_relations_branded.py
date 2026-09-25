@@ -14,7 +14,7 @@ Run from repo root:
     python3 applications/resume/builders/build_gs_ia_regulatory_relations_branded.py [scale]
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA in progress (expected 2028); CIA in progress; never a
+Financial Regulation; DBA in progress; CIA in progress; never a
 career-length number.
 """
 import sys
@@ -93,7 +93,7 @@ flow.append(Paragraph(
     "and external regulators accepted. Runs the process as well as the relationship &mdash; consolidated 500+ "
     "legal-entity data sources into a governed repository at 99.8% filing accuracy, automated reconciliations "
     "(~40% less manual review), and built a workpaper assistant (~35% faster review). Reports to executive "
-    "management and the Board Audit Committee. DBA candidate at FIU (expected 2028, GPA 3.81).", body))
+    "management and the Board Audit Committee. DBA candidate at FIU.", body))
 
 # ---- Mapping ---------------------------------------------------------------------
 flow += section("THE ROLE'S RESPONSIBILITIES, AGAINST THE RECORD")
@@ -186,8 +186,8 @@ flow.append(Paragraph("Conducted CAMELS safety-and-soundness examinations of sta
 # ---- Education & certifications -------------------------------------------------
 flow += section("EDUCATION &amp; CERTIFICATIONS")
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, expected "
-    "2028 | GPA 3.81 &bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &bull; "
+    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress "
+    "&bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br/>"
     "<b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Social/Behavioral Human "

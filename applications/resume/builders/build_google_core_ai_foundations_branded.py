@@ -29,7 +29,7 @@ Run from repo root:
     python3 applications/resume/builders/build_google_core_ai_foundations_branded.py [scale]
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA in progress (expected 2028); CIA in progress; never a
+Financial Regulation; DBA in progress; CIA in progress; never a
 career-length number. Never claim a product-manager title, a CS degree, or
 experience running a PM organisation.
 """
@@ -138,7 +138,7 @@ rows = [
     [Paragraph("The human side of model quality", cell),
      Paragraph("DBA research at FIU on <b>automation bias in AI-assisted judgment</b>: how expert judgment "
                "degrades when a model is confidently wrong. Qualifying study completed Jul 2026 (IRB-25-0462), "
-               "a designed experiment analysed in SPSS. The sycophancy and over-reliance problem, measured.", cell)],
+               "a 55-item instrument designed and fielded under IRB approval. The sycophancy and over-reliance problem, measured.", cell)],
 ]
 t = Table(rows, colWidths=[usable * 0.30, usable * 0.70])
 t.setStyle(TableStyle([
@@ -223,10 +223,10 @@ flow.append(Paragraph(
 # ---- Education + advisory ----------------------------------------------------
 flow += section("EDUCATION, RESEARCH &amp; ADVISORY")
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, "
-    "expected 2028 | GPA 3.81. Qualifying research completed Jul 2026 (IRB-25-0462): a designed experiment on "
-    "anchoring in expert judgment, analysed in SPSS. Dissertation in development: <b>automation bias in "
-    "AI-assisted judgment</b>.<br/>"
+    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress. "
+    "Qualifying examination passed Jul 2026 (IRB-25-0462): a 55-item instrument on anchoring in audit "
+    "judgment, designed and fielded under institutional ethics approval. "
+    "Dissertation in development: <i>Anchoring Bias in LLM-Assisted Audit Judgment</i>.<br/>"
     "<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br/>"

@@ -26,7 +26,7 @@ Run from repo root:
     python3 applications/resume/builders/build_gs_hcm_data_product_branded.py [scale]
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA in progress (expected 2028); CIA in progress; never a
+Financial Regulation; DBA in progress; CIA in progress; never a
 career-length number. Never claim Snowflake, Oracle HCM, data mesh, or Jira.
 """
 import sys
@@ -106,7 +106,7 @@ flow.append(Paragraph(
     "capital optimisation for CFO decision support. Partners across Data, Engineering, Legal, Treasury, and "
     "Operations at scale (50+ stakeholders on a single regulatory programme) and reports outcomes to executive "
     "management and the Board Audit Committee. <b>Registered Scrum Master.</b> MBA in Financial Mathematics; DBA "
-    "candidate at FIU, expected 2028.", body))
+    "candidate at FIU.", body))
 
 # ---- Mapping ---------------------------------------------------------------------
 flow += section("THE DATA-PRODUCT REQUIREMENTS, AGAINST THE RECORD")
@@ -212,7 +212,7 @@ flow.append(Paragraph("CAMELS safety-and-soundness examinations alongside federa
 flow += section("EDUCATION &amp; CERTIFICATIONS")
 flow.append(Paragraph(
     "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress, "
-    "expected 2028 | GPA 3.81 &bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; "
+    "&bull; <b>MBA, Financial Mathematics, Florida International University</b> &mdash; "
     "2011 &bull; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br/>"
     "<b>Certifications:</b> <b>Registered Scrum Master</b> &bull; FDIC Bank Examiner I &bull; GCP "

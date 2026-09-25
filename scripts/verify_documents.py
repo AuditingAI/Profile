@@ -123,6 +123,17 @@ FORBIDDEN = [
      "the examiner history is the Florida Office of Financial Regulation"),
     ("career-length number", "(?i)" + "|".join(CAREER_LENGTH),
      "name the institutions; the dates on the entries carry the tenure"),
+    # The DBA GPA and completion year are unresolved - 3.81 against a claimed
+    # 3.87, Summer 2028 against a claimed 2027 - and the shared research record
+    # bars both until the FIU program office confirms. MBA GPA 3.8 is settled
+    # and is not matched here.
+    ("DBA GPA or completion year",
+     r"(?i)\b3\.8[17]\b|\bexpected\s+(?:\*\*)?20(?:2[6-9]|3\d)\b|\bsummer\s+2028\b",
+     "no DBA GPA and no completion year until the program office confirms them"),
+    # The qualifying study was a 55-item survey instrument, and 4 responses
+    # survived screening. Calling it an experiment, or "analysed", overstates it.
+    ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",
+     "it was a 55-item instrument, fielded; the qualifying examination was passed Jul 2026"),
     ("retired phone", RETIRED_AREA_CODE,
      "the 305 line is dead; the number is +1 (786) 704-8536"),
     # A raw entity in the TEXT LAYER means the markup did not render - "&mdash;"
@@ -173,6 +184,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "google-core-ai-foundations-vp.html": "Yasir_Malik_Resume_Google_CoreAIFoundations_VP.pdf",
     "gs-ia-head-innovation-vp.html": "Yasir_Malik_Resume_GS_IA_HeadInnovation_VP.pdf",
     "rutgers-rbs-adjunct-cv.html": "Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf",
+    "master-executive.html": "Yasir_Malik_Resume_Master_Executive.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
@@ -325,6 +337,10 @@ def check_pdf(path: Path, rep: Report) -> str:
 def check_sources(rep: Report) -> None:
     """The same content rules, applied to what generates the PDFs."""
     sources = [
+        # The public site is checked too: "two decades" survived on index.html
+        # for weeks because the harness only read the resume sources.
+        *sorted(p for p in ROOT.glob("*.html")),
+        ROOT / "README.md",
         *sorted(BUILDERS.glob("*.py")),
         *sorted(BUILDERS.glob("*.html")),
         *sorted(LETTERS.glob("*.md")),

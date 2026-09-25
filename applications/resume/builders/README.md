@@ -134,7 +134,10 @@ string, the phone is present, and `\bOCC\b` matches zero times.
   experience entries speak. Employer-specific spans ("six years at JPMorgan")
   are fine. Purged repo-wide on 12 Sep; the verify step greps for it.
 - Phone is **+1 (786) 704-8536**. The 305 number is personal and retired.
-- **DBA in progress, expected 2028**, GPA 3.81. Never "Dr. Malik".
+- **DBA in progress.** State **no completion year and no GPA** until the FIU program office confirms
+  them: the record shows 3.81 and Summer 2028 against a claimed 3.87 and 2027, and the shared
+  research record (`dba/RESEARCH_RECORD.md`, Scholar lane) bars both. "Qualifying examination passed
+  Jul 2026" is confirmed and may be stated. Never "Dr. Malik".
 - The IRB approval (IRB-25-0462) covers the **completed anchoring-bias
   qualifying research**, not the automation-bias dissertation, which is in
   development and not approved.

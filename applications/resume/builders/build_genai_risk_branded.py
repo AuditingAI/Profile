@@ -13,7 +13,7 @@ Run from repo root:
     python3 applications/resume/builders/build_genai_risk_branded.py
 
 Standing rules: never "OCC"; examiner history is the Florida Office of
-Financial Regulation; DBA is in progress (expected 2028); CIA is in progress.
+Financial Regulation; DBA is in progress; CIA is in progress.
 """
 from pathlib import Path
 
@@ -96,7 +96,7 @@ flow.append(Paragraph(
     "AI RMF and SR 11-7, and shipped the RAG assistant it governs (~35% faster audit review). Led consent-order "
     "remediation accepted by federal regulators, CCAR forecast validation over a $2.6T balance sheet, and "
     "Resolution &amp; Recovery Planning that earned the Federal Reserve&rsquo;s &ldquo;not not-credible&rdquo; "
-    "rating. DBA candidate at FIU (GPA 3.81, expected 2028) whose research measures how expert judgment degrades "
+    "rating. DBA candidate at FIU  whose research measures how expert judgment degrades "
     "under AI assistance &mdash; the human-factors half of AI risk that model validation alone cannot cover.",
     body))
 
@@ -192,8 +192,8 @@ flow.append(Paragraph(
 # ---- Education -------------------------------------------------------------------
 flow += section("EDUCATION")
 flow.append(Paragraph(
-    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; Expected 2028 | "
-    "GPA 3.81 &mdash; research above.<br/>"
+    "<b>Doctor of Business Administration (DBA), Florida International University</b> &mdash; in progress; "
+    "qualifying examination passed Jul 2026 &mdash; research above.<br/>"
     "<b>Master of Business Administration (MBA), Florida International University</b> &mdash; 2011 | GPA 3.8 &bull; "
     "<b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &bull; "
     "<b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021", body))

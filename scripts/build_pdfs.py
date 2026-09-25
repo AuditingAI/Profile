@@ -187,6 +187,21 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/citi_chief_auditor_ai_md.pdf",
             "Cover Letter - Citi Chief Auditor AI MD",
         ),
+        # Tailored resumes built from markdown. They had no entry here, so a fix
+        # to the .md never reached the PDF - the DBA GPA survived on all four
+        # for a fortnight after it was barred. Compact scales hold one page.
+        (REPO_ROOT / "applications/resume/resume_cuny_chief_data_governance.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_CUNY_DataGovernance.pdf",
+         "Yasir A. Malik - Resume (CUNY Data Governance)", 0.86),
+        (REPO_ROOT / "applications/resume/resume_google_cloud_responsible_ai_pm.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Google_CloudRAI_PM.pdf",
+         "Yasir A. Malik - Resume (Google Cloud RAI PM)", 0.82),
+        (REPO_ROOT / "applications/resume/resume_nyc_inspector_general.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_NYC_InspectorGeneral.pdf",
+         "Yasir A. Malik - Resume (NYC Inspector General)", 0.86),
+        (REPO_ROOT / "applications/resume/resume_pgim_ai_program_director.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_PGIM_AI_Director.pdf",
+         "Yasir A. Malik - Resume (PGIM AI Director)", 0.82),
         # NOTE: the Google TPM III resume uses a one-off compact renderer
         # to guarantee one-page ATS output. See
         # applications/resume/build_google_tpm_resume.py — re-run it after

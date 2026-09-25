@@ -28,7 +28,7 @@ Audit, risk, and financial control at Citi and JPMorgan Chase — including six 
 - Safety-and-soundness examinations across credit, liquidity, and operational risk; workpapers supporting formal enforcement actions. **FDIC Bank Examiner I** certification.
 
 ## EDUCATION
-- **Doctor of Business Administration (in progress)**, Florida International University · GPA **3.81** · expected **2028**. Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462). Dissertation in development: automation bias in AI-assisted auditor judgment.
+- **Doctor of Business Administration (in progress)**, Florida International University · in progress. Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462). Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*.
 - **MBA, Financial Mathematics**, Florida International University · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS

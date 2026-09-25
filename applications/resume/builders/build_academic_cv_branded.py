@@ -106,8 +106,8 @@ flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 7
 # ---- Education -------------------------------------------------------------------
 flow += section("EDUCATION")
 flow.append(entry("Doctor of Business Administration (DBA), Florida International University",
-                  "expected 2028"))
-flow.append(Paragraph("Chapman Graduate School of Business, Miami, FL &bull; GPA 3.81 &bull; in progress", sub))
+                  "in progress"))
+flow.append(Paragraph("Chapman Graduate School of Business, Miami, FL &bull; in progress", sub))
 for b in [
     "Qualifying examination passed July 2026. Qualifying research: <i>Mitigating Anchoring Bias in Long-Term "
     "Auditor Engagements</i> &mdash; IRB-approved instrument (IRB-25-0462) built and fielded.",
