@@ -242,10 +242,10 @@ def build_all() -> list[Path]:
             0.92,
         ),
         (
-            REPO_ROOT / "applications/cover_letters/rutgers_rbs_adjunct_fall2026.md",
-            REPO_ROOT / "applications/cover_letters/rutgers_rbs_adjunct_fall2026.pdf",
+            REPO_ROOT / "applications/cover_letters/Rutgers_C_Adjunct_Fall2026.md",
+            REPO_ROOT / "applications/cover_letters/Rutgers_C_Adjunct_Fall2026.pdf",
             "Cover Letter - Rutgers Business School Lecturer/Adjunct Fall 2026",
-            0.90,
+            0.80,
         ),
         (
             REPO_ROOT / "applications/cover_letters/google_core_ai_foundations_vp.md",
