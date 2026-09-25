@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik — Resume</title>
+<style>
+  @page { size: Letter; margin: 0.3in 0.52in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  /* Executive register, as in google-core-ai-foundations-vp.html. */
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.55pt; line-height: 1.2; color: #000; }
+  header { text-align: center; margin-bottom: 7px; }
+  .mark { height: 26px; display: block; margin: 0 auto 2px; }
+  /* letter-spacing must stay <= 1.5px: above that Chromium breaks the name into
+     spaced characters in the PDF text layer and an ATS cannot match it. */
+  h1 { font-size: 18pt; letter-spacing: 1.5px; font-weight: normal; }
+  .tagline { font-size: 9.4pt; margin-top: 3px; letter-spacing: 0.2px; }
+  .contact { font-size: 8.9pt; margin-top: 4px; }
+  h2 { font-size: 9.1pt; letter-spacing: 1.5px; border-bottom: 0.8px solid #000;
+       margin: 6px 0 2.5px; padding-bottom: 1.5px; text-transform: uppercase; font-weight: bold; }
+  p, li { text-align: justify; }
+  ul { padding-left: 15px; margin-top: 2px; }
+  li { margin-bottom: 1.5px; }
+  .job { display: flex; justify-content: space-between; margin-top: 6px; align-items: baseline; }
+  .job b { font-size: 9.8pt; }
+  .sub { font-style: italic; font-size: 8.8pt; color: #333; margin-top: 1px; }
+  .dates { white-space: nowrap; font-size: 9pt; }
+  .one { margin-top: 2px; }
+  table.results { width: 100%; border-collapse: collapse; margin-top: 4px; }
+  table.results td { padding: 2px 0; vertical-align: top; border: none; }
+  table.results td.n { width: 12%; font-weight: bold; white-space: nowrap; font-size: 9.8pt; }
+  table.results td.w { width: 19%; text-align: right; font-style: italic; font-size: 8.6pt; color: #333; }
+</style>
+</head>
+<body>
+<header>
+  <img class="mark" src="../../../assets/images/logo-mark.png" alt="">
+  <h1>YASIR A. MALIK</h1>
+  <div class="tagline">Responsible AI &amp; AI Governance Executive &nbsp;|&nbsp; Governance Built into the Platform &nbsp;|&nbsp; Financial Services &amp; Former Bank Examiner</div>
+  <div class="contact">Newark, NJ (New York metro) &nbsp;&bull;&nbsp; YasirAMalik@gmail.com &nbsp;&bull;&nbsp; +1 (786) 704-8536 &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik &nbsp;&bull;&nbsp; github.com/MalikAI-786</div>
+</header>
+
+<h2>Profile</h2>
+<p>Responsible AI leader who makes the responsible path the easiest path: turns governance, risk and compliance requirements into <b>reusable capabilities, automated guardrails and governance workflows</b> that teams adopt because they are faster than the alternative. At Citi, authored the enterprise <b>Responsible AI governance framework</b> against <b>NIST AI RMF</b> and federal model risk guidance, defined the AI tooling roadmap it governed, and then <b>built and shipped</b> the production <b>LLM</b> retrieval system on it (<b>~35%</b> faster review). Grounded in financial services from both sides of the table: bank examiner, then first-line controls and Internal Audit at JPMorgan Chase and Citi. Reads the regulation early: <b>SR 26-2</b> (April 2026) replaced SR 11-7 and places <b>generative and agentic AI outside its scope</b>, so the guardrails a platform ships are now the control that exists. Doctoral research at FIU measures how expert judgment changes when an AI answers first.</p>
+
+<h2>Selected Results</h2>
+<table class="results">
+  <tr><td class="n">~35%</td><td>Faster review cycle from a retrieval-augmented LLM assistant he specified, built and put into production, with guardrails and explainability built in</td><td class="w">Citi</td></tr>
+  <tr><td class="n">15+</td><td>Business units under AI and consent-order assurance, with closure evidence accepted by regulators; Board Audit Committee reporting</td><td class="w">Citi</td></tr>
+  <tr><td class="n">$2.6T</td><td>Balance sheet under CCAR forecast validation and quantitative model challenge (SR 15-18)</td><td class="w">JPMorgan Chase</td></tr>
+</table>
+
+<h2>Experience</h2>
+
+<div class="job"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
+<div class="sub">Internal Audit, Cross-Enterprise Program &amp; Change Management &nbsp;|&nbsp; New York, NY</div>
+<ul>
+  <li><b>Defined the Responsible AI strategy and governance framework</b> for AI in Internal Audit &mdash; use-case intake and risk tiering by criticality, a control library mapped to NIST AI RMF, explainability and human-in-the-loop requirements, and post-deployment monitoring KPIs &mdash; embedding governance across the <b>AI lifecycle</b>.</li>
+  <li><b>Built and shipped the RAG Workpaper Quality Assistant</b> (Python, LangChain, vector search) with <b>technical guardrails</b> &mdash; prompt-injection defences, SHAP/LIME explainability, evaluation and red-teaming scripts &mdash; so the tool was auditable by design; iterated with its users as a product, not a review gate.</li>
+  <li>Ran independent assurance over enterprise <b>LLM and GenAI adoption</b> &mdash; model risk, bias and fairness, hallucination, adversarial robustness, <b>third-party and foundation-model risk</b> &mdash; working across Technology, Risk and Compliance; reported <b>governance effectiveness</b> to executive stakeholders.</li>
+</ul>
+
+<div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
+<div class="sub">First-Line Capital Controls &amp; Resolution and Recovery Planning &nbsp;|&nbsp; Jersey City, NJ</div>
+<ul>
+  <li>Owned the first-line control framework for Treasury and CIO capital activities; led <b>CCAR</b> forecast validation and model challenge over a <b>$2.6T</b> balance sheet</li>
+  <li>Drove alignment across a highly matrixed organisation &mdash; <b>50+ stakeholders</b> in five functions, none reporting to him &mdash; into Resolution &amp; Recovery Planning submissions to the Federal Reserve and FDIC against statutory deadlines.</li>
+</ul>
+
+<div class="job"><b>Capital Controller, Basel Measurement &amp; Analytics &mdash; JPMorgan Chase</b><span class="dates">Sep 2017 &ndash; Feb 2019</span></div>
+<div class="sub">Brooklyn, NY &nbsp;&bull;&nbsp; preceded by Program Manager, CIB Resolution &amp; Recovery Planning (2015&ndash;2017)</div>
+<p class="one">Owned Basel III RWA and capital adequacy reporting across a <b>$50B</b> book; RWA treatment analysis surfaced <b>$180M</b> in capital optimisation for CFO decision support.</p>
+
+<div class="job"><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi</b><span class="dates">2012 &ndash; 2015</span></div>
+<div class="sub">Tampa, FL</div>
+<p class="one">Built a shared data capability: consolidated <b>500+ legal-entity data sources</b> into governed master data with ownership, lineage and data-quality controls, automating <b>FR 2900</b> and <b>TIC</b> filings at <b>99.8%</b> accuracy.</p>
+
+<div class="job"><b>Bank Examiner, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation</b><span class="dates">Apr 2011 &ndash; Mar 2012</span></div>
+<div class="sub">Earlier: Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009)</div>
+<p class="one">CAMELS safety-and-soundness examinations alongside federal banking regulators; workpapers supporting formal enforcement actions.</p>
+
+<h2>Responsible AI Capabilities</h2>
+<p><b>Governance:</b> Responsible AI strategy, principles and usage policies &bull; AI governance frameworks &bull; AI lifecycle and model lifecycle management &bull; use-case intake and risk tiering &bull; governance metrics and reporting &bull; NIST AI RMF &bull; ISO/IEC 42001 &bull; EU AI Act &bull; SR 26-2 / SR 11-7 model risk &bull; Three Lines of Defense<br>
+<b>Platform &amp; technical:</b> LLMs, foundation models and agentic AI &bull; RAG and vector databases &bull; LangChain / LangGraph &bull; technical guardrails and policy enforcement &bull; AI information security and privacy controls (prompt injection, data exposure) &bull; model evaluation and red-teaming &bull; post-deployment monitoring (AI observability) &bull; explainability (SHAP / LIME) &bull; Python &bull; SQL &bull; GitHub Actions</p>
+
+<h2>Education &amp; Credentials</h2>
+<p><b>Doctor of Business Administration, Florida International University</b> &mdash; in progress; qualifying examination passed Jul 2026 (IRB-25-0462). Dissertation in development: <i>Anchoring Bias in LLM-Assisted Audit Judgment</i>.<br>
+<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &nbsp;&bull;&nbsp; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &mdash; 2005 &nbsp;&bull;&nbsp; <b>Columbia Engineering FinTech Boot Camp</b> &mdash; 2021<br>
+<b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Social/Behavioral Human Research; <i>in progress</i> IAPP AIGP and CIA Part 1.</p>
+</body>
+</html>
