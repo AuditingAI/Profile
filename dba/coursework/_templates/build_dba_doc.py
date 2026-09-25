@@ -50,22 +50,50 @@ def _font(obj, name=FONT, size=11, bold=None, italic=None, color=INK,
     return obj
 
 _BOLD_RE = re.compile(r"\*\*(.+?)\*\*", re.S)
+_ITAL_RE = re.compile(r"(?<!\*)\*([^*]+?)\*(?!\*)")
+_BI_RE = re.compile(r"\*\*\*(.+?)\*\*\*", re.S)
 
 def _md(text):
-    """Split a string on **bold** into runs. Unmatched asterisks stay literal.
+    """Split a string on **bold** and *italic* into runs.
+
+    Bold is matched first so a double asterisk is never read as two italic
+    markers. Unmatched asterisks stay literal.
 
     The specs are written as readable prose, so emphasis is marked the way it
     would be in a markdown note. Without this the asterisks printed verbatim
     into the Word file, which is what they were doing.
     """
+    def _ital(chunk):
+        out, i = [], 0
+        for m in _ITAL_RE.finditer(chunk):
+            if m.start() > i:
+                out.append(chunk[i:m.start()])
+            out.append({"t": m.group(1), "i": True})
+            i = m.end()
+        if i < len(chunk):
+            out.append(chunk[i:])
+        return out
+
+    def _bold(chunk):
+        out, i = [], 0
+        for m in _BOLD_RE.finditer(chunk):
+            if m.start() > i:
+                out.extend(_ital(chunk[i:m.start()]))
+            out.append({"t": m.group(1), "b": True})
+            i = m.end()
+        if i < len(chunk):
+            out.extend(_ital(chunk[i:]))
+        return out
+
+    # triple asterisks first, or the bold pass leaves a stray marker behind
     out, i = [], 0
-    for m in _BOLD_RE.finditer(text):
+    for m in _BI_RE.finditer(text):
         if m.start() > i:
-            out.append(text[i:m.start()])
-        out.append({"t": m.group(1), "b": True})
+            out.extend(_bold(text[i:m.start()]))
+        out.append({"t": m.group(1), "b": True, "i": True})
         i = m.end()
     if i < len(text):
-        out.append(text[i:])
+        out.extend(_bold(text[i:]))
     return out or [text]
 
 def _segs(par, segs, size=11):
