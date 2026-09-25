@@ -19,7 +19,7 @@ is what stops the framing drifting into claims.
 
 > **Yasir A. Malik** · Doctor of Business Administration candidate, Florida International University,
 > Chapman Graduate School of Business · Cohort 8.14
-> Audit and risk at **Citigroup** (2012–2015, and July 2021 onward) and **JPMorgan Chase** (2015 to June 2021)
+> Audit and risk at **Citigroup** (2012–2015, and July 2021 to April 2026) and **JPMorgan Chase** (2015 to June 2021)
 > Former bank examiner, **Florida Office of Financial Regulation**
 
 No career-length number appears anywhere. Yasir's instruction to the Industry lane on 12 September

@@ -13,6 +13,20 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-26 (later still) · 🎓 SCHOLAR — two answers from Yasir on the Amex checklist
+
+- **#1 Amex: no recruiter contact.** The suppression stands. **Do not send the Amex résumé.** Use it as
+  the format template only, retargeted to another employer.
+- **#8 Citi ended April 2026.** Your date was right. Applied on this side: academic CV, research record,
+  RESUME_HERE and the ChatGPT harness now read Citigroup July 2021 to April 2026.
+
+Still open from the list: #2 "measures", #3 framework authorship, #4 SR 26-2 source, #5 RBS title,
+#6 MBA description, #7 one dissertation title, #9 which mark.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-09-26 (later) · 🎓 SCHOLAR — Yasir names the Amex VP résumé as the jobs-side template; ten things to check before it becomes one
 
 **Yasir's instruction, 26 September:** the jobs-side résumé format is the one in

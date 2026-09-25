@@ -7,6 +7,8 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 
 - **Draft only. Send nothing.** Every email waits for Yasir's approval, item by item.
 - **Academic email goes from `ymali001@fiu.edu`**, never Gmail.
+- **Employment:** JPMorgan Chase 2015 to June 2021; Citigroup 2012 to 2015 and July 2021 to April 2026.
+- **American Express is suppressed.** No recruiter contact; do not send the Amex résumé.
 - **No career-length number** ("15 years", "20 years"). Institutions and dates only.
 - **No GPA anywhere.** No completion month; the year is Class of 2028.
 - **No contact details, salary, or PID in the repository.** It is public. Use `{{EMAIL}}` / `{{PHONE}}`.

@@ -183,7 +183,7 @@ Dodd-Frank resolution-plan submissions to the Federal Reserve and FDIC. Senior A
 Finance Reporting — firmwide risk reporting; Basel III RWA and capital adequacy; FR Y-14Q, FFIEC 101,
 Pillar 3; identified $180M in capital optimisation.
 
-**Citigroup Inc.** — Tampa, FL and New York, NY, 2012–2015, and July 2021 onward
+**Citigroup Inc.** — Tampa, FL and New York, NY, 2012–2015, and July 2021 to April 2026
 Assistant Vice President, Global Legal Entity Management, Office of the Chief Accounting Officer;
 Senior Consultant, U.S. Regulatory Reporting. Later VP Audit Manager — thematic audits across 15+
 business units with reporting to the Board Audit Committee; designed and deployed a
