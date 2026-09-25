@@ -18,3 +18,18 @@ automation/runner/node_modules/
 # applications/resume/builders/design/Main.dc.html by the /design seeder.
 applications/resume/builders/design/*.html
 !applications/resume/builders/design/Main.dc.html
+
+# ── Scholar lane ──
+.scholar_work/
+*.pyc
+dba/03_Data/raw_export_*.csv
+dba/03_Data/cleaned_valid_responses.csv
+dba/03_Data/cleaned_numeric_recoded.csv
+
+# Uploaded source documents containing personal identifiers — never commit
+**/citiComp*
+**/*CITI*certificate*
+
+# Generated build intermediates — the spec script is the source of truth and is
+# tracked, so the JSON it emits is regenerable churn on a two-agent branch
+dba/coursework/_templates/*.json

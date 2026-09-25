@@ -367,6 +367,28 @@ def check_sources(rep: Report) -> None:
         if _builder_output(src) in blocked_out:
             skip.add("unfilled placeholder")
         check_content_rules(rel(src), body, rep, skip)
+    for src in [*sorted(ROOT.glob("*.html")), ROOT / "README.md"]:
+        check_public_privacy(rel(src), src.read_text(encoding="utf-8", errors="replace"), rep)
+
+
+# Owner's rule, 25 Sep 2026: contact details, salary figures, recruiter names
+# and application history stay off the public pages. Base64 blobs are dropped
+# first - an embedded image can contain "8536" by chance.
+PRIVATE_ON_PUBLIC = [
+    ("phone number", r"704[-. ]?8536|\+?1?\s*\(?786\)?[-. ]?704"),
+    ("email address", r"(?i)mailto:|yasiramalik@gmail\.com|ymali001@fiu\.edu"),
+    ("salary figure", r"\$\s?\d{2,3}(?:[,.]\d{3})?\s?[Kk]\b|\$\d{2,3}\s?[–-]\s?\$?\d{2,3}\s?[Kk]"),
+    ("application history", r"(?i)\b(?:career pipeline|applied via|suppressed absent a named recruiter)\b"),
+]
+
+
+def check_public_privacy(where: str, text: str, rep: "Report") -> None:
+    text = re.sub(r"[A-Za-z0-9+/=]{200,}", "", text)
+    for label, pat in PRIVATE_ON_PUBLIC:
+        m = re.search(pat, text)
+        if m:
+            rep.fail(where, f"private data on a public page ({label})",
+                     f"'{m.group(0)}' - keep contact details, salary, recruiters and application history off the public site")
 
 
 def _builder_output(src: Path) -> str:

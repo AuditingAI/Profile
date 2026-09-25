@@ -17,6 +17,8 @@ to date, and the AI extension argued rather than tested.
 
 🌐 Read it at **[auditingai.github.io/research.html](https://auditingai.github.io/research.html)**
 
+The full research record — model, instrument, data record — is in **[RESEARCH.md](RESEARCH.md)**.
+
 ---
 
 ## Overview
@@ -72,7 +74,6 @@ No frameworks. No dependencies. Fast loading. Accessible.
 
 ## Contact
 
-- 📧 **Email**: [yasiramalik@gmail.com](mailto:yasiramalik@gmail.com)
 - 💼 **LinkedIn**: [linkedin.com/in/yasiramalik](https://linkedin.com/in/yasiramalik)
 - 🐙 **GitHub**: [github.com/AuditingAI](https://github.com/AuditingAI)
 

@@ -1,0 +1,166 @@
+================================================================================
+  CANVAS LOAD SHEET  ·  GEB7365 RXM 1268
+  What to upload where, and exactly what to type in the comment box
+  Friday 28 August 2026
+================================================================================
+
+  TWO THINGS THE ASSIGNMENT LIST CHANGED. READ THESE FIRST.
+
+  1. INITIAL PROJECT IDEA WAS DUE 27 AUGUST 11:59 PM AND IS NOT SUBMITTED.
+     It is late as of this morning. Worth 5 points. Late penalty is a flat
+     -15%, and it is NOT ACCEPTED AT ALL more than one week past due, which
+     puts the hard wall at THURSDAY 3 SEPTEMBER. Newburry said in class he
+     expected to have these graded "by end of day Wednesday, definitely by
+     weekend" -- so yours is the one that isn't there.
+
+     The Tuesday Zoom DOES NOT COVER THIS. The meeting is a conversation;
+     this is a graded Canvas submission with a due date that has passed.
+     They are two different obligations and only one of them is late.
+
+     >>> THIS IS THE ONLY URGENT ITEM ON THE BOARD. DO IT FIRST. <<<
+
+  2. THE TOPIC AREA WRITE-UP IS NOT DUE TONIGHT. IT IS DUE 9 OCTOBER.
+     I had this wrong. I was working from the class transcript, which said
+     the write-up is due the same day as the presentation. Canvas says
+     9 October, and the live Canvas page governs -- that rule is already in
+     your own tracker. So the write-up and deck are NOT late and never were.
+     Upload them now anyway, because your presentation happened on 27 August
+     and submitting while it is fresh satisfies both readings.
+
+
+--------------------------------------------------------------------------------
+  THE FULL BOARD -- 100 POINTS, WHAT IS LIVE
+--------------------------------------------------------------------------------
+
+  Initial Project Idea .................  5   27 Aug   ** LATE -- UPLOAD NOW **
+  Topic Area Written Analysis & Pres ... 20    9 Oct   ready, upload today
+  Project Presentation ................. 20   19 Sep   3 weeks out, not started
+  Final Paper .......................... 30    9 Oct   not started
+  Individual Participation ............. 20    9 Oct   probably no upload
+  Peer Evaluations .....................  5    9 Oct   not open yet
+
+  Note what that adds up to: the two things due 19 Sep and 9 Oct are worth
+  50 of the 100 points, and neither exists yet. Tonight's job is the 5-point
+  one that is bleeding, and the 20-point one that is finished.
+
+
+================================================================================
+  1  ·  INITIAL PROJECT IDEA        ** LATE -- DO THIS FIRST **
+================================================================================
+
+  UPLOAD:   Malik_GEB7365_InitialProjectIdea.docx
+
+  This did not exist before this morning. It does now. It confirms in writing
+  that you are going individual, states the topic, and answers your three
+  criteria in the order he set them -- interest, theoretical contribution,
+  whether data could be collected. 793 words, under two pages.
+
+  COMMENT BOX -- copy exactly:
+
+  ------------------------------------------------------------------------
+  Submitting this later than I should have -- apologies. Confirming here in
+  writing that I am completing the project individually, as discussed in
+  Thursday's session, and setting out the topic area for your approval before
+  I put extensive work into it. I have also emailed you to ask for a short
+  call Tuesday to talk the topic through.
+  ------------------------------------------------------------------------
+
+  WHY IT IS WORDED THAT WAY. One clause of apology, no explanation, no
+  excuse. An explanation invites a judgement on whether the excuse is good.
+  A flat acknowledgement does not. The rest of the comment does real work:
+  it puts the individual-project decision and the request for approval on the
+  record in Canvas, which is where a grader looks, rather than only in an
+  email thread and a transcript.
+
+
+================================================================================
+  2  ·  TOPIC AREA WRITTEN ANALYSIS AND PRESENTATION      due 9 Oct, upload today
+================================================================================
+
+  UPLOAD BOTH FILES TO THIS ONE ASSIGNMENT:
+
+      Malik_GEB7365_ModuleWriteup_Aug27.docx     <- the graded document
+      GEB7365_Module2_COMBINED.pptx              <- the deck
+
+  If Canvas will only take one file, upload the .docx and put the deck in a
+  second attempt. Daniela flagged before class that the portal may not accept
+  the presentation file; Newburry said he would check it. If the .pptx is
+  rejected, that is his known bug, not your problem -- say so in the comment
+  and move on. Do not let it hold up the .docx.
+
+  >>> BEFORE YOU UPLOAD THE .DOCX: the last page still has a yellow
+      highlighted line in capitals. Check the AI section of the current
+      syllabus, edit the paragraph above it if the syllabus asks for
+      something specific, then DELETE THE YELLOW LINE. It must be gone. <<<
+
+  COMMENT BOX -- copy exactly:
+
+  ------------------------------------------------------------------------
+  Written analysis and the presentation deck from the 27 August session. The
+  analysis covers all four Module 2 articles individually, as you specified,
+  even though Daniela and I split the presentation between us. The deck is
+  the combined file -- her slides are unchanged and hers; mine follow, with
+  three appendix slides at the end. Appendices A-D of the written document
+  sit after a page break and are outside the ten-page body.
+  ------------------------------------------------------------------------
+
+  IF THE .PPTX WILL NOT UPLOAD, ADD THIS LINE:
+
+  ------------------------------------------------------------------------
+  The PowerPoint would not upload through the portal -- I believe this is the
+  issue Daniela raised before class. Happy to email it directly if that is
+  easier.
+  ------------------------------------------------------------------------
+
+  WHY IT IS WORDED THAT WAY. It answers, before he asks, the two questions a
+  grader has when opening a co-presented submission: did this person cover
+  all four papers, and whose slides am I looking at. It also tells him the
+  appendices are outside the page cap so he does not count them against you.
+
+
+================================================================================
+  3  ·  THE THREE THAT ARE NOT READY -- DO NOT UPLOAD ANYTHING YET
+================================================================================
+
+  PROJECT PRESENTATION -- 20 points, due Fri 19 September
+      This is the individual research project, not Module 2. Seven required
+      elements: topic, why it matters, intended contribution, study model,
+      justified preliminary hypotheses, how you would study it empirically,
+      any preliminary evidence. 10-15 minutes. Your name on the BOTTOM OF
+      EVERY SLIDE. And the part that catches people:
+      ** EMAIL THE DECK TO NEWBURRY BY MIDNIGHT THE DAY BEFORE YOU PRESENT.
+         NO CHANGES ACCEPTED AFTER THAT. **
+      Three weeks out. It builds directly on the idea document you are
+      uploading today, so today's file is the seed for it.
+
+  FINAL PAPER -- 30 points, due Fri 9 October
+      Up to 30 pages, double-spaced, 12-point, inclusive of everything.
+      Must follow Academy of International Business / JIBS formatting.
+      Biggest single item in the course.
+
+  INDIVIDUAL PARTICIPATION -- 20 points, due 9 Oct
+      Almost certainly scored by him rather than uploaded by you, but the
+      list shows it as an assignment with a submission state. CHECK WHETHER
+      IT WANTS A SELF-ASSESSMENT. If it does and you miss it, that is
+      20 points lost to a form. Worth thirty seconds of tapping into it.
+
+  PEER EVALUATIONS -- 5 points, due 9 Oct
+      You are working individually. There may be no peers to evaluate, or
+      he may still want the form filled in. Ask on Tuesday -- it is a
+      natural, easy question and it makes you look organised.
+
+
+================================================================================
+  ORDER OF OPERATIONS TODAY
+================================================================================
+
+  [ ] 1. Upload Malik_GEB7365_InitialProjectIdea.docx + comment   <- LATE
+  [ ] 2. Kill the yellow line in the write-up .docx
+  [ ] 3. Upload the write-up + deck + comment
+  [ ] 4. Send the Newburry email from ymali001@fiu.edu (SEND_PACK.txt)
+  [ ] 5. Tap into Individual Participation and see if it wants anything
+  [ ] 6. Calendar invite -- ONLY after he replies
+
+  Steps 1 to 3 are Canvas and take ten minutes. Step 4 takes two.
+
+================================================================================

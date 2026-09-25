@@ -1,0 +1,469 @@
+[[AdvancedFormat]]
+
+[[Block:00 - Welcome and Informed Consent]]
+
+[[Question:DB]]
+<h2>Audit Professional Judgment Survey</h2>
+<p><b>Researcher:</b> Yasir A. Malik, Doctor of Business Administration candidate, Florida International University, College of Business.<br>
+<b>IRB Protocol:</b> IRB-25-0462<br>
+<b>Estimated time:</b> 15–20 minutes<br>
+<b>Compensation:</b> $6.00 USD upon completion</p>
+<p><b>REPLACE THIS BLOCK</b> with the IRB-approved Informed Consent letter verbatim before launch. The text above is a placeholder so the survey structure imports cleanly.</p>
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:CONSENT]]
+Do you consent to participate in this study?
+[[Choices]]
+Yes, I consent and wish to continue
+No, I do not consent
+
+[[PageBreak]]
+
+[[Block:01 - Eligibility Screeners]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:S1_COUNTRY]]
+Are you currently located in the United States?
+[[Choices]]
+Yes
+No
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:S2_LANGUAGE]]
+Are you fluent in English?
+[[Choices]]
+Yes
+No
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:S3_AUDIT_ROLE]]
+Are you currently, or have you been within the last 24 months, employed in an audit-related role (external audit, internal audit, or audit support)?
+[[Choices]]
+Yes
+No
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:S4_CONTINUING_ENG]]
+Have you personally worked on at least one continuing audit engagement (a multi-year engagement with the same client)?
+[[Choices]]
+Yes
+No
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:S5_ATTESTATION]]
+Confirm you are completing this survey on your own, you have not seen it before, and you will not share it.
+[[Choices]]
+Yes, I confirm
+No
+
+[[PageBreak]]
+
+[[Block:01b - Orientation]]
+
+[[Question:DB]]
+[[ID:ORIENT_DEF]]
+<b>Before you begin — one key term.</b>
+<p><b>Anchoring bias</b> is the tendency to rely too heavily on an initial piece of information &mdash; an "anchor," such as a prior-year balance, a management estimate, or a budget figure &mdash; when making a judgment, so that final conclusions stay closer to that starting point than the evidence alone would justify.</p>
+<p>This survey asks about your audit work and the conditions around it. Please answer based on your own experience.</p>
+
+[[PageBreak]]
+
+[[Block:02 - TA - Training and Awareness]]
+
+[[Question:Matrix]]
+[[ID:TA]]
+<b>Training and Awareness.</b> Please indicate your agreement with each statement.
+[[Choices]]
+My firm provides specific training on cognitive biases (such as anchoring) that can affect audit judgments.
+I have been taught concrete techniques for avoiding over-reliance on prior-year figures.
+Training in my firm includes practice exercises with feedback, not only lectures.
+I have received little or no training on how initial reference points can distort judgment.
+I can recognize when an initial reference point is influencing my professional judgment.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:03 - RA - Rotation of Auditors]]
+
+[[Question:Matrix]]
+[[ID:RA]]
+<b>Rotation of Auditors.</b> Please indicate your agreement with each statement.
+[[Choices]]
+Personnel on my long-term engagements are rotated on a regular schedule.
+Rotation in my firm is frequent enough to bring a "fresh look" to recurring clients.
+When I join a continuing engagement, I form my own view before reading prior auditors' conclusions.
+The same individuals remain on my engagements for many years without change.
+Rotation policies or requirements in my firm meaningfully reduce over-familiarity with clients or auditees.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:04 - AT - Use of Analytical Tools]]
+
+[[Question:Matrix]]
+[[ID:AT]]
+<b>Use of Analytical Tools.</b> Please indicate your agreement with each statement.
+[[Choices]]
+I routinely use data-analytics tools that flag anomalies in client data.
+Visualization tools help me notice patterns that differ from prior-year expectations.
+The analytical tools I use draw on data beyond the client's own ledgers (i.e., multiple sources of evidence).
+I rely mainly on prior-year workpapers rather than on current-period analytics.
+The tools I use prompt me to investigate items that contradict my expectations.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:05 - SAP - Structured Auditing Processes]]
+
+[[Question:Matrix]]
+[[ID:SAP]]
+<b>Structured Auditing Processes.</b> Please indicate your agreement with each statement.
+[[Choices]]
+My audit work follows standardized procedures and decision aids.
+Procedures require me to evaluate current evidence before consulting the prior-year conclusion.
+Documentation templates make my reasoning explicit and reviewable.
+My approach to recurring tasks is mostly informal and ad hoc.
+The structure of my firm's audit methodology reduces reliance on mental shortcuts.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:06 - Attention Check 1]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:AC1]]
+To confirm you are reading carefully, please select <b>"Disagree"</b> for this item.
+[[Choices]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:07 - FR - Feedback and Reflection]]
+
+[[Question:Matrix]]
+[[ID:FR]]
+<b>Feedback and Reflection.</b> Please indicate your agreement with each statement.
+[[Choices]]
+I receive feedback on the quality of my judgments, not only on meeting deadlines.
+Post-engagement debriefs prompt me to reflect on judgment errors.
+Feedback compares my conclusions against independent evidence.
+I rarely learn whether my professional judgments were accurate.
+Structured reflection is a regular part of how I improve my work.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:08 - IR - Independent Reviews]]
+
+[[Question:Matrix]]
+[[ID:IR]]
+<b>Independent Reviews.</b> Please indicate your agreement with each statement.
+[[Choices]]
+My work is reviewed by a senior or equally qualified auditor who was not involved in forming the original judgment.
+Reviewers in my firm independently re-examine key estimates.
+Reviewers challenge whether my judgments rely too heavily on prior-year audit conclusions.
+Reviews in my firm mostly confirm the preparer's conclusion without independent analysis.
+Engagement-quality reviews are substantive rather than a formality.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:09 - RPG - Regulatory and Professional Guidance]]
+
+[[Question:Matrix]]
+[[ID:RPG]]
+<b>Regulatory and Professional Guidance.</b> Please indicate your agreement with each statement.
+[[Choices]]
+Regulatory and professional standards (e.g., PCAOB, AICPA, IIA, COSO) meaningfully shape how I exercise judgment.
+The possibility of inspection encourages me to double-check the support and analysis behind my judgments.
+Professional-skepticism requirements are actively reinforced in my firm.
+Regulatory guidance has little practical effect on my day-to-day judgments.
+Standards require me to document independent support for estimates.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:10 - PMI - Performance Metrics and Incentives]]
+
+[[Question:Matrix]]
+[[ID:PMI]]
+<b>Performance Metrics and Incentives.</b> Please indicate your agreement with each statement.
+[[Choices]]
+My performance evaluation rewards judgment quality, not only efficiency.
+Incentives in my firm are aligned with audit quality.
+I am recognized for exercising appropriate professional skepticism.
+My firm's incentive and evaluation system discourages spending the extra time needed to challenge prior-year balances.
+The way my work is evaluated encourages thorough, independent analysis.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:11 - Attention Check 2]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:AC2]]
+Please select <b>"Agree"</b> for this item to confirm your attention.
+[[Choices]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:12 - AJQ - Auditor Judgment Quality]]
+
+[[Question:Matrix]]
+[[ID:AJQ]]
+<b>Auditor Judgment Quality.</b> Please indicate your agreement with each statement.
+[[Choices]]
+My audit judgments are based on careful evaluation of independent evidence.
+I reach conclusions objectively, free of undue influence from management's explanations.
+I deploy relevant knowledge and reasoning when forming difficult judgments.
+My conclusions often default to last year's position.
+I am confident my judgments would withstand independent scrutiny.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:13 - APR - Audit Process Rigor]]
+
+[[Question:Matrix]]
+[[ID:APR]]
+<b>Audit Process Rigor.</b> Please indicate your agreement with each statement.
+[[Choices]]
+The audit process I follow is thorough and consistently executed.
+Key judgments are independently corroborated within the engagement.
+The process enforces disciplined evaluation of evidence in a defined order.
+Execution on my engagements is often rushed or inconsistent.
+Critical audit procedures are consistently followed across all my engagements.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:14 - RAB - Reduction in Anchoring Bias]]
+
+[[Question:Matrix]]
+[[ID:RAB]]
+<b>Reduction in Anchoring Bias.</b> Please indicate your agreement with each statement.
+[[Choices]]
+When auditing a recurring account, I adjust fully away from the prior-year balance when current evidence warrants.
+I form an independent expectation before I look at management's estimate.
+My final conclusions are driven by current evidence rather than by initial reference points.
+My estimates tend to stay close to the prior-year figure even when evidence suggests otherwise.
+I actively seek evidence that contradicts my initial expectation.
+[[Answers]]
+Strongly disagree
+Disagree
+Neither agree nor disagree
+Agree
+Strongly agree
+
+[[PageBreak]]
+
+[[Block:15a - Context Control]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:C1_PRIORFILE]]
+Across my engagements, how often are prior-year workpapers and conclusions accessible to the audit team?
+[[Choices]]
+On every engagement
+On most engagements
+On about half
+On some engagements
+Rarely or never
+
+[[PageBreak]]
+
+[[Block:15 - Substantive Open-Text Check]]
+
+[[Question:TE:Essay]]
+[[ID:OPEN_TEXT]]
+In your own words, please briefly describe a time in your audit work when you noticed an initial figure (a prior-year balance, a management estimate, or a budget) influencing your judgment. 2–4 sentences is plenty.
+
+[[PageBreak]]
+
+[[Block:16 - Demographics]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D1A_EXT_EXP]]
+How many years of EXTERNAL audit experience do you have? (Select 0 if none.)
+[[Choices]]
+0 (none)
+Less than 2 years
+2 to 5 years
+6 to 10 years
+11 to 15 years
+More than 15 years
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D1B_INT_EXP]]
+How many years of INTERNAL audit experience do you have? (Select 0 if none.)
+[[Choices]]
+0 (none)
+Less than 2 years
+2 to 5 years
+6 to 10 years
+11 to 15 years
+More than 15 years
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D2_ROLE]]
+What is your primary audit role?
+[[Choices]]
+External audit
+Internal audit
+Audit support / other audit-related role
+Not currently in an audit role
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D3_FIRM_TYPE]]
+What type of organization do you work for?
+[[Choices]]
+Public accounting firm
+Private company
+Regulatory body
+Government
+Other
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D3B_FIRM_SIZE]]
+If you work in (or most recently worked in) public accounting, what is the firm's size?
+[[Choices]]
+Big 4
+Mid-tier (national or large regional)
+Small (local or regional)
+Sole practitioner
+Not applicable
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D4_INDUSTRY]]
+What is the primary industry focus of your audit work?
+[[Choices]]
+Financial services / banking
+Manufacturing / industrials
+Technology
+Healthcare
+Energy / utilities
+Government / nonprofit
+Other
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Horizontal]]
+[[ID:D5_LONGTERM_EXPOSURE]]
+Do you currently work on multi-year (long-term) engagements?
+[[Choices]]
+Yes
+No
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D6_CREDENTIAL]]
+What is your highest professional credential?
+[[Choices]]
+CPA
+CIA
+CISA
+Other accounting credential
+No professional credential yet
+
+[[PageBreak]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:D7_REGION]]
+Which US region best describes where you primarily work?
+[[Choices]]
+Northeast
+Southeast
+Midwest
+Southwest
+West
+Remote / multi-region
+
+[[PageBreak]]
+
+[[Block:17 - Debrief and Completion]]
+
+[[Question:DB]]
+<h2>Thank you for participating.</h2>
+<p>Your responses help test a model that predicts which audit-process interventions most effectively reduce anchoring bias in long-term engagements. No individually identifying information was collected.</p>
+<p>If you have questions about this study, contact the researcher: Yasir A. Malik, FIU DBA Program (IRB-25-0462).</p>
+<p><b>Please copy your completion code and paste it into CloudResearch to receive your $6.00 payment:</b></p>
+<p><b>REPLACE THIS LINE</b> with the completion code generated by CloudResearch (or insert the redirect URL via Survey Flow > End of Survey > Redirect to URL).</p>

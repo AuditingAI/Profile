@@ -1,0 +1,245 @@
+================================================================================
+  CANVA COPY PACK  --  GEB 7365 Module 2  --  Yasir A. Malik
+  Every line below is verified against the source PDF. Paste straight in.
+
+  CANVA SETUP
+    New design  ->  Presentation (16:9)
+    Brand colours:  FIU Blue #081E3F   FIU Gold #B6862C
+                    Teal     #1C6B63   Rust     #8C3A1B
+                    Paper    #FCFBF8   Ink      #14171C
+    Fonts: heading Playfair Display | body Source Serif or Lora
+           labels  Space Mono, ALL CAPS, letter-spacing 200
+================================================================================
+
+
+  ############  SLIDE 1 -- HANDOFF  ############
+
+  [EYEBROW - mono caps, gold]
+PART TWO OF TWO
+
+  [HEADING - 44pt]
+What was the field actually measuring?
+
+  [FOUR CARDS across the middle. Grey the first two, gold border the last two.]
+  ARREGLE    2021   220 studies      DANIELA
+  GHEMAWAT   2001   CAGE distance    DANIELA
+  CONTRACTOR 2003   the sigmoid      YASIR
+  MEZIAS     2002   the measure      YASIR
+
+  [BODY - italic, tinted box]
+Daniela has shown where the field disagrees, and what distance is made of. I want the narrower question underneath both -- when the field could not agree, what exactly was it measuring?
+
+  [FOOTER STRIP - mono caps, gold]
+THEN THE CONCLUSION -- WHAT ALL FOUR HAVE IN COMMON
+
+
+  ############  SLIDE 2 -- THE SIGMOID  ############
+
+  [EYEBROW]
+CONTRACTOR, KUNDU & HSU (2003) - JIBS 34(1): 5-18 - AFTER FIGURE 1
+
+  [HEADING]
+Four findings. One curve.
+
+  [CHART - Elements > Lines & Shapes > Curve. Draw an S: down, up, down.
+   Shade three vertical bands behind it: rust tint, teal tint, gold tint.
+   Number them 1 2 3 inside the plot, NOT on the line.]
+  X axis: DEGREE OF INTERNATIONALIZATION    Y axis: PERFORMANCE
+
+  [SIDE LIST - coloured dot + mono label + body line]
+SAMPLE ONLY...
+  segment 1      you publish a NEGATIVE linear result
+  segment 2      you publish a POSITIVE linear result
+  segments 1+2   you publish a U
+  segments 2+3   you publish an INVERTED U
+
+  [PULL QUOTE - tinted box, italic]        VERIFIED EXACT
+"Depending on which part of Figure 1 we examined, we can find linear (positive and negative), U-shaped, and inverted-U-shaped segments."
+
+  [CAPTION]
+Thirty years of contradiction, and none of it was about firms. The literature was sampling different segments of one sigmoid and reporting each as a finding about the whole.
+
+
+  ############  SLIDE 3 -- WHO OVER-EXPANDS  ############
+
+  [EYEBROW]
+CONTRACTOR, KUNDU & HSU (2003) - THE FINDING THAT REACHES PRACTICE
+
+  [HEADING]
+Some firms walk into stage three more easily.
+
+  [CHART - same S-curve, greyed out. Shade ONLY stage 3 in rust.
+   Two dots: teal mid-curve, rust on the stage-3 descent.]
+
+  [TWO LABELLED BLOCKS]
+  RUST - KNOWLEDGE-BASED SERVICES
+    Advertising, market research, securities, publishing. In their words:
+    "more driven by intangible assets and have a much lower fixed capital
+    cost burden" -- so one more market is cheap to say yes to.
+
+  TEAL - CAPITAL-INTENSIVE
+    Fixed assets make every additional market an expensive commitment,
+    so they stop sooner.
+
+  [PULL QUOTE - gold box, italic]          VERIFIED EXACT
+"Few companies possess the managerial tools (such as regression plotting of firms in a sector) that would tell them when they have over-internationalized."
+
+  [KICKER - mono caps, blue]
+-> "SHOULD WE INTERNATIONALISE?" IS THE WRONG QUESTION. "WHERE ARE WE ON THE CURVE?" IS THE RIGHT ONE.
+
+  [OPTIONAL SETUP LINE, the sentence immediately before that quote]
+"It is unlikely that most firms would deliberately over-expand."
+
+
+  ############  SLIDE 4 -- MEZIAS  ############
+
+  [EYEBROW]
+MEZIAS (2002) - SMJ 23(3): 229-244 - THE CRAFT LESSON
+
+  [HEADING]
+He did not fix the measure. He replaced it.
+
+  [LEFT PANEL - "WHAT PERFORMANCE MEASURES DO"]
+    Three coloured chips -> arrows -> one grey box
+    advantages / disadvantages / transfer pricing   ->   ONE NUMBER
+    caption: nothing isolable
+
+  [RIGHT PANEL - "WHAT LABOUR LAWSUITS DO" - blue border]
+    One rust chip: disadvantages   ->   ONE CONSTRUCT
+    Two struck-through outline chips: advantages, transfer pricing
+    caption: labour-related disadvantage only
+
+  [PULL QUOTE - tinted box, italic]        VERIFIED EXACT
+"While most performance measures aggregate advantages and disadvantages, labor lawsuits only measure labor-related disadvantage. Also, income shifting or transfer pricing between parent and subsidiary do not affect this measure."
+
+  [THREE STAT TILES]
+    486       foreign subsidiaries   (British, German, Japanese)
+    486       matched US firms
+    $600k+    average jury award
+
+  [KICKER - mono caps, blue]
+MATCHED ON INDUSTRY AND CITY -- SO THE ONLY REMAINING DIFFERENCE IS FOREIGNNESS
+
+  [BACKUP NUMBERS if asked]                VERIFIED EXACT
+Employee plaintiffs won 78.9% of defamation cases, 70.0% of sexual
+discrimination and harassment cases, 58.4% of wrongful discharge.
+Legal fees for employment cases going to trial average $100,000.
+
+
+  ############  SLIDE 5 -- THE CONCLUSION  ############
+
+  [EYEBROW]
+CONCLUSION -- ALL FOUR
+
+  [HEADING]
+What was measured, and what they thought they had measured.
+
+  [FOUR-ROW MAPPING. Left = paper, middle = measured, arrow, right = believed.]
+  CONTRACTOR    segments of one curve    ->   the shape of the relationship
+  MEZIAS        aggregate performance    ->   the cost of foreignness
+  GHEMAWAT      market size              ->   opportunity
+  ARREGLE       220 studies              ->   a settled question
+
+  [PULL QUOTE - gold box, italic, large]
+One diagnosis, four times: the field measured the wrong thing -- or measured one thing while believing it had measured another.
+
+  [CAPTION]
+Every one of them made progress by changing WHAT was measured, not by collecting more of the same thing. A literature that cannot converge because it cannot agree on a measure has a methods problem, not a theory problem.
+
+
+  ############  SLIDE 6 -- CLOSE  ############
+
+  [Dark slide. FIU Blue #081E3F background.]
+
+  [EYEBROW - gold]
+TWO THINGS TO LEAVE YOU WITH
+
+  [HEADING - white]
+Eighteen years. Same question.
+
+  [TIMELINE - horizontal line, gold dot each end, dashed line up to centre label]
+   2003                                                        2021
+   Contractor, Kundu & Hsu                     Arregle, ... Kundu, ...
+   JIBS 34(1)                                  JIBS 52
+                    SUMIT K. KUNDU - FIU
+                      author on both
+
+  [BODY - italic, darker box]
+The same question about multinationality and performance, asked of a different population eighteen years later -- and still unresolved.
+
+  [TWO FORWARD ROWS - gold bar + mono label + body]
+  3 SEP    ENTRY MODE      If stage one is negative, mode choice is a decision
+                           about how much of that cost to absorb at once.
+  24 SEP   INSTITUTIONS    CAGE is a pre-Hofstede way of saying what that
+                           session says with formal distance measures.
+
+
+================================================================================
+  NEW MATERIAL FROM THE PDFs -- three things you did not have
+================================================================================
+
+  1 - THE BEST NUMBER IN THE MODULE                        Arregle, p.6
+      Arregle breaks the 220 studies down by theme, with percentages:
+        scale 39% | scope 8% | entry mode 18% | location 3%
+        process 16% | pace and rhythm 4% | PERFORMANCE 12%
+
+      >> Only 12% of 220 studies address performance -- Contractor's
+         question -- and it is STILL unresolved after thirty years.
+
+      SAY THIS ON SLIDE 6, immediately before the Kundu line. It turns
+      "still unresolved" from an assertion into arithmetic, and nobody
+      else will have opened the paper far enough to find it.
+
+  2 - STAR TV WAS WORSE THAN "LOSSES"                      Ghemawat, p.2
+      FY ending 30 June 1999: Star lost $141 million pretax
+      on revenues of $111 million.
+
+      >> The losses exceeded the revenue. If Daniela does not use it,
+         you can -- it is one line and it lands.
+      ($825m paid 1993-95, ~$500m total losses FY1996-99: both confirmed.)
+
+  3 - GHEMAWAT NAMES THE MISTAKE HIMSELF                   Ghemawat, p.4
+      "Ignoring cultural distance was one of Star TV's biggest mistakes.
+       By supposing that Asian viewers would be happy with English-language
+       programming, the company assumed that the TV business was
+       insensitive to culture."
+
+
+================================================================================
+  VERIFICATION RECORD -- every claim checked against the PDF
+================================================================================
+
+  OK  Contractor "Depending on which part of Figure 1..."      EXACT
+  OK  Contractor "Few companies possess the managerial..."     EXACT
+        (the deck elides "(such as regression plotting of firms in a
+         sector)" -- fine on a slide, use an ellipsis in the write-up)
+  OK  Mezias "labor lawsuits only measure labor-related..."    EXACT
+  OK  Mezias 486 / 486 / same industries and cities            EXACT
+  OK  Mezias 78.9% / 70.0% / 58.4% / $600,000 / $100,000       EXACT
+  OK  Ghemawat "It ignores the costs and risks..."             EXACT
+  OK  Ghemawat $825m 1993-95, ~$500m losses FY96-99            EXACT
+  OK  Arregle "varied and at times incompatible findings"      EXACT
+  OK  Arregle 220 studies, three decades, seven IB themes      EXACT
+  OK  Kundu, Florida International University                  ON THE PAPER
+
+  Nothing on your deck is unsourced. Nothing needs changing.
+
+
+================================================================================
+  FASTEST ROUTE INTO CANVA
+================================================================================
+
+  OPTION A -- 10 minutes, recommended
+    Canva -> Create design -> Presentation -> Uploads -> upload
+    Malik_FIU_DBA_Module2_Deck.pdf. Canva imports each page as an editable
+    background. Drop text boxes on top, restyle, done.
+
+  OPTION B -- 30 minutes, fully native
+    Six blank slides, paste the blocks above in order. For the sigmoid use
+    Elements > Lines & Shapes > Curve. Do NOT use a chart widget -- the
+    S-curve is a drawing, not data.
+
+  EITHER WAY
+    Your name on the bottom of every slide -- his syllabus requires it.
+    Export as PDF Standard. Screen-share the PDF, not the Canva tab.
+================================================================================
