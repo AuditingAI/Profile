@@ -3,7 +3,7 @@
 **Doctoral Candidate (DBA) · Auditing, Behavioural Accounting & AI Governance**
 Newark, New Jersey · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik
 
-*v2.1 — 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
+*v2.2 — 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
 Contact fields are placeholders because this repo is public — fill at send time.
 **Do not send until the `[VERIFY]` items are resolved.** See the note at the end.*
 
@@ -24,11 +24,11 @@ Cohort 8.14 · *In progress* · **Qualifying examination passed, July 2026**
 Dissertation in development: *Automated anchoring, sycophantic confirmation, and recursive epistemic
 drift — how AI-assisted review reshapes auditor judgment.*
 Major Professor: Dr. Miguel Aguirre-Urreta · Qualifying-study supervisor: Dr. Juan C. Rey
-`[VERIFY: expected completion year — enrollment-verification request pending with the Office of
-Doctoral Programs. Cohort is listed under Class of 2028.]`
+Class of 2028 `[VERIFY: the conferral term. January and summer are both in play; the cohort year is
+confirmed, the month is not. Enrollment verification pending with the Office of Doctoral Programs.]`
 
 **Master of Business Administration (MBA)** — Florida International University, October 2011
-Cumulative GPA 3.71 `[VERIFY]` · Certified MBA: Marketing, Accounting and Financial Analysis (100%)
+Certified MBA: Marketing, Accounting and Financial Analysis (100%)
 
 **Graduate Advanced Diploma, International Banking** — Florida International University, August 2007
 
@@ -131,9 +131,12 @@ institutional AI-use policy compliance and disclosure · reproducible pipelines 
 
 ### Florida International University — graduate appointments, 2010–2011
 
-**Capital Markets Lab — Graduate Assistant, Employee Financial Literacy Program**
-College of Business. Delivered financial-literacy instruction and lab-based support in the Capital
-Markets Lab, working with participants on applied markets and personal-finance content.
+**State Farm Financial Literacy Lab — Lab Assistant**
+College of Business. Delivered financial-literacy instruction and lab-based support, working with
+participants on applied markets and personal-finance content. The lab was endowed by State Farm in
+2010 and carried that name through this period; FIU's College of Business now lists a Capital
+Markets Lab in the same programme area. `[VERIFY: whether to name the lab as it stands today. If a
+reader looks it up, the current listing is what they will find.]`
 
 **Student-Athlete Academic Center (SAAC) — Resident Tutor, Corporate Finance and Accounting**
 Paid tutoring appointment supporting student-athletes in corporate finance and accounting. Managed
@@ -144,7 +147,7 @@ academic advisors.
 **Student Managed Investment Fund (SMIF) — Sector Manager, Health Care**
 Directed health-care sector research and allocation within the student-managed fund.
 
-**Instructional support — FIN 6644, International Financial Markets** `[VERIFY role title]`
+**Instructional support — FIN 6644, International Financial Markets**
 Course materials retained from this period include the 2011 syllabus, sequential lecture note sets,
 case question sets, assignment solution keys (interest-rate parity, triangular arbitrage), and
 comprehensive final examination sets — consistent with instructional-support responsibilities rather
@@ -158,7 +161,7 @@ Financial Markets · AI Governance and Responsible AI in Business · Data Analyt
 
 ### Professional instruction
 
-Fifteen years of staff training, supervision, and judgment coaching across two global banks —
+Staff training, supervision, and judgment coaching across two global banks, 2012 to date —
 workpaper review, methodology instruction, and structured feedback on judgment quality. Regular
 presenter to senior management and banking regulators, translating technical audit and AI material
 for non-specialist audiences.
@@ -174,13 +177,13 @@ for non-specialist audiences.
 
 ## Professional Experience
 
-**JPMorgan Chase & Co.** — New York, NY, 2015–2022 `[VERIFY end date]`
+**JPMorgan Chase & Co.** — New York, NY, 2015 to June 2021
 Program Manager, CIB Resolution and Recovery Planning — coordinated 50+ stakeholders across annual
 Dodd-Frank resolution-plan submissions to the Federal Reserve and FDIC. Senior Associate, Corporate
 Finance Reporting — firmwide risk reporting; Basel III RWA and capital adequacy; FR Y-14Q, FFIEC 101,
 Pillar 3; identified $180M in capital optimisation.
 
-**Citigroup Inc.** — Tampa, FL and New York, NY, 2012–2015 and subsequently `[VERIFY sequence]`
+**Citigroup Inc.** — Tampa, FL and New York, NY, 2012–2015, and July 2021 onward
 Assistant Vice President, Global Legal Entity Management, Office of the Chief Accounting Officer;
 Senior Consultant, U.S. Regulatory Reporting. Later VP Audit Manager — thematic audits across 15+
 business units with reporting to the Board Audit Committee; designed and deployed a
@@ -200,7 +203,10 @@ federal counterparts. Trained at **FDIC Corporate University** (*Introduction to
 
 **Systemax Inc. (NYSE: SYX)** — Miami, FL, 2010–2011 · MBA Intern, promoted to Analyst
 
-**Royal Bank of Scotland** — Dubai, 2008–2009 · Credit Risk Analyst, Credit Policy and Portfolio MIS
+**Royal Bank of Scotland** — Dubai, January 2008 to June 2009 · `[VERIFY title: the 2017 résumé says
+Credit Risk Analyst, Credit Policy and Portfolio MIS; the Industry lane's files say Senior Business
+Analyst, Retail Credit Risk. Background checks verify exactly this. Settle it from the offer letter
+before this goes anywhere.]`
 
 ---
 
@@ -213,7 +219,12 @@ Research
 
 ## References
 
-Available on request. `[Dr. Rey and Dr. Aguirre-Urreta must be asked before being listed.]`
+**Prof. William Newburry**, Florida International University, College of Business — confirmed.
+The 24 September 2026 GEB 7365 minutes record his agreement to write in support of the Rutgers
+adjunct application; he asked for the CV and a draft paragraph. `[Send both from ymali001@fiu.edu.]`
+
+Further references available on request. `[Dr. Rey and Dr. Aguirre-Urreta must be asked before
+being listed.]`
 
 ---
 

@@ -19,15 +19,18 @@ is what stops the framing drifting into claims.
 
 > **Yasir A. Malik** · Doctor of Business Administration candidate, Florida International University,
 > Chapman Graduate School of Business · Cohort 8.14
-> Fifteen years in audit and risk at **Citigroup** and **JPMorgan Chase**
+> Audit and risk at **Citigroup** (2012–2015, and July 2021 onward) and **JPMorgan Chase** (2015 to June 2021)
 > Former bank examiner, **Florida Office of Financial Regulation**
+
+No career-length number appears anywhere. Yasir's instruction to the Industry lane on 12 September
+2026 was no tenure figure at all, fifteen included. The institutions and the dates carry it.
 
 **Three things that are wrong elsewhere and must not be repeated.**
 
 | Wrong | Right | Why it matters |
 |---|---|---|
-| Bank Examiner, **OCC** | **Florida Office of Financial Regulation** | The OCC line was removed on 2026-08-14 and is still live in `README.md` and `index.html` |
-| **20+ years** / two decades | **Fifteen years** | `RESEARCH.md` says fifteen. An inflated tenure is the easiest thing in a résumé to check |
+| Bank Examiner, **OCC** | **Florida Office of Financial Regulation** | Removed on 2026-08-14. Industry confirmed on 25 September that it is already gone from `main`; the earlier flag here was stale |
+| **20+ years** / two decades | **No career-length number.** Institutions and dates only | Yasir, 12 September, to Industry: no "20 years", no "15 years". Fixed on the Industry branch; still live on `main` until that branch merges |
 | A **GPA** or a **completion year** | Neither, until the program office confirms | `CLAUDE.md` §3. The record shows 3.81 against a claimed 3.87, and Summer 2028 against a claimed 2027 |
 
 ---

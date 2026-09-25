@@ -127,14 +127,14 @@ systems, and emerging regulatory interest converge — a space where practitione
 I have it.
 
 **Teaching.** I can teach auditing, internal controls, accounting information systems, enterprise
-risk management, and behavioural accounting from fifteen years of doing the work, and I can teach
+risk management, and behavioural accounting from years of doing the work, and I can teach
 AI governance from having built and deployed a retrieval-augmented assistant inside a bank's audit
 function rather than from reading about one. Having also examined banks as a regulator, I can put
 students on both sides of the table — the firm's and the supervisor's — which in my experience is
 where the concepts finally land.
 
 **Practitioner access.** Recruiting professional respondents is the binding constraint on
-behavioural accounting research, as my own study demonstrated at some cost. I bring fifteen years of
+behavioural accounting research, as my own study demonstrated at some cost. I bring a career of
 relationships across two global banks, a regulator, and the professional bodies. That is worth more
 to a research group than another person competing for the same panel participants.
 

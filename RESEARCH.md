@@ -3,7 +3,7 @@
 **A doctoral research programme on what happens to professional judgment when the machine answers first.**
 
 Yasir A. Malik · DBA candidate, Florida International University · Chapman Graduate School of Business
-Fifteen years in audit and risk at Citigroup and JPMorgan Chase · former bank examiner, Florida Office of Financial Regulation
+Audit and risk at Citigroup and JPMorgan Chase · former bank examiner, Florida Office of Financial Regulation
 
 🌐 [auditingai.github.io](https://auditingai.github.io) · 📊 [Live research register](live.html) · 🖼️ [Status deck, eight slides](dba/00_Execution/RESEARCH_STATUS_DECK.pdf)
 

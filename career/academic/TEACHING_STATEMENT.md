@@ -11,7 +11,7 @@ room argue with the evidence rather than with me.
 
 ## Why a practitioner teaches this way
 
-Fifteen years in audit and risk at Citigroup and JPMorgan Chase taught me that a workpaper nobody
+Audit and risk work at Citigroup and JPMorgan Chase taught me that a workpaper nobody
 can follow is not a finding, it is an opinion with a signature attached. The same discipline
 applies in a classroom. A student who can recite a control framework but cannot walk me through
 why a specific control failed has learned vocabulary, not judgment, and judgment is the thing I
