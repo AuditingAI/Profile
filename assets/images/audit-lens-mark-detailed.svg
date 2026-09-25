@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 46 210 210" role="img" aria-label="Audit the Algorithm">
+  <title>Audit lens - detailed, for large sizes only</title>
+  <!-- The audit lens. The original magnifier from the Audit the Algorithm site,
+     with the tick replaced by the A from The Reference Mark: the lens stands
+     in for the Reference Mark's open ring, and the A's crossbar still reaches
+     toward the rim without closing on it. Navy #1B365D, orange #E0662E. -->
+  <circle cx="149" cy="140" r="84" stroke="#1B365D" stroke-width="8.5" fill="none"/>
+  <line x1="212" y1="203" x2="253" y2="244" stroke="#1B365D" stroke-width="12" stroke-linecap="round"/>
+  <g opacity="0.55">
+    <line x1="122" y1="108" x2="150" y2="108" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="165" y1="108" x2="185" y2="108" stroke="#E0662E" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="194" y1="108" x2="204" y2="108" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="128" y1="124" x2="156" y2="124" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="166" y1="124" x2="190" y2="124" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="199" y1="124" x2="206" y2="124" stroke="#E0662E" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="111" y1="140" x2="127" y2="140" stroke="#E0662E" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="137" y1="140" x2="160" y2="140" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="170" y1="140" x2="196" y2="140" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="117" y1="156" x2="141" y2="156" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="154" y1="156" x2="175" y2="156" stroke="#E0662E" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="186" y1="156" x2="206" y2="156" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="126" y1="172" x2="150" y2="172" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="160" y1="172" x2="170" y2="172" stroke="#E0662E" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="180" y1="172" x2="200" y2="172" stroke="#1B365D" stroke-width="5.5" stroke-linecap="round"/>
+  </g>
+  <path d="M108.8 190.3 L149 98.1 L189.2 190.3" stroke="#E0662E" stroke-width="11" stroke-linejoin="miter" stroke-linecap="butt" fill="none"/>
+  <path d="M112.5 160.1 H214.3" stroke="#E0662E" stroke-width="11" stroke-linecap="butt"/>
+</svg>

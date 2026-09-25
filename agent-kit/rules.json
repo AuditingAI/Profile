@@ -100,12 +100,12 @@
       "applications/resume/Yasir_Malik_CV_Academic_Branded.pdf": "Not sendable: carries [TO CONFIRM] placeholders for the graduate TA post, the SAAC tutoring, the FIU guest lectures and the Rutgers class visit. Only Yasir has those facts. Ask him; do not invent them."
     },
     "brand": {
-      "mark": "The Reference Mark - a charcoal A inside an open orange ring, orange node in the 42-degree break, crossbar overshooting toward the ring. Orange #E0662E, charcoal #171A1D.",
+      "mark": "The Audit Lens - the navy magnifier from the original Audit the Algorithm logo with the tick replaced by the orange A from The Reference Mark. Navy #1B365D, orange #E0662E. Owner's choice, 25 Sep 2026.",
       "raster": "assets/images/logo-mark.png",
-      "vector": "assets/images/reference-mark.svg (two-tone, primary); reference-mark-mono.svg; reference-mark-micro.svg (16-24 px, favicon)",
+      "vector": "assets/images/audit-lens-mark.svg (primary, clean); audit-lens-mark-detailed.svg (large sizes only); audit-lens-lockup.svg and -detailed (with AUDIT THE ALGORITHM)",
       "design_system": "assets/brand/reference-mark/ - lockups, palette, type, banner, signature, LinkedIn cover, business cards. Source canvas: claude.ai/artifact/Tg7FZJQJwnyw5RHZgCrDVk",
       "rule": "The mark stands alone at the top of every branded document. No 'Audit the Algorithm' wordmark beneath it - owner's instruction.",
-      "not_the_brand": "The magnifier-and-tick (logo-full.png) and any drawn 'A' monogram. Both were used for a few days in Sep 2026 by mistake.",
+      "not_the_brand": "The magnifier with the tick (logo-full.png) and any hand-drawn 'A' monogram. The Reference Mark (orange ring) is kept in assets/brand/ as the source of the A, but is not the document mark.",
       "unbranded_on_purpose": "The Chromium-built Goldman resumes other than the Head of Innovation cut carry no mark: Goldman requires outside-business-activity disclosure."
     }
   },

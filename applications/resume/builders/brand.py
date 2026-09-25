@@ -10,22 +10,22 @@ Every branded builder draws its header through brand_header(). Two modes:
               when assets/images/logo-mark.png exists. Drop the file in and
               every builder picks it up on the next run.
 
-The mark is THE REFERENCE MARK, the owner's brand, designed in Claude Design:
-a charcoal A inside an open orange ring, with an orange node floating in the
-ring's 42-degree break and the A's crossbar overshooting the right leg toward
-the ring. Orange #E0662E, charcoal #171A1D. The full design system - lockups,
-palette, type, banner, signature, LinkedIn cover, business cards - is in
-assets/brand/reference-mark/, extracted from the canvas artifact
-"The Reference Mark" (claude.ai/artifact/Tg7FZJQJwnyw5RHZgCrDVk). Vector
-sources: assets/images/reference-mark.svg (two-tone, primary), -mono.svg, and
--micro.svg (the 16-24 px cut, used as the favicon). logo-mark.png is the
-two-tone rasterised at 800 px with a transparent ground.
+The mark is THE AUDIT LENS, the owner's choice on 25 Sep 2026: the navy
+magnifying glass from the original Audit the Algorithm logo, with its gold tick
+replaced by the orange A from The Reference Mark. The lens stands in for the
+Reference Mark's open ring, and the A's crossbar still reaches toward the rim
+without closing on it. Navy #1B365D, orange #E0662E.
 
-History, so nobody repeats it: an "A" monogram was drawn from scratch on
-18 Sep, then replaced on 25 Sep by the magnifier-and-tick in
-auditingai-github-pages.zip (now logo-full.png). Neither was the brand. The
-Reference Mark never reached the repository until 25 Sep - it lived only in the
-design canvas, which is why every search of git came up empty.
+Vectors in assets/images/:
+  audit-lens-mark.svg             primary, clean - used here and as favicon
+  audit-lens-mark-detailed.svg    with the original's text lines behind the A;
+                                  large sizes only, it smudges below ~60 px
+  audit-lens-lockup(-detailed).svg  with AUDIT THE ALGORITHM beneath
+logo-mark.png is the primary rasterised at 800 px, transparent.
+
+Kept as brand history, not in use on documents: reference-mark*.svg and the
+full Reference Mark design system in assets/brand/reference-mark/, and
+logo-full.png, the original magnifier-and-tick.
 """
 from pathlib import Path
 
