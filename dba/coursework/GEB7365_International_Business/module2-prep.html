@@ -1,0 +1,289 @@
+<title>Module 2 Prep Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,300;1,6..72,400&family=JetBrains+Mono:wght@400;600&display=swap">
+
+<style>
+:root{
+  --paper:#FCFBF8; --panel:#FFFFFF; --ink:#111418; --body:#454B54; --muted:#767D86;
+  --rule:#DDD7CC; --hair:#EBE6DC;
+  --blue:#081E3F; --gold:#B6862C; --teal:#1C6B63; --rust:#8C3A1B;
+  --blue-soft:#E7EDF5; --gold-soft:#FAF3E4; --teal-soft:#E3EFEC; --rust-soft:#F7EAE4;
+  --shadow:0 1px 2px rgba(8,30,63,.05), 0 10px 30px -20px rgba(8,30,63,.4);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0B1017; --panel:#141B24; --ink:#EFEAE1; --body:#B4BEC6; --muted:#7E8A95;
+  --rule:#26303C; --hair:#1D2530;
+  --blue:#8FB6E0; --gold:#D9AB4E; --teal:#5FBFAE; --rust:#D98A55;
+  --blue-soft:#132132; --gold-soft:#2A2314; --teal-soft:#122723; --rust-soft:#2A1A13;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 34px -20px rgba(0,0,0,.85);
+}}
+:root[data-theme="dark"]{
+  --paper:#0B1017; --panel:#141B24; --ink:#EFEAE1; --body:#B4BEC6; --muted:#7E8A95;
+  --rule:#26303C; --hair:#1D2530;
+  --blue:#8FB6E0; --gold:#D9AB4E; --teal:#5FBFAE; --rust:#D98A55;
+  --blue-soft:#132132; --gold-soft:#2A2314; --teal-soft:#122723; --rust-soft:#2A1A13;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 34px -20px rgba(0,0,0,.85);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--body);
+  font-family:"Newsreader",Iowan Old Style,Palatino,Georgia,serif;
+  font-size:18px;line-height:1.58;font-weight:300;-webkit-font-smoothing:antialiased}
+.wrap{max-width:920px;margin:0 auto;padding:0 24px 80px}
+h1,h2,h3{color:var(--ink);font-weight:600;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,5.4vw,3rem);line-height:1.06;letter-spacing:-.018em}
+h2{font-size:clamp(1.25rem,3vw,1.6rem);line-height:1.2;margin-bottom:.2rem}
+h3{font-size:1.02rem;line-height:1.3}
+p{margin:0 0 .9em}
+strong{font-weight:600;color:var(--ink)} em{font-style:italic}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+.eyebrow{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:.64rem;
+  font-weight:600;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);margin:0 0 .7rem}
+
+/* crest */
+header{padding:44px 0 0;display:flex;gap:14px;align-items:flex-start}
+.bar{width:3px;align-self:stretch;min-height:38px;background:var(--gold);flex:none}
+.crest .u{font-family:"JetBrains Mono",monospace;font-size:.68rem;font-weight:600;
+  letter-spacing:.19em;color:var(--blue)}
+.crest .s{font-size:.85rem;color:var(--muted);margin-top:.1rem}
+
+.hero{padding:34px 0 6px}
+hr.r{height:1px;background:var(--rule);border:0;margin:34px 0 0}
+section{padding:36px 0 0}
+
+/* countdown strip */
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:22px}
+.tile{background:var(--panel);border:1px solid var(--hair);border-radius:3px;
+  padding:14px 16px;box-shadow:var(--shadow);border-top:3px solid var(--blue)}
+.tile.g{border-top-color:var(--gold)} .tile.t{border-top-color:var(--teal)}
+.tile .v{font-size:1.5rem;font-weight:600;color:var(--ink);line-height:1.1;
+  font-variant-numeric:tabular-nums}
+.tile .k{font-family:"JetBrains Mono",monospace;font-size:.58rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);margin-top:.3rem}
+
+/* the one sentence */
+.spine{background:var(--gold-soft);border:1px solid var(--rule);border-radius:4px;
+  padding:24px 26px;margin-top:22px}
+.spine p{font-size:1.25rem;line-height:1.42;color:var(--ink);font-style:italic;margin:0}
+.spine .c{font-family:"JetBrains Mono",monospace;font-size:.62rem;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--muted);margin-top:.85rem;font-style:normal}
+
+/* flip cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-top:20px}
+.card{background:var(--panel);border:1px solid var(--hair);border-radius:3px;
+  box-shadow:var(--shadow);overflow:hidden;text-align:left;width:100%;
+  font-family:inherit;cursor:pointer;padding:0;border-top:3px solid var(--blue)}
+.card:nth-child(2){border-top-color:var(--teal)}
+.card:nth-child(3){border-top-color:var(--gold)}
+.card:nth-child(4){border-top-color:var(--rust)}
+.card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.card .q{padding:16px 18px}
+.card .lab{font-family:"JetBrains Mono",monospace;font-size:.6rem;font-weight:600;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:.35rem}
+.card .qt{font-size:1rem;color:var(--ink);font-weight:400;line-height:1.35}
+.card .a{padding:0 18px;max-height:0;overflow:hidden;transition:max-height .28s ease,padding .28s ease;
+  font-size:.92rem;line-height:1.5;border-top:1px solid transparent}
+.card[aria-expanded="true"] .a{max-height:280px;padding:14px 18px 16px;border-top-color:var(--hair)}
+.card .hint{font-family:"JetBrains Mono",monospace;font-size:.55rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);padding:0 18px 12px}
+.card[aria-expanded="true"] .hint{display:none}
+
+/* numbers to memorise */
+.nums{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.num{background:var(--blue-soft);border-radius:3px;padding:12px 20px;text-align:center;flex:1;min-width:110px}
+.num b{display:block;font-size:1.6rem;color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.num span{font-family:"JetBrains Mono",monospace;font-size:.56rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted)}
+
+/* run sheet */
+.run{margin-top:20px;border:1px solid var(--hair);border-radius:3px;overflow:hidden;background:var(--panel);box-shadow:var(--shadow)}
+.row{display:grid;grid-template-columns:52px 1fr 66px;gap:0;border-bottom:1px solid var(--hair);align-items:center}
+.row:last-child{border-bottom:0}
+.row .n{font-family:"JetBrains Mono",monospace;font-size:.72rem;font-weight:600;color:var(--gold);
+  text-align:center;padding:14px 0}
+.row .w{padding:13px 6px 13px 0}
+.row .w b{display:block;color:var(--ink);font-weight:600;font-size:.95rem}
+.row .w span{font-size:.85rem;color:var(--muted)}
+.row .t{font-family:"JetBrains Mono",monospace;font-size:.72rem;color:var(--muted);
+  text-align:right;padding-right:16px;font-variant-numeric:tabular-nums}
+
+/* pass list */
+.pass{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:18px}
+.p{background:var(--panel);border:1px solid var(--hair);border-radius:3px;padding:16px 18px;box-shadow:var(--shadow)}
+.p .h{font-family:"JetBrains Mono",monospace;font-size:.6rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+.p b{display:block;color:var(--ink);font-size:.98rem;margin-bottom:.25rem}
+.p span{font-size:.88rem}
+
+.note{background:var(--blue-soft);border-radius:3px;padding:18px 22px;margin-top:20px}
+.note p{font-size:.94rem;margin:0}
+.note p+p{margin-top:.6em}
+
+table{border-collapse:collapse;width:100%;margin-top:18px;font-size:.92rem}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--hair)}
+th{font-family:"JetBrains Mono",monospace;font-size:.58rem;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--muted);font-weight:600}
+td:first-child{color:var(--ink)}
+.tw{overflow-x:auto}
+
+footer{margin-top:52px;padding:24px 0 0;border-top:1px solid var(--rule)}
+footer p{font-size:.82rem;color:var(--muted);margin:0 0 .45em}
+footer a{color:var(--blue);text-decoration:none;border-bottom:1px solid var(--rule)}
+footer a:hover{border-bottom-color:var(--blue)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media (max-width:560px){body{font-size:17px}.row{grid-template-columns:44px 1fr 58px}}
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="bar"></div>
+  <div class="crest">
+    <div class="u">FLORIDA INTERNATIONAL UNIVERSITY</div>
+    <div class="s">Chapman Graduate School of Business &middot; Doctor of Business Administration</div>
+  </div>
+</header>
+
+<div class="hero">
+  <p class="eyebrow">GEB 7365 &middot; Module 2 &middot; Thursday 27 August, 7:00 PM</p>
+  <h1>Internationalization<br>and Performance</h1>
+  <p style="max-width:56ch;font-size:1.1rem">Yasir A. Malik, Cohort 8.14. Second speaker, five minutes, two papers and the conclusion. Everything needed to walk in ready is on this page.</p>
+
+  <div class="strip">
+    <div class="tile"><div class="v">6</div><div class="k">Slides</div></div>
+    <div class="tile"><div class="v">5:00</div><div class="k">Your time</div></div>
+    <div class="tile g"><div class="v">2</div><div class="k">Papers to know</div></div>
+    <div class="tile g"><div class="v">3</div><div class="k">Numbers to memorise</div></div>
+    <div class="tile t"><div class="v">20</div><div class="k">Min to rehearse</div></div>
+  </div>
+</div>
+
+<hr class="r">
+
+<section>
+  <p class="eyebrow">If you remember nothing else</p>
+  <h2>The whole talk is one sentence.</h2>
+  <div class="spine">
+    <p>The field kept measuring the wrong thing &mdash; or measuring one thing while believing it had measured another.</p>
+    <div class="c">Every slide is an instance of this. Blank? Say it and keep going.</div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Test yourself &middot; tap to reveal</p>
+  <h2>Four cards. Cover the answer first.</h2>
+  <p style="font-size:.94rem;max-width:60ch">Say your answer out loud <em>before</em> you tap. The gap between what you said and what appears is the only part worth studying &mdash; re-reading feels productive and mostly is not.</p>
+
+  <div class="cards">
+    <button class="card" aria-expanded="false">
+      <div class="q"><span class="lab">Contractor, Kundu &amp; Hsu 2003</span>
+        <span class="qt">Why did the field report four different answers?</span></div>
+      <div class="a">Because it was sampling different segments of <strong>one sigmoid curve</strong>. Sample the middle &rarr; positive linear. Sample the ends &rarr; inverted U. Stage 1 negative (liability of foreignness), stage 2 positive (scale and learning), stage 3 negative again (cost of scattered operations). <strong>The disagreement was partly artefactual.</strong></div>
+      <div class="hint">Tap to reveal</div>
+    </button>
+
+    <button class="card" aria-expanded="false">
+      <div class="q"><span class="lab">Contractor &mdash; the practice line</span>
+        <span class="qt">Who over-expands, and what is the quote?</span></div>
+      <div class="a"><strong>Knowledge-based services</strong> &mdash; advertising, market research, securities, publishing. Low fixed-asset exposure, so one more market is cheap to say yes to. <em>&ldquo;Few companies possess the managerial tools that would tell them when they have over-internationalized.&rdquo;</em> So &ldquo;should we internationalise?&rdquo; is the wrong question; <strong>&ldquo;where are we on the curve?&rdquo;</strong> is the right one.</div>
+      <div class="hint">Tap to reveal</div>
+    </button>
+
+    <button class="card" aria-expanded="false">
+      <div class="q"><span class="lab">Mezias 2002</span>
+        <span class="qt">What did he do that nobody else had?</span></div>
+      <div class="a">He <strong>stopped trying to fix the measure and replaced it.</strong> Performance measures blend advantages, disadvantages and transfer pricing into one number. Labour lawsuit judgments isolate one thing: <em>&ldquo;labor lawsuits only measure labor-related disadvantage.&rdquo;</em> 486 foreign subsidiaries matched to 486 US firms, same industries and cities.</div>
+      <div class="hint">Tap to reveal</div>
+    </button>
+
+    <button class="card" aria-expanded="false">
+      <div class="q"><span class="lab">The conclusion &mdash; yours</span>
+        <span class="qt">Map all four: measured what, believed what?</span></div>
+      <div class="a"><strong>Contractor</strong> measured segments of a curve, believed it was the shape of the relationship. <strong>Mezias&rsquo;s field</strong> measured aggregate performance, believed it had measured foreignness. <strong>Ghemawat&rsquo;s practitioners</strong> measured market size, believed opportunity. <strong>Arregle</strong> &mdash; 220 studies, still &ldquo;varied and at times incompatible findings.&rdquo;</div>
+      <div class="hint">Tap to reveal</div>
+    </button>
+  </div>
+
+  <div class="nums">
+    <div class="num"><b>486</b><span>foreign subsidiaries</span></div>
+    <div class="num"><b>486</b><span>matched US firms</span></div>
+    <div class="num"><b>$600k+</b><span>average jury award</span></div>
+  </div>
+  <p style="font-size:.88rem;color:var(--muted);margin-top:.7em">Those three are the only figures you have to hold. Everything else is on a slide in front of you.</p>
+</section>
+
+<hr class="r">
+
+<section>
+  <p class="eyebrow">The run sheet</p>
+  <h2>Six slides, fifty seconds each.</h2>
+  <div class="run">
+    <div class="row"><div class="n">1</div><div class="w"><b>Handoff</b><span>&ldquo;Daniela showed where the field disagrees. I want the narrower question &mdash; what was it measuring?&rdquo;</span></div><div class="t">0:30</div></div>
+    <div class="row"><div class="n">2</div><div class="w"><b>The sigmoid</b><span>Point at the shaded windows. Four findings, one curve.</span></div><div class="t">1:10</div></div>
+    <div class="row"><div class="n">3</div><div class="w"><b>Who over-expands</b><span>Two firm types plotted where they stop. Read the quote off the slide.</span></div><div class="t">0:55</div></div>
+    <div class="row"><div class="n">4</div><div class="w"><b>Mezias</b><span>He did not fix the measure. He replaced it.</span></div><div class="t">1:10</div></div>
+    <div class="row"><div class="n">5</div><div class="w"><b>The conclusion</b><span>Slow down. One diagnosis, four times. This is your slide.</span></div><div class="t">1:20</div></div>
+    <div class="row"><div class="n">6</div><div class="w"><b>Close</b><span>Kundu on both ends, eighteen years apart. Pause after it.</span></div><div class="t">0:35</div></div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Tonight &middot; twenty minutes, then stop</p>
+  <h2>Three passes. A fourth makes it worse.</h2>
+  <div class="pass">
+    <div class="p"><div class="h">Pass 1 &middot; 7 min</div><b>Read it out loud</b><span>Script on the page, read it once. You are hearing the shape, not memorising.</span></div>
+    <div class="p"><div class="h">Pass 2 &middot; 7 min</div><b>Script face down</b><span>Deck on screen, talk through all six. You will stumble &mdash; that is the pass working.</span></div>
+    <div class="p"><div class="h">Pass 3 &middot; 6 min</div><b>Timer on</b><span>Aim 4:30, not 5:00. Everyone runs long live.</span></div>
+  </div>
+
+  <div class="note">
+    <p><strong>If you blank:</strong> &ldquo;The thread through all four of these is measurement.&rdquo; Then look at the slide and describe what you see. Every slide is built so that describing it <em>is</em> the content &mdash; there is nothing hidden you have to recall.</p>
+    <p><strong>If you are asked something you do not know:</strong> &ldquo;I don&rsquo;t have that in front of me &mdash; what&rsquo;s your read on it?&rdquo; That is a normal thing for a doctoral student to say, and it turns a gap into a conversation.</p>
+  </div>
+</section>
+
+<hr class="r">
+
+<section>
+  <p class="eyebrow">What you do not need</p>
+  <h2>Deliberately out of scope.</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Not needed</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Arregle&rsquo;s seven themes</td><td>Daniela&rsquo;s paper. One line in your conclusion is enough</td></tr>
+      <tr><td>CAGE&rsquo;s four letters in order</td><td>Also hers. You reference the finding, not the framework</td></tr>
+      <tr><td>Mezias&rsquo;s moderator variables</td><td>Staffing, autonomy, age &mdash; detail below the level of a five-minute talk</td></tr>
+      <tr><td>Contractor&rsquo;s sample size</td><td>Not on your slide and nobody will ask</td></tr>
+      <tr><td>Any year beyond the four on your slides</td><td>2003, 2002, 2001, 2021. That is the whole list</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <p class="eyebrow">Still open</p>
+  <h2>Two things before 7:00 PM.</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Action</th><th>Why it matters</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Email Newburry</strong> &mdash; group and topic for approval</td><td>His words: &ldquo;prior to doing extensive work.&rdquo; It gates the 30% report. From <span class="mono">ymali001@fiu.edu</span>, never Gmail</td></tr>
+      <tr><td><strong>Reply to Daniela</strong> &mdash; confirm the split, send the deck</td><td>She proposed it on 23 Aug and said she would send hers Tuesday night. Check Canvas</td></tr>
+      <tr><td>Ask him the three disputed dates in class</td><td>Initial Project Idea, Presentation, Report. He said he would cover them</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>
+  <p style="color:var(--ink);font-weight:600;font-size:.92rem">Yasir A. Malik &middot; Cohort 8.14</p>
+  <p>Contractor, Kundu &amp; Hsu (2003), <em>JIBS</em> 34(1): 5&ndash;18 &middot; Mezias (2002), <em>SMJ</em> 23(3): 229&ndash;244 &middot; Ghemawat (2001), <em>HBR</em> 79(8): 137&ndash;147 &middot; Arregle et al. (2021), <em>JIBS</em> 52: 1159&ndash;1198</p>
+  <p>Working material for a class presentation. The readings are the course&rsquo;s; the synthesis and any error in it are mine. Full record: <a href="https://github.com/AuditingAI/Profile">github.com/AuditingAI/Profile</a></p>
+</footer>
+
+</div>
+
+<script>
+document.querySelectorAll('button.card').forEach(function(b){
+  b.addEventListener('click',function(){
+    b.setAttribute('aria-expanded', b.getAttribute('aria-expanded')==='true' ? 'false' : 'true');
+  });
+});
+</script>

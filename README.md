@@ -17,6 +17,8 @@ to date, and the AI extension argued rather than tested.
 
 🌐 Read it at **[auditingai.github.io/research.html](https://auditingai.github.io/research.html)**
 
+The full research record — model, instrument, data record — is in **[RESEARCH.md](RESEARCH.md)**.
+
 ---
 
 ## Overview
@@ -45,7 +47,7 @@ We provide AI governance consulting that is:
 
 ## About the Founder
 
-**Yasir A. Malik** brings 20+ years of experience at Citi, JPMorgan Chase, and the Florida Office of Financial Regulation to AI governance consulting.
+**Yasir A. Malik** brings experience at Citi, JPMorgan Chase, and the Florida Office of Financial Regulation to AI governance consulting.
 
 Currently pursuing doctoral research at Florida International University investigating cognitive biases in Large Language Models and ethical moderation frameworks for responsible AI.
 
@@ -53,7 +55,7 @@ Currently pursuing doctoral research at Florida International University investi
 - VP Audit Manager, Citi
 - Risk Control Manager, JPMorgan Chase  
 - Bank Examiner, Florida Office of Financial Regulation
-- DBA Candidate, FIU (GPA: 3.81)
+- DBA Candidate, FIU
 - MBA, FIU | BSc Banking & Finance, LSE
 - FinTech Boot Camp, Columbia University
 
@@ -72,7 +74,6 @@ No frameworks. No dependencies. Fast loading. Accessible.
 
 ## Contact
 
-- 📧 **Email**: [yasiramalik@gmail.com](mailto:yasiramalik@gmail.com)
 - 💼 **LinkedIn**: [linkedin.com/in/yasiramalik](https://linkedin.com/in/yasiramalik)
 - 🐙 **GitHub**: [github.com/AuditingAI](https://github.com/AuditingAI)
 

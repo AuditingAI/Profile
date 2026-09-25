@@ -1,0 +1,1927 @@
+A Three-Stage Theory of International Expansion: The Link between Multinationality and
+Performance in the Service Sector
+Author(s): Farok J. Contractor, Sumit K. Kundu, Chin-Chun Hsu
+Source: Journal of International Business Studies, Vol. 34, No. 1 (Jan., 2003), pp. 5-18
+Published by: Palgrave Macmillan Journals
+Stable URL: http://www.jstor.org/stable/3557136
+Accessed: 13/02/2009 17:43
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at
+http://www.jstor.org/action/showPublisher?publisherCode=pal.
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+JSTOR is a not-for-profit organization founded in 1995 to build trusted digital archives for scholarship. We work with the
+scholarly community to preserve their work and the materials they rely upon, and to build a common research platform that
+promotes the discovery and use of these resources. For more information about JSTOR, please contact support@jstor.org.
+Palgrave Macmillan Journals is collaborating with JSTOR to digitize, preserve and extend access to Journal of
+International Business Studies.
+http://www.jstor.org
+
+Journal of International 
+Business Studies (2003) 34, 5-18 
+? 2003 Palgrave Macmillan Ltd. All rights reserved 0047-2506 $25.00 
+www.jibs.nets 
+A 
+three-stage theory 
+of 
+international 
+expansion: 
+the 
+link 
+between 
+multinationality 
+and 
+performance 
+in 
+the 
+service 
+sector 
+Farok J Contractor1 
+Sumit K Kundu2 
+Chin-Chun Hsu2'3 
+1School of Management, Rutgers University, 
+USA; 2Boeing Institute of International Business, 
+John Cook School of Business, Saint Louis 
+University, USA; 3The Overseas Chinese Institute 
+of Technology, Taiwan, ROC 
+Correspondence: 
+Dr Sumit K Kundu, Boeing Institute of 
+International Business, John Cook School 
+of Business, Saint Louis University, 3674 
+Lindell Blvd, St Louis, MO, USA 
+Tel: + 1 314 977 3601; 
+Fax: +1 314 977 7188; 
+E-mail: kundusk@slu.edu 
+Received: 11 October 2001 
+Revised: 
+21 March 2002 
+22 August 2002 
+Accepted: 27 August 2002 
+Online publication date: 12 December 2002 
+Abstract 
+It is generally assumed that the performance of a firm improves with greater 
+multinationality. Yet recent empirical studies have shown both a U-shaped 
+relationship (which suggests an initially negative effect of international 
+expansion on performance, before the positive returns of international 
+expansion are realized) and an inverted-U-shaped relationship (which suggests 
+that international expansion beyond an optimal level is again detrimental to 
+performance, and results in a negative slope). This paper proposes a new 
+unified three-stage theory of international expansion that incorporates both 
+concepts in a sigmoid hypothesis. It then tests this on data from 11 service 
+industries, highlighting the difference between knowledge-based and capital- 
+intensive service sectors. 
+Journal of International Business Studies (2003) 34, 5-18. doi:1 0.1 057/palgrave. 
+jibs.8400003 
+Introduction 
+Is international expansion good for a firm? 
+The foundation 
+of international 
+business studies rests on the 
+assumption that increased multinationality 
+is good for a firm's 
+performance. Vernon (1971) asserted a positive relationship between 
+performance indicators such as return on investment (ROI) or return 
+on sales (ROS) and the extent of multinationality 
+of the firm. 
+International expansion allows the firm to capture economies of 
+scale, or geographic scope (Kogut, 1985). Dunning (1993) averred 
+that less saturated foreign markets provide companies with the 
+means to maintain and expand distribution and gain overall market 
+share by exploiting their current stock of assets - that companies 
+with valuable transaction-based ownership advantages (Ot) can reap 
+internalization benefits, circumvent market failure, and avoid trade 
+barriers, moral hazards, and broken contracts. 
+Advantages 
+of international 
+expansion 
+accrue by: 
+(1) 
+Spreading common 
+and central overheads over more and 
+more nations: this is especially critical in R&D-intensive 
+industries that require amortization of R&D from more than a 
+few markets (Kobrin, 1991; Tallman and Li, 1996). 
+*3 
+
+A three-cstae 
+theorv 
+nf internatinnal 
+evnancinn 
+(2) Greater learning or international experience 
+(Kobrin, 1991). 
+(3) Access to cheaper and idiosyncratic resources in 
+foreign countries: these could include cheaper 
+labor, better technology, or any country- 
+specific resource (Porter, 1990; Jung, 1991). 
+(4) The abilities of the multinational enterprise 
+(MNE) for global scanning of rivals, markets, 
+and other profit opportunities. 
+(5) Better cross-subsidization, price discrimina- 
+tion, and arbitrage potential with larger 
+geographic scope. 
+In general, the greater the number of countries 
+the MNE serves, the better its appropriability regime 
+(Teece, 1986). 
+Thus core international business theory argues 
+for a positive relationship between the performance 
+of the firm (measured by a variety of indicators 
+such as ROI, ROS, ROA, ROE, growth, and Tobin's 
+Q; see Table 1) and its degree of multinationality. 
+But can international expansion produce a 
+diminution in performance? 
+For the most part, international expansion is 
+positive for a firm's performance. Yet recent 
+empirical studies have shown both a U-shaped 
+relationship (which suggests an initially negative 
+effect of international expansion on performance, 
+before the positive returns of international 
+expansion are realized) and an inverted U-shaped 
+relationship (which suggests that international 
+expansion beyond an optimal level is detrimental 
+to performance, and again results in a negative slope 
+if firms are excessively internationalized). 
+The overall shape of the relationship between the 
+performance of MNEs and their degree of multi- 
+nationality is a crucial question for academics, as 
+well as for company strategists who are concerned 
+about (1) initial internationalization barriers and (2) 
+for mature multinationals, the 'optimum' number 
+of countries that the firm serves, beyond which 
+further expansion may be sub-optimal. The existing 
+literature, summarized in Table 1, shows linear, 
+U-shaped, and inverted-U-shaped relationships. 
+This paper's contribution is to: 
+(1) reconcile these seemingly contrary findings by 
+proposing a new three-stage theory of inter- 
+national expansion; 
+(2) test this theory using data from 11 service 
+industries in 12 nations; and 
+Table I Previous literature on the link between performance and degree of multinationality 
+Author(s) and year 
+Han et al. (1998) (+) 
+Jung (1991) (+) 
+Vernon (1971) (+) 
+Kim and Lyn (1987) (+) 
+Errunza and Senbet (1981) (+) 
+Grant (1987) (+) 
+Grant et al. (1988) (+) 
+Brewer (1981) (-) 
+Siddharthan and Lall (1982) (-) 
+Michel and Shaked (1986)(-) 
+Collins (1990) (-) 
+Buckley et al. (1977, 1984) (0) 
+Kumar (1984) (0) 
+Morck and Yeung (1991) (0) 
+Qian (1997) 
+Ruigrok and Wagner (2002) 
+Daniels and Bracker (1989) 
+Geringer et al. (1989) 
+Sullivan (1994a, b) 
+Ramaswamy (1995) 
+AI-Obaidan and Scully (1995) 
+Gomes and Ramaswamy (1999) 
+Hitt et al. (1994) 
+Performance indicators 
+ROE, asset turnover, profit margin 
+(After-tax net income)/(Total assets) 
+ROI, ROS 
+Excess market value; Tobin's Q 
+Excess return 
+ROA, ROE, ROS 
+ROA, ROE, ROS 
+Stock return 
+Sales growth 
+Risk-adjusted return 
+Total risk, Debt to equity ratio, Beta 
+ROA 
+ROA, ROS 
+Market value 
+ROE 
+ROA 
+ROA, ROS 
+ROA, ROS 
+ROA, ROS 
+ROA, ROS, ROVA 
+Frontier production function, Variance in technical efficiency 
+Cost of sales/total sales, ROA 
+ROA, ROS 
+Findings: +, positive relationship; 
+-, negative relationship; 
+0, no relationship. 
+Journal of International Business Studies 
+*I 
+6 
+Linear 
+U-shaped 
+Inverted-U-shaped 
+PS LI=-M 
+__ 
+__PI 
+_ 
+- 
+- 
+_ 
+p 
+Z - 
+- *----- 
+--------r-CII 
+UK %-U--- 
+ILI 
+v.>,LUI 
+_L at 
+Farok I Contractor 
+et al 
+
+A three-staqe 
+theory of international 
+expansion 
+(3) 
+shed new light on the growth of service 
+firms by highlighting 
+differences 
+between 
+knowledge-based and capital-intensive service 
+sectors. 
+Prior studies on the multinationality- 
+performance nexus 
+The studies in Table 1 that show a positive linear fit 
+confirm 
+the bedrock proposal 
+of international 
+business 
+studies 
+- 
+that 
+a firm's performance 
+improves with greater international expansion. 
+A negative linear result suggests a decline in 
+performance, perhaps with initial internationaliza- 
+tion. 
+A U-shaped 
+relationship 
+suggests 
+that 
+early 
+internationalizers see an initial decline in perfor- 
+mance up to a point, after which further expansion 
+brings an upward performance 
+in returns from 
+increasing geographic scale. 
+An inverted-U-shaped 
+relationship suggests that 
+geographic expansion leads to enhanced corporate 
+performance 
+(positive 
+slope) 
+up to a second 
+'threshold', beyond which the organizational costs 
+and complexity associated with managing widely 
+scattered operations begin to outweigh the advan- 
+tages of even further international expansion (that 
+is, a negative slope sets in again). 
+Why these seemingly contradictory findings? In 
+some studies it may simply be that a quadratic term 
+was not introduced into the equation, and that a 
+linear fit was statistically significant. In other cases 
+the data may be capturing only part of an overall 
+sigmoid 
+(S-shaped) 
+function, 
+as proposed 
+in 
+Figure 1. Depending 
+on which part of Figure 1 
+we 
+examined, 
+we 
+can 
+find 
+linear 
+(positive 
+Performance 
+Stage 1 
+NEGATIVE 
+Liability of f 
+Initial learnii 
+Insufficient e 
+scale 
+Early 
+Internati 
+Farok I Contractor et al 
+*^ 
+7 
+and negative), 
+U-shaped, and inverted-U-shaped 
+segments. 
+A new three-stage theory of international 
+expansion 
+Stage 1. Negative slope: costs and barriers to 
+initial international expansion 
+Implicit in the Uppsala school's 'internationaliza- 
+tion theory' hypothesis 
+(Johanson and Vahlne, 
+1977), that a firm initially 
+seeks only familiar 
+markets, is the little-explored notion of the liability 
+of foreignness - the additional burden, or costs, that 
+the internationally 
+expanding firm must initially 
+endure. Zaheer and Mosakowski (1997) couch this 
+in terms of the initial costs of a foreign firm 
+establishing 
+its legitimacy abroad. Johanson and 
+Vahlne (1977) acknowledge the costs of acquiring 
+foreign market knowledge, and virtually say that a 
+company's foreign expansion will not occur before 
+the costs of acquiring knowledge about the foreign 
+market are first incurred. Early internationalizers 
+have large learning costs because of unfamiliarity 
+with foreign markets, cultures and environments. 
+The role of knowledge acquisition costs, relating to 
+foreign markets, is treated more explicitly 
+in a 
+follow-up work by Johanson and Vahlne (1990). For 
+early internationalizers, as the initial scale of global 
+operations is small, the up-front costs of creating an 
+international operation are not yet recouped from 
+the relatively 
+few nations 
+in which 
+the firm 
+operates (Hitt et al, 1997; Gongming, 1998). Going 
+international 
+entails a large minimum 
+adminis- 
+trative overhead burden, which, if spread over just a 
+handful 
+of country 
+markets, results in a high 
+burden of overhead per nation burden. In Stage 1, 
+Stage 2 
+Stage 3 
+SLOPE 
+POSITIVE SLOPE 
+NEGATIVE SLOPE 
+oreignness 
+Resource augmentation/exploitation 
+i 
+Cultural distance 
+ng costs 
+Internalization 
+of transaction costs 
+Coordination costs of 
+economies of 
+Economies of scale and scope 
+very dispersed markets 
+Extension of product life cycle 
+Expansion into 
+Access to lower cost resources 
+peripheral markets 
+Mid-Stage 
+Highly Internations 
+ionalizers 
+Internationalizers 
+Firms 
+alized 
+Degree of Multinationality 
+Figure 1 
+A three-stage sigmoid (S-shaped) hypothesis. 
+journal of International Business Studies 
+. 
+- 
+I 
+I 
+P 
+
+A three-ctane 
+theorv 
+of 
+internatinnal 
+evnancinn 
+therefore, we expect a negative slope for the link 
+between performance and multinationality, as 
+shown in Figure 1. 
+However, the costs and barriers of early inter- 
+nationalization are not assumed to be onerous - 
+otherwise few firms would venture abroad. Hence 
+Stage 1, in Figure 1, is hypothesized to have a 
+relatively shallow negative slope, and to be of 
+shorter extent than Stage 2. 
+Stage 2. Positive slope: benefits of international 
+expansion are now realized 
+In mid-stage international expansion, further 
+geographical scale makes possible efficiencies that 
+improve performance indicators such as ROS, or 
+overheads per nation. The fixed costs and overhead 
+burden of headquarters operations and large R&D 
+outlays can be increasingly spread over more 
+nations (Kogut, 1985; Porter, 1985). The incre- 
+mental benefits of further international expansion 
+are now greater than the incremental costs of 
+further Stage 2 expansion. 
+For both market-exploiting and resource-seeking 
+MNEs, the greater the number of countries, the 
+more the firm can engage in price discrimina- 
+tion, strategic cross-subsidization, and arbitrage 
+(Contractor, 2002). The multinational firm exploits 
+its ability to arbitrage national differences, and the 
+larger its global scope, the greater is this ability 
+(Rugman, 1981). 
+Resource-seeking companies are better able to 
+access low-cost inputs, including labor, and to tap 
+into knowledge clusters (Daniels and Bracker, 1989; 
+Annavarjula and Beldona, 2000). The transfer of 
+specialized learning from certain nations - or, in 
+general, the ability to cross-fertilize knowledge 
+across subsidiaries - increases with increased multi- 
+nationality. Similarly, market-seeking firms are 
+better able to scan for market opportunities. Other 
+benefits of Stage 2 international expansion are the 
+ability of some companies to exercise global market 
+power (Grant, 1987) and to extend the product 
+cycle (Vernon, 1966). 
+Hence the commonly accepted hypothesis that, 
+ceteris paribus, multinationality is positively asso- 
+ciated with performance, in Stage 2. 
+Stage 3. Negative slope: international expansion 
+beyond an optimal threshold 
+But are the benefits of further international 
+expansion indefinitely positive? The many inverted- 
+U-shaped results shown in Table 1 suggest strongly 
+that some companies in a sector, or a sample, over- 
+expand internationally beyond a desirable optimum 
+level. For such firms, the incremental costs of 
+further expansion into peripheral nations are 
+greater than the incremental benefits, and hence 
+are detrimental to overall global performance. The 
+performance-multinationality slope again becomes 
+negative, as seen in Figure 1. Why? First, beyond a 
+certain point, having expanded into the most 
+lucrative markets, the firm is then left with minor 
+or peripheral countries with a lower profit poten- 
+tial. Second, beyond an optimum number of 
+nations, the growth of coordination and govern- 
+ance costs may exceed the benefits of further 
+expansion, because of the complexity of global 
+operations (Galbraith and Kazanjian, 1986). This is 
+especially true as the number of different cultural 
+environments that the firm has to deal with 
+increases transaction and governance costs (Gomes 
+and Ramaswamy, 1999). Grant (1987) suggests that 
+'limits to the capacity of managers to cope 
+successfully with greater complexity' may inhibit 
+the indefinite (that is, monotonic) realization of 
+the net positive value of international expansion. 
+Siddharthan and Lall (1982) also suggest that, while 
+firms can achieve economies of scale as a result 
+of FDI, excessive multinationality may lead to 
+increased managerial constraints due to legal 
+barriers, and to physical, cultural, and linguistic 
+distance. Hitt et al. (1990) describe this in terms of 
+loss of strategic control in some overextended 
+companies because of high information costs. In 
+short, taking an 'incremental benefit = incremental 
+cost' approach, beyond some level of multination- 
+ality, 'the coordination required (for multiple 
+transactions among many geographically diverse 
+units) may cost more than the benefits derived 
+from sharing resources and exploiting market 
+opportunities' (Hitt et al., 1997). That is to say, 
+Stage 3 hypothesizes, once again, a negative 
+relationship for the link between performance and 
+multinationality. 
+However, a priori, we do not expect that many 
+firms will be thus over-internationalized: hence a 
+subordinate hypothesis, that Stage 3 will be shorter 
+then Stage 2 (as drawn in Figure 1). 
+But why would even a few firms overextend 
+themselves into the sub-optimal stage 3? 
+The many inverted-U-shaped results from past 
+studies indicated in Table 1 show that at least a 
+few firms stray into a sub-optimal zone for 
+performance. Why? 
+Journal of International Business Studies 
+*d 
+~~~~~P8 
+B 
+P 
+*r- 
+j V 
+I c 
+8 
+Farok 
+I Contractorr 
+et al 
+
+A three-staqe theory of international expansion 
+First, it is difficult for a firm to assess when it is 
+over-internationalized (unless perhaps it under- 
+takes studies such as this one - this is a clear 
+managerial prescription of this paper). But an 
+academic cross-sectional exercise to reveal a firm's 
+position in relation to its competitors, or to a 
+sector, is not something that companies usually 
+undertake. Hence many firms simply do not know 
+when they are overextended. International expan- 
+sion in firms is rarely the result of continuously 
+monitored, paced growth, but is based on discrete 
+choices. 
+Second, some firms may deliberately over-inter- 
+nationalize, for long-term strategy reasons such as 
+market share, or for tapping into knowledge 
+clusters, even though this is detrimental to 
+medium-run performance as measured by ROA, 
+ROS or ROE in the cross-sectional studies shown in 
+Table 1. The long-run strategic value of such 
+deliberate over-internationalization may arguably 
+be reflected in improved stock market value, but 
+only if we believe that stock prices are based on 
+rationality and full information. Moreover, in the 
+studies listed in Table 1, only three were based on 
+stock market value; the rest used indicators such as 
+ROA or ROS. 
+A new international expansion theory: an 
+overall sigmoid (cubic) hypothesis 
+Past studies, as shown in Table 1, have used diverse 
+data sets from a variety of sectors. Those that have 
+found a linear positive slope either have not 
+specified a quadratic term, or may simply be 
+capturing Stage 2 (mid-stage internationalizers) of 
+Figure 1 in their data and results. Studies that show 
+a negatively sloped linear function (see the 
+Appendix table at the end of this paper for an 
+example) may be capturing only Stage 1 (early 
+internationalizers) in Figure 1. Similarly, studies 
+that have found a U-shaped curve may reflect 
+Stages 1 and 2 combined. Finally, several studies 
+shown in Table 1 had an inverted-U-shaped result 
+(which captures Stages 2 and 3 combined) because 
+they merely specified a quadratic function. 
+This paper will specify a cubic regression term to 
+see whether all three stages exist, as empirical fact. 
+Nevertheless, there may be subsectors that are not 
+fully internationalized: if the degree of multi- 
+nationality in a certain subsector is not complete 
+(most companies are in Stages 1 and 2, and few 
+firms have reached their optimal degree of inter- 
+nationalization, or have crossed into Stage 3) then 
+the shape of the statistically fitted curve, despite a 
+Farok j Contractor et al 
+9 
+cubic or sigmoid regression specification, would 
+only be U-shaped. By the same token, in samples 
+that contain mainly mature or highly interna- 
+tionalized companies (Stages 2 and 3) the statisti- 
+cally fitted curve may be an inverted-U-shaped 
+curve, despite a cubic term. 
+But the meta-hypothesis is that all three stages 
+exist, showing: (1) a short negative slope, then (2) a 
+positive slope, and then (3) a short negative slope 
+again, as illustrated in Figure 1. 
+The service sector 
+All the past studies listed in Table 1 are in 
+manufacturing; but services are more important. 
+By 1990 the share of services in GDP had reached 
+61 and 45% for developed and developing coun- 
+tries, respectively (World Bank, 1992). The phe- 
+nomenal growth of service multinationals in the 
+past decade in accountancy, advertising, banking, 
+consultancy, hotels, insurance, legal, telecommu- 
+nications, and other service sectors is not yet 
+reflected in academic studies. 
+Although services are more important than 
+manufacturing, there is little research on the 
+growth and internationalization of service firms. 
+Moreover, services are fundamentally different 
+from manufacture, in terms of relative intangibility, 
+perishability, simultaneity of production and con- 
+sumption, and customization (Boddewyn et al., 
+1986). Not that all service sectors are homoge- 
+neous. As we shall see later in the paper, there are 
+substantial differences among different types of 
+services in terms of capital intensity and knowledge 
+intensity, which produce different results in terms 
+of the link between performance and multination- 
+ality. 
+The data 
+The data were taken from Directory of the World's 
+Largest Service Companies, published by the United 
+Nations Center on Transnational Corporation, and 
+Moody's Investors Service in 1990. (The word 
+'largest' in the title may be misleading in the 
+context of this paper. The service sector is not, and 
+was not, as internationalized as manufacturing, and 
+so even the largest service firms may have a 
+relatively lower degree of multinationality. More- 
+over, some service firms are just beginning their 
+internationalization process. However, a priori, 
+we expect all three stages of the sigmoid hypothesis 
+to be represented in the sample.) The Directory 
+lists over 200 service firms covering 14 service 
+sectors, and contains company demographics 
+Journal of International Business Studies 
+
+A three-stage theory of international expansion 
+Farok j Contractor et al 
+10 
+Table 2 Samples from Directory of Service Companies published by United Nations Centre on Transnational Corporations 
+Number of 
+companies in 
+the directory 
+1. 
+Accounting 
+2. 
+Advertising 
+3. 
+Air transport 
+4. 
+Construction 
+5. 
+Hotel 
+6. 
+Legal services 
+7. 
+Market research 
+8. 
+Publishing 
+9. 
+Rail transport 
+10. 
+Restaurant and fast food chains 
+11. 
+Retail trade 
+12. 
+Securities and diversified financial services 
+13. 
+Shipping and trucking 
+14. 
+Wholesale trade 
+Total 
+No complete data on international 
+operations. 
+15 
+15 
+15 
+16 
+14 
+17 
+9 
+16 
+13 
+15 
+15 
+15 
+14 
+15 
+204 
+Table 3 Subsamples involved in this study: knowledge based vs 
+capital based 
+Knowledge-based service sectors 
+Accounting 
+Advertising 
+Legal services 
+Market research 
+Publishing 
+Securities and diversified financial services 
+Total subsectors used in regression analysis 
+Total companies used in regression analysis 
+Total observations 
+Capital-based service sectors 
+Air transport 
+Construction 
+Hotels 
+Rail transport 
+Restaurant and fast food chains 
+Retail trade 
+Wholesale trade 
+Shipping and trucking 
+Total subsectors used in regression analysis 
+Total companies used in regression analysis 
+Total observations 
+Oa 
+10 
+Oa 
+6 
+16 
+11 
+4 
+43 
+254 
+11 
+12 
+7 
+Oa 
+3 
+6 
+11 
+10 
+7 
+60 
+364 
+aSubsector eliminated because of lack of information on international 
+operations. 
+and financial data for the period 1983-1988. 
+For each service sector, a summary covers its market 
+size and structure. Of the companies in this 
+Percentage of 
+U. S.-based 
+companies 
+60 
+53 
+47 
+38 
+71 
+47 
+67 
+56 
+38 
+100 
+60 
+47 
+43 
+13 
+52 
+Number of 
+companies involved 
+in study 
+Oa 
+10 
+11 
+12 
+7 
+oa 
+6 
+16 
+Oa 
+3 
+6 
+11 
+10 
+11 
+103 
+Percentage of 
+U.S.-based 
+companies 
+0 
+50 
+45 
+17 
+57 
+0 
+50 
+56 
+0 
+100 
+50 
+55 
+30 
+0 
+42 
+directory, 52% were headquartered in the United 
+States. In half of the 14 sectors, more than 50% 
+were US-based - ranging from 100% in the 
+restaurant and fast food sector to less than 13% in 
+wholesale trade, as seen in Tables 2 and 3. Hitt et al. 
+(1994) suggest differences in a MNE's abilities, 
+'...depending on their home country or area or 
+cultural circumstance...' To test this, a dummy 
+variable will be introduced for the home country. 
+Since complete data were lacking in some sectors 
+such as accounting, legal services, and rail trans- 
+portation, these had to be eliminated from the 
+study, and the final sample consisted of 11 service 
+sectors. Not all companies disclosed complete 
+information on their foreign operations, and so 
+they were removed from the final sample. The final 
+number of firms therefore amounted to 103 out of 
+204 listed. Of the total sample of companies, 42% 
+were headquartered in the US. 
+Why one should distinguish between service 
+subsectors? 
+All subsectors are not the same, either in manu- 
+facturing or in services. In their defining work on 
+services, Boddewyn et al. (1986) recognized that, 
+within the rubric of 'services', there can be 
+substantial differences in attributes such as intang- 
+ibility, perishability, and simultaneity. Recent work 
+examining the relationship between performance 
+and multinationality has introduced 'moderating' 
+variables that distinguish between types of firm. 
+Journal of International Business Studies 
+I~~~~~ 
+
+A 
+he-stacie 
+I---------- - -- 
+thor 
+o itenaioa 
+exanio 
+Farok.-1 I Contracto et al 
+Kotabe et al. (2002) show that the ability to extract 
+performance benefits, from the same level of 
+multinationality, '...will vary... based on their 
+capability to maximize the gains of multination- 
+ality while minimizing the relevant costs of 
+expansion.' They distinguish between their sample 
+firms based on R&D and marketing intensity. By 
+contrast, the present study distinguishes between 
+capital-intensive service sectors and knowledge- 
+based service sectors, which are more driven by 
+intangible assets and have a much lower fixed 
+capital cost burden. 
+The 11 service sectors in Table 2 are divided 
+into two groups. Knowledge-based service sectors 
+include advertising, marketing research, publish- 
+ing, securities, and diversified financial services; 
+capital-intensive service sectors include air transporta- 
+tion, construction, hotel, restaurant and fast 
+food chains, wholesale trade, retail trade, and 
+shipping and trucking. International expansion 
+strategy also varies across the two subsamples. 
+In knowledge-based service sectors, from the 
+1980s on, international expansion tended to 
+be driven by a 'follow-the-client' strategy, as 
+advertising, financial services and market research 
+companies followed their multinational clients 
+abroad. We hypothesize that barriers to inter- 
+nationalization (in Stage 1 of Figure 1) will be 
+less onerous for knowledge-based sectors than it 
+will be for opposed to capital-intensive sectors. 
+Hence knowledge-intensive service sectors will 
+be able to reach the Stage 2 (positive slope) 
+advantages of internationalization more quickly 
+than capital-intensive sectors will. In a cross- 
+sectional analysis such as this, this would be 
+inferred from the relative extent, or length, of 
+the negative slope of Stage 1 of the sigmoid curves 
+for knowledge-based and capital-intensive sub- 
+samples. 
+Methodology 
+The methodology involves pooled cross-section/ 
+time-series analysis in a cross-sectionally hetero- 
+skedastic, time-wise autoregressive model. This 
+enables researchers to examine variations among 
+cross-sectional units simultaneously with variations 
+within individual units over time (Sayrs, 1989; 
+Hsiao, 1995). It assumes that regression parameters 
+do not change over time (temporal stability) and do 
+not differ between various cross-sectional units 
+(cross-sectional stability). This technique enhances 
+the reliability of the coefficient estimates. 
+11 
+Even assuming that explanatory variables are 
+nonstochastic, a problem may exist when combin- 
+ing the two sets of data, such as nonconstant error 
+variance arising from between-subject differences 
+(Neter et al., 1990). Nerlove (1971) pointed out that 
+autocorrelated errors are frequently encountered, 
+when dealing with time-series analysis, because of 
+correlations among variables over time. 
+To minimize autocorrelation and heteroskedasti- 
+city problems, the Kmenta (1986) autoregressive- 
+heteroskedastic model will be used, as seen in 
+Boeker and Goodstein (1991), Hill and Phan (1991), 
+and Gomes and Ramaswamy (1999). The assump- 
+tion of a generalized linear regression model in a 
+two-stage generalized least squares regression 
+allows for nonconstant variance and corrects for 
+autocorrelation. Thus this study need not make the 
+restrictive assumption of equal variance among 
+individual service company data. 
+Models and operationalization: building on 
+previous studies 
+Grant (1987) identified two types of study on the 
+link between performance and multinationality. 
+The first type investigated whether or not multi- 
+national corporations outperformed their domestic 
+rivals, an issue treated by Vernon (1971), Horst 
+(1972), Shaked (1986), and Collins (1990). The 
+second type compared only international compa- 
+nies based on some index such as the extent or 
+degree of the firm's internationalization. 
+The degree of multinationality has been mea- 
+sured in terms of ratios of foreign to total sales 
+(Grant et al., 1988; Geringer et al., 1989); or of 
+foreign to total assets (Ramaswamy, 1993); or of 
+employees in foreign locations to total employees 
+(Kim et al., 1989). Such financial measures tend to 
+capture the 'depth' of internationalization. 
+Other studies index the scope or 'breadth' of 
+internationalization by examining the number or 
+geographical dispersion of operations across coun- 
+tries (Kogut, 1985). Ramaswamy (1993) measured 
+multinationality in terms of the number of overseas 
+plants, and found a significant positive relationship 
+to performance. Shaked (1986) defined multina- 
+tional corporations as having 20% of sales outside 
+the home country and direct investment in at least 
+six countries. 
+The use of a unidimensional measure of inter- 
+nationalization listed in the above studies has been 
+criticized, and some have called for a multidimen- 
+sional construct (Sullivan, 1994a, b). However, little 
+Journal of International Business Studies 
+Farok J Contractor et al 
+A three-staqe 
+theory of international 
+expansion 
+
+* 
+12 
+A three-staae 
+theory of international 
+exnansion 
+empirical support was found for a multidimen- 
+sional measure in Ramaswamy et al. (1996). 
+As seen from the above, there is no standard 
+approach for measuring the degree of multination- 
+ality. For this study, we constructed a composite 
+index for the degree of internationalization and 
+used a sigmoid, or cubic regression model, 
+PERFit - o + 
+liSIZEit + p2DOit 
++ /3(DOit)2 
++ P4 X (DOIit)3 + 2-4+mIm 
++ f4+max(m)+lC1 
++ 8it 
+with first-, second- and third-order terms for DOI, 
+the degree of internationalization. 
+Table 4 lists and defines the operationalization of 
+all variables. 
+Farok I Contractor et al 
+Variables 
+Dependent variables 
+Similarly to previous studies listed in Table 1, the 
+financial performance measures chosen were: 
+(1) ROS, return on global total sales: avoids the 
+effects of different asset valuations resulting 
+from the timing of investment or depreciation 
+(Geringer et al., 1989). 
+(2) ROA, return on assets: has been widely used in 
+many previous studies of the relationship 
+between degree of internationalization and 
+performance (Daniels and Bracker, 1989; 
+Haar, 1989; Ramaswamy, 1995; Gomes and 
+Ramaswamy, 1999). 
+Table 4 Descriptions of variables in this study 
+PERF 
+Firm size 
+DOI 
+FSTS 
+FETE 
+FOTO 
+(DOI)2 and (DOI)3 
+Im 
+m 
+t 
+8it 
+Financial performance variable (ROS, ROA) 
+Natural logarithm of total employees 
+Index for degree of internationalization, the sum of eigenvector-weighted FSTS, FETE, and FOTO. Hence DOI 
+has a theoretical range from 0 to 3. (This is a similar approach to several studies in the performance- 
+multinationality literature listed in Table 1.) 
+Foreign sales/total sales 
+Number of foreign employees/total number of employees 
+Number of foreign offices/total number of offices 
+Quadratic and cubic terms, respectively 
+Set of dummy variables to control subsector effects 
+=1, 2,...,5 
+for knowledge-based 
+service sector 
+=1, 2,...,4 
+for capital-intensive service sector 
+Represents the companies in the study (cross-sectional component) 
+Corresponds to the different years (time-series component) 
+Error term 
+Knowledge-based 
+service subsectors 
+(four subsectors) 
+Industry dummies 
+Using the publishing sector as the baseline variable, to reach lowest 
+Cronbach's alphas 
+1 = Advertising 
+1 = Market research 
+1= Securities and financial service 
+Capital-based 
+service subsectors 
+(seven subsectors) 
+Industry dummies 
+/1 
+/2 
+/3 
+14 
+/5 
+/6 
+Home country effect 
+C1 
+Using the shipping and trucking sector as the baseline variable, to reach lowest 
+Cronbachs alphas 
+1 =Air transportation 
+1 = Construction 
+1 = Hotels 
+1 = Restaurant and fast food chains 
+1 = Retail trade 
+1 == Wholesale trade 
+Control for U.S.-based vs non-U.S.-based home nation 
+1 = U.S.-based 
+Journal of International Business Studies 
+/1 
+/2 
+13 
+
+A three-stage theory of international expansion 
+Independent variables 
+The principal explanatory variable is the degree 
+of internationalization (DOI), a three-component 
+index for the degree of internationalization as 
+suggested by Sullivan (1994a, b). DOI is the 
+eigenvector-weighted 
+sum 
+of 
+FSTS (foreign 
+sales/total sales), FETE (number of foreign employ- 
+ees/number of total employees), and FOTO 
+(number of foreign offices/number of total offices). 
+A principal component analysis is applied to test 
+whether all three dimensions are loaded on one 
+single component, and then the component 
+eigenvectors are treated as weights in deriving the 
+combined DOI index (Gomes and Ramaswamy, 
+1999). 
+Control variables 
+Several studies have used additional control variables 
+(such as research and development intensity, firm 
+size, sector effect) to further investigate the relation- 
+ship between multinationality and performance. 
+These include the works of Buckley et al. (1977, 
+1984), Siddharthan and Lall (1982), Kumar (1984), 
+Grant (1987), Daniels and Bracker (1989), Morck 
+and Yeung (1991), Al-Obaidan and Scully (1995), 
+Ramaswamy (1995), Tallman and Li (1996), Gomes 
+and Ramaswamy (1999), and Kotabe et al. (2002). 
+Control variables used here, which are hypothe- 
+sized to affect firm performance, are firm size, 
+sector effect, and home country effect. Firm size, a 
+common variable related to firm performance, was 
+measured by the natural logarithm of total employ- 
+ees and used to control for economies and 
+diseconomies of scale at the corporate level. Log 
+transformation not only makes the results easy to 
+interpret, because the changes in the logarithm 
+domain represent relative (percentage) changes in 
+the original metric; it also makes the distribution of 
+data closer to normality. 
+Subsector effects have been confirmed by many 
+prior researchers, and we segment the sample into 
+knowledge-based and capital-intensive service sec- 
+tors with dummy variables, as shown in Tables 2 
+and 3. To maximize the heterogeneity across the 
+sector dummy variables, careful consideration has 
+been given to the selection of sectors for regression 
+analysis. The final testable sample includes compa- 
+nies from more than 10 different home countries. 
+Outliers and the range of DOI 
+DOI is an index for internationalization that has a 
+theoretical range from 0 to 3. As it turned out, in 
+the sample, almost all DOI values were at or below 
+Farok j Contractor et al 
+13 
+1.0. The very few outliers (amounting to 1.95% of 
+observations) with DOI>1.0 were removed from 
+the sample, as they could distort the results. The 
+total number of observations, N, was only reduced 
+from 618 to 606. 
+Results 
+Correlation data provided a first check on multi- 
+collinearity. Intercorrelations among the full set of 
+predictor variables were sufficiently low to preclude 
+the generation of unstable beta coefficients in 
+regression analysis. 
+Initially, both ROS and ROA were tried in the 
+regressions as dependent variables. However, the 
+results from both are similar, and there is a 
+moderate degree of collinearity between ROS and 
+ROA. Hence it is worth showing only ROS as 
+dependent variable. For all runs, a quadratic 
+equation [(DOI)2] as well as a cubic equation 
+[(DOI)2 with (DOI)3] was tried, the latter to test 
+the sigmoid or S-shaped overall hypothesis. 
+Table 5 shows results for all 11 service sectors 
+combined, even though there are a priori reasons 
+(described above) for believing that the character- 
+istics of knowledge-based and capital-intensive sub- 
+sectors will be different. Table 6 shows results for just 
+the capital-intensive subsectors, and Table 7 shows 
+results for just the knowledge-based subsectors. 
+As multinationality can explain only a part of the 
+financial performance of multinational companies, 
+low adjusted R2s were expected. In the event, 
+reasonably high adjusted R2s were realized, from 
+0.20 to 0.41 (see Tables 5-7). All models are strongly 
+significant, with high F-values. 
+Comparisons of F-values and adjusted R2s in- 
+dicate that results generally improved when the 
+cubic variable (DOI)3 was added to the quadratic 
+specification. This confirms that the cubic term is 
+not only significant in itself, but also adds to the 
+overall results. 
+Results for the home-country dummy (a positive 
+coefficient for C1 in all significant values) confirm 
+that service multinationals based in the U.S. are 
+better able to reap the net positive benefits of 
+internationalization than non-U.S. firms. This 
+possibly reflects the fact that the expansion of the 
+service sector was earlier, and more advanced, in 
+the US than in most other nations. 
+Figures 2 and 3 show the fitted regression curves 
+(quadratic and cubic) generated by the SPSS 
+statistical program, corresponding to Tables 6 and 
+7, for the capital-intensive and knowledge-based 
+sectors, respectively. 
+Journal of International Business Studies 
+
+A three-stage theory of international expansion 
+Farok J Contractor et al 
+Table 5 All se 
+based) 
+ROS vs: 
+Intercept 
+Firm size 
+DOI index 
+(DOI index)2 
+(DOI index)3 
+I1 
+12 
+/3 
+14 
+15 
+16 
+/7 
+/8 
+19 
+/10 
+C, 
+Adjusted R2 
+F-value 
+Number of 
+observations, N 
+rvice sectors (capital-intensive and knowledge- 
+Table 6 
+Capital-intensive service sectors 
+ROS vs: 
+Model A 
+(square) 
+0.0009 
+0.122** 
+-0.426** 
+0.803*** 
+-0.160*** 
+-0.078 
+0.282*** 
+-0.166*** 
+0.025 
+0.031 
+-0.394*** 
+-0.287*** 
+-0.066 
+-0.280*** 
+0.126*** 
+23.9% 
+14.566*** 
+606 
+Model A2 
+(cubic) 
+-0.0052 
+0.103** 
+0.907*** 
+-2.823*** 
+2.364*** 
+-0.210** 
+-0.111** 
+0.561 ** 
+-0.1 74*** 
+0.026 
+-0.052 
+-0.395*** 
+-0.270*** 
+-0.083* 
+-0.293*** 
+0.110*** 
+27.4% 
+16.196*** 
+606 
+Firm size: logarithm of total employees; DOI index: index of degree of 
+internationalization; (DOI index)2: Square item; (DOI Index)3: Cubic 
+item; 1,: sector effect (dummy, 1 = advertising, 0 = otherwise); 12: sector 
+effect (dummy, 1 = market research, 0 =otherwise); /3: sector effect 
+(dummy, 1 =securities and financial services, 0=otherwise); /4: sector 
+effect (dummy, 1 = publishing, 0 = otherwise); /5: sector effect (dummy, 
+1 = air transport, 0 = otherwise); 
+/6: 
+sector 
+effect 
+(dummy, 
+1 =construction, 0 =otherwise); 17: sector effect (dummy, 1= hotel, 
+0 =otherwise); /8: sector effect (dummy, 1 = restaurant and fast food 
+chains, 0 =otherwise); /9: sector effect (dummy, 1 =retail trade, 
+0 = otherwise); /o: sector effect (dummy, 1 = wholesale, 0 = otherwise); 
+C1: home country effect (dummy, 1 =U.S.-based, 0 =otherwise). 
+***P<0.01; **P<0.05; *P<0.1; all two-tailed tests. Eleven sectors are 
+included (shipping and trucking serves as the baseline sector for dummy 
+effect). 
+The quadratic (squared) models show a U-shaped 
+relationship between performance and multi- 
+nationality for the entire sample and for the 
+capital-intensive subsample. An initial decline in 
+performance (based on Stage 1 costs and barriers to 
+initial internationalization) is followed by a sub- 
+sequent improvement in performance. For knowl- 
+edge-based sectors, the first-order and second-order 
+terms in Model K1 (Table 7) are positive, but the 
+first-order coefficient is small. The quadratic plot in 
+Figure 3 shows that, after an initially almost flat 
+portion of the curve, ROS picks up positively for 
+knowledge-based sectors. 
+The cubic models conform to the sigmoid 
+hypothesis (showing all three stages of Figure 1) only 
+for the knowledge-based subsectors (in Table 7). 
+Indeed, for the capital-intensive sample and total 
+Model C1 
+(square) 
+Intercept 
+Firm size 
+DOI index 
+(DOI index)2 
+(DOI index)3 
+11 
+12 
+/3 
+14 
+/5 
+/6 
+C1 
+Adjusted R2 
+F-value 
+Number of 
+observations, N 
+-0.073 
+0.180*** 
+-0.739*** 
+1.093*** 
+-0.220** 
+-0.057 
+0.112 
+-0.085 
+-0.063 
+0.268** 
+0.098 
+20.2% 
+8.843*** 
+364 
+Model C2 
+(cubic) 
+-0.160*** 
+0.201 ** 
+2.131** 
+-6.094*** 
+4.466*** 
+-0.174* 
+0.010 
+0.120 
+0.011 
+0.024 
+0.232** 
+0.104* 
+30.5% 
+13.394*** 
+364 
+Firm size: logarithm of total employees; DOI index: index of degree of 
+internationalization; (DOI index)2: square item; (DOI index)3: cubic item; 
+IT: sector effect (dummy, 1 = air transport, 0 = otherwise); 12: sector effect 
+(dummy, 1 =construction, 0 =otherwise); /3: sector effect (dummy, 
+1 = hotels, 0 =otherwise); 14: sector effect (dummy, 1 = restaurant and 
+fast food chains, 0 = otherwise); /5: sector effect (dummy, 1 = retail trade, 
+0 = otherwise); l6: sector effect (dummy, 1 = wholesale, 0 =otherwise); 
+C1: home country effect (dummy, 1 =U.S.-based, 0 =otherwise). 
+***P<0.01; **P<0.05; *P<0.1; all two-tailed tests. Seven sectors are 
+included (shipping and trucking serves as the baseline sector for dummy 
+effect). 
+sample the signs of the coefficients for DOI are 
+opposite to those expected. However, looking at 
+Figure 2 for the capital-intensive subsectors (the 
+total-sample plot is similar) we see that ROS is almost 
+flat between DOI = 0 and DOI =0.6, after which it 
+increases quickly with a positive slope. 
+It is only in the knowledge-based subsectors 
+(Figure 3) that, with DOI > 0.7, performance or 
+ROS actually declines, confirming the expectations 
+of the sigmoid theory's Stage 3 (as seen in Figure 1). 
+Discussion 
+Why are knowledge-based service companies dif- 
+ferent from capital-intensive firms? First, compar- 
+ing Figures 2 and 3, we find that knowledge-based 
+sectors reap the positive (Stage 2) benefits of 
+internationalization earlier (that is at a lower 
+DOI). Second, knowledge-based sectors 'over-inter- 
+nationalize,' reaching the suboptimal Stage 3, 
+whereas capital-intensive sectors do not. 
+In the update of their internationalization theory 
+Johanson and Vahlne (1990) explicitly recognize 
+that the business context is an important explana- 
+tion for the different rates at which and extent to 
+Journal of International Business Studies 
+*t 
+14 
+
+A three-stage theory of international expansion 
+Farok I Contractor et al 
+Table 7 Knowledge-based service sectors 
+ROS vs: 
+Model K1 
+(square) 
+Intercept 
+Firm size 
+DOI index 
+(DOI index)2 
+(DOI index)3 
+/1 
+12 
+13 
+C1 
+Adjusted R2 
+F-value 
+Number of 
+observations, N 
+0.1 76*** 
+-0.224** 
+0.104 
+0.359** 
+-0.522*** 
+-0.463*** 
+-0.111* 
+0.004 
+36.5% 
+21.652*** 
+242 
+Model K2 
+(cubic) 
+0.168*** 
+-0.1 75** 
+-0.774*** 
+3.374*** 
+-2.226*** 
+-0.436*** 
+-0.392*** 
+-0.116* 
+-0.004 
+41.2% 
+23.042*** 
+242 
+Firm size: logarithm of total employees; DOI index: index of degree of 
+internationalization; (DOI index)2: square item; (DOI index)3: cubic item; 
+/I: sector effect (dummy, 1 = advertising, 0 = otherwise); 12: sector effect 
+(dummy, 1 = market research, 0 = otherwise); /3: sector effect (dummy, 
+1= securities and financial services, 0 = otherwise); C1: home country 
+effect (dummy, 1 =U.S.-based, 0=otherwise). ***P<0.01; **P<0.05; 
+*P<0.1; all two-tailed tests. Four sectors are included (publishing serves 
+as the baseline sector in the regression for dummy effect). 
+0 (T 
+0.8 - 
+Quadratic 
+0.6- 
+n 
+Cubic 
+M odel 
+C2 
+0.4- 
+0.2 
+0.0- 
+-0.2 
+, 
+Figure 2 
+F 
+which diffe 
+as Erramil 
+relationshil 
+possess in I 
+Erramilli's c 
+0.5 
+0.4- 
+) 03' 
+0 
+2 
+0.2- 
+0.1- 
+0.0- 
+-0.1 ., 
+Figure 3 
+sectors. 
+:: Quadratic 
+[ 
+Cubic 
+Model 
+K1 
+>- 
+: 
+h~Model 
+.. ..... - 
+K 2 
+0 
+0.2 
+0-4 
+0o6 
+0.8 
+1 0 
+DOI 
+Fitted curve of ROS vs DOI: knowledge-based 
+(ROS) of internationalization faster than capital- 
+intensive sectors: 
+(1) They have a lower burden of tangible asset 
+investment. Petersen and Pedersen (1998) 
+describe this in terms of a lower risk of 
+committing 'irreversible resources' to each 
+foreign market. 
+(2) They have clients already established abroad. 
+(3) They possibly have a greater global standardi- 
+zation, which lowers the cost per foreign 
+entry, and enables the net benefits of foreign 
+expansion to be reaped sooner. 
+We can see this by comparing Figures 2 and 3. 
+.. - de. 
+Knowledge-based subsectors (Figure 3) show the net 
+-... . 
+- .. 
+gains of internationalization (positive slope of ROS 
+vs DOI) as early as DOI =0.17. By contrast, in 
+Figure 2, the slope is not positive until DOI = 0.55 
+0 
+02 
+0.4 
+0.6 
+0.8 
+I 0 
+DOI 
+(ignoring 
+the very slight initial rise between 
+DOI=0 and DOI=0.15). One can even draw the 
+itted curve of ROS vs DOI: capital-intensive sectors. 
+same conclusion by comparing the quadratic plots: 
+knowledge-based subsectors reap the net positive 
+rent firms internationalize. They, as well 
+benefits of international expansion sooner. (Possi- 
+[li (1987), discuss existing network 
+bly, this is also because the larger capital invest- 
+ps and the advantages that some firms 
+ments required in aircraft, construction, shipping, 
+being able to 'follow the client' abroad. 
+hotels, restaurants, etc. require a larger global scale 
+lissertation distinguished between client- 
+before the net benefits of expansion are realized.) 
+following and market-seeking service multinationals. 
+In knowledge-based service sectors, from the 1980s 
+on, international expansion tended to be driven 
+by a 'follow the client' strategy, as advertising, 
+financial services and market research companies 
+followed their multinational clients abroad. 
+Stages 1 and 2 of hypothesis 
+Thus knowledge-based services possess three 
+advantages that enable them to reap the advantages 
+Stage 3 of hypothesis 
+In comparing Figures 2 and 3, we find that only the 
+knowledge-based subsectors show a downturn in 
+performance (after approximately DOI > 0.7). For 
+capital-intensive subsectors the slope remains 
+positive. The capital-intensive subsample (Figure 2) 
+comprises firms that conform to Stages 1 and 2 of 
+the hypothesis proposed in Figure 1 - but this 
+subsample does not contain overly internationa- 
+Journal of International Business Studies 
+* 
+15 
+I. In 
+. 
+
+A three-sctann 
+theorv 
+nf 
+internatinnnl 
+exnancinn 
+lized Stage 3 multinationals that have expanded 
+beyond their optimum point. 
+For capital-intensive service sectors (air transport, 
+construction, hotels, restaurants, retail trade, 
+wholesale, and shipping and trucking) the fixed 
+asset risk and capital cost is much higher. Conse- 
+quently, such sectors are likely to be more cautious 
+in their international expansion and less likely to 
+stray into Stage 3 (suboptimal zone for perfor- 
+mance). This is only an ex post hypothesis. 
+By contrast, knowledge-based firms (advertising, 
+market research, securities and diversified financial 
+services, and publishing) can more easily 'over- 
+expand' into the suboptimal Stage 3 (as seen in 
+Figure 3 and in the negative sign cubic term in 
+Table 7). Petersen et al. (2002), discussing similar 
+new-economy firms, describe this as 'rash foreign 
+market expansion' that leads to poor performance. 
+To recapitulate the earlier discussion: it is unlikely 
+that most firms would deliberately over-expand. Few 
+companies possess the managerial tools (such as 
+regression plotting of firms in a sector) that would 
+tell them when they have over-internationalized. 
+Hence, in a given cross-sectional analysis, some 
+fraction of firms may be expected to have 
+inadvertently strayed into the suboptimal Stage 3. 
+Clearly, our results confirm that it is only a small 
+fraction of firms that are in Stage 3; there are none 
+in the capital-intensive subsectors (Figure 2) and 
+relatively few in the knowledge-based subsectors 
+(Figure 3). 
+This confirms the subordinate hypothesis that 
+most companies will be found in a zone (Stage 2) 
+where there is a positive relationship between 
+performance and multinationality - and there will 
+be relatively few in Stages 1 and 3. 
+Conclusions and summary: a unified 
+three-stage theory of international 
+expansion 
+The bedrock assumption of international business 
+studies, that greater multinationality augments the 
+performance of firms (Stage 2), is reinforced in this 
+study, but with two additional qualifications: 
+(1) At an early stage (Stage 1) of internationaliza- 
+tion there may be a diminution in perfor- 
+mance because of the initial learning costs, 
+cultural and foreign market inexperience, an 
+insufficient scale of global operations, and, in 
+general, the liability of foreignness. 
+(2) Some firms, in some sectors, may 'over- 
+internationalize' by expanding into too many 
+nations (Stage 3) and again suffer a net (or 
+incremental) negative effect on performance, 
+because their final expansion is into periph- 
+eral or small markets, and because coordina- 
+tion and governance costs increase faster than 
+incremental revenues from further expansion. 
+Earlier literature showing U-shaped or inverted- 
+U-shaped results had hinted at the existence of 
+these three stages. This paper, for the first time, 
+integrates these into a unified three-stage theory, as 
+illustrated in Figure 1. 
+The empirical results broadly (although not 
+completely) validate this idea. The knowledge- 
+based service subsectors do conform to all three 
+stages of the theory (as illustrated in Figure 3). 
+Capital-intensive subsectors (as seen in Figure 2), 
+however, exhibit only Stages 1 and 2. Moreover, for 
+this subsector, significant net benefits of inter- 
+nationalization were not seen until much later in 
+the internationalization process (compared with 
+knowledge-based subsectors), possibly because air- 
+craft, construction, shipping, hotels, restaurants, 
+etc. require a larger global scale of operations before 
+net benefits are realized. 
+By the same token, knowledge-based subsector 
+firms, having less of a tangible capital assets 
+burden, and moreover enjoying a 'follow the client' 
+advantage, can reap the benefits of international 
+expansion faster than capital-intensive subsectors 
+can. 
+Stage 3 (the suboptimal zone resulting from over- 
+internationalization), however, is relatively short in 
+Figure 3, confirming the hypothesis that few 
+companies stray into a suboptimal strategy. 
+The Hitt et al. (1994) hypothesis that the home 
+country of the multinational can explain differ- 
+ences in performance, ceteris paribus, is confirmed 
+in the positive sign for the U.S. dummy. Because the 
+growth of the service sector was earlier and most 
+extensive in the U.S. (compared with other 
+nations), U.S.-based firms enjoyed a performance 
+advantage in the time frame of the analysis. 
+Managerial implications 
+If managers were more explicitly conscious of the 
+(temporarily) negative aspects of early internatio- 
+nalization (Stage 1) they could take ameliorative 
+steps to 
+lower the 
+costs 
+of initial 
+inter- 
+national expansion. By the same token, in highly 
+internationalized 
+companies, 
+if a firm was 
+aware that it was reaching a limit to optimal 
+performance growth, it might restrain further 
+Journal of International Business Studies 
+*} 
+~~~~~LP 
+. 
+L 
+LIV 
+I . 
+i 
+ll 
+,16 
+V 
+UVI 
+a 
+16 
+FaIrr I Crrntrartor 
+et a 
+
+A three-stage theory of international expansion 
+expansion. But how is a company to know? One 
+possibility is for the company to conduct econo- 
+metric analyses like this one, on a cross-section 
+of firms in their sector, to find the 'trend line' 
+as in Figures 2 and 3, and compare their company's 
+position against the regression mean. This kind 
+of analysis can easily be performed in the econom- 
+References 
+AI-Obaidan, A.M. and Scully, G.W. (1995) 'The theory and 
+measurement of the net benefits of internationalization: the 
+case of the international petroleum sector', Applied Economics 
+27(2): 231-239. 
+Annavarjula, M. and Beldona, S. (2000) 'Multinationality- 
+performance relationship: a review and reconceptualization', 
+International Journal of Organizational Analysis 8(1): 48-67. 
+Boddewyn, J.J., Halbrich, M.B. and Perry, A.C. (1986) 
+'Service multinationals: conceptualisation, measurement 
+and theory', journal of International Business Studies 17(3): 
+41-57. 
+Boeker, W. and Goodstein, J. (1991) 'Organizational perfor- 
+mance and adaptation: effects of environment and 
+performance on changes in board composition', Academic 
+Management Journal 34(4): 805-826. 
+Brewer, H.L. (1981) 'Investor benefits from corporate interna- 
+tional diversification', Journal of Financial and Quantitative 
+Analysis 16: 113-126. 
+Buckley, P.J., Dunning, J.H. and Pearce, R.B. (1977) 'The 
+influence of firm size, sector, nationality, and degree 
+of multinationality in the growth and profitability of 
+the world's largest firms', Weltwirtschaftliches Archiv 114: 
+243-257. 
+Buckley, P.j., Dunning, J.H. and Pearce, R.B. (1984) 'An analysis 
+of the growth and profitability of the worlds largest firms 1972 
+to 1977', Kyklos 37: 3-26. 
+Collins, J.M. (1990) 'A market performance comparison of US 
+firms active in domestic, developed and developing countries', 
+Journal of International Business Studies 2: 271-287. 
+Contractor, F.J. (2002) 'International expansion strategies', 
+in International Encyclopaedia of Business and Manage- 
+ment, International Thomson Business Press: London, 
+(forthcoming). 
+Daniels, J.D. and Bracker, J. (1989) 'Profit performance: do 
+foreign operations make a difference? Management Interna- 
+tional Review 29(1): 46-56. 
+Dunning, J.H. (1993) Multinational Enterprises and the Global 
+Economy, Addison-Wesley: Wokingham. 
+Erramilli, M.K. (1987) 'Understanding the foreign market entry 
+mode choice in service firms: an exploratory study', Ph.D. 
+dissertation, University of Arkansas, UMI Dissertation Informa- 
+tion Services: Ann Arbor. 
+Errunza, V.R. and Senbet, L.W. (1981) 'The effect of interna- 
+tional operations on the market value of the firm: theory and 
+evidence', Journal of Finance 36: 401-41 7. 
+Galbraith, J.R. and Kazanjian, R. (1986) Strategy Implementation, 
+West Publishing: St Paul. 
+Geringer, J.M., Beamish, P.W. and daCosta, R.C. (1989) 
+'Diversification strategy and internationalization: implications 
+for MNE Performance', Strategic Management Journal 10(2): 
+109-119. 
+Gomes, L.K. and Ramaswamy, K. (1999) 'An empirical 
+examination of the form of the relationship between multi- 
+nationality and performance', Journal of International Business 
+Studies 30(1): 1 73-188. 
+Farok j Contractor et al 
+17 
+ics or strategy departments of large multinationals. 
+Companies lacking such analytical skills can 
+outsource the analysis to consultants. Even if 
+an econometric analysis were not done, at least 
+the awareness of the dangers of over-expansion 
+could prove to be a useful restraint in some 
+firms. 
+Gongming, Q. (1998) 'Determinants of profit performance for 
+the largest US firms 1981-92', Multinational Business Review 
+6(2): 44-51. 
+Grant, R.M. (1987) 'Multinationality and performance among 
+British manufacturing companies', Journal of International 
+Business Studies 18(1): 79-89. 
+Grant, R.M., Jammine, A.P. and Thomas, H. (1988) 'Diversity, 
+diversification and profitability among British manufacturing 
+companies, 1972-1984', Academy Management Journal 31: 
+771-801. 
+Haar, J. (1989) 'A comparative analysis of the profitability 
+performance of the largest US, European, and Japanese 
+Multinational Enterprises', Management International Review 
+29(3): 5-19. 
+Han, K., Lee, S. and Suk, D. (1998) 'Multinationality and firm 
+performance', Multinational Business Review 6(2): 63-70. 
+Hill, C.W. and Phan, P. (1991) 'CEO tenure as a determinant of 
+CEO pay', Academy Management journal 34(3): 707-717. 
+Hitt, M., Hoskisson, R. and Ireland, R. (1990) 'Mergers and 
+acquisitions and managerial commitment to innovation in 
+M-form firms', Strategic Management Journal 11: 29-47. 
+Hitt, M., Hoskisson, R. and Ireland, R. (1994) 'A mid-range 
+theory of the interactive effects of international and product 
+diversification on innovation and performance', Journal 
+of Management 20(2): 297-327. 
+Hitt, M., Hoskisson, R. and Kim, H. (1997) 'International 
+diversification: effects on innovation and firm performance in 
+product-diversified firms', Academy Management Journal 
+40(4): 767-798. 
+Horst, T. (1972) 'Firm and industry determinants of the decision 
+to invest abroad: an empirical study', Reviews of Economic 
+Statistics 54: 258-266. 
+Hsiao, C. (1995) 'Panel analysis for metric data', in G. Arminger, 
+C.C. Clogg and M.E. Sobel (eds.) Handbook of Statistical 
+Modeling for the Social and Behavior Sciences, Plenum Press: 
+New York. 
+Johanson, J. and Vahlne, J.-E. (1977) 'The internationalization 
+process of the firm: a model of knowledge development and 
+increasing foreign market commitments', Journal of Interna- 
+tional Business Studies 8(1): 23-32. 
+Johanson, J. and Vahlne, J.-E. (1990) 'The mechanism of 
+internationalization', International Market Review 7(4): 1-24. 
+jung, Y. (1991) 'Multinationality and profitability', Journal of 
+Business Research 23: 1 79-1 87. 
+Kim, W.C., Hwang, P. and Burgers, W.P. (1989) 'Global 
+diversification strategy and corporate profit performance', 
+Strategic Management Journal 10(1): 45-57. 
+Kim, W.S. and Lyn, E.O. (1987) 'Foreign direct investment 
+theories, entry barriers, and reverse investments in US 
+manufacturing industries', Journal of International Business 
+Studies 18(2): 53-67. 
+Kmenta, j. (1986) Elements of Econometrics, Macmillan: New 
+York. 
+Kobrin, S.J. (1991) 'An empirical analysis of the determinants of 
+global integration', Strategic Management Journal 12: 17-37. 
+Journal of International Business Studies 
+
+*I 
+18 
+A three-stage theory of international expansion 
+Kogut, B. (1985) 
+'Designing global strategies: profiting 
+from operational flexibility', Sloan Management Review 26: 
+27-38. 
+Kotabe, M., Srinivasan, S.S. and Aulakh, P.S. (2002) 'Multi- 
+nationality and firm performance: the moderating role of R&D 
+and marketing capabilities', Journal of International Business 
+Studies 33(1): 70-98. 
+Kumar, M.S. (1984) Growth, Acquisition and Investment: An 
+Analysis of the Growth of Industrial Firms and their Overseas 
+Activities, Cambridge University Press: Cambridge, U.K.. 
+Michel, A. and Shaked, I. (1986) ' Multinational corporations 
+vs. domestic corporations: financial performance and 
+characteristics', Journal of International Business Studies 
+17(3): 89-101. 
+Morck, R. and Yeung, B. (1991) 'Why investors value multi- 
+nationality', Journal of Business 64(20): 165-187. 
+Nerlove, M. (1971) 'Further evidence on estimation of dynamic 
+economic relations from a time series of cross sections', 
+Econometrics 39(2): 359-382. 
+Neter, J., Wasserman, W. and Kutner, M.H. (1990) Applied Linear 
+Statistical Models, Irwin: Homewood, IL. 
+Petersen, T. and Pedersen, B. (1998) 'Explaining gradually 
+increasing resource commitment to a foreign market', 
+International Business Review 7(3): 483-501. 
+Petersen, T., Pedersen, B. and Sharma, D. (2002) 'The role of 
+knowledge in firms' internationalization process: wherefrom 
+and whereto? in A. Blomstrom and D.D. Sharma (eds.) 
+Learning in the Internationalization Process of Firms, North 
+Hampton, MA: Edward Elgar. 
+Porter, M.E. (1985) Competitive Advantage: Creating and 
+Sustaining Superior Performance, The Free Press: New York. 
+Porter, M.E. (1990) The Competitive Advantage of Nations, The 
+Free Press: New York. 
+Qian, G. (1997) 'Assessing product-market diversification of US 
+firms', Management International Review 37(2): 127-149. 
+Ramaswamy, K. (1993) 'Multinationality and performance: an 
+empirical examination of the moderating effect of configura- 
+tion', Proceedings of Academy Management 142-146. 
+Ramaswamy, K. (1995) 'Multinationality, configuration, and 
+performance: a study of MNEs in the US drug and 
+pharmaceutical sector', Journal of International Management 
+1: 231-253. 
+Ramaswamy, K., Kroeck, K.G. and Renforth, W. (1996) 
+'Measuring the degree of internationalization of a firm: a 
+comment', Journal of International Business Studies 27: 167- 
+178. 
+Ruigrok, W. and Wagner, H. (2002) 'Internationalization and 
+performance: an organizational learning perspective', Man- 
+agement International Review, (forthcoming). 
+Rugman, A.M. (1981) Inside the Multinational: The Economics of 
+International Markets, Croom Helm: London. 
+Sayrs, L. (1989) Pooled Time-Series Analysis. 
+Shaked, I. (1986) 'Are multinational corporations safer? Journal 
+of International Business Studies 17(1): 75-80. 
+Siddharthan, N.S. and Lall, S. (1982) 'Recent growth of the 
+largest US multinationals', Oxford Bulletin of Economic Statistics 
+44: 1-13. 
+Sullivan, D. (1994a) 'Measuring the degree of internationaliza- 
+tion of a firm', Journal of International Business Studies 25(2): 
+325-342. 
+Sullivan, D. (1994b) 'The "threshold of internationality": 
+replication, extension, and reinterpretation', Management 
+International Review 34(2): 165-186. 
+Tallman, S. and Li, J.T. (1996) 'Effects of international diversity 
+and product diversity on the performance of multinational 
+firms', Academy Management Journal 39: 179-196. 
+Farok J Contractor et al 
+Teece, D.J. (1986) 'Profiting from technological innovation', 
+Research Policy 15: 285-306. 
+Vernon, R. (1966) 'International investment and international 
+trade in the product life cycle', Quarterly Journal of Economics 
+80:191-207. 
+Vernon, R. (1971) Sovereignty at Bay: The Multinational Spread of 
+US Enterprises, Basic Books: New York. 
+World Bank (1992) World Development Report, Oxford: Oxford 
+University Press. 
+Zaheer, S. and Mosakowski, E. (1997) 'The dynamics of the 
+liability of foreignness: a global study of survival in financial 
+services', Strategic Management Journal 18: 439-464. 
+Appendix 1 
+Whereas the existing literature uses at least a 
+curvilinear quadratic specification, we adopted a 
+referee's strong suggestion to show, in Table 8, 
+results using only a first-order specification for DOI. 
+The three columns in the table, for Models A, C and 
+K, correspond to Tables 5-7 above. 
+These results, as expected, show that performance 
+is positively affected by multinationality. However, 
+lacking the second- and third-order terms for DOI, 
+the more complex relationship between these two 
+variables cannot be seen. 
+Table 8 Results with linear specification for DOI only 
+ROS vs: 
+Intercept 
+Firm size 
+DOI index 
+/1 
+/2 
+/3 
+14 
+Is 
+/6 
+/7 
+/8 
+19 
+/10 
+C, 
+Adjusted R2 
+F-value 
+Number of 
+observations, N 
+Model Ao 
+Model Co 
+Model Ko 
+-0.00118 
+0.116** 
+0.424*** 
+-0.187*** 
+-0.101** 
+0.188*** 
+-0.174*** 
+0.025 
+-0.013 
+-0.470*** 
+-0.416*** 
+-0.152*** 
+-0.328*** 
+0.138*** 
+20.6% 
+13.195*** 
+606 
+-0.142*** 
+0.206*** 
+0.407*** 
+-0.249** 
+-0.144 
+0.065 
+-0.032 
+0.018 
+0.345*** 
+0.157** 
+15.4% 
+7.246*** 
+364 
+0.194*** 
+-0.278*** 
+0.442*** 
+-0.568*** 
+-0.528*** 
+-0.126* 
+0.003 
+35.2% 
+20.827*** 
+242 
+***P<0.01; **P<0.05; *P<0.1; all two-tailed tests. 
+Accepted by Tom Brewer; outgoing Editor, 11 October 2001. This paper has been with the author for 2 revisions. 
+Journal of International Business Studies 

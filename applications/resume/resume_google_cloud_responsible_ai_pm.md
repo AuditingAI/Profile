@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/MalikAI-786
 
 ## SUMMARY
-Twenty years running risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **Florida OFR bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU, expected 2028) researching over-reliance on AI tools — the human-factors half of Responsible AI.
+Runs risk and safety programs where a bad launch is a federal matter. Authored an **AI governance framework** referencing **NIST AI RMF and SR 11-7** — model inventory, risk tiering, explainability, human-in-the-loop controls — and built the AI tooling it governs. Former **Florida OFR bank examiner**; led consent-order remediation with evidence accepted by federal regulators — pre-launch safety review under the harshest audience. **DBA candidate** (FIU) researching over-reliance on AI tools — the human-factors half of Responsible AI.
 
 ## EXPERIENCE
 
@@ -23,7 +23,7 @@ Twenty years running risk and safety programs where a bad launch is a federal ma
 **Florida Office of Financial Regulation — Bank Examiner** · West Palm Beach, FL · *2011 – 2012* — Safety-and-soundness examinations; contributed to enforcement actions. **FDIC Bank Examiner I**.
 
 ## EDUCATION
-**DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted judgment · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021
+**DBA (in progress)**, Florida International University · in progress · Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment* · **MBA**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005 · **Columbia Engineering FinTech Boot Camp** · 2021
 
 ## SKILLS
 **Responsible AI:** NIST AI RMF · SR 11-7 model risk · EU AI Act and ISO/IEC 42001 readiness · risk tiering · explainability · human-in-the-loop design · pre-launch review · responsible-AI policy

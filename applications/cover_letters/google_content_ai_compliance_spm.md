@@ -20,7 +20,7 @@ A few proof points against the role's requirements:
 
 - **Navigating fragmented, fast-moving regulation.** My doctoral research and consulting work at *Audit the Algorithm* track NIST AI RMF, ISO 42001/23894, the EU AI Act, the Colorado AI Act, and SR 11-7 in parallel. Fragmentation is the operating environment, not a blocker.
 
-What draws me specifically to RCI is the scope: assurance, governance, and risk under one roof at the moment AI products are reshaping every regulated surface area. I would bring 15+ years of regulator-facing program leadership, hands-on AI governance practice, and a practitioner's belief that compliance done right accelerates product velocity rather than constraining it.
+What draws me specifically to RCI is the scope: assurance, governance, and risk under one roof at the moment AI products are reshaping every regulated surface area. I would bring regulator-facing program leadership, hands-on AI governance practice, and a practitioner's belief that compliance done right accelerates product velocity rather than constraining it.
 
 I would welcome the opportunity to discuss how my background fits the team. Thank you for your consideration.
 

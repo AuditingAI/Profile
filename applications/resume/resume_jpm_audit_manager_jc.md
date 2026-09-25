@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
 
 ## SUMMARY
-15+ years leading global and regional audit engagements at Citi Internal Audit and JPMorgan Chase. Six years at JPMC (2015–2021) covering CIB Resolution & Recovery Planning, Treasury & CIO CCAR/capital, and Basel III RWA across a **$50B** portfolio of equities, fixed income, and OTC derivatives. Five years at Citi as VP Internal Audit Manager leading consent-order audit execution under **Federal Reserve** oversight. Built and shipped a **RAG-based Workpaper Quality Assistant** (Python · LangChain · Alteryx integration) that cut audit cycle time **~35%** — directly relevant to the JD's Alteryx + Python + large-language-model expectation. Boomeranging into JPMC to apply that toolkit to Asset & Wealth Management audit coverage.
+Leads global and regional audit engagements — Citi Internal Audit and JPMorgan Chase. Six years at JPMC (2015–2021) covering CIB Resolution & Recovery Planning, Treasury & CIO CCAR/capital, and Basel III RWA across a **$50B** portfolio of equities, fixed income, and OTC derivatives. Five years at Citi as VP Internal Audit Manager leading consent-order audit execution under **Federal Reserve** oversight. Built and shipped a **RAG-based Workpaper Quality Assistant** (Python · LangChain · Alteryx integration) that cut audit cycle time **~35%** — directly relevant to the JD's Alteryx + Python + large-language-model expectation. Boomeranging into JPMC to apply that toolkit to Asset & Wealth Management audit coverage.
 
 ## EXPERIENCE
 
@@ -21,8 +21,8 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 **Florida Office of Financial Regulation — Bank Examiner** · *Apr 2011 – Mar 2012* — Joint federal-state CAMELS examinations; FDIC Bank Examiner I.
 
 ## EDUCATION
-- **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment
-- **MBA, Financial Mathematics**, FIU · GPA 3.80 · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
+- **DBA (in progress)**, Florida International University · in progress · Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*
+- **MBA, Financial Mathematics**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS
 **Audit & control frameworks:** IIA Standards · Internal audit methodologies · COSO · COBIT · Three Lines of Defense · SOX ITGC · Continuous auditing · Control-design and operating-effectiveness evaluation · Integrated business-and-technology risk assessment

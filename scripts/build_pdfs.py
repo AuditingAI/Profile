@@ -153,6 +153,13 @@ def build_pdf(md_path: Path, out_path: Path, title: str | None = None,
 
 
 def build_all() -> list[Path]:
+    """Rebuild every markdown-sourced PDF.
+
+    Entries are (source, output, title) or (source, output, title, compact).
+    The compact scale is part of the build, not a flag someone has to remember:
+    a letter that only fits one page at 0.86 silently becomes a two-page letter
+    the next time this runs without it.
+    """
     outputs: list[Path] = []
     pairs = [
         (
@@ -180,6 +187,21 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/citi_chief_auditor_ai_md.pdf",
             "Cover Letter - Citi Chief Auditor AI MD",
         ),
+        # Tailored resumes built from markdown. They had no entry here, so a fix
+        # to the .md never reached the PDF - the DBA GPA survived on all four
+        # for a fortnight after it was barred. Compact scales hold one page.
+        (REPO_ROOT / "applications/resume/resume_cuny_chief_data_governance.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_CUNY_DataGovernance.pdf",
+         "Yasir A. Malik - Resume (CUNY Data Governance)", 0.86),
+        (REPO_ROOT / "applications/resume/resume_google_cloud_responsible_ai_pm.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Google_CloudRAI_PM.pdf",
+         "Yasir A. Malik - Resume (Google Cloud RAI PM)", 0.82),
+        (REPO_ROOT / "applications/resume/resume_nyc_inspector_general.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_NYC_InspectorGeneral.pdf",
+         "Yasir A. Malik - Resume (NYC Inspector General)", 0.86),
+        (REPO_ROOT / "applications/resume/resume_pgim_ai_program_director.md",
+         REPO_ROOT / "applications/resume/Yasir_Malik_Resume_PGIM_AI_Director.pdf",
+         "Yasir A. Malik - Resume (PGIM AI Director)", 0.82),
         # NOTE: the Google TPM III resume uses a one-off compact renderer
         # to guarantee one-page ATS output. See
         # applications/resume/build_google_tpm_resume.py — re-run it after
@@ -189,10 +211,79 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/google_tpm_regulatory_audit.pdf",
             "Cover Letter - Google TPM III, Regulatory Audits",
         ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_gbm_supervisory_risk_controls_vp_183007.md",
+            REPO_ROOT / "applications/cover_letters/gs_gbm_supervisory_risk_controls_vp_183007.pdf",
+            "Cover Letter - Goldman Sachs GBM Supervisory Risk & Controls VP (183007)",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_internal_audit_data_analytics_vp.md",
+            REPO_ROOT / "applications/cover_letters/gs_internal_audit_data_analytics_vp.pdf",
+            "Cover Letter - Goldman Sachs Internal Audit Data Analytics VP",
+            0.88,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_internal_audit_regulatory_relations_vp.md",
+            REPO_ROOT / "applications/cover_letters/gs_internal_audit_regulatory_relations_vp.pdf",
+            "Cover Letter - Goldman Sachs Internal Audit Regulatory Relations VP",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_transformation_digital_pm_vp.md",
+            REPO_ROOT / "applications/cover_letters/gs_transformation_digital_pm_vp.pdf",
+            "Cover Letter - Goldman Sachs Office of Transformation Digital PM VP",
+            0.88,
+        ),
+        # Score-5 packages drafted 29 Aug and never built. A letter that
+        # exists only as markdown cannot be attached to anything, which is the
+        # same as not having written it.
+        (
+            REPO_ROOT / "applications/cover_letters/jpm_control_mgmt_ai_transformation_vp.md",
+            REPO_ROOT / "applications/cover_letters/jpm_control_mgmt_ai_transformation_vp.pdf",
+            "Cover Letter - JPMorgan Control Management VP, Innovation & AI Transformation",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/jpm_financial_analysis_bb_pxt_vp.md",
+            REPO_ROOT / "applications/cover_letters/jpm_financial_analysis_bb_pxt_vp.pdf",
+            "Cover Letter - JPMorgan VP Financial Analysis, Business Banking PXT",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/ms_capital_data_risk_vp.md",
+            REPO_ROOT / "applications/cover_letters/ms_capital_data_risk_vp.pdf",
+            "Cover Letter - Morgan Stanley VP, Capital & Data Risk",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/Rutgers_C_Adjunct_Fall2026.md",
+            REPO_ROOT / "applications/cover_letters/Rutgers_C_Adjunct_Fall2026.pdf",
+            "Cover Letter - Rutgers Business School Lecturer/Adjunct Fall 2026",
+            0.80,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/google_core_ai_foundations_vp.md",
+            REPO_ROOT / "applications/cover_letters/google_core_ai_foundations_vp.pdf",
+            "Cover Letter - Google VP Product Management, Core AI Foundations",
+            0.86,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
+            REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
+            "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
+            0.88,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md",
+            REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.pdf",
+            "Cover Letter - BNY VP Auditor, Corporate Treasury, CIO and Risk",
+            0.92,
+        ),
     ]
-    for src, dst, title in pairs:
+    for src, dst, title, *rest in pairs:
         if src.exists():
-            outputs.append(build_pdf(src, dst, title))
+            outputs.append(build_pdf(src, dst, title, rest[0] if rest else 1.0))
     return outputs
 
 

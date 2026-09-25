@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    body{margin:0;background:#0E1114;}
+    a{color:#F58E5C;text-decoration:none;} a:hover{color:#E0662E;}
+  </style>
+</helmet>
+
+<svg viewBox="0 0 1280 300" fill="none" style="width:1280px;height:300px;display:block;">
+  <rect width="1280" height="300" fill="{{bg}}"/>
+  <rect x="0" y="0" width="1280" height="5" fill="#E0662E"/>
+
+  <g transform="translate(980 -80) scale(7.2)" opacity="{{ghost}}">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="{{letter}}" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="{{letter}}" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <g transform="translate(72 62) scale(1.45)">
+    <path d="M19.88 10.13 A25 25 0 1 1 8.36 23.86" stroke="#E0662E" stroke-width="4.4" stroke-linecap="round"/>
+    <circle cx="12.85" cy="15.93" r="3.9" fill="#E0662E"/>
+    <path d="M20 47 L32 19.5 L44 47" stroke="{{letter}}" stroke-width="5.2" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <path d="M21.09 38 H51.5" stroke="{{letter}}" stroke-width="5.2" stroke-linecap="butt"/>
+  </g>
+
+  <path d="M186 70 V162" stroke="{{rule}}" stroke-width="1.5"/>
+
+  <text x="222" y="110" font-family="'Bitstream Charter',Charter,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="72" fill="{{name}}">The Reference Mark</text>
+  <path d="M224 138 H274" stroke="#E0662E" stroke-width="2.5"/>
+  <text x="226" y="170" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="17" letter-spacing="5" fill="{{sub}}">AUDIT &#183; RISK &#183; GOVERNANCE</text>
+
+  <path d="M72 224 H1208" stroke="{{rule}}" stroke-width="1.5"/>
+
+  <rect x="72" y="245" width="3.5" height="23" fill="#E0662E"/>
+  <text x="89" y="264" font-family="'Bitstream Charter',Charter,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="27" fill="{{name}}">Yasir A. Malik</text>
+  <text x="1208" y="263" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,'Cascadia Mono','Roboto Mono',monospace" font-size="14" letter-spacing="3" fill="{{meta}}">MALIKAI-786.GITHUB.IO</text>
+</svg>
+</x-dc>
+<script data-dc-script data-props='{"theme":{"editor":"enum","options":["dark","light"],"default":"dark","section":"Cut"},"$preview":{"width":1280,"height":300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var light = (this.props.theme || 'dark') === 'light';
+    var t = light
+      ? { bg: '#F6F3F0', name: '#171A1D', sub: '#5A646E', rule: '#E2DAD3', meta: '#5A646E', letter: '#171A1D', ghost: '.05' }
+      : { bg: '#0E1114', name: '#EDEFF1', sub: '#A6B0BA', rule: '#263039', meta: '#7C8590', letter: '#EDEFF1', ghost: '.06' };
+    return t;
+  }
+}
+</script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik
 
 ## SUMMARY
-Twenty years in audit, risk, and financial control at Citi and JPMorgan Chase — including six years inside JPMC's Commercial & Investment Bank finance organization covering Basel III RWA and capital adequacy, CCAR validation over Treasury & CIO, and CIB Resolution & Recovery Planning delivered to the Federal Reserve and FDIC. Began his career as a **bank examiner with the Florida Office of Financial Regulation**, examining banks alongside federal banking regulators — the regulatory standard learned from the examiner's side of the table. Most recently VP, Audit Manager at Citi Internal Audit, leading risk-based audits across 15+ business units and consent-order closure evidence accepted by external regulators. Newark resident; Jersey City is a 25-minute commute, five days a week.
+Audit, risk, and financial control at Citi and JPMorgan Chase — including six years inside JPMC's Commercial & Investment Bank finance organization covering Basel III RWA and capital adequacy, CCAR validation over Treasury & CIO, and CIB Resolution & Recovery Planning delivered to the Federal Reserve and FDIC. Began his career as a **bank examiner with the Florida Office of Financial Regulation**, examining banks alongside federal banking regulators — the regulatory standard learned from the examiner's side of the table. Most recently VP, Audit Manager at Citi Internal Audit, leading risk-based audits across 15+ business units and consent-order closure evidence accepted by external regulators. Newark resident; Jersey City is a 25-minute commute, five days a week.
 
 ## EXPERIENCE
 
@@ -28,7 +28,7 @@ Twenty years in audit, risk, and financial control at Citi and JPMorgan Chase �
 - Safety-and-soundness examinations across credit, liquidity, and operational risk; workpapers supporting formal enforcement actions. **FDIC Bank Examiner I** certification.
 
 ## EDUCATION
-- **Doctor of Business Administration (in progress)**, Florida International University · GPA **3.81** · expected **2028**. Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462). Dissertation in development: automation bias in AI-assisted auditor judgment.
+- **Doctor of Business Administration (in progress)**, Florida International University · in progress. Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462). Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*.
 - **MBA, Financial Mathematics**, Florida International University · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS

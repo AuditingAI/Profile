@@ -49,7 +49,7 @@ posting we drafted for. Recommend re-prioritizing.
 
 | Citi MD requirement | Your evidence | Gap |
 |---|---|---|
-| 15+ years diversified mgmt in audit/tech/data | 15+ yrs FS audit + 5 yrs AI | None |
+| 15+ years diversified mgmt in audit/tech/data | FS audit across Citi / JPM / Florida OFR + 5 yrs AI | None |
 | AI/ML systems — model dev, validation, audit | RAG Workpaper Assistant, NIST AI RMF, SR 11-7 | None |
 | IIA Standards, COSO, COBIT, NIST | Demonstrated | None — but make explicit on resume *(now done)* |
 | SR 11-7, EU AI Act | Demonstrated, dissertation-level depth | None |

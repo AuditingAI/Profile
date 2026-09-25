@@ -10,7 +10,7 @@ Dear Hiring Team,
 
 I am applying for the Chief Auditor, Artificial Intelligence role as an internal candidate. The dual mandate this position describes — to audit AI and to build with AI — is the work I have been doing inside Internal Audit at Citi for the past five years, at the scale of a single pilot rather than a global function. I would like to scale it.
 
-The role requires 15+ years of diversified experience across audit, technology, and data-focused mandates. My background covers all three: I have spent the last 15+ years between Citi, JPMorgan, and the Florida Office of Financial Regulation, and the last five of those translating those audit and risk fundamentals to AI specifically.
+The role asks for deep, diversified experience across audit, technology, and data-focused mandates. My background covers all three — Citi, JPMorgan, and the Florida Office of Financial Regulation — with the last five years spent translating those audit and risk fundamentals to AI specifically.
 
 Direct evidence against the JD:
 
@@ -20,7 +20,7 @@ Direct evidence against the JD:
 
 - **High-impact, regulator-facing audit delivery.** I led consent-order audit execution at Citi, coordinated cross-functional regulatory deliverables that contributed to the Federal Reserve's "not not-credible" rating on JPMorgan's resolution plan, and have engaged directly with examiners at the Florida Office of Financial Regulation (as a former Bank Examiner myself) and the federal regulators overseeing Citi and JPMorgan. I am comfortable in front of Audit Committees and regulators on AI-specific topics.
 
-- **AI-specific frameworks and regulations.** My doctoral research and consulting practice track NIST AI RMF and the GenAI Profile, SR 11-7, ISO/IEC 42001 and 23894, the EU AI Act, and the Colorado AI Act in parallel. My dissertation in development — automation bias and over-reliance in LLM-assisted audit judgment (FIU DBA, expected 2028, GPA 3.81) — will propose measurement and control mechanisms for one of the unique AI risks this JD identifies.
+- **AI-specific frameworks and regulations.** My doctoral research and consulting practice track NIST AI RMF and the GenAI Profile, SR 11-7, ISO/IEC 42001 and 23894, the EU AI Act, and the Colorado AI Act in parallel. My dissertation in development — automation bias and over-reliance in LLM-assisted audit judgment (FIU DBA) — will propose measurement and control mechanisms for one of the unique AI risks this JD identifies.
 
 - **Closing the credential gap.** The JD highlights CISA, CIA, and CRISC as beneficial. I am sitting CIA Part 1 in Q3 2026 and CISA shortly thereafter; the IAPP AIGP (AI Governance Professional) is on the same track.
 

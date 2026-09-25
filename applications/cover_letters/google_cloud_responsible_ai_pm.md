@@ -18,7 +18,7 @@ I am applying for the Program Manager role on the Cloud Responsible AI team. The
 
 **The human-factors half.** My doctoral research at FIU examines bias in professional judgment: I completed an IRB-approved empirical study in July 2026, and my dissertation in development extends it to automation bias — when professionals stop exercising judgment because a system sounded confident. Enterprise customers adopting Cloud AI will fail less on model quality than on how their people use the output. That is a research question I am actively working on, not a talking point.
 
-**Where I am honest about the gap.** My background is regulated financial services, not consumer trust and safety, and I have not worked on a Cloud or API product in a B2B context. What I bring instead is five years of enterprise AI risk governance, twenty years of program delivery against regulators, and a bank examiner's instinct for how an outside reviewer will read a control. The vocabulary of a new domain is learnable; the judgment about when a system is safe enough to launch is the part that takes years.
+**Where I am honest about the gap.** My background is regulated financial services, not consumer trust and safety, and I have not worked on a Cloud or API product in a B2B context. What I bring instead is five years of enterprise AI risk governance, a record of program delivery against regulators, and a bank examiner's instinct for how an outside reviewer will read a control. The vocabulary of a new domain is learnable; the judgment about when a system is safe enough to launch is the part that takes years.
 
 I would welcome the conversation.
 

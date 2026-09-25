@@ -1,0 +1,13 @@
+{
+  "name": "job-apply-runner",
+  "private": true,
+  "type": "module",
+  "description": "Local browser runner for the application queue. Runs on the owner's machine only — sessions live in ~/.job-runner-profile, never in this repo.",
+  "scripts": {
+    "login": "node apply_runner.mjs --login",
+    "run": "node apply_runner.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

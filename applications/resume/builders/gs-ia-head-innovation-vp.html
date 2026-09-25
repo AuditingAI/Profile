@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik — Resume</title>
+<style>
+  @page { size: Letter; margin: 0.36in 0.58in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  /* Executive register: fewer items, larger type, more air. A VP page that
+     reads like a dense analyst page reads as the wrong level. */
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.8pt; line-height: 1.15; color: #000; }
+  header { text-align: center; margin-bottom: 8px; }
+  /* The monogram alone, no wordmark: it carries the brand without the
+     consulting name, which on a Goldman application would raise the
+     outside-business-activity question before anyone read a line. */
+  .mark { height: 26px; display: block; margin: 0 auto 2px; }
+  /* letter-spacing must stay <= 1.5px: above that Chromium breaks the name into
+     spaced characters in the PDF text layer and an ATS cannot match it. */
+  h1 { font-size: 18.5pt; letter-spacing: 1.5px; font-weight: normal; }
+  .tagline { font-size: 9.6pt; margin-top: 4px; letter-spacing: 0.2px; }
+  .contact { font-size: 9pt; margin-top: 5px; }
+  h2 { font-size: 9.2pt; letter-spacing: 1.6px; border-bottom: 0.8px solid #000;
+       margin: 7.5px 0 3.5px; padding-bottom: 2px; text-transform: uppercase; font-weight: bold; }
+  p, li { text-align: justify; }
+  ul { padding-left: 15px; margin-top: 3px; }
+  li { margin-bottom: 3px; }
+  .job { display: flex; justify-content: space-between; margin-top: 6.5px; align-items: baseline; }
+  .job b { font-size: 10pt; }
+  .sub { font-style: italic; font-size: 8.9pt; color: #333; margin-top: 1px; }
+  .dates { white-space: nowrap; font-size: 9pt; }
+  .one { margin-top: 3px; }
+  table.results { width: 100%; border-collapse: collapse; margin-top: 5px; }
+  table.results td { padding: 2.5px 0; vertical-align: top; border: none; }
+  table.results td.n { width: 13%; font-weight: bold; white-space: nowrap; font-size: 10pt; }
+  table.results td.w { width: 20%; text-align: right; font-style: italic; font-size: 8.8pt; color: #333; }
+</style>
+</head>
+<body>
+<header>
+  <img class="mark" src="../../../assets/images/logo-mark.png" alt="">
+  <h1>YASIR A. MALIK</h1>
+  <div class="tagline">Internal Audit Innovation &amp; AI Strategy &nbsp;|&nbsp; Analytics and Automated Assurance &nbsp;|&nbsp; Former Bank Examiner</div>
+  <div class="contact">New York, NY &nbsp;&bull;&nbsp; YasirAMalik@gmail.com &nbsp;&bull;&nbsp; +1 (786) 704-8536 &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik &nbsp;&bull;&nbsp; github.com/MalikAI-786</div>
+</header>
+
+<h2>Profile</h2>
+<p>Has run this mandate in miniature. At Citi Internal Audit he <b>defined the AI tooling roadmap for the audit department</b> &mdash; use-case intake, risk tiering by criticality, control library, post-deployment monitoring KPIs &mdash; and then <b>built and shipped the product on it</b>: a retrieval-augmented Workpaper Quality Assistant in Python and LangChain, specified with the auditors who would use it, in production at <b>~35%</b> less review cycle time. He also wrote the framework for <b>auditing the firm&rsquo;s own AI</b> &mdash; bias, drift, hallucination, adversarial robustness, third-party models. That framework matters more now, not less: <b>SR 26-2</b>, the April 2026 interagency model risk guidance that superseded SR 11-7, puts <b>generative and agentic AI expressly outside its scope</b>. The control expectations are not yet written, and somebody has to audit those systems meanwhile. The audit judgment underneath is the real thing, and it began examining banks for the Florida Office of Financial Regulation.</p>
+
+<h2>Selected Results</h2>
+<table class="results">
+  <tr><td class="n">~35%</td><td>Faster audit review cycle from a production RAG assistant he specified, wrote and shipped</td><td class="w">Citi Internal Audit</td></tr>
+  <tr><td class="n">~40%</td><td>Less manual review after automating capital and liquidity reconciliations</td><td class="w">JPMorgan Chase</td></tr>
+  <tr><td class="n">15+</td><td>Business units under risk-based audit coverage, spanning business, finance and technology risk</td><td class="w">Citi Internal Audit</td></tr>
+  <tr><td class="n">99.8%</td><td>Filing accuracy on FR 2900 and TIC after consolidating 500+ legal-entity data sources</td><td class="w">Citi</td></tr>
+</table>
+
+<h2>Experience</h2>
+
+<div class="job"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
+<div class="sub">Internal Audit, Cross-Enterprise Program &amp; Change Management &nbsp;|&nbsp; New York, NY</div>
+<ul>
+  <li><b>Innovation strategy and roadmap:</b> defined the AI tooling roadmap for Internal Audit &mdash; use-case intake and prioritisation, risk tiering by criticality, control library, post-deployment monitoring KPIs. What got built, in what order, and what had to be true before it shipped.</li>
+  <li><b>Delivery, not slideware:</b> designed, wrote and shipped the <b>RAG Workpaper Quality Assistant</b> in Python and LangChain &mdash; vector search over unstructured workpapers, SHAP/LIME explainability, prompt-injection guardrails, Alteryx integration. In production at <b>~35%</b> less review cycle time, with continuous coverage where sampling had been the only option.</li>
+  <li><b>Auditing the firm&rsquo;s AI:</b> authored the control framework for enterprise AI adoption against NIST AI RMF and SR 11-7 &mdash; model risk, bias and fairness, drift, hallucination, adversarial robustness, third-party AI &mdash; and built independent assurance over it.</li>
+  <li><b>Audit judgment and adoption:</b> led risk-based audits across <b>15+ business units</b>; drove consent-order remediation accepted by external regulators; reported to the Board Audit Committee; coached <b>8+ auditors</b> on analytics-led testing.</li>
+</ul>
+
+<div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
+<div class="sub">First-Line Capital Controls &amp; Resolution and Recovery Planning &nbsp;|&nbsp; Jersey City, NJ</div>
+<ul>
+  <li><b>Automated capital and liquidity reconciliations</b>, cutting manual review <b>~40%</b> and removing a recurring source of reporting error &mdash; continuous monitoring built into the control, not bolted on after it.</li>
+  <li>Led <b>CCAR</b> forecast validation and model challenge over a <b>$2.6T</b> balance sheet under SR 15-18; ran Resolution &amp; Recovery Planning across <b>50+ stakeholders</b> in five functions, none reporting to him, into Federal Reserve and FDIC submissions.</li>
+</ul>
+
+<div class="job"><b>Capital Controller, Basel Measurement &amp; Analytics &mdash; JPMorgan Chase</b><span class="dates">Sep 2017 &ndash; Feb 2019</span></div>
+<div class="sub">Brooklyn, NY &nbsp;&bull;&nbsp; preceded by Program Manager, CIB Resolution &amp; Recovery Planning (2015&ndash;2017)</div>
+<p class="one">Owned Basel III RWA and capital adequacy reporting across a <b>$50B</b> book of equities, fixed income and OTC derivatives; RWA treatment analysis surfaced <b>$180M</b> in capital optimisation for CFO decision support.</p>
+
+<div class="job"><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi</b><span class="dates">2012 &ndash; 2015</span></div>
+<div class="sub">Tampa, FL</div>
+<p class="one">Consolidated <b>500+ legal-entity data sources</b> into governed master data with ownership, lineage and data-quality controls &mdash; the data engineering that made automated <b>FR 2900</b> and <b>TIC</b> filings possible at <b>99.8%</b> accuracy under regulatory examination.</p>
+
+<div class="job"><b>Bank Examiner, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation</b><span class="dates">Apr 2011 &ndash; Mar 2012</span></div>
+<p class="one">Conducted CAMELS safety-and-soundness examinations of state and national banks alongside federal banking regulators; authored workpapers supporting formal enforcement actions.</p>
+
+<h2>Education, Research &amp; Credentials</h2>
+<p><b>Doctor of Business Administration, Florida International University</b> &mdash; Year 2. Dissertation: <b><i>Anchoring Bias in LLM-Assisted Audit Judgment</i></b> &mdash; a <b>mixed-methods</b> programme pairing a 55-item survey instrument (IRB-25-0462) with a qualitative arm now in development. It asks the question arriving next: as systems move from assistive models toward agentic and, on the current trajectory, superintelligent capability, what stops expert judgment from quietly deferring to them?<br>
+<b>MBA, Financial Mathematics, Florida International University</b> &mdash; 2011 &nbsp;&bull;&nbsp; <b>B.Sc., Banking &amp; Finance, London School of Economics</b> &nbsp;&bull;&nbsp; <b>Columbia Engineering FinTech Boot Camp</b><br>
+<b>Certifications:</b> FDIC Bank Examiner I &bull; Registered Scrum Master &bull; GCP Human Research; <i>in progress</i> CIA Part 1, IAPP AIGP.</p>
+<p style="margin-top:4px"><b>AI &amp; ML:</b> Generative AI and LLM prompting &bull; retrieval-augmented and agentic RAG &bull; LangChain / LangGraph &bull; vector databases &bull; SHAP / LIME &bull; scikit-learn &bull; red-teaming and evaluation scripts &nbsp;|&nbsp; <b>Data:</b> SQL &bull; Python &bull; Alteryx &bull; Tableau &bull; Power BI &bull; SAS &bull; SPSS &bull; automated pipelines and continuous monitoring &nbsp;|&nbsp; <b>Audit &amp; Regulation:</b> Global Internal Audit Standards &bull; COSO &bull; Three Lines of Defense &bull; SOX ITGC &bull; <b>SR 26-2</b> model risk (2026, superseding SR 11-7) &bull; NIST AI RMF &bull; EU AI Act &bull; ISO/IEC 42001</p>
+</body>
+</html>

@@ -8,7 +8,7 @@ Re: Chief Data and Governance Strategist (University Dean)
 
 Dear Members of the Search Committee,
 
-I am applying for the Chief Data and Governance Strategist position. I have spent twenty years building enterprise data governance in the environment that punishes weak governance fastest — federally regulated banking — and I am now a doctoral researcher studying how people and AI systems make decisions together. CUNY is at the point where those two things have to be the same job.
+I am applying for the Chief Data and Governance Strategist position. I have built enterprise data governance in the environment that punishes weak governance fastest — federally regulated banking — and I am now a doctoral researcher studying how people and AI systems make decisions together. CUNY is at the point where those two things have to be the same job.
 
 **Enterprise data governance, at institutional scale.** At Citi I centralized **500+ legal-entity data sources** into governed master data, which enabled automated FR2900 and TIC regulatory filings at **99.8% accuracy**. That work was the unglamorous core of data governance: defining ownership, reconciling conflicting sources of truth, establishing stewardship, and making the resulting data trustworthy enough to file with the Federal Reserve. A university system with 25 campuses has the same structural problem — many local systems, one institutional truth, and a reporting obligation that cannot be wrong.
 

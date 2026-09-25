@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik
 
 ## SUMMARY
-Twenty years in audit, risk, and financial control at Citi and JPMorgan Chase — including six years inside JPMC's Commercial & Investment Bank finance organization covering Basel III RWA and capital adequacy, CCAR validation over Treasury & CIO, and CIB Resolution & Recovery Planning delivered to the Federal Reserve and FDIC. Began his career as a **bank examiner with the Florida Office of Financial Regulation**, examining banks alongside federal banking regulators — the regulatory standard learned from the examiner's side of the table. Most recently VP, Audit Manager at Citi Internal Audit, leading risk-based audits across 15+ business units and consent-order closure evidence accepted by external regulators. Newark resident; Jersey City is a 25-minute commute, five days a week.
+Audit, risk, and financial control at Citi and JPMorgan Chase — including six years inside JPMC's Commercial & Investment Bank finance organization covering Basel III RWA and capital adequacy, CCAR validation over Treasury & CIO, and CIB Resolution & Recovery Planning delivered to the Federal Reserve and FDIC. Began his career as a **bank examiner with the Florida Office of Financial Regulation**, examining banks alongside federal banking regulators — the regulatory standard learned from the examiner's side of the table. Most recently VP, Audit Manager at Citi Internal Audit, leading risk-based audits across 15+ business units and consent-order closure evidence accepted by external regulators. Newark resident; Jersey City is a 25-minute commute, five days a week.
 
 ## EXPERIENCE
 

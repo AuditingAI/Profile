@@ -29,7 +29,7 @@ the Job Pipeline database.
 
 ## Candidate profile
 
-Yasir A. Malik — Newark, NJ (NYC metro). **~20 years** in audit and risk at Citi
+Yasir A. Malik — Newark, NJ (NYC metro). audit and risk at Citi
 and JPMorgan Chase. Began his career as a **bank examiner with the Florida
 Office of Financial Regulation**, examining banks alongside federal banking
 regulators; holds the FDIC Bank Examiner I

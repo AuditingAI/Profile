@@ -43,6 +43,7 @@ from jobs_sources import (  # noqa: E402
 )
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+QUEUE = REPO_ROOT / "automation" / "queue"
 
 GOOGLE_QUERIES = [
     "AI governance", "responsible AI", "model risk", "internal audit",
@@ -108,6 +109,21 @@ def _row_html(job: dict) -> str:
             f" <span style='color:#666'>{job.get('location','')}</span>{badges}</li>")
 
 
+def queue_counts() -> dict[str, int]:
+    """Counts from automation/queue/ - the discover_jobs.py pipeline.
+
+    This digest's own corporate/teaching lists come from a separate,
+    older scoring pass (see module docstring). The queue is the one an
+    external agent actually works from, so its backlog has to be visible
+    here or it silently grows unseen.
+    """
+    counts = {}
+    for name in ("pending", "submitted", "skipped"):
+        d = QUEUE / name
+        counts[name] = len(list(d.glob("*.json"))) if d.exists() else 0
+    return counts
+
+
 def build_email_body(corporate: list[dict], teaching: list[dict],
                      report: SourceReport) -> tuple[str, str]:
     today = date.today().isoformat()
@@ -154,8 +170,29 @@ def build_email_body(corporate: list[dict], teaching: list[dict],
         p.extend(["", note])
         h.append(f"<p style='color:#a33'><b>{note}</b></p>")
 
-    p.extend(["", "Resume + seed cover letters attached.", ""])
-    h.append("<p>Resume + seed cover letters attached.</p>")
+    q = queue_counts()
+    backlog_line = (
+        f"QUEUE (automation/queue/, separate from the lists above): "
+        f"{q['pending']} pending, {q['submitted']} submitted, {q['skipped']} skipped."
+    )
+    p.extend(["", backlog_line])
+    if q["pending"] and not q["submitted"]:
+        note = (f"{q['pending']} roles are queued and NONE have been submitted - "
+                f"run the local runner (automation/runner/) or work "
+                f"automation/queue/pending/ directly.")
+        p.append(note)
+        h.append(f"<h3>Queue backlog</h3><p style='color:#a33'><b>{note}</b></p>")
+    else:
+        h.append(f"<h3>Queue backlog</h3><p>{backlog_line}</p>")
+
+    start = "Start any session - yours or an agent's - with:  ./agent-kit/run.sh"
+    p.extend(["", start])
+    h.append("<p>Start any session - yours or an agent's - with "
+             "<code>./agent-kit/run.sh</code> "
+             "(rules, all three streams, and the queue).</p>")
+
+    p.extend(["", "Resume (GenAI-risk default + broad master) attached.", ""])
+    h.append("<p>Resume (GenAI-risk default + broad master) attached.</p>")
     return "\n".join(p), "".join(h)
 
 
@@ -170,7 +207,27 @@ def attach_pdfs(msg: EmailMessage, paths: list[Path]) -> None:
                            subtype=subtype, filename=path.name)
 
 
-def send_email(corporate: list[dict], teaching: list[dict], report: SourceReport) -> None:
+def verify_documents() -> list[str]:
+    """Run the document harness. Returns the failures, most important first.
+
+    The digest attaches resumes. Attaching one that breaks a standing content
+    rule is worse than sending no digest at all, so the failures ride in the
+    email and the attachments are dropped when there are any.
+    """
+    import verify_documents as vd
+
+    rep = vd.Report()
+    for folder in (vd.RESUMES, vd.LETTERS):
+        for pdf in sorted(folder.glob("*.pdf")):
+            vd.check_pdf(pdf, rep)
+    vd.check_sources(rep)
+    vd.check_wiring(rep)
+    return [f"{where}: {check} - {detail}" for _, where, check, detail
+            in rep.failures]
+
+
+def send_email(corporate: list[dict], teaching: list[dict],
+               report: SourceReport, doc_failures: list[str]) -> None:
     sender = os.environ["GMAIL_ADDRESS"]
     password = os.environ["GMAIL_APP_PASS"]
     extra = [a.strip() for a in os.environ.get("EXTRA_RECIPIENTS", "").split(",") if a.strip()]
@@ -178,6 +235,15 @@ def send_email(corporate: list[dict], teaching: list[dict], report: SourceReport
 
     plain, html = build_email_body(corporate, teaching, report)
     flag = " [SOURCE ISSUES]" if report.failures else ""
+    if doc_failures:
+        flag += " [DOCUMENTS FAILED VERIFICATION]"
+        banner = ("DOCUMENT VERIFICATION FAILED - nothing is attached to this "
+                  "digest. Do not apply until these are fixed "
+                  "(./agent-kit/run.sh verify):")
+        plain = banner + "\n  " + "\n  ".join(doc_failures) + "\n\n" + plain
+        html = (f"<p style='color:#a33'><b>{banner}</b></p><ul>"
+                + "".join(f"<li style='color:#a33'>{f}</li>" for f in doc_failures)
+                + "</ul>" + html)
     msg = EmailMessage()
     msg["Subject"] = (f"Daily jobs digest - {date.today().isoformat()} "
                       f"({len(corporate)} corporate / {len(teaching)} teaching){flag}")
@@ -186,11 +252,17 @@ def send_email(corporate: list[dict], teaching: list[dict], report: SourceReport
     msg.set_content(plain)
     msg.add_alternative(html, subtype="html")
 
-    attach_pdfs(msg, [
-        REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Master.pdf",
-        REPO_ROOT / "applications/cover_letters/google_content_ai_compliance_spm.pdf",
-        REPO_ROOT / "applications/cover_letters/anthropic_generic.pdf",
-    ])
+    attachments = [] if doc_failures else [
+        # The two resumes that cover almost everything in the queue: the
+        # GenAI-risk default and the broad master. Both one page, both
+        # branded, both verified by scripts/verify_documents.py before the
+        # digest goes out. Seed cover letters are no longer attached - the
+        # two that used to be here were superseded and went out stale for
+        # weeks without anyone noticing.
+        REPO_ROOT / "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
+        REPO_ROOT / "applications/resume/Yasir_Malik_Resume_Master_Branded.pdf",
+    ]
+    attach_pdfs(msg, attachments)
 
     ctx = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as smtp:
@@ -198,7 +270,9 @@ def send_email(corporate: list[dict], teaching: list[dict], report: SourceReport
         smtp.send_message(msg)
     print(f"sent digest to {recipients}: "
           f"{len(corporate)} corporate, {len(teaching)} teaching, "
-          f"{len(report.failures)} source failure(s)")
+          f"{len(report.failures)} source failure(s), "
+          f"{len(doc_failures)} document failure(s), "
+          f"{len(attachments)} attachment(s)")
 
 
 def collect() -> tuple[list[dict], list[dict], SourceReport]:
@@ -224,6 +298,13 @@ def main() -> None:
 
     build_all()
 
+    doc_failures = verify_documents()
+    if doc_failures:
+        print(f"[stop] {len(doc_failures)} document failure(s); "
+              f"the digest will go out with no attachments", file=sys.stderr)
+        for line in doc_failures:
+            print(f"  {line}", file=sys.stderr)
+
     corporate, teaching, report = collect()
     print(f"corporate={len(corporate)} teaching={len(teaching)} "
           f"failures={len(report.failures)}")
@@ -233,7 +314,7 @@ def main() -> None:
         print("\n" + plain)
         return
 
-    send_email(corporate, teaching, report)
+    send_email(corporate, teaching, report, doc_failures)
 
 
 if __name__ == "__main__":

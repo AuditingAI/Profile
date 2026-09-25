@@ -3,7 +3,7 @@
 Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasiramalik · github.com/AuditingAI
 
 ## SUMMARY
-15+ years coordinating regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
+Coordinates regulatory audit portfolios under Federal Reserve, FDIC, and PCAOB oversight. Built and ran Citi Internal Audit's AI/GenAI assurance program end-to-end — controls mapped to NIST AI RMF, SR 11-7, ISO/IEC 42001, EU AI Act, and Colorado AI Act — and shipped the RAG-based tooling that cut audit cycle time **~35%**. Designs compliance programs for new and emerging regulations; drives policy, process, and training across technical and non-technical stakeholders.
 
 ## EXPERIENCE
 
@@ -24,8 +24,8 @@ Newark, NJ · YasirAMalik@gmail.com · +1 (786) 704-8536 · linkedin.com/in/yasi
 - Conducted joint federal-state CAMELS examinations; authored examination workpapers supporting formal enforcement actions. FDIC Bank Examiner I.
 
 ## EDUCATION
-- **DBA (in progress)**, Florida International University · GPA **3.81** · Expected **2028** · Qualifying research completed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: automation bias in AI-assisted auditor judgment
-- **MBA, Financial Mathematics**, FIU · GPA 3.80 · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
+- **DBA (in progress)**, Florida International University · in progress · Qualifying examination passed Jul 2026: *Mitigating Anchoring Bias in Long-Term Auditor Engagements* (IRB-25-0462) · Dissertation in development: *Anchoring Bias in LLM-Assisted Audit Judgment*
+- **MBA, Financial Mathematics**, FIU · 2011 · **B.Sc., Banking & Finance**, London School of Economics · 2005
 
 ## SKILLS
 **Regulatory frameworks:** NIST AI RMF · SR 11-7 · ISO/IEC 42001, 23894, 27001 · EU AI Act · Colorado AI Act · PCAOB AS · Basel III · CCAR/SR 15-18 · COSO · COBIT · IIA Standards · Three Lines of Defense
