@@ -10,7 +10,7 @@ rendering it plainly.
 Sections whose heading begins "Notes for Yasir" are working notes rather than
 part of the document, so they are cut along with everything under them.
 
-    python3 md_to_doc.py INPUT.md OUTPUT.docx "Title" "Subtitle" ["ident", ...] [--linebreaks] [--logo PNG] [--email X] [--phone X] [--pdf]
+    python3 md_to_doc.py INPUT.md OUTPUT.docx "Title" "Subtitle" ["ident", ...] [--linebreaks] [--centered] [--logo PNG] [--email X] [--phone X] [--pdf]
 """
 import json, re, subprocess, sys, os
 
@@ -82,10 +82,13 @@ def convert(path, linebreaks=False):
                 skip = True
                 continue
             skip = False
-            if len(h.group(1)) == 1:
+            lvl = len(h.group(1))
+            if lvl == 1:
                 body.append({"h1": text})
-            else:
+            elif lvl == 2:
                 body.append({"h2": text})
+            else:
+                body.append({"h3": text})
             continue
         if skip:
             continue
@@ -156,8 +159,9 @@ def main():
         if isinstance(x, dict): return {k: fill(v) for k, v in x.items()}
         return x
     logo = sys.argv[sys.argv.index("--logo") + 1] if "--logo" in sys.argv else None
+    masthead = "centered" if "--centered" in sys.argv else "side"
     spec = {"title": title, "subtitle": subtitle, "ident": fill(ident),
-            "double_spaced": False, "logo": logo,
+            "double_spaced": False, "logo": logo, "masthead": masthead,
             "logo_alt": "The Reference Mark, Yasir A. Malik's personal mark",
             "tables": fill(clean(tables)), "body": fill(clean(body))}
     tmp = out + ".json"

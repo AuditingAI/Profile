@@ -216,12 +216,47 @@ def build(spec, out):
         st.paragraph_format.space_before = Pt(14)
         st.paragraph_format.space_after = Pt(6)
     _font(doc.styles['List Bullet'], size=size)
+    _font(doc.styles['Heading 3'], size=size, bold=True)
 
     # ---- masthead with a personal mark, when the spec carries one --------
     # A two-cell table with no borders: the mark on the left, the name and
     # byline on the right. Used for the academic set, never for coursework,
     # which carries the university's identity instead.
-    if spec.get("logo"):
+    if spec.get("logo") and spec.get("masthead") == "centered":
+        # The executive-résumé layout Yasir chose: mark centred above the
+        # name, name in spaced capitals, a one-line title strip, a one-line
+        # contact strip, and section heads in spaced capitals over a rule.
+        lp = doc.add_paragraph(); lp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        lp.paragraph_format.space_after = Pt(2)
+        pic = lp.add_run().add_picture(spec["logo"], width=Inches(spec.get("logo_in", 0.42)))
+        _alt(pic, spec.get("logo_alt", "Personal mark"))
+        np_ = doc.add_paragraph(); np_.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        np_.paragraph_format.space_after = Pt(2)
+        r = np_.add_run(spec["title"].upper()); _font(r, size=size + 9, bold=False)
+        r.font.all_caps = True
+        r._element.get_or_add_rPr().append(OxmlElement('w:spacing'))
+        r._element.rPr.find(qn('w:spacing')).set(qn('w:val'), '60')
+        if spec.get("subtitle"):
+            sp = doc.add_paragraph(); sp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            sp.paragraph_format.space_after = Pt(2)
+            _font(sp.add_run(spec["subtitle"]), size=size - 0.5)
+        for line in spec.get("ident", []):
+            ip = doc.add_paragraph(); ip.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            ip.paragraph_format.space_after = Pt(1); ip.paragraph_format.line_spacing = 1.0
+            _segs(ip, line.replace(" · ", "  \u2022  "), size=size - 1)
+        doc.add_paragraph().paragraph_format.space_after = Pt(2)
+        # section heads: spaced capitals over a hairline
+        h2 = doc.styles['Heading 2']
+        h2.font.all_caps = True
+        pPr = h2.element.get_or_add_pPr()
+        bdr = OxmlElement('w:pBdr'); bot = OxmlElement('w:bottom')
+        for k, v in (('w:val', 'single'), ('w:sz', '6'), ('w:space', '2'), ('w:color', '1A1A1A')):
+            bot.set(qn(k), v)
+        bdr.append(bot); pPr.append(bdr)
+        rPr = h2.element.get_or_add_rPr()
+        spc = OxmlElement('w:spacing'); spc.set(qn('w:val'), '40'); rPr.append(spc)
+        spec = dict(spec, title=None, subtitle=None, ident=[])
+    elif spec.get("logo"):
         mt = doc.add_table(rows=1, cols=2)
         mt.autofit = False
         lc, rc = mt.rows[0].cells
@@ -294,6 +329,10 @@ def build(spec, out):
             elif isinstance(it, dict) and "h2" in it:
                 p = doc.add_paragraph(it["h2"], style='Heading 2')
                 for r in p.runs: _font(r, size=size + 1, bold=True)
+            elif isinstance(it, dict) and "h3" in it:
+                p = doc.add_paragraph(style='Heading 3')
+                p.paragraph_format.space_before = Pt(6); p.paragraph_format.space_after = Pt(2)
+                _font(p.add_run(it["h3"]), size=size, bold=True)
             elif isinstance(it, dict) and "bullet" in it:
                 p = doc.add_paragraph(style='List Bullet')
                 p.paragraph_format.line_spacing = ls
