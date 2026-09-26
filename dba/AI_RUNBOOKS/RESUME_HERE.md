@@ -22,7 +22,7 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 |---|---|---|
 | Academic job sweep 26 Sep | Ten rows scored; Rutgers, Monmouth, Columbia register are the live ones | `career/academic/ACADEMIC_TRACK_2026-09-26.md` |
 | Rutgers adjunct, posting 26FA0291 | Packet built: CV, cover letter, research and teaching statements. **Not submitted** | `career/academic/`, `career/academic/letters/Rutgers_C_Adjunct_Fall2026.md` |
-| Two CV items blocking submission | **RBS Dubai job title** (two versions exist) and **conferral term** (January or summer 2028) | `career/academic/ACADEMIC_CV_v2.md`, search `[VERIFY` |
+| Two CV items blocking submission | **conferral term** (January or summer 2028). RBS title settled: Senior Business Analyst, Retail Credit Risk | `career/academic/ACADEMIC_CV_v2.md`, search `[VERIFY` |
 | Reference, Prof. Newburry | Agreed 24 Sep. Request drafted for the FIU mailbox | `letters/EMAIL_Newburry_Reference_Request.md` |
 | Reference, Dr. Rey | Agreed. Request plus letter of intent drafted | `letters/EMAIL_Rey_Reference_Request.md` |
 | GEB 7911 proposal | Paper and one-slide poster due **5 October**. Poster draft built | `dba/coursework/GEB7911_Qualitative_Research_Methods/` |

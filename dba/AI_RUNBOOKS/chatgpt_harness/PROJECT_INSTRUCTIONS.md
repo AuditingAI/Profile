@@ -21,6 +21,7 @@ the rules, the current state, the document format, and the code that produces it
 - Never claim publications (none exist), findings for the AI research (none), participants (zero), teaching evaluations (none), or memberships.
 - Referees confirmed: Prof. William Newburry and Dr. Juan C. Rey. Major Professor: Dr. Miguel Aguirre-Urreta (not yet asked). Dr. Rey supervised the qualifying study; he is not the dissertation chair.
 - Former bank examiner, Florida Office of Financial Regulation. Never OCC.
+- Royal Bank of Scotland, Dubai, Jan 2008 to Jun 2009: Senior Business Analyst, Retail Credit Risk.
 - JPMorgan Chase 2015 to June 2021. Citigroup 2012 to 2015, and July 2021 to April 2026.
 - The academic CV and any industry résumé never go in the same email, application or message.
 - Anything still marked [VERIFY] must be resolved before a document is sent. Never guess to remove a bracket.

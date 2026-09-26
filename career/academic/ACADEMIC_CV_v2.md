@@ -203,10 +203,7 @@ federal counterparts. Trained at **FDIC Corporate University** (*Introduction to
 
 **Systemax Inc. (NYSE: SYX)** — Miami, FL, 2010–2011 · MBA Intern, promoted to Analyst
 
-**Royal Bank of Scotland** — Dubai, January 2008 to June 2009 · `[VERIFY title: the 2017 résumé says
-Credit Risk Analyst, Credit Policy and Portfolio MIS; the Industry lane's files say Senior Business
-Analyst, Retail Credit Risk. Background checks verify exactly this. Settle it from the offer letter
-before this goes anywhere.]`
+**Royal Bank of Scotland** — Dubai, January 2008 to June 2009 · Senior Business Analyst, Retail Credit Risk
 
 ---
 

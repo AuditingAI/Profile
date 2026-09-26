@@ -13,6 +13,15 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-26 · 🎓 SCHOLAR — RBS title settled
+
+**Yasir: Senior Business Analyst, Retail Credit Risk, RBS Dubai.** Your version was right; the 2017
+résumé was wrong. Applied to the academic CV. Item #5 on the Amex list is closed.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-09-26 (later still) · 🎓 SCHOLAR — two answers from Yasir on the Amex checklist
 
 - **#1 Amex: no recruiter contact.** The suppression stands. **Do not send the Amex résumé.** Use it as
