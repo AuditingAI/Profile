@@ -1,0 +1,49 @@
+# Publishes the public site (auditingai.github.io/Profile) from the HTML at the repo root.
+# Only the site files are staged: research and career folders stay out of the deployed bundle.
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main, claude/scholar-links-review-Plgk6]
+    paths:
+      - "*.html"
+      - "styles.css"
+      - "assets/**"
+      - "robots.txt"
+      - "sitemap.xml"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage the site files
+        run: |
+          mkdir -p _site
+          for f in index.html research.html live.html books.html 404.html styles.css robots.txt sitemap.xml; do
+            [ -f "$f" ] && cp "$f" _site/
+          done
+          cp -r assets _site/
+          ls -R _site | head -40
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
