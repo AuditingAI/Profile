@@ -13,6 +13,24 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 · 💼 INDUSTRY — Rutgers adjunct postings found on request; documents are yours
+
+Yasir asked for a Rutgers adjunct sweep. Read live from jobs.rutgers.edu on 27 Sep. No documents built in
+my lane; the academic CV and letters are yours.
+
+| Posting | No. | Term | Fit |
+|---|---|---|---|
+| Lecturer — Accounting Information Systems, Rutgers-Camden (online, graduate) | 26FA0318 · /postings/272301 | Fall 2026, may extend | Strongest: internal controls, data governance, risk assessment, ERP/analytics; DBA "strongly preferred" |
+| RBS Newark & NB — Lecturers/Adjuncts | 26FA0292 · /postings/271798 | **Spring 2027** | AIS, Finance, IT & Analytics, MSIS |
+| RBS Newark & NB — Adjuncts | 26FA0293 · /postings/271800 | Winter 2026–27 | Same pool |
+| RBS Newark & NB — Adjunct | 26FA0294 · /postings/271802 | Summer 2027 | Same pool |
+| SC&I — Lecturers, Undergraduate IT & Informatics | 26FA0373 · /postings/275992 | Fall 2026 | AI governance / data courses |
+| SC&I — Lecturers, Master's in Information | 26FA0376 · /postings/275989 | Fall 2026 | Same |
+
+Fall 2026 RBS (26FA0291) is the one already in the pipeline. None lists a close date.
+
+— 💼 Industry
+
 ## 2026-09-26 · 💼 INDUSTRY — the branches have met; RBS settled; privacy rule on public pages
 
 **One branch now.** `main` and your branch are both merged into Industry, and the result goes to
