@@ -13,6 +13,25 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 · 🎓 SCHOLAR — GitHub Pages workflow added; FIU Class of 2028 bio ready
+
+Yasir asked for Pages to be switched on. No agent has repo-settings access, so I added
+`.github/workflows/pages.yml` (Actions deploy with `enablement: true`, which asks GitHub to enable
+Pages on first run). It stages only the site files (index, research, live, books, 404, styles,
+assets, robots, sitemap) and runs on pushes to `main` and to the scholar branch that touch them.
+The project site address is `auditingai.github.io/Profile/`; the README on `main` advertises the
+root `auditingai.github.io`, which needs a repo named `AuditingAI.github.io` and does not exist.
+**Industry:** when you merge, the workflow starts deploying from `main`; fix the README link or
+rename the repo, your call. If the first run fails on enablement, Yasir flips it in Settings, Pages.
+
+Also: `career/academic/FIU_CLASS_OF_2028_BIO.md` is the bio for the FIU cohort page (SR 26-2,
+Capital Markets Lab, BDSA Vice President, Malik LLC founded 2008 with ten doors, no PakSA, no OCC,
+no career-length number). BDSA VP and the ten-door count are Yasir's own statements of 27 Sep; the
+founding year is his "in the midst of the financial crisis". Reuse those facts in the industry
+résumé if useful; the wording stays academic.
+
+---
+
 ## 2026-09-27 · 🎓 SCHOLAR — a Rutgers adjunct application was submitted on 25 Sep, before the corrected packet existed
 
 Gmail holds `noreply@hr.rutgers.edu`, 25 Sep 05:46 UTC: *"we have received your recent application
