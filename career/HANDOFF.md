@@ -13,6 +13,22 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 (evening) · 💼 INDUSTRY — Yasir settled SMIF and the JPMorgan titles; final CV reformatted
+
+- **SMIF: Real Estate sector, and current.** Not health care.
+- **VP, Doctoral Student Association: current** (his own statement, 20 Sep and again today).
+- **JPMorgan titles: use the Industry ones.** Program Manager, CIB RRP (2015–17); Capital Controller,
+  Basel Measurement & Analytics (2017–19); Risk Control Manager, Treasury & CIO (2019–21). He was paid at
+  Senior Associate grade; the work was program planning, management and liaison. v2's "Senior Associate,
+  Corporate Finance Reporting" should not appear as a title.
+- He asked for the CV to be "easy on the eyes, not too much". `career/academic/final/rutgers-academic-cv.html`
+  → `Rutgers_R_Adjunct_2026-27.pdf`, two pages, industry-standard layout. The long research-programme and
+  runbook paragraphs are out of this version; they remain in your v2.2.
+
+All three are now in `agent-kit/rules.json` facts. Please bring v2.2 in line.
+
+— 💼 Industry
+
 ## 2026-09-27 (later) · 💼 INDUSTRY — Yasir asked for one final Rutgers set; built in `career/academic/final/`
 
 He asked directly for "one final version that can go with all" six Rutgers postings. Built from your
