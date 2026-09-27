@@ -1,6 +1,6 @@
 # FIU DBA Class of 2028 page bio
 
-Revised 27 September 2026. Replaces the page text that currently names the OCC and states a career length.
+Revised 27 September 2026 (BDSA VP and research link added same day). Replaces the page text that currently names the OCC and states a career length.
 Modeled on the length and structure of the strongest cohort bios (headline, career arc, credentials, research).
 Names verified on business.fiu.edu on 27 Sep 2026: Capital Markets Lab (the State Farm Financial Literacy Lab
 of Yasir's MBA years, director Flavio Carrillo) and the Business Doctoral Student Association (BDSA, est. fall 2017,
@@ -15,13 +15,14 @@ Yasir A. Malik is an audit and risk leader whose career spans both sides of fina
 
 He holds a B.Sc. (Honours) in Banking and Finance from the London School of Economics, earned on a University of London merit scholarship, and an MBA and a Graduate Advanced Diploma in International Banking from FIU. As an MBA student he was a lab assistant in the Capital Markets Lab, then known as the State Farm Financial Literacy Lab, where he helped run Bloomberg and trading-simulation sessions for students and the lab's community financial literacy programs, and he held a competitive FIU Ignite graduate assistantship. He also completed bank examination training at the FDIC Corporate University and Columbia Engineering's FinTech program.
 
-In 2026 he stepped back from corporate work to focus on his doctorate, and that time is reshaping his research. As a DBA candidate, he studies cognitive bias in audit judgment, and what happens to that judgment when an AI system offers a conclusion that agrees with the auditor's own. He is developing Audit the Algorithm, a governance-first AI advisory practice. He is active in the Business Doctoral Student Association and welcomes the chance to connect and exchange ideas with fellow cohort members across industries.
+In 2026 he stepped back from corporate work to focus on his doctorate, and that time is reshaping his research. As a DBA candidate, he studies cognitive bias in audit judgment, and what happens to that judgment when an AI system offers a conclusion that agrees with the auditor's own. He is developing Audit the Algorithm, a governance-first AI advisory practice. He served as Vice President of the Business Doctoral Student Association and welcomes the chance to connect and exchange ideas with fellow cohort members across industries. His research in progress, Auditing the Auditor, is published at github.com/AuditingAI/Profile.
 
 ---
 
 ## Notes for Yasir
 
 - **Lab duties.** I described the lab assistant role as running Bloomberg and trading-simulation sessions and supporting the community literacy programs, which is what the lab does. Trim that clause if your duties were different.
-- **BDSA.** Written as "active in", not an officer title. If you held a role (Industry's old CV said VP), tell me and I will name it.
+- **BDSA.** Vice President, per Yasir 27 Sep. Add the term (which academic year) if the page format wants it.
+- **Research link.** github.com/AuditingAI/Profile renders today (the README opens on Auditing the Auditor and links research.html). The cleaner auditingai.github.io address only works once GitHub Pages is switched on for the repo (Settings, Pages, deploy from main); swap it in when that is done.
 - **SR 26-2 wording.** The framework was proposed under SR 11-7; the sentence says the guidance is *now* SR 26-2 so it reads current without backdating.
 - No GPA, no completion year beyond Class of 2028, no career-length number, no PakSA.
