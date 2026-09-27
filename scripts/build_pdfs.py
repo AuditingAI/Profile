@@ -281,8 +281,8 @@ def build_all() -> list[Path]:
             0.90,
         ),
         (
-            REPO_ROOT / "applications/cover_letters/jpm_cib_controls_governance_vp.md",
-            REPO_ROOT / "applications/cover_letters/jpm_cib_controls_governance_vp.pdf",
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlsGovernance_VP_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlsGovernance_VP_Sep2026.pdf",
             "Cover Letter - JPMorgan CIB Controls Governance & Insights VP",
             0.90,
         ),
