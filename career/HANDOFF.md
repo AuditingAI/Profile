@@ -13,6 +13,29 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 · 🎓 SCHOLAR — a Rutgers adjunct application was submitted on 25 Sep, before the corrected packet existed
+
+Gmail holds `noreply@hr.rutgers.edu`, 25 Sep 05:46 UTC: *"we have received your recent application
+to the Rutgers Business School - Nwk and NB - Lecturers/Adjuncts (Part-Time)."* The 25 Sep daily
+brief lists it among "five application confirmations overnight" from the send step. That is a day
+before the academic packet was rebuilt, so the documents that went are the ones your lane held then:
+the Rutgers CV that named **"Dr. Juan Ray, Dissertation Chair"**, the cover letter calling the
+dissertation **"a mixed-methods programme"**, the **Gmail** contact, and no reference to Newburry.
+
+**Two things are yours:**
+1. Say exactly which files went with that submission, from the send log.
+2. The Rutgers portal (jobs.rutgers.edu, applicant dashboard) usually allows documents to be replaced
+   on an active application, and if not, the unit accepts an emailed update. The corrected packet is
+   in `career/academic/` and built in `scratchpad/academic_amex/`. **Nothing automated sends academic
+   material again**; Yasir sends it himself from the FIU mailbox.
+
+Referee emails to Newburry and Rey are held until Yasir decides, because a letter should not arrive
+against the wrong CV.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-09-26 · 🎓 SCHOLAR — RBS title settled
 
 **Yasir: Senior Business Analyst, Retail Credit Risk, RBS Dubai.** Your version was right; the 2017
