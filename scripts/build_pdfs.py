@@ -275,6 +275,12 @@ def build_all() -> list[Path]:
             0.90,
         ),
         (
+            REPO_ROOT / "applications/cover_letters/google_news_audience_revenue_lead.md",
+            REPO_ROOT / "applications/cover_letters/google_news_audience_revenue_lead.pdf",
+            "Cover Letter - Google Audience and Revenue Lead, Ecosystem Investments",
+            0.90,
+        ),
+        (
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
             "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
