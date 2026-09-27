@@ -3,7 +3,7 @@
 **Doctoral Candidate (DBA) · Auditing, Behavioural Accounting & AI Governance**
 Newark, New Jersey · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik
 
-*v2.2 — 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
+*v2.3, 27 September 2026: SR 26-2, Capital Markets Lab, BDSA Vice President, Malik LLC, guest lecture; PakSA removed. v2.2, 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
 Contact fields are placeholders because this repo is public — fill at send time.
 **Do not send until the `[VERIFY]` items are resolved.** See the note at the end.*
 
@@ -13,7 +13,7 @@ Contact fields are placeholders because this repo is public — fill at send tim
 
 Cognitive bias in professional judgment · anchoring and adjustment in recurring audit engagements ·
 automation bias and human–AI interaction in assurance work · survey methodology and access to
-specialist professional populations · AI governance frameworks (NIST AI RMF, SR 11-7).
+specialist professional populations · AI governance frameworks (NIST AI RMF, SR 26-2).
 
 ---
 
@@ -131,12 +131,10 @@ institutional AI-use policy compliance and disclosure · reproducible pipelines 
 
 ### Florida International University — graduate appointments, 2010–2011
 
-**State Farm Financial Literacy Lab — Lab Assistant**
+**Capital Markets Lab (then the State Farm Financial Literacy Lab) — Lab Assistant**
 College of Business. Delivered financial-literacy instruction and lab-based support, working with
-participants on applied markets and personal-finance content. The lab was endowed by State Farm in
-2010 and carried that name through this period; FIU's College of Business now lists a Capital
-Markets Lab in the same programme area. `[VERIFY: whether to name the lab as it stands today. If a
-reader looks it up, the current listing is what they will find.]`
+participants on applied markets and personal-finance content, including Bloomberg and
+trading-simulation sessions and the lab's community financial-literacy programmes.
 
 **Student-Athlete Academic Center (SAAC) — Resident Tutor, Corporate Finance and Accounting**
 Paid tutoring appointment supporting student-athletes in corporate finance and accounting. Managed
@@ -182,7 +180,7 @@ for non-specialist audiences.
 
 ## Academic Service and Leadership
 
-- **President, Pakistani Student Association (PakSA)**, Florida International University, 2010
+- **Vice President, Business Doctoral Student Association**, Florida International University
 - **FIU Ignite — 100% Graduate Assistantship**, 2011 (competitive award)
 
 ---
@@ -200,7 +198,8 @@ Assistant Vice President, Global Legal Entity Management, Office of the Chief Ac
 Senior Consultant, U.S. Regulatory Reporting. Later VP Audit Manager — thematic audits across 15+
 business units with reporting to the Board Audit Committee; designed and deployed a
 retrieval-augmented AI review assistant that reduced review cycle time by approximately 35%; authored
-an AI governance framework proposal referencing the NIST AI Risk Management Framework and SR 11-7.
+an AI governance framework proposal referencing the NIST AI Risk Management Framework and federal
+model risk guidance, now SR 26-2.
 
 **Florida Office of Financial Regulation** — West Palm Beach, FL, 2011–2012
 **Bank Examiner, Bureau of Bank Regulation (District II).** Safety-and-soundness examinations of
@@ -216,6 +215,16 @@ federal counterparts. Trained at **FDIC Corporate University** (*Introduction to
 **Systemax Inc. (NYSE: SYX)** — Miami, FL, 2010–2011 · MBA Intern, promoted to Analyst
 
 **Royal Bank of Scotland** — Dubai, January 2008 to June 2009 · Senior Business Analyst, Retail Credit Risk
+
+---
+
+## Entrepreneurship
+
+**Malik LLC** — Founder and Principal, 2008 to present `[VERIFY: founding year. Yasir: "in the midst
+of the financial crisis". Industry's Rutgers CV of 27 Sep says 2010. One year, everywhere.]`
+Founded during the financial crisis and grown to ten residential rental units, primarily in Florida.
+Sources and underwrites each acquisition, manages renovation, permitting and leasing, and runs a
+remote operations team alongside a full-time banking career.
 
 ---
 
