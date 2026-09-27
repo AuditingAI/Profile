@@ -281,6 +281,12 @@ def build_all() -> list[Path]:
             0.90,
         ),
         (
+            REPO_ROOT / "applications/cover_letters/jpm_cib_controls_governance_vp.md",
+            REPO_ROOT / "applications/cover_letters/jpm_cib_controls_governance_vp.pdf",
+            "Cover Letter - JPMorgan CIB Controls Governance & Insights VP",
+            0.90,
+        ),
+        (
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
             "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
