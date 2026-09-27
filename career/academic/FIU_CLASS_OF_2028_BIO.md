@@ -29,5 +29,5 @@ In 2026, Yasir stepped back from corporate work to focus on his doctorate, and t
 - **Research link.** github.com/AuditingAI/Profile renders today (the README opens on Auditing the Auditor and links research.html). The cleaner auditingai.github.io address only works once GitHub Pages is switched on for the repo (Settings, Pages, deploy from main); swap it in when that is done.
 - **SR 26-2 wording.** The framework was proposed under SR 11-7; the sentence says the guidance is *now* SR 26-2 so it reads current without backdating.
 - **Name.** Full name once, then "Yasir", per his 27 Sep instruction. LinkedIn handle is the one on the academic CV.
-- **Guest lecture.** Dr. Kundu's IMBA class, September 2025, from the Canva deck. Exact date to confirm.
+- **Guest lecture.** Dr. Kundu's IMBA class, 4 September 2025, confirmed by the email thread Yasir shared on 27 Sep.
 - No GPA, no completion year beyond Class of 2028, no career-length number, no PakSA.

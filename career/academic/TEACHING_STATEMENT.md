@@ -46,9 +46,11 @@ sets, case question sets, assignment solution keys for interest-rate parity and 
 arbitrage, and comprehensive final examination sets — the kind of material a teaching assistant
 retains, not a student.
 
-The most recent evidence is from September 2025, when Dr. Sumit Kundu invited me back to FIU to
+The most recent evidence is from 4 September 2025, when Dr. Sumit Kundu invited me back to FIU to
 guest-lecture his International MBA class on AI, culture and the political economy, together with a
-fellow doctoral candidate. We built the session around a question the students could act on, how
+fellow doctoral student. When I sent him the outline, he asked us to widen it to climate change,
+demographic shifts, water scarcity, the digital economy and Industry 4.0, and we rebuilt the session
+around those five forces. We built the session around a question the students could act on, how
 culture changes what "trustworthy AI" means from one market to the next, and closed with a live
 demonstration rather than a summary slide, so the class left having watched a cross-cultural
 sentiment analysis run in front of them and argued about what it got wrong. That is how I want every

@@ -155,13 +155,15 @@ than enrolment alone.
 
 ### Invited talks and guest lectures
 
-**Guest lecturer, International MBA, FIU College of Business, September 2025.** *AI, Culture, and the
+**Guest lecturer, International MBA, FIU College of Business, 4 September 2025.** *AI, Culture, and the
 Political Economy: Teaching You to Fish in the AI Ocean.* Invited by Dr. Sumit K. Kundu, Professor of
-International Business. Co-presented with Eustache Dupervil (FIU DBA candidate). Covered how culture
+International Business. Lead presenter; co-presented with Eustache Dupervil (FIU doctoral student). One-hour session with Q&A,
+widened at Dr. Kundu's request to cover climate change, demographic shifts, water scarcity, the digital
+economy and Industry 4.0 alongside AI. Covered how culture
 shapes AI trust and adoption across regions, the four risk fronts for cross-border AI (data privacy,
 ethical decision-making, job displacement, divergent regulation), the opportunity case in customer
 engagement, operations, product and market entry, five forces reshaping global business, and a live
-cross-cultural sentiment-analysis demonstration. `[VERIFY: exact session date and course code]`
+cross-cultural sentiment-analysis demonstration.
 
 ### Prepared to teach
 

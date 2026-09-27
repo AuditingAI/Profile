@@ -1,9 +1,32 @@
 # Guest lecture, FIU International MBA, September 2025
 
-Record of the talk and the places it is now marketed. Source: the Canva deck "IMBA Presentation - AI,
-Culture, & the Political Economy" (8 slides, created 1 Sep 2025; Canva logged an outside visitor on the
-public view link on 7 Sep 2025). Exact session date and the course code are not in the deck or in the
-mailbox. `[VERIFY with Yasir or Dr. Kundu's syllabus]`
+Record of the talk and the places it is now marketed. Sources: the Canva deck "IMBA Presentation - AI,
+Culture, & the Political Economy" (8 slides) and the FIU email thread with Dr. Kundu, 30 Aug to 4 Sep
+2025, which Yasir pasted on 27 Sep 2026. Contact details from that thread are deliberately not
+recorded here; the repository is public.
+
+## How it came about
+
+- 30 Aug 2025: Dr. Kundu confirmed the session; Yasir sent the outline, *AI, Culture, and the Political
+  Economy of International Business: Risks and Opportunities*, and asked for his direction.
+- Same evening: Dr. Kundu asked that the talk also cover climate change, demographic shifts, water
+  shortage, the digital economy and Industry 4.0, framed around MNCs in the global North and South
+  navigating Latin America, Asia Pacific, the Middle East and Africa.
+- 1 Sep: Yasir folded those in and introduced Eustache as co-presenter.
+- 3 Sep: Dr. Kundu on the final deck: the content was "excellent".
+- 4 Sep: session delivered. Eustache's thank-you (Yasir cc'd) offered further guest lectures,
+  workshops and collaborative research.
+- 4 Sep, evening: Dr. Kundu's reply called the session a profound experience for his IMBA students and
+  said there will be future occasions at FIU to draw on their expertise on AI.
+
+**Who Dr. Kundu is, for context:** James K. Batten Eminent Scholar Chair in International Business,
+Associate Dean for International Programs and Partnerships, Director of FIU's Center for International
+Business Education and Research (CIBER), Fellow of the Academy of International Business. He is also an
+author on Contractor, Kundu & Hsu (2003), which Yasir presented in GEB 7365 on 27 Aug 2026. He is the
+most senior international-business voice at FIU to have seen Yasir teach, and his note is an open door.
+
+**Quoting him:** his thank-you is a private email. Ask his permission before quoting it in public (on
+LinkedIn or the site). Paraphrase is fine; "invited by Dr. Sumit K. Kundu" is fine.
 
 ## The facts
 
@@ -12,8 +35,8 @@ mailbox. `[VERIFY with Yasir or Dr. Kundu's syllabus]`
 | Title | *AI, Culture, & the Political Economy: Teaching You to Fish in the AI Ocean* |
 | Host | Dr. Sumit K. Kundu, Professor of International Business, FIU College of Business |
 | Audience | FIU International MBA class |
-| When | September 2025 |
-| Presenters | Yasir A. Malik (lead) and Eustache Dupervil (FIU DBA candidate) |
+| When | Thursday 4 September 2025, 1:35 to 2:35 pm, one hour including Q&A |
+| Presenters | Yasir A. Malik (lead, in the room) and Eustache Dupervil (FIU doctoral student, joined online) |
 | Format | Eight slides, a live cross-cultural sentiment-analysis demonstration, Q&A |
 
 Slide outline: welcome and introductions; AI literacy journey 2023 to 2026; four risk fronts for
@@ -38,8 +61,10 @@ sourced to the standard the CV or the research record requires.
 
 ## LinkedIn post, draft for Yasir to rewrite in his own voice
 
-> Last September Dr. Sumit Kundu invited me back to FIU to guest-lecture his International MBA class
-> on AI, culture and the political economy, alongside my DBA colleague Eustache Dupervil.
+> A year ago this month, Dr. Sumit Kundu invited me back to FIU to guest-lecture his International MBA
+> class on AI, culture and the political economy, alongside my doctoral colleague Eustache Dupervil.
+> When I sent him the outline, he pushed us to go wider: climate, demographics, water, the digital
+> economy and Industry 4.0. The talk was better for it.
 >
 > The question we put to the room: does "trustworthy AI" mean the same thing in São Paulo, Singapore,
 > Dubai and Lagos? It does not. Transparency reads as openness in one market and as control in
