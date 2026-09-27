@@ -269,6 +269,12 @@ def build_all() -> list[Path]:
             0.86,
         ),
         (
+            REPO_ROOT / "applications/cover_letters/google_risk_audit_governance_pm.md",
+            REPO_ROOT / "applications/cover_letters/google_risk_audit_governance_pm.pdf",
+            "Cover Letter - Google Risk and Audit Governance Program Manager",
+            0.90,
+        ),
+        (
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
             "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
