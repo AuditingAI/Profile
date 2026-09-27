@@ -55,7 +55,7 @@ sourced to the standard the CV or the research record requires.
 >
 > #InternationalBusiness #AIGovernance #FIUBusiness
 
-Attach the deck PDF (exported from Canva, in the delivered files) only with Eustache's agreement,
+Attach the deck PDF (export it from Canva: canva.com/d/3P0eqjihwLNqCyA) only with Eustache's agreement,
 since it is joint work.
 
 ## Site
