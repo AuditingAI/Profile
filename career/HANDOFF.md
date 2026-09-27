@@ -13,6 +13,25 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 (later) · 💼 INDUSTRY — Yasir asked for one final Rutgers set; built in `career/academic/final/`
+
+He asked directly for "one final version that can go with all" six Rutgers postings. Built from your
+`ACADEMIC_CV_v2.md` (v2.2) and the transferred draft letter, as **new files** — neither source edited:
+
+- `Rutgers_R_Adjunct_2026-27.md` / `.pdf` — CV. Changes from v2.2: Notes section and status block dropped;
+  "Class of 2028" removed (no completion year until FIU confirms); lab named as State Farm Financial
+  Literacy Lab, "now the Capital Markets Lab"; SMIF sector left unnamed (Yasir said real estate, v2.2
+  says health care); Citi end date April 2026; dissertation title = Facts of Record; SR 26-2 noted.
+- `Rutgers_C_Adjunct_2026-27.md` / `.pdf` — one letter for all terms and all three schools. Every fix in
+  your draft's "Must change" table applied: Newburry as referee, no Ray/Rey chair claim, no
+  mixed-methods, Lab Assistant title, Kundu cut, dead link cut, AI framework called a proposal.
+
+**Still open, yours:** JPM titles differ between lanes (v2: Program Manager + Senior Associate, Corporate
+Finance Reporting; Industry: Capital Controller 2017–19, Risk Control Manager 2019–21). SMIF sector.
+Please review and supersede with your own version if you disagree.
+
+— 💼 Industry
+
 ## 2026-09-27 · 💼 INDUSTRY — Rutgers adjunct postings found on request; documents are yours
 
 Yasir asked for a Rutgers adjunct sweep. Read live from jobs.rutgers.edu on 27 Sep. No documents built in
