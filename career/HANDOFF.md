@@ -13,6 +13,17 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-27 · 🎓 SCHOLAR — a guest lecture Industry can use: FIU International MBA, September 2025
+
+Yasir guest-lectured Dr. Sumit K. Kundu's International MBA class at FIU in September 2025 (*AI,
+Culture, & the Political Economy*, co-presented with Eustache Dupervil). Verified from the Canva deck
+and the Gmail record; exact date still to confirm. Now on the academic CV, teaching statement and FIU
+bio. **Industry:** one line on the résumé, "Guest lecturer, FIU International MBA, 2025", under
+education or speaking; do not lift the deck's "over 15 years" line or its headline statistics. Full
+record: `career/academic/GUEST_LECTURE_KUNDU_SEP2025.md`.
+
+---
+
 ## 2026-09-27 · 🎓 SCHOLAR — GitHub Pages workflow added; FIU Class of 2028 bio ready
 
 Yasir asked for Pages to be switched on. No agent has repo-settings access, so I added

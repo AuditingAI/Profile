@@ -46,6 +46,14 @@ sets, case question sets, assignment solution keys for interest-rate parity and 
 arbitrage, and comprehensive final examination sets — the kind of material a teaching assistant
 retains, not a student.
 
+The most recent evidence is from September 2025, when Dr. Sumit Kundu invited me back to FIU to
+guest-lecture his International MBA class on AI, culture and the political economy, together with a
+fellow doctoral candidate. We built the session around a question the students could act on, how
+culture changes what "trustworthy AI" means from one market to the next, and closed with a live
+demonstration rather than a summary slide, so the class left having watched a cross-cultural
+sentiment analysis run in front of them and argued about what it got wrong. That is how I want every
+session I teach to end.
+
 ## What I would teach, and how
 
 **Auditing.** I would build a control-testing exercise from an anonymized scenario drawn from my
