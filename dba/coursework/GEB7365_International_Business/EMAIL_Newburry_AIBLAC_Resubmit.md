@@ -5,11 +5,11 @@
 
 ---
 
-**Subject:** AIB-LAC draft, revised, for your second look before Wednesday
+**Subject:** AIB-LAC draft, revised, for your second look before Tuesday
 
 Dear Professor Newburry,
 
-Thank you for reading the first draft over the weekend. As I said on Thursday, I wanted to run it past you once more before the portal closes on Wednesday, because the version you saw did not yet carry the four points from Saturday's session.
+Thank you for reading the first draft over the weekend. As I said on Thursday, I wanted to run it past you once more before the portal closes on Tuesday night, because the version you saw did not yet carry the four points from Saturday's session.
 
 This one does. The gap is framed as what the literature has focused on rather than what nobody has done. The level of analysis is stated in words. H1 says a frame leaves joint feasibility unchanged or lowers it, rather than "weakly decreases". And the citations sit in the sentences. It is blinded for the Interactive session, as you advised, since no data have been collected.
 
