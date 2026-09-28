@@ -199,6 +199,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "openai-security-program-manager.html": "Yasir_Malik_Resume_OpenAI_Security_PM.pdf",
     "jpm-cib-controls-governance-vp.html": "Yasir_Malik_Resume_JPM_CIB_ControlsGovernance_VP.pdf",
     "harvey-gtm-finance.html": "Yasir_Malik_Resume_Harvey_GTM_Finance.pdf",
+    "cnbfl-auditor-senior.html": "Yasir_Malik_Resume_CNBFL_AuditorSenior_Miami.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
