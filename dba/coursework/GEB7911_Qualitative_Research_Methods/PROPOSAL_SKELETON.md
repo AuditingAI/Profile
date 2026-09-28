@@ -134,7 +134,7 @@ route from what was observed to what is claimed visible on the page.
 
 ## Reflexivity — write this section early, not last
 
-I am an auditor of fifteen years studying auditors. That is an insider position and it cuts both
+I am a career auditor studying auditors. That is an insider position and it cuts both
 ways: access and interpretive fluency on one side, assumed shared meaning and unexamined framing on
 the other.
 

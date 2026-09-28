@@ -112,7 +112,7 @@ y += 11
 for lab, bd in [
   ("ONTOLOGICAL", "Multiple realities. Auditors' accounts of the experience are the data, not a proxy for one correct account."),
   ("EPISTEMOLOGICAL", "First-person accounts, gathered in semi-structured audio-recorded interviews and read in the participant's own words before coding."),
-  ("AXIOLOGICAL", "Fifteen years in audit and risk, and prior bank examination work. Insider access and insider bias at once. Every occasion of feeling confirmed is entered in a confirmation hazard log."),
+  ("AXIOLOGICAL", "A career in bank examination, regulatory reporting and internal audit, including building an AI review tool. Insider access and insider bias at once. Every occasion of feeling confirmed is entered in a confirmation hazard log."),
   ("METHODOLOGICAL", "Phenomenology. A phenomenon shared across individuals at different firms, with no single site to enter."),
 ]:
     txt(lab, X[1], y, MONOB, 7.0, AMBER, track=1.0)
