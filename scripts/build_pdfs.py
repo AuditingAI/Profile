@@ -293,6 +293,24 @@ def build_all() -> list[Path]:
             0.90,
         ),
         (
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlManagement_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlManagement_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase Control Management",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_BusinessMgmt_Transformation_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_BusinessMgmt_Transformation_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase Business Management & Transformation",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_AIGovernance_RegChange_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_AIGovernance_RegChange_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase AI Governance & Regulatory Change",
+            0.90,
+        ),
+        (
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
             "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
