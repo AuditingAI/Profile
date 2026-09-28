@@ -36,3 +36,28 @@ The Harzing reference still carries our internal note "[Volume and page numbers 
 It is published as Harzing, Reiche & Pudelko (**2013**), *European Journal of International
 Management*, 7(1): 112-134 (Inderscience, DOI 10.1504/EJIM.2013.052090). Every "(2012)" in the text
 becomes "(2013)". This must be fixed before upload.
+
+---
+
+## Revision 2 built, 28 Sep (`_templates/build_aiblac_v2.py`)
+
+All tracked changes accepted. Every comment answered; every added citation checked against a
+publisher or index record the same day.
+
+| # | Done |
+|---|---|
+| 19 | Clause replaced: "easy to miss in a literature that reports sampling as a limitation rather than modelling it as a constraint on the design" |
+| 20 | Parameter compared to an a priori power analysis (Cohen, 1988) |
+| 22, 30 | Page numbers taken from the PDFs: Lopez et al. p. 1236; Zeng et al. p. 1599 |
+| 31 | Geleilate et al. (2016), from its abstract: a meta-analysis of 170 studies; home-country institutions shape the relationship in contrasting ways for emerging- and developed-market multinationals |
+| 32 | H1 Baruch & Holtom (2008), Cycyota & Harrison (2006), Harzing et al. (2013) · H2 Ghemawat (2001) · H3 Knight & Cavusgil (2004) · H4 de Leeuw (2005) · H5 Newburry & Yakova (2006) |
+| 33 | "Based on the above logic, we hypothesize:" plus an italic formal statement at the end of each section |
+| 40 | Peterson, Arregle & Martin (2012); Raudenbush & Bryk (2002) |
+| 41 | Baruch & Holtom; Knight & Cavusgil; Robinson; Peterson et al.; de Leeuw; Newburry & Yakova tied to each contribution |
+| 42 | New section, "Why this matters for Latin America and the Caribbean", four paragraphs, before the managerial section |
+| Also | Harzing et al. is now 2013, 7(1): 112-134, in the text, in the table note and in the references. "Weakly" removed from the H1 logic paragraph and from Table 3, which now reads: "adding a frame weaker than the current minimum lowers it; adding any other frame leaves it unchanged". "The seminar" removed from the blinded text. Hofstede's publisher given as Sage, without Newburry's "Beverly Hills". The 2001 second edition was published in Thousand Oaks |
+
+**Lengths:** paper 6,583 words of text (7,749 including references and tables); extended abstract
+1,487 words including references. Blinding check: no name, no institution, no cohort.
+
+**Still to do:** carry the same changes into the course copy (Draft 3, due on Canvas 9 Oct).
