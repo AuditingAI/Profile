@@ -237,11 +237,11 @@ Research
 
 ## References
 
-**Prof. William Newburry**, Florida International University, College of Business — confirmed.
+**Prof. William Newburry**, Ryder Eminent Scholar of Global Business and Professor, Department of International Business, Florida International University — confirmed.
 The 24 September 2026 GEB 7365 minutes record his agreement to write in support of the Rutgers
 adjunct application; he asked for the CV and a draft paragraph. `[Send both from ymali001@fiu.edu.]`
 
-**Dr. Juan C. Rey**, Florida International University, College of Business — confirmed. Supervised
+**Dr. Juan C. Rey**, Assistant Teaching Professor, Department of International Business, Florida International University — confirmed. Supervised
 the qualifying study; assessed the treatment of its recruitment failure as demonstrating sound
 research judgment. `[Reference-request email drafted: letters/EMAIL_Rey_Reference_Request.md]`
 

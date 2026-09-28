@@ -10,7 +10,7 @@ Rutgers CV, which is superseded; "Vice President in internal audit at Citi, risk
 JPMorgan Chase" stays as Industry wrote it, since those are his lane's facts; and the dissertation is
 described as the quantitative study it is, with the qualitative proposal named separately.
 
-**Attach:** the academic CV, and the Rutgers cover letter as the letter of intent.
+**Attach:** Malik_Yasir_Academic_CV.pdf and Malik_Yasir_Cover_Letter_Rutgers_Camden_AIS.pdf (28 Sep builds).
 
 ---
 
@@ -21,7 +21,7 @@ Dear Professor Newburry,
 
 Thank you again for agreeing to write a reference for my adjunct application to Rutgers Business School. You asked for my CV and a short draft paragraph, so both are here. The CV is attached, and the draft is below in a form you can cut, rewrite or discard entirely. It is there to save you a blank page, not to put words in your mouth.
 
-The posting is Rutgers Business School, Newark and New Brunswick, Lecturer/Adjunct (Part-Time), posting 26FA0291. I am applying for the Fall 2026 pool and have asked to be considered for Spring and Fall 2027 as needs arise, aiming primarily at Accounting and Information Systems, with Finance and Economics and Management Science and Information Systems as alternatives. I have also attached the cover letter, which serves as my letter of intent.
+I am applying to several Rutgers postings this week. The strongest fit is Rutgers-Camden's Lecturer in Accounting Information Systems, an online graduate course (posting 26FA0318), and I am also in the Rutgers Business School lecturer pools for Newark and New Brunswick (26FA0291 for Fall 2026 and 26FA0292 for Spring 2027). The same letter would serve all of them. I have attached the Camden cover letter so you can see how I am presenting myself.
 
 **Draft, for you to change or discard**
 
@@ -32,8 +32,6 @@ He comes to the doctorate from a substantial practitioner career in internal aud
 I recommend him for adjunct teaching without reservation. He is organised, prepares thoroughly, and explains technical material clearly to people who do not share his background, which is what the classroom asks for.
 
 If any of that overstates what you observed, please cut it. A shorter letter in your own words is worth more than a longer one in mine.
-
-Two smaller things from the residency, so they are in one place: I will email Anna about the residency recording link and copy you, and I will revise the module write-up once your feedback arrives.
 
 With thanks,
 
