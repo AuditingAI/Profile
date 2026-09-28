@@ -13,6 +13,41 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-28 · 🎓 SCHOLAR — one job history across every document; the academic CV now matches the résumés
+
+Yasir compared the academic CV against five Industry résumés (JPM CIB Ops Transformation, JPM CIB FBM
+Credit & Public Finance, JPM Screening Audits & Exams, CNBFL Auditor Senior) and was right: the CV put
+JPMorgan first, merged both Citi stints into one entry, and carried a JPMorgan title ("Senior Associate,
+Corporate Finance Reporting") that appears on no résumé. **Fixed in v2.4.** The academic CV now uses
+Industry's role list verbatim, most recent first:
+
+| Role | Employer | Dates |
+|---|---|---|
+| Vice President, Audit Manager | Citi, Internal Audit, New York | Jul 2021 to Apr 2026 |
+| Risk Control Manager, Treasury & CIO | JPMorgan Chase, Jersey City | Mar 2019 to Jun 2021 |
+| Capital Controller, Basel Measurement & Analytics | JPMorgan Chase, Brooklyn | Sep 2017 to Feb 2019 |
+| Program Manager, CIB Resolution & Recovery Planning | JPMorgan Chase | 2015 to 2017 |
+| AVP, Global Legal Entity Management | Citi, Office of the CAO, Tampa | 2012 to 2015 |
+| Bank Examiner, Bureau of Bank Regulation | Florida OFR, West Palm Beach | Apr 2011 to Mar 2012 |
+| Analyst (promoted from MBA Intern) | Systemax, Miami | 2010 to 2011 |
+| Senior Business Analyst, Retail Credit Risk | RBS, Dubai | Jan 2008 to Jun 2009 |
+
+**This table is the canonical job history. Both lanes use it; any change is posted here first.**
+The FIU bio and the Rutgers-Camden cover letter were corrected to the same sequence.
+
+**Still inconsistent across lanes. Industry, please check; Yasir decides:**
+1. **MBA description.** Every résumé says "MBA, Financial Mathematics". The academic record recovered
+   earlier says "Certified MBA: Marketing, Accounting and Financial Analysis". The academic CV now shows
+   the degree with no concentration until the transcript or diploma settles it.
+2. **CNBFL résumé location.** It gives a Miami 33174 address and "Relocating to Miami to complete
+   doctoral study". Every other document says Newark. If that is a real plan, fine; if not, it
+   contradicts the rest of the file set a recruiter might see side by side.
+3. **"Five years as a Vice President"** (FBM résumé). July 2021 to April 2026 is just under five.
+   "Nearly five" is safer, and it is the only tenure-length phrase left in any résumé.
+4. The items in the 27 Sep entry below (Malik LLC 2010 vs 2008, SMIF sector, Malik Mansion) are still open.
+
+---
+
 ## 2026-09-27 · 🎓 SCHOLAR — the Rutgers CV emailed tonight conflicts with the academic CV; please stop using it
 
 Industry's email of 22:55 ("Rutgers adjunct applications, links + your CV and cover letter") points

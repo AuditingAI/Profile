@@ -3,7 +3,7 @@
 **Doctoral Candidate (DBA) · Auditing, Behavioural Accounting & AI Governance**
 Newark, New Jersey · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik
 
-*v2.3, 27 September 2026: SR 26-2, Capital Markets Lab, BDSA Vice President, Malik LLC, guest lecture; PakSA removed. v2.2, 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
+*v2.4, 28 September 2026: Professional Experience rebuilt to match the industry résumés role for role (Citi VP first, every title and date aligned). v2.3, 27 September 2026: SR 26-2, Capital Markets Lab, BDSA Vice President, Malik LLC, guest lecture; PakSA removed. v2.2, 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
 Contact fields are placeholders because this repo is public — fill at send time.
 **Do not send until the `[VERIFY]` items are resolved.** See the note at the end.*
 
@@ -23,12 +23,12 @@ specialist professional populations · AI governance frameworks (NIST AI RMF, SR
 Cohort 8.14 · *In progress* · **Qualifying examination passed, July 2026**
 Dissertation in development: *Automated anchoring, sycophantic confirmation, and recursive epistemic
 drift — how AI-assisted review reshapes auditor judgment.*
-Major Professor: Dr. Miguel Aguirre-Urreta · Qualifying-study supervisor: Dr. Juan C. Rey
+Major Professor: Dr. Miguel Aguirre-Urreta · Qualifying-study supervisor: Dr. Juan C. Rey.
 Class of 2028 `[VERIFY: the conferral term. January and summer are both in play; the cohort year is
 confirmed, the month is not. Enrollment verification pending with the Office of Doctoral Programs.]`
 
 **Master of Business Administration (MBA)** — Florida International University, October 2011
-Certified MBA: Marketing, Accounting and Financial Analysis (100%)
+Certified MBA: Marketing, Accounting and Financial Analysis (100%) `[VERIFY: the industry résumés say "MBA, Financial Mathematics". One description, everywhere. Transcript or diploma settles it.]`
 
 **Graduate Advanced Diploma, International Banking** — Florida International University, August 2007
 
@@ -171,7 +171,7 @@ Financial Markets · AI Governance and Responsible AI in Business · Data Analyt
 
 ### Professional instruction
 
-Staff training, supervision, and judgment coaching across two global banks, 2012 to date —
+Staff training, supervision, and judgment coaching across two global banks, 2012 to 2026 —
 workpaper review, methodology instruction, and structured feedback on judgment quality. Regular
 presenter to senior management and banking regulators, translating technical audit and AI material
 for non-specialist audiences.
@@ -187,34 +187,45 @@ for non-specialist audiences.
 
 ## Professional Experience
 
-**JPMorgan Chase & Co.** — New York, NY, 2015 to June 2021
-Program Manager, CIB Resolution and Recovery Planning — coordinated 50+ stakeholders across annual
-Dodd-Frank resolution-plan submissions to the Federal Reserve and FDIC. Senior Associate, Corporate
-Finance Reporting — firmwide risk reporting; Basel III RWA and capital adequacy; FR Y-14Q, FFIEC 101,
-Pillar 3; identified $180M in capital optimisation.
+**Vice President, Audit Manager** — Citi, Internal Audit, New York, NY · July 2021 to April 2026
+Cross-Enterprise Program and Change Management. Led risk-based audits across 15+ business units, from
+planning and walkthroughs through testing of control design and operating effectiveness to reporting;
+presented findings and systemic themes to executive management and the Board Audit Committee. Led
+consent-order remediation, authoring issue-closure evidence accepted by quality assurance and external
+regulators. Designed and deployed a retrieval-augmented AI review assistant that reduced review cycle
+time by approximately 35%, and wrote the AI governance framework proposal it ran under, referencing the
+NIST AI Risk Management Framework and federal model risk guidance, now SR 26-2. Coached 8+ auditors on
+testing methodology and responsible AI use.
 
-**Citigroup Inc.** — Tampa, FL and New York, NY, 2012–2015, and July 2021 to April 2026
-Assistant Vice President, Global Legal Entity Management, Office of the Chief Accounting Officer;
-Senior Consultant, U.S. Regulatory Reporting. Later VP Audit Manager — thematic audits across 15+
-business units with reporting to the Board Audit Committee; designed and deployed a
-retrieval-augmented AI review assistant that reduced review cycle time by approximately 35%; authored
-an AI governance framework proposal referencing the NIST AI Risk Management Framework and federal
-model risk guidance, now SR 26-2.
+**Risk Control Manager, Treasury and CIO** — JPMorgan Chase, Jersey City, NJ · March 2019 to June 2021
+Owned the first-line control framework for Treasury and CIO capital activities; led CCAR forecast
+validation over a $2.6T balance sheet; ran Resolution and Recovery Planning across 50+ stakeholders in
+five functions into Federal Reserve and FDIC submissions; automated reconciliations that cut manual
+review by about 40%.
 
-**Florida Office of Financial Regulation** — West Palm Beach, FL, 2011–2012
-**Bank Examiner, Bureau of Bank Regulation (District II).** Safety-and-soundness examinations of
-state-chartered community banks with up to $3B in total assets, conducted on a **joint and
-alternating basis with the Federal Deposit Insurance Corporation and the Federal Reserve Bank of
-Atlanta** under the federal–state supervisory programme. Assigned CAMELS component and composite
-ratings; assessed credit risk in the loan portfolio, interest-rate sensitivity, liquidity, and the
-adequacy of board-approved policies; presented findings to boards of directors and senior management
-and negotiated corrective programmes. Prepared and exchanged confidential supervisory reports with
-federal counterparts. Trained at **FDIC Corporate University** (*Introduction to Bank Examinations*,
-2012).
+**Capital Controller, Basel Measurement and Analytics** — JPMorgan Chase, Brooklyn, NY · September 2017 to February 2019
+Owned Basel III risk-weighted asset and capital adequacy reporting across a $50B book of equities, fixed
+income and derivatives; identified $180M in capital optimisation, presented to the CFO.
 
-**Systemax Inc. (NYSE: SYX)** — Miami, FL, 2010–2011 · MBA Intern, promoted to Analyst
+**Program Manager, CIB Resolution and Recovery Planning** — JPMorgan Chase · 2015 to 2017
+Planned and managed the Commercial and Investment Bank's resolution-planning programme as liaison
+between the business, Legal, Finance and Operations.
 
-**Royal Bank of Scotland** — Dubai, January 2008 to June 2009 · Senior Business Analyst, Retail Credit Risk
+**Assistant Vice President, Global Legal Entity Management** — Citi, Office of the Chief Accounting Officer, Tampa, FL · 2012 to 2015
+Consolidated 500+ legal-entity data sources into governed master data and automated FR 2900 and TIC
+regulatory filings at 99.8% accuracy.
+
+**Bank Examiner, Bureau of Bank Regulation** — Florida Office of Financial Regulation, West Palm Beach, FL · April 2011 to March 2012
+Safety-and-soundness (CAMELS) examinations of state-chartered community banks with up to $3B in total
+assets, conducted jointly with the Federal Deposit Insurance Corporation and the Federal Reserve Bank
+of Atlanta. Assessed credit risk in the loan portfolio, interest-rate sensitivity, liquidity and the
+adequacy of board-approved policies; presented findings to boards of directors and negotiated
+corrective programmes. Trained at FDIC Corporate University (*Introduction to Bank Examinations*, 2012).
+
+**Analyst (promoted from MBA Intern)** — Systemax Inc. (NYSE: SYX), Miami, FL · 2010 to 2011
+
+**Senior Business Analyst, Retail Credit Risk** — Royal Bank of Scotland, Dubai · January 2008 to June 2009
+Credit-risk management information for a $500M+ retail portfolio through the 2008 financial crisis.
 
 ---
 
@@ -222,8 +233,7 @@ federal counterparts. Trained at **FDIC Corporate University** (*Introduction to
 
 **Malik LLC** — Founder and Principal, 2008 to present `[VERIFY: founding year. Yasir: "in the midst
 of the financial crisis". Industry's Rutgers CV of 27 Sep says 2010. One year, everywhere.]`
-Founded during the financial crisis and grown to ten residential rental units, primarily in Florida.
-Sources and underwrites each acquisition, manages renovation, permitting and leasing, and runs a
+Founded during the financial crisis and grown to ten residential rental units, primarily in Florida. Sources and underwrites each acquisition, manages renovation, permitting and leasing, and runs a
 remote operations team alongside a full-time banking career.
 
 ---
