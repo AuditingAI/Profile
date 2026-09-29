@@ -1,7 +1,7 @@
 # To Dr. Rey: thanks, a letter of intent for teaching at FIU, and the Rutgers reference · DRAFT
 
 **Send from `ymali001@fiu.edu`. Nothing goes until Yasir approves it.**
-**Attach:** the academic CV (Amex-style build), the Rutgers cover letter, the research and teaching statements.
+**Attach:** the academic CV (four-page edition) and `Malik_Yasir_Letter_of_Intent_FIU.pdf`. Updated 30 Sep: current postings and FIU course numbers.
 
 This replaces the two earlier Rey drafts (`../../FIU_Teaching_Interest_Letter.md` from August and
 `EMAIL_Rey_Reference_Request.md`). One email, three things, in the order he will read them: thanks,
@@ -18,9 +18,9 @@ Thank you for agreeing to write in support of my adjunct application. I have not
 
 I want to be plain about where I am heading, so you can advise me properly. **I intend to teach.** The target is a teaching-track appointment, lecturer, clinical or professor of practice, in auditing, accounting information systems or AI governance, and I would like FIU to be where I start. I am applying to Rutgers Business School now because it is the school in my own city and the posting is open. But if the College of Business uses doctoral candidates or practitioners as adjuncts or instructors, I would rather be teaching here first. I have attached my CV, my research and teaching statements and the Rutgers cover letter so you can see exactly what I am saying to them. Please treat this as my letter of intent to you and to the College.
 
-Two questions, if you are willing: whether the School of Accounting takes on adjunct or instructor appointments from current doctoral students, and who the right person is to speak with. I would rather you point me to that person than go around you.
+Specifically, I could teach these FIU courses from the first day: ACG 4401 Accounting Information Systems, ACG 4651 Auditing, ACG 6675 Internal Auditing, FIN 4324 Commercial Bank Management, FIN 4303 Financial Markets and Institutions, FIN 4634 International Banking, and MAN 4602 International Business. Two questions, if you are willing: whether the College takes on adjunct or instructor appointments from current doctoral students, and who the right person is to speak with. I would rather you point me to that person than go around you. With your blessing, I would also like to ask Dr. Castillo and Dr. Shoja for their advice.
 
-**The Rutgers reference.** The posting is Rutgers Business School, Newark and New Brunswick, Lecturer/Adjunct (Part-Time), Fall 2026, posting 26FA0291. I am applying for the Fall pool and have asked to be considered for Spring and Fall 2027. Professor Newburry is writing on the teaching side, from GEB 7365. What only you can speak to is the research and how I handled it when the data collection failed. A draft paragraph is below in a form you can cut, rewrite or discard. It exists to save you a blank page, not to put words in your mouth.
+**The reference.** I am applying to several part-time lecturer postings: Rutgers Business School (Spring 2027, 26FA0292, and the Fall 2026 pool), the online graduate Accounting Information Systems course at Rutgers–Camden (26FA0318), Kean University and Montclair State. Professor Newburry is writing on the teaching side, from GEB 7365. What only you can speak to is the research and how I handled it when the data collection failed. A draft paragraph is below in a form you can cut, rewrite or discard. It exists to save you a blank page, not to put words in your mouth.
 
 *Draft, for you to change or discard*
 
