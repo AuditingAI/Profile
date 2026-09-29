@@ -50,7 +50,7 @@ txt("DRAFT FOR FEEDBACK  ·  29 SEP 2026", W - M, 54, MONOB, 7.6, GOLD, track=1.
 # ---------------- research question strip ----------------
 box(M, 84, W - 2 * M, 44, fill=WARM, stroke=GOLD, r=3)
 box(M, 84, 5, 44, fill=GOLD)
-txt("CENTRAL RESEARCH QUESTION", M + 18, 94, MONOB, 7.5, AMBER, track=1.5)
+txt("RESEARCH QUESTION", M + 18, 94, MONOB, 7.5, AMBER, track=1.5)
 txt("How do experienced auditors experience and make sense of receiving an AI-generated conclusion "
     "that confirms a judgment they had already formed?", M + 18, 108, DISPI, 13.5, INK)
 
@@ -77,7 +77,7 @@ def bullets(x, y, items, dot=TEAL, size=BODYSZ):
 X = [M + i * (CW + 11) for i in range(COLS)]
 
 # ---- column 1 ----
-y = head(X[0], TOP, "1 · FOCUS AND RESEARCH PROBLEM", BLUE)
+y = head(X[0], TOP, "1 · PROBLEM STATEMENT", BLUE)
 y = blk(X[0], y,
     "An auditor on a recurring engagement has always carried a prior conclusion forward. What is new "
     "is that an AI system now produces a conclusion of its own, and sometimes it agrees.")
@@ -91,7 +91,7 @@ y = blk(X[0], y,
 y = blk(X[0], y,
     "Standards assume a competent human reviewer sits above the system. Firms and regulators are "
     "writing AI-use policy on that assumption now.")
-y = head(X[0], y + 2, "2 · RESEARCH PURPOSE", BLUE)
+y = head(X[0], y + 2, "2 · PURPOSE STATEMENT", BLUE)
 bt = y - 2
 yy = blk(X[0] + 8, y + 5,
     "The purpose of this phenomenological study is to understand how experienced auditors experience "
@@ -106,7 +106,7 @@ blk(X[0] + 8, y + 5,
     "confirmation of a prior professional judgment.", color=INK, w=CW - 16)
 
 # ---- column 2 ----
-y = head(X[1], TOP, "3 · FRAMEWORK AND ASSUMPTIONS", BLUE)
+y = head(X[1], TOP, "3 · PHILOSOPHICAL ASSUMPTIONS", BLUE)
 txt("SOCIAL CONSTRUCTIVIST  ·  INDUCTIVE", X[1], y - 2, MONOB, 7.5, TEAL, track=1.1)
 y += 11
 for lab, bd in [
@@ -117,7 +117,7 @@ for lab, bd in [
 ]:
     txt(lab, X[1], y, MONOB, 7.0, AMBER, track=1.0)
     y = y + 9 + para(bd, X[1], y + 9, CW, BODY, 7.9, BODYC, lead=9.9) + 4
-y = head(X[1], y + 1, "4 · QUALITATIVE APPROACH", BLUE)
+y = head(X[1], y + 1, "4 · METHODOLOGY: APPROACH", BLUE)
 y = blk(X[1], y,
     "Phenomenology (Creswell & Poth, 2024). The question asks about experience and meaning making "
     "across individuals, which is what phenomenology is for.", color=INK)
@@ -128,7 +128,7 @@ y = bullets(X[1], y, [
 ], dot=RUST)
 
 # ---- column 3 ----
-y = head(X[2], TOP, "5 · DATA COLLECTION", BLUE)
+y = head(X[2], TOP, "5 · METHODOLOGY: DATA COLLECTION", BLUE)
 txt("ELIGIBILITY IS THE PHENOMENON", X[2], y - 2, MONOB, 7.2, RUST, track=1.0)
 y += 10
 y = blk(X[2], y,
@@ -141,7 +141,7 @@ y = bullets(X[2], y, [
   "Semi-structured interviews, recorded and transcribed verbatim. Protocol piloted first, and pilot testers cannot become participants",
   "Encrypted storage, pseudonyms at transcription, named file plan",
 ])
-y = head(X[2], y, "6 · DATA ANALYSIS", BLUE)
+y = head(X[2], y, "6 · METHODOLOGY: DATA ANALYSIS", BLUE)
 txt("FIVE ACTIVITIES  ·  NVIVO", X[2], y - 2, MONOB, 7.0, TEAL, track=0.9)
 y += 10
 for n, s2 in [
@@ -155,16 +155,16 @@ for n, s2 in [
     y = y + para(s2, X[2] + 11, y, CW - 11, BODY, 7.9, BODYC, lead=9.9) + 2
 
 # ---- column 4 ----
-y = head(X[3], TOP, "7 · ETHICAL CONSIDERATIONS", BLUE)
+y = head(X[3], TOP, "7 · ETHICS AND VALIDATION", BLUE)
 y = bullets(X[3], y, [
   "Written informed consent before recording begins",
   "IRB determination confirmed before any contact, not assumed",
   "Pseudonyms at transcription. No client, engagement or firm-identifying detail",
   "Withdrawal at any point, data destroyed on request",
-  "Member checking of the composite description offered to every participant",
+  "Validation: confirmation hazard log, disconfirming cases, member checking, audit trail",
   "No confidential data to any public AI platform. AI use disclosed per FIU policy",
 ], dot=RUST)
-y = head(X[3], y, "8 · EXPECTED CONTRIBUTION", BLUE)
+y = head(X[3], y, "8 · DESIRED CONTRIBUTIONS", BLUE)
 txt("TO PRACTICE", X[3], y - 2, MONOB, 7.0, AMBER, track=1.0)
 y = blk(X[3], y + 9,
     "Firms and regulators are writing AI-use policy on the assumption that human review is a working "
