@@ -7,6 +7,15 @@ required reading.**
 ---
 
 
+
+## Job-list emails — owner's rule, 29 Sep 2026
+
+1. **Links he can open.** Take roles from his LinkedIn job-alert emails (`linkedin.com/jobs/view/<id>`), then Indeed or Google Jobs. Never an employer search page or a guessed URL.
+2. **An ID on every role.** Show the LinkedIn job ID or the employer req number so he can double-check. No ID, not listed.
+3. **Never list a role he already applied to.** Check the Gmail application scan, the Notion Job Pipeline (Applied, Rejected) and any portal "Already Applied" flag first.
+4. **Résumé matches the level.** ED / Director / Head / SVP roles get the executive résumé; VP roles get the VP family résumé. File names carry no level.
+5. **Say what wasn't verified.** If a link can't be opened from the cloud session, say so.
+
 ## Definition of done — owner's rule, 29 Sep 2026
 
 A résumé, CV or cover letter is **not complete** until every one of these is true. Check them; don't assume.
