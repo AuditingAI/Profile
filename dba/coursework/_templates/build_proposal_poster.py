@@ -44,8 +44,8 @@ txt("Receiving Confirmation", ox, 26, DISP, 25, WHITE)
 txt("How experienced auditors make sense of AI-generated agreement with a judgment they had already formed",
     ox, 55, DISPI, 11.5, DKTXT)
 txt("YASIR A. MALIK", W - M, 20, MONOB, 9.5, GOLD, track=1.6, align="r")
-txt("DBA Cohort 8.14  ·  GEB 7911", W - M, 36, BODY, 10, DKSUB, align="r")
-txt("Qualitative Research Proposal  ·  Dr. Cristina Gonzalez", W - M, 52, BODY, 10, DKSUB, align="r")
+txt("DBA Cohort 8.14  ·  GEB 7911  ·  Dr. Cristina Gonzalez", W - M, 36, BODY, 10, DKSUB, align="r")
+txt("DRAFT FOR FEEDBACK  ·  29 SEP 2026", W - M, 54, MONOB, 7.6, GOLD, track=1.0, align="r")
 
 # ---------------- research question strip ----------------
 box(M, 84, W - 2 * M, 44, fill=WARM, stroke=GOLD, r=3)

@@ -63,6 +63,14 @@ def add(d):
         "**Grounding move:** before anything else, the participant silently recalls one specific occasion. If none comes, the screen failed and the interview ends courteously.",
         "Body: the occasion (20 min) · prior-year conclusion versus AI answer (10) · confirmation as evidence (10) · when to stop looking (8) · under review (5).",
         "**Never asked:** \"Why did you...?\" (produces a defence) · \"Would you say you were anchored?\" (supplies the construct)."])
+    d.box(M, 402, W - 2 * M, 86, fill=WARM, stroke=GOLD, r=3)
+    d.box(M, 402, 5, 86, fill=GOLD)
+    d.txt("A NOTE FOR DR. GONZALEZ", M + 18, 412, MONOB, 7.8, AMBER, track=1.3)
+    d.para("Dr. Gonzalez, this is a working draft, shared now so your feedback can shape the final version. "
+           "Slide 1 is the one-page poster I will present in Week 8. These three appendix slides are not for "
+           "presentation; they set out the sampling, analysis and validation behind it, and slide 4 ends with four "
+           "questions where your guidance would help most. I will send the revised poster and proposal next week. "
+           "Thank you. Yasir Malik", M + 18, 428, W - 2 * M - 36, BODY, 10.4, INK, lead=13.6)
     _foot(d, "Source: the author's protocol files, dba/QUALITATIVE/INTERVIEW_GUIDE.md and SAMPLING_AND_RECRUITMENT.md. Nothing has been fielded; zero participants; IRB modification not yet submitted.")
 
     # ---- B · analysis ------------------------------------------------------------------
