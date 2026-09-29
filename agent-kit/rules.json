@@ -132,5 +132,17 @@
     "Dr. Malik",
     "CIA certified",
     "any career-length number: '20 years', '15+ years', 'two decades', 'a decade' (employer-specific spans are fine)"
-  ]
+  ],
+  "definition_of_done": {
+    "set_by": "Owner, 29 Sep 2026",
+    "rule": "No resume, CV or cover letter is complete until ALL of these are true. Report it as done only after checking each one.",
+    "checks": [
+      "Built from a source in the house format: an HTML builder in applications/resume/builders/ printed with Chromium (resumes), or a markdown letter built by scripts/build_pdfs.py (cover letters). Never a one-off markdown resume.",
+      "Registered: the builder is in HTML_OUTPUTS in scripts/verify_documents.py, or the letter is in the build_all() pairs in scripts/build_pdfs.py.",
+      "Harness green: python3 scripts/verify_documents.py ends 'READY - every document passes' and python3 scripts/verify_selftest.py reports 0 failures.",
+      "Page limits: resume one page, cover letter one page, academic CV three pages at most.",
+      "On GitHub: committed with an [industry] prefix and pushed; git rev-list --left-right --count origin/<branch>...HEAD shows 0 0.",
+      "Anything emailed or attached uses the harness-checked file, not an earlier draft."
+    ]
+  }
 }

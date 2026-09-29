@@ -6,6 +6,20 @@ required reading.**
 
 ---
 
+
+## Definition of done — owner's rule, 29 Sep 2026
+
+A résumé, CV or cover letter is **not complete** until every one of these is true. Check them; don't assume.
+
+1. **House format.** Résumés come from an HTML builder in `applications/resume/builders/`, printed with Chromium. Cover letters are markdown built by `scripts/build_pdfs.py`. No one-off markdown résumés.
+2. **Registered.** The builder is in `HTML_OUTPUTS` in `scripts/verify_documents.py`, or the letter is in `build_all()` in `scripts/build_pdfs.py`.
+3. **Harness green.** `python3 scripts/verify_documents.py` ends with `READY - every document passes`, and `python3 scripts/verify_selftest.py` reports 0 failures.
+4. **Page limits.** Résumé one page, cover letter one page, academic CV three pages at most.
+5. **On GitHub.** Committed with the `[industry]` prefix and pushed; `git rev-list --left-right --count origin/<branch>...HEAD` shows `0 0`.
+6. **What goes out is what was checked.** Any file emailed or attached is the harness-checked PDF, not an earlier draft.
+
+Full list, machine-readable: `rules.json` → `definition_of_done`.
+
 ## The rules — all eleven, before anything else
 
 1. **No credentials in this repository. Ever.** It is public and git history is
