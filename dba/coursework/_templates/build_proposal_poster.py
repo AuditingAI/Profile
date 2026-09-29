@@ -135,7 +135,7 @@ y = blk(X[2], y,
     "A participant must have received AI-generated output that confirmed a judgment they had already "
     "formed independently. General experience of AI-supported audit work does not qualify.", color=INK)
 y = bullets(X[2], y, [
-  "Eight or more years internal audit, recurring engagement responsibility",
+  "Five or more years in audit or risk assurance, with recurring engagement responsibility",
   "Criterion sampling, 10 to 15. Saturation is a stopping rule, not a target",
   "No single site. Professional networks, association chapters, referral chains",
   "Semi-structured interviews, recorded and transcribed verbatim. Protocol piloted first, and pilot testers cannot become participants",
@@ -216,6 +216,10 @@ for i, r in enumerate(REFS):
     cy = RY + 4 + (i // 4) * 24
     para(r, cx, cy, cw - 8, BODY, 6.0, MUTE, lead=6.3)
 
-out = sys.argv[1] if len(sys.argv) > 1 else "poster.pptx"
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
+if "--appendix" in sys.argv:
+    from poster_appendix import add as add_appendix
+    add_appendix(d)
+out = args[0] if args else "poster.pptx"
 d.save(out)
 print("wrote", out)

@@ -18,7 +18,7 @@ into Practice` 39(3) — the GEB 7911 Week 7 reading). `[VERIFY]` specific strat
 | **Verbatim throughout** | The textural description quotes rather than paraphrases | Reader can check every claim against words |
 | **Outsider review** | Every third transcript read cold by the outsider (`PROTOCOL_phenomenology.md` §5) asking *where is the researcher in this data?* | Dated review notes |
 | **The disconfirming pass** | Mandatory re-read for contradicting material before write-up | Findings recorded in `CODING_PLAN.md` output, contradictions reported |
-| **Prolonged engagement** | Fifteen years in the practice | Stated as strength **and** as bias in the epoché |
+| **Prolonged engagement** | A career in the practice | Stated as strength **and** as bias in the epoché |
 
 **Member checking is returned on the description, not the transcript.** People rarely disagree with a
 recording of themselves; they will readily disagree with an interpretation. Only the second is a
