@@ -15,3 +15,4 @@ Each family PDF must be byte-identical to its harness-checked source PDF; check 
 | `Yasir_Malik_Resume_Executive_Director.pdf` | `builders/master-executive.html` | Executive Director, Director, Head of, SVP roles — never send a VP-framed file to a senior role |
 
 File names carry no level. Match the résumé to the posting's level: ED/Director/Head/SVP roles get the executive résumé.
+| `Yasir_Malik_Resume_InternalAudit_AIRisk.pdf` | `builders/genai-risk-master.html` | Internal audit, technology / model / data audit, AI risk assurance (VP) |
