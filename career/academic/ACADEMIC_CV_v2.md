@@ -3,7 +3,7 @@
 **Doctoral Candidate (DBA) · Auditing, Behavioural Accounting & AI Governance**
 Newark, New Jersey · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik
 
-*v2.4, 28 September 2026: Professional Experience rebuilt to match the industry résumés role for role (Citi VP first, every title and date aligned). v2.3, 27 September 2026: SR 26-2, Capital Markets Lab, BDSA Vice President, Malik LLC, guest lecture; PakSA removed. v2.2, 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
+*v2.5, 29 September 2026: Malik LLC 2008 and the MBA's Financial Mathematics certification confirmed by Yasir. v2.4, 28 September 2026: Professional Experience rebuilt to match the industry résumés role for role (Citi VP first, every title and date aligned). v2.3, 27 September 2026: SR 26-2, Capital Markets Lab, BDSA Vice President, Malik LLC, guest lecture; PakSA removed. v2.2, 25 September 2026. Rebuilt with FIU graduate-appointment record recovered from archive.
 Contact fields are placeholders because this repo is public — fill at send time.
 **Do not send until the `[VERIFY]` items are resolved.** See the note at the end.*
 
@@ -28,7 +28,7 @@ Class of 2028 `[VERIFY: the conferral term. January and summer are both in play;
 confirmed, the month is not. Enrollment verification pending with the Office of Doctoral Programs.]`
 
 **Master of Business Administration (MBA)** — Florida International University, October 2011
-Certified MBA: Marketing, Accounting and Financial Analysis (100%) `[VERIFY: the industry résumés say "MBA, Financial Mathematics". One description, everywhere. Transcript or diploma settles it.]`
+Certification in Financial Mathematics
 
 **Graduate Advanced Diploma, International Banking** — Florida International University, August 2007
 
@@ -231,8 +231,7 @@ Credit-risk management information for a $500M+ retail portfolio through the 200
 
 ## Entrepreneurship
 
-**Malik LLC** — Founder and Principal, 2008 to present `[VERIFY: founding year. Yasir: "in the midst
-of the financial crisis". Industry's Rutgers CV of 27 Sep says 2010. One year, everywhere.]`
+**Malik LLC** — Founder and Principal, 2008 to present
 Founded during the financial crisis and grown to ten residential rental units, primarily in Florida. Sources and underwrites each acquisition, manages renovation, permitting and leasing, and runs a
 remote operations team alongside a full-time banking career.
 

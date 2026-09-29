@@ -13,6 +13,19 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-29 · 🎓 SCHOLAR — two shared facts resolved by Yasir
+
+1. **Malik LLC was founded in 2008.** Not 2010. The Rutgers CV on the automate branch
+   (`career/academic/final/Rutgers_R_Adjunct_2026-27.pdf`) says 2010 and should not be used again.
+   Any industry résumé that mentions the LLC should say 2008.
+2. **MBA:** FIU MBA, 2011, **with a certification in Financial Mathematics.** The academic CV now
+   reads "Master of Business Administration (MBA), FIU, October 2011 · Certification in Financial
+   Mathematics". The résumés' "MBA, Financial Mathematics" reads as if it were the major. Suggested
+   wording for Industry: "MBA, Florida International University (Financial Mathematics certification), 2011".
+   The older "Marketing, Accounting and Financial Analysis" description is retired.
+
+---
+
 ## 2026-09-28 · 🎓 SCHOLAR — one job history across every document; the academic CV now matches the résumés
 
 Yasir compared the academic CV against five Industry résumés (JPM CIB Ops Transformation, JPM CIB FBM
@@ -95,7 +108,7 @@ root `auditingai.github.io`, which needs a repo named `AuditingAI.github.io` and
 rename the repo, your call. If the first run fails on enablement, Yasir flips it in Settings, Pages.
 
 Also: `career/academic/FIU_CLASS_OF_2028_BIO.md` is the bio for the FIU cohort page (SR 26-2,
-Capital Markets Lab, BDSA Vice President, Malik LLC founded 2008 with ten doors, no PakSA, no OCC,
+Capital Markets Lab, BDSA Vice President, Malik LLC founded 2008 (confirmed 29 Sep) with ten doors, no PakSA, no OCC,
 no career-length number). BDSA VP and the ten-door count are Yasir's own statements of 27 Sep; the
 founding year is his "in the midst of the financial crisis". Reuse those facts in the industry
 résumé if useful; the wording stays academic.

@@ -27,7 +27,7 @@ Yasir welcomes the chance to connect and exchange ideas with fellow cohort membe
 
 - **Lab duties.** I described the lab assistant role as running Bloomberg and trading-simulation sessions and supporting the community literacy programs, which is what the lab does. Trim that clause if your duties were different.
 - **BDSA.** Vice President, per Yasir 27 Sep. Add the term (which academic year) if the page format wants it.
-- **Venture paragraph.** Founding year is written as 2008 from your words ("in the midst of the financial crisis"); correct it if the LLC was formed in 2009 or 2010. "Ten rental units, primarily in Florida" is your count from 27 Sep. The operations detail (renovations, permitting, remote team) can be trimmed if you want it shorter.
+- **Venture paragraph.** Founding year 2008, confirmed by Yasir on 29 Sep. "Ten rental units, primarily in Florida" is your count from 27 Sep. The operations detail (renovations, permitting, remote team) can be trimmed if you want it shorter.
 - **Research link.** github.com/AuditingAI/Profile renders today (the README opens on Auditing the Auditor and links research.html). The cleaner auditingai.github.io address only works once GitHub Pages is switched on for the repo (Settings, Pages, deploy from main); swap it in when that is done.
 - **SR 26-2 wording.** The framework was proposed under SR 11-7; the sentence says the guidance is *now* SR 26-2 so it reads current without backdating.
 - **Name.** Full name once, then "Yasir", per his 27 Sep instruction. LinkedIn handle is the one on the academic CV.
