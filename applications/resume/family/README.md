@@ -8,3 +8,6 @@ Rebuild the source builder, then re-copy.
 | `Yasir_Malik_Resume_ControlManagement_VP.pdf` | `builders/jpm-cib-controls-governance-vp.html` | Control Manager, Compliance Risk, Controls Governance, Data Protection Governance, HR Control, Audits & Exams |
 | `Yasir_Malik_Resume_BusinessMgmt_Transformation_VP.pdf` | `builders/jpm-cib-ops-transformation-bm-vp.html` | F&BM VP (Global Technology, Payments Technology, Operations), P&A Transformation, Portfolio & Execution, Chief of Staff |
 | `Yasir_Malik_Resume_AIGovernance_RegChange_VP.pdf` | `builders/amex-responsible-ai-vp.html` | AI governance, regulatory change, Compliance product, Responsible AI |
+| `Yasir_Malik_Resume_Treasury_ResolutionPlanning_VP.pdf` | `builders/scotia-treasury-resolution-planning.html` | Treasury, liquidity, resolution and recovery planning, IRRBB, P&A |
+
+Each family PDF must be byte-identical to its harness-checked source PDF; check with `md5sum` before emailing.
