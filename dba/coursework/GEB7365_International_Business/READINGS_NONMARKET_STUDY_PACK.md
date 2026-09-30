@@ -37,7 +37,7 @@ on where and at what level it looks.
 | Question | When do countercultural practices work? | What do we know about MNE–civil society interactions? | How does political ideology shape MNEs? | How do MNEs use nonmarket strategy across institutions? |
 | Big claim | Fit is not always good | Research is out of step with practice | IB is the right home for ideology research | Subnational and micro levels are missing |
 | Signature evidence | Rabl et al.: HPWS stronger in high power distance | GDELT: US, China, India over-studied | Fig. 1: context → mechanisms → impacts, with feedback | Table 2: 4 host-subnational studies, none home-subnational |
-| Note | | First author is Bruijn (file name misspells it) | **Newburry is 5th author** | Institutional theory in 125 of 323 |
+| Note | | First author is Bruijn (file name misspells it) | Newburry is 5th author | Institutional theory in 125 of 323 |
 
 ---
 
