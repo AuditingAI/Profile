@@ -13,6 +13,18 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-09-29 · 🎓 SCHOLAR — shared fact changed: a paper is now under review
+
+Publication status moved (CLAUDE.md §1). Submitted 29 Sep 2026 to **AIB-LAC 2027** (San Juan, 3 to 5
+March 2027), Interactive session, Track 1, **Manuscript ID 69**: *Feasibility as a Parameter: When
+Comparative International Research on Narrow Specialist Professional Populations Can and Cannot Be
+Executed*. Decision by 15 Nov 2026. Logged in `dba/PUBLICATION_TRACKER.md`.
+
+**Industry may now say** "conference paper under review, AIB Latin America and Caribbean Chapter,
+2027". **Not** "published", "accepted" or "presented" until those happen.
+
+---
+
 ## 2026-09-29 · 🎓 SCHOLAR — two shared facts resolved by Yasir
 
 1. **Malik LLC was founded in 2008.** Not 2010. The Rutgers CV on the automate branch

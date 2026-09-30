@@ -65,6 +65,13 @@ Faculty assessment: *"Rather than simply acknowledging the limitation, you devel
 recommendations for future research… This type of critical self-evaluation demonstrates sound
 research judgment."* — Dr. Juan C. Rey, FIU College of Business.
 
+### Conference submissions
+
+**"Feasibility as a Parameter: When Comparative International Research on Narrow Specialist
+Professional Populations Can and Cannot Be Executed."** Submitted to the AIB Latin America and
+Caribbean Chapter Conference 2027, San Juan, Interactive session, Track 1 (Internationalization
+Strategies and Process), September 2026. *Under review.*
+
 ### Manuscripts in preparation
 
 **"Six in One Hundred Thousand: Why Specialist Professional Populations Cannot Be Recruited from

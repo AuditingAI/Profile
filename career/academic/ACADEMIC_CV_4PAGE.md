@@ -84,6 +84,8 @@ Safety-and-soundness (CAMELS) examinations of state-chartered banks with up to $
 **Qualifying study** · *Mitigating Anchoring Bias in Long-Term Auditor Engagements* · passed July 2026
 An eleven-construct, 55-item measurement model with sixteen hypotheses, grounded in dual-process theory and the anchoring-and-adjustment heuristic. IRB-approved (IRB-25-0462), pilot-tested and fielded. A commercial panel of 334,976 held about twenty eligible auditors, roughly six per 100,000, a feasibility finding that now shapes the research programme. Dr. Rey's assessment: *"This type of critical self-evaluation demonstrates sound research judgment."*
 
+**Conference submission** · "Feasibility as a Parameter: When Comparative International Research on Narrow Specialist Professional Populations Can and Cannot Be Executed." AIB Latin America and Caribbean Chapter Conference 2027, San Juan, Interactive session, Track 1. Submitted September 2026; under review.
+
 **Manuscript in preparation** · "Six in One Hundred Thousand: Why Specialist Professional Populations Cannot Be Recruited from General Research Panels." Research note; draft complete.
 
 **Research programme** · How AI-assisted review reshapes auditor judgment: model output becomes the anchor, confirms rather than challenges the reviewer, and successive reviews converge on each other rather than on the evidence. Nothing in the chain has yet been tested. A phenomenological protocol for a qualitative arm is designed and has not been fielded.
