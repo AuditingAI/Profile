@@ -256,3 +256,18 @@ def wc(spec):
         elif isinstance(x, dict): [w(v) for k, v in x.items() if k not in ("image",)]
     w(spec["body"]); w(spec.get("tables", {}) if spec is p else {"t3": spec["tables"]["t3"]}); return len(" ".join(t).split())
 print("paper words all-inclusive:", wc(p), "| extended abstract words all-inclusive:", wc(ea))
+
+# ---- submission rules (lac.aib.world/submission-guidelines-2027, read 30 Sep): track at top right of
+# page 1, and no author information in the file properties ------------------------------------------
+from docx import Document as _D
+from docx.shared import Pt as _Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH as _AL
+TRACK = "Track 1: Internationalization Strategies and Process"
+for name in ("AIBLAC2027_Feasibility_as_a_Parameter_BLINDED_v2.docx", "AIBLAC2027_Feasibility_ExtendedAbstract_BLINDED_v2.docx"):
+    f = os.path.join(OUT, name); d = _D(f)
+    par = d.paragraphs[0].insert_paragraph_before(""); r = par.add_run(TRACK); r.bold = True; r.font.size = _Pt(11); par.alignment = _AL.RIGHT
+    c = d.core_properties
+    for k in ("author", "last_modified_by", "comments", "keywords", "category", "subject", "identifier"): setattr(c, k, "")
+    c.title = "Feasibility as a Parameter"
+    d.save(f.replace("_v2.docx", "_v2_Track1.docx"))
+print("track line added; author metadata cleared")
