@@ -15,6 +15,10 @@ required reading.**
 3. **Never list a role he already applied to.** Check the Gmail application scan, the Notion Job Pipeline (Applied, Rejected) and any portal "Already Applied" flag first.
 4. **Résumé matches the level.** ED / Director / Head / SVP roles get the executive résumé; VP roles get the VP family résumé. File names carry no level.
 5. **Say what wasn't verified.** If a link can't be opened from the cloud session, say so.
+6. **Match acknowledgements by title.** LinkedIn IDs and employer req numbers differ, so read the title in each recent acknowledgement email.
+7. **Employer postings only.** No aggregators or recruiter re-posts (Ladders, HW3). No Citi, Amex, Manager-level, quant model-validation or engineering roles.
+8. **Show the removals.** End with a "Removed, and why" list.
+9. **Covers match the employer; links checked.** JPM covers go only with JPM roles. Every download link returns 200 and is the pushed, harness-checked file.
 
 ## Definition of done — owner's rule, 29 Sep 2026
 

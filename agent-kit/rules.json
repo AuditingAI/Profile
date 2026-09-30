@@ -152,7 +152,11 @@
       "Show an ID on every role so the owner can double-check it: the LinkedIn job ID or the employer req number. A role with no ID does not go in the email.",
       "Before listing any role, check it against his application history: the Gmail application scan, the Notion Job Pipeline (Applied and Rejected), and any 'Already Applied' flag on the employer portal. Never list a role he has applied to.",
       "Match the resume to the posting's level: Executive Director / Director / Head / SVP roles get the executive resume; VP roles get the VP family resume. Resume file names carry no level.",
-      "Say plainly when a link could not be verified from the cloud session, rather than implying it was checked."
+      "Say plainly when a link could not be verified from the cloud session, rather than implying it was checked.",
+      "Read the title on every recent employer acknowledgement (JPMorgan 'We received your job application (Job Number: ...)' emails) and match by title, because LinkedIn job IDs and employer req numbers differ.",
+      "List the employer, not an aggregator or recruiter re-post (Ladders, HW3 and similar are left out). Leave out Citi (former employer), Amex (suppressed), Manager-level roles, quant model-validation roles and engineering roles.",
+      "End the email with a 'Removed, and why' list so he can see what was filtered out.",
+      "Covers only where the letter is addressed to that employer (JPM family covers go with JPMorgan roles only). Check every download link returns 200 and matches the pushed file before sending."
     ]
   }
 }
