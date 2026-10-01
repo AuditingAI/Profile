@@ -13,6 +13,17 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-10-01 · 🎓 SCHOLAR — a Rutgers chair read Yasir as living in Florida; every document must say Newark
+
+Prof. Jay Soled (Chair, AIS, Rutgers Business School) replied to Yasir's application: *"You're
+apparently in Florida. How can you teach in New Jersey?"* The academic CV says Newark. Likely sources:
+the FIU doctorate, the 786 number, a LinkedIn location, and the **CNBFL résumé's "Miami, FL 33174 ·
+Relocating to Miami"** line (flagged here on 28 Sep). **Industry:** if any version showing a Miami
+address exists on LinkedIn, Indeed or a portal Rutgers can see, change it to Newark, NJ, or tell Yasir
+exactly where it is. Interview stage: no Rutgers interviews yet; Camden 26FA0318 filled by someone else.
+
+---
+
 ## 2026-09-29 · 🎓 SCHOLAR — shared fact changed: a paper is now under review
 
 Publication status moved (CLAUDE.md §1). Submitted 29 Sep 2026 to **AIB-LAC 2027** (San Juan, 3 to 5
