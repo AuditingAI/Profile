@@ -183,6 +183,31 @@ on where and at what level it looks.
 
 ---
 
+## How these connect to earlier readings in the course
+
+| This week | Connects to (earlier module) | The link |
+|---|---|---|
+| **Caprar** (countercultural practices) | Mezias 2002 (Module 1) | Liability of foreignness flips into Caprar's *advantage of foreignness* |
+| | Newburry, Gardberg & Sanchez 2014 (Module 7) | Foreign firms as more attractive employers in Latin America: foreignness as an advantage, Newburry's own evidence for Caprar's point |
+| | House et al. 2002, GLOBE (Module 5) | GLOBE's "as is" versus "should be" values are exactly the gap Caprar uses to explain why misfit can work |
+| | Ghemawat 2001 (Module 1) | Distance as a cost; Caprar shows the cost is not automatic |
+| **Bruijn** (civil society) | Deephouse, Newburry & Soleimani 2016 (Module 5) | Reputation and legitimacy across national contexts; civil society is one of the audiences that confers it |
+| | Luo, Zhang & Bu 2019 (Module 6) | Developed-country MNEs in developing economies becoming "strategic insiders"; Bruijn's institutional resonance and social license |
+| | Rugman & Verbeke 2004; Lopez, Kundu & Ciravegna 2009 (Module 4) | Bruijn's GDELT check is the same move: compare where research looks with where activity actually is |
+| **Sun** (nonmarket strategy) | Meyer, Li & Schotter 2020 (Module 4) | Levels of analysis and the subsidiary; Sun finds the subnational and HQ–subsidiary levels almost unstudied |
+| | Zeng et al. 2023 (Module 4) | Control and coordination; Sun's integration–responsiveness and centralized versus local nonmarket strategy |
+| | Fainshmidt et al. 2018; Cuervo-Cazurra, Gaur & Singh 2019 (Module 5) | Varieties of institutional systems and pro-market institutions: the "institutional multiplicity" MNEs navigate |
+| | Cuervo-Cazurra & Genc 2008; Luo & Tung 2007 (Module 6) | Political capabilities as an advantage learned in difficult home institutions |
+| **Thams** (ideology) | Fainshmidt et al. 2018 (Module 5) | Ideology as an informal institution layered on formal institutional systems |
+| | Cuervo-Cazurra 2012, Goldilocks; Buckley et al. 2023 (Module 7) | Whether IB needs new theory or extended theory; Thams extends existing theories one by one and calls for interdisciplinary work |
+| | Geleilate et al. 2016 (Module 7) | Home-country institutions shape outcomes differently for emerging and developed MNEs; Thams adds home-country ideology |
+| | Newburry & Yakova 2006 (cited in your AIB paper) | Culture shapes preferences for standardization; Thams makes the same multi-level argument for ideology |
+
+**The one-sentence version for class:** *"Across the course we moved from where MNEs go (distance,
+regionalization) to how they are structured (subsidiaries, control) to the institutions they face;
+this module adds the actors and beliefs that are not markets at all: civil society, culture, and
+ideology, at every level from the supranational down to the CEO."*
+
 ## NotebookLM: how to load this
 
 I cannot open NotebookLM or upload to it; it has no connection available here. Five minutes by hand:
