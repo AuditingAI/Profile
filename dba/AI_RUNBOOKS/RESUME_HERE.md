@@ -31,7 +31,7 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 | Rutgers adjunct | **Already submitted 25 Sep by the Industry automation with the old CV.** Referee emails on hold until Yasir decides how to correct it | `career/HANDOFF.md`, 27 Sep entry |
 | GEB 7365 | Revised deck done. Final paper to Canvas **9 October**; send to Newburry by **25 Sep** for AIB LAC review if submitting | `dba/coursework/GEB7365_International_Business/` |
 | Public website | GitHub Pages has **never deployed** from this repo. Résumé links to `auditingai.github.io` do not resolve | `career/HANDOFF.md`, 2026-09-26 entry |
-| Chapters 4–6 to Dr. Rey | **Overdue since 28 July** | `dba/00_Execution/` |
+| Chapters 4–6 to Dr. Rey | **Status unclear: July verdict was PASS.** Dated dissertation-phase plan drafted 1 Oct (send by 2 Oct); it asks Rey what, if anything, is still owed | `career/academic/letters/EMAIL_Rey_Dated_Plan_2026-10-01.md` |
 
 ## The one next action
 
