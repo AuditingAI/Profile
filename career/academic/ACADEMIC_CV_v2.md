@@ -261,7 +261,9 @@ adjunct application; he asked for the CV and a draft paragraph. `[Send both from
 the qualifying study; assessed the treatment of its recruitment failure as demonstrating sound
 research judgment. `[Reference-request email drafted: letters/EMAIL_Rey_Reference_Request.md]`
 
-Further references available on request. `[Dr. Aguirre-Urreta must be asked before being listed.]`
+**Dr. Alfred Castillo**, Assistant Teaching Professor, Department of International Business, Florida International University — confirmed 1 Oct 2026 ("If I can help you in any way, sure use me"; agreed to be listed).
+
+Further references available on request. `[Dr. Aguirre-Urreta asked 1 Oct 2026; list him only once he says yes.]`
 
 ---
 

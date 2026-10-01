@@ -111,6 +111,18 @@ Founded during the financial crisis and grown to ten residential rental units, p
 
 ---
 
+## Professional Skills
+
+**Audit and controls** · Risk-based audit planning and testing · control design and operating effectiveness · COSO · IIA Global Internal Audit Standards · SOX · issue remediation and closure evidence
+
+**Banking and regulation** · CAMELS bank examination · Basel III capital · CCAR · resolution and recovery planning · model risk management (SR 26-2)
+
+**AI and governance** · Retrieval-augmented AI review tools · AI governance (NIST AI Risk Management Framework) · responsible-AI training for auditors
+
+**Data and analytics** · Python · SQL · Tableau · Alteryx · Excel · SPSS · Jamovi · NVivo · Qualtrics
+
+---
+
 ## Certifications
 
 FDIC Bank Examiner I · Registered Scrum Master · CITI Program, Social/Behavioural Human Subjects Research
@@ -122,5 +134,7 @@ FDIC Bank Examiner I · Registered Scrum Master · CITI Program, Social/Behaviou
 **Prof. William Newburry**, Ryder Eminent Scholar of Global Business and Professor, Department of International Business, Florida International University
 
 **Dr. Juan C. Rey**, Assistant Teaching Professor, Department of International Business, Florida International University
+
+**Dr. Alfred Castillo**, Assistant Teaching Professor, Department of International Business, Florida International University
 
 Further references available on request.

@@ -18,11 +18,13 @@ I am writing to state my intention to teach, and to ask to be considered for adj
 
 I bring to the classroom the practice my students are preparing for. I was a Vice President and Audit Manager in Citi Internal Audit until April 2026, leading risk-based audits across fifteen business units and reporting to the Board Audit Committee. Before that I was a Risk Control Manager and Capital Controller at JPMorgan Chase, worked in Citi's Office of the Chief Accounting Officer, and began my career as a bank examiner with the Florida Office of Financial Regulation. At Citi I designed and deployed an AI review assistant and wrote the governance framework it ran under. My doctoral research asks how that kind of AI-assisted review changes auditor judgment.
 
+What I bring to a course is practice students can use. I have tested controls the way an auditor and an examiner test them, against COSO, the IIA Standards and SOX; worked with Basel III capital, CCAR and model risk management; built and governed an AI review tool; and worked daily in Python, SQL, Tableau and Alteryx. I would teach through real cases, anonymized from engagements, and assess students on the judgments a practitioner actually makes.
+
 I could teach these courses from the first day: ACG 4401 Accounting Information Systems, ACG 4651 Auditing, ACG 6675 Internal Auditing, FIN 4324 Commercial Bank Management, FIN 4303 Financial Markets and Institutions, FIN 4634 International Banking, and MAN 4602 International Business. I am as comfortable online as in person, and I would welcome co-teaching or a first section alongside a faculty mentor.
 
 This is not my first time in an FIU classroom. During my MBA I was a lab assistant in the Capital Markets Lab and a tutor in corporate finance and accounting, and in September 2025 Dr. Sumit K. Kundu invited me back to guest-lecture his International MBA class on AI, culture and the political economy.
 
-My CV is attached. Professor William Newburry and Dr. Juan C. Rey have agreed to serve as references. I would be grateful to know whom to speak with about the College's teaching needs.
+My CV is attached. Professor William Newburry, Dr. Juan C. Rey and Dr. Alfred Castillo have agreed to serve as references. I would be grateful to know whom to speak with about the College's teaching needs.
 
 Sincerely,
 
