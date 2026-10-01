@@ -83,27 +83,22 @@ y = blk(X[0], y,
     "is that an AI system now produces a conclusion of its own, and sometimes it agrees.")
 y = blk(X[0], y,
     "Research on AI and auditor judgment has focused primarily on the extent of reliance, which a "
-    "survey can measure. What remains unexplored is the lived experience of receiving machine "
-    "agreement with a judgment already formed.", color=INK)
+    "survey can measure. The lived experience of receiving machine agreement with a judgment already "
+    "formed remains unexplored.", color=INK)
 y = blk(X[0], y,
-    "Two things are being conflated: automation bias, a human tendency, and sycophancy, a property of "
-    "the system. A magnitude-of-reliance measure cannot tell them apart.")
-y = blk(X[0], y,
-    "Standards assume a competent human reviewer sits above the system. Firms and regulators are "
-    "writing AI-use policy on that assumption now.")
+    "Firms and regulators are writing AI-use policy on the assumption that a human reviewer still "
+    "exercises independent judgment.")
 y = head(X[0], y + 2, "2 · PURPOSE STATEMENT", BLUE)
 bt = y - 2
 yy = blk(X[0] + 8, y + 5,
     "The purpose of this phenomenological study is to understand how experienced auditors experience "
     "and make sense of receiving an AI-generated conclusion that confirms a judgment they had already "
-    "formed. The phenomenon under study is the experience of encountering machine-generated "
-    "confirmation of a prior professional judgment.", color=INK, w=CW - 16)
+    "formed.", color=INK, w=CW - 16)
 box(X[0], bt, CW, yy - bt + 2, fill=SOFT, r=3)
 blk(X[0] + 8, y + 5,
     "The purpose of this phenomenological study is to understand how experienced auditors experience "
     "and make sense of receiving an AI-generated conclusion that confirms a judgment they had already "
-    "formed. The phenomenon under study is the experience of encountering machine-generated "
-    "confirmation of a prior professional judgment.", color=INK, w=CW - 16)
+    "formed.", color=INK, w=CW - 16)
 
 # ---- column 2 ----
 y = head(X[1], TOP, "3 · PHILOSOPHICAL ASSUMPTIONS", BLUE)
@@ -111,9 +106,9 @@ txt("SOCIAL CONSTRUCTIVIST  ·  INDUCTIVE", X[1], y - 2, MONOB, 7.5, TEAL, track
 y += 11
 for lab, bd in [
   ("ONTOLOGICAL", "Multiple realities. Auditors' accounts of the experience are the data, not a proxy for one correct account."),
-  ("EPISTEMOLOGICAL", "First-person accounts, gathered in semi-structured audio-recorded interviews and read in the participant's own words before coding."),
-  ("AXIOLOGICAL", "A career in bank examination, regulatory reporting and internal audit, including building an AI review tool. Insider access and insider bias at once. Every occasion of feeling confirmed is entered in a confirmation hazard log."),
-  ("METHODOLOGICAL", "Phenomenology. A phenomenon shared across individuals at different firms, with no single site to enter."),
+  ("EPISTEMOLOGICAL", "Knowledge comes from first-person accounts in semi-structured interviews."),
+  ("AXIOLOGICAL", "The researcher is a career auditor who built an AI review tool: insider access and insider bias, managed through reflexive memos and a confirmation hazard log."),
+  ("METHODOLOGICAL", "Inductive phenomenology across individuals at different firms."),
 ]:
     txt(lab, X[1], y, MONOB, 7.0, AMBER, track=1.0)
     y = y + 9 + para(bd, X[1], y + 9, CW, BODY, 7.9, BODYC, lead=9.9) + 4
@@ -122,9 +117,8 @@ y = blk(X[1], y,
     "Phenomenology (Creswell & Poth, 2024). The question asks about experience and meaning making "
     "across individuals, which is what phenomenology is for.", color=INK)
 y = bullets(X[1], y, [
-  "Case study needs a bounded site; this phenomenon crosses firms",
-  "Grounded theory studies process; this study asks about experience",
-  "Ethnography needs embedded access to a firm's review process",
+  "Not case study: the phenomenon crosses firms, with no bounded site",
+  "Not grounded theory: the question is about experience, not process",
 ], dot=RUST)
 
 # ---- column 3 ----
@@ -132,14 +126,13 @@ y = head(X[2], TOP, "5 · METHODOLOGY: DATA COLLECTION", BLUE)
 txt("ELIGIBILITY IS THE PHENOMENON", X[2], y - 2, MONOB, 7.2, RUST, track=1.0)
 y += 10
 y = blk(X[2], y,
-    "A participant must have received AI-generated output that confirmed a judgment they had already "
-    "formed independently. General experience of AI-supported audit work does not qualify.", color=INK)
+    "Participants can recall a specific time AI output agreed with a judgment they had already formed. "
+    "They do not need to have interpreted it in any particular way.", color=INK)
 y = bullets(X[2], y, [
-  "Five or more years in audit or risk assurance, with recurring engagement responsibility",
-  "Criterion sampling, 10 to 15. Saturation is a stopping rule, not a target",
-  "No single site. Professional networks, association chapters, referral chains",
-  "Semi-structured interviews, recorded and transcribed verbatim. Protocol piloted first, and pilot testers cannot become participants",
-  "Encrypted storage, pseudonyms at transcription, named file plan",
+  "Five or more years in audit or risk assurance, recurring engagements",
+  "Criterion sampling plus referrals, all screened the same way; a short screening question tested first",
+  "About 10 to 15, guided by the depth and richness of accounts",
+  "Semi-structured, recorded interviews; protocol piloted first",
 ])
 y = head(X[2], y, "6 · METHODOLOGY: DATA ANALYSIS", BLUE)
 txt("FIVE ACTIVITIES  ·  NVIVO", X[2], y - 2, MONOB, 7.0, TEAL, track=0.9)
@@ -157,43 +150,32 @@ for n, s2 in [
 # ---- column 4 ----
 y = head(X[3], TOP, "7 · ETHICS AND VALIDATION", BLUE)
 y = bullets(X[3], y, [
-  "Written informed consent before recording begins",
-  "IRB determination confirmed before any contact, not assumed",
-  "Pseudonyms at transcription. No client, engagement or firm-identifying detail",
-  "Withdrawal at any point, data destroyed on request",
-  "Validation: confirmation hazard log, disconfirming cases, member checking, audit trail",
-  "No confidential data to any public AI platform. AI use disclosed per FIU policy",
+  "Informed consent and IRB determination before any contact; pseudonyms, no firm detail",
+  "Member checking of each participant's own textural description",
+  "External reviewer reads purposefully chosen transcripts, including a disconfirming one, with the analytic memos",
+  "Confirmation hazard log entries tied to specific analytic decisions in the audit trail",
 ], dot=RUST)
 y = head(X[3], y, "8 · DESIRED CONTRIBUTIONS", BLUE)
 txt("TO PRACTICE", X[3], y - 2, MONOB, 7.0, AMBER, track=1.0)
 y = blk(X[3], y + 9,
-    "Firms and regulators are writing AI-use policy on the assumption that human review is a working "
-    "control. This describes what that review is actually like from inside it.")
+    "Shows what human review of AI output is actually like, for firms and regulators relying on it.")
 txt("TO ACADEMIA", X[3], y - 2, MONOB, 7.0, AMBER, track=1.0)
 y = blk(X[3], y + 9,
-    "It separates automation bias from sycophancy, which measures of how much someone relied on a "
-    "machine cannot distinguish.")
+    "Distinguishes the auditor's experience of agreement from measures of reliance.")
 y = head(X[3], y, "9 · POTENTIAL LIMITATIONS", BLUE)
 y = bullets(X[3], y, [
-  "Retrospective self-report. Participants describe an experience after the fact",
-  "Insider researcher. Managed by the confirmation hazard log, not eliminated",
-  "Context-dependent. Not intended to generalise",
-  "One national standards environment, small purposive sample",
+  "Retrospective accounts of a past experience",
+  "Insider researcher: bias managed, not eliminated",
+  "Small purposive sample; not intended to generalise",
 ], dot=RUST)
 
-# ---------------- timeline ----------------
-TY = 456
-box(M, TY, W - 2 * M, 24, fill=SOFT, r=3)
-txt("TIMELINE", M + 10, TY + 7, MONOB, 7.2, BLUE, track=1.2)
-phases = [("IRB determination, protocol pilot", "M1"), ("Recruitment and consent", "M2"),
-          ("Interviews, transcription, memoing", "M3 to M5"),
-          ("Coding, clustering, composite", "M5 to M7"),
-          ("Member checking and write-up", "M8")]
-px = M + 70
-for name, when in phases:
-    txt(when, px, TY + 3, MONOB, 7.0, GOLD, track=0.9)
-    txt(name, px, TY + 12, BODY, 7.6, BODYC)
-    px += (W - 2 * M - 80) / 5
+# ---------------- AI disclosure (replaces the timeline, per Dr. Gonzalez, 1 Oct) ----------------
+TY = 452
+box(M, TY, W - 2 * M, 26, fill=SOFT, r=3)
+txt("AI DISCLOSURE", M + 10, TY + 8, MONOB, 7.2, BLUE, track=1.2)
+para("Generative AI (Claude, Anthropic) helped draft and lay out this poster from the author's proposal and protocol, and checked clarity. "
+     "The research question, design decisions and interpretations are the author's (FIU Graduate School AI policy).",
+     M + 92, TY + 5, W - 2 * M - 120, BODY, 7.2, BODYC, lead=8.8)
 
 # ---------------- references ----------------
 RY = 486

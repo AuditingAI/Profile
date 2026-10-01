@@ -40,6 +40,19 @@ Has lived it.
 4. ✅ **Can recall a specific occasion** on which such a tool reached a conclusion they had already
    reached themselves
 
+**Kept strict, on Dr. Gonzalez's advice (1 Oct 2026).** Criterion 4 is not broadened to reach 10
+participants: doing so would weaken the phenomenological focus. The concern is recruitment
+feasibility, not the criterion, so it is handled in recruitment:
+
+- **Test the screening question first.** Before recruitment opens, ask a handful of people in the
+  networks to answer it, to learn whether people can name a specific occasion. Those testers do not
+  become participants.
+- **Referrals alongside criterion sampling** (snowball), provided every referred person passes the
+  same screen.
+- **Recall, not interpretation.** A participant must recall the experience. They do **not** need to
+  have understood it as confirmation, reassurance, bias or anything else. That meaning should emerge
+  in the interview, so the screening question never names or frames it.
+
 **Criterion 4 is the study.** The first three are context. A candidate who satisfies 1–3 and fails 4
 is not a weaker participant — they have not lived the phenomenon and their data would be opinion.
 
@@ -61,16 +74,19 @@ industry. The essence is only worth claiming if it holds across settings.
 
 **10–15, with 12 as the working plan.**
 
-Saturation is a **stopping rule, not a target.** Stated in advance so it cannot be declared
-retrospectively:
+**Revised 1 Oct 2026 after Dr. Gonzalez's feedback.** Sample size is guided by **the depth and
+richness of the experiential accounts**, not by saturation as an automatic stopping rule. Phenomenology
+asks whether the accounts are full enough to describe the essence of the experience, not whether new
+codes have stopped appearing. The guide below informs the decision; it does not make it:
 
-> Stop when **three consecutive interviews** produce no new meaning unit that survives clustering —
-> and the outsider reviewer (`PROTOCOL_phenomenology.md` §5) agrees, reading cold.
+> Consider stopping when **three consecutive interviews** add no new meaning unit that survives
+> clustering, **and** the accounts already gathered are rich enough to support textural and structural
+> descriptions, **and** the outsider reviewer agrees. The judgment and its reasons are recorded.
 
 | Count | Status |
 |---|---|
 | Below 10 | Do not stop regardless of apparent saturation. Too few for an essence claim |
-| 10–15 | The window. Stopping rule applies |
+| 10–15 | The window. Depth and richness decide, with the guide above as evidence |
 | Above 15 | Stop and report why saturation did not arrive — that is itself a finding about the phenomenon's variability |
 
 **Every stop-or-continue decision goes in `AUDIT_TRAIL.md` on the day it is made.** Saturation

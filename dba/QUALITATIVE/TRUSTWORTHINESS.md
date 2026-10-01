@@ -14,11 +14,15 @@ into Practice` 39(3) — the GEB 7911 Week 7 reading). `[VERIFY]` specific strat
 
 | Procedure | What it looks like | Evidence left behind |
 |---|---|---|
-| **Member checking** | Each participant receives their textural description — not the raw transcript — and is asked: *"Does this read like your experience? What is wrong or missing?"* | Dated response logged; any change made recorded in `AUDIT_TRAIL.md` |
+| **Member checking** | Each participant receives their own textural description, not the raw transcript, framed as a chance to consider whether it adequately represents what they experienced and to add clarification or context | Dated response logged, with **how each response was considered** in the analysis, in `AUDIT_TRAIL.md` |
 | **Verbatim throughout** | The textural description quotes rather than paraphrases | Reader can check every claim against words |
-| **Outsider review** | Every third transcript read cold by the outsider (`PROTOCOL_phenomenology.md` §5) asking *where is the researcher in this data?* | Dated review notes |
+| **External review** | A few transcripts **chosen purposefully, including one that challenges an emerging interpretation**, given to the reviewer **with the matching analytic memos**, so the review examines the move from accounts to meaning units, clusters and interpretations, not transcripts in isolation (revised 1 Oct 2026 on Dr. Gonzalez's advice; replaces "every third transcript") | Dated review notes and the researcher's response to each |
 | **The disconfirming pass** | Mandatory re-read for contradicting material before write-up | Findings recorded in `CODING_PLAN.md` output, contradictions reported |
 | **Prolonged engagement** | A career in the practice | Stated as strength **and** as bias in the epoché |
+
+**Scope of member checking (Dr. Gonzalez, 1 Oct 2026).** Participants' feedback informs the
+credibility of the **individual** textural descriptions. It does not independently validate the
+structural interpretations or the composite description, and the proposal says so.
 
 **Member checking is returned on the description, not the transcript.** People rarely disagree with a
 recording of themselves; they will readily disagree with an interpretation. Only the second is a
@@ -84,6 +88,12 @@ Every occasion on which I noticed myself feeling **confirmed** by a participant 
 something reaches a conclusion that agrees with the one they already held. A researcher hearing a
 participant describe exactly the deference his three-link chain predicts **is an instance of the
 phenomenon under study, occurring inside the study.**
+
+**The log must change decisions, not only record them** (Dr. Gonzalez, 1 Oct 2026). Each entry
+carries a fourth field, *what I did about it*: for example, returning to the transcript for
+contradicting material, rewording a probe in the next interview, or flagging a meaning unit for the
+external reviewer. The audit trail cross-references the entry to the analytic decision it affected,
+so a reader can see the log at work.
 
 Unlogged, this arm becomes a demonstration of its own argument rather than an examination of it. That
 is not a clever framing — it is the most likely way this study fails, and it fails invisibly.
