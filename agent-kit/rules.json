@@ -158,5 +158,14 @@
       "End the email with a 'Removed, and why' list so he can see what was filtered out.",
       "Covers only where the letter is addressed to that employer (JPM family covers go with JPMorgan roles only). Check every download link returns 200 and matches the pushed file before sending."
     ]
+  },
+  "resume_format": {
+    "set_by": "Owner, 30 Sep 2026, from Newark Public Library business-librarian review",
+    "rules": [
+      "One page. The Scotiabank treasury resume is the reference layout.",
+      "Profile is two sentences, no more.",
+      "Roles before 2016 go on a single 'Earlier Career' line: title, employer, place, dates. No bullets. Accomplishments from those years are for the interview.",
+      "No horizontal rule lines under headings and no gridded tables; they can break applicant tracking systems."
+    ]
   }
 }

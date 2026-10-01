@@ -20,6 +20,10 @@ required reading.**
 8. **Show the removals.** End with a "Removed, and why" list.
 9. **Covers match the employer; links checked.** JPM covers go only with JPM roles. Every download link returns 200 and is the pushed, harness-checked file.
 
+## Résumé format — reviewer feedback, 30 Sep 2026
+
+One page, two-sentence profile, roles before 2016 on one "Earlier Career" line (title, employer, place, dates), and no rule lines or gridded tables (ATS). The Scotiabank treasury résumé is the reference layout.
+
 ## Definition of done — owner's rule, 29 Sep 2026
 
 A résumé, CV or cover letter is **not complete** until every one of these is true. Check them; don't assume.
