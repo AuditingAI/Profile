@@ -45,7 +45,7 @@ txt("How experienced auditors make sense of AI-generated agreement with a judgme
     ox, 55, DISPI, 11.5, DKTXT)
 txt("YASIR A. MALIK", W - M, 20, MONOB, 9.5, GOLD, track=1.6, align="r")
 txt("DBA Cohort 8.14  ·  GEB 7911  ·  Dr. Cristina Gonzalez", W - M, 36, BODY, 10, DKSUB, align="r")
-txt("DRAFT FOR FEEDBACK  ·  29 SEP 2026", W - M, 54, MONOB, 7.6, GOLD, track=1.0, align="r")
+txt("WEEK 8 PRESENTATION  ·  6 OCT 2026", W - M, 54, MONOB, 7.6, GOLD, track=1.0, align="r")
 
 # ---------------- research question strip ----------------
 box(M, 84, W - 2 * M, 44, fill=WARM, stroke=GOLD, r=3)
