@@ -84,7 +84,7 @@ y = blk(X[0], y,
 y = blk(X[0], y,
     "Research on AI and auditor judgment has focused primarily on the extent of reliance, which a "
     "survey can measure. The lived experience of receiving machine agreement with a judgment already "
-    "formed remains unexplored.", color=INK)
+    "formed has received much less attention.", color=INK)
 y = blk(X[0], y,
     "Firms and regulators are writing AI-use policy on the assumption that a human reviewer still "
     "exercises independent judgment.")
@@ -185,10 +185,10 @@ txt("Full list in the paper", M, RY + 15, BODY, 6.6, MUTE)
 REFS = [
  "Commerford, B. P., Dennis, S. A., Joe, J. R., & Ulla, J. W. (2022). Man versus machine: Complex estimates and auditor reliance on artificial intelligence. Journal of Accounting Research, 60(1), 171-201.",
  "Creswell, J. W., & Poth, C. N. (2024). Qualitative inquiry and research design: Choosing among five approaches (5th ed.). SAGE.",
- "Fotoh, L. E., & Mugwira, T. (2025). Exploring the impact of generative AI on professional skepticism in auditing.",
- "Glickman, M., & Sharot, T. (2025). How human-AI feedback loops alter human perceptual, emotional and social judgements.",
+ "Fotoh, L. E., & Mugwira, T. (2025). Exploring large language models in external audits: Implications and ethical considerations. International Journal of Accounting Information Systems, 56, 100748.",
+ "Glickman, M., & Sharot, T. (2025). How human-AI feedback loops alter human perceptual, emotional and social judgements. Nature Human Behaviour, 9(2), 345-359.",
  "Kokina, J., Blanchette, S., Davenport, T. H., & Pachamanova, D. (2025). Challenges and opportunities for artificial intelligence in auditing. International Journal of Accounting Information Systems, 56, 100734.",
- "Murikah, W., Nthenge, J. K., & Musyoka, F. M. (2024). Bias and ethics of AI systems applied in auditing: A systematic review.",
+ "Murikah, W., Nthenge, J. K., & Musyoka, F. M. (2024). Bias and ethics of AI systems applied in auditing: A systematic review. Scientific African, 25, e02281.",
  "Parasuraman, R., & Manzey, D. H. (2010). Complacency and bias in human use of automation. Human Factors, 52(3), 381-410.",
  "Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. Science, 185(4157), 1124-1131.",
 ]
