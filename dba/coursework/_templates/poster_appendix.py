@@ -13,7 +13,7 @@ M = 34
 def _head(d, letter, title, sub):
     d.page(PAPER)
     d.box(0, 0, W, 62, fill=BLUE)
-    d.txt(f"APPENDIX {letter}  ·  NOT PRESENTED  ·  SUBMITTED FOR FEEDBACK", M, 12, MONOB, 7.5, GOLD, track=1.4)
+    d.txt(f"APPENDIX {letter}  ·  NOT PRESENTED  ·  DETAIL FOR DR. GONZALEZ", M, 12, MONOB, 7.5, GOLD, track=1.4)
     d.txt(title, M, 24, DISP, 21, WHITE)
     d.txt("Receiving Confirmation  ·  Yasir A. Malik  ·  GEB 7911", W - M, 14, BODY, 8.5, DKTXT, align="r")
     d.txt(sub, M, 72, DISPI, 11, BODYC)
@@ -52,9 +52,9 @@ def add(d):
         "Criterion 4 is the study. A candidate who meets 1 to 3 and fails 4 has not lived the phenomenon, and their data would be opinion.",
         "**Maximum variation within the criterion:** Big Four, mid-tier and in-house internal audit; external and internal; senior associate to partner or CAE; several industries."])
     _col(d, xs[1], 94, cw, "HOW MANY, AND WHEN TO STOP", [
-        "**Criterion sample of 10 to 15.** Saturation is a stopping rule, not a target.",
-        "Stop after three consecutive interviews that add no new surviving meaning unit.",
-        "Below 10, do not stop regardless of apparent saturation. Above 15, stop and report why saturation did not arrive, which is itself a finding.",
+        "**Criterion sample of 10 to 15.** Guided by the depth and richness of the accounts, not saturation as an automatic rule (revised 1 Oct).",
+        "Screening question tested in the networks first; referrals screened the same way. Participants recall the occasion; they need not have interpreted it.",
+        "The stop decision, and its reasons, recorded in the audit trail on the day it is made.",
         "**Pilot first.** The protocol is piloted, and pilot testers cannot become participants.",
         "**Channel:** professional networks, association chapters and referral chains, not general research panels, which held about 6 eligible auditors per 100,000 in the author's prior study."])
     _col(d, xs[2], 94, cw, "THE INTERVIEW · 60 MINUTES", [
@@ -66,11 +66,10 @@ def add(d):
     d.box(M, 402, W - 2 * M, 86, fill=WARM, stroke=GOLD, r=3)
     d.box(M, 402, 5, 86, fill=GOLD)
     d.txt("A NOTE FOR DR. GONZALEZ", M + 18, 412, MONOB, 7.8, AMBER, track=1.3)
-    d.para("Dr. Gonzalez, this is a working draft, shared now so your feedback can shape the final version. "
-           "Slide 1 is the one-page poster I will present in Week 8. These three appendix slides are not for "
-           "presentation; they set out the sampling, analysis and validation behind it, and slide 4 ends with four "
-           "questions where your guidance would help most. I will send the revised poster and proposal next week. "
-           "Thank you. Yasir Malik", M + 18, 428, W - 2 * M - 36, BODY, 10.4, INK, lead=13.6)
+    d.para("Dr. Gonzalez, slide 1 is the poster I am presenting in Week 8, simplified as you suggested. These three "
+           "appendix slides are for you only and are not presented; they set out the sampling, analysis and "
+           "validation behind it, and slide 4 shows how I applied your 1 October feedback. The full detail is in "
+           "the proposal paper. Thank you. Yasir Malik", M + 18, 428, W - 2 * M - 36, BODY, 10.4, INK, lead=13.6)
     _foot(d, "Source: the author's protocol files, dba/QUALITATIVE/INTERVIEW_GUIDE.md and SAMPLING_AND_RECRUITMENT.md. Nothing has been fielded; zero participants; IRB modification not yet submitted.")
 
     # ---- B · analysis ------------------------------------------------------------------
@@ -89,27 +88,28 @@ def add(d):
         "**Composite essence.** Two rules: no causal language, and no frequency claims such as \"most participants\"."])
     _col(d, xs[2], 94, cw, "THE AI BOUNDARY", [
         "**AI may:** transcribe audio · format and tabulate what the author has already coded · check prose for clarity and grammar · act as an adversary (\"what have I missed?\") · find literature.",
-        "**AI may not:** assign a code or meaning unit · name a theme · write any part of a description · decide what a participant meant · decide when saturation is reached.",
+        "**AI may not:** assign a code or meaning unit · name a theme · write any part of a description · decide what a participant meant · decide when to stop interviewing.",
         "**Why the line sits here:** the study examines what happens when a machine reaches a conclusion first and a human agrees with it. Letting a model propose themes and then agreeing with them would reproduce the phenomenon inside its own analysis.",
         "Every AI use is logged with date, tool, request and outcome (FIU Graduate School AI policy; GEB 7911 limits)."])
     _foot(d, "Source: dba/QUALITATIVE/CODING_PLAN.md. The analysis plan follows the course's prescribed activities rather than a self-invented procedure, as asked in Week 6.")
 
     # ---- C · validation, and the questions for feedback ------------------------------------
-    _head(d, "C", "Validation, and where feedback would help most", "Chapter 10: at least two strategies, drawn from more than one lens. This design uses seven.")
+    _head(d, "C", "Validation, and your feedback applied", "Chapter 10: at least two strategies, drawn from more than one lens. This design uses seven.")
     _col(d, xs[0], 94, cw, "THE RESEARCHER'S LENS", [
         "**Reflexivity and the confirmation hazard log.** The author is a career auditor who built an AI review tool: insider access and insider bias at once. Every moment of feeling confirmed by a participant's account is logged, because that is the study's own phenomenon happening to the researcher.",
         "**Negative case analysis.** Actively seek auditors who distrusted or overrode the AI's agreement.",
-        "**Outsider review.** Every third transcript read cold by a second person asking \"where is the researcher in this data?\""])
+        "**External review.** A few transcripts chosen on purpose, including one that challenges an emerging interpretation, read with the matching analytic memos."])
     _col(d, xs[1], 94, cw, "THE PARTICIPANT'S AND THE READER'S LENS", [
-        "**Member checking.** Each participant receives their own textural description, not the raw transcript, and is asked what is wrong or missing.",
+        "**Member checking.** Each participant receives their own textural description, not the transcript, to consider whether it represents what they experienced. Responses and how they were considered are recorded. It informs the individual descriptions, not the composite.",
         "**Thick description.** Firm type, function, engagement, tool category and the moment of agreement, so a reader can judge transfer.",
         "**Audit trail.** Protocol written before data collection, an append-only decision log, dated codebook versions and the hazard log: the study's own workpapers.",
         "**Falsification conditions** stated in advance of any participant."])
     y = 94
     d.box(xs[2] - 6, y - 8, cw + 12, 408, fill=WARM, stroke=GOLD, r=3)
-    _col(d, xs[2], y, cw, "QUESTIONS FOR DR. GONZALEZ", [
-        "**1. Is criterion 4 too narrow?** Requiring a recalled occasion of AI agreement may make 10 participants hard to reach. Would you keep it strict, or allow a closely related occasion?",
-        "**2. Member checking on the textural description** rather than the transcript: acceptable for this proposal, or should the transcript also go back to participants?",
-        "**3. One outsider reviewer** reading every third transcript: enough, given how close the author is to the phenomenon?",
-        "**4. Is the AI boundary drawn in the right place** for the course's 25% limit and labelling rule?"])
+    _col(d, xs[2], y, cw, "YOUR FEEDBACK, APPLIED", [
+        "**1. Criterion kept.** Feasibility handled in recruitment: a tested screening question and referrals. Recall, not interpretation. Depth, not saturation.",
+        "**2. Member checking scoped** to each individual textural description, with responses and their handling recorded.",
+        "**3. External review purposeful:** a few chosen transcripts, one disconfirming, with memos, so the reviewer examines the move from accounts to meaning units, clusters and interpretations.",
+        "**4. Hazard log works:** each entry records what I did about it, cross-referenced to the decision in the audit trail.",
+        "**5. Poster simplified** and AI use disclosed on the slide."])
     _foot(d, "Source: dba/QUALITATIVE/TRUSTWORTHINESS.md; Creswell and Poth, Chapter 10. Slides prepared with AI assistance for layout and organisation; the design and every decision in it are the author's.")
