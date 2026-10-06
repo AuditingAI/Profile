@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Research at a Glance · Yasir A. Malik</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* One US-letter page. Same navy and gold system as the course outline, so the two read as a set. */
+:root{
+  --navy:#081E3F; --gold:#B6862C; --gold-soft:#F3EAD7; --ink:#1B2433; --muted:#5B6577;
+  --rule:#D9DEE7; --tint:#F4F6FA; --orange:#E06A2C;
+  --serif:"Source Serif 4","Georgia",serif; --sans:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--sans);color:var(--ink);font-size:9.5pt;line-height:1.34;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;padding:0 0.6in 0.45in;position:relative;overflow:hidden}
+.band{background:var(--navy);color:#fff;margin:0 -0.6in;padding:0.34in 0.6in 0.26in;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end}
+.eyebrow{font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{font-family:var(--serif);font-weight:700;font-size:23pt;line-height:1.08;margin:5px 0 4px}
+.byline{font-size:10pt;color:#D8DEEA;margin:0}
+.mark{width:0.75in;height:0.75in;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center}
+.mark img{width:0.6in;height:0.6in}
+.q{margin:0.16in 0 0.07in;font-family:var(--serif);font-size:15pt;line-height:1.28;color:var(--navy);font-weight:600}
+.q span{color:var(--gold)}
+h2{font-family:var(--serif);font-size:12pt;color:var(--navy);margin:0.13in 0 0.05in;font-weight:700}
+p{margin:0 0 5px}
+.chain{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.chain div{background:var(--tint);border-radius:6px;padding:9px 11px;position:relative}
+.chain b{display:block;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.chain h3{font-family:var(--serif);font-size:10.5pt;color:var(--navy);margin:0 0 3px}
+.chain p{font-size:8.9pt;margin:0}
+.chain .st{display:inline-block;margin-top:6px;font-size:7.5pt;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:9pt}
+th{text-align:left;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1.5px solid var(--navy);padding:4px 6px}
+td{border-bottom:1px solid var(--rule);padding:3.5px 6px;vertical-align:top}
+td:first-child{font-weight:700;color:var(--navy);width:1.55in}
+.pill{display:inline-block;font-size:7.3pt;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:9px;background:var(--gold-soft);color:#7A5A16;white-space:nowrap}
+.pill.done{background:#E3EDF7;color:var(--navy)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+ul{margin:0;padding-left:16px}
+li{margin-bottom:3px;font-size:9.3pt}
+.honest{margin-top:9px;background:var(--navy);color:#fff;border-radius:6px;padding:9px 13px;font-size:9pt}
+.honest b{color:var(--gold)}
+.foot{position:absolute;left:0.6in;right:0.6in;bottom:0.3in;font-size:8pt;color:var(--muted);display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--rule);padding-top:6px}
+</style>
+</head>
+<body>
+<section class="page">
+  <div class="band">
+    <div>
+      <div class="eyebrow">Research at a glance · October 2026</div>
+      <h1>When the Machine Agrees</h1>
+      <p class="byline">Yasir A. Malik · Doctoral Candidate, Business Administration · Florida International University</p>
+    </div>
+    <div class="mark"><img src="{{LOGO}}" alt="Personal mark: a magnifier over the letter A"></div>
+  </div>
+
+  <p class="q">When an AI tool reaches the same conclusion a professional already holds, <span>does human review still work as a control?</span></p>
+  <p>Audit firms, banks and regulators are writing AI policies on one assumption: a competent human reviews the machine’s output. Agreement is the case that review is least likely to catch, because nothing looks wrong. My research asks what happens to professional judgment at that moment.</p>
+
+  <h2>The argument, in three links</h2>
+  <div class="chain">
+    <div><b>Link 1 · Anchor</b><h3>The output becomes the starting point</h3><p>AI conclusions arrive before the reviewer forms a view, and judgments adjust too little away from a starting point.</p><span class="st">Well supported in judgment research</span></div>
+    <div><b>Link 2 · Confirm</b><h3>The tool agrees with the reviewer</h3><p>Language models tend to affirm a user’s position (sycophancy) while people tend to defer to automation. When they agree, both push the same way.</p><span class="st">Time-sensitive; retested as models change</span></div>
+    <div><b>Link 3 · Converge</b><h3>Conclusions drift together</h3><p>Over years of recurring reviews, judgments may converge on each other rather than on evidence, while each model passes its own validation.</p><span class="st">Weakest link; not yet tested</span></div>
+  </div>
+
+  <h2>The work so far</h2>
+  <table>
+    <thead><tr><th>Piece</th><th>What it is</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Qualifying study</td><td>Survey model of 8 organizational safeguards against anchoring in multi-year audit engagements (11 constructs, 55-item instrument, IRB approved). Fielding showed the eligible population is about six per hundred thousand panel members, which became a finding in itself.</td><td><span class="pill done">Passed</span></td></tr>
+      <tr><td>Conference paper</td><td><i>Feasibility as a Parameter</i>: what that recruitment arithmetic means for comparative studies of specialist professionals. AIB Latin America 2027.</td><td><span class="pill">Under review</span></td></tr>
+      <tr><td>Interview study</td><td>A phenomenological study of how experienced auditors experience AI-generated confirmation of a judgment they already formed. 10 to 15 interviews, criterion sampling, a confirmation hazard log for researcher bias.</td><td><span class="pill">Designed; IRB pending</span></td></tr>
+      <tr><td>From practice</td><td>At Citi Internal Audit I designed and deployed a retrieval-augmented AI review assistant and proposed the governance framework it ran under (NIST AI RMF, federal model risk guidance).</td><td><span class="pill done">Deployed</span></td></tr>
+    </tbody>
+  </table>
+
+  <div class="two">
+    <div>
+      <h2>Why it matters</h2>
+      <ul>
+        <li><b>For research:</b> it separates automation bias, a human tendency, from sycophancy, a model property, at the one moment they look identical.</li>
+        <li><b>For practice:</b> it tests from the inside whether human review is the control that AI policies assume.</li>
+        <li><b>For teaching:</b> it gives students a governed way to build with AI, not only to use it.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Open to</h2>
+      <ul>
+        <li>Research collaboration and co-authorship</li>
+        <li>Guest lectures on AI in audit, bank examination and AI governance, in person or by Zoom</li>
+        <li>Adjunct teaching in accounting, auditing, information systems and AI</li>
+        <li>Speaking with students about careers in internal audit and risk</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="honest"><b>Stated plainly:</b> no findings exist yet for the AI questions. This page describes the questions, the designs and the evidence they rest on, not results.</div>
+
+  <div class="foot"><span>{{EMAIL}} · linkedin.com/in/yasiramalik</span><span>github.com/AuditingAI/Profile</span></div>
+</section>
+</body>
+</html>
