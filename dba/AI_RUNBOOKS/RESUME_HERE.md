@@ -28,7 +28,7 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 | AIB-LAC 2027 | **Submitted 30 Sep, ID 69, under review.** Not published | `dba/PUBLICATION_TRACKER.md` |
 | GEB 7365 | Due **Fri 9 Oct**: Draft 3 voice pass and Canvas upload, Topic Area write-up, self peer evaluation (to newburry@fiu.edu only) | `dba/coursework/GEB7365_International_Business/` |
 | References | Newburry, Rey, Castillo and **Aguirre-Urreta (confirmed 6 Oct)** agreed | `career/academic/ACADEMIC_CV_v2.md` |
-| **ISBA course package for Dr. Cousins** | In progress 6 Oct. Thank Aguirre-Urreta; send Cousins a course-level outline of "AI Agents for Business Applications" (from Yasir's pitch deck, UT Austin benchmark), offer to meet in Miami Thu 15 Oct, mention BDSA VP, attach CV + letter of intent. Questions pending Yasir's answers | `career/academic/letters/FIU_ISBA_COURSE_PACKAGE_2026-10-06.md` |
+| **ISBA course package for Dr. Cousins** | Built 6 Oct: two-page course outline (AI Agents for Business Applications, UT Austin benchmark, governance week), CV updated with Aguirre-Urreta, Gmail drafts to Aguirre-Urreta (thanks) and Cousins (outline + CV, meet in Miami 15 to 20 Oct). **Not sent.** Follow up Cousins Mon 12 Oct | `career/academic/letters/FIU_ISBA_COURSE_PACKAGE_2026-10-06.md` |
 | Guest talk, Dr. Reyes Peña | Invited for Tue 13 Oct 8 PM; acceptance drafted, offers in person Thu 15 Oct | `OUTREACH_2026-09-30.md`, 6 Oct rows |
 | Dr. Rey dated plan | Drafted, was due 2 Oct, **not yet sent** | `career/academic/letters/EMAIL_Rey_Dated_Plan_2026-10-01.md` |
 | Rutgers | Camden role filled. Soled introduced Jim Littley (AI courses); follow up **8 Oct** | `career/academic/letters/OUTREACH_2026-09-30.md` |

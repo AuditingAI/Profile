@@ -131,6 +131,8 @@ FDIC Bank Examiner I · Registered Scrum Master · CITI Program, Social/Behaviou
 
 ## References
 
+**Dr. Miguel Aguirre-Urreta**, Professor, Department of Information Systems and Business Analytics, Florida International University
+
 **Prof. William Newburry**, Ryder Eminent Scholar of Global Business and Professor, Department of International Business, Florida International University
 
 **Dr. Juan C. Rey**, Assistant Teaching Professor, Department of International Business, Florida International University

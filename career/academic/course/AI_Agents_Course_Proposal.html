@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Agents for Business Applications · Course Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Two US-letter pages: a proposal brief a department chair can read in three minutes.
+   FIU navy and gold; serif for headings, sans for working text. */
+:root{
+  --navy:#081E3F; --gold:#B6862C; --gold-soft:#F3EAD7; --ink:#1B2433; --muted:#5B6577;
+  --rule:#D9DEE7; --tint:#F4F6FA;
+  --serif:"Source Serif 4","Georgia",serif; --sans:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--sans);color:var(--ink);font-size:10pt;line-height:1.38;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;padding:0.55in 0.6in 0.5in;position:relative;overflow:hidden;page-break-after:always}
+.page:last-child{page-break-after:auto}
+.band{background:var(--navy);color:#fff;margin:-0.55in -0.6in 0;padding:0.42in 0.6in 0.34in}
+.eyebrow{font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{font-family:var(--serif);font-weight:700;font-size:25pt;line-height:1.08;margin:6px 0 6px}
+.sub{font-family:var(--serif);font-size:12pt;color:#D8DEEA;margin:0;max-width:6.6in}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:0 -0.6in;background:var(--gold-soft);padding:0.14in 0.6in}
+.meta div{padding-right:10px}
+.meta b{display:block;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.meta span{font-size:9pt}
+h2{font-family:var(--serif);font-size:13pt;color:var(--navy);margin:0.2in 0 0.07in;font-weight:700}
+h2 small{font-family:var(--sans);font-size:8pt;font-weight:600;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-left:6px}
+p{margin:0 0 6px}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.why div{background:var(--tint);border-radius:6px;padding:10px 12px}
+.why b{display:block;font-family:var(--serif);font-size:10.5pt;color:var(--navy);margin-bottom:3px}
+.why p{font-size:9pt;margin:0}
+.edge{margin-top:12px;background:var(--navy);color:#fff;border-radius:6px;padding:11px 14px;display:grid;grid-template-columns:1.55in 1fr;gap:12px;align-items:center}
+.edge b{font-family:var(--serif);color:var(--gold);font-size:12pt;line-height:1.15}
+.edge p{margin:0;font-size:9.5pt}
+ol.outcomes{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;counter-reset:o}
+ol.outcomes li{counter-increment:o;display:grid;grid-template-columns:20px 1fr;font-size:9.5pt}
+ol.outcomes li::before{content:counter(o);font-weight:700;color:var(--gold)}
+.arc{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:2px}
+.arc div{border-top:3px solid var(--navy);padding-top:6px}
+.arc div.gov{border-top-color:var(--gold)}
+.arc b{display:block;font-size:8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.arc span{font-family:var(--serif);font-size:10.5pt;color:var(--navy);font-weight:600}
+.arc small{display:block;font-size:8.5pt;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:8.8pt}
+th{text-align:left;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1.5px solid var(--navy);padding:4px 6px}
+td{border-bottom:1px solid var(--rule);padding:4.2px 6px;vertical-align:top}
+td.wk{font-weight:700;color:var(--navy);width:30px;font-variant-numeric:tabular-nums}
+td.mod{width:92px;color:var(--muted);font-size:8pt;text-transform:uppercase;letter-spacing:.06em}
+tr.proj td{background:var(--gold-soft)}
+tr.proj td.wk{color:var(--gold)}
+tr.gov td{background:var(--tint)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.assess div{display:flex;justify-content:space-between;border-bottom:1px solid var(--rule);padding:3px 0;font-size:9.3pt}
+.assess div b{font-variant-numeric:tabular-nums;color:var(--navy)}
+.tools{font-size:9pt;color:var(--ink)}
+.ways{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.ways div{background:var(--tint);border-radius:6px;padding:9px 11px;font-size:9pt}
+.ways b{display:block;color:var(--navy);font-family:var(--serif);font-size:10pt;margin-bottom:2px}
+.who{margin-top:12px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;border-top:1.5px solid var(--navy);padding-top:9px}
+.who p{font-size:9pt;margin:0}
+.who .name{font-family:var(--serif);font-weight:700;color:var(--navy);font-size:11pt}
+.foot{position:absolute;left:0.6in;right:0.6in;bottom:0.28in;font-size:7.3pt;color:var(--muted);display:flex;justify-content:space-between;gap:12px}
+.foot span:last-child{white-space:nowrap}
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="band">
+    <div class="eyebrow">Course proposal · draft for discussion · ISBA, FIU College of Business</div>
+    <h1>AI Agents for Business Applications</h1>
+    <p class="sub">A 12-week applied course in which students build, test and govern AI agents that do real business work.</p>
+  </div>
+  <div class="meta">
+    <div><b>Level</b><span>Graduate elective · MSIS Business AI track, Professional MBA AI specialization</span></div>
+    <div><b>Format</b><span>12 weeks · online or hybrid · one live session weekly · 8 to 10 hours a week</span></div>
+    <div><b>Prerequisite</b><span>ISM 6444 or equivalent Python; a no-code lab path for non-programmers</span></div>
+    <div><b>Also fits</b><span>An undergraduate version after ISM 4421, or an Executive Education certificate</span></div>
+  </div>
+
+  <h2>Why FIU, and why now</h2>
+  <div class="why">
+    <div><b>Demand is here</b><p>The Business Analytics with AI program launched in fall 2025 and reached nearly 1,000 students. They will want to build with AI, not only discuss it.</p></div>
+    <div><b>The next step after strategy</b><p>ISM 4421 and ISM 6138 teach AI for business and AI strategy. This course is the hands-on step that follows: agents that retrieve, reason, use tools and act.</p></div>
+    <div><b>Peers are already there</b><p>UT Austin McCombs runs a 12-week postgraduate program in AI Agents for Business Applications (USD 3,450). FIU can offer the same skills inside a degree, at a Miami price and scale.</p></div>
+  </div>
+  <div class="edge">
+    <b>FIU’s edge: governance built in</b>
+    <p>Every build is tested, logged and reviewed by a human before it counts. Students leave able to deploy an agent and to defend it to an auditor, a regulator or a board, which is what employers in finance, healthcare and government now ask for.</p>
+  </div>
+
+  <h2>Learning outcomes <small>By the end, students can</small></h2>
+  <ol class="outcomes">
+    <li><span>Explain generative AI, large language models and agents, and where each fits a business problem</span></li>
+    <li><span>Ground an agent in company documents with retrieval-augmented generation</span></li>
+    <li><span>Build agents that use tools, memory and multi-step reasoning, in code and in no-code platforms</span></li>
+    <li><span>Design a multi-agent workflow and judge when one agent is enough</span></li>
+    <li><span>Test and evaluate an agent for accuracy, reliability and safety, with human review</span></li>
+    <li><span>Govern an agent: privacy, access, decision logs, model risk and a business case leaders can approve</span></li>
+  </ol>
+
+  <h2>Course arc</h2>
+  <div class="arc">
+    <div><b>Weeks 1 to 4</b><span>Foundations</span><small>Generative AI, prompting, RAG, first project</small></div>
+    <div><b>Weeks 5 to 8</b><span>Building agents</span><small>Tools, memory, MCP, planning and reasoning</small></div>
+    <div><b>Weeks 9 to 10</b><span>Advanced systems</span><small>Multi-agent design, testing and evaluation</small></div>
+    <div class="gov"><b>Weeks 11 to 12</b><span>Govern and deploy</span><small>Security, audit trail, capstone</small></div>
+  </div>
+
+  <h2>Three ways ISBA could use it</h2>
+  <div class="ways">
+    <div><b>Graduate elective</b>For the MSIS Business AI track and the Professional MBA AI specialization, as designed above.</div>
+    <div><b>Undergraduate version</b>Paced for students who have taken ISM 3230 and ISM 4421, with more no-code labs.</div>
+    <div><b>Executive certificate</b>A shorter version that extends AI Strategy for Business Leaders into agent execution, piloted with one cohort first.</div>
+  </div>
+
+  <div class="foot"><span>Draft prepared by Yasir A. Malik for Dr. Karlene Cousins, Chair, ISBA · October 2026</span><span>1 of 2</span></div>
+</section>
+
+<section class="page">
+  <h2 style="margin-top:0">Week by week</h2>
+  <table>
+    <thead><tr><th>Wk</th><th>Module</th><th>Topic</th><th>In the lab</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">1</td><td class="mod">Foundations</td><td>The AI landscape: AI, machine learning, generative AI, agents; business problems by industry</td><td>Set up Python, Colab and an n8n no-code workspace</td></tr>
+      <tr><td class="wk">2</td><td class="mod">Foundations</td><td>Generative AI and large language models: how they work, their risks, business uses</td><td>Compare three models on one business task</td></tr>
+      <tr><td class="wk">3</td><td class="mod">Foundations</td><td>Prompt engineering and retrieval-augmented generation: chunking, embeddings, vector stores</td><td>Reusable prompt templates; a first RAG pipeline</td></tr>
+      <tr class="proj"><td class="wk">4</td><td class="mod">Project 1</td><td>Company financial report Q&amp;A assistant</td><td>Answers grounded in a 10-K, with sources cited</td></tr>
+      <tr><td class="wk">5</td><td class="mod">Agents</td><td>AI agents: types, environments, grounding and validation; agentic RAG</td><td>A simple agent in LangChain</td></tr>
+      <tr><td class="wk">6</td><td class="mod">Agents</td><td>Tools and memory: external tools, short and long-term memory, the Model Context Protocol</td><td>An agent that calls tools through MCP</td></tr>
+      <tr><td class="wk">7</td><td class="mod">Agents</td><td>Planning and reasoning: task decomposition, self-reflection, the ReAct pattern</td><td>A multi-step research agent</td></tr>
+      <tr class="proj"><td class="wk">8</td><td class="mod">Project 2</td><td>Document-processing or customer-service agent for a South Florida employer case</td><td>Working agent plus a test log</td></tr>
+      <tr><td class="wk">9</td><td class="mod">Advanced</td><td>Multi-agent systems: specialization, architecture, design</td><td>Two agents that hand work to each other</td></tr>
+      <tr><td class="wk">10</td><td class="mod">Advanced</td><td>Testing and evaluation: accuracy, latency, robustness, truthfulness, human-in-the-loop review</td><td>An evaluation set and a scorecard</td></tr>
+      <tr class="gov"><td class="wk">11</td><td class="mod">Govern</td><td>Securing and governing agents: privacy, access control, decision logs, model risk, the NIST AI Risk Management Framework</td><td>A governance checklist and audit trail for Project 2</td></tr>
+      <tr class="proj"><td class="wk">12</td><td class="mod">Capstone</td><td>Deploy and defend: a working agent with a business case, governance checklist and measurement plan</td><td>Presented to a panel of faculty and practitioners</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cols" style="margin-top:4px">
+    <div>
+      <h2>Assessment</h2>
+      <div class="assess">
+        <div><span>Weekly labs and participation</span><b>15%</b></div>
+        <div><span>Project 1 · RAG assistant</span><b>15%</b></div>
+        <div><span>Project 2 · tool-using agent</span><b>20%</b></div>
+        <div><span>Governance and risk memo</span><b>15%</b></div>
+        <div><span>Capstone · build, business case, defense</span><b>35%</b></div>
+      </div>
+    </div>
+    <div>
+      <h2>Tools</h2>
+      <p class="tools">Python, Google Colab, LangChain and LangGraph, the Model Context Protocol, ChromaDB or FAISS, Streamlit, n8n for no-code builds, and current model APIs (Claude, Gemini, OpenAI). Tools are chosen within FIU’s approved list and data rules; no confidential data goes to public platforms.</p>
+    </div>
+  </div>
+
+  <div class="who">
+    <div>
+      <div class="name">Yasir A. Malik</div>
+      <p>Doctoral candidate, FIU DBA. Most recently Vice President, Audit Manager at Citi; earlier, internal audit at JPMorgan Chase and bank examiner, Florida Office of Financial Regulation. Has built retrieval-augmented AI review tools for auditors and trained auditors in responsible AI. Research: how auditors experience AI-generated conclusions. FIU MBA. Glad to teach, co-develop or support an existing course.</p>
+    </div>
+    <p style="white-space:nowrap;text-align:right">{{EMAIL}}</p>
+  </div>
+
+  <div class="foot"><span>Benchmark: UT Austin McCombs, Postgraduate Program in AI Agents for Business Applications, public program page, October 2026. FIU courses: ISBA Business Analytics and AI page. A proposal, not an approved course.</span><span>2 of 2</span></div>
+</section>
+</body>
+</html>

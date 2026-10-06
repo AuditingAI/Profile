@@ -1,6 +1,6 @@
 # FIU ISBA package · course draft for Dr. Karlene Cousins · started 6 Oct 2026
 
-**Status: in progress. Nothing sent.** Pick up here if the session changes.
+**Status: built 6 Oct. Two Gmail drafts staged (To blank, yellow note). Nothing sent.** Yasir sends both from ymali001@fiu.edu.
 
 ## What triggered it
 Dr. Aguirre-Urreta (6 Oct): adjunct IS hiring is decided by the ISBA Chair, Dr. Karlene Cousins; he
@@ -27,5 +27,36 @@ From ymali001@fiu.edu, drafts end at the sign-off (Outlook adds the signature). 
 numbers, no GPA, no completion year, no em-dashes. Academic CV only (never the industry résumé).
 Do not claim the course exists, has been approved, or has run.
 
-## Open questions for Yasir (answer before drafting)
-See the chat of 6 Oct. Answers go here once given.
+## Yasir's answers (6 Oct)
+1. Course draft: a designed two-page outline (done). 2. Model it on UT Austin McCombs (curriculum taken
+from the public program page and his Great Learning brochure email of 6 Oct; he has an advisor call
+with Great Learning Wed 7 Oct 11 AM). 3. Dr. Cousins has **not** replied to the 1 Oct email.
+4. In Miami Wed 14 Oct evening (B6 685, EWR to FLL) **through about Tue 20 Oct (he thinks; confirm)**;
+residency Fri 16 and Sat 17. Calendar shows Thu 15 and Mon 19 clear. 5. Former BDSA Vice President;
+wants to offer everything. 6. Re-attach the CV (updated), mention the letter of intent already sent.
+
+## What was built
+| Item | Where |
+|---|---|
+| Course outline source (public repo, `{{EMAIL}}` placeholder) | `career/academic/course/AI_Agents_Course_Proposal.html` |
+| Course outline PDF, contact filled, fonts embedded | scratchpad `isba/Malik_AI_Agents_Course_Proposal_ISBA.pdf` (sent in chat) |
+| Updated 4-page CV, Aguirre-Urreta added as first reference | `career/academic/ACADEMIC_CV_4PAGE.md`; PDF in scratchpad `cv27/` (sent in chat) |
+| Gmail draft: thank-you to Dr. Aguirre-Urreta (miaguirr@fiu.edu), no attachments | Gmail drafts |
+| Gmail draft: course draft to Dr. Cousins (kcousins@fiu.edu), attach outline + CV | Gmail drafts |
+
+**Course design.** 12 weeks, graduate elective (MSIS Business AI track, PMBA AI specialization),
+after ISM 6138 / ISM 6444; undergraduate version after ISM 4421; or an Exec Ed certificate extending
+AI Strategy for Business Leaders. Arc follows UT Austin: foundations (GenAI, prompting, RAG),
+agents (tools, memory, MCP, planning, ReAct), advanced (multi-agent, testing and evaluation), then a
+week FIU adds on governance (privacy, access, decision logs, model risk, NIST AI RMF) and a capstone.
+Assessment: labs 15, Project 1 15, Project 2 20, governance memo 15, capstone 35.
+
+**Student-work offers named in the email** (from the ISBA pages, 6 Oct): ATOM Think Tank (ISBA's
+faculty-led consulting practice), ATOM x AIS Technology Innovation Challenge (mentor or judge), AIS
+student chapter (talk), AI 305 conference (held 2 Oct 2026; offer for next year), BDSA (former VP).
+
+## Next
+- Yasir: send both emails from Outlook; attach the two PDFs to the Cousins email.
+- Follow up with Dr. Cousins **Mon 12 Oct** if no reply, before he flies.
+- If a meeting is set, prepare a one-page talking sheet and bring printed copies.
+- The letter of intent still lists Newburry, Rey and Castillo; add Aguirre-Urreta next time it is rebuilt.

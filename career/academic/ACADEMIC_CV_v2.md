@@ -263,7 +263,7 @@ research judgment. `[Reference-request email drafted: letters/EMAIL_Rey_Referenc
 
 **Dr. Alfred Castillo**, Assistant Teaching Professor, Department of International Business, Florida International University — confirmed 1 Oct 2026 ("If I can help you in any way, sure use me"; agreed to be listed).
 
-Further references available on request. `[Dr. Aguirre-Urreta asked 1 Oct 2026; list him only once he says yes.]`
+Further references available on request. `[Dr. Aguirre-Urreta confirmed 6 Oct 2026; listed first in the 4-page edition.]`
 
 ---
 
