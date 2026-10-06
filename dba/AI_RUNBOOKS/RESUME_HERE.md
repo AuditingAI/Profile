@@ -32,7 +32,7 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 | Collaboration inquiry, Dr. Fazilda Nabeel (LUMS, groundwater governance) | Drafted 6 Oct in Gmail, professional only: possible joint paper, online LUMS talk, Zoom guest lecture; CV attached. **One message; if no reply, let it rest.** Yasir reads her 2021 chapter first and adds one sentence. Research tracker lives on branch `claude/fizzi-collaboration-research-998bbk` | Gmail drafts |
 | Guest talk, Dr. Reyes Peña | Invited for Tue 13 Oct 8 PM; acceptance drafted, offers in person Thu 15 Oct | `OUTREACH_2026-09-30.md`, 6 Oct rows |
 | Dr. Rey dated plan | Drafted, was due 2 Oct, **not yet sent** | `career/academic/letters/EMAIL_Rey_Dated_Plan_2026-10-01.md` |
-| Rutgers | Camden role filled. Soled introduced Jim Littley (AI courses); follow up **8 Oct** | `career/academic/letters/OUTREACH_2026-09-30.md` |
+| Rutgers | Camden role filled. **Littley replied 6 Oct**: guest lecture possible later, asked about the AI review assistant and Citi hiring; reply drafted proposing Zoom Thu 15 Oct after 3 PM | `career/academic/letters/OUTREACH_2026-09-30.md` |
 | Rutgers adjunct 26FA0291 | Submitted 25 Sep by the Industry automation with the old CV | `career/HANDOFF.md`, 27 Sep entry |
 | Open applications | FIU adjunct pools 536101 / 536093 and 536103 (closes 31 Oct); Essex AF127P needs unofficial transcripts | `career/academic/ACADEMIC_TRACK_2026-09-30.md` |
 | Public website | GitHub Pages not live; needs Settings, Pages, Source: GitHub Actions | `career/HANDOFF.md` |
