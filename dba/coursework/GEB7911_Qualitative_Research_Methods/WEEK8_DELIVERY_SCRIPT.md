@@ -67,3 +67,28 @@ As noted on the slide, / I used AI to help lay out the poster; / the research de
 4. **Look at the camera, not the screen**, on the research question and the closing line.
 5. **End the sentence down.** Statements drop in pitch at the end. Rising at the end sounds like a question.
 6. **Breathe at every `//`.** Low, from the belly, before the next sentence.
+
+## Talk route
+`figures/week8_talk_route.png`: the poster boxes in order with timings and one line each.
+
+## FAQ, one breath each
+| They ask | You say |
+|---|---|
+| Why not a survey? | I tried. A panel of almost 335,000 gave about twenty eligible auditors. And a survey asks people to notice the very thing the bias hides. |
+| Isn't criterion four too narrow? | Dr. Gonzalez and I agreed to keep it. The risk is recruiting, so I test the screening question first and use referrals. |
+| How do you know they lived it? | The screen asks for one specific occasion. "All the time" with no example is not a yes. |
+| You're an insider. Bias? | I don't claim to remove it. I make it visible: memos, flagged questions, the hazard log, and an outside reviewer. |
+| What is the hazard log? | Every time I feel confirmed by a participant, I write it down and record what I did about it. Feeling confirmed is the phenomenon itself. |
+| Why ten to fifteen? | Depth over count. I stop when the accounts are rich enough, and I record why. |
+| Why "receiving", not "relying"? | Relying assumes the answer. Receiving leaves room for trust, doubt or extra checking. |
+| Why "make sense of"? | In phenomenology, the meaning you make of an experience is part of the experience. |
+| Isn't that a process question? | No. Process is grounded theory. I'm asking what the experience is like. |
+| Automation bias or sycophancy? | One is in the person, one is in the model. When the tool agrees, both push the same way. |
+| What if they check harder when AI agrees? | Then that's my finding. I wrote down in advance what would prove me wrong. |
+| Will you use AI in the analysis? | Not to code, name themes or interpret. That would recreate what I'm studying. Every use is logged and disclosed. |
+| Can you generalize? | No, and I don't try. I give enough detail for readers to judge whether it fits their setting. |
+| How does this link to your dissertation? | Same chain, different link. The dissertation asks how much; this asks how. |
+| Internal or external auditors? | Both, on purpose, for variety, with no more than two from any one firm. |
+| IRB? | My approval covers the survey. Interviews need a modification, and nobody is contacted before it's approved. |
+| Did you use AI for the slide? | Yes, it's disclosed on the slide: layout and drafting help. The research decisions are mine. |
+| Don't know the answer? | That's a good challenge. I haven't resolved it yet. Here's how I'd approach it... |
