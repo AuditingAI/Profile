@@ -57,8 +57,8 @@ For research: / it separates **automation bias**, / a human tendency, / from **s
 A small sample, / recalled experience, / and no claim to generalize. //
 
 **Close, 15 sec**
-The machine agreeing with you / **feels** like evidence. // [pause, look at the camera] // My study asks / whether it **is** experienced that way, / and what auditors **do next**. // Thank you. // [stop talking]
-As noted on the slide, / I used AI to help lay out the poster; / the research decisions / are **mine**.
+The machine agreeing with you / **feels** like evidence. // [pause, look at the camera] // My study asks / whether it **is** experienced that way, / and what auditors **do next**. //
+As noted on the slide, / I used AI to help lay out the poster; / the research decisions / are **mine**. // Thank you. // [stop talking]
 
 ## Delivery, Toastmasters style
 1. **Pause instead of "um".** When you lose your place, close your mouth and breathe. Silence sounds confident; filler does not.
