@@ -92,3 +92,13 @@ As noted on the slide, / I used AI to help lay out the poster; / the research de
 | IRB? | My approval covers the survey. Interviews need a modification, and nobody is contacted before it's approved. |
 | Did you use AI for the slide? | Yes, it's disclosed on the slide: layout and drafting help. The research decisions are mine. |
 | Don't know the answer? | That's a good challenge. I haven't resolved it yet. Here's how I'd approach it... |
+
+## Your story (settled 6 Oct): open with your own moment
+**One sentence:** I built an AI tool that checked auditors' work, and I noticed that when the machine agrees with you, it feels like proof. My study asks auditors what that moment is really like.
+
+**New opening, 40 sec, said to the camera:**
+At Citi, / I built an AI tool / that reviewed auditors' work. // One day / it reached the **same** conclusion I had. // And I **moved on**. // [pause] // Later I asked myself: / did I **check**, / or did I just feel **confirmed**? // [pause] // That moment / is my study. //
+My research question is: // How do experienced auditors **experience** / and **make sense of** / **receiving** an AI-generated conclusion / that **confirms** a judgment / they had **already** formed? //
+
+Then Beats 3 to 5 (Problem, the plan, the twist) and the Close, as in the chat.
+If asked "Was your conclusion wrong?": "No, and that's the point. I don't know whether I checked or just felt confirmed. That's what I want to understand."
