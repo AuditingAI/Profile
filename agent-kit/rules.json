@@ -167,5 +167,15 @@
       "Roles before 2016 go on a single 'Earlier Career' line: title, employer, place, dates. No bullets. Accomplishments from those years are for the interview.",
       "No horizontal rule lines under headings and no gridded tables; they can break applicant tracking systems."
     ]
+  },
+  "grok_daily_apply": {
+    "set_by": "Owner, 6 Oct 2026: 'schedule a run every day same time for grok to apply, keep a retrace and let me know every day'",
+    "rules": [
+      "Claude's 5:55 PM ET run picks a GROK BATCH of up to 8 open roles each day and marks them GO-SUBMIT. The owner has authorized Grok to submit those roles without a further per-role reply.",
+      "Grok still stops on work authorization, salary, EEO, signatures and attestations, account logins and one-time codes, start date, relocation and essay boxes. Those go back to the owner; nobody answers them for him.",
+      "Never batch Citi, American Express, recruiter re-posts, or any role already applied, started, rejected or closed.",
+      "Keep a log of every application event (date, company, title, LinkedIn ID, employer req, source, status). A Grok submission counts as applied only when the employer acknowledgement arrives.",
+      "Report daily: Grok results, the log for the last 7 days, and what needs the owner."
+    ]
   }
 }
