@@ -1,6 +1,6 @@
 # Resume here — for any AI picking this work up
 
-**Updated 26 September 2026.** Read this, then `CONTEXT_PACK.md`, before doing anything.
+**Updated 6 October 2026.** Read this, then `CONTEXT_PACK.md`, before doing anything.
 Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 
 ## Rules that are not negotiable
@@ -14,29 +14,29 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 - **No contact details, salary, or PID in the repository.** It is public. Use `{{EMAIL}}` / `{{PHONE}}`.
 - **The academic CV and the industry résumé never travel together.**
 - **No em-dashes in anything Yasir sends.** He asked for writing that reads human.
+- **GEB 7911 AI cap: 25%, labelled.** In the proposal, do not write the Introduction, Literature Review,
+  4.1, 4.2 or Contributions for him. Check and coach what he writes; never replace it.
 - **Never claim** publications (none exist), findings for the AI extension (none), or participants (zero).
 
 ## Where things stand
 
 | Item | State | Where |
 |---|---|---|
-| Academic job sweep 26 Sep | Ten rows scored; Rutgers, Monmouth, Columbia register are the live ones | `career/academic/ACADEMIC_TRACK_2026-09-26.md` |
-| Rutgers adjunct, posting 26FA0291 | Packet built: CV, cover letter, research and teaching statements. **Not submitted** | `career/academic/`, `career/academic/letters/Rutgers_C_Adjunct_Fall2026.md` |
-| Two CV items blocking submission | **conferral term** (January or summer 2028). RBS title settled: Senior Business Analyst, Retail Credit Risk | `career/academic/ACADEMIC_CV_v2.md`, search `[VERIFY` |
-| Reference, Prof. Newburry | Agreed 24 Sep. Request drafted for the FIU mailbox | `letters/EMAIL_Newburry_Reference_Request.md` |
-| Reference, Dr. Rey | Agreed. Request plus letter of intent drafted | `letters/EMAIL_Rey_Reference_Request.md` |
-| GEB 7911 proposal | Paper and one-slide poster due **5 October**. Poster draft built | `dba/coursework/GEB7911_Qualitative_Research_Methods/` |
-| GEB 7911 Week 7 | Email Dr. Gonzalez whether presenting Week 7; ask whether references on the poster are optional | `WEEK6_CLASS_RECORD_2026-09-22.md` |
-| **AIB-LAC 2027 submission** | **Due 30 Sep 11:59 PM CST.** Blinded paper and extended abstract built. Check FIU mailbox for Newburry's weekend comments first | `dba/coursework/GEB7365_International_Business/AIBLAC_SUBMISSION_2026-09-30.md` |
-| Rutgers adjunct | **Already submitted 25 Sep by the Industry automation with the old CV.** Referee emails on hold until Yasir decides how to correct it | `career/HANDOFF.md`, 27 Sep entry |
-| GEB 7365 | Revised deck done. Final paper to Canvas **9 October**; send to Newburry by **25 Sep** for AIB LAC review if submitting | `dba/coursework/GEB7365_International_Business/` |
-| Public website | GitHub Pages has **never deployed** from this repo. Résumé links to `auditingai.github.io` do not resolve | `career/HANDOFF.md`, 2026-09-26 entry |
-| Chapters 4–6 to Dr. Rey | **Status unclear: July verdict was PASS.** Dated dissertation-phase plan drafted 1 Oct (send by 2 Oct); it asks Rey what, if anything, is still owed | `career/academic/letters/EMAIL_Rey_Dated_Plan_2026-10-01.md` |
+| **GEB 7911 final presentation** | **Tue 6 Oct, 7 PM Zoom.** Present the one-slide poster only. Talk script in the deck's speaker notes; cue card and question drill in the prep file | `dba/coursework/GEB7911_Qualitative_Research_Methods/`: `Malik_GEB7911_ProposalPoster_DRAFT.pptx`, `Malik_GEB7911_Week8_Talk.pptx`, `WEEK8_FINAL_PREP_2026-10-06.md` |
+| **GEB 7911 final paper** | Upload to Canvas (check the assignment for the exact time). Working file built: Methodology 4.3 to 4.7 and Timeline drafted and labelled AI-assisted. **Yasir still writes** the Introduction fixes (yellow flags), Literature Review, 4.1, 4.2 and Contributions, then all yellow notes are deleted | `Malik_GEB7911_Proposal_WORKING.docx`, source `dba/coursework/_templates/build_geb7911_proposal.py`; feedback in `FEEDBACK_PROPOSAL_2026-09-14.md` and `FEEDBACK_Gonzalez_Poster_2026-10-01.md` |
+| Research question (final, keep) | "How do experienced auditors experience and make sense of receiving an AI-generated conclusion that confirms a judgment they had already formed?" Passes every rule in the course guidance | proposal guidance PDF in the same folder |
+| AIB-LAC 2027 | **Submitted 30 Sep, ID 69, under review.** Not published | `dba/PUBLICATION_TRACKER.md` |
+| GEB 7365 | Due **Fri 9 Oct**: Draft 3 voice pass and Canvas upload, Topic Area write-up, self peer evaluation (to newburry@fiu.edu only) | `dba/coursework/GEB7365_International_Business/` |
+| References | Newburry, Rey and Castillo agreed. Aguirre-Urreta asked 1 Oct, list only once he says yes | `career/academic/ACADEMIC_CV_v2.md` |
+| Dr. Rey dated plan | Drafted, was due 2 Oct, **not yet sent** | `career/academic/letters/EMAIL_Rey_Dated_Plan_2026-10-01.md` |
+| Rutgers | Camden role filled. Soled introduced Jim Littley (AI courses); follow up **8 Oct** | `career/academic/letters/OUTREACH_2026-09-30.md` |
+| Rutgers adjunct 26FA0291 | Submitted 25 Sep by the Industry automation with the old CV | `career/HANDOFF.md`, 27 Sep entry |
+| Open applications | FIU adjunct pools 536101 / 536093 and 536103 (closes 31 Oct); Essex AF127P needs unofficial transcripts | `career/academic/ACADEMIC_TRACK_2026-09-30.md` |
+| Public website | GitHub Pages not live; needs Settings, Pages, Source: GitHub Actions | `career/HANDOFF.md` |
 
 ## The one next action
 
-Get the RBS title from the offer letter and the conferral term from the program office. Everything
-on the Rutgers application is waiting on those two facts.
+Tonight's presentation, then finish the GEB 7911 paper section by section: Introduction fixes first.
 
 ## How to read a file
 
