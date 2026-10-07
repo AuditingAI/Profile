@@ -72,6 +72,18 @@ No frameworks. No dependencies. Fast loading. Accessible.
 
 ---
 
+## Development
+
+This repo ships git hooks in `.githooks/` (shell lint on commit, blocks
+direct pushes to `main`). They only run if you point git at that directory —
+`core.hooksPath` isn't versioned, so each clone needs to opt in once:
+
+```
+git config core.hooksPath .githooks
+```
+
+---
+
 ## Contact
 
 - 💼 **LinkedIn**: [linkedin.com/in/yasiramalik](https://linkedin.com/in/yasiramalik)

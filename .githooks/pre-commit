@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+#
+# pre-commit — lint staged shell scripts before they're committed.
+#
+# Runs `bash -n` (syntax check) on every staged .sh file, plus `shellcheck`
+# when it's installed. Also confirms staged .sh files keep their executable
+# bit, since a non-executable script silently breaks anything that invokes
+# it directly (./script.sh) instead of via `bash script.sh`.
+
+set -euo pipefail
+
+staged_sh_files() {
+  git diff --cached --name-only --diff-filter=ACM -- '*.sh'
+}
+
+mapfile -t files < <(staged_sh_files)
+
+if [ "${#files[@]}" -eq 0 ]; then
+  exit 0
+fi
+
+fail=0
+
+for f in "${files[@]}"; do
+  [ -f "$f" ] || continue
+
+  if ! bash -n -- "$f"; then
+    echo "pre-commit: syntax error in $f" >&2
+    fail=1
+  fi
+
+  staged_mode="$(git ls-files -s -- "$f" | awk '{print $1}')"
+  if [ "$staged_mode" != "100755" ]; then
+    echo "pre-commit: $f is staged as non-executable (chmod +x $f && git add $f)" >&2
+    fail=1
+  fi
+done
+
+if command -v shellcheck >/dev/null 2>&1; then
+  if ! shellcheck -- "${files[@]}"; then
+    fail=1
+  fi
+else
+  echo "pre-commit: shellcheck not installed, skipping (syntax + exec-bit checks still ran)" >&2
+fi
+
+exit "$fail"
