@@ -160,12 +160,21 @@
     ]
   },
   "resume_format": {
-    "set_by": "Owner, 30 Sep 2026, from Newark Public Library business-librarian review",
+    "_READ_THIS_FIRST": "Every résumé starts as a copy of applications/resume/builders/TEMPLATE.html. Read applications/resume/RESUME_FORMAT.md before building, editing or sending any résumé. No exceptions, no one-off layouts.",
+    "set_by": "Owner, 7 Oct 2026 (format and signature header); reviewer rules from the Newark Public Library review, 30 Sep 2026",
+    "template": "applications/resume/builders/TEMPLATE.html",
+    "spec": "applications/resume/RESUME_FORMAT.md",
+    "worked_example": "applications/resume/builders/amex-audit-regreporting-director.html -> applications/resume/Yasir_Malik_Resume_Amex_Audit_RegReporting.pdf",
+    "signature": "Header mirrors assets/brand/reference-mark/Signature.dc.html: the Reference Mark (orange #E0662E ring and node, charcoal #171A1D A), a 2px orange reference line, the name, the kicker AUDIT · RISK · GOVERNANCE in #AD4317, a role-specific tagline, then the contact line.",
     "rules": [
-      "One page. The Scotiabank treasury resume is the reference layout.",
+      "One page. Letter, 0.34in x 0.55in margins, Georgia 8.8pt body. Cut words, never sections, and never below 8.6pt.",
+      "Section order is fixed: Profile, Selected Results, Experience, Earlier Career, Skills, Education.",
       "Profile is two sentences, no more.",
-      "Roles before 2016 go on a single 'Earlier Career' line: title, employer, place, dates. No bullets. Accomplishments from those years are for the interview.",
-      "No horizontal rule lines under headings and no gridded tables; they can break applicant tracking systems."
+      "Selected Results is four rows, no more: orange number, what it is in the posting's words, employer on the right. No grid.",
+      "Roles before 2016 go on a single 'Earlier Career' line: title, employer, place, dates. No bullets.",
+      "No horizontal rule lines under headings and no gridded tables; they can break applicant tracking systems.",
+      "Name letter-spacing stays at 0; kicker and heading tracking stay under 1px. After every build the name and the kicker must extract from the PDF text layer as whole words.",
+      "Only the tagline, profile, results, bullets and skills change per application. Header, type and margins never do; change TEMPLATE.html once if the format itself must change."
     ]
   },
   "grok_daily_apply": {

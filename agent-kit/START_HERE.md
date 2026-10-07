@@ -20,9 +20,14 @@ required reading.**
 8. **Show the removals.** End with a "Removed, and why" list.
 9. **Covers match the employer; links checked.** JPM covers go only with JPM roles. Every download link returns 200 and is the pushed, harness-checked file.
 
-## Résumé format — reviewer feedback, 30 Sep 2026
+## Résumé format — the house template, 7 Oct 2026
 
-One page, two-sentence profile, roles before 2016 on one "Earlier Career" line (title, employer, place, dates), and no rule lines or gridded tables (ATS). The Scotiabank treasury résumé is the reference layout.
+**Read `applications/resume/RESUME_FORMAT.md` before building, editing or sending any résumé.**
+Every résumé is a copy of `applications/resume/builders/TEMPLATE.html` with the slots filled:
+the owner's signature header (Reference Mark, orange reference line, name, `AUDIT · RISK · GOVERNANCE`,
+role tagline, contact), then Profile (two sentences), Selected Results (four rows), Experience,
+one "Earlier Career" line for pre-2016 roles, Skills, Education. One page, no rule lines, no gridded
+tables. Worked example: `builders/amex-audit-regreporting-director.html`.
 
 ## Definition of done — owner's rule, 29 Sep 2026
 
