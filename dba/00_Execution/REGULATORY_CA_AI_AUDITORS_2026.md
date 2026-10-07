@@ -40,8 +40,14 @@ Facts below checked against primary or law-firm sources, not the post.
 ## Yasir as a registered AI auditor (later, not now)
 - Registration is by **entity** (business name, services, SOP). Malik LLC (est. 2008) could be the
   vehicle once the registry opens (2027); covered audits require registration only from 2029.
-- What strengthens an application: an SOP mapped to NIST AI RMF and ISO/IEC 42001; a recognised AI
-  audit credential (for example an ISO/IEC 42001 lead auditor course or IAPP AIGP; check ISACA AAIA
-  eligibility, which may require an existing audit certification such as CISA, CIA or CPA).
+- Credentials checked 7 Oct 2026 `[verified]`:
+  - **ISACA AAIA (Advanced in AI Audit):** requires an active CISA, CIA, US CPA or listed equivalent.
+    Yasir holds none, so AAIA follows a CISA or CIA first.
+  - **PECB ISO/IEC 42001 Lead Auditor:** course and exam open now, online. The exam gives *Provisional
+    Auditor* at once; *Auditor* needs 2 years' experience (1 in AI) and 200 audit hours; *Lead Auditor*
+    needs 5 years (2 in AI) and 300 audit hours. Whether the Citi AI review-assistant work counts as AI
+    experience is for PECB to judge.
+  - IAPP AIGP: not verified this session.
+- Registry does not exist yet (opens 2027). Nothing can be registered now.
 - Independence rules matter: no auditing systems he built or governed, and a 12-month cooling-off.
 - Industry-lane and business decision; posted to HANDOFF, not decided here.
