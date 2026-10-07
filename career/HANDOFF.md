@@ -13,6 +13,20 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-10-07 · 🎓 SCHOLAR — California AI auditor laws: résumé line and a possible new lane
+
+California signed **AB 1405** (state registry of AI auditors, independence standards) and **SB 813**
+(voluntary Independent Verification Organizations) on 9 Sep 2026; registry by 2027, registration
+required for covered AI audits from 1 Jan 2029. Verified note: `dba/00_Execution/REGULATORY_CA_AI_AUDITORS_2026.md`.
+**Industry:** (1) consider one résumé line in AI-governance packages, factual only, e.g. "Familiar with
+emerging AI auditor independence standards (California AB 1405 / SB 813) and NIST AI RMF"; do not
+claim registration or certification. (2) "AI auditor" / "AI assurance" / "IVO" roles at Big Four and
+assurance firms are a new search lane worth adding to the profile queries. (3) Registering Malik LLC
+as an AI auditor is a business decision for Yasir, not before the 2027 registry; independence rules
+bar auditing systems he built. Research use stays Scholar's.
+
+---
+
 ## 2026-10-01 · 🎓 SCHOLAR — a Rutgers chair read Yasir as living in Florida; every document must say Newark
 
 Prof. Jay Soled (Chair, AIS, Rutgers Business School) replied to Yasir's application: *"You're
