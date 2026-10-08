@@ -16,3 +16,4 @@ Each family PDF must be byte-identical to its harness-checked source PDF; check 
 
 File names carry no level. Match the résumé to the posting's level: ED/Director/Head/SVP roles get the executive résumé.
 | `Yasir_Malik_Resume_InternalAudit_AIRisk.pdf` | `builders/genai-risk-master.html` | Internal audit, technology / model / data audit, AI risk assurance (VP) |
+| `Yasir_Malik_Resume_Finance_RegReporting_Audit.pdf` | `builders/amex-audit-regreporting-director.html` (house template) | Finance audit, regulatory reporting audit, Controllership / Treasury / capital audit (VP and Director) |
