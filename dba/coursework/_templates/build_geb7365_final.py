@@ -9,6 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 from build_dba_doc import build
 p = json.load(open(os.path.join(HERE, "geb7365_report_draft3.json")))
 p["subtitle"] = "Formal Project Report"
+p = json.loads(json.dumps(p).replace("was used to organise this draft", "was used to organise this paper"))
 p["ident"] = p["ident"][:4] + ["9 October 2026"]
 D = os.path.join(HERE, "..", "GEB7365_International_Business")
 out = os.path.join(D, "Malik_GEB7365_ProjectReport_FINAL.docx")
