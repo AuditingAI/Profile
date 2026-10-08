@@ -112,6 +112,12 @@
       "rule": "The mark stands alone at the top of every branded document. No 'Audit the Algorithm' wordmark beneath it - owner's instruction.",
       "not_the_brand": "The magnifier with the tick (logo-full.png) and any hand-drawn 'A' monogram. The Reference Mark (orange ring) is kept in assets/brand/ as the source of the A, but is not the document mark.",
       "unbranded_on_purpose": "The Chromium-built Goldman resumes other than the Head of Innovation cut carry no mark: Goldman requires outside-business-activity disclosure."
+    },
+    "the_one": {
+      "file": "applications/resume/Yasir_A_Malik_Resume.pdf",
+      "source": "applications/resume/builders/the-one-resume.html",
+      "rule": "Owner, 8 Oct 2026: one résumé that does the trick at all times. Send this file for every application unless he asks for a tailored version. The family and tailored files stay in the repo as archive, not as choices.",
+      "link": "https://raw.githubusercontent.com/AuditingAI/Profile/claude/automate-job-applications-HeX8N/applications/resume/Yasir_A_Malik_Resume.pdf"
     }
   },
   "queue": {

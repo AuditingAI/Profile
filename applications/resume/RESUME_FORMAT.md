@@ -1,5 +1,7 @@
 # The house résumé format — read this before building any résumé
 
+**The one résumé (owner, 8 Oct 2026):** , built from , goes with every application. Build a tailored copy only when he asks for one.
+
 Set by the owner on 7 Oct 2026. Every résumé built after this date starts as a copy of
 `builders/TEMPLATE.html`. Nothing in the header, the section order, the type or the
 margins changes per application; only the words in the `{{SLOTS}}` do. If the format
