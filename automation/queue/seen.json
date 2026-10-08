@@ -211,6 +211,10 @@
     "note": "already applied via JPM portal - Not Selected",
     "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210707444"
   },
+  "2331d1018cb7ba61": {
+    "first_seen": "2026-10-08T17:32:37Z",
+    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Quincy-Massachusetts/Senior-Solution-Architect---AI---Cloud-Systems--Vice-President_R-796824"
+  },
   "237467777ed7c5d6": {
     "first_seen": "2026-08-25T11:01:12Z",
     "url": "https://stripe.com/jobs/search?gh_jid=7874862"
@@ -344,6 +348,10 @@
     "first_seen": "2026-03-05T00:00:00Z",
     "note": "already applied via JPM portal - Not Selected",
     "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210712330"
+  },
+  "3422989bbd460d1a": {
+    "first_seen": "2026-10-08T17:32:37Z",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5446657008"
   },
   "350f5f02b143e295": {
     "first_seen": "2026-07-02T00:00:00Z",
@@ -1246,6 +1254,10 @@
     "note": "already applied via JPM portal - No longer under consideration for this position",
     "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210071338"
   },
+  "cb89e56a82889e45": {
+    "first_seen": "2026-10-08T17:32:37Z",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5444482008"
+  },
   "cc92852e82b40e0a": {
     "first_seen": "2026-09-25T15:27:27Z",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427893008"
@@ -1527,6 +1539,10 @@
     "note": "already applied via JPM portal - Not Selected",
     "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210739810"
   },
+  "fa30311ef69e3920": {
+    "first_seen": "2026-10-08T17:32:37Z",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5446029008"
+  },
   "fa99a4c0fb7afb26": {
     "first_seen": "2026-05-13T00:00:00Z",
     "note": "already applied via JPM portal - Not Selected",
@@ -1550,5 +1566,9 @@
     "first_seen": "2026-04-30T00:00:00Z",
     "note": "already applied via JPM portal - Not Selected",
     "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210720525"
+  },
+  "ffa433e48ea0f5cc": {
+    "first_seen": "2026-10-08T17:32:37Z",
+    "url": "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/IT-Business-Analyst-Product-Owner_R-795109-1"
   }
 }
