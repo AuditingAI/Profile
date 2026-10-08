@@ -1,6 +1,6 @@
 # The house résumé format — read this before building any résumé
 
-**The one résumé (owner, 8 Oct 2026):** , built from , goes with every application. Build a tailored copy only when he asks for one.
+**The one résumé (owner, 8 Oct 2026):** `Yasir_A_Malik_Resume.pdf`, built from `builders/the-one-resume.html`, goes with every application. Build a tailored copy only when he asks for one.
 
 Set by the owner on 7 Oct 2026. Every résumé built after this date starts as a copy of
 `builders/TEMPLATE.html`. Nothing in the header, the section order, the type or the
@@ -17,8 +17,8 @@ The top of the page is the owner's signature, lifted from
 
 | Element | Value | Why |
 |---|---|---|
-| Mark | The Reference Mark, inline SVG, 44 px, two-tone (orange ring and node `#E0662E`, charcoal A `#171A1D`) | The owner's brand; an ATS ignores it, a reader remembers it |
-| Reference line | 2 px orange rule to the left of the text block | The same line the email signature uses |
+| Mark | The Audit Lens (`assets/images/audit-lens-mark.svg`), inline SVG, 44 px: navy magnifier `#1B365D`, orange A `#E0662E`. **The same mark as the CV header** (`logo-mark.png`); owner, 8 Oct 2026: résumé and CV stay in sync | The owner's brand; an ATS ignores it, a reader remembers it |
+| Reference line | 2 px navy rule to the left of the text block | The same line the email signature uses |
 | Name | `YASIR A. MALIK`, Georgia bold 17 pt, **letter-spacing 0** | Above 1.5 px Chromium spaces the characters in the text layer and an ATS cannot match the name |
 | Kicker | `AUDIT · RISK · GOVERNANCE`, Arial 7.4 pt, deep orange `#AD4317`, tracking 0.8 px | The signature's second line; tracking above ~1 px at this size also breaks the text layer |
 | Tagline | Georgia italic 9.2 pt, three phrases in the posting's own words, separated by `|` | The only header line that changes per application |
