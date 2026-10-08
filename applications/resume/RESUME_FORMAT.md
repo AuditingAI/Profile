@@ -22,7 +22,7 @@ The top of the page is the owner's signature, lifted from
 | Name | `YASIR A. MALIK`, Georgia bold 17 pt, **letter-spacing 0** | Above 1.5 px Chromium spaces the characters in the text layer and an ATS cannot match the name |
 | Kicker | `AUDIT · RISK · GOVERNANCE`, Arial 7.4 pt, deep orange `#AD4317`, tracking 0.8 px | The signature's second line; tracking above ~1 px at this size also breaks the text layer |
 | Tagline | Georgia italic 9.2 pt, three phrases in the posting's own words, separated by `|` | The only header line that changes per application |
-| Contact | Arial 8 pt grey: Newark, NJ · email · +1 (786) 704-8536 · linkedin.com/in/yasiramalik | The 305 number is retired; never use it |
+| Contact | Arial 8 pt grey, two lines: Newark, NJ · email · +1 (786) 704-8536 · linkedin.com/in/yasiramalik, then `Profile: auditingai.github.io · Code and materials: github.com/MalikAI-786` | The 305 number is retired. **Résumé points to the profile (main) page; the CV points to the research page** (`auditingai.github.io/research.html`). Owner, 8 Oct 2026 |
 
 ## Section order — fixed
 
