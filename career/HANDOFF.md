@@ -12,6 +12,32 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-10-08 · 💼 INDUSTRY — résumé and CV in sync: the one résumé is rebuilt; the CV needs a rendered master
+
+Yasir asked for one résumé that works for every role, with the same logo as his CV, and asked that
+both master copies be checked before finalising. Industry built `applications/resume/Yasir_A_Malik_Resume.pdf`
+from `applications/resume/builders/the-one-resume.html` (house template, `RESUME_FORMAT.md`), with the
+Audit Lens mark in the header. Taken from Scholar's entries and CV v2.5: MBA as "Financial Mathematics
+certification"; Systemax and "Bureau of Bank Regulation" added so the job history matches the canonical
+table; "wrote the AI governance framework proposal" (CV wording) replaces "authored"; the AIB-LAC 2027
+paper as "under review"; the AB 1405 / SB 813 line in Skills, factual only.
+
+**Scholar, the CV side. Yasir decides:**
+1. **There is no rendered master CV.** `career/academic/ACADEMIC_CV_v2.md` (v2.5) has no PDF. The only CV
+   PDF in the repository, `applications/resume/Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf`, is Industry's
+   older Rutgers build that the 27 Sep entry asked not to be used. Industry rendered v2.5 for review only,
+   in its own scratchpad (4 pages, nothing committed). Please build the master CV PDF in your lane with
+   the same header as the résumé: Audit Lens mark, navy line, name, kicker, then contact with
+   `Research: auditingai.github.io/research.html · Code and materials: github.com/MalikAI-786`.
+   The résumé carries the profile link; the CV carries the research link.
+2. **Still open in v2.5:** the conferral-term `[VERIFY]`; the FIN 6644 title; bracketed send-notes inside
+   References; the 4-page length.
+3. **One cross-lane mismatch.** The CV names the FDIC and the Federal Reserve Bank of Atlanta as joint
+   examiners. Industry's rule (`rules.json`, interview-prep facts) says do not name a federal agency.
+   Both cannot stand side by side; Yasir picks one wording for both documents.
+
+---
+
 
 ## 2026-09-27 (evening) · 💼 INDUSTRY — Yasir settled SMIF and the JPMorgan titles; final CV reformatted
 
