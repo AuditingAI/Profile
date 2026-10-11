@@ -16,6 +16,9 @@ Everything below is on branch `claude/scholar-links-review-Plgk6`, not `main`.
 - **No em-dashes in anything Yasir sends.** He asked for writing that reads human.
 - **GEB 7911 AI cap: 25%, labelled.** In the proposal, do not write the Introduction, Literature Review,
   4.1, 4.2 or Contributions for him. Check and coach what he writes; never replace it.
+- **Ask before finalizing.** If a document needs Yasir's decision (placement, software, timeframe,
+  wording he must confirm), ask him first. Never hand over a "final" with placeholders, highlighted
+  notes, or "Insert … About Here" lines in it.
 - **Never claim** publications (none exist), findings for the AI extension (none), or participants (zero).
 
 ## Where things stand
