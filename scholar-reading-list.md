@@ -23,6 +23,22 @@ found.** Full verification, exact citations and download routes:
 | Hummel, *Exploring intuition in auditing*, *IJA* | Anchoring | 🔴 **NOT FOUND. Do not cite** |
 
 
+## 2026-10-11 · Abdo-Salloum & Chehade (2026), read in full by Claude for Yasir's triage
+
+**Abdo-Salloum, A. M., & Chehade, S. (2026). The role of artificial intelligence in transforming accounting
+and auditing practices: A systematic review. *SAGE Open*, January–March 2026, 1–13.
+https://doi.org/10.1177/21582440251403296** · `read_state: summarised` (Yasir has not read it yet)
+
+| | |
+|---|---|
+| Design | Systematic review, PRISMA; Google Scholar, Scopus, Web of Science, ScienceDirect; Jan 2021 to May 2025; **31 studies** in the synthesis |
+| Claim | AI raises efficiency, reporting credibility and fraud detection; shifts auditors from retrospective inspection to real-time monitoring; adoption shaped by cost, ethics, regional readiness, and TAM-style factors (usefulness, ease of use, trust) |
+| Says about the gap | **"Empirical contributions remain limited"**; conceptual papers and reviews dominate |
+| Touches the chain | Lists **auditor over-reliance** among challenges (citing Big Four practice) but does not study it: supports L2 as a named, unstudied risk |
+| Weakness | Small base (31), includes Google Scholar, adoption-framed; mostly secondary evidence. Cite as a recent map of the field, never as evidence about auditor behaviour |
+| Where it goes | GEB 7911 Lit Review §2.3 and the gap paragraph; dissertation Ch. 2 field overview |
+
+
 ## 1. Start here — surveys & foundational frameworks (read first, ~5 papers)
 
 These give you the landscape and vocabulary.
