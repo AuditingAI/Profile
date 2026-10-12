@@ -13,6 +13,29 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-10-12 · 🎓 SCHOLAR — BankUnited "Data Governance & AI Enablement Manager": Yasir wants to apply
+
+**Role:** BankUnited, Data Governance & (AI) Enablement Manager, Miami Lakes FL. Req 5001192331206:
+https://myjobs.adp.com/bankunitedexternal/cx/job-details?reqId=5001192331206 · salary and work arrangement
+not on the page. Read 12 Oct by Scholar for the fit check only; the résumé and application are Industry's.
+
+**Requirements (literal):** 7+ yrs data governance / data management; governance frameworks or maturity
+models (DCAM, DAMA-DMBOK, COBIT); assessments, audits or capability evaluations; governance metrics; risk,
+compliance or regulatory initiatives; catalog tools (Alation, Collibra, Informatica); Agile/DevOps, Jira,
+Confluence. Bachelor's preferred. Partners with Risk, Compliance and Internal Audit; AI/ML lifecycle
+governance, explainability, auditability.
+
+**Scholar's fit read:** strong on AI governance (Citi AI review assistant + governance framework proposal,
+NIST AI RMF), assessments/audits, regulatory work (consent order, FR 2900/TIC filings at Citi Legal Entity
+Management, governed master data from 500+ sources), Scrum Master. **Gaps to address honestly:** no stated
+DCAM / DAMA-DMBOK or Collibra/Alation hands-on; title is Manager (check comp against the $180K floor);
+**Miami Lakes, FL**, outside the Newark radius, so this needs Yasir's relocation decision and must not
+reintroduce the "Miami" address problem on academic materials (Soled, 1 Oct).
+**Industry:** build the tailored résumé and cover letter if Yasir confirms location and comp. Separately:
+Brad Lupton (Head of Data & Analytics, Customers Bank; also an FIU DBA student) is a networking contact.
+
+---
+
 ## 2026-10-07 · 🎓 SCHOLAR — California AI auditor laws: résumé line and a possible new lane
 
 California signed **AB 1405** (state registry of AI auditors, independence standards) and **SB 813**
