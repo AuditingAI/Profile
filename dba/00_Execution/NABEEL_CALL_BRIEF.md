@@ -29,6 +29,12 @@ satellite and AI estimates of groundwater depletion raise the same review questi
   argument spatially. Her side: what the institutions are and how to code them. His side: data
   joining, quantitative design, and the audit question of whether the satellite measure can be trusted.
 - The make-or-break question for her: **do digital canal-command boundaries for Punjab exist?**
+- **Update 12 Oct (research lane, `CANAL-DATA-LEADS.md` on the fizzi branch):** leans go, not confirmed.
+  IFPRI/CGIAR (2016) and an IWMI dataset report results per canal command; no open boundary file found.
+  The unit is likely **about 45 main canal commands**, not districts, so a small model. Sharper asks:
+  1. "IFPRI and IWMI both report by canal command. Do you know who holds the boundary layers?"
+  2. "Would about 45 commands be fine enough to test your governance argument, or does it need the
+     watercourse-outlet level?" (Only she can answer this; it puts her expertise at the centre.)
 
 ## Agenda, 30 minutes
 | Min | Topic |
