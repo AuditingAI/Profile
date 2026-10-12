@@ -31,7 +31,9 @@ Management, governed master data from 500+ sources), Scrum Master. **Gaps to add
 DCAM / DAMA-DMBOK or Collibra/Alation hands-on; title is Manager (check comp against the $180K floor);
 **Miami Lakes, FL**, outside the Newark radius, so this needs Yasir's relocation decision and must not
 reintroduce the "Miami" address problem on academic materials (Soled, 1 Oct).
-**Industry:** build the tailored résumé and cover letter if Yasir confirms location and comp. Separately:
+**Decided by Yasir 12 Oct:** apply. Miami relocation goes on the industry résumé for this role; the Manager
+level is accepted (he may also teach in Miami, e.g. FIU adjunct). Academic documents keep Newark.
+**Industry:** build the tailored résumé and cover letter now. Separately:
 Brad Lupton (Head of Data & Analytics, Customers Bank; also an FIU DBA student) is a networking contact.
 
 ---
