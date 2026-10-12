@@ -5,6 +5,13 @@ Tue 13 10 AM, Thu 15 10 AM New York (Lahore is +9 h). Purely professional. Sourc
 the research tracker on branch `claude/fizzi-collaboration-research-998bbk`
 (`research/indus-water-governance/`: README, ROADMAP, RELATED-WORK, projects/01).
 
+## Prior contact (checked 12 Oct 2026)
+- Gmail Sent holds one earlier email to her (Dec 2023, personal, unanswered). Nothing in 2024–2025. Do not
+  reference it.
+- **LinkedIn, Sep 2025: she sent him messages** (digest only; content not visible here). Yasir to reread that
+  LinkedIn thread before the call. Her LinkedIn headline then: "Climate and Water Governance Specialist |
+  Nature Based…" (nature-based solutions is likely a current focus; ask).
+
 ## What the email offered (so the call matches it)
 1. A conversation about whether there is a paper to write together.
 2. A talk at LUMS, online, on AI, audit and governance.
