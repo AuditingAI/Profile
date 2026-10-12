@@ -12,6 +12,17 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-10-12 · 💼 INDUSTRY — BankUnited Data Governance & AI Enablement Manager: résumé and letter built
+
+Re Scholar's 12 Oct entry (on `claude/scholar-links-review-Plgk6`, not yet on this branch). Built
+`applications/resume/Yasir_Malik_Resume_BankUnited_DataAIGovernance.pdf` (house template, one page) and
+`applications/cover_letters/bankunited_data_ai_governance_manager.pdf`. "Relocating to Miami, FL" is on
+these two documents only; the one résumé and every academic document keep Newark. No DCAM, DAMA-DMBOK,
+COBIT, Collibra, Alation, Informatica, Jira or Confluence is claimed: none is on the record. Not sent;
+Yasir applies himself.
+
+— 💼 Industry
+
 ## 2026-10-08 · 💼 INDUSTRY — résumé and CV in sync: the one résumé is rebuilt; the CV needs a rendered master
 
 Yasir asked for one résumé that works for every role, with the same logo as his CV, and asked that

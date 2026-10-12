@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--
+  THE ONE RÉSUMÉ (owner, 8 Oct 2026: "one that does the trick at all times"). Built from TEMPLATE.html. Read applications/resume/RESUME_FORMAT.md before touching this.
+  Every new résumé is a copy of this file with the {{SLOTS}} filled. Do not change the
+  header, the section order, the type sizes or the page margins per résumé; change them
+  here, once, and rebuild every builder that uses them.
+  Owner set this format on 7 Oct 2026. The signature block mirrors
+  assets/brand/reference-mark/Signature.dc.html.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik — Résumé — BankUnited Data Governance &amp; AI Enablement Manager</title>
+<style>
+  @page { size: Letter; margin: 0.34in 0.55in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.8pt; line-height: 1.22; color: #171A1D; }
+
+  /* ---- Signature header: mark, orange reference line, name, kicker, tagline, contact ---- */
+  .sig { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+  .sig svg { width: 44px; height: 44px; flex-shrink: 0; margin-top: 2px; }
+  .sig .block { border-left: 2px solid #1B365D; padding-left: 12px; }
+  /* letter-spacing on the name must stay <= 1.5px: above that Chromium breaks it into
+     spaced characters in the PDF text layer and an ATS cannot match "Yasir Malik". */
+  h1 { font-size: 17pt; line-height: 1.1; font-weight: bold; letter-spacing: 0; text-transform: uppercase; color: #171A1D; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 7.4pt; letter-spacing: 0.8px; text-transform: uppercase; color: #AD4317; margin-top: 3px; }
+  .tagline { font-size: 9.2pt; font-style: italic; color: #3E464E; margin-top: 4px; }
+  .contact { font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #5A646E; margin-top: 3px; }
+
+  /* ---- Sections: small-cap heads in the brand orange, no rule lines (ATS) ---- */
+  h2 { font-family: Arial, Helvetica, sans-serif; font-size: 8.2pt; letter-spacing: 0.9px; text-transform: uppercase; font-weight: bold; color: #AD4317; margin: 7px 0 3px; }
+  p, li { text-align: justify; }
+  ul { padding-left: 15px; margin-top: 2px; }
+  li { margin-bottom: 2px; }
+  b { color: #000; }
+
+  /* ---- Selected Results: three columns, no grid (ATS), numbers in the brand orange ---- */
+  table.results { width: 100%; border-collapse: collapse; margin-top: 3px; }
+  table.results td { padding: 2px 0; vertical-align: top; border: none; }
+  table.results td.n { width: 12%; font-weight: bold; white-space: nowrap; font-size: 9.8pt; color: #AD4317; }
+  table.results td.w { width: 19%; text-align: right; font-style: italic; font-size: 8.4pt; color: #5A646E; }
+
+  /* ---- Experience ---- */
+  .job { display: flex; justify-content: space-between; margin-top: 6px; align-items: baseline; }
+  .job b { font-size: 9.6pt; }
+  .sub { font-style: italic; font-size: 8.6pt; color: #5A646E; margin-top: 1px; }
+  .dates { white-space: nowrap; font-size: 8.8pt; color: #3E464E; }
+  .one { margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<div class="sig">
+  <svg viewBox="55 46 210 210" fill="none" role="img" aria-label="Audit the Algorithm">
+    <circle cx="149" cy="140" r="84" stroke="#1B365D" stroke-width="8.5" fill="none"/>
+    <line x1="212" y1="203" x2="253" y2="244" stroke="#1B365D" stroke-width="12" stroke-linecap="round"/>
+    <path d="M108.8 190.3 L149 98.1 L189.2 190.3" stroke="#E0662E" stroke-width="11" stroke-linejoin="miter" stroke-linecap="butt" fill="none"/>
+    <path d="M112.5 160.1 H214.3" stroke="#E0662E" stroke-width="11" stroke-linecap="butt"/>
+  </svg>
+  <div class="block">
+    <h1>Yasir A. Malik</h1>
+    <div class="kicker">Audit &middot; Risk &middot; Governance</div>
+    <div class="tagline">Data Governance &amp; Data Quality &nbsp;|&nbsp; AI Governance &amp; Enablement &nbsp;|&nbsp; Risk, Compliance &amp; Audit Partnership</div>
+    <div class="contact">Relocating to Miami, FL &nbsp;&bull;&nbsp; YasirAMalik@gmail.com &nbsp;&bull;&nbsp; +1 (786) 704-8536 &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik</div>
+    <div class="contact">Profile: auditingai.github.io &nbsp;&bull;&nbsp; Code and materials: github.com/MalikAI-786</div>
+  </div>
+</div>
+
+<h2>Profile</h2>
+<p>Data and AI governance leader who wrote the <b>AI governance framework</b> proposal for Citi Internal Audit&rsquo;s own AI use, against NIST AI RMF and model-risk guidance, and shipped the AI review assistant that ran under it, with explainability, guardrails and human review built in. Earlier at Citi he brought <b>500+ legal-entity data sources</b> under governed master data with ownership, lineage and quality controls, feeding FR 2900 and TIC filings at 99.8% accuracy; a former bank examiner and Registered Scrum Master.</p>
+
+<h2>Selected Results</h2>
+<table class="results">
+  <tr><td class="n">500+</td><td>Legal-entity data sources brought under governed master data: ownership, lineage, quality</td><td class="w">Citi</td></tr>
+  <tr><td class="n">99.8%</td><td>Filing accuracy on Federal Reserve FR 2900 and TIC reports built on that governed data</td><td class="w">Citi</td></tr>
+  <tr><td class="n">~35%</td><td>Faster review from an AI assistant he built and shipped under the governance framework he proposed</td><td class="w">Citi Internal Audit</td></tr>
+  <tr><td class="n">15+</td><td>Business units audited for governance, data integrity and regulatory reporting</td><td class="w">Citi Internal Audit</td></tr>
+</table>
+
+<h2>Experience</h2>
+
+<div class="job"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
+<div class="sub">Internal Audit &nbsp;|&nbsp; New York, NY</div>
+<ul>
+  <li>Wrote the <b>AI governance framework</b> proposal for audit&rsquo;s own AI use against NIST AI RMF and model-risk guidance: use-case intake, risk tiering, control library, explainability and human-in-the-loop requirements, and post-deployment monitoring.</li>
+  <li>Built and shipped a retrieval-augmented <b>Workpaper Quality Assistant</b> in Python and LangChain under that framework, with explainability and prompt-injection guardrails and every output reviewed by a person; ~35% less review cycle time.</li>
+  <li>Led risk-based <b>assessments and audits</b> across 15+ business units covering governance, data integrity, technology and regulatory reporting; drove <b>consent-order remediation</b> with closure evidence accepted by external regulators; reported to the Board Audit Committee and coached 8+ auditors.</li>
+</ul>
+
+<div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
+<div class="sub">First-Line Controls &nbsp;|&nbsp; Jersey City, NJ</div>
+<ul>
+  <li>Owned first-line controls over Treasury and CIO capital and liquidity activities, partnering with Risk, Compliance and Internal Audit; automated reconciliations cut manual review ~40%.</li>
+  <li>Led CCAR forecast validation and model challenge over a <b>$2.6T</b> balance sheet (SR 15-18).</li>
+</ul>
+
+<div class="job"><b>Capital Controller, Basel Measurement &amp; Analytics &mdash; JPMorgan Chase</b><span class="dates">Sep 2017 &ndash; Feb 2019</span></div>
+<div class="sub">Brooklyn, NY</div>
+<p class="one">Owned Basel III RWA and capital-adequacy reporting data across a <b>$50B</b> book, feeding FR Y-15, FFIEC 101, FR Y-14Q and Pillar 3.</p>
+
+<div class="job"><b>Program Manager, CIB Resolution &amp; Recovery Planning &mdash; JPMorgan Chase</b><span class="dates">2015 &ndash; 2017</span></div>
+<div class="sub">Commercial &amp; Investment Bank</div>
+<p class="one">Coordinated 50+ stakeholders across the business, Legal, Finance and Operations into 165(d) resolution-planning submissions.</p>
+
+<div class="job"><b>Assistant Vice President, Global Legal Entity Management &mdash; Citi</b><span class="dates">2012 &ndash; 2015</span></div>
+<div class="sub">Tampa, FL</div>
+<p class="one">Consolidated <b>500+ legal-entity data sources</b> into governed master data &mdash; data ownership, data modeling and ETL, lineage and quality controls &mdash; enabling automated <b>FR 2900 and TIC</b> filings at 99.8% accuracy.</p>
+
+<h2>Earlier Career</h2>
+<p class="one">Bank Examiner, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation, West Palm Beach, FL (2011&ndash;2012) &nbsp;&bull;&nbsp; Analyst &mdash; Systemax, Miami, FL (2010&ndash;2011) &nbsp;&bull;&nbsp; Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009)</p>
+
+<h2>Skills</h2>
+<p><b>Data governance:</b> data ownership and stewardship &bull; master and reference data &bull; data lineage &bull; data quality controls &bull; data modeling and ETL<br>
+<b>AI governance:</b> NIST AI RMF &bull; ISO/IEC 42001 &bull; EU AI Act &bull; model risk management &bull; AI use-case intake and risk tiering &bull; explainability &bull; auditability &bull; human-in-the-loop controls<br>
+<b>Assurance and delivery:</b> risk-based assessments and audits &bull; COSO &bull; three lines of defence &bull; consent orders and regulatory examinations &bull; Board reporting &bull; Agile delivery as a Registered Scrum Master<br>
+<b>Tools:</b> Excel (advanced) &bull; SQL &bull; Python &bull; LangChain &bull; Tableau &bull; Power BI &bull; Alteryx</p>
+
+<h2>Education, Research and Certifications</h2>
+<p><b>Doctor of Business Administration, Florida International University</b> &mdash; in progress; qualifying examination passed July 2026. Research on how AI-assisted review changes professional judgment.<br>
+<b>MBA, Florida International University</b> (Financial Mathematics certification) &mdash; 2011 &nbsp;&bull;&nbsp; <b>B.Sc. (Hons), Banking &amp; Finance, London School of Economics</b> &mdash; 2005<br>
+<b>Certifications:</b> Registered Scrum Master &nbsp;&bull;&nbsp; FDIC Bank Examiner I &nbsp;&bull;&nbsp; In progress: IAPP AIGP, CIA Part 1</p>
+</body>
+</html>
