@@ -23,3 +23,12 @@ link works once this branch is merged to `main`.
 **Rule for drafts:** the body ends with a closing such as "With best regards," or "With thanks,"
 and nothing after it, so the auto-signature does not appear twice. If Outlook's auto-signature is
 off for replies, paste the block above once.
+
+## Updated 12 Oct 2026: two signatures, logo on the left
+- **FIU Outlook (academic):** FIU seal left, gold rule, then name · Doctoral Candidate | Business
+  Administration · FIU | College of Business · {{EMAIL}} · {{PHONE}} · linkedin.com/in/yasiramalik ·
+  Research: github.com/AuditingAI/Profile
+- **Gmail (personal and industry):** personal magnifier-A mark left, same layout; title line "Audit, Risk
+  and AI Governance · Doctoral Candidate, FIU"; GitHub github.com/AuditingAI/Profile.
+- GitHub link is the repository root, which works today. Use the RESEARCH.md link only after the branch
+  is merged to main. Check FIU brand guidance before relying on the seal in email.
