@@ -69,7 +69,7 @@ currently the go/no-go item for the whole project.
 | Sentinel-1 / Sentinel-2 | Copernicus Data Space | Free, registration |
 | PCRWR monitoring wells | Institutional request | `[unverified]` |
 | Pakistan Agricultural Census | Pakistan Bureau of Statistics | `[unverified]` |
-| Punjab canal command boundaries | Punjab Irrigation Dept. | **`[unknown — this is the Project 01 go/no-go]`** |
+| Punjab canal command boundaries | Punjab Irrigation Dept.; IFPRI/CGSpace; IWMI | **`[leans go, unconfirmed — see CANAL-DATA-LEADS.md; ~45 commands, not district level]`** |
 
 ## Setup links
 
