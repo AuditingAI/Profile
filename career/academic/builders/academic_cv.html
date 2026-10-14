@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+  ACADEMIC CV, rendered master. Content and section order: career/academic/ACADEMIC_CV_MASTER_2026-10.md
+  (Yasir's 9 Oct 2026 format). Header: the same Audit Lens signature block as the one résumé
+  (Industry's applications/resume/builders/the-one-resume.html), so the two read as one brand, but the
+  CV carries the research link and the résumé carries the profile link.
+  {{EMAIL}} and {{PHONE}} are filled at build time only; this repository is public.
+  Build: python3 career/academic/builders/render.py academic_cv.html <out.pdf>
+  14 Oct 2026 edits against the master: no em-dashes; "saturation as a stopping rule" replaced to match
+  the protocol; "Graduate Program Director" left off until confirmed; dead research link replaced with
+  the repository.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik · Curriculum Vitae</title>
+<style>
+  @page { size: Letter; margin: 0.5in 0.6in 0.55in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 9.6pt; line-height: 1.32; color: #171A1D; }
+
+  .sig { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 10px; }
+  .sig svg { width: 48px; height: 48px; flex-shrink: 0; margin-top: 2px; }
+  .sig .block { border-left: 2px solid #1B365D; padding-left: 12px; }
+  h1 { font-size: 18pt; line-height: 1.1; font-weight: bold; text-transform: uppercase; color: #171A1D; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 7.6pt; letter-spacing: 0.8px; text-transform: uppercase; color: #AD4317; margin-top: 3px; }
+  .tagline { font-size: 9.6pt; font-style: italic; color: #3E464E; margin-top: 4px; }
+  .contact { font-family: Arial, Helvetica, sans-serif; font-size: 8.2pt; color: #5A646E; margin-top: 3px; }
+
+  h2 { font-family: Arial, Helvetica, sans-serif; font-size: 8.6pt; letter-spacing: 0.9px; text-transform: uppercase; font-weight: bold; color: #AD4317; margin: 12px 0 4px; padding-bottom: 2px; border-bottom: 0.75px solid #C9CED4; break-after: avoid; }
+  h3 { font-size: 9.8pt; font-weight: bold; margin-top: 6px; break-after: avoid; }
+  p { text-align: justify; margin-top: 2px; }
+  .e { margin-top: 6px; break-inside: avoid; }
+  .e b { color: #000; }
+  .m { color: #5A646E; font-style: italic; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .row .d { white-space: nowrap; color: #3E464E; font-size: 9pt; }
+  ul { padding-left: 15px; margin-top: 2px; }
+  li { margin-bottom: 2px; text-align: justify; }
+  blockquote { margin: 4px 0 0 14px; font-style: italic; color: #3E464E; }
+</style>
+</head>
+<body>
+
+<div class="sig">
+  <svg viewBox="55 46 210 210" fill="none" role="img" aria-label="Audit the Algorithm">
+    <circle cx="149" cy="140" r="84" stroke="#1B365D" stroke-width="8.5" fill="none"/>
+    <line x1="212" y1="203" x2="253" y2="244" stroke="#1B365D" stroke-width="12" stroke-linecap="round"/>
+    <path d="M108.8 190.3 L149 98.1 L189.2 190.3" stroke="#E0662E" stroke-width="11" stroke-linejoin="miter" stroke-linecap="butt" fill="none"/>
+    <path d="M112.5 160.1 H214.3" stroke="#E0662E" stroke-width="11" stroke-linecap="butt"/>
+  </svg>
+  <div class="block">
+    <h1>Yasir A. Malik</h1>
+    <div class="kicker">Curriculum Vitae</div>
+    <div class="tagline">Doctoral Candidate (DBA), Florida International University &nbsp;|&nbsp; Auditing, Behavioural Accounting &amp; AI Governance</div>
+    <div class="contact">Newark, New Jersey &nbsp;&bull;&nbsp; {{EMAIL}} &nbsp;&bull;&nbsp; {{PHONE}} &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik</div>
+    <div class="contact">Research and materials: github.com/AuditingAI/Profile</div>
+  </div>
+</div>
+
+<h2>Research Interests</h2>
+<p>Cognitive bias in professional judgment &middot; anchoring and adjustment in recurring audit engagements &middot; automation bias and human&ndash;AI interaction in assurance work &middot; survey methodology and access to specialist professional populations &middot; AI governance frameworks (NIST AI RMF, SR 26-2).</p>
+
+<h2>Education</h2>
+<div class="e">
+  <div class="row"><span><b>Doctor of Business Administration (DBA)</b>, Florida International University, College of Business</span><span class="d">In progress</span></div>
+  <p>Cohort 8.14 &middot; Qualifying examination passed, July 2026. Dissertation in development: <i>Automated anchoring, sycophantic confirmation, and recursive epistemic drift: how AI-assisted review reshapes auditor judgment.</i> Major Professor: Dr. Miguel Aguirre-Urreta, Professor of Information Systems and Business Analytics &middot; Qualifying-study supervisor: Dr. Juan C. Rey.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Master of Business Administration (MBA)</b>, Florida International University</span><span class="d">October 2011</span></div>
+  <p>Certification in Financial Mathematics</p>
+</div>
+<div class="e"><div class="row"><span><b>Graduate Advanced Diploma, International Banking</b>, Florida International University</span><span class="d">August 2007</span></div></div>
+<div class="e">
+  <div class="row"><span><b>B.Sc. (Honours), Banking and Finance</b>, The London School of Economics and Political Science</span><span class="d">June 2005</span></div>
+  <p>Merit Scholarship, University of London, 2002 to 2005</p>
+</div>
+<div class="e"><div class="row"><span><b>Regulatory Studies</b>, Introduction to Bank Examinations, FDIC Corporate University, Arlington VA</span><span class="d">March 2012</span></div></div>
+
+<h2>Research</h2>
+<h3>Qualifying study (completed and passed, July 2026)</h3>
+<p><i>Mitigating Anchoring Bias in Long-Term Auditor Engagements.</i> An eleven-construct, fifty-five-item measurement model with sixteen hypotheses, grounded in dual-process theory and the anchoring-and-adjustment heuristic. Eight organisational interventions operating through two mediating mechanisms, audit judgment quality and audit process rigour, toward one outcome: judgments driven by current evidence rather than the prior-period figure.</p>
+<p>IRB-approved (IRB-25-0462). Instrument developed, pilot-tested and fielded. Complete analytic protocol specified from exploratory factor analysis through confirmatory factor analysis, regression diagnostics and structural modelling. Manuscript about 16,000 words.</p>
+<p><b>Outcome and contribution.</b> The study reached feasibility rather than validation. Applying the eligibility criteria to a commercial research panel of 334,976 participants returned approximately twenty eligible individuals, a prevalence near six per hundred thousand. Compensation and instrument design were both ruled out: effective compensation ran well above typical academic-survey rates, attention-check failures among eligible respondents were zero, and every usable respondent produced substantive open-text material. The constraint was arithmetic, and it was observable on the platform&rsquo;s configuration screen before funds were committed.</p>
+<blockquote>&ldquo;Rather than simply acknowledging the limitation, you developed well-supported recommendations for future research&hellip; This type of critical self-evaluation demonstrates sound research judgment.&rdquo; Dr. Juan C. Rey, FIU College of Business.</blockquote>
+
+<h3>Conference submissions</h3>
+<p>&ldquo;Feasibility as a Parameter: When Comparative International Research on Narrow Specialist Professional Populations Can and Cannot Be Executed.&rdquo; Submitted to the AIB Latin America and Caribbean Chapter Conference 2027, San Juan, Interactive session, Track 1 (Internationalization Strategies and Process), September 2026. <i>Under review.</i></p>
+
+<h3>Manuscripts in preparation</h3>
+<p>&ldquo;Six in One Hundred Thousand: Why Specialist Professional Populations Cannot Be Recruited from General Research Panels.&rdquo; Research note, about 3,400 words. Argues that panel size is near-uninformative for specialist populations; the operative quantity is eligible prevalence under the study&rsquo;s own screeners, and it is observable in advance at no cost. Proposes a pre-fielding prevalence check. Draft complete; venue selection in progress.</p>
+
+<h3>Research instruments and open materials</h3>
+<p><b>Feasibility calculator.</b> The argument in the research note above, built as a working instrument rather than left as an anecdote. Reachable usable sample is modelled as a product of frame size, eligible prevalence, response rate and screen survival. It is validated by reproducing the study that produced it, and it shows that a survey at this prevalence would have needed a sampling frame near 9.6 million. Python, plain standard library, versioned and public.</p>
+<p><b>Phenomenological protocol for the qualitative arm.</b> A complete design written before any data exists: criterion sampling, interview guide, coding plan from horizontalisation through to composite description, trustworthiness criteria mapped to procedures rather than to definitions, and an append-only audit trail. Falsification conditions are stated in advance. Nothing has been fielded. Zero participants. The ethics modification has not been submitted.</p>
+<p><b>Model-agnostic research runbooks.</b> A capture schema with provenance on every row, a rule that a source stays a lead until it has been read in full, and an adversarial pass run against the pipeline&rsquo;s own output. Built in plain markdown so the repository is the memory and the model is replaceable.</p>
+
+<h3>Research programme in development</h3>
+<p>The dissertation extends the validated human-side model into AI-assisted review through a three-link causal chain: system output becomes the anchor, arriving before the reviewer forms an independent view; the model confirms rather than challenges the position already stated; and successive models reprocessing the same work converge on one another rather than on evidence. The governance consequence is that recurring professional judgment can degrade while every individual model passes its own validation. The empirical contribution targets the weakest link, whether professionals reading model output converge on each other, which is measurable and, to date, unmeasured.</p>
+<p>The chain is argued link by link rather than asserted, and each link carries its strongest challenge in writing: the first must be argued from expert-population evidence rather than undergraduate lab samples; the second describes current model behaviour and so is argued as a mechanism, the pressure to optimise on human approval, rather than as a property of any one model generation; and the third is stated plainly as an inference rather than a finding. Nothing in the chain has been tested, and the programme says so wherever it is presented.</p>
+
+<h3>Methods</h3>
+<p><b>Quantitative.</b> Survey design and instrument validation &middot; exploratory and confirmatory factor analysis &middot; reliability analysis &middot; PLS-SEM (specified) &middot; regression diagnostics &middot; sensitivity analysis across a parameter space &middot; Jamovi, SPSS, Python (pandas, factor_analyzer), Qualtrics.</p>
+<p><b>Qualitative.</b> Phenomenological design &middot; criterion sampling with information richness, not saturation, as the stopping guide &middot; semi-structured protocol development and pilot testing &middot; horizontalisation, meaning units, textural and structural description &middot; trustworthiness criteria mapped to procedure &middot; reflexive memoing and an append-only audit trail &middot; NVivo.</p>
+<p><b>Research governance.</b> Protocol approval and amendment tracking &middot; participant protection &middot; institutional AI-use policy compliance and disclosure &middot; reproducible pipelines in version control.</p>
+
+<h2>Teaching and Instructional Experience</h2>
+<h3>Florida International University, graduate appointments, 2010 to 2011</h3>
+<div class="e"><p><b>Capital Markets Lab</b> (then the State Farm Financial Literacy Lab), Lab Assistant, College of Business. Delivered financial-literacy instruction and lab-based support, working with participants on applied markets and personal-finance content, including Bloomberg and trading-simulation sessions and the lab&rsquo;s community financial-literacy programmes.</p></div>
+<div class="e"><p><b>Student-Athlete Academic Center (SAAC)</b>, Resident Tutor, Corporate Finance and Accounting. Paid tutoring appointment supporting student-athletes in corporate finance and accounting. Managed scheduled appointments, availability and post-session reporting through the GradesFirst academic support platform; maintained per-course teaching assignments and documented session outcomes for academic advisors.</p></div>
+<div class="e"><p><b>Student Managed Investment Fund (SMIF)</b>, Sector Manager, Health Care. Directed health-care sector research and allocation within the student-managed fund, applying the same valuation and rate-sensitivity discipline used to underwrite Malik LLC&rsquo;s real-estate acquisitions.</p></div>
+<div class="e"><p><b>Course support, FIN 6644, International Financial Markets.</b> Course materials retained from this period include the 2011 syllabus, sequential lecture note sets, case question sets, assignment solution keys (interest-rate parity, triangular arbitrage) and comprehensive final examination sets.</p></div>
+
+<h3>Invited talks and guest lectures</h3>
+<p>Guest lecturer, International MBA, FIU College of Business, 4 September 2025. <i>AI, Culture, and the Political Economy: Teaching You to Fish in the AI Ocean.</i> Invited by Dr. Sumit K. Kundu, Professor of International Business. Lead presenter; co-presented with Eustache Dupervil (FIU doctoral student). One-hour session with Q&amp;A, widened at Dr. Kundu&rsquo;s request to cover climate change, demographic shifts, water scarcity, the digital economy and Industry 4.0 alongside AI. Covered how culture shapes AI trust and adoption across regions, the four risk fronts for cross-border AI (data privacy, ethical decision-making, job displacement, divergent regulation), the opportunity case in customer engagement, operations, product and market entry, five forces reshaping global business, and a live cross-cultural sentiment-analysis demonstration.</p>
+
+<h3>Prepared to teach</h3>
+<p>Auditing (external and internal) &middot; Accounting Information Systems &middot; Internal Controls and SOX &middot; Enterprise Risk Management &middot; Behavioural Accounting and Judgment &amp; Decision-Making &middot; International Financial Markets &middot; AI Governance and Responsible AI in Business &middot; Data Analytics for Accountants.</p>
+
+<h3>Professional instruction</h3>
+<p>Staff training, supervision and judgment coaching across two global banks, 2012 to 2026: workpaper review, methodology instruction, and structured feedback on judgment quality. Regular presenter to senior management and banking regulators, translating technical audit and AI material for non-specialist audiences.</p>
+
+<h2>Academic Service and Leadership</h2>
+<p>Vice President, Business Doctoral Student Association, Florida International University</p>
+<p>FIU Ignite, 100% Graduate Assistantship, 2011 (competitive award)</p>
+
+<h2>Professional Experience</h2>
+<div class="e">
+  <div class="row"><span><b>Vice President, Audit Manager</b>, Citi, Internal Audit, New York, NY</span><span class="d">Jul 2021 to Apr 2026</span></div>
+  <p>Cross-Enterprise Program and Change Management. Led risk-based audits across 15+ business units, from planning and walkthroughs through testing of control design and operating effectiveness to reporting; presented findings and systemic themes to executive management and the Board Audit Committee. Led consent-order remediation, authoring issue-closure evidence accepted by quality assurance and external regulators. Designed and deployed a retrieval-augmented AI review assistant that reduced review cycle time by approximately 35%, and wrote the AI governance framework proposal it ran under, referencing the NIST AI Risk Management Framework and federal model risk guidance, now SR 26-2. Coached 8+ auditors on testing methodology and responsible AI use.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Risk Control Manager, Treasury and CIO</b>, JPMorgan Chase, Jersey City, NJ</span><span class="d">Mar 2019 to Jun 2021</span></div>
+  <p>Owned the first-line control framework for Treasury and CIO capital activities; led CCAR forecast validation over a $2.6T balance sheet; ran Resolution and Recovery Planning across 50+ stakeholders in five functions into Federal Reserve and FDIC submissions; automated reconciliations that cut manual review by about 40%.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Capital Controller, Basel Measurement and Analytics</b>, JPMorgan Chase, Brooklyn, NY</span><span class="d">Sep 2017 to Feb 2019</span></div>
+  <p>Owned Basel III risk-weighted asset and capital adequacy reporting across a $50B book of equities, fixed income and derivatives; identified $180M in capital optimisation, presented to the CFO.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Program Manager, CIB Resolution and Recovery Planning</b>, JPMorgan Chase</span><span class="d">2015 to 2017</span></div>
+  <p>Planned and managed the Commercial and Investment Bank&rsquo;s resolution-planning programme as liaison between the business, Legal, Finance and Operations.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Assistant Vice President, Global Legal Entity Management</b>, Citi, Office of the Chief Accounting Officer, Tampa, FL</span><span class="d">2012 to 2015</span></div>
+  <p>Consolidated 500+ legal-entity data sources into governed master data and automated FR 2900 and TIC regulatory filings at 99.8% accuracy.</p>
+</div>
+<div class="e">
+  <div class="row"><span><b>Bank Examiner, Bureau of Bank Regulation</b>, Florida Office of Financial Regulation, West Palm Beach, FL</span><span class="d">Apr 2011 to Mar 2012</span></div>
+  <p>Safety-and-soundness (CAMELS) examinations of state-chartered community banks with up to $3B in total assets, conducted jointly with the Federal Deposit Insurance Corporation and the Federal Reserve Bank of Atlanta. Assessed credit risk in the loan portfolio, interest-rate sensitivity, liquidity and the adequacy of board-approved policies; presented findings to boards of directors and negotiated corrective programmes. Trained at FDIC Corporate University (Introduction to Bank Examinations, 2012).</p>
+</div>
+<div class="e"><div class="row"><span><b>Analyst</b> (promoted from MBA Intern), Systemax Inc. (NYSE: SYX), Miami, FL</span><span class="d">2010 to 2011</span></div></div>
+<div class="e">
+  <div class="row"><span><b>Senior Business Analyst, Retail Credit Risk</b>, Royal Bank of Scotland, Dubai</span><span class="d">Jan 2008 to Jun 2009</span></div>
+  <p>Credit-risk management information for a $500M+ retail portfolio through the 2008 financial crisis.</p>
+</div>
+
+<h2>Entrepreneurship</h2>
+<div class="e">
+  <div class="row"><span><b>Malik LLC</b>, Founder and Principal</span><span class="d">2008 to present</span></div>
+  <p>Founded in the 2008 financial crisis on a rates thesis. Following the work of Ben S. Bernanke on credit conditions and the transmission of monetary policy, and the Federal Reserve&rsquo;s move under his chairmanship to near-zero short rates and large-scale asset purchases, the firm bought residential property and financed it at historically low long-term fixed rates, locking in a spread between rental yield and borrowing cost. Grown to ten residential rental units, primarily in Florida. Sources and underwrites each acquisition, manages renovation, permitting and leasing, and runs a remote operations team alongside a full-time banking career. The same underwriting discipline carried into FIU&rsquo;s Student Managed Investment Fund as Sector Manager, Health Care, 2010 to 2011.</p>
+</div>
+
+<h2>Certifications</h2>
+<p>FDIC Bank Examiner I &middot; Registered Scrum Master &middot; CITI Program, Social/Behavioural Human Subjects Research</p>
+
+<h2>References</h2>
+<div class="e"><p><b>Dr. Miguel Aguirre-Urreta</b>, Professor, Department of Information Systems and Business Analytics, Florida International University; Major Professor</p></div>
+<div class="e"><p><b>Prof. William Newburry</b>, Ryder Eminent Scholar of Global Business and Professor, Department of International Business, Florida International University</p></div>
+<div class="e"><p><b>Dr. Juan C. Rey</b>, Assistant Teaching Professor, Department of International Business, Florida International University; qualifying-study supervisor</p></div>
+<div class="e"><p><b>Dr. Alfred Castillo</b>, Assistant Teaching Professor, Department of International Business, Florida International University</p></div>
+<p class="m" style="margin-top:6px">Further references available on request.</p>
+
+</body>
+</html>

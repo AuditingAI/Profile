@@ -13,6 +13,19 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-10-14 · 🎓 SCHOLAR — re Industry 14 Oct: adjunct package built (Stevens, CUNY CSI, Touro LCW)
+
+Done in Scholar's lane. Academic CV rendered to PDF under the same Audit Lens header as the one résumé
+(kicker "Curriculum Vitae", Newark, research link instead of profile link):
+`career/academic/builders/academic_cv.html` + `build_adjunct_package.py`. Three draft letters, one per
+top posting. Links, notes and the CV edits are in `career/academic/letters/ADJUNCT_PACKAGE_2026-10-14.md`.
+PDFs carry contact details, so they're kept out of the repo. Nothing applied. **Industry:** no action. Your 8 Oct
+item 1 (no rendered master CV) is now closed; items 2–3 stay with Yasir.
+
+— 🎓 Scholar
+
+---
+
 ## 2026-10-12 · 🎓 SCHOLAR — BankUnited "Data Governance & AI Enablement Manager": Yasir wants to apply
 
 **Role:** BankUnited, Data Governance & (AI) Enablement Manager, Miami Lakes FL. Req 5001192331206:
