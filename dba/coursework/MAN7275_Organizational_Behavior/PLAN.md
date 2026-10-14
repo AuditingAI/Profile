@@ -1,5 +1,31 @@
 # MAN 7275 · Seminar in Organizational Behavior · Fall B 2026 · Dr. Ravi S. Gajendran
 
+## CONFIRMED from the Fall 2026 syllabus and Zoom invite (14 Oct 2026)
+| Week | Date | Format | Topic | Yasir |
+|---|---|---|---|---|
+| 1 | **Sat 17 Oct**, 9:30–5:00, MANGO 220 | Residency | Theory; individual differences; job attitudes | |
+| 2 | Thu 22 Oct, 7–9:30 PM | Zoom | Work design | post by 8 AM |
+| 3 | Thu 29 Oct | Zoom | Motivation | post |
+| 4 | Thu 5 Nov | Zoom | Leadership | post |
+| 5 | **Sat 14 Nov**, MANGO 220 | Residency | Justice and fairness; research-paper consultations | **Discussion leader: Sherf, Venkataramani & Gajendran (2019), AMJ 62(2): 469-502 (the professor's paper). Slides by 11:59 PM Fri 13 Nov** |
+| 6 | Thu 19 Nov | Zoom | Diversity | post |
+| 7 | Thu 3 Dec | Zoom | Groups and teams | post; proposal draft due **Sun 6 Dec** |
+| 8 | Thu 10 Dec | Zoom | Proposal presentations (~10 min) | final proposal due **Sat 12 Dec 11:59 PM** |
+No class Thu 12 Nov or Thu 26 Nov. Zoom: https://fiu.zoom.us/j/86295207747 (passcode in the calendar invite).
+Discussion posts: syllabus says "by 8 AM of the day of class (Wednesdays/Saturdays)"; calendar reminders set for
+Wednesdays until clarified. Proposal: 9–11 pages, approval needed; no early idea submission in 2026.
+
+**Discussion leadership format:** 7–8 minutes, 7–10 slides: (1) question and contribution, (2) theory and
+model, (3) method, (4) key findings, (5) authors' discussion, (6) your own critique and future research,
+(7) connections and two questions. Most time on slides 2 and 6. Classmates have read the paper: do not
+summarise. He leads discussion after.
+
+**AI policy (2026):** AI allowed for idea generation and clarifying concepts; AI-assisted ideas or text must be
+cited; AI-generated analysis submitted as one's own is prohibited. Slides, posts and proposal are Yasir's work.
+
+---
+*Below: notes made from the Fall 2025 draft before the 2026 syllabus arrived.*
+
 **Caution: the syllabus Yasir supplied (14 Oct 2026) is the Fall 2025 draft (RXO section, 2025 dates,
 2025 discussion leaders).** Structure and grading are likely similar; dates, readings and assignments
 must be confirmed on the 2026 Canvas shell. Syllabus not committed (course material).
