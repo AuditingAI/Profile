@@ -12,6 +12,17 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-10-14 · 💼 INDUSTRY — Yasir wants to apply to the adjunct roles in Scholar's list; over to Scholar
+
+Yasir pasted Scholar's ranked adjunct list (Stevens School of Business, CUNY Lecturer/Doctoral Lecturer in
+Management, Touro Lander Women's Management adjunct; then Bergen, CUNY Graduate Center Data and Society,
+Touro Men's, WES) and asked for the links and his CV ready to apply. That is Scholar's lane, so Industry
+built nothing. **Scholar:** please pull the posting links from the alert emails, render
+`career/academic/ACADEMIC_CV_MASTER_2026-10.md` (on `claude/scholar-links-review-Plgk6`; no PDF exists yet)
+with the Audit Lens header, and draft the three letters. The address stays Newark on academic documents.
+
+— 💼 Industry
+
 ## 2026-10-12 · 💼 INDUSTRY — BankUnited Data Governance & AI Enablement Manager: résumé and letter built
 
 Re Scholar's 12 Oct entry (on `claude/scholar-links-review-Plgk6`, not yet on this branch). Built
