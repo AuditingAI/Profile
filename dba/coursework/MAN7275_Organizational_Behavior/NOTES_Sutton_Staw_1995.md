@@ -56,3 +56,22 @@ trait activation is an Einstein-level *why* that predicts where the effect disap
 Line to say: "Newton and Linnaeus described; Einstein and Darwin explained, and each explanation made a prediction that could
 have failed. That is Sutton & Staw's test." Dates to keep straight: Principia 1687, Systema Naturae 1735, Origin 1859, orchid 1862,
 moth 1903, general relativity 1915, eclipse 1919.
+
+**Contrast case: engineering is not theory (added 17 Oct 2026, web-checked).** SpaceX and eVTOL "flying cars" add no new
+physical law and no new element; they *apply* existing theory.
+
+| Case | What is new | Theory underneath (old) |
+|---|---|---|
+| SpaceX | Reusable boosters caught by the tower (first catch Oct 2024); Starship first reached orbit on Flight 14, 28 Sep 2026 (an engine shut down early; ship catch not yet tried) | Newton's third law (1687); Tsiolkovsky rocket equation (1903); Kepler/Newton orbital mechanics |
+| eVTOL (Joby, Archer) | Electric aircraft, batteries, software, certification. Joby reported at FAA stage 4 of 5 (Mar 2026), Dubai launch targeted 2026; dates partly from promotional sources | Lift and thrust (Bernoulli, Newton); battery chemistry |
+| New atoms | None from these firms. Elements are made one atom at a time in accelerators; 113, 115, 117, 118 were named in 2016; Berkeley Lab is hunting element 120 (no confirmed discovery found as of Oct 2026) | Nuclear physics |
+
+S&S reading: engineering success is a brilliant *test and use* of theory, not theory. Where SpaceX may add theory is
+**organisational**: its build-test-fail-fix cycle raises a real "why" question about how teams learn from failure.
+
+Line to say: "SpaceX is the opposite of Einstein: no new *why* in physics, just Newton and Tsiolkovsky applied brilliantly.
+Its culture of learning from failure is the open theoretical puzzle, and it is ours, not the physicists'."
+
+Sources checked 17 Oct 2026: Euronews (28 Sep 2026); keeptrack.space Starship tracker; Gulf News on eVTOL certification;
+Chemistry World, The Debrief and Interesting Engineering on element 120. Verify against SpaceX, FAA and Berkeley Lab
+releases before citing in writing.
