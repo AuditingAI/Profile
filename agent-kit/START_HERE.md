@@ -1,5 +1,7 @@
 # START HERE — Yasir A. Malik job-search automation kit
 
+> **Running this from ChatGPT (OpenAI agent mode)?** Use `agent-kit/OPENAI_AGENT.md`: one paste-in daily task, with the state in Yasir's private Google Sheet "Yasir Job Tracker".
+
 **If you are an AI agent (Astra, Grok, a browser runner) or a new human picking
 this up: read the eleven rules below, then run the one command. Nothing else is
 required reading.**
