@@ -1,5 +1,8 @@
 # GEB 7915 · Advanced Qualitative Research Methods in Business · Fall B 2026 · Dr. Cristina Gonzalez
 
+**Standing rule from Dr. Gonzalez (22 Oct 2026): her teaching files (slides, syllabus, guides, transcripts, assignment pages) must not be uploaded to the internet or to AI tools.** Do not paste or upload them into Claude or any other AI. Ask questions in your own words instead. Coding, memos and interpretation stay his own; she encourages creating his own codes rather than relying on class examples.
+
+
 Built 14 Oct 2026 from the syllabus preview (not committed: marked do-not-post). Canvas is the live
 schedule; dates marked *inferred* follow the FIU DBA calendar (Tuesday Zooms 20 Oct to 8 Dec;
 residencies 16–17 Oct and 13–14 Nov). Confirm each on Canvas.
