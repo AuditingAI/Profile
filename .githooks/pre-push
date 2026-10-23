@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#
+# pre-push — block direct pushes to main.
+#
+# This repo's convention is branch-per-change with PRs into main. Set
+# ALLOW_PUSH_TO_MAIN=1 to bypass deliberately (e.g. a maintainer merging
+# locally).
+
+set -euo pipefail
+
+protected="main"
+
+if [ "${ALLOW_PUSH_TO_MAIN:-0}" = "1" ]; then
+  exit 0
+fi
+
+while read -r local_ref local_sha remote_ref remote_sha; do
+  : "$local_sha" "$remote_sha"
+  branch="${remote_ref#refs/heads/}"
+  if [ "$branch" = "$protected" ]; then
+    echo "pre-push: direct push to '$protected' is blocked." >&2
+    echo "pre-push: push a feature branch and open a PR instead," >&2
+    echo "pre-push: or set ALLOW_PUSH_TO_MAIN=1 to override." >&2
+    exit 1
+  fi
+done
+
+exit 0
