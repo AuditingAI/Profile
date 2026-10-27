@@ -210,6 +210,7 @@ HTML_OUTPUTS: dict[str, str] = {
     "barclays-vp-audit-gib.html": "Yasir_Malik_Resume_Barclays_VP_Audit_GIB.pdf",
     "un-oios-audit.html": "Yasir_Malik_Resume_UN_OIOS_Audit.pdf",
     "sr-director-ia-data-science-ai.html": "Yasir_Malik_Resume_SrDirector_IA_DataScience_AI.pdf",
+    "jpm-regchange-governance-vp.html": "Yasir_Malik_Resume_JPM_RegChange_Governance_VP.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
