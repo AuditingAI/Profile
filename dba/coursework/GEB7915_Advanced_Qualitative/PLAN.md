@@ -18,3 +18,10 @@ Canvas is the live schedule; confirm each date there.
 
 Status: Learning Project 1 Version 1 submitted 21 Oct; Dr. Gonzalez's note of 22 Oct says uploading the NVivo
 Codes-list screenshot completes the full Project 1 grade.
+
+## Logistics log (his own notes; no course content)
+- **27 Oct (Week 3):** Week 4 moves to thematic analysis. For the Project 2 draft: export the codebook from NVivo
+  (Share > Export > Export Codebook) and include it unedited; write code descriptions in NVivo code properties;
+  a category needs at least 2 codes across at least 2 participants. Week 5 residency: present a preliminary
+  thematic analysis. Action: fix NVivo coding on the Mac; upload the Project 1 screenshot; email Dr. Gonzalez
+  for a short Zoom and the Week 2 recording.
