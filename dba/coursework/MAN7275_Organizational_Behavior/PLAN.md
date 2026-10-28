@@ -1,5 +1,8 @@
 # MAN 7275 · Seminar in Organizational Behavior · Fall B 2026 · Dr. Ravi S. Gajendran
 
+**Logistics update (from Yasir's class notes, 22 Oct 2026):** Thursday Zooms start **6:30 PM** (not 7:00), except **Thu 5 Nov at 7:00 PM**. The **second residency (Sat 14 Nov) runs 8:00 AM to 1:00 PM**, coffee break, lunch after 1:00. Opportunity raised in class: a conference run by the Administrative Staff College of India with FIU (Dr. Gajendran is on the committee; accepts short proposals; India, possibly hybrid).
+
+
 ## CONFIRMED from the Fall 2026 syllabus and Zoom invite (14 Oct 2026)
 | Week | Date | Format | Topic | Yasir |
 |---|---|---|---|---|
