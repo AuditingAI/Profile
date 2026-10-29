@@ -76,6 +76,25 @@ to 1–4, say so and mark it unconfirmed rather than asserting it.
 - **This repo is public.** No PDFs of licensed articles, no account numbers, no phone numbers, no
   credentials.
 
+## Micro notes — every class, saved (standing request, 29 Oct 2026)
+
+Before every class, write `dba/coursework/<COURSE>/MICRO_<YYYY-MM-DD>.md` and commit it. One block per
+theory or reading, each line short enough to glance at mid-class:
+
+```
+### <Theory / paper> (<leader if any>)
+What it is:      one sentence, plain words
+Why it works:    the mechanism (the "why", Sutton & Staw)
+When it fails:   boundary conditions
+Evidence:        one or two facts, only if verified in the PDF
+Advances mine:   how it sharpens or challenges his anchor -> confirm -> converge chain (AI in audit review)
+Say:             one line to say in class, his voice to adapt
+Ask:             one question for the leader or professor
+```
+End with "Links across readings" (3 bullets) and "Before class" (post due? time? who leads?).
+**GEB 7915 exception:** Dr. Gonzalez asks that her teaching files not go to AI. Build GEB 7915 micro notes
+only from Saldaña / Creswell & Poth concepts and his own work, never from her slides or Canvas pages.
+
 ## Lane
 
 Scholar only. Coursework, research, academic materials. **Never** industry applications — that is
