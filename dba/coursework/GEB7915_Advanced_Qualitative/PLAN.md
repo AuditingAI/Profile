@@ -25,3 +25,9 @@ Codes-list screenshot completes the full Project 1 grade.
   a category needs at least 2 codes across at least 2 participants. Week 5 residency: present a preliminary
   thematic analysis. Action: fix NVivo coding on the Mac; upload the Project 1 screenshot; email Dr. Gonzalez
   for a short Zoom and the Week 2 recording.
+- **3 Nov (Week 4):** Project 2 build rules as he noted them: go codes → categories → themes, question by question; a
+  category draws on at least two interviews; a theme needs two or more categories across participants; leftover
+  categories can stay out; label themes T#.# and categories C#.# in NVivo; keep backups and never delete coding. The
+  analytic memo describes the process (methods used, then how codes became categories and themes). Dr. Gonzalez
+  offered to review codebooks if coding feels thin. Breakouts: he was in Room 3 (Q6). Action: finish William and
+  Charles, rename categories and themes to the C#.#/T#.# scheme, write the memo; draft due Thu 12 Nov.
