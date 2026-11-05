@@ -140,7 +140,7 @@ string, the phone is present, and `\bOCC\b` matches zero times.
   institutions (Citi, JPMorgan Chase, Florida OFR) and let the dates on the
   experience entries speak. Employer-specific spans ("six years at JPMorgan")
   are fine. Purged repo-wide on 12 Sep; the verify step greps for it.
-- Phone is **+1 (786) 704-8536**. The 305 number is personal and retired.
+- Phones are **+1 (305) 799-2443** and **+1 (786) 704-8536**; both go on every résumé (owner, 5 Nov 2026).
 - **DBA in progress.** State **no completion year and no GPA** until the FIU program office confirms
   them: the record shows 3.81 and Summer 2028 against a claimed 3.87 and 2027, and the shared
   research record (`dba/RESEARCH_RECORD.md`, Scholar lane) bars both. "Qualifying examination passed
