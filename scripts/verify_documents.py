@@ -119,8 +119,9 @@ CAREER_LENGTH = [
     r"\bcareer spanning\b",
 ]
 
-PHONE_DIGITS = "7867048536"
-RETIRED_AREA_CODE = r"\(?305\)?[\s.-]?\d{3}[\s.-]?\d{4}"
+# Owner, 5 Nov 2026: +1 (305) 799-2443 is the official line (also Zoom) and goes on
+# resumes; +1 (786) 704-8536 is the cell. Either satisfies the phone check.
+PHONE_DIGITS = ("3057992443", "7867048536")
 EMAIL = "yasiramalik@gmail.com"
 
 FORBIDDEN = [
@@ -140,8 +141,6 @@ FORBIDDEN = [
     # survived screening. Calling it an experiment, or "analysed", overstates it.
     ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",
      "it was a 55-item instrument, fielded; the qualifying examination was passed Jul 2026"),
-    ("retired phone", RETIRED_AREA_CODE,
-     "the 305 line is dead; the number is +1 (786) 704-8536"),
     # A raw entity in the TEXT LAYER means the markup did not render - "&mdash;"
     # or a mangled ".mdash;" printed where an em dash belonged. Found on a
     # shipped page once, from a sed replacement whose "&" re-inserted the match.
@@ -364,8 +363,8 @@ def check_pdf(path: Path, rep: Report) -> str:
         rep.fail(where, "name missing", "the signature block did not extract")
 
     digits = re.sub(r"\D", "", flat)
-    if PHONE_DIGITS not in digits:
-        rep.fail(where, "phone missing", "+1 (786) 704-8536 is not in the text")
+    if not any(p in digits for p in PHONE_DIGITS):
+        rep.fail(where, "phone missing", "neither +1 (305) 799-2443 nor +1 (786) 704-8536 is in the text")
     if EMAIL not in flat.lower():
         rep.fail(where, "email missing", EMAIL)
 
@@ -408,7 +407,7 @@ def check_sources(rep: Report) -> None:
 # and application history stay off the public pages. Base64 blobs are dropped
 # first - an embedded image can contain "8536" by chance.
 PRIVATE_ON_PUBLIC = [
-    ("phone number", r"704[-. ]?8536|\+?1?\s*\(?786\)?[-. ]?704"),
+    ("phone number", r"704[-. ]?8536|\+?1?\s*\(?786\)?[-. ]?704|799[-. ]?2443|\(?305\)?[-. ]?799"),
     ("email address", r"(?i)mailto:|yasiramalik@gmail\.com|ymali001@fiu\.edu"),
     ("salary figure", r"\$\s?\d{2,3}(?:[,.]\d{3})?\s?[Kk]\b|\$\d{2,3}\s?[–-]\s?\$?\d{2,3}\s?[Kk]"),
     ("application history", r"(?i)\b(?:career pipeline|applied via|suppressed absent a named recruiter)\b"),

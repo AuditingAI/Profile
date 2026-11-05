@@ -20,8 +20,8 @@
   "identity": {
     "name": "Yasir A. Malik",
     "email": "YasirAMalik@gmail.com",
-    "phone": "+1 (786) 704-8536",
-    "phone_note": "The 305 number is retired. Do not use it.",
+    "phone": "+1 (305) 799-2443",
+    "phone_note": "Owner, 5 Nov 2026: +1 (305) 799-2443 is the official number (also Zoom) and goes on resumes and forms; +1 (786) 704-8536 is his cell. Supersedes the earlier note that called 305 retired.",
     "location": "Newark, NJ",
     "linkedin": "linkedin.com/in/yasiramalik",
     "github": "github.com/MalikAI-786",
@@ -97,7 +97,7 @@
       "checks": [
         "one page (the academic CV may run to four), a real text layer",
         "'YASIR A. MALIK' extracts as one contiguous string - the letter-spacing trap",
-        "phone +1 (786) 704-8536 present, the retired 305 number absent, email present",
+        "phone present (+1 (305) 799-2443 official, or the 786 cell), email present",
         "no OCC, no career-length number, no 'Dr. Malik', no unqualified CIA claim",
         "no unfilled [TO CONFIRM], no Snowflake / Oracle HCM / data mesh / Jira / R",
         "no dissertation described as IRB-approved",
