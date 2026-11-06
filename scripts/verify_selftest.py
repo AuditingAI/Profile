@@ -94,11 +94,6 @@ def inject_placeholder(repo: Path) -> None:
     md.write_text(md.read_text() + "\n\n[TO CONFIRM: the req number.]\n")
 
 
-def inject_retired_phone(repo: Path) -> None:
-    md = repo / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md"
-    md.write_text(md.read_text().replace("+1 (786) 704-8536", "(305) 555-0134", 1))
-
-
 def inject_dba_gpa(repo: Path) -> None:
     md = repo / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md"
     md.write_text(md.read_text() + "\n\nDBA candidate at FIU (GPA 3.81, expected 2028).\n")
@@ -128,10 +123,13 @@ CASES = [
      "archived file is wired in", False),
     ("queue entry loses its rules", inject_unstamped_queue, "rules not stamped", False),
     ("placeholder left in a letter", inject_placeholder, "unfilled placeholder", False),
-    ("retired 305 number", inject_retired_phone, "retired phone", False),
     ("DBA GPA and completion year stated", inject_dba_gpa, "GPA or DBA completion year", False),
     ("career-length number on the public site", inject_public_tenure, "career-length number", False),
 ]
+
+# The "retired 305 number" case was removed on 5 Nov 2026: the owner reinstated
+# +1 (305) 799-2443 as a valid number alongside the 786 cell, so there is no
+# retired-phone rule left to prove.
 
 # Cases whose fault only shows up after a rebuild.
 REBUILD_CASES = [

@@ -269,6 +269,54 @@ def build_all() -> list[Path]:
             0.86,
         ),
         (
+            REPO_ROOT / "applications/cover_letters/google_risk_audit_governance_pm.md",
+            REPO_ROOT / "applications/cover_letters/google_risk_audit_governance_pm.pdf",
+            "Cover Letter - Google Risk and Audit Governance Program Manager",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/google_news_audience_revenue_lead.md",
+            REPO_ROOT / "applications/cover_letters/google_news_audience_revenue_lead.pdf",
+            "Cover Letter - Google Audience and Revenue Lead, Ecosystem Investments",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlsGovernance_VP_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlsGovernance_VP_Sep2026.pdf",
+            "Cover Letter - JPMorgan CIB Controls Governance & Insights VP",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/Harvey_C_GTMFinance_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/Harvey_C_GTMFinance_Sep2026.pdf",
+            "Cover Letter - Harvey Head of GTM Finance",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlManagement_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_ControlManagement_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase Control Management",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_BusinessMgmt_Transformation_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_BusinessMgmt_Transformation_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase Business Management & Transformation",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_AIGovernance_RegChange_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_AIGovernance_RegChange_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase AI Governance & Regulatory Change",
+            0.90,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/JPM_C_Treasury_ResolutionPlanning_Sep2026.md",
+            REPO_ROOT / "applications/cover_letters/JPM_C_Treasury_ResolutionPlanning_Sep2026.pdf",
+            "Cover Letter - JPMorgan Chase Treasury",
+            0.90,
+        ),
+        (
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.md",
             REPO_ROOT / "applications/cover_letters/gs_hcm_data_program_product_vp.pdf",
             "Cover Letter - Goldman Sachs HCM Strategy, Data Program Product Management VP",
@@ -278,6 +326,12 @@ def build_all() -> list[Path]:
             REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.md",
             REPO_ROOT / "applications/cover_letters/bny_vp_auditor_treasury_cio_risk.pdf",
             "Cover Letter - BNY VP Auditor, Corporate Treasury, CIO and Risk",
+            0.92,
+        ),
+        (
+            REPO_ROOT / "applications/cover_letters/bankunited_data_ai_governance_manager.md",
+            REPO_ROOT / "applications/cover_letters/bankunited_data_ai_governance_manager.pdf",
+            "Cover Letter - BankUnited Data Governance & AI Enablement Manager",
             0.92,
         ),
     ]

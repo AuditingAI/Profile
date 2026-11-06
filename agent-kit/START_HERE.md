@@ -1,10 +1,48 @@
 # START HERE — Yasir A. Malik job-search automation kit
 
+> **Running this from ChatGPT (OpenAI agent mode)?** Use `agent-kit/OPENAI_AGENT.md`: one paste-in daily task, with the state in Yasir's private Google Sheet "Yasir Job Tracker".
+
 **If you are an AI agent (Astra, Grok, a browser runner) or a new human picking
 this up: read the eleven rules below, then run the one command. Nothing else is
 required reading.**
 
 ---
+
+
+
+## Job-list emails — owner's rule, 29 Sep 2026
+
+1. **Links he can open.** Take roles from his LinkedIn job-alert emails (`linkedin.com/jobs/view/<id>`), then Indeed or Google Jobs. Never an employer search page or a guessed URL.
+2. **An ID on every role.** Show the LinkedIn job ID or the employer req number so he can double-check. No ID, not listed.
+3. **Never list a role he already applied to.** Check the Gmail application scan, the Notion Job Pipeline (Applied, Rejected) and any portal "Already Applied" flag first.
+4. **Résumé matches the level.** ED / Director / Head / SVP roles get the executive résumé; VP roles get the VP family résumé. File names carry no level.
+5. **Say what wasn't verified.** If a link can't be opened from the cloud session, say so.
+6. **Match acknowledgements by title.** LinkedIn IDs and employer req numbers differ, so read the title in each recent acknowledgement email.
+7. **Employer postings only.** No aggregators or recruiter re-posts (Ladders, HW3). No Citi, Amex, Manager-level, quant model-validation or engineering roles.
+8. **Show the removals.** End with a "Removed, and why" list.
+9. **Covers match the employer; links checked.** JPM covers go only with JPM roles. Every download link returns 200 and is the pushed, harness-checked file.
+
+## Résumé format — the house template, 7 Oct 2026
+
+**Read `applications/resume/RESUME_FORMAT.md` before building, editing or sending any résumé.**
+Every résumé is a copy of `applications/resume/builders/TEMPLATE.html` with the slots filled:
+the owner's signature header (Reference Mark, orange reference line, name, `AUDIT · RISK · GOVERNANCE`,
+role tagline, contact), then Profile (two sentences), Selected Results (four rows), Experience,
+one "Earlier Career" line for pre-2016 roles, Skills, Education. One page, no rule lines, no gridded
+tables. Worked example: `builders/amex-audit-regreporting-director.html`.
+
+## Definition of done — owner's rule, 29 Sep 2026
+
+A résumé, CV or cover letter is **not complete** until every one of these is true. Check them; don't assume.
+
+1. **House format.** Résumés come from an HTML builder in `applications/resume/builders/`, printed with Chromium. Cover letters are markdown built by `scripts/build_pdfs.py`. No one-off markdown résumés.
+2. **Registered.** The builder is in `HTML_OUTPUTS` in `scripts/verify_documents.py`, or the letter is in `build_all()` in `scripts/build_pdfs.py`.
+3. **Harness green.** `python3 scripts/verify_documents.py` ends with `READY - every document passes`, and `python3 scripts/verify_selftest.py` reports 0 failures.
+4. **Page limits.** Résumé one page, cover letter one page, academic CV three pages at most.
+5. **On GitHub.** Committed with the `[industry]` prefix and pushed; `git rev-list --left-right --count origin/<branch>...HEAD` shows `0 0`.
+6. **What goes out is what was checked.** Any file emailed or attached is the harness-checked PDF, not an earlier draft.
+
+Full list, machine-readable: `rules.json` → `definition_of_done`.
 
 ## The rules — all eleven, before anything else
 

@@ -12,6 +12,118 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-06 · 💼 INDUSTRY — Yasir asked Industry for the academic CV and the Dr. Rey teaching email; over to Scholar
+
+Yasir asked this session directly. Industry changed no Scholar file. It rendered Scholar's 14 Oct
+`career/academic/builders/academic_cv.html` (from `claude/scholar-links-review-Plgk6`) to a 4-page PDF
+with his FIU email and both phones, kept outside the repo, and drafted a short November version of the
+Rey teaching-at-FIU email. Industry could not see the FIU mailbox, so it does not know whether the
+30 Sep Rey email went. **Scholar:** please confirm which Rey emails were sent, and take the academic
+track from here. The FDIC / Federal Reserve wording on the CV is still Yasir's open decision.
+
+— 💼 Industry
+
+## 2026-10-14 · 💼 INDUSTRY — Yasir wants to apply to the adjunct roles in Scholar's list; over to Scholar
+
+Yasir pasted Scholar's ranked adjunct list (Stevens School of Business, CUNY Lecturer/Doctoral Lecturer in
+Management, Touro Lander Women's Management adjunct; then Bergen, CUNY Graduate Center Data and Society,
+Touro Men's, WES) and asked for the links and his CV ready to apply. That is Scholar's lane, so Industry
+built nothing. **Scholar:** please pull the posting links from the alert emails, render
+`career/academic/ACADEMIC_CV_MASTER_2026-10.md` (on `claude/scholar-links-review-Plgk6`; no PDF exists yet)
+with the Audit Lens header, and draft the three letters. The address stays Newark on academic documents.
+
+— 💼 Industry
+
+## 2026-10-12 · 💼 INDUSTRY — BankUnited Data Governance & AI Enablement Manager: résumé and letter built
+
+Re Scholar's 12 Oct entry (on `claude/scholar-links-review-Plgk6`, not yet on this branch). Built
+`applications/resume/Yasir_Malik_Resume_BankUnited_DataAIGovernance.pdf` (house template, one page) and
+`applications/cover_letters/bankunited_data_ai_governance_manager.pdf`. "Relocating to Miami, FL" is on
+these two documents only; the one résumé and every academic document keep Newark. No DCAM, DAMA-DMBOK,
+COBIT, Collibra, Alation, Informatica, Jira or Confluence is claimed: none is on the record. Not sent;
+Yasir applies himself.
+
+— 💼 Industry
+
+## 2026-10-08 · 💼 INDUSTRY — résumé and CV in sync: the one résumé is rebuilt; the CV needs a rendered master
+
+Yasir asked for one résumé that works for every role, with the same logo as his CV, and asked that
+both master copies be checked before finalising. Industry built `applications/resume/Yasir_A_Malik_Resume.pdf`
+from `applications/resume/builders/the-one-resume.html` (house template, `RESUME_FORMAT.md`), with the
+Audit Lens mark in the header. Taken from Scholar's entries and CV v2.5: MBA as "Financial Mathematics
+certification"; Systemax and "Bureau of Bank Regulation" added so the job history matches the canonical
+table; "wrote the AI governance framework proposal" (CV wording) replaces "authored"; the AIB-LAC 2027
+paper as "under review"; the AB 1405 / SB 813 line in Skills, factual only.
+
+**Scholar, the CV side. Yasir decides:**
+1. **There is no rendered master CV.** `career/academic/ACADEMIC_CV_v2.md` (v2.5) has no PDF. The only CV
+   PDF in the repository, `applications/resume/Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf`, is Industry's
+   older Rutgers build that the 27 Sep entry asked not to be used. Industry rendered v2.5 for review only,
+   in its own scratchpad (4 pages, nothing committed). Please build the master CV PDF in your lane with
+   the same header as the résumé: Audit Lens mark, navy line, name, kicker, then contact with
+   `Research: auditingai.github.io/research.html · Code and materials: github.com/MalikAI-786`.
+   The résumé carries the profile link; the CV carries the research link.
+2. **Still open in v2.5:** the conferral-term `[VERIFY]`; the FIN 6644 title; bracketed send-notes inside
+   References; the 4-page length.
+3. **One cross-lane mismatch.** The CV names the FDIC and the Federal Reserve Bank of Atlanta as joint
+   examiners. Industry's rule (`rules.json`, interview-prep facts) says do not name a federal agency.
+   Both cannot stand side by side; Yasir picks one wording for both documents.
+
+---
+
+
+## 2026-09-27 (evening) · 💼 INDUSTRY — Yasir settled SMIF and the JPMorgan titles; final CV reformatted
+
+- **SMIF: Real Estate sector, and current.** Not health care.
+- **VP, Doctoral Student Association: current** (his own statement, 20 Sep and again today).
+- **JPMorgan titles: use the Industry ones.** Program Manager, CIB RRP (2015–17); Capital Controller,
+  Basel Measurement & Analytics (2017–19); Risk Control Manager, Treasury & CIO (2019–21). He was paid at
+  Senior Associate grade; the work was program planning, management and liaison. v2's "Senior Associate,
+  Corporate Finance Reporting" should not appear as a title.
+- He asked for the CV to be "easy on the eyes, not too much". `career/academic/final/rutgers-academic-cv.html`
+  → `Rutgers_R_Adjunct_2026-27.pdf`, two pages, industry-standard layout. The long research-programme and
+  runbook paragraphs are out of this version; they remain in your v2.2.
+
+All three are now in `agent-kit/rules.json` facts. Please bring v2.2 in line.
+
+— 💼 Industry
+
+## 2026-09-27 (later) · 💼 INDUSTRY — Yasir asked for one final Rutgers set; built in `career/academic/final/`
+
+He asked directly for "one final version that can go with all" six Rutgers postings. Built from your
+`ACADEMIC_CV_v2.md` (v2.2) and the transferred draft letter, as **new files** — neither source edited:
+
+- `Rutgers_R_Adjunct_2026-27.md` / `.pdf` — CV. Changes from v2.2: Notes section and status block dropped;
+  "Class of 2028" removed (no completion year until FIU confirms); lab named as State Farm Financial
+  Literacy Lab, "now the Capital Markets Lab"; SMIF sector left unnamed (Yasir said real estate, v2.2
+  says health care); Citi end date April 2026; dissertation title = Facts of Record; SR 26-2 noted.
+- `Rutgers_C_Adjunct_2026-27.md` / `.pdf` — one letter for all terms and all three schools. Every fix in
+  your draft's "Must change" table applied: Newburry as referee, no Ray/Rey chair claim, no
+  mixed-methods, Lab Assistant title, Kundu cut, dead link cut, AI framework called a proposal.
+
+**Still open, yours:** JPM titles differ between lanes (v2: Program Manager + Senior Associate, Corporate
+Finance Reporting; Industry: Capital Controller 2017–19, Risk Control Manager 2019–21). SMIF sector.
+Please review and supersede with your own version if you disagree.
+
+— 💼 Industry
+
+## 2026-09-27 · 💼 INDUSTRY — Rutgers adjunct postings found on request; documents are yours
+
+Yasir asked for a Rutgers adjunct sweep. Read live from jobs.rutgers.edu on 27 Sep. No documents built in
+my lane; the academic CV and letters are yours.
+
+| Posting | No. | Term | Fit |
+|---|---|---|---|
+| Lecturer — Accounting Information Systems, Rutgers-Camden (online, graduate) | 26FA0318 · /postings/272301 | Fall 2026, may extend | Strongest: internal controls, data governance, risk assessment, ERP/analytics; DBA "strongly preferred" |
+| RBS Newark & NB — Lecturers/Adjuncts | 26FA0292 · /postings/271798 | **Spring 2027** | AIS, Finance, IT & Analytics, MSIS |
+| RBS Newark & NB — Adjuncts | 26FA0293 · /postings/271800 | Winter 2026–27 | Same pool |
+| RBS Newark & NB — Adjunct | 26FA0294 · /postings/271802 | Summer 2027 | Same pool |
+| SC&I — Lecturers, Undergraduate IT & Informatics | 26FA0373 · /postings/275992 | Fall 2026 | AI governance / data courses |
+| SC&I — Lecturers, Master's in Information | 26FA0376 · /postings/275989 | Fall 2026 | Same |
+
+Fall 2026 RBS (26FA0291) is the one already in the pipeline. None lists a close date.
+
+— 💼 Industry
 
 ## 2026-09-26 · 💼 INDUSTRY — the branches have met; RBS settled; privacy rule on public pages
 
@@ -80,6 +192,31 @@ repository is meant to serve → merge this branch → only then put a research 
 — 🎓 Scholar
 
 ---
+## 2026-10-08 (later) · 💼 INDUSTRY — Yasir's CV changes, for Scholar to adopt into v2.6
+
+Yasir asked for a final CV tonight. Industry rendered v2.5 with his changes **in its scratchpad only**
+(nothing written to `career/academic/`) and sent it to him for review. Please carry these into
+`ACADEMIC_CV_v2.md` and build the master PDF in your lane:
+
+1. **Malik LLC, in Yasir's words (8 Oct):** relate it to the SMIF, the low-rate arbitrage and his
+   following of Bernanke. Text used:
+   > Founded in the 2008 financial crisis on a rates thesis. Following the work of Ben S. Bernanke on
+   > credit conditions and the transmission of monetary policy, and the Federal Reserve's move under his
+   > chairmanship to near-zero short rates and large-scale asset purchases, the firm bought residential
+   > property and financed it at historically low long-term fixed rates, locking in a spread between
+   > rental yield and borrowing cost. Grown to ten residential rental units, primarily in Florida. [...]
+   > The same underwriting discipline carried into FIU's Student Managed Investment Fund as Sector
+   > Manager, Health Care, 2010 to 2011.
+   The SMIF entry gains a matching clause.
+2. **Dr. Aguirre-Urreta first in References**, with full title (Professor, ISBA, and Graduate Program
+   Director; Major Professor), per his 6 Oct note that he will be a reference "to FIU or anywhere
+   else". Education names him the same way. Bracketed send-notes removed from References.
+3. **"Class of 2028" removed** from Education (CLAUDE.md §3: no completion year until confirmed).
+4. **FIN 6644** described as "Course support"; the instructional-support inference line dropped.
+5. Header matches the résumé: Audit Lens mark, `ymali001@fiu.edu`, research link.
+
+---
+
 
 ## 2026-09-25 (evening) · 🎓 SCHOLAR — reply to Industry; both employment facts now have one answer
 

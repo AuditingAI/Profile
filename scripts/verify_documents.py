@@ -119,8 +119,9 @@ CAREER_LENGTH = [
     r"\bcareer spanning\b",
 ]
 
-PHONE_DIGITS = "7867048536"
-RETIRED_AREA_CODE = r"\(?305\)?[\s.-]?\d{3}[\s.-]?\d{4}"
+# Owner, 5 Nov 2026: +1 (305) 799-2443 is the official line (also Zoom) and goes on
+# resumes; +1 (786) 704-8536 is the cell. Either satisfies the phone check.
+PHONE_DIGITS = ("3057992443", "7867048536")
 EMAIL = "yasiramalik@gmail.com"
 
 FORBIDDEN = [
@@ -140,8 +141,6 @@ FORBIDDEN = [
     # survived screening. Calling it an experiment, or "analysed", overstates it.
     ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",
      "it was a 55-item instrument, fielded; the qualifying examination was passed Jul 2026"),
-    ("retired phone", RETIRED_AREA_CODE,
-     "the 305 line is dead; the number is +1 (786) 704-8536"),
     # A raw entity in the TEXT LAYER means the markup did not render - "&mdash;"
     # or a mangled ".mdash;" printed where an em dash belonged. Found on a
     # shipped page once, from a sed replacement whose "&" re-inserted the match.
@@ -192,6 +191,39 @@ HTML_OUTPUTS: dict[str, str] = {
     "rutgers-rbs-adjunct-cv.html": "Yasir_Malik_CV_Rutgers_RBS_Adjunct.pdf",
     "master-executive.html": "Yasir_Malik_Resume_Master_Executive.pdf",
     "business-advisory.html": "Yasir_Malik_Resume_Business_Advisory.pdf",
+    "amex-responsible-ai-vp.html": "Yasir_Malik_Resume_Amex_ResponsibleAI_VP.pdf",
+    "google-risk-audit-governance-pm.html": "Yasir_Malik_Resume_Google_RiskAuditGovernance_PM.pdf",
+    "google-news-audience-revenue-lead.html": "Yasir_Malik_Resume_Google_NewsAudienceRevenue_Lead.pdf",
+    "gs-core-eng-ai-product-vp.html": "Yasir_Malik_Resume_GS_CoreEng_AIProduct_VP.pdf",
+    "openai-security-program-manager.html": "Yasir_Malik_Resume_OpenAI_Security_PM.pdf",
+    "jpm-cib-controls-governance-vp.html": "Yasir_Malik_Resume_JPM_CIB_ControlsGovernance_VP.pdf",
+    "harvey-gtm-finance.html": "Yasir_Malik_Resume_Harvey_GTM_Finance.pdf",
+    "cnbfl-auditor-senior.html": "Yasir_Malik_Resume_CNBFL_AuditorSenior_Miami.pdf",
+    "jpm-screening-audits-exams-vp.html": "Yasir_Malik_Resume_JPM_Screening_AuditsExams_VP.pdf",
+    "jpm-cib-fbm-credit-vp.html": "Yasir_Malik_Resume_JPM_CIB_FBM_CreditPublicFinance_VP.pdf",
+    "jpm-cib-ops-transformation-bm-vp.html": "Yasir_Malik_Resume_JPM_CIB_Ops_Transformation_BM_VP.pdf",
+    "scotia-treasury-resolution-planning.html": "Yasir_Malik_Resume_Scotiabank_Treasury_ResolutionPlanning.pdf",
+    "amex-audit-regreporting-director.html": "Yasir_Malik_Resume_Amex_Audit_RegReporting.pdf",
+    "the-one-resume.html": "Yasir_A_Malik_Resume.pdf",
+    "bankunited-data-ai-governance-manager.html": "Yasir_Malik_Resume_BankUnited_DataAIGovernance.pdf",
+    "barclays-vp-audit-gib.html": "Yasir_Malik_Resume_Barclays_VP_Audit_GIB.pdf",
+    "un-oios-audit.html": "Yasir_Malik_Resume_UN_OIOS_Audit.pdf",
+    "sr-director-ia-data-science-ai.html": "Yasir_Malik_Resume_SrDirector_IA_DataScience_AI.pdf",
+    "jpm-regchange-governance-vp.html": "Yasir_Malik_Resume_JPM_RegChange_Governance_VP.pdf",
+    "jpm-ia-capital-markets-210799437.html": "Yasir_Malik_Resume_JPM_IA_CapitalMarkets_210799437.pdf",
+    "jpm-risk-data-strategist-lead-210766333.html": "Yasir_Malik_Resume_JPM_Risk_DataStrategist_210766333.pdf",
+    "jpm-ia-data-ai-governance-210782772.html": "Yasir_Malik_Resume_JPM_IA_DataAIGovernance_210782772.pdf",
+    "jpm-controls-room-product-vp-210788428.html": "Yasir_Malik_Resume_JPM_ControlsRoom_ProductVP_210788428.pdf",
+    "jpm-country-risk-bm-vp-210800753.html": "Yasir_Malik_Resume_JPM_CountryRisk_BM_VP_210800753.pdf",
+    "jpm-cb-finance-vp-210783713.html": "Yasir_Malik_Resume_JPM_CB_Finance_VP_210783713.pdf",
+    "jpm-kinexys-compliance-vp-210788038.html": "Yasir_Malik_Resume_JPM_Kinexys_Compliance_VP_210788038.pdf",
+    "blackrock-business-audit-vp-r266693.html": "Yasir_Malik_Resume_BlackRock_BusinessAudit_VP_R266693.pdf",
+    "deloitte-ai-governance-manager-364234.html": "Yasir_Malik_Resume_Deloitte_AIGovernance_Manager_364234.pdf",
+    "bnp-ai-model-risk-auditor-vp.html": "Yasir_Malik_Resume_BNP_AI_ModelRisk_Auditor_VP.pdf",
+    "jpm-controls-room-ai-transformation-pm-210776406.html": "Yasir_Malik_Resume_JPM_ControlsRoom_AITransformation_PM_210776406.pdf",
+    "mufg-ai-risk-governance-director.html": "Yasir_Malik_Resume_MUFG_AIRiskGovernance_Director.pdf",
+    "td-ai-governance-director.html": "Yasir_Malik_Resume_TD_AIGovernance_Director.pdf",
+    "guidehouse-rcsa-consultant.html": "Yasir_Malik_Resume_Guidehouse_RCSA_Consultant.pdf",
 }
 
 LEVELS = ("FAIL", "WARN")
@@ -331,8 +363,8 @@ def check_pdf(path: Path, rep: Report) -> str:
         rep.fail(where, "name missing", "the signature block did not extract")
 
     digits = re.sub(r"\D", "", flat)
-    if PHONE_DIGITS not in digits:
-        rep.fail(where, "phone missing", "+1 (786) 704-8536 is not in the text")
+    if not any(p in digits for p in PHONE_DIGITS):
+        rep.fail(where, "phone missing", "neither +1 (305) 799-2443 nor +1 (786) 704-8536 is in the text")
     if EMAIL not in flat.lower():
         rep.fail(where, "email missing", EMAIL)
 
@@ -375,7 +407,7 @@ def check_sources(rep: Report) -> None:
 # and application history stay off the public pages. Base64 blobs are dropped
 # first - an embedded image can contain "8536" by chance.
 PRIVATE_ON_PUBLIC = [
-    ("phone number", r"704[-. ]?8536|\+?1?\s*\(?786\)?[-. ]?704"),
+    ("phone number", r"704[-. ]?8536|\+?1?\s*\(?786\)?[-. ]?704|799[-. ]?2443|\(?305\)?[-. ]?799"),
     ("email address", r"(?i)mailto:|yasiramalik@gmail\.com|ymali001@fiu\.edu"),
     ("salary figure", r"\$\s?\d{2,3}(?:[,.]\d{3})?\s?[Kk]\b|\$\d{2,3}\s?[–-]\s?\$?\d{2,3}\s?[Kk]"),
     ("application history", r"(?i)\b(?:career pipeline|applied via|suppressed absent a named recruiter)\b"),
