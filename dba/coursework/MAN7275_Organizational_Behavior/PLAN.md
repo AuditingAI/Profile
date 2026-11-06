@@ -10,7 +10,7 @@
 | 2 | Thu 22 Oct, 7–9:30 PM | Zoom | Work design | post by 8 AM |
 | 3 | Thu 29 Oct | Zoom | Motivation | post |
 | 4 | Thu 5 Nov | Zoom | Leadership | post |
-| 5 | **Sat 14 Nov**, MANGO 220 | Residency | Justice and fairness; research-paper consultations | **Discussion leader: Sherf, Venkataramani & Gajendran (2019), AMJ 62(2): 469-502 (the professor's paper). Slides by 11:59 PM Fri 13 Nov** |
+| 5 | **Sat 14 Nov**, MANGO 220 | Residency | Justice and fairness; research-paper consultations | **Discussion leader: Sherf, Venkataramani & Gajendran (2019), AMJ 62(2): 469-502 (the professor's paper). Slides by 11:59 PM Fri 13 Nov.** Also bring **2–3 slides for research-topic approval** (question, model with X, mediator, outcome, moderator, and theory); at least half the residency is for topic feedback (announced 5 Nov) |
 | 6 | Thu 19 Nov | Zoom | Diversity | post |
 | 7 | Thu 3 Dec | Zoom | Groups and teams | post; proposal draft due **Sun 6 Dec** |
 | 8 | Thu 10 Dec | Zoom | Proposal presentations (~10 min) | final proposal due **Sat 12 Dec 11:59 PM** |
