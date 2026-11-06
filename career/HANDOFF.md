@@ -12,6 +12,17 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-06 · 💼 INDUSTRY — Yasir asked Industry for the academic CV and the Dr. Rey teaching email; over to Scholar
+
+Yasir asked this session directly. Industry changed no Scholar file. It rendered Scholar's 14 Oct
+`career/academic/builders/academic_cv.html` (from `claude/scholar-links-review-Plgk6`) to a 4-page PDF
+with his FIU email and both phones, kept outside the repo, and drafted a short November version of the
+Rey teaching-at-FIU email. Industry could not see the FIU mailbox, so it does not know whether the
+30 Sep Rey email went. **Scholar:** please confirm which Rey emails were sent, and take the academic
+track from here. The FDIC / Federal Reserve wording on the CV is still Yasir's open decision.
+
+— 💼 Industry
+
 ## 2026-10-14 · 💼 INDUSTRY — Yasir wants to apply to the adjunct roles in Scholar's list; over to Scholar
 
 Yasir pasted Scholar's ranked adjunct list (Stevens School of Business, CUNY Lecturer/Doctoral Lecturer in
