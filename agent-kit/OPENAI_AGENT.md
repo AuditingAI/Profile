@@ -25,6 +25,8 @@ New York and New Jersey. Work through the steps in order. Do not skip step 1.
 
 ## What you work from
 
+- **The harness:** the Google Doc "00_CAREER_HARNESS" in Drive › 03_Career. It names the three lanes (full-time job, adjunct, consulting), the standing facts, the never-write list and where every file lives. Read it first, then this file. It is private and is not in this repository.
+
 - **Tracker:** Google Sheet "Yasir Job Tracker" (Drive › 03_Career). Columns: `status, company,
   title, linkedin_id, req, location, date, source, notes, link`. Status is one of `open`,
   `started-not-submitted`, `filled-awaiting-yasir`, `applied`, `rejected`, `interview`, `closed`.
