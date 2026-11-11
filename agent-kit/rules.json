@@ -77,6 +77,27 @@
     "any signature, e-signature, or attestation checkbox",
     "background-check consent"
   ],
+  "standard_form_answers": {
+    "_note": "Owner, 11 Nov 2026: 'answer this always'. Reuse on every application form. Anything marked OWNER is his to select; agents stop at it. Email and phone are typed by him from Notion, never stored here.",
+    "first_name": "Yasir",
+    "last_name": "Malik",
+    "country": "United States",
+    "name_pronunciation": "YAH-sir MAH-lik",
+    "website": "github.com/MalikAI-786 (auditingai.github.io is down - do not use)",
+    "linkedin": "linkedin.com/in/yasiramalik",
+    "working_address": "Newark, NJ",
+    "open_to_in_office_25pct_or_hybrid": "Yes (NYC/NJ commute)",
+    "ai_policy_acknowledgement": "Yes - he reads and confirms it himself",
+    "earliest_start": "OWNER - suggest: 'Two weeks from offer'",
+    "timeline_considerations": "OWNER - suggest when true: 'I am in active interview processes with other firms and would appreciate a timely process.'",
+    "why_company_essays": "OWNER writes in his own words (Anthropic candidate AI policy; advisor AI rule). Agents give talking points only.",
+    "relocation": "OWNER",
+    "interviewed_here_before": "OWNER",
+    "visa_sponsorship_now_or_future": "OWNER",
+    "arbitration_agreement": "OWNER",
+    "eeo_gender_race_veteran_disability": "OWNER (voluntary; 'decline to self-identify' is always available)",
+    "salary_expectation": "OWNER"
+  },
   "resume": {
     "default": "applications/resume/Yasir_Malik_Resume_GenAI_Risk_Master_Branded.pdf",
     "default_note": "The Audit the Algorithm branded GenAI-risk master. Owner's decision 3 Sep 2026: the wordmark goes on every application unless a portal rejects it.",
