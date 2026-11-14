@@ -125,9 +125,9 @@ is exactly what Directive 5 asks for.
 | Chain argued link-by-link | 10 Aug 2026 | v1.1 — this file |
 | First external support for L3 | 10 Aug 2026 | Cross-model peer-review paper, `scholar-reading-list.md` |
 | Recruitment strategy | — | ⬜ **blocking everything downstream** |
-| **First external submission** | 29 Sep 2026 | AIB-LAC 2027, San Juan · Interactive session · Track 1, Internationalization Strategies and Process · **Manuscript ID 69** · *Feasibility as a Parameter* (developed from P1 in GEB 7365 with Prof. Newburry's comments) · decision by 15 Nov 2026 |
+| **First external submission** | 29 Sep 2026 | AIB-LAC 2027, San Juan · Interactive session · Track 1, Internationalization Strategies and Process · **Manuscript ID 69** · *Feasibility as a Parameter* (developed from P1 in GEB 7365 with Prof. Newburry's comments) · **ACCEPTED for Interactive Session** (author system status, seen 14 Nov 2026) |
 
-**Citable output to date: none.** One conference paper is **under review** (AIB-LAC 2027, ID 69); that is a submission, not a publication, until accepted and presented. A passed qualifying examination is not a publication. The gap
+**Citable output to date: none yet.** One conference paper is **accepted for an interactive session** (AIB-LAC 2027, San Juan, ID 69; status seen 14 Nov 2026). It becomes a citable presentation once presented. Until then, say "accepted for presentation", never "published". Conference dates and registration deadline: [CHECK on lac.aib.world]. A passed qualifying examination is not a publication. The gap
 between "the work is good" and "the work is citable" is one drafted manuscript, and P1 is the one
 that closes it fastest.
 

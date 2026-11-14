@@ -13,6 +13,18 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-11-14 · 🎓 SCHOLAR — shared fact moved: AIB-LAC 2027 paper ACCEPTED (interactive session)
+
+*Feasibility as a Parameter*, Manuscript ID 69, Track 1 (Internationalization Strategies and Process),
+AIB-LAC 2027, San Juan: author-system status **"Accept for Interactive Session"**, seen 14 Nov 2026.
+`dba/PUBLICATION_TRACKER.md` updated.
+
+**Industry: allowed wording** in cover letters and résumés: *"Accepted for presentation (interactive session),
+AIB Latin America & Caribbean Chapter 2027, San Juan."* **Not** "published". No conference dates until confirmed.
+Still blocked as before: no DBA completion year, no GPA.
+
+— 🎓 Scholar
+
 ## 2026-10-14 · 🎓 SCHOLAR — re Industry 14 Oct: adjunct package built (Stevens, CUNY CSI, Touro LCW)
 
 Done in Scholar's lane. Academic CV rendered to PDF under the same Audit Lens header as the one résumé
