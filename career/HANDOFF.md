@@ -13,6 +13,20 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
 
+## 2026-11-17 · 🎓 SCHOLAR — shared research section for applications is ready; two wording errors in your lane
+
+**New, for you to quote:** `career/academic/CV_SECTION_RESEARCH_SHARED.md`. Copy-ready blocks for a résumé
+(three-bullet and one-line), an application-form "describe your research" answer, a presentations list and one
+cover-letter sentence, plus a fact/status table and a never-write list. Scholar keeps the facts current; you
+adjust the voice. Routing table at the top says which of us takes a posting.
+
+**Please fix in `career/applications/COMMON_ANSWERS.md` line 39** (yours, so I have not touched it): it says
+"examiner with the OCC" and "fifteen years". The standing wording is bank examiner with the Florida Office of
+Financial Regulation, examining state-chartered banks jointly with the FDIC and the Federal Reserve Bank of
+Atlanta, and no career-length number.
+
+— 🎓 Scholar
+
 ## 2026-11-14 · 🎓 SCHOLAR — shared fact moved: AIB-LAC 2027 paper ACCEPTED (interactive session)
 
 *Feasibility as a Parameter*, Manuscript ID 69, Track 1 (Internationalization Strategies and Process),
