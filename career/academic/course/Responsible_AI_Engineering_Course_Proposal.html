@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Responsible AI Engineering · Course Proposal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Two US-letter pages, same house style as the ISBA proposal. FIU navy and gold. */
+:root{
+  --navy:#081E3F; --gold:#B6862C; --gold-soft:#F3EAD7; --ink:#1B2433; --muted:#5B6577;
+  --rule:#D9DEE7; --tint:#F4F6FA;
+  --serif:"Source Serif 4","Georgia",serif; --sans:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--sans);color:var(--ink);font-size:10pt;line-height:1.38;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;padding:0.55in 0.6in 0.5in;position:relative;overflow:hidden;page-break-after:always}
+.page:last-child{page-break-after:auto}
+.band{background:var(--navy);color:#fff;margin:-0.55in -0.6in 0;padding:0.42in 0.6in 0.34in}
+.eyebrow{font-size:8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700}
+h1{font-family:var(--serif);font-weight:700;font-size:25pt;line-height:1.08;margin:6px 0 6px}
+.sub{font-family:var(--serif);font-size:12pt;color:#D8DEEA;margin:0;max-width:6.6in}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:0 -0.6in;background:var(--gold-soft);padding:0.14in 0.6in}
+.meta div{padding-right:10px}
+.meta b{display:block;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.meta span{font-size:9pt}
+h2{font-family:var(--serif);font-size:13pt;color:var(--navy);margin:0.2in 0 0.07in;font-weight:700}
+h2 small{font-family:var(--sans);font-size:8pt;font-weight:600;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-left:6px}
+p{margin:0 0 6px}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.why div{background:var(--tint);border-radius:6px;padding:10px 12px}
+.why b{display:block;font-family:var(--serif);font-size:10.5pt;color:var(--navy);margin-bottom:3px}
+.why p{font-size:9pt;margin:0}
+.edge{margin-top:12px;background:var(--navy);color:#fff;border-radius:6px;padding:11px 14px;display:grid;grid-template-columns:1.55in 1fr;gap:12px;align-items:center}
+.edge b{font-family:var(--serif);color:var(--gold);font-size:12pt;line-height:1.15}
+.edge p{margin:0;font-size:9.5pt}
+ol.outcomes{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:6px 18px;counter-reset:o}
+ol.outcomes li{counter-increment:o;display:grid;grid-template-columns:20px 1fr;font-size:9.5pt}
+ol.outcomes li::before{content:counter(o);font-weight:700;color:var(--gold)}
+.arc{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:2px}
+.arc div{border-top:3px solid var(--navy);padding-top:6px}
+.arc div.gov{border-top-color:var(--gold)}
+.arc b{display:block;font-size:8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.arc span{font-family:var(--serif);font-size:10.5pt;color:var(--navy);font-weight:600}
+.arc small{display:block;font-size:8.5pt;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:8.8pt}
+th{text-align:left;font-size:7.5pt;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-bottom:1.5px solid var(--navy);padding:4px 6px}
+td{border-bottom:1px solid var(--rule);padding:4.2px 6px;vertical-align:top}
+td.wk{font-weight:700;color:var(--navy);width:30px;font-variant-numeric:tabular-nums}
+td.mod{width:92px;color:var(--muted);font-size:8pt;text-transform:uppercase;letter-spacing:.06em}
+tr.proj td{background:var(--gold-soft)}
+tr.proj td.wk{color:var(--gold)}
+tr.gov td{background:var(--tint)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.assess div{display:flex;justify-content:space-between;border-bottom:1px solid var(--rule);padding:3px 0;font-size:9.3pt}
+.assess div b{font-variant-numeric:tabular-nums;color:var(--navy)}
+.tools{font-size:9pt;color:var(--ink)}
+.ways{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.ways div{background:var(--tint);border-radius:6px;padding:9px 11px;font-size:9pt}
+.ways b{display:block;color:var(--navy);font-family:var(--serif);font-size:10pt;margin-bottom:2px}
+.who{margin-top:12px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;border-top:1.5px solid var(--navy);padding-top:9px}
+.who p{font-size:9pt;margin:0}
+.who .name{font-family:var(--serif);font-weight:700;color:var(--navy);font-size:11pt}
+.foot{position:absolute;left:0.6in;right:0.6in;bottom:0.28in;font-size:7.3pt;color:var(--muted);display:flex;justify-content:space-between;gap:12px}
+.foot span:last-child{white-space:nowrap}
+</style>
+</head>
+<body>
+
+<section class="page">
+  <div class="band">
+    <div class="eyebrow">Course proposal · draft for discussion · MS in Applied AI &amp; IoT, FIU Engineering &amp; Computing</div>
+    <h1>Responsible AI Engineering</h1>
+    <p class="sub">Ethics, safety and governance for the AI and IoT systems engineers build, so that what FIU graduates deploy serves the people it touches.</p>
+  </div>
+  <div class="meta">
+    <div><b>Level</b><span>Graduate elective · 3 credits</span></div>
+    <div><b>Format</b><span>15 weeks · hybrid, matching the program's schedule</span></div>
+    <div><b>Prerequisite</b><span>CNT 6154 Advanced Machine Learning, or taken alongside it</span></div>
+    <div><b>Also fits</b><span>A module inside existing courses, or a workshop series</span></div>
+  </div>
+
+  <h2>Why FIU, and why now</h2>
+  <div class="why">
+    <div><b>The one gap in a strong curriculum</b><p>The program teaches students to build machine learning, deep learning, generative and embedded AI. No course is dedicated to whether and how those systems should be deployed, and to the people they affect.</p></div>
+    <div><b>Employers and regulators now ask</b><p>The NIST AI Risk Management Framework, ISO/IEC 42001 and the EU AI Act expect engineers to document, test and justify their systems. Graduates will be asked to show that work.</p></div>
+    <div><b>It builds on AI-900</b><p>Students meet Microsoft's responsible AI principles in the AI-900 certification. This course turns them from exam topics into engineering practice.</p></div>
+  </div>
+  <div class="edge">
+    <b>Ethics as an engineering deliverable</b>
+    <p>Every student leaves with a responsible AI dossier for a system they built in the program: a model card, a datasheet, a bias test, a privacy design and an impact assessment. It is the evidence employers and regulators ask for, and it keeps ethical AI at the front of every build, not the end.</p>
+  </div>
+
+  <h2>Learning outcomes <small>By the end, students can</small></h2>
+  <ol class="outcomes">
+    <li><span>Apply ethical frameworks and professional codes (IEEE, ACM) to real design decisions in AI and IoT</span></li>
+    <li><span>Measure bias in a model, choose a fairness definition, and mitigate it with documented trade-offs</span></li>
+    <li><span>Explain a model's behaviour to the people it affects, with interpretability methods and plain documentation</span></li>
+    <li><span>Design privacy and consent into sensor and IoT data pipelines from the start</span></li>
+    <li><span>Design human oversight that holds under workload, guarding against automation bias and AI that simply agrees</span></li>
+    <li><span>Assess a system against the NIST AI RMF, ISO/IEC 42001 and the EU AI Act risk tiers, and defend it</span></li>
+  </ol>
+
+  <h2>Course arc</h2>
+  <div class="arc">
+    <div><b>Weeks 1 to 4</b><span>Foundations</span><small>Harms, stakeholders, ethical frameworks, data ethics</small></div>
+    <div><b>Weeks 5 to 8</b><span>Building it right</span><small>Fairness, explainability, privacy in IoT, safety</small></div>
+    <div><b>Weeks 9 to 11</b><span>AI and people</span><small>Generative AI, human oversight, work and society</small></div>
+    <div class="gov"><b>Weeks 12 to 15</b><span>Govern and defend</span><small>Frameworks, auditing AI, capstone dossier</small></div>
+  </div>
+
+  <h2>Three ways the program could use it</h2>
+  <div class="ways">
+    <div><b>Graduate elective</b>As designed here; could be piloted as a section of EEL 5799, already an elective, subject to department process.</div>
+    <div><b>Module in existing courses</b>Two or three sessions inside CAI 6856 and EEE 5718.</div>
+    <div><b>Workshops and clinics</b>A guest series, or a responsible AI clinic for project teams.</div>
+  </div>
+
+  <div class="foot"><span>Draft prepared by Yasir A. Malik for the Program Directors, MS in Applied AI &amp; IoT · November 2026</span><span>1 of 2</span></div>
+</section>
+
+<section class="page">
+  <h2 style="margin-top:0">Week by week</h2>
+  <table>
+    <thead><tr><th>Wk</th><th>Module</th><th>Topic</th><th>In the lab</th></tr></thead>
+    <tbody>
+      <tr><td class="wk">1</td><td class="mod">Foundations</td><td>Why AI ethics is an engineering problem: harms, stakeholders, who bears the risk</td><td>Stakeholder and harm map for a smart-city sensor network</td></tr>
+      <tr><td class="wk">2</td><td class="mod">Foundations</td><td>Ethical frameworks and professional codes: IEEE and ACM codes, IEEE 7000 value-based design</td><td>Value-based design worksheet for a model from CNT 6154</td></tr>
+      <tr><td class="wk">3</td><td class="mod">Foundations</td><td>Data ethics: consent, provenance, representativeness, datasheets for datasets</td><td>A datasheet for a public dataset used in the program</td></tr>
+      <tr class="proj"><td class="wk">4</td><td class="mod">Case clinic</td><td>Failures that reached the public: biased risk scores, facial recognition errors, recommender harms</td><td>A root-cause analysis written like an audit finding</td></tr>
+      <tr><td class="wk">5</td><td class="mod">Build right</td><td>Fairness: definitions, metrics, and why they conflict</td><td>Measure and mitigate bias with Fairlearn</td></tr>
+      <tr><td class="wk">6</td><td class="mod">Build right</td><td>Explainability and transparency: SHAP, model cards</td><td>A model card for the student's own model</td></tr>
+      <tr><td class="wk">7</td><td class="mod">Build right</td><td>Privacy by design in IoT: data minimisation, edge processing, surveillance risk</td><td>Redesign a sensor pipeline to collect less</td></tr>
+      <tr class="proj"><td class="wk">8</td><td class="mod">Project 1</td><td>Safety and robustness of embedded AI: adversarial inputs, drift, fail-safe design</td><td>Fairness and transparency report on a model the student built</td></tr>
+      <tr><td class="wk">9</td><td class="mod">AI and people</td><td>Generative AI: hallucination, copyright, deepfakes, misuse, content provenance</td><td>Red-team a large language model application</td></tr>
+      <tr><td class="wk">10</td><td class="mod">AI and people</td><td>Human oversight: automation bias, AI that agrees with its user, review that holds under time pressure</td><td>Test a human-in-the-loop design under a time limit</td></tr>
+      <tr><td class="wk">11</td><td class="mod">AI and people</td><td>AI, work and society: jobs, accessibility, the energy cost of compute, South Florida cases</td><td>Structured debate with a written position</td></tr>
+      <tr class="gov"><td class="wk">12</td><td class="mod">Govern</td><td>Frameworks: NIST AI RMF and its Generative AI Profile, ISO/IEC 42001, EU AI Act, OECD principles</td><td>Map one system to Govern, Map, Measure and Manage</td></tr>
+      <tr class="gov"><td class="wk">13</td><td class="mod">Project 2</td><td>Auditing AI: evidence, documentation, independent review, incident reporting</td><td>AI impact assessment; audit a classmate's system</td></tr>
+      <tr><td class="wk">14</td><td class="mod">Capstone</td><td>Building the responsible AI dossier</td><td>Studio session with faculty feedback</td></tr>
+      <tr class="proj"><td class="wk">15</td><td class="mod">Capstone</td><td>Present and defend the dossier</td><td>Panel of faculty and practitioners</td></tr>
+    </tbody>
+  </table>
+
+  <div class="cols" style="margin-top:4px">
+    <div>
+      <h2>Assessment</h2>
+      <div class="assess">
+        <div><span>Weekly labs and participation</span><b>20%</b></div>
+        <div><span>Case clinic · root-cause analysis</span><b>10%</b></div>
+        <div><span>Project 1 · fairness and transparency report</span><b>15%</b></div>
+        <div><span>Project 2 · AI impact assessment</span><b>15%</b></div>
+        <div><span>Peer audit of a classmate's system</span><b>10%</b></div>
+        <div><span>Capstone · responsible AI dossier and defence</span><b>30%</b></div>
+      </div>
+    </div>
+    <div>
+      <h2>Tools</h2>
+      <p class="tools">Python, Fairlearn, InterpretML and SHAP, the Azure Machine Learning Responsible AI dashboard (continuing the program's Azure track), open evaluation and red-teaming tools, and the NIST AI RMF Playbook. Tools stay within FIU's approved list and data rules; no confidential or personal data goes to public platforms.</p>
+    </div>
+  </div>
+
+  <div class="who">
+    <div>
+      <div class="name">Yasir A. Malik</div>
+      <p>Doctoral candidate, FIU DBA; qualifying examination passed July 2026. Research: how AI changes professional judgment when people review its output. Most recently Vice President, Audit Manager at Citi, where he designed a retrieval-augmented AI review assistant for auditors and wrote its governance proposal; earlier, internal audit at JPMorgan Chase and bank examiner, Florida Office of Financial Regulation. Paper accepted for presentation, AIB Latin America &amp; Caribbean Chapter 2027. FIU MBA. Brings the governance and audit side; glad to teach, co-develop with engineering faculty, or support an existing course.</p>
+    </div>
+    <p style="white-space:nowrap;text-align:right">{{EMAIL}}</p>
+  </div>
+
+  <div class="foot"><span>Program facts from the FIU catalog (IOT:MS) and the program pages, November 2026. A proposal, not an approved course.</span><span>2 of 2</span></div>
+</section>
+</body>
+</html>
