@@ -100,14 +100,14 @@ flow += brand_block(mark)
 flow.append(Paragraph("YASIR A. MALIK", name))
 flow.append(Paragraph("Curriculum Vitae", cvline))
 flow.append(Paragraph("Newark, NJ &bull; YasirAMalik@gmail.com &bull; +1 (786) 704-8536 &bull; "
-                      "linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786 &bull; "
-                      "auditingai.github.io/research.html", contact))
+                      "linkedin.com/in/yasiramalik &bull; github.com/MalikAI-786", contact))
 
 # ---- Education -------------------------------------------------------------------
 flow += section("EDUCATION")
 flow.append(entry("Doctor of Business Administration (DBA), Florida International University",
                   "in progress"))
-flow.append(Paragraph("Chapman Graduate School of Business, Miami, FL &bull; in progress", sub))
+flow.append(Paragraph("Chapman Graduate School of Business, Miami, FL &bull; in progress &bull; "
+                      "Dissertation chair: Peter Dickson, Professor, Department of Marketing &amp; Logistics", sub))
 for b in [
     "Qualifying examination passed July 2026. Qualifying research: <i>Mitigating Anchoring Bias in Long-Term "
     "Auditor Engagements</i> &mdash; IRB-approved instrument (IRB-25-0462) built and fielded.",
@@ -124,7 +124,7 @@ flow.append(entry("Columbia Engineering FinTech Boot Camp, Columbia University",
 flow += section("DOCTORAL RESEARCH PROGRAMME &mdash; <i>Auditing the Auditor</i>")
 flow.append(Paragraph(
     "What happens to professional judgment when the machine answers first &mdash; and agrees with you. Every "
-    "framework now governing AI (SR 11-7, the NIST AI Risk Management Framework, the EU AI Act) assumes a "
+    "framework now governing AI (SR 26-2, the NIST AI Risk Management Framework, the EU AI Act) assumes a "
     "competent human reviewer sits above the model; none measures whether that reviewer's judgment survives "
     "contact with it. The programme separates three links that are usually conflated, of which only the first "
     "is a cognitive bias:", body))
@@ -152,7 +152,8 @@ flow.append(grid([
     [Paragraph("Model &mdash; eleven constructs, fifty-five items, sixteen hypotheses", cell), Paragraph("Built", cell)],
     [Paragraph("Instrument &mdash; IRB-approved (IRB-25-0462), fielded", cell), Paragraph("Built and fielded", cell)],
     [Paragraph("Hypotheses tested", cell), Paragraph("None &mdash; the sample did not support it (below)", cell)],
-    [Paragraph("Peer-reviewed publications", cell), Paragraph("None to date", cell)],
+    [Paragraph("Peer-reviewed conference acceptance", cell), Paragraph("AIB-LAC 2027, interactive session (accepted Nov 2026)", cell)],
+    [Paragraph("Peer-reviewed journal publications", cell), Paragraph("None to date", cell)],
     [Paragraph("The AI extension (L1&ndash;L3)", cell), Paragraph("Argued, not tested &mdash; no findings exist", cell)],
 ], [usable * 0.55, usable * 0.45]))
 
@@ -184,8 +185,9 @@ for b in [
 
 flow.append(Paragraph("Current work", h3))
 for b in [
-    "<b>Feasibility manuscript &mdash; drafted, not submitted.</b> The prevalence finding written as a "
-    "methodological contribution for cross-national research on hard-to-reach professional populations.",
+    "<b>Feasibility paper &mdash; accepted, AIB-LAC 2027.</b> The prevalence finding written as a "
+    "methodological contribution for cross-national research on hard-to-reach professional populations "
+    "(see Conference Presentations).",
     "<b>Feasibility calculator &mdash; working.</b> Takes panel size, prevalence, eligibility and completion "
     "rates; returns reachable sample and cost per usable response; validated by reproducing the study that "
     "produced it. Its useful output is the threshold where a survey design stops being viable and an interview "
@@ -200,19 +202,19 @@ for b in [
 ]:
     flow.append(Paragraph(b, bullet, bulletText="•"))
 
+# ---- Conference presentations ----------------------------------------------------
+flow += section("CONFERENCE PRESENTATIONS")
+flow.append(Paragraph(
+    "Malik, Y. A. (2027). <i>Feasibility as a parameter: When comparative international research on narrow "
+    "specialist professional populations can and cannot be executed.</i> Accepted for presentation "
+    "(interactive session), Academy of International Business &ndash; Latin America &amp; Caribbean Chapter "
+    "(AIB-LAC) 2027 Conference, Puerto Rico. Peer reviewed; accepted November 2026.", bullet, bulletText="•"))
+flow.append(Paragraph("Developed in GEB 7365 under Prof. William Newburry, Ryder Eminent Scholar of Global "
+                      "Business, FIU.", sub))
+
 # ---- Teaching --------------------------------------------------------------------
-flow += section("TEACHING, TUTORING &amp; MENTORING")
-flow.append(Paragraph(
-    "[TO CONFIRM: Graduate Teaching Assistant &mdash; institution, department, course title(s) and number(s), "
-    "term(s), supervising faculty member, and duties (sections led, grading, office hours).]", todo))
-flow.append(Paragraph(
-    "[TO CONFIRM: SAAC Tutor &mdash; spell out the acronym, institution, subjects tutored, dates, and whether "
-    "one-to-one or group.]", todo))
-flow.append(entry("Guest lecturer, Florida International University", "ongoing"))
-flow.append(Paragraph("[TO CONFIRM: course(s), host faculty, topic(s) and date(s) of guest lectures.]", todo))
-flow.append(entry("Class visit, Rutgers University", "15 Sep 2026"))
-flow.append(Paragraph("[TO CONFIRM: campus, course, host, and whether this is a talk or an observation.]", todo))
-flow.append(entry("Mentor to 8+ internal auditors, Citi Internal Audit", "2021 &ndash; 2026"))
+flow += section("TEACHING &amp; MENTORING")
+flow.append(entry("Led and coached a team of 15 auditors, Citi Internal Audit", "2021 &ndash; 2026"))
 flow.append(Paragraph("Responsible AI adoption, prompt engineering, and ethical decision-making in human&ndash;AI "
                       "workflows; recognised with Citi's <i>Delivers with Pride</i> award.", bullet, bulletText="•"))
 flow.append(Paragraph("Teaching interests", h3))
@@ -254,9 +256,9 @@ for title, dates, where, line in [
 # ---- Industry practice -----------------------------------------------------------
 flow += section("INDUSTRY PRACTICE")
 flow.append(entry("Founder, Audit the Algorithm", "2024 &ndash; present"))
-flow.append(Paragraph("AI governance advisory for regulated financial services (auditingai.github.io): bias and "
+flow.append(Paragraph("AI governance advisory for regulated financial services: bias and "
                       "drift testing, regulator-defensible control frameworks, human&ndash;AI workflow design. "
-                      "Authored an AI governance framework referencing NIST AI RMF and SR 11-7.", bullet, bulletText="•"))
+                      "Authored an AI governance framework referencing NIST AI RMF and SR 26-2.", bullet, bulletText="•"))
 
 # ---- Research skills -------------------------------------------------------------
 flow += section("RESEARCH METHODS &amp; SKILLS")

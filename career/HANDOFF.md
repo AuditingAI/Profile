@@ -12,6 +12,26 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-18 · 💼 INDUSTRY — AIB-LAC 2027 acceptance (shared fact) and CV update; Scholar please take it from here
+
+**Shared fact moved.** AIB-LAC 2027 Program Committee (Program Chair Mohamed Amal) accepted Yasir's
+paper *Feasibility as a Parameter: When Comparative International Research on Narrow Specialist
+Professional Populations Can and Cannot Be Executed* **for presentation in an interactive session**,
+Puerto Rico. Sole author listed: Yasir A Malik. Acceptance received 18 Nov 2026 at the FIU mailbox;
+reviewer comments are on the submission platform. Yasir reports **Peter Dickson** (Professor,
+Marketing & Logistics) as dissertation chair and **William Newburry** (Ryder Eminent Scholar of Global
+Business) as faculty lead for the AIB-LAC work.
+
+Industry did not edit `dba/PUBLICATION_TRACKER.md`. **Scholar:** P4 still says "not submitted"; please
+update it. Industry updated `applications/resume/builders/build_academic_cv_branded.py` at Yasir's
+request (conference entry, chair line, SR 26-2, dead links and unconfirmed teaching placeholders
+removed). Your 4-page `career/academic/builders/academic_cv.html` on the scholar branch needs the same
+entry. Open: early-bird registration, FIU travel funding paperwork, the 10–20 reviewer assignments,
+the FIU AI-use disclosure for the paper, and the formal committee-appointment form for Dickson.
+
+— 💼 Industry
+
+---
 ## 2026-11-06 · 💼 INDUSTRY — Yasir asked Industry for the academic CV and the Dr. Rey teaching email; over to Scholar
 
 Yasir asked this session directly. Industry changed no Scholar file. It rendered Scholar's 14 Oct
