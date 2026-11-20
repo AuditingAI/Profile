@@ -12,13 +12,13 @@
 ## Not done yet
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 1 | Read and save the reviewers' comments | Yasir pastes, Codex saves | **Blocked:** the Reviews page shows Error 8192 (navigationmenu.php) in Safari and Chrome. Retry the week of 23 Nov |
+| 1 | Read and save the reviewers' comments | Yasir pastes, Claude saves | **Done 20 Nov.** Verbatim in Notion (private); paraphrased plan in `RESULTS/REVIEWS_ID69_RESPONSE_PLAN.md` |
 | 2 | Decision email from the program chair (check the FIU mailbox) | Yasir | Not seen |
 | 3 | Registration (early-bird window reported as 15 Nov 2026 to 30 Jan 2027) | Yasir | Not started [CHECK dates and fee] |
 | 4 | Funding: UGS travel funding (about $500, per Newburry) is the realistic route; consortium stipend unlikely | Yasir + Claude drafts | Procedure unknown; ask at Newburry's post-Thanksgiving meeting |
 | 5 | Tell Prof. Newburry and Dr. Rey | Yasir sends; draft in `05` | Newburry: done 18 Nov. Rey: not sent |
 | 6 | Literature deep search for the revision | Gemini | Brief ready (`03`) |
-| 7 | Response-to-reviewers table and revised paper | Codex builds, Yasir writes | Waiting on item 1 |
+| 7 | Response-to-reviewers table and revised paper | Codex builds, Yasir writes | Plan ready (6 quick wins, 13 substantive points); start after 10 Dec |
 | 8 | Unblinded final version, if the chapter asks for one | Codex | Waiting on the chair's instructions |
 | 9 | Interactive-session materials (format unknown) | Codex | Waiting on the chair's instructions |
 | 10 | Travel: San Juan, arrive 2 Mar, leave 6 Mar (Newburry's advice) | Yasir | Not booked |
@@ -31,4 +31,4 @@
 
 ## The one next action
 **Doctoral Consortium application, due Fri 20 Nov, 11:59 PM Central** (lac.aib.world call for papers; Newburry
-said apply). Then, the week of 23 Nov, retry the Reviews page.
+said apply). Reviews are in (20 Nov); the revision starts after coursework ends on 10 Dec.
