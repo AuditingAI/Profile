@@ -11,40 +11,42 @@ already in this repository; no GPA or completion year stated (CLAUDE.md §3).
 
 ---
 
-## Personal statement (draft, ~480 words)
+## Personal statement (draft v2, 20 Nov 2026, ~430 words)
 
-For fifteen years I worked inside the control systems of large banks: as a state bank examiner, in capital
-and controls at JPMorgan Chase, and most recently as Vice President and Audit Manager in Citi Internal Audit.
-At Citi I designed and deployed an AI assistant for audit review and wrote the governance framework proposal
-it ran under. That work left me with a question I could not answer from practice alone: when an AI tool
-reaches the same conclusion a professional already holds, does human review still work as a control?
+I spent my career inside the control systems of large banks: as a state bank examiner, in capital and controls at
+JPMorgan Chase, and most recently as Vice President and Audit Manager in Citi Internal Audit. At Citi I designed an
+AI assistant for audit review and wrote the governance proposal it would run under. That work left me with a
+question I could not answer from practice alone: when an AI system hands a professional a conclusion or a number,
+does the professional still reason from the evidence?
 
-That question is why I came back to FIU for the Doctor of Business Administration. My research examines how
-AI-assisted review shapes professional judgment in auditing: whether AI output becomes an anchor, whether a
-model that agrees with the reviewer weakens the challenge review is meant to provide, and whether judgments
-in recurring engagements drift toward each other rather than toward the evidence. Firms, banks and
-regulators are writing AI policies on the assumption that a competent human reviews the machine's output.
-My work tests that assumption from the inside.
+That question brought me back to FIU for the Doctor of Business Administration. My research examines how AI output
+shapes professional judgment: whether an AI estimate becomes an anchor, and whether people whose work is being
+automated reason differently about what AI can achieve. Governments, firms and regulators are adopting AI on the
+assumption that a competent professional checks its output. My work tests that assumption.
 
-The program has already changed how I work as a researcher. I passed the qualifying examination in July 2026.
-My qualifying study, a survey of experienced auditors, showed that the eligible population on a large
-commercial research panel was about six in every hundred thousand members. Rather than treat that as a
-failure, I turned it into a contribution: a paper on when research on narrow specialist populations can and
-cannot be carried out, now under review for the AIB Latin America and Caribbean Chapter Conference 2027.
-I am now designing a qualitative interview study of how auditors experience AI confirmation, built on what
-the survey taught me.
+The program has already changed how I work as a researcher. I passed the qualifying examination in July 2026. My
+qualifying study, a survey of experienced auditors, found that the eligible population on a large commercial
+research panel was about six in every hundred thousand members. Rather than treat that as a failure, I turned it
+into a contribution: a paper on when research on narrow specialist populations can and cannot be carried out. It
+has been accepted for presentation at the Academy of International Business Latin America and Caribbean Chapter
+conference in San Juan in March 2027. The reviewers singled out its central idea, that sampling feasibility should
+be treated as a design parameter rather than a limitation.
 
 I also try to give back to the FIU community. I served as Vice President of the Business Doctoral Student
-Association, and in September 2025 I gave an invited guest lecture to the International MBA on AI, culture
-and the political economy. I would like to keep bringing practitioners and students together around the
-responsible use of AI in business.
+Association, and in September 2025 I gave an invited guest lecture to the International MBA on AI, culture and the
+political economy. I want to keep bringing practitioners and students together around the responsible use of AI in
+business.
 
-I am self-funding my doctorate after leaving Citi, and I paid the costs of my qualifying-study data
-collection personally. This scholarship would support the next stage of my research, including interview
-transcription under FIU's data-protection and AI-use rules and conference travel to present the work.
+I am self-funding my doctorate, and I paid the costs of my qualifying-study data collection personally. This
+scholarship would support the next stage: recruiting the professionals my dissertation study needs, which my own
+research shows is the hardest and most expensive step, and travel to present the work in San Juan.
 
-My goal is to finish the DBA with research that is useful to the people who rely on audit and to the
+My goal is to finish the DBA with research that is useful to the professionals who rely on sound judgment and to the
 students I hope to teach. I am grateful to be considered.
+
+*Changes from v1: no career-length number; the AIB-LAC paper is accepted, not under review; the research is
+described at the level of the program, since the dissertation design is being finalized; "designed" rather than
+"designed and deployed" (Yasir to confirm which is accurate).*
 
 ---
 
@@ -70,7 +72,7 @@ Yasir Malik
 ---
 
 ## Checklist
-- [ ] Paste the AcademicWorks prompts here; fit the draft to each question and word limit
+- [ ] **20 Nov:** statement updated to v2 (four fixes). Next: paste the AcademicWorks prompts here; fit the draft to each question and word limit
 - [ ] Rewrite the statement in your own voice
 - [ ] Confirm whether a recommendation, CV or transcript is required
 - [ ] If a letter is required, ask Dr. Rey and/or Prof. Newburry by **Fri 6 Nov** (three weeks' notice)
