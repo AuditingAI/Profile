@@ -1,5 +1,11 @@
 # FIU DBA Program Scholarship · $5,000 · deadline Sun 29 Nov 2026
 
+> **NOT ELIGIBLE (checked 20 Nov 2026 on the AcademicWorks page):** "Individuals must have been recently admitted into
+> the DBA Program starting Spring 2027 (January) and not enrolled in classes. Neither applicants nor current,
+> enrolled, students are eligible." Do not apply. The statement below is kept as reusable material for other
+> applications.
+
+
 Application: fiu.academicworks.com/opportunities/22801 (FIU login). The prompts and word limits have not
 been read yet (the site is blocked from the AI session); adjust this draft to the actual questions.
 
