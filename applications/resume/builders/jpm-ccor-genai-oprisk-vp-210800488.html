@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+  THE ONE RÉSUMÉ (owner, 8 Oct 2026: "one that does the trick at all times"). Built from TEMPLATE.html. Read applications/resume/RESUME_FORMAT.md before touching this.
+  Every new résumé is a copy of this file with the {{SLOTS}} filled. Do not change the
+  header, the section order, the type sizes or the page margins per résumé; change them
+  here, once, and rebuild every builder that uses them.
+  Owner set this format on 7 Oct 2026. The signature block mirrors
+  assets/brand/reference-mark/Signature.dc.html.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasir A. Malik — Résumé</title>
+<style>
+  @page { size: Letter; margin: 0.34in 0.55in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.8pt; line-height: 1.22; color: #171A1D; }
+
+  /* ---- Signature header: mark, orange reference line, name, kicker, tagline, contact ---- */
+  .sig { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+  .sig svg { width: 44px; height: 44px; flex-shrink: 0; margin-top: 2px; }
+  .sig .block { border-left: 2px solid #1B365D; padding-left: 12px; }
+  /* letter-spacing on the name must stay <= 1.5px: above that Chromium breaks it into
+     spaced characters in the PDF text layer and an ATS cannot match "Yasir Malik". */
+  h1 { font-size: 17pt; line-height: 1.1; font-weight: bold; letter-spacing: 0; text-transform: uppercase; color: #171A1D; }
+  .kicker { font-family: Arial, Helvetica, sans-serif; font-size: 7.4pt; letter-spacing: 0.8px; text-transform: uppercase; color: #AD4317; margin-top: 3px; }
+  .tagline { font-size: 9.2pt; font-style: italic; color: #3E464E; margin-top: 4px; }
+  .contact { font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #5A646E; margin-top: 3px; }
+
+  /* ---- Sections: small-cap heads in the brand orange, no rule lines (ATS) ---- */
+  h2 { font-family: Arial, Helvetica, sans-serif; font-size: 8.2pt; letter-spacing: 0.9px; text-transform: uppercase; font-weight: bold; color: #AD4317; margin: 7px 0 3px; }
+  p, li { text-align: justify; }
+  ul { padding-left: 15px; margin-top: 2px; }
+  li { margin-bottom: 2px; }
+  b { color: #000; }
+
+  /* ---- Selected Results: three columns, no grid (ATS), numbers in the brand orange ---- */
+  table.results { width: 100%; border-collapse: collapse; margin-top: 3px; }
+  table.results td { padding: 2px 0; vertical-align: top; border: none; }
+  table.results td.n { width: 12%; font-weight: bold; white-space: nowrap; font-size: 9.8pt; color: #AD4317; }
+  table.results td.w { width: 19%; text-align: right; font-style: italic; font-size: 8.4pt; color: #5A646E; }
+
+  /* ---- Experience ---- */
+  .job { display: flex; justify-content: space-between; margin-top: 6px; align-items: baseline; }
+  .job b { font-size: 9.6pt; }
+  .sub { font-style: italic; font-size: 8.6pt; color: #5A646E; margin-top: 1px; }
+  .dates { white-space: nowrap; font-size: 8.8pt; color: #3E464E; }
+  .one { margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<div class="sig">
+  <svg viewBox="55 46 210 210" fill="none" role="img" aria-label="Audit the Algorithm">
+    <circle cx="149" cy="140" r="84" stroke="#1B365D" stroke-width="8.5" fill="none"/>
+    <line x1="212" y1="203" x2="253" y2="244" stroke="#1B365D" stroke-width="12" stroke-linecap="round"/>
+    <path d="M108.8 190.3 L149 98.1 L189.2 190.3" stroke="#E0662E" stroke-width="11" stroke-linejoin="miter" stroke-linecap="butt" fill="none"/>
+    <path d="M112.5 160.1 H214.3" stroke="#E0662E" stroke-width="11" stroke-linecap="butt"/>
+  </svg>
+  <div class="block">
+    <h1>Yasir A. Malik</h1>
+    <div class="kicker">Audit &middot; Risk &middot; Governance</div>
+    <div class="tagline">AI Risk Oversight &amp; Credible Challenge &nbsp;|&nbsp; Operational &amp; Technology Risk &nbsp;|&nbsp; Controls &amp; Audit</div>
+    <div class="contact">Newark, NJ &nbsp;&bull;&nbsp; YasirAMalik@gmail.com &nbsp;&bull;&nbsp; +1 (786) 704-8536 &nbsp;&bull;&nbsp; linkedin.com/in/yasiramalik</div>
+    <div class="contact">Profile: auditingai.github.io &nbsp;&bull;&nbsp; Code and materials: github.com/MalikAI-786</div>
+  </div>
+</div>
+
+<h2>Profile</h2>
+<p>Risk and controls leader who has seen AI and automation from all three lines and from the regulator&rsquo;s chair. As a Citi internal-audit Vice President he led audits across <b>15+ business units</b>, testing governance, data, technology and control design, and co-led <b>consent-order closure</b> work accepted by regulators. He wrote the <b>AI governance framework</b> for audit&rsquo;s own AI use (use-case intake, risk tiering, human oversight, monitoring) and built the review assistant that ran under it. Earlier a first-line <b>Risk Control Manager</b> at JPMorgan Chase (RCSA, KRIs, model controls) and a <b>bank examiner</b>. FIU doctoral research on <b>automation bias and over-reliance in AI-assisted review</b>: the failure modes this role is asked to catch.</p>
+
+<h2>Selected Results</h2>
+<table class="results">
+  <tr><td class="n">15+</td><td>Business units under risk-based, thematic, change and consent-order closure audits; closure evidence accepted by external regulators</td><td class="w">Citi Internal Audit</td></tr>
+  <tr><td class="n">~35%</td><td>Faster review from an AI assistant built with human review of every output, under the AI governance framework he wrote</td><td class="w">Citi Internal Audit</td></tr>
+  <tr><td class="n">$2.6T</td><td>Balance sheet under his first-line controls, CCAR forecast validation and model challenge; ~40% less manual review from automation</td><td class="w">JPMorgan Chase</td></tr>
+</table>
+
+<h2>Experience</h2>
+
+<div class="job"><b>Vice President, Audit Manager &mdash; Citi</b><span class="dates">Jul 2021 &ndash; Apr 2026</span></div>
+<div class="sub">Internal Audit &mdash; Cross-Enterprise Program &amp; Change Management &nbsp;|&nbsp; New York, NY</div>
+<ul>
+  <li>Led independent, risk-based audits across <b>15+ business units</b>, including thematic, change and programme audits, and co-led <b>consent-order closure</b> audits covering governance, controls, data integrity, technology and regulatory reporting; closure evidence <b>accepted by external regulators</b>; led <b>15 auditors</b> across New York, India and Canada; reported to the Board Audit Committee.</li>
+  <li><b>Challenged automation and technology-supported processes</b> owned by audited businesses: tested control design and operation over data quality and lineage, access, change management and reporting; raised findings, validated remediation and gave an overall opinion to senior management.</li>
+  <li>Wrote the <b>AI governance framework</b> for audit&rsquo;s own AI use against NIST AI RMF and model-risk guidance: use-case intake and risk tiering, control library, <b>human-in-the-loop</b> and output-validation requirements, and post-deployment monitoring; reviewed AI use cases against it.</li>
+  <li>Built a retrieval-augmented review assistant in Python and LangChain with explainability, <b>prompt-injection guardrails</b> and a person reviewing every output; trained auditors and wrote a reusable prompt library for planning, testing and reporting; ran <b>continuous monitoring</b> of coverage areas between audits.</li>
+</ul>
+
+<div class="job"><b>Risk Control Manager, Treasury &amp; CIO &mdash; JPMorgan Chase</b><span class="dates">Mar 2019 &ndash; Jun 2021</span></div>
+<div class="sub">First-Line Operational Risk and Model Controls &nbsp;|&nbsp; Jersey City, NJ</div>
+<ul>
+  <li>Performed the <b>RCSA</b> for Treasury and CIO in CORE and designed <b>KRIs and KPIs</b> for early warning; owned first-line controls over capital and liquidity; briefed Treasury and CIO risk forums.</li>
+  <li>Led CCAR forecast validation and model challenge over a <b>$2.6T</b> balance sheet; designed <b>model controls</b> for qualitative models and attestation of quantitative models, including overlays; automated reconciliations cut manual review ~40%.</li>
+</ul>
+
+<h2>Earlier Career</h2>
+<p class="one">Capital Controller, Basel Measurement &amp; Analytics &mdash; JPMorgan Chase (2017&ndash;2019) &nbsp;&bull;&nbsp; Program Manager, CIB Resolution &amp; Recovery Planning &mdash; JPMorgan Chase (2015&ndash;2017) &nbsp;&bull;&nbsp; Assistant Vice President, Global Legal Entity Management &mdash; Citi, Tampa, FL (2012&ndash;2015): 500+ data sources under lineage and quality controls, FR 2900 and TIC at 99.8% accuracy &nbsp;&bull;&nbsp; <b>Bank Examiner</b>, Bureau of Bank Regulation &mdash; Florida Office of Financial Regulation (2011&ndash;2012) &nbsp;&bull;&nbsp; Senior Business Analyst, Retail Credit Risk &mdash; Royal Bank of Scotland, Dubai (2008&ndash;2009)</p>
+
+<h2>Skills</h2>
+<p><b>Risk and controls:</b> three lines of defence &bull; RCSA &bull; KRIs &bull; control design and testing &bull; issue management and remediation validation &bull; consent orders and regulatory examinations &bull; senior-management and Board reporting<br>
+<b>AI risk and governance:</b> AI lifecycle governance (intake to decommissioning) &bull; NIST AI RMF &bull; EU AI Act &bull; ISO/IEC 42001 &bull; SR 26-2 model risk &bull; risk tiering &bull; human oversight and output validation &bull; automation bias and over-reliance<br>
+<b>Technology risk:</b> data quality and lineage &bull; access management &bull; change control &bull; prompt-injection and LLM guardrails &bull; monitoring and incident escalation<br>
+<b>Analytics and AI tools:</b> Python &bull; SQL &bull; LLMs and retrieval-augmented generation (LangChain) &bull; Claude Code &bull; Tableau &bull; Power BI &bull; Alteryx &bull; Excel (advanced)</p>
+
+<h2>Education, Research and Certifications</h2>
+<p><b>Doctor of Business Administration, Florida International University</b> &mdash; in progress; qualifying examination passed July 2026. Research on automation bias in AI-assisted professional judgment; paper accepted for AIB Latin America &amp; Caribbean 2027 (interactive session).<br>
+<b>MBA, Florida International University</b> (Financial Mathematics certification) &mdash; 2011 &nbsp;&bull;&nbsp; <b>B.Sc. (Hons), Banking &amp; Finance, London School of Economics</b> &mdash; 2005<br>
+<b>Certifications:</b> FDIC Bank Examiner I &nbsp;&bull;&nbsp; Registered Scrum Master &nbsp;&bull;&nbsp; In progress: CIA Part 1, IAPP AIGP</p>
+</body>
+</html>
