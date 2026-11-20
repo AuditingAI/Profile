@@ -1,17 +1,22 @@
-# State · AIB-LAC 2027, ID 69 · updated 14 Nov 2026
+# State · AIB-LAC 2027, ID 69 · updated 20 Nov 2026
 
 ## Done
 - 29 Sep 2026: submitted, blinded, Interactive session, Track 1.
 - 14 Nov 2026: **accepted for Interactive Session** (author system). Tracker and HANDOFF updated.
+- 18 Nov 2026: Prof. Newburry told of the acceptance (he asked first). His advice, 18 and 20 Nov: apply to the
+  Doctoral Consortium; the consortium stipend is unlikely for a US-based student (the chapter prioritises students
+  from the region); FIU's University Graduate School (UGS) has funded DBA students before, generally about $500;
+  he will call a meeting of FIU's accepted authors the week after Thanksgiving. The author system has upgrade
+  problems, so wait until the week of 23 Nov before contacting anyone about it.
 
 ## Not done yet
 | # | Item | Owner | Status |
 |---|---|---|---|
-| 1 | Read and save the reviewers' comments | Yasir pastes, Codex saves | **Next action** |
+| 1 | Read and save the reviewers' comments | Yasir pastes, Codex saves | **Blocked:** the Reviews page shows Error 8192 (navigationmenu.php) in Safari and Chrome. Retry the week of 23 Nov |
 | 2 | Decision email from the program chair (check the FIU mailbox) | Yasir | Not seen |
 | 3 | Registration (early-bird window reported as 15 Nov 2026 to 30 Jan 2027) | Yasir | Not started [CHECK dates and fee] |
-| 4 | Funding: chapter grant, doctoral consortium stipend, FIU travel support | Yasir + Claude drafts | Not started [CHECK] |
-| 5 | Tell Prof. Newburry and Dr. Rey | Yasir sends; draft in `05` | Not sent |
+| 4 | Funding: UGS travel funding (about $500, per Newburry) is the realistic route; consortium stipend unlikely | Yasir + Claude drafts | Procedure unknown; ask at Newburry's post-Thanksgiving meeting |
+| 5 | Tell Prof. Newburry and Dr. Rey | Yasir sends; draft in `05` | Newburry: done 18 Nov. Rey: not sent |
 | 6 | Literature deep search for the revision | Gemini | Brief ready (`03`) |
 | 7 | Response-to-reviewers table and revised paper | Codex builds, Yasir writes | Waiting on item 1 |
 | 8 | Unblinded final version, if the chapter asks for one | Codex | Waiting on the chair's instructions |
@@ -25,4 +30,5 @@
 - At least one author must register for an accepted paper to appear (same source).
 
 ## The one next action
-Yasir: click **Reviews** in the author system and paste the comments. Everything in phases 2 and 3 depends on them.
+**Doctoral Consortium application, due Fri 20 Nov, 11:59 PM Central** (lac.aib.world call for papers; Newburry
+said apply). Then, the week of 23 Nov, retry the Reviews page.
