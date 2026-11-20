@@ -52,7 +52,7 @@ described at the level of the program, since the dissertation design is being fi
 
 ## Recommendation request (send from ymali001@fiu.edu, only if a letter is required)
 
-Subject: Request for a short scholarship recommendation — FIU DBA Program Scholarship (due 29 Nov)
+Subject: Request for a short scholarship recommendation: FIU DBA Program Scholarship (due 29 Nov)
 
 Dear Dr. Rey, [or: Dear Professor Newburry,]
 
@@ -62,7 +62,7 @@ link to make it as easy as possible.
 
 [For Dr. Rey:] You supervised my qualifying study, and your view of how I handled the feasibility outcome
 would carry real weight.
-[For Prof. Newburry:] Your course shaped the AIB-LAC paper now under review, and you saw my work closely
+[For Prof. Newburry:] Your course shaped the AIB-LAC paper, now accepted for San Juan, and you saw my work closely
 this term.
 
 Thank you for considering it.
