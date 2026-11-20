@@ -14,6 +14,7 @@
 | 6 | Thu 19 Nov | Zoom | Diversity | post |
 | 7 | Thu 3 Dec | Zoom | Groups and teams | post; proposal draft due **Sun 6 Dec** |
 | 8 | Thu 10 Dec | Zoom | Proposal presentations (~10 min) | final proposal due **Sat 12 Dec 11:59 PM** |
+**19 Nov (Week 6, from the class recording, which stops at about 8 PM):** the four Diversity readings matched the 2025 list; Alex presented Harrison et al. (2002). No new dates or assignments announced in the recorded part.
 No class Thu 12 Nov or Thu 26 Nov. Zoom: https://fiu.zoom.us/j/86295207747 (passcode in the calendar invite).
 Discussion posts: syllabus says "by 8 AM of the day of class (Wednesdays/Saturdays)"; calendar reminders set for
 Wednesdays until clarified. Proposal: 9–11 pages, approval needed; no early idea submission in 2026.
