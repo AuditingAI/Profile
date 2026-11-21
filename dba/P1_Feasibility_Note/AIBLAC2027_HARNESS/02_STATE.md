@@ -9,6 +9,12 @@
   he will call a meeting of FIU's accepted authors the week after Thanksgiving. The author system has upgrade
   problems, so wait until the week of 23 Nov before contacting anyone about it.
 
+- 20 Nov 2026: **Doctoral Consortium application submitted** (Track 11), before the 11:59 PM Central deadline.
+  Title: "When AI Sets the Number: Anchoring on AI Estimates and the Feasibility of Studying Specialist Professionals
+  Across Countries." Decisions due 30 Nov. Acknowledgement email with a submission number should arrive within
+  24 hours; if not, write to the program chair (amal@furb.br). Dr. Rey asked for a supporting letter (ISACA and
+  consortium) the same evening.
+
 ## Not done yet
 | # | Item | Owner | Status |
 |---|---|---|---|
@@ -30,5 +36,4 @@
 - At least one author must register for an accepted paper to appear (same source).
 
 ## The one next action
-**Doctoral Consortium application, due Fri 20 Nov, 11:59 PM Central** (lac.aib.world call for papers; Newburry
-said apply). Reviews are in (20 Nov); the revision starts after coursework ends on 10 Dec.
+Doctoral Consortium submitted 20 Nov; watch for the acknowledgement email and the 30 Nov decision. Reviews are in (20 Nov); the revision starts after coursework ends on 10 Dec.
