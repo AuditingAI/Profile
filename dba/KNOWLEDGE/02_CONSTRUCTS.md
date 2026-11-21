@@ -45,7 +45,7 @@ eligibility screens and two attention checks. Source: `../Dissertation_Instrumen
 
 **Eight direct paths** (H1, H3, H5, H7, H9, H11, H13, H15) — each intervention reduces anchoring bias
 directly. **Eight mediated paths** (even numbers) — the six judgment-oriented interventions operate
-through **AJQ**, the cognitive pathway; the two structural interventions (RA, SAP) operate through
+through **AJQ**, the cognitive pathway; the two structural interventions (SAP, IR) operate through
 **APR**, the procedural pathway.
 
 **Status: fully argued in Chapter 3, none tested.** Not testable at the achieved sample of four.
