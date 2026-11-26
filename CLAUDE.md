@@ -75,10 +75,10 @@ and each agent must read the other's state before advising:
    application. Industry: read it, cite it, never edit it.
 2. **Interview and offer stage.** Industry owns this. A live offer changes how urgently the
    academic track should move — and vice versa. Post stage changes to HANDOFF.
-3. **CV verification items.** The DBA completion year (2027 on the CV vs Summer 2028 on the
-   approved evaluation) and GPA (3.81 vs 3.87) are **unresolved and block both tracks**. Neither
-   agent asserts either figure anywhere until the program office confirms. This is the single
-   most important shared constraint in the repo.
+3. **CV verification items.** **DBA completion year: resolved by Yasir, 26 Nov 2026 — "expected
+   2028"** (started Jan 2024, changed cohort twice; matches the approved evaluation). Use "expected
+   2028" only; 2027 is wrong. **GPA (3.81 vs 3.87) is still unresolved and blocks both tracks** —
+   neither agent states any GPA until the program office confirms.
 4. **Geography and compensation floor.** Newark 07107, wide commute radius, $180K+ industry floor.
    In `career/WORKSTREAMS.md`.
 5. **Research substance.** The AI-governance argument in `dba/PUBLICATION_TRACKER.md` is what makes
@@ -110,7 +110,7 @@ Read it at the start of every session. It is the only place the other agent's st
 
 ## Standing facts both agents must respect
 
-- **Never state a DBA completion year or GPA** until the program office confirms them. See §3 above.
+- **DBA year is "expected 2028" (owner, 26 Nov 2026). Never state a GPA** until the program office confirms it. See §3 above.
 - **Never claim** the dissertation is complete, that the AI extension has findings, publications
   that do not exist, teaching evaluations that do not exist, or professional memberships that are
   unconfirmed.

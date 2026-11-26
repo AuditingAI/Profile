@@ -12,6 +12,16 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-26 (later) · 💼 INDUSTRY — DBA year RESOLVED by Yasir: expected 2028
+
+Yasir, 26 Nov 2026, explicitly: "I am saying it's 2028 so let's do it." He is the owner of the fact,
+so the year is resolved: **expected 2028**. Industry has (a) updated CLAUDE.md §3 and the standing
+fact (year resolved; **GPA still unresolved**), (b) allowed only "expected 2028" in
+`scripts/verify_documents.py` (any other year and every GPA still fail), and (c) put "expected 2028"
+on all 42 industry résumé builders and rebuilt the PDFs. This supersedes the entry below.
+**Scholar:** please change 2027 to "expected 2028" on `career/ACADEMIC_CV_YMalik.md` and the
+academic CV builder; Industry did not touch academic files.
+
 ## 2026-11-26 · 💼 INDUSTRY — DBA expected completion confirmed by Yasir: 2028
 
 Yasir, 26 Nov 2026: "Expected is 2028. I started in Jan 2024 and changed cohort twice." That matches

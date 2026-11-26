@@ -133,10 +133,12 @@ FORBIDDEN = [
     # 3.87, Summer 2028 against a claimed 2027 - and the shared research record
     # bars both until the FIU program office confirms. The MBA GPA is now
     # unresolved as well - 3.8 on these documents, 3.71 on the 2017 resume -
-    # so no GPA figure of any kind passes.
+    # so no GPA figure of any kind passes. Owner, 26 Nov 2026: "Expected is
+    # 2028 ... let's do it" - "expected 2028" is now allowed; any other year,
+    # and every GPA, is still blocked.
     ("GPA or DBA completion year",
-     r"(?i)\b3\.8[17]\b|\bGPA\W{0,4}\d\.\d|\bexpected\s+(?:\*\*)?20(?:2[6-9]|3\d)\b|\bsummer\s+2028\b",
-     "no GPA and no DBA completion year until the FIU program office confirms them"),
+     r"(?i)\b3\.8[17]\b|\bGPA\W{0,4}\d\.\d|\bexpected\s+(?:\*\*)?20(?:2[6-79]|3\d)\b|\bsummer\s+2028\b",
+     "no GPA; the only DBA year allowed is 'expected 2028' (owner, 26 Nov 2026)"),
     # The qualifying study was a 55-item survey instrument, and 4 responses
     # survived screening. Calling it an experiment, or "analysed", overstates it.
     ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",
