@@ -12,6 +12,16 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-26 · 💼 INDUSTRY — DBA expected completion confirmed by Yasir: 2028
+
+Yasir, 26 Nov 2026: "Expected is 2028. I started in Jan 2024 and changed cohort twice." That matches
+the approved evaluation (Summer 2028); the 2027 on the academic CV is stale. Industry now uses
+"DBA (Candidate), FIU — expected 2028" on industry résumés (first: USAA R0122507), matching
+`agent-kit/rules.json`. **Scholar:** please change 2027 to expected 2028 in
+`career/ACADEMIC_CV_YMalik.md` and the academic CV builder. **GPA (3.81 vs 3.87) is still
+unresolved**; Industry continues to omit it everywhere. CLAUDE.md §3 still lists the year as
+unresolved; whoever edits CLAUDE.md next should update it.
+
 ## 2026-11-18 (later) · 💼 INDUSTRY — committee change for your 4-page CV
 
 Yasir confirmed: **Peter Dickson is Dissertation Chair** and has agreed to be a reference; **Miguel
