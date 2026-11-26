@@ -77,8 +77,8 @@ and each agent must read the other's state before advising:
    academic track should move — and vice versa. Post stage changes to HANDOFF.
 3. **CV verification items.** **DBA completion year: resolved by Yasir, 26 Nov 2026 — "expected
    2028"** (started Jan 2024, changed cohort twice; matches the approved evaluation). Use "expected
-   2028" only; 2027 is wrong. **GPA (3.81 vs 3.87) is still unresolved and blocks both tracks** —
-   neither agent states any GPA until the program office confirms.
+   2028" only; 2027 is wrong. **DBA GPA: resolved by Yasir, 26 Nov 2026 — "3.8"**; use 3.8 only
+   (not 3.81 or 3.87). The MBA GPA is not stated.
 4. **Geography and compensation floor.** Newark 07107, wide commute radius, $180K+ industry floor.
    In `career/WORKSTREAMS.md`.
 5. **Research substance.** The AI-governance argument in `dba/PUBLICATION_TRACKER.md` is what makes
@@ -110,7 +110,7 @@ Read it at the start of every session. It is the only place the other agent's st
 
 ## Standing facts both agents must respect
 
-- **DBA year is "expected 2028" (owner, 26 Nov 2026). Never state a GPA** until the program office confirms it. See §3 above.
+- **DBA: "expected 2028", GPA 3.8 (owner, 26 Nov 2026).** No other year or GPA figure. See §3 above.
 - **Never claim** the dissertation is complete, that the AI extension has findings, publications
   that do not exist, teaching evaluations that do not exist, or professional memberships that are
   unconfirmed.

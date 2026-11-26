@@ -135,10 +135,11 @@ FORBIDDEN = [
     # unresolved as well - 3.8 on these documents, 3.71 on the 2017 resume -
     # so no GPA figure of any kind passes. Owner, 26 Nov 2026: "Expected is
     # 2028 ... let's do it" - "expected 2028" is now allowed; any other year,
-    # and every GPA, is still blocked.
+    # is still blocked. Owner, 26 Nov 2026: DBA GPA is 3.8 and goes on the
+    # resume - "GPA 3.8" passes; 3.81, 3.87 and any other GPA still fail.
     ("GPA or DBA completion year",
-     r"(?i)\b3\.8[17]\b|\bGPA\W{0,4}\d\.\d|\bexpected\s+(?:\*\*)?20(?:2[6-79]|3\d)\b|\bsummer\s+2028\b",
-     "no GPA; the only DBA year allowed is 'expected 2028' (owner, 26 Nov 2026)"),
+     r"(?i)\b3\.8[17]\b|\bGPA\W{0,4}(?!3\.8(?!\d))\d\.\d|\bexpected\s+(?:\*\*)?20(?:2[6-79]|3\d)\b|\bsummer\s+2028\b",
+     "only 'expected 2028' and DBA 'GPA 3.8' are allowed (owner, 26 Nov 2026)"),
     # The qualifying study was a 55-item survey instrument, and 4 responses
     # survived screening. Calling it an experiment, or "analysed", overstates it.
     ("qualifying study misdescribed", r"(?i)designed experiment|analy[sz]ed in \*?\*?SPSS",

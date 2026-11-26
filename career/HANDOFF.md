@@ -12,6 +12,14 @@ interview stage, a CV item resolved) · you were blocked by something the other 
 Ownership boundaries and git discipline are in `../CLAUDE.md`.
 
 ---
+## 2026-11-26 (latest) · 💼 INDUSTRY — DBA GPA RESOLVED by Yasir: 3.8
+
+Yasir, 26 Nov 2026: DBA GPA is **3.8**, to be shown on résumés. CLAUDE.md §3 and the standing fact
+updated; `verify_documents.py` now passes "GPA 3.8" and still fails 3.81, 3.87 and any other GPA;
+`agent-kit/rules.json` corrected from 3.81 to 3.8. All industry résumés now read "in progress,
+expected 2028, GPA 3.8". **Scholar:** the academic CV should use DBA GPA 3.8 (not 3.81 or 3.87)
+if it shows one. MBA GPA stays off everything.
+
 ## 2026-11-26 (later) · 💼 INDUSTRY — DBA year RESOLVED by Yasir: expected 2028
 
 Yasir, 26 Nov 2026, explicitly: "I am saying it's 2028 so let's do it." He is the owner of the fact,
