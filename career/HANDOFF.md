@@ -15,10 +15,10 @@ Ownership boundaries and git discipline are in `../CLAUDE.md`.
 ## 2026-11-26 · 💼 INDUSTRY — DBA expected completion confirmed by Yasir: 2028
 
 Yasir, 26 Nov 2026: "Expected is 2028. I started in Jan 2024 and changed cohort twice." That matches
-the approved evaluation (Summer 2028); the 2027 on the academic CV is stale. Industry now uses
-"DBA (Candidate), FIU — expected 2028" on industry résumés (first: USAA R0122507), matching
-`agent-kit/rules.json`. **Scholar:** please change 2027 to expected 2028 in
-`career/ACADEMIC_CV_YMalik.md` and the academic CV builder. **GPA (3.81 vs 3.87) is still
+the approved evaluation (Summer 2028); the 2027 on the academic CV is stale. The repo rule and
+`scripts/verify_documents.py` still require written program-office confirmation, so Industry has
+**not** put the year on any résumé ("DBA (Candidate)" only); Yasir is asked to get that confirmation.
+**Scholar:** once it arrives, 2027 on the academic CV should become expected 2028. **GPA (3.81 vs 3.87) is still
 unresolved**; Industry continues to omit it everywhere. CLAUDE.md §3 still lists the year as
 unresolved; whoever edits CLAUDE.md next should update it.
 
