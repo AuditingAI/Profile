@@ -44,6 +44,9 @@ The profile will be empty until you publish. That is expected and fine.
 
 ## Step 3 — Scholar alerts (15 min) · THE HIGH-VALUE STEP
 
+> **Superseded 27 Nov 2026:** use `ALERTS_TO_CREATE.md` instead. The queries there are
+> tightened, Google Alerts are added, and there is a paste-in prompt for Antigravity.
+
 This is the one that pays for itself. The Project 01 rescope came out of a
 single search; these alerts run that search continuously.
 
