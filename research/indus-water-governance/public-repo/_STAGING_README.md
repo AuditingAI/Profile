@@ -1,10 +1,9 @@
-# Staging copy of the public research repository
+# Superseded: the public repository is now the source of truth
 
-These files are the clean, shareable version of this project, intended for
-`github.com/MalikAI-786/indus-groundwater-institutions`. The session that built them could not
-create repositories, because the GitHub integration lacks that permission. Once the empty
-repository exists, these files are pushed there as its first commit. Edit them here until then.
+These files were pushed on 27 Nov 2026 as the first commit of
+https://github.com/MalikAI-786/indus-groundwater-institutions
 
-Deliberately left out of the public copy: the researcher profile in `FIELD-MAP.md`, the call
-preparation in `CANAL-DATA-LEADS.md`, the collaboration notes in `ROADMAP.md` and
+Edit the public repository, not this folder. This copy stays only as a record of what was
+published and of what was deliberately left out: the researcher profile in `FIELD-MAP.md`, the
+call preparation in `CANAL-DATA-LEADS.md`, the collaboration notes in `ROADMAP.md` and
 `projects/01`, and the alert and setup material.
