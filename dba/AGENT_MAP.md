@@ -167,6 +167,26 @@ An agent that does not know this will write something false.
 
 ---
 
+## 6b · The working team (set 27 Nov 2026, Yasir's instruction)
+
+Four tools, one owner each. **One official home:** FIU OneDrive `FIU/TODO/`. Every agent writes its
+output there (directly, or via the private Google Drive folder "Research Master Plan" for Codex to file).
+
+| Agent | Owns | Never does |
+|---|---|---|
+| **Claude Code** (this repo) | Planning, drafting, figures, citation checking, emails as Gmail drafts, Drive and Notion, the public repo. **Writes a Codex work order at the end of every planning session** | Touch OneDrive directly (no access); send anything |
+| **ChatGPT Codex** (Mac) | The filing clerk: reads and writes OneDrive, keeps the official copies, reconciles agents, uploads files to Drive when Claude needs them, reports what it finished | Write research arguments; merge conflicts silently; send mail |
+| **Gemini** (Guided Learning) | **Education only:** tutoring Yasir on course concepts and readings, practice questions, explaining methods | Draft graded work; receive any professor's teaching files (Dr. Gonzalez's rule); count as a source |
+| **Antigravity** | Google Scholar searches on the Mac browser, on request, by topic name | Read or write the paper; invent sources |
+| **NotebookLM** | Yasir's reading aid over sources he has chosen | Prove a source is real |
+
+**Handoff rule.** Every agent ends its session with a dated note: done, open, next owner. Claude reads
+Codex's notes before planning; Codex reads Claude's work order before filing. Searches are named by
+topic, never by G-number. Nothing is sent, submitted or applied for without Yasir's per-item approval.
+All AI use is disclosed per the FIU UGS policy.
+
+---
+
 ## 7 · Git discipline, non-negotiable
 
 ```bash

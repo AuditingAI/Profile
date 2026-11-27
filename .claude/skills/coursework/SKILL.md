@@ -160,3 +160,14 @@ what was done and what is left highlighted, then stop.
 
 Short. Tables for schedules. Bold the thing that will hurt if missed. One next action, named.
 No preamble, no restating the question, no reciting what was already established.
+
+## Team handoff — end every plan with these two blocks (standing request, 27 Nov 2026)
+
+Roles are in `dba/AGENT_MAP.md` §6b. After the plan itself, add:
+
+1. **Codex work order:** numbered, concrete filing or fetching tasks only (copy X to OneDrive
+   `FIU/TODO/<COURSE>/WORKING`, upload Y to the Drive folder "Research Master Plan", report back what was
+   done). Never ask Codex to write graded work or research arguments.
+2. **Gemini study prompt (Guided Learning):** one paste-ready prompt that teaches the concept behind
+   the next deliverable, using textbook concepts and Yasir's own work only. Never include a professor's
+   slides or Canvas files (Dr. Gonzalez's rule), and tell Gemini not to write the assignment.
