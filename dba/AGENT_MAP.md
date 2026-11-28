@@ -185,6 +185,11 @@ Codex's notes before planning; Codex reads Claude's work order before filing. Se
 topic, never by G-number. Nothing is sent, submitted or applied for without Yasir's per-item approval.
 All AI use is disclosed per the FIU UGS policy.
 
+**The harness (from 28 Nov 2026).** Each planning period gets a dated harness folder that Codex deploys
+into OneDrive: a README, a manifest (file, hash, destination), a runbook keyed to Yasir's calendar
+blocks, a status board and a done-note template. Claude writes it to the private Drive folder; Codex
+files it and keeps the status board current. The harness itself is private and never committed here.
+
 ---
 
 ## 7 · Git discipline, non-negotiable
